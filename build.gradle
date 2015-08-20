@@ -1,0 +1,38 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+repositories {
+    mavenCentral()
+}
+
+group = 'io.dstore'
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives sourcesJar
+    archives javadocJar
+}
+
+dependencies {
+    compile "io.grpc:grpc-stub:0.8.0"
+    compile "io.grpc:grpc-protobuf:0.8.0"
+    compile "io.grpc:grpc-auth:0.8.0"
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://build")
+        }
+    }
+}
+
