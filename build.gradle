@@ -1,5 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'signing'
 
 repositories {
     mavenCentral()
@@ -7,31 +8,63 @@ repositories {
 
 group = 'io.dstore'
 
+def stdout = new ByteArrayOutputStream()
+exec {
+    commandLine 'git', 'describe'
+    standardOutput = stdout
+}
+project.setProperty('version', stdout.toString().trim())
+
+
 task sourcesJar(type: Jar, dependsOn: classes) {
     classifier = 'sources'
     from sourceSets.main.allSource
 }
 
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
-    from javadoc.destinationDir
-}
-
 artifacts {
     archives sourcesJar
-    archives javadocJar
+}
+
+signing {
+    required { gradle.taskGraph.hasTask("uploadArchives") }
+    sign configurations.archives
 }
 
 dependencies {
     compile "io.grpc:grpc-stub:0.8.0"
     compile "io.grpc:grpc-protobuf:0.8.0"
     compile "io.grpc:grpc-auth:0.8.0"
+    compile "io.grpc:grpc-netty:0.8.0"
 }
 
 uploadArchives {
     repositories {
         mavenDeployer {
+
+            beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+
             repository(url: "file://build")
+
+            /*
+            http://yennicktrevels.com/blog/2013/10/11/automated-gradle-project-deployment-to-sonatype-oss-repository/
+            repository(url: "https://oss.sonatype.org/service/local/staging/deploy/maven2/") {
+                authentication(userName: sonatypeUsername, password: sonatypePassword)
+            }*/
+
+            pom.project {
+                name rootProject
+                packaging 'jar'
+                description 'Java SDK for dStore Application Backend '
+                url 'https://github.com/dstore-dbap/dstore-sdk-java'
+
+                scm {
+                    url 'scm:git@github.com:dstore-dbap/dstore-sdk-java.git'
+                    connection 'scm:git@github.com:dstore-dbap/dstore-sdk-java.git'
+                    developerConnection 'scm:git@github.com:dstore-dbap/dstore-sdk-java.git'
+                }
+
+            }
+
         }
     }
 }
