@@ -21,6 +21,8 @@ task sourcesJar(type: Jar, dependsOn: classes) {
     from sourceSets.main.allSource
 }
 
+tasks.javadoc.excludes = ['**/procs/**']
+
 task javadocJar(type: Jar, dependsOn: javadoc) {
     classifier = 'javadoc'
     from tasks.javadoc.destinationDir
@@ -56,7 +58,7 @@ uploadArchives {
             }
 
             pom.project {
-                name rootProject
+                name 'dstore-sdk-java'
                 packaging 'jar'
                 description 'Java SDK for dStore Application Backend '
                 url 'https://github.com/dstore-dbap/dstore-sdk-java'
