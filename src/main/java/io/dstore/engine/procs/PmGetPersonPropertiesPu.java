@@ -67,17 +67,17 @@ public final class PmGetPersonPropertiesPu {
     boolean getInputParameterNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+     * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
      */
     boolean hasInputIsUniqueId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+     * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
      */
-    io.dstore.engine.Values.booleanValue getInputIsUniqueId();
+    io.dstore.engine.Values.integerValue getInputIsUniqueId();
     /**
-     * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+     * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getInputIsUniqueIdOrBuilder();
+    io.dstore.engine.Values.integerValueOrBuilder getInputIsUniqueIdOrBuilder();
 
     /**
      * <code>optional bool input_is_unique_id_null = 1004;</code>
@@ -227,6 +227,24 @@ public final class PmGetPersonPropertiesPu {
      * <code>optional bool get_actual_properties_null = 1012;</code>
      */
     boolean getGetActualPropertiesNull();
+
+    /**
+     * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+     */
+    boolean hasSeparatorForIdentVals();
+    /**
+     * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+     */
+    io.dstore.engine.Values.stringValue getSeparatorForIdentVals();
+    /**
+     * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+     */
+    io.dstore.engine.Values.stringValueOrBuilder getSeparatorForIdentValsOrBuilder();
+
+    /**
+     * <code>optional bool separator_for_ident_vals_null = 1013;</code>
+     */
+    boolean getSeparatorForIdentValsNull();
   }
   /**
    * Protobuf type {@code dstore.engine.pm_GetPersonProperties_Pu.Parameters}
@@ -252,6 +270,7 @@ public final class PmGetPersonPropertiesPu {
       personIdNull_ = false;
       dateAndTimeNull_ = false;
       getActualPropertiesNull_ = false;
+      separatorForIdentValsNull_ = false;
     }
 
     @java.lang.Override
@@ -318,11 +337,11 @@ public final class PmGetPersonPropertiesPu {
               break;
             }
             case 34: {
-              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
               if (inputIsUniqueId_ != null) {
                 subBuilder = inputIsUniqueId_.toBuilder();
               }
-              inputIsUniqueId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              inputIsUniqueId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(inputIsUniqueId_);
                 inputIsUniqueId_ = subBuilder.buildPartial();
@@ -434,6 +453,19 @@ public final class PmGetPersonPropertiesPu {
 
               break;
             }
+            case 106: {
+              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              if (separatorForIdentVals_ != null) {
+                subBuilder = separatorForIdentVals_.toBuilder();
+              }
+              separatorForIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(separatorForIdentVals_);
+                separatorForIdentVals_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               sortedResultNull_ = input.readBool();
@@ -492,6 +524,11 @@ public final class PmGetPersonPropertiesPu {
             case 8096: {
 
               getActualPropertiesNull_ = input.readBool();
+              break;
+            }
+            case 8104: {
+
+              separatorForIdentValsNull_ = input.readBool();
               break;
             }
           }
@@ -609,23 +646,23 @@ public final class PmGetPersonPropertiesPu {
     }
 
     public static final int INPUT_IS_UNIQUE_ID_FIELD_NUMBER = 4;
-    private io.dstore.engine.Values.booleanValue inputIsUniqueId_;
+    private io.dstore.engine.Values.integerValue inputIsUniqueId_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+     * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
      */
     public boolean hasInputIsUniqueId() {
       return inputIsUniqueId_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+     * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValue getInputIsUniqueId() {
-      return inputIsUniqueId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : inputIsUniqueId_;
+    public io.dstore.engine.Values.integerValue getInputIsUniqueId() {
+      return inputIsUniqueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : inputIsUniqueId_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+     * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getInputIsUniqueIdOrBuilder() {
+    public io.dstore.engine.Values.integerValueOrBuilder getInputIsUniqueIdOrBuilder() {
       return getInputIsUniqueId();
     }
 
@@ -878,6 +915,36 @@ public final class PmGetPersonPropertiesPu {
       return getActualPropertiesNull_;
     }
 
+    public static final int SEPARATOR_FOR_IDENT_VALS_FIELD_NUMBER = 13;
+    private io.dstore.engine.Values.stringValue separatorForIdentVals_;
+    /**
+     * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+     */
+    public boolean hasSeparatorForIdentVals() {
+      return separatorForIdentVals_ != null;
+    }
+    /**
+     * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+     */
+    public io.dstore.engine.Values.stringValue getSeparatorForIdentVals() {
+      return separatorForIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorForIdentVals_;
+    }
+    /**
+     * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+     */
+    public io.dstore.engine.Values.stringValueOrBuilder getSeparatorForIdentValsOrBuilder() {
+      return getSeparatorForIdentVals();
+    }
+
+    public static final int SEPARATOR_FOR_IDENT_VALS_NULL_FIELD_NUMBER = 1013;
+    private boolean separatorForIdentValsNull_;
+    /**
+     * <code>optional bool separator_for_ident_vals_null = 1013;</code>
+     */
+    public boolean getSeparatorForIdentValsNull() {
+      return separatorForIdentValsNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -926,6 +993,9 @@ public final class PmGetPersonPropertiesPu {
       if (getActualProperties_ != null) {
         output.writeMessage(12, getGetActualProperties());
       }
+      if (separatorForIdentVals_ != null) {
+        output.writeMessage(13, getSeparatorForIdentVals());
+      }
       if (sortedResultNull_ != false) {
         output.writeBool(1001, sortedResultNull_);
       }
@@ -961,6 +1031,9 @@ public final class PmGetPersonPropertiesPu {
       }
       if (getActualPropertiesNull_ != false) {
         output.writeBool(1012, getActualPropertiesNull_);
+      }
+      if (separatorForIdentValsNull_ != false) {
+        output.writeBool(1013, separatorForIdentValsNull_);
       }
     }
 
@@ -1018,6 +1091,10 @@ public final class PmGetPersonPropertiesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(12, getGetActualProperties());
       }
+      if (separatorForIdentVals_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, getSeparatorForIdentVals());
+      }
       if (sortedResultNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, sortedResultNull_);
@@ -1065,6 +1142,10 @@ public final class PmGetPersonPropertiesPu {
       if (getActualPropertiesNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1012, getActualPropertiesNull_);
+      }
+      if (separatorForIdentValsNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1013, separatorForIdentValsNull_);
       }
       memoizedSerializedSize = size;
       return size;
@@ -1273,6 +1354,14 @@ public final class PmGetPersonPropertiesPu {
         }
         getActualPropertiesNull_ = false;
 
+        if (separatorForIdentValsBuilder_ == null) {
+          separatorForIdentVals_ = null;
+        } else {
+          separatorForIdentVals_ = null;
+          separatorForIdentValsBuilder_ = null;
+        }
+        separatorForIdentValsNull_ = false;
+
         return this;
       }
 
@@ -1367,6 +1456,12 @@ public final class PmGetPersonPropertiesPu {
           result.getActualProperties_ = getActualPropertiesBuilder_.build();
         }
         result.getActualPropertiesNull_ = getActualPropertiesNull_;
+        if (separatorForIdentValsBuilder_ == null) {
+          result.separatorForIdentVals_ = separatorForIdentVals_;
+        } else {
+          result.separatorForIdentVals_ = separatorForIdentValsBuilder_.build();
+        }
+        result.separatorForIdentValsNull_ = separatorForIdentValsNull_;
         onBuilt();
         return result;
       }
@@ -1453,6 +1548,12 @@ public final class PmGetPersonPropertiesPu {
         }
         if (other.getGetActualPropertiesNull() != false) {
           setGetActualPropertiesNull(other.getGetActualPropertiesNull());
+        }
+        if (other.hasSeparatorForIdentVals()) {
+          mergeSeparatorForIdentVals(other.getSeparatorForIdentVals());
+        }
+        if (other.getSeparatorForIdentValsNull() != false) {
+          setSeparatorForIdentValsNull(other.getSeparatorForIdentValsNull());
         }
         onChanged();
         return this;
@@ -1909,29 +2010,29 @@ public final class PmGetPersonPropertiesPu {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue inputIsUniqueId_ = null;
+      private io.dstore.engine.Values.integerValue inputIsUniqueId_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> inputIsUniqueIdBuilder_;
+          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> inputIsUniqueIdBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+       * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
        */
       public boolean hasInputIsUniqueId() {
         return inputIsUniqueIdBuilder_ != null || inputIsUniqueId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+       * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue getInputIsUniqueId() {
+      public io.dstore.engine.Values.integerValue getInputIsUniqueId() {
         if (inputIsUniqueIdBuilder_ == null) {
-          return inputIsUniqueId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : inputIsUniqueId_;
+          return inputIsUniqueId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : inputIsUniqueId_;
         } else {
           return inputIsUniqueIdBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+       * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
        */
-      public Builder setInputIsUniqueId(io.dstore.engine.Values.booleanValue value) {
+      public Builder setInputIsUniqueId(io.dstore.engine.Values.integerValue value) {
         if (inputIsUniqueIdBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -1945,10 +2046,10 @@ public final class PmGetPersonPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+       * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
        */
       public Builder setInputIsUniqueId(
-          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          io.dstore.engine.Values.integerValue.Builder builderForValue) {
         if (inputIsUniqueIdBuilder_ == null) {
           inputIsUniqueId_ = builderForValue.build();
           onChanged();
@@ -1959,13 +2060,13 @@ public final class PmGetPersonPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+       * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
        */
-      public Builder mergeInputIsUniqueId(io.dstore.engine.Values.booleanValue value) {
+      public Builder mergeInputIsUniqueId(io.dstore.engine.Values.integerValue value) {
         if (inputIsUniqueIdBuilder_ == null) {
           if (inputIsUniqueId_ != null) {
             inputIsUniqueId_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(inputIsUniqueId_).mergeFrom(value).buildPartial();
+              io.dstore.engine.Values.integerValue.newBuilder(inputIsUniqueId_).mergeFrom(value).buildPartial();
           } else {
             inputIsUniqueId_ = value;
           }
@@ -1977,7 +2078,7 @@ public final class PmGetPersonPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+       * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
        */
       public Builder clearInputIsUniqueId() {
         if (inputIsUniqueIdBuilder_ == null) {
@@ -1991,33 +2092,33 @@ public final class PmGetPersonPropertiesPu {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+       * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getInputIsUniqueIdBuilder() {
+      public io.dstore.engine.Values.integerValue.Builder getInputIsUniqueIdBuilder() {
         
         onChanged();
         return getInputIsUniqueIdFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+       * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getInputIsUniqueIdOrBuilder() {
+      public io.dstore.engine.Values.integerValueOrBuilder getInputIsUniqueIdOrBuilder() {
         if (inputIsUniqueIdBuilder_ != null) {
           return inputIsUniqueIdBuilder_.getMessageOrBuilder();
         } else {
           return inputIsUniqueId_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : inputIsUniqueId_;
+              io.dstore.engine.Values.integerValue.getDefaultInstance() : inputIsUniqueId_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue input_is_unique_id = 4;</code>
+       * <code>optional .dstore.engine.values.integerValue input_is_unique_id = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
           getInputIsUniqueIdFieldBuilder() {
         if (inputIsUniqueIdBuilder_ == null) {
           inputIsUniqueIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
                   getInputIsUniqueId(),
                   getParentForChildren(),
                   isClean());
@@ -3192,6 +3293,149 @@ public final class PmGetPersonPropertiesPu {
       public Builder clearGetActualPropertiesNull() {
         
         getActualPropertiesNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.engine.Values.stringValue separatorForIdentVals_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> separatorForIdentValsBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+       */
+      public boolean hasSeparatorForIdentVals() {
+        return separatorForIdentValsBuilder_ != null || separatorForIdentVals_ != null;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+       */
+      public io.dstore.engine.Values.stringValue getSeparatorForIdentVals() {
+        if (separatorForIdentValsBuilder_ == null) {
+          return separatorForIdentVals_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorForIdentVals_;
+        } else {
+          return separatorForIdentValsBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+       */
+      public Builder setSeparatorForIdentVals(io.dstore.engine.Values.stringValue value) {
+        if (separatorForIdentValsBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          separatorForIdentVals_ = value;
+          onChanged();
+        } else {
+          separatorForIdentValsBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+       */
+      public Builder setSeparatorForIdentVals(
+          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+        if (separatorForIdentValsBuilder_ == null) {
+          separatorForIdentVals_ = builderForValue.build();
+          onChanged();
+        } else {
+          separatorForIdentValsBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+       */
+      public Builder mergeSeparatorForIdentVals(io.dstore.engine.Values.stringValue value) {
+        if (separatorForIdentValsBuilder_ == null) {
+          if (separatorForIdentVals_ != null) {
+            separatorForIdentVals_ =
+              io.dstore.engine.Values.stringValue.newBuilder(separatorForIdentVals_).mergeFrom(value).buildPartial();
+          } else {
+            separatorForIdentVals_ = value;
+          }
+          onChanged();
+        } else {
+          separatorForIdentValsBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+       */
+      public Builder clearSeparatorForIdentVals() {
+        if (separatorForIdentValsBuilder_ == null) {
+          separatorForIdentVals_ = null;
+          onChanged();
+        } else {
+          separatorForIdentVals_ = null;
+          separatorForIdentValsBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+       */
+      public io.dstore.engine.Values.stringValue.Builder getSeparatorForIdentValsBuilder() {
+        
+        onChanged();
+        return getSeparatorForIdentValsFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+       */
+      public io.dstore.engine.Values.stringValueOrBuilder getSeparatorForIdentValsOrBuilder() {
+        if (separatorForIdentValsBuilder_ != null) {
+          return separatorForIdentValsBuilder_.getMessageOrBuilder();
+        } else {
+          return separatorForIdentVals_ == null ?
+              io.dstore.engine.Values.stringValue.getDefaultInstance() : separatorForIdentVals_;
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue separator_for_ident_vals = 13;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          getSeparatorForIdentValsFieldBuilder() {
+        if (separatorForIdentValsBuilder_ == null) {
+          separatorForIdentValsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                  getSeparatorForIdentVals(),
+                  getParentForChildren(),
+                  isClean());
+          separatorForIdentVals_ = null;
+        }
+        return separatorForIdentValsBuilder_;
+      }
+
+      private boolean separatorForIdentValsNull_ ;
+      /**
+       * <code>optional bool separator_for_ident_vals_null = 1013;</code>
+       */
+      public boolean getSeparatorForIdentValsNull() {
+        return separatorForIdentValsNull_;
+      }
+      /**
+       * <code>optional bool separator_for_ident_vals_null = 1013;</code>
+       */
+      public Builder setSeparatorForIdentValsNull(boolean value) {
+        
+        separatorForIdentValsNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool separator_for_ident_vals_null = 1013;</code>
+       */
+      public Builder clearSeparatorForIdentValsNull() {
+        
+        separatorForIdentValsNull_ = false;
         onChanged();
         return this;
       }
@@ -8916,7 +9160,7 @@ public final class PmGetPersonPropertiesPu {
       "roperties_Pu.proto\022\'dstore.engine.pm_Get" +
       "PersonProperties_Pu\032\032dstore/engine/value" +
       "s.proto\032\031dstore/engine/error.proto\032\033dsto" +
-      "re/engine/message.proto\"\367\010\n\nParameters\0229" +
+      "re/engine/message.proto\"\344\t\n\nParameters\0229" +
       "\n\rsorted_result\030\001 \001(\0132\".dstore.engine.va" +
       "lues.booleanValue\022\033\n\022sorted_result_null\030" +
       "\351\007 \001(\010\022M\n!include_person_charac_category" +
@@ -8925,8 +9169,8 @@ public final class PmGetPersonPropertiesPu {
       "id_null\030\352\007 \001(\010\022:\n\017input_parameter\030\003 \001(\0132" +
       "!.dstore.engine.values.stringValue\022\035\n\024in" +
       "put_parameter_null\030\353\007 \001(\010\022>\n\022input_is_un" +
-      "ique_id\030\004 \001(\0132\".dstore.engine.values.boo" +
-      "leanValue\022 \n\027input_is_unique_id_null\030\354\007 " +
+      "ique_id\030\004 \001(\0132\".dstore.engine.values.int" +
+      "egerValue\022 \n\027input_is_unique_id_null\030\354\007 " +
       "\001(\010\022:\n\016person_type_id\030\005 \001(\0132\".dstore.eng" +
       "ine.values.integerValue\022\034\n\023person_type_i" +
       "d_null\030\355\007 \001(\010\0227\n\013language_id\030\006 \001(\0132\".dst" +
@@ -8945,37 +9189,40 @@ public final class PmGetPersonPropertiesPu {
       "date_and_time_null\030\363\007 \001(\010\022A\n\025get_actual_" +
       "properties\030\014 \001(\0132\".dstore.engine.values." +
       "booleanValue\022#\n\032get_actual_properties_nu" +
-      "ll\030\364\007 \001(\010\"\230\t\n\010Response\022)\n\005error\030\001 \001(\0132\032." +
-      "dstore.engine.error.Error\022/\n\007message\030\003 \003" +
-      "(\0132\036.dstore.engine.message.Message\022B\n\003ro" +
-      "w\030\004 \003(\01325.dstore.engine.pm_GetPersonProp" +
-      "erties_Pu.Response.Row\032\353\007\n\003Row\022\017\n\006row_id" +
-      "\030\220N \001(\005\022G\n\033value_restricted_by_pattern\030\221" +
-      "N \001(\0132!.dstore.engine.values.stringValue",
-      "\022F\n\032characteristic_description\030\222N \001(\0132!." +
-      "dstore.engine.values.stringValue\022:\n\rfiel" +
-      "d_type_id\030\223N \001(\0132\".dstore.engine.values." +
-      "integerValue\022>\n\021characteristic_id\030\224N \001(\013" +
-      "2\".dstore.engine.values.integerValue\0225\n\010" +
-      "value_id\030\225N \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\0223\n\006modify\030\226N \001(\0132\".dstore.en" +
-      "gine.values.integerValue\0227\n\nmax_length\030\227" +
+      "ll\030\364\007 \001(\010\022C\n\030separator_for_ident_vals\030\r " +
+      "\001(\0132!.dstore.engine.values.stringValue\022&" +
+      "\n\035separator_for_ident_vals_null\030\365\007 \001(\010\"\230" +
+      "\t\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engi" +
+      "ne.error.Error\022/\n\007message\030\003 \003(\0132\036.dstore" +
+      ".engine.message.Message\022B\n\003row\030\004 \003(\01325.d" +
+      "store.engine.pm_GetPersonProperties_Pu.R",
+      "esponse.Row\032\353\007\n\003Row\022\017\n\006row_id\030\220N \001(\005\022G\n\033" +
+      "value_restricted_by_pattern\030\221N \001(\0132!.dst" +
+      "ore.engine.values.stringValue\022F\n\032charact" +
+      "eristic_description\030\222N \001(\0132!.dstore.engi" +
+      "ne.values.stringValue\022:\n\rfield_type_id\030\223" +
       "N \001(\0132\".dstore.engine.values.integerValu" +
-      "e\022>\n\021predefined_values\030\230N \001(\0132\".dstore.e",
-      "ngine.values.booleanValue\022F\n\031person_char" +
-      "ac_category_id\030\231N \001(\0132\".dstore.engine.va" +
-      "lues.integerValue\022K\n\037read_access_restric" +
-      "tion_pattern\030\232N \001(\0132!.dstore.engine.valu" +
-      "es.stringValue\0226\n\tperson_id\030\233N \001(\0132\".dst" +
-      "ore.engine.values.integerValue\0225\n\010requir" +
-      "ed\030\234N \001(\0132\".dstore.engine.values.boolean" +
-      "Value\0228\n\014actual_value\030\235N \001(\0132!.dstore.en" +
-      "gine.values.stringValue\0221\n\005value\030\236N \001(\0132" +
-      "!.dstore.engine.values.stringValue\0224\n\007vi",
-      "sible\030\237N \001(\0132\".dstore.engine.values.bool" +
-      "eanValue\022:\n\013last_edited\030\240N \001(\0132$.dstore." +
-      "engine.values.timestampValueB\030\n\026io.dstor" +
-      "e.engine.procsb\006proto3"
+      "e\022>\n\021characteristic_id\030\224N \001(\0132\".dstore.e" +
+      "ngine.values.integerValue\0225\n\010value_id\030\225N" +
+      " \001(\0132\".dstore.engine.values.integerValue" +
+      "\0223\n\006modify\030\226N \001(\0132\".dstore.engine.values",
+      ".integerValue\0227\n\nmax_length\030\227N \001(\0132\".dst" +
+      "ore.engine.values.integerValue\022>\n\021predef" +
+      "ined_values\030\230N \001(\0132\".dstore.engine.value" +
+      "s.booleanValue\022F\n\031person_charac_category" +
+      "_id\030\231N \001(\0132\".dstore.engine.values.intege" +
+      "rValue\022K\n\037read_access_restriction_patter" +
+      "n\030\232N \001(\0132!.dstore.engine.values.stringVa" +
+      "lue\0226\n\tperson_id\030\233N \001(\0132\".dstore.engine." +
+      "values.integerValue\0225\n\010required\030\234N \001(\0132\"" +
+      ".dstore.engine.values.booleanValue\0228\n\014ac",
+      "tual_value\030\235N \001(\0132!.dstore.engine.values" +
+      ".stringValue\0221\n\005value\030\236N \001(\0132!.dstore.en" +
+      "gine.values.stringValue\0224\n\007visible\030\237N \001(" +
+      "\0132\".dstore.engine.values.booleanValue\022:\n" +
+      "\013last_edited\030\240N \001(\0132$.dstore.engine.valu" +
+      "es.timestampValueB\030\n\026io.dstore.engine.pr" +
+      "ocsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8997,7 +9244,7 @@ public final class PmGetPersonPropertiesPu {
     internal_static_dstore_engine_pm_GetPersonProperties_Pu_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_GetPersonProperties_Pu_Parameters_descriptor,
-        new java.lang.String[] { "SortedResult", "SortedResultNull", "IncludePersonCharacCategoryId", "IncludePersonCharacCategoryIdNull", "InputParameter", "InputParameterNull", "InputIsUniqueId", "InputIsUniqueIdNull", "PersonTypeId", "PersonTypeIdNull", "LanguageId", "LanguageIdNull", "CharacteristicIdList", "CharacteristicIdListNull", "DateFormat", "DateFormatNull", "CaseSensitive", "CaseSensitiveNull", "PersonId", "PersonIdNull", "DateAndTime", "DateAndTimeNull", "GetActualProperties", "GetActualPropertiesNull", });
+        new java.lang.String[] { "SortedResult", "SortedResultNull", "IncludePersonCharacCategoryId", "IncludePersonCharacCategoryIdNull", "InputParameter", "InputParameterNull", "InputIsUniqueId", "InputIsUniqueIdNull", "PersonTypeId", "PersonTypeIdNull", "LanguageId", "LanguageIdNull", "CharacteristicIdList", "CharacteristicIdListNull", "DateFormat", "DateFormatNull", "CaseSensitive", "CaseSensitiveNull", "PersonId", "PersonIdNull", "DateAndTime", "DateAndTimeNull", "GetActualProperties", "GetActualPropertiesNull", "SeparatorForIdentVals", "SeparatorForIdentValsNull", });
     internal_static_dstore_engine_pm_GetPersonProperties_Pu_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_pm_GetPersonProperties_Pu_Response_fieldAccessorTable = new

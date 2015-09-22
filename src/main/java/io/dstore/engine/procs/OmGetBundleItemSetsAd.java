@@ -1651,32 +1651,7 @@ public final class OmGetBundleItemSetsAd {
       io.dstore.engine.Values.booleanValueOrBuilder getCombineGroupsWithANDOperatorOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-       *
-       * <pre>
-       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-       * </pre>
-       */
-      boolean hasDistinctDistinctItemsOnly();
-      /**
-       * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-       *
-       * <pre>
-       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-       * </pre>
-       */
-      io.dstore.engine.Values.booleanValue getDistinctDistinctItemsOnly();
-      /**
-       * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-       *
-       * <pre>
-       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-       * </pre>
-       */
-      io.dstore.engine.Values.booleanValueOrBuilder getDistinctDistinctItemsOnlyOrBuilder();
-
-      /**
-       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
        *
        * <pre>
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -1684,7 +1659,7 @@ public final class OmGetBundleItemSetsAd {
        */
       boolean hasItemConditionPartDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
        *
        * <pre>
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -1692,7 +1667,7 @@ public final class OmGetBundleItemSetsAd {
        */
       io.dstore.engine.Values.stringValue getItemConditionPartDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
        *
        * <pre>
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -1701,7 +1676,7 @@ public final class OmGetBundleItemSetsAd {
       io.dstore.engine.Values.stringValueOrBuilder getItemConditionPartDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+       * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
        *
        * <pre>
        * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -1709,7 +1684,7 @@ public final class OmGetBundleItemSetsAd {
        */
       boolean hasLevelIds();
       /**
-       * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+       * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
        *
        * <pre>
        * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -1717,13 +1692,38 @@ public final class OmGetBundleItemSetsAd {
        */
       io.dstore.engine.Values.stringValue getLevelIds();
       /**
-       * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+       * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
        *
        * <pre>
        * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
        * </pre>
        */
       io.dstore.engine.Values.stringValueOrBuilder getLevelIdsOrBuilder();
+
+      /**
+       * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+       *
+       * <pre>
+       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+       * </pre>
+       */
+      boolean hasDistinctItemsOnly();
+      /**
+       * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+       *
+       * <pre>
+       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+       * </pre>
+       */
+      io.dstore.engine.Values.booleanValue getDistinctItemsOnly();
+      /**
+       * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+       *
+       * <pre>
+       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+       * </pre>
+       */
+      io.dstore.engine.Values.booleanValueOrBuilder getDistinctItemsOnlyOrBuilder();
 
       /**
        * <code>optional .dstore.engine.values.integerValue item_condition_group_id = 10020;</code>
@@ -2053,19 +2053,6 @@ public final class OmGetBundleItemSetsAd {
                 break;
               }
               case 80138: {
-                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
-                if (distinctDistinctItemsOnly_ != null) {
-                  subBuilder = distinctDistinctItemsOnly_.toBuilder();
-                }
-                distinctDistinctItemsOnly_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
-                if (subBuilder != null) {
-                  subBuilder.mergeFrom(distinctDistinctItemsOnly_);
-                  distinctDistinctItemsOnly_ = subBuilder.buildPartial();
-                }
-
-                break;
-              }
-              case 80146: {
                 io.dstore.engine.Values.stringValue.Builder subBuilder = null;
                 if (itemConditionPartDescription_ != null) {
                   subBuilder = itemConditionPartDescription_.toBuilder();
@@ -2078,7 +2065,7 @@ public final class OmGetBundleItemSetsAd {
 
                 break;
               }
-              case 80154: {
+              case 80146: {
                 io.dstore.engine.Values.stringValue.Builder subBuilder = null;
                 if (levelIds_ != null) {
                   subBuilder = levelIds_.toBuilder();
@@ -2087,6 +2074,19 @@ public final class OmGetBundleItemSetsAd {
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelIds_);
                   levelIds_ = subBuilder.buildPartial();
+                }
+
+                break;
+              }
+              case 80154: {
+                io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+                if (distinctItemsOnly_ != null) {
+                  subBuilder = distinctItemsOnly_.toBuilder();
+                }
+                distinctItemsOnly_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                if (subBuilder != null) {
+                  subBuilder.mergeFrom(distinctItemsOnly_);
+                  distinctItemsOnly_ = subBuilder.buildPartial();
                 }
 
                 break;
@@ -2691,43 +2691,10 @@ public final class OmGetBundleItemSetsAd {
         return getCombineGroupsWithANDOperator();
       }
 
-      public static final int DISTINCT_DISTINCT_ITEMS_ONLY_FIELD_NUMBER = 10017;
-      private io.dstore.engine.Values.booleanValue distinctDistinctItemsOnly_;
-      /**
-       * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-       *
-       * <pre>
-       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-       * </pre>
-       */
-      public boolean hasDistinctDistinctItemsOnly() {
-        return distinctDistinctItemsOnly_ != null;
-      }
-      /**
-       * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-       *
-       * <pre>
-       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-       * </pre>
-       */
-      public io.dstore.engine.Values.booleanValue getDistinctDistinctItemsOnly() {
-        return distinctDistinctItemsOnly_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : distinctDistinctItemsOnly_;
-      }
-      /**
-       * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-       *
-       * <pre>
-       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-       * </pre>
-       */
-      public io.dstore.engine.Values.booleanValueOrBuilder getDistinctDistinctItemsOnlyOrBuilder() {
-        return getDistinctDistinctItemsOnly();
-      }
-
-      public static final int ITEM_CONDITION_PART_DESCRIPTION_FIELD_NUMBER = 10018;
+      public static final int ITEM_CONDITION_PART_DESCRIPTION_FIELD_NUMBER = 10017;
       private io.dstore.engine.Values.stringValue itemConditionPartDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
        *
        * <pre>
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -2737,7 +2704,7 @@ public final class OmGetBundleItemSetsAd {
         return itemConditionPartDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
        *
        * <pre>
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -2747,7 +2714,7 @@ public final class OmGetBundleItemSetsAd {
         return itemConditionPartDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : itemConditionPartDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+       * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
        *
        * <pre>
        * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -2757,10 +2724,10 @@ public final class OmGetBundleItemSetsAd {
         return getItemConditionPartDescription();
       }
 
-      public static final int LEVEL_IDS_FIELD_NUMBER = 10019;
+      public static final int LEVEL_IDS_FIELD_NUMBER = 10018;
       private io.dstore.engine.Values.stringValue levelIds_;
       /**
-       * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+       * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
        *
        * <pre>
        * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -2770,7 +2737,7 @@ public final class OmGetBundleItemSetsAd {
         return levelIds_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+       * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
        *
        * <pre>
        * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -2780,7 +2747,7 @@ public final class OmGetBundleItemSetsAd {
         return levelIds_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : levelIds_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+       * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
        *
        * <pre>
        * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -2788,6 +2755,39 @@ public final class OmGetBundleItemSetsAd {
        */
       public io.dstore.engine.Values.stringValueOrBuilder getLevelIdsOrBuilder() {
         return getLevelIds();
+      }
+
+      public static final int DISTINCT_ITEMS_ONLY_FIELD_NUMBER = 10019;
+      private io.dstore.engine.Values.booleanValue distinctItemsOnly_;
+      /**
+       * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+       *
+       * <pre>
+       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+       * </pre>
+       */
+      public boolean hasDistinctItemsOnly() {
+        return distinctItemsOnly_ != null;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+       *
+       * <pre>
+       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+       * </pre>
+       */
+      public io.dstore.engine.Values.booleanValue getDistinctItemsOnly() {
+        return distinctItemsOnly_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : distinctItemsOnly_;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+       *
+       * <pre>
+       * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+       * </pre>
+       */
+      public io.dstore.engine.Values.booleanValueOrBuilder getDistinctItemsOnlyOrBuilder() {
+        return getDistinctItemsOnly();
       }
 
       public static final int ITEM_CONDITION_GROUP_ID_FIELD_NUMBER = 10020;
@@ -2952,14 +2952,14 @@ public final class OmGetBundleItemSetsAd {
         if (combineGroupsWithANDOperator_ != null) {
           output.writeMessage(10016, getCombineGroupsWithANDOperator());
         }
-        if (distinctDistinctItemsOnly_ != null) {
-          output.writeMessage(10017, getDistinctDistinctItemsOnly());
-        }
         if (itemConditionPartDescription_ != null) {
-          output.writeMessage(10018, getItemConditionPartDescription());
+          output.writeMessage(10017, getItemConditionPartDescription());
         }
         if (levelIds_ != null) {
-          output.writeMessage(10019, getLevelIds());
+          output.writeMessage(10018, getLevelIds());
+        }
+        if (distinctItemsOnly_ != null) {
+          output.writeMessage(10019, getDistinctItemsOnly());
         }
         if (itemConditionGroupId_ != null) {
           output.writeMessage(10020, getItemConditionGroupId());
@@ -3046,17 +3046,17 @@ public final class OmGetBundleItemSetsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10016, getCombineGroupsWithANDOperator());
         }
-        if (distinctDistinctItemsOnly_ != null) {
-          size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10017, getDistinctDistinctItemsOnly());
-        }
         if (itemConditionPartDescription_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10018, getItemConditionPartDescription());
+            .computeMessageSize(10017, getItemConditionPartDescription());
         }
         if (levelIds_ != null) {
           size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(10019, getLevelIds());
+            .computeMessageSize(10018, getLevelIds());
+        }
+        if (distinctItemsOnly_ != null) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(10019, getDistinctItemsOnly());
         }
         if (itemConditionGroupId_ != null) {
           size += com.google.protobuf.CodedOutputStream
@@ -3279,12 +3279,6 @@ public final class OmGetBundleItemSetsAd {
             combineGroupsWithANDOperator_ = null;
             combineGroupsWithANDOperatorBuilder_ = null;
           }
-          if (distinctDistinctItemsOnlyBuilder_ == null) {
-            distinctDistinctItemsOnly_ = null;
-          } else {
-            distinctDistinctItemsOnly_ = null;
-            distinctDistinctItemsOnlyBuilder_ = null;
-          }
           if (itemConditionPartDescriptionBuilder_ == null) {
             itemConditionPartDescription_ = null;
           } else {
@@ -3296,6 +3290,12 @@ public final class OmGetBundleItemSetsAd {
           } else {
             levelIds_ = null;
             levelIdsBuilder_ = null;
+          }
+          if (distinctItemsOnlyBuilder_ == null) {
+            distinctItemsOnly_ = null;
+          } else {
+            distinctItemsOnly_ = null;
+            distinctItemsOnlyBuilder_ = null;
           }
           if (itemConditionGroupIdBuilder_ == null) {
             itemConditionGroupId_ = null;
@@ -3418,11 +3418,6 @@ public final class OmGetBundleItemSetsAd {
           } else {
             result.combineGroupsWithANDOperator_ = combineGroupsWithANDOperatorBuilder_.build();
           }
-          if (distinctDistinctItemsOnlyBuilder_ == null) {
-            result.distinctDistinctItemsOnly_ = distinctDistinctItemsOnly_;
-          } else {
-            result.distinctDistinctItemsOnly_ = distinctDistinctItemsOnlyBuilder_.build();
-          }
           if (itemConditionPartDescriptionBuilder_ == null) {
             result.itemConditionPartDescription_ = itemConditionPartDescription_;
           } else {
@@ -3432,6 +3427,11 @@ public final class OmGetBundleItemSetsAd {
             result.levelIds_ = levelIds_;
           } else {
             result.levelIds_ = levelIdsBuilder_.build();
+          }
+          if (distinctItemsOnlyBuilder_ == null) {
+            result.distinctItemsOnly_ = distinctItemsOnly_;
+          } else {
+            result.distinctItemsOnly_ = distinctItemsOnlyBuilder_.build();
           }
           if (itemConditionGroupIdBuilder_ == null) {
             result.itemConditionGroupId_ = itemConditionGroupId_;
@@ -3514,14 +3514,14 @@ public final class OmGetBundleItemSetsAd {
           if (other.hasCombineGroupsWithANDOperator()) {
             mergeCombineGroupsWithANDOperator(other.getCombineGroupsWithANDOperator());
           }
-          if (other.hasDistinctDistinctItemsOnly()) {
-            mergeDistinctDistinctItemsOnly(other.getDistinctDistinctItemsOnly());
-          }
           if (other.hasItemConditionPartDescription()) {
             mergeItemConditionPartDescription(other.getItemConditionPartDescription());
           }
           if (other.hasLevelIds()) {
             mergeLevelIds(other.getLevelIds());
+          }
+          if (other.hasDistinctItemsOnly()) {
+            mergeDistinctItemsOnly(other.getDistinctItemsOnly());
           }
           if (other.hasItemConditionGroupId()) {
             mergeItemConditionGroupId(other.getItemConditionGroupId());
@@ -6032,164 +6032,11 @@ public final class OmGetBundleItemSetsAd {
           return combineGroupsWithANDOperatorBuilder_;
         }
 
-        private io.dstore.engine.Values.booleanValue distinctDistinctItemsOnly_ = null;
-        private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> distinctDistinctItemsOnlyBuilder_;
-        /**
-         * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-         *
-         * <pre>
-         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-         * </pre>
-         */
-        public boolean hasDistinctDistinctItemsOnly() {
-          return distinctDistinctItemsOnlyBuilder_ != null || distinctDistinctItemsOnly_ != null;
-        }
-        /**
-         * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-         *
-         * <pre>
-         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-         * </pre>
-         */
-        public io.dstore.engine.Values.booleanValue getDistinctDistinctItemsOnly() {
-          if (distinctDistinctItemsOnlyBuilder_ == null) {
-            return distinctDistinctItemsOnly_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : distinctDistinctItemsOnly_;
-          } else {
-            return distinctDistinctItemsOnlyBuilder_.getMessage();
-          }
-        }
-        /**
-         * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-         *
-         * <pre>
-         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-         * </pre>
-         */
-        public Builder setDistinctDistinctItemsOnly(io.dstore.engine.Values.booleanValue value) {
-          if (distinctDistinctItemsOnlyBuilder_ == null) {
-            if (value == null) {
-              throw new NullPointerException();
-            }
-            distinctDistinctItemsOnly_ = value;
-            onChanged();
-          } else {
-            distinctDistinctItemsOnlyBuilder_.setMessage(value);
-          }
-
-          return this;
-        }
-        /**
-         * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-         *
-         * <pre>
-         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-         * </pre>
-         */
-        public Builder setDistinctDistinctItemsOnly(
-            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
-          if (distinctDistinctItemsOnlyBuilder_ == null) {
-            distinctDistinctItemsOnly_ = builderForValue.build();
-            onChanged();
-          } else {
-            distinctDistinctItemsOnlyBuilder_.setMessage(builderForValue.build());
-          }
-
-          return this;
-        }
-        /**
-         * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-         *
-         * <pre>
-         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-         * </pre>
-         */
-        public Builder mergeDistinctDistinctItemsOnly(io.dstore.engine.Values.booleanValue value) {
-          if (distinctDistinctItemsOnlyBuilder_ == null) {
-            if (distinctDistinctItemsOnly_ != null) {
-              distinctDistinctItemsOnly_ =
-                io.dstore.engine.Values.booleanValue.newBuilder(distinctDistinctItemsOnly_).mergeFrom(value).buildPartial();
-            } else {
-              distinctDistinctItemsOnly_ = value;
-            }
-            onChanged();
-          } else {
-            distinctDistinctItemsOnlyBuilder_.mergeFrom(value);
-          }
-
-          return this;
-        }
-        /**
-         * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-         *
-         * <pre>
-         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-         * </pre>
-         */
-        public Builder clearDistinctDistinctItemsOnly() {
-          if (distinctDistinctItemsOnlyBuilder_ == null) {
-            distinctDistinctItemsOnly_ = null;
-            onChanged();
-          } else {
-            distinctDistinctItemsOnly_ = null;
-            distinctDistinctItemsOnlyBuilder_ = null;
-          }
-
-          return this;
-        }
-        /**
-         * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-         *
-         * <pre>
-         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-         * </pre>
-         */
-        public io.dstore.engine.Values.booleanValue.Builder getDistinctDistinctItemsOnlyBuilder() {
-          
-          onChanged();
-          return getDistinctDistinctItemsOnlyFieldBuilder().getBuilder();
-        }
-        /**
-         * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-         *
-         * <pre>
-         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-         * </pre>
-         */
-        public io.dstore.engine.Values.booleanValueOrBuilder getDistinctDistinctItemsOnlyOrBuilder() {
-          if (distinctDistinctItemsOnlyBuilder_ != null) {
-            return distinctDistinctItemsOnlyBuilder_.getMessageOrBuilder();
-          } else {
-            return distinctDistinctItemsOnly_ == null ?
-                io.dstore.engine.Values.booleanValue.getDefaultInstance() : distinctDistinctItemsOnly_;
-          }
-        }
-        /**
-         * <code>optional .dstore.engine.values.booleanValue distinct_distinct_items_only = 10017;</code>
-         *
-         * <pre>
-         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
-         * </pre>
-         */
-        private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
-            getDistinctDistinctItemsOnlyFieldBuilder() {
-          if (distinctDistinctItemsOnlyBuilder_ == null) {
-            distinctDistinctItemsOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
-                    getDistinctDistinctItemsOnly(),
-                    getParentForChildren(),
-                    isClean());
-            distinctDistinctItemsOnly_ = null;
-          }
-          return distinctDistinctItemsOnlyBuilder_;
-        }
-
         private io.dstore.engine.Values.stringValue itemConditionPartDescription_ = null;
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> itemConditionPartDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
          *
          * <pre>
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -6199,7 +6046,7 @@ public final class OmGetBundleItemSetsAd {
           return itemConditionPartDescriptionBuilder_ != null || itemConditionPartDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
          *
          * <pre>
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -6213,7 +6060,7 @@ public final class OmGetBundleItemSetsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
          *
          * <pre>
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -6233,7 +6080,7 @@ public final class OmGetBundleItemSetsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
          *
          * <pre>
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -6251,7 +6098,7 @@ public final class OmGetBundleItemSetsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
          *
          * <pre>
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -6273,7 +6120,7 @@ public final class OmGetBundleItemSetsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
          *
          * <pre>
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -6291,7 +6138,7 @@ public final class OmGetBundleItemSetsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
          *
          * <pre>
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -6303,7 +6150,7 @@ public final class OmGetBundleItemSetsAd {
           return getItemConditionPartDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
          *
          * <pre>
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -6318,7 +6165,7 @@ public final class OmGetBundleItemSetsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10018;</code>
+         * <code>optional .dstore.engine.values.stringValue item_condition_part_description = 10017;</code>
          *
          * <pre>
          * Bezeichnung des Bedingungs-Teils "ItemConditionPartID"
@@ -6342,7 +6189,7 @@ public final class OmGetBundleItemSetsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> levelIdsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+         * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
          *
          * <pre>
          * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -6352,7 +6199,7 @@ public final class OmGetBundleItemSetsAd {
           return levelIdsBuilder_ != null || levelIds_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+         * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
          *
          * <pre>
          * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -6366,7 +6213,7 @@ public final class OmGetBundleItemSetsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+         * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
          *
          * <pre>
          * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -6386,7 +6233,7 @@ public final class OmGetBundleItemSetsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+         * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
          *
          * <pre>
          * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -6404,7 +6251,7 @@ public final class OmGetBundleItemSetsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+         * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
          *
          * <pre>
          * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -6426,7 +6273,7 @@ public final class OmGetBundleItemSetsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+         * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
          *
          * <pre>
          * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -6444,7 +6291,7 @@ public final class OmGetBundleItemSetsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+         * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
          *
          * <pre>
          * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -6456,7 +6303,7 @@ public final class OmGetBundleItemSetsAd {
           return getLevelIdsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+         * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
          *
          * <pre>
          * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -6471,7 +6318,7 @@ public final class OmGetBundleItemSetsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue level_ids = 10019;</code>
+         * <code>optional .dstore.engine.values.stringValue level_ids = 10018;</code>
          *
          * <pre>
          * Um "ItemConditionPartID" zu erfüllen, muß die Hierarchie ("LevelID") eines Artikel-Elementes aus der hier angegebenen Menge der Hierarchien ("LevelID"s) kommen. Sonderfall ",," bedeutet "beliebige Hierarchie".
@@ -6489,6 +6336,159 @@ public final class OmGetBundleItemSetsAd {
             levelIds_ = null;
           }
           return levelIdsBuilder_;
+        }
+
+        private io.dstore.engine.Values.booleanValue distinctItemsOnly_ = null;
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> distinctItemsOnlyBuilder_;
+        /**
+         * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+         *
+         * <pre>
+         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+         * </pre>
+         */
+        public boolean hasDistinctItemsOnly() {
+          return distinctItemsOnlyBuilder_ != null || distinctItemsOnly_ != null;
+        }
+        /**
+         * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+         *
+         * <pre>
+         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+         * </pre>
+         */
+        public io.dstore.engine.Values.booleanValue getDistinctItemsOnly() {
+          if (distinctItemsOnlyBuilder_ == null) {
+            return distinctItemsOnly_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : distinctItemsOnly_;
+          } else {
+            return distinctItemsOnlyBuilder_.getMessage();
+          }
+        }
+        /**
+         * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+         *
+         * <pre>
+         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+         * </pre>
+         */
+        public Builder setDistinctItemsOnly(io.dstore.engine.Values.booleanValue value) {
+          if (distinctItemsOnlyBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            distinctItemsOnly_ = value;
+            onChanged();
+          } else {
+            distinctItemsOnlyBuilder_.setMessage(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+         *
+         * <pre>
+         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+         * </pre>
+         */
+        public Builder setDistinctItemsOnly(
+            io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+          if (distinctItemsOnlyBuilder_ == null) {
+            distinctItemsOnly_ = builderForValue.build();
+            onChanged();
+          } else {
+            distinctItemsOnlyBuilder_.setMessage(builderForValue.build());
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+         *
+         * <pre>
+         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+         * </pre>
+         */
+        public Builder mergeDistinctItemsOnly(io.dstore.engine.Values.booleanValue value) {
+          if (distinctItemsOnlyBuilder_ == null) {
+            if (distinctItemsOnly_ != null) {
+              distinctItemsOnly_ =
+                io.dstore.engine.Values.booleanValue.newBuilder(distinctItemsOnly_).mergeFrom(value).buildPartial();
+            } else {
+              distinctItemsOnly_ = value;
+            }
+            onChanged();
+          } else {
+            distinctItemsOnlyBuilder_.mergeFrom(value);
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+         *
+         * <pre>
+         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+         * </pre>
+         */
+        public Builder clearDistinctItemsOnly() {
+          if (distinctItemsOnlyBuilder_ == null) {
+            distinctItemsOnly_ = null;
+            onChanged();
+          } else {
+            distinctItemsOnly_ = null;
+            distinctItemsOnlyBuilder_ = null;
+          }
+
+          return this;
+        }
+        /**
+         * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+         *
+         * <pre>
+         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+         * </pre>
+         */
+        public io.dstore.engine.Values.booleanValue.Builder getDistinctItemsOnlyBuilder() {
+          
+          onChanged();
+          return getDistinctItemsOnlyFieldBuilder().getBuilder();
+        }
+        /**
+         * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+         *
+         * <pre>
+         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+         * </pre>
+         */
+        public io.dstore.engine.Values.booleanValueOrBuilder getDistinctItemsOnlyOrBuilder() {
+          if (distinctItemsOnlyBuilder_ != null) {
+            return distinctItemsOnlyBuilder_.getMessageOrBuilder();
+          } else {
+            return distinctItemsOnly_ == null ?
+                io.dstore.engine.Values.booleanValue.getDefaultInstance() : distinctItemsOnly_;
+          }
+        }
+        /**
+         * <code>optional .dstore.engine.values.booleanValue distinct_items_only = 10019;</code>
+         *
+         * <pre>
+         * Gibt an, ob es sich bei der Auswahl aus diesem Set um unterschiedliche Artikel handlen muss ("1") oder der selbe Artikel auch mehrfach ausgewählt werden darf ("0")
+         * </pre>
+         */
+        private com.google.protobuf.SingleFieldBuilder<
+            io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+            getDistinctItemsOnlyFieldBuilder() {
+          if (distinctItemsOnlyBuilder_ == null) {
+            distinctItemsOnlyBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+                io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                    getDistinctItemsOnly(),
+                    getParentForChildren(),
+                    isClean());
+            distinctItemsOnly_ = null;
+          }
+          return distinctItemsOnlyBuilder_;
         }
 
         private io.dstore.engine.Values.integerValue itemConditionGroupId_ = null;
@@ -8197,11 +8197,11 @@ public final class OmGetBundleItemSetsAd {
       "e.values.integerValue\022\037\n\026item_condition_" +
       "id_null\030\352\007 \001(\010\022;\n\017get_unused_sets\030\003 \001(\0132",
       "\".dstore.engine.values.booleanValue\022\035\n\024g" +
-      "et_unused_sets_null\030\353\007 \001(\010\"\350\014\n\010Response\022" +
+      "et_unused_sets_null\030\353\007 \001(\010\"\337\014\n\010Response\022" +
       ")\n\005error\030\001 \001(\0132\032.dstore.engine.error.Err" +
       "or\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mess" +
       "age.Message\022@\n\003row\030\004 \003(\01323.dstore.engine" +
-      ".om_GetBundleItemSets_Ad.Response.Row\032\275\013" +
+      ".om_GetBundleItemSets_Ad.Response.Row\032\264\013" +
       "\n\003Row\022\017\n\006row_id\030\220N \001(\005\022?\n\022item_group_sor" +
       "t_no\030\221N \001(\0132\".dstore.engine.values.integ" +
       "erValue\0225\n\toperator1\030\222N \001(\0132!.dstore.eng" +
@@ -8228,18 +8228,18 @@ public final class OmGetBundleItemSetsAd {
       "tem_condition_id\030\237N \001(\0132\".dstore.engine.",
       "values.integerValue\022O\n\"combine_groups_wi" +
       "th_a_n_d_operator\030\240N \001(\0132\".dstore.engine" +
-      ".values.booleanValue\022I\n\034distinct_distinc" +
-      "t_items_only\030\241N \001(\0132\".dstore.engine.valu" +
-      "es.booleanValue\022K\n\037item_condition_part_d" +
-      "escription\030\242N \001(\0132!.dstore.engine.values" +
-      ".stringValue\0225\n\tlevel_ids\030\243N \001(\0132!.dstor" +
-      "e.engine.values.stringValue\022D\n\027item_cond" +
-      "ition_group_id\030\244N \001(\0132\".dstore.engine.va" +
-      "lues.integerValue\022F\n\032item_condition_desc",
-      "ription\030\245N \001(\0132!.dstore.engine.values.st" +
-      "ringValue\022:\n\rinherit_depth\030\246N \001(\0132\".dsto" +
-      "re.engine.values.integerValueB\030\n\026io.dsto" +
-      "re.engine.procsb\006proto3"
+      ".values.booleanValue\022K\n\037item_condition_p" +
+      "art_description\030\241N \001(\0132!.dstore.engine.v" +
+      "alues.stringValue\0225\n\tlevel_ids\030\242N \001(\0132!." +
+      "dstore.engine.values.stringValue\022@\n\023dist" +
+      "inct_items_only\030\243N \001(\0132\".dstore.engine.v" +
+      "alues.booleanValue\022D\n\027item_condition_gro" +
+      "up_id\030\244N \001(\0132\".dstore.engine.values.inte" +
+      "gerValue\022F\n\032item_condition_description\030\245",
+      "N \001(\0132!.dstore.engine.values.stringValue" +
+      "\022:\n\rinherit_depth\030\246N \001(\0132\".dstore.engine" +
+      ".values.integerValueB\030\n\026io.dstore.engine" +
+      ".procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8273,7 +8273,7 @@ public final class OmGetBundleItemSetsAd {
     internal_static_dstore_engine_om_GetBundleItemSets_Ad_Response_Row_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetBundleItemSets_Ad_Response_Row_descriptor,
-        new java.lang.String[] { "RowId", "ItemGroupSortNo", "Operator1", "Condition1", "Condition2", "Operator2", "ItemConditionGroupDescription", "CombinePartsWithANDOperator", "RecursiveEvaluation", "ItemPartSortNo", "ItemSetId", "DomainTreeNodeIds", "NodeCharacteristicId", "Quantity", "ItemConditionPartId", "ItemConditionId", "CombineGroupsWithANDOperator", "DistinctDistinctItemsOnly", "ItemConditionPartDescription", "LevelIds", "ItemConditionGroupId", "ItemConditionDescription", "InheritDepth", });
+        new java.lang.String[] { "RowId", "ItemGroupSortNo", "Operator1", "Condition1", "Condition2", "Operator2", "ItemConditionGroupDescription", "CombinePartsWithANDOperator", "RecursiveEvaluation", "ItemPartSortNo", "ItemSetId", "DomainTreeNodeIds", "NodeCharacteristicId", "Quantity", "ItemConditionPartId", "ItemConditionId", "CombineGroupsWithANDOperator", "ItemConditionPartDescription", "LevelIds", "DistinctItemsOnly", "ItemConditionGroupId", "ItemConditionDescription", "InheritDepth", });
     io.dstore.engine.Values.getDescriptor();
     io.dstore.engine.ProcedureError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();

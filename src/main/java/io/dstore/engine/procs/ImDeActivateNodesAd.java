@@ -29,6 +29,24 @@ public final class ImDeActivateNodesAd {
      * <code>optional bool activate_null = 1001;</code>
      */
     boolean getActivateNull();
+
+    /**
+     * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+     */
+    boolean hasTreeNodeIdList();
+    /**
+     * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+     */
+    io.dstore.engine.Values.stringValue getTreeNodeIdList();
+    /**
+     * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+     */
+    io.dstore.engine.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder();
+
+    /**
+     * <code>optional bool tree_node_id_list_null = 1002;</code>
+     */
+    boolean getTreeNodeIdListNull();
   }
   /**
    * Protobuf type {@code dstore.engine.im_DeActivateNodes_Ad.Parameters}
@@ -43,6 +61,7 @@ public final class ImDeActivateNodesAd {
     }
     private Parameters() {
       activateNull_ = false;
+      treeNodeIdListNull_ = false;
     }
 
     @java.lang.Override
@@ -82,9 +101,27 @@ public final class ImDeActivateNodesAd {
 
               break;
             }
+            case 18: {
+              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              if (treeNodeIdList_ != null) {
+                subBuilder = treeNodeIdList_.toBuilder();
+              }
+              treeNodeIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(treeNodeIdList_);
+                treeNodeIdList_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               activateNull_ = input.readBool();
+              break;
+            }
+            case 8016: {
+
+              treeNodeIdListNull_ = input.readBool();
               break;
             }
           }
@@ -141,6 +178,36 @@ public final class ImDeActivateNodesAd {
       return activateNull_;
     }
 
+    public static final int TREE_NODE_ID_LIST_FIELD_NUMBER = 2;
+    private io.dstore.engine.Values.stringValue treeNodeIdList_;
+    /**
+     * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+     */
+    public boolean hasTreeNodeIdList() {
+      return treeNodeIdList_ != null;
+    }
+    /**
+     * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+     */
+    public io.dstore.engine.Values.stringValue getTreeNodeIdList() {
+      return treeNodeIdList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+    }
+    /**
+     * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+     */
+    public io.dstore.engine.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder() {
+      return getTreeNodeIdList();
+    }
+
+    public static final int TREE_NODE_ID_LIST_NULL_FIELD_NUMBER = 1002;
+    private boolean treeNodeIdListNull_;
+    /**
+     * <code>optional bool tree_node_id_list_null = 1002;</code>
+     */
+    public boolean getTreeNodeIdListNull() {
+      return treeNodeIdListNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -156,8 +223,14 @@ public final class ImDeActivateNodesAd {
       if (activate_ != null) {
         output.writeMessage(1, getActivate());
       }
+      if (treeNodeIdList_ != null) {
+        output.writeMessage(2, getTreeNodeIdList());
+      }
       if (activateNull_ != false) {
         output.writeBool(1001, activateNull_);
+      }
+      if (treeNodeIdListNull_ != false) {
+        output.writeBool(1002, treeNodeIdListNull_);
       }
     }
 
@@ -171,9 +244,17 @@ public final class ImDeActivateNodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getActivate());
       }
+      if (treeNodeIdList_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, getTreeNodeIdList());
+      }
       if (activateNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, activateNull_);
+      }
+      if (treeNodeIdListNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1002, treeNodeIdListNull_);
       }
       memoizedSerializedSize = size;
       return size;
@@ -294,6 +375,14 @@ public final class ImDeActivateNodesAd {
         }
         activateNull_ = false;
 
+        if (treeNodeIdListBuilder_ == null) {
+          treeNodeIdList_ = null;
+        } else {
+          treeNodeIdList_ = null;
+          treeNodeIdListBuilder_ = null;
+        }
+        treeNodeIdListNull_ = false;
+
         return this;
       }
 
@@ -322,6 +411,12 @@ public final class ImDeActivateNodesAd {
           result.activate_ = activateBuilder_.build();
         }
         result.activateNull_ = activateNull_;
+        if (treeNodeIdListBuilder_ == null) {
+          result.treeNodeIdList_ = treeNodeIdList_;
+        } else {
+          result.treeNodeIdList_ = treeNodeIdListBuilder_.build();
+        }
+        result.treeNodeIdListNull_ = treeNodeIdListNull_;
         onBuilt();
         return result;
       }
@@ -342,6 +437,12 @@ public final class ImDeActivateNodesAd {
         }
         if (other.getActivateNull() != false) {
           setActivateNull(other.getActivateNull());
+        }
+        if (other.hasTreeNodeIdList()) {
+          mergeTreeNodeIdList(other.getTreeNodeIdList());
+        }
+        if (other.getTreeNodeIdListNull() != false) {
+          setTreeNodeIdListNull(other.getTreeNodeIdListNull());
         }
         onChanged();
         return this;
@@ -508,6 +609,149 @@ public final class ImDeActivateNodesAd {
       public Builder clearActivateNull() {
         
         activateNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.engine.Values.stringValue treeNodeIdList_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> treeNodeIdListBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+       */
+      public boolean hasTreeNodeIdList() {
+        return treeNodeIdListBuilder_ != null || treeNodeIdList_ != null;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+       */
+      public io.dstore.engine.Values.stringValue getTreeNodeIdList() {
+        if (treeNodeIdListBuilder_ == null) {
+          return treeNodeIdList_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+        } else {
+          return treeNodeIdListBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+       */
+      public Builder setTreeNodeIdList(io.dstore.engine.Values.stringValue value) {
+        if (treeNodeIdListBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          treeNodeIdList_ = value;
+          onChanged();
+        } else {
+          treeNodeIdListBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+       */
+      public Builder setTreeNodeIdList(
+          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+        if (treeNodeIdListBuilder_ == null) {
+          treeNodeIdList_ = builderForValue.build();
+          onChanged();
+        } else {
+          treeNodeIdListBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+       */
+      public Builder mergeTreeNodeIdList(io.dstore.engine.Values.stringValue value) {
+        if (treeNodeIdListBuilder_ == null) {
+          if (treeNodeIdList_ != null) {
+            treeNodeIdList_ =
+              io.dstore.engine.Values.stringValue.newBuilder(treeNodeIdList_).mergeFrom(value).buildPartial();
+          } else {
+            treeNodeIdList_ = value;
+          }
+          onChanged();
+        } else {
+          treeNodeIdListBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+       */
+      public Builder clearTreeNodeIdList() {
+        if (treeNodeIdListBuilder_ == null) {
+          treeNodeIdList_ = null;
+          onChanged();
+        } else {
+          treeNodeIdList_ = null;
+          treeNodeIdListBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+       */
+      public io.dstore.engine.Values.stringValue.Builder getTreeNodeIdListBuilder() {
+        
+        onChanged();
+        return getTreeNodeIdListFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+       */
+      public io.dstore.engine.Values.stringValueOrBuilder getTreeNodeIdListOrBuilder() {
+        if (treeNodeIdListBuilder_ != null) {
+          return treeNodeIdListBuilder_.getMessageOrBuilder();
+        } else {
+          return treeNodeIdList_ == null ?
+              io.dstore.engine.Values.stringValue.getDefaultInstance() : treeNodeIdList_;
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue tree_node_id_list = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          getTreeNodeIdListFieldBuilder() {
+        if (treeNodeIdListBuilder_ == null) {
+          treeNodeIdListBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                  getTreeNodeIdList(),
+                  getParentForChildren(),
+                  isClean());
+          treeNodeIdList_ = null;
+        }
+        return treeNodeIdListBuilder_;
+      }
+
+      private boolean treeNodeIdListNull_ ;
+      /**
+       * <code>optional bool tree_node_id_list_null = 1002;</code>
+       */
+      public boolean getTreeNodeIdListNull() {
+        return treeNodeIdListNull_;
+      }
+      /**
+       * <code>optional bool tree_node_id_list_null = 1002;</code>
+       */
+      public Builder setTreeNodeIdListNull(boolean value) {
+        
+        treeNodeIdListNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool tree_node_id_list_null = 1002;</code>
+       */
+      public Builder clearTreeNodeIdListNull() {
+        
+        treeNodeIdListNull_ = false;
         onChanged();
         return this;
       }
@@ -2312,15 +2556,17 @@ public final class ImDeActivateNodesAd {
       "Nodes_Ad.proto\022#dstore.engine.im_DeActiv" +
       "ateNodes_Ad\032\032dstore/engine/values.proto\032" +
       "\031dstore/engine/error.proto\032\033dstore/engin" +
-      "e/message.proto\"Z\n\nParameters\0224\n\010activat" +
-      "e\030\001 \001(\0132\".dstore.engine.values.booleanVa" +
-      "lue\022\026\n\ractivate_null\030\351\007 \001(\010\"\276\001\n\010Response" +
-      "\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.Er" +
-      "ror\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mes" +
-      "sage.Message\022>\n\003row\030\004 \003(\01321.dstore.engin",
-      "e.im_DeActivateNodes_Ad.Response.Row\032\026\n\003" +
-      "Row\022\017\n\006row_id\030\220N \001(\005B\030\n\026io.dstore.engine" +
-      ".procsb\006proto3"
+      "e/message.proto\"\271\001\n\nParameters\0224\n\010activa" +
+      "te\030\001 \001(\0132\".dstore.engine.values.booleanV" +
+      "alue\022\026\n\ractivate_null\030\351\007 \001(\010\022<\n\021tree_nod" +
+      "e_id_list\030\002 \001(\0132!.dstore.engine.values.s" +
+      "tringValue\022\037\n\026tree_node_id_list_null\030\352\007 " +
+      "\001(\010\"\276\001\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore",
+      ".engine.error.Error\022/\n\007message\030\003 \003(\0132\036.d" +
+      "store.engine.message.Message\022>\n\003row\030\004 \003(" +
+      "\01321.dstore.engine.im_DeActivateNodes_Ad." +
+      "Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\030\n\026" +
+      "io.dstore.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2342,7 +2588,7 @@ public final class ImDeActivateNodesAd {
     internal_static_dstore_engine_im_DeActivateNodes_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_im_DeActivateNodes_Ad_Parameters_descriptor,
-        new java.lang.String[] { "Activate", "ActivateNull", });
+        new java.lang.String[] { "Activate", "ActivateNull", "TreeNodeIdList", "TreeNodeIdListNull", });
     internal_static_dstore_engine_im_DeActivateNodes_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_im_DeActivateNodes_Ad_Response_fieldAccessorTable = new

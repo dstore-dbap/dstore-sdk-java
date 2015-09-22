@@ -101,6 +101,42 @@ public final class OmModifyCampaignSurchargesAd {
      * <code>optional bool delete_benefit_null = 1005;</code>
      */
     boolean getDeleteBenefitNull();
+
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+     */
+    boolean hasDerivedFromPersonCharacId();
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+     */
+    io.dstore.engine.Values.booleanValue getDerivedFromPersonCharacId();
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+     */
+    io.dstore.engine.Values.booleanValueOrBuilder getDerivedFromPersonCharacIdOrBuilder();
+
+    /**
+     * <code>optional bool derived_from_person_charac_id_null = 1006;</code>
+     */
+    boolean getDerivedFromPersonCharacIdNull();
+
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+     */
+    boolean hasDerivedFromNodeCharacId();
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+     */
+    io.dstore.engine.Values.booleanValue getDerivedFromNodeCharacId();
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+     */
+    io.dstore.engine.Values.booleanValueOrBuilder getDerivedFromNodeCharacIdOrBuilder();
+
+    /**
+     * <code>optional bool derived_from_node_charac_id_null = 1007;</code>
+     */
+    boolean getDerivedFromNodeCharacIdNull();
   }
   /**
    * Protobuf type {@code dstore.engine.om_ModifyCampaignSurcharges_Ad.Parameters}
@@ -119,6 +155,8 @@ public final class OmModifyCampaignSurchargesAd {
       itemConditionIdNull_ = false;
       applyToOptionNull_ = false;
       deleteBenefitNull_ = false;
+      derivedFromPersonCharacIdNull_ = false;
+      derivedFromNodeCharacIdNull_ = false;
     }
 
     @java.lang.Override
@@ -210,6 +248,32 @@ public final class OmModifyCampaignSurchargesAd {
 
               break;
             }
+            case 50: {
+              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              if (derivedFromPersonCharacId_ != null) {
+                subBuilder = derivedFromPersonCharacId_.toBuilder();
+              }
+              derivedFromPersonCharacId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(derivedFromPersonCharacId_);
+                derivedFromPersonCharacId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 58: {
+              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              if (derivedFromNodeCharacId_ != null) {
+                subBuilder = derivedFromNodeCharacId_.toBuilder();
+              }
+              derivedFromNodeCharacId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(derivedFromNodeCharacId_);
+                derivedFromNodeCharacId_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 8008: {
 
               surchargeTypeIdNull_ = input.readBool();
@@ -233,6 +297,16 @@ public final class OmModifyCampaignSurchargesAd {
             case 8040: {
 
               deleteBenefitNull_ = input.readBool();
+              break;
+            }
+            case 8048: {
+
+              derivedFromPersonCharacIdNull_ = input.readBool();
+              break;
+            }
+            case 8056: {
+
+              derivedFromNodeCharacIdNull_ = input.readBool();
               break;
             }
           }
@@ -409,6 +483,66 @@ public final class OmModifyCampaignSurchargesAd {
       return deleteBenefitNull_;
     }
 
+    public static final int DERIVED_FROM_PERSON_CHARAC_ID_FIELD_NUMBER = 6;
+    private io.dstore.engine.Values.booleanValue derivedFromPersonCharacId_;
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+     */
+    public boolean hasDerivedFromPersonCharacId() {
+      return derivedFromPersonCharacId_ != null;
+    }
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+     */
+    public io.dstore.engine.Values.booleanValue getDerivedFromPersonCharacId() {
+      return derivedFromPersonCharacId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : derivedFromPersonCharacId_;
+    }
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+     */
+    public io.dstore.engine.Values.booleanValueOrBuilder getDerivedFromPersonCharacIdOrBuilder() {
+      return getDerivedFromPersonCharacId();
+    }
+
+    public static final int DERIVED_FROM_PERSON_CHARAC_ID_NULL_FIELD_NUMBER = 1006;
+    private boolean derivedFromPersonCharacIdNull_;
+    /**
+     * <code>optional bool derived_from_person_charac_id_null = 1006;</code>
+     */
+    public boolean getDerivedFromPersonCharacIdNull() {
+      return derivedFromPersonCharacIdNull_;
+    }
+
+    public static final int DERIVED_FROM_NODE_CHARAC_ID_FIELD_NUMBER = 7;
+    private io.dstore.engine.Values.booleanValue derivedFromNodeCharacId_;
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+     */
+    public boolean hasDerivedFromNodeCharacId() {
+      return derivedFromNodeCharacId_ != null;
+    }
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+     */
+    public io.dstore.engine.Values.booleanValue getDerivedFromNodeCharacId() {
+      return derivedFromNodeCharacId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : derivedFromNodeCharacId_;
+    }
+    /**
+     * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+     */
+    public io.dstore.engine.Values.booleanValueOrBuilder getDerivedFromNodeCharacIdOrBuilder() {
+      return getDerivedFromNodeCharacId();
+    }
+
+    public static final int DERIVED_FROM_NODE_CHARAC_ID_NULL_FIELD_NUMBER = 1007;
+    private boolean derivedFromNodeCharacIdNull_;
+    /**
+     * <code>optional bool derived_from_node_charac_id_null = 1007;</code>
+     */
+    public boolean getDerivedFromNodeCharacIdNull() {
+      return derivedFromNodeCharacIdNull_;
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -436,6 +570,12 @@ public final class OmModifyCampaignSurchargesAd {
       if (deleteBenefit_ != null) {
         output.writeMessage(5, getDeleteBenefit());
       }
+      if (derivedFromPersonCharacId_ != null) {
+        output.writeMessage(6, getDerivedFromPersonCharacId());
+      }
+      if (derivedFromNodeCharacId_ != null) {
+        output.writeMessage(7, getDerivedFromNodeCharacId());
+      }
       if (surchargeTypeIdNull_ != false) {
         output.writeBool(1001, surchargeTypeIdNull_);
       }
@@ -450,6 +590,12 @@ public final class OmModifyCampaignSurchargesAd {
       }
       if (deleteBenefitNull_ != false) {
         output.writeBool(1005, deleteBenefitNull_);
+      }
+      if (derivedFromPersonCharacIdNull_ != false) {
+        output.writeBool(1006, derivedFromPersonCharacIdNull_);
+      }
+      if (derivedFromNodeCharacIdNull_ != false) {
+        output.writeBool(1007, derivedFromNodeCharacIdNull_);
       }
     }
 
@@ -479,6 +625,14 @@ public final class OmModifyCampaignSurchargesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, getDeleteBenefit());
       }
+      if (derivedFromPersonCharacId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getDerivedFromPersonCharacId());
+      }
+      if (derivedFromNodeCharacId_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(7, getDerivedFromNodeCharacId());
+      }
       if (surchargeTypeIdNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, surchargeTypeIdNull_);
@@ -498,6 +652,14 @@ public final class OmModifyCampaignSurchargesAd {
       if (deleteBenefitNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, deleteBenefitNull_);
+      }
+      if (derivedFromPersonCharacIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1006, derivedFromPersonCharacIdNull_);
+      }
+      if (derivedFromNodeCharacIdNull_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1007, derivedFromNodeCharacIdNull_);
       }
       memoizedSerializedSize = size;
       return size;
@@ -650,6 +812,22 @@ public final class OmModifyCampaignSurchargesAd {
         }
         deleteBenefitNull_ = false;
 
+        if (derivedFromPersonCharacIdBuilder_ == null) {
+          derivedFromPersonCharacId_ = null;
+        } else {
+          derivedFromPersonCharacId_ = null;
+          derivedFromPersonCharacIdBuilder_ = null;
+        }
+        derivedFromPersonCharacIdNull_ = false;
+
+        if (derivedFromNodeCharacIdBuilder_ == null) {
+          derivedFromNodeCharacId_ = null;
+        } else {
+          derivedFromNodeCharacId_ = null;
+          derivedFromNodeCharacIdBuilder_ = null;
+        }
+        derivedFromNodeCharacIdNull_ = false;
+
         return this;
       }
 
@@ -702,6 +880,18 @@ public final class OmModifyCampaignSurchargesAd {
           result.deleteBenefit_ = deleteBenefitBuilder_.build();
         }
         result.deleteBenefitNull_ = deleteBenefitNull_;
+        if (derivedFromPersonCharacIdBuilder_ == null) {
+          result.derivedFromPersonCharacId_ = derivedFromPersonCharacId_;
+        } else {
+          result.derivedFromPersonCharacId_ = derivedFromPersonCharacIdBuilder_.build();
+        }
+        result.derivedFromPersonCharacIdNull_ = derivedFromPersonCharacIdNull_;
+        if (derivedFromNodeCharacIdBuilder_ == null) {
+          result.derivedFromNodeCharacId_ = derivedFromNodeCharacId_;
+        } else {
+          result.derivedFromNodeCharacId_ = derivedFromNodeCharacIdBuilder_.build();
+        }
+        result.derivedFromNodeCharacIdNull_ = derivedFromNodeCharacIdNull_;
         onBuilt();
         return result;
       }
@@ -746,6 +936,18 @@ public final class OmModifyCampaignSurchargesAd {
         }
         if (other.getDeleteBenefitNull() != false) {
           setDeleteBenefitNull(other.getDeleteBenefitNull());
+        }
+        if (other.hasDerivedFromPersonCharacId()) {
+          mergeDerivedFromPersonCharacId(other.getDerivedFromPersonCharacId());
+        }
+        if (other.getDerivedFromPersonCharacIdNull() != false) {
+          setDerivedFromPersonCharacIdNull(other.getDerivedFromPersonCharacIdNull());
+        }
+        if (other.hasDerivedFromNodeCharacId()) {
+          mergeDerivedFromNodeCharacId(other.getDerivedFromNodeCharacId());
+        }
+        if (other.getDerivedFromNodeCharacIdNull() != false) {
+          setDerivedFromNodeCharacIdNull(other.getDerivedFromNodeCharacIdNull());
         }
         onChanged();
         return this;
@@ -1484,6 +1686,292 @@ public final class OmModifyCampaignSurchargesAd {
       public Builder clearDeleteBenefitNull() {
         
         deleteBenefitNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.engine.Values.booleanValue derivedFromPersonCharacId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> derivedFromPersonCharacIdBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+       */
+      public boolean hasDerivedFromPersonCharacId() {
+        return derivedFromPersonCharacIdBuilder_ != null || derivedFromPersonCharacId_ != null;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+       */
+      public io.dstore.engine.Values.booleanValue getDerivedFromPersonCharacId() {
+        if (derivedFromPersonCharacIdBuilder_ == null) {
+          return derivedFromPersonCharacId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : derivedFromPersonCharacId_;
+        } else {
+          return derivedFromPersonCharacIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+       */
+      public Builder setDerivedFromPersonCharacId(io.dstore.engine.Values.booleanValue value) {
+        if (derivedFromPersonCharacIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          derivedFromPersonCharacId_ = value;
+          onChanged();
+        } else {
+          derivedFromPersonCharacIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+       */
+      public Builder setDerivedFromPersonCharacId(
+          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+        if (derivedFromPersonCharacIdBuilder_ == null) {
+          derivedFromPersonCharacId_ = builderForValue.build();
+          onChanged();
+        } else {
+          derivedFromPersonCharacIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+       */
+      public Builder mergeDerivedFromPersonCharacId(io.dstore.engine.Values.booleanValue value) {
+        if (derivedFromPersonCharacIdBuilder_ == null) {
+          if (derivedFromPersonCharacId_ != null) {
+            derivedFromPersonCharacId_ =
+              io.dstore.engine.Values.booleanValue.newBuilder(derivedFromPersonCharacId_).mergeFrom(value).buildPartial();
+          } else {
+            derivedFromPersonCharacId_ = value;
+          }
+          onChanged();
+        } else {
+          derivedFromPersonCharacIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+       */
+      public Builder clearDerivedFromPersonCharacId() {
+        if (derivedFromPersonCharacIdBuilder_ == null) {
+          derivedFromPersonCharacId_ = null;
+          onChanged();
+        } else {
+          derivedFromPersonCharacId_ = null;
+          derivedFromPersonCharacIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+       */
+      public io.dstore.engine.Values.booleanValue.Builder getDerivedFromPersonCharacIdBuilder() {
+        
+        onChanged();
+        return getDerivedFromPersonCharacIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+       */
+      public io.dstore.engine.Values.booleanValueOrBuilder getDerivedFromPersonCharacIdOrBuilder() {
+        if (derivedFromPersonCharacIdBuilder_ != null) {
+          return derivedFromPersonCharacIdBuilder_.getMessageOrBuilder();
+        } else {
+          return derivedFromPersonCharacId_ == null ?
+              io.dstore.engine.Values.booleanValue.getDefaultInstance() : derivedFromPersonCharacId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_person_charac_id = 6;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          getDerivedFromPersonCharacIdFieldBuilder() {
+        if (derivedFromPersonCharacIdBuilder_ == null) {
+          derivedFromPersonCharacIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                  getDerivedFromPersonCharacId(),
+                  getParentForChildren(),
+                  isClean());
+          derivedFromPersonCharacId_ = null;
+        }
+        return derivedFromPersonCharacIdBuilder_;
+      }
+
+      private boolean derivedFromPersonCharacIdNull_ ;
+      /**
+       * <code>optional bool derived_from_person_charac_id_null = 1006;</code>
+       */
+      public boolean getDerivedFromPersonCharacIdNull() {
+        return derivedFromPersonCharacIdNull_;
+      }
+      /**
+       * <code>optional bool derived_from_person_charac_id_null = 1006;</code>
+       */
+      public Builder setDerivedFromPersonCharacIdNull(boolean value) {
+        
+        derivedFromPersonCharacIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool derived_from_person_charac_id_null = 1006;</code>
+       */
+      public Builder clearDerivedFromPersonCharacIdNull() {
+        
+        derivedFromPersonCharacIdNull_ = false;
+        onChanged();
+        return this;
+      }
+
+      private io.dstore.engine.Values.booleanValue derivedFromNodeCharacId_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> derivedFromNodeCharacIdBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+       */
+      public boolean hasDerivedFromNodeCharacId() {
+        return derivedFromNodeCharacIdBuilder_ != null || derivedFromNodeCharacId_ != null;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+       */
+      public io.dstore.engine.Values.booleanValue getDerivedFromNodeCharacId() {
+        if (derivedFromNodeCharacIdBuilder_ == null) {
+          return derivedFromNodeCharacId_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : derivedFromNodeCharacId_;
+        } else {
+          return derivedFromNodeCharacIdBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+       */
+      public Builder setDerivedFromNodeCharacId(io.dstore.engine.Values.booleanValue value) {
+        if (derivedFromNodeCharacIdBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          derivedFromNodeCharacId_ = value;
+          onChanged();
+        } else {
+          derivedFromNodeCharacIdBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+       */
+      public Builder setDerivedFromNodeCharacId(
+          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+        if (derivedFromNodeCharacIdBuilder_ == null) {
+          derivedFromNodeCharacId_ = builderForValue.build();
+          onChanged();
+        } else {
+          derivedFromNodeCharacIdBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+       */
+      public Builder mergeDerivedFromNodeCharacId(io.dstore.engine.Values.booleanValue value) {
+        if (derivedFromNodeCharacIdBuilder_ == null) {
+          if (derivedFromNodeCharacId_ != null) {
+            derivedFromNodeCharacId_ =
+              io.dstore.engine.Values.booleanValue.newBuilder(derivedFromNodeCharacId_).mergeFrom(value).buildPartial();
+          } else {
+            derivedFromNodeCharacId_ = value;
+          }
+          onChanged();
+        } else {
+          derivedFromNodeCharacIdBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+       */
+      public Builder clearDerivedFromNodeCharacId() {
+        if (derivedFromNodeCharacIdBuilder_ == null) {
+          derivedFromNodeCharacId_ = null;
+          onChanged();
+        } else {
+          derivedFromNodeCharacId_ = null;
+          derivedFromNodeCharacIdBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+       */
+      public io.dstore.engine.Values.booleanValue.Builder getDerivedFromNodeCharacIdBuilder() {
+        
+        onChanged();
+        return getDerivedFromNodeCharacIdFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+       */
+      public io.dstore.engine.Values.booleanValueOrBuilder getDerivedFromNodeCharacIdOrBuilder() {
+        if (derivedFromNodeCharacIdBuilder_ != null) {
+          return derivedFromNodeCharacIdBuilder_.getMessageOrBuilder();
+        } else {
+          return derivedFromNodeCharacId_ == null ?
+              io.dstore.engine.Values.booleanValue.getDefaultInstance() : derivedFromNodeCharacId_;
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue derived_from_node_charac_id = 7;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          getDerivedFromNodeCharacIdFieldBuilder() {
+        if (derivedFromNodeCharacIdBuilder_ == null) {
+          derivedFromNodeCharacIdBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                  getDerivedFromNodeCharacId(),
+                  getParentForChildren(),
+                  isClean());
+          derivedFromNodeCharacId_ = null;
+        }
+        return derivedFromNodeCharacIdBuilder_;
+      }
+
+      private boolean derivedFromNodeCharacIdNull_ ;
+      /**
+       * <code>optional bool derived_from_node_charac_id_null = 1007;</code>
+       */
+      public boolean getDerivedFromNodeCharacIdNull() {
+        return derivedFromNodeCharacIdNull_;
+      }
+      /**
+       * <code>optional bool derived_from_node_charac_id_null = 1007;</code>
+       */
+      public Builder setDerivedFromNodeCharacIdNull(boolean value) {
+        
+        derivedFromNodeCharacIdNull_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional bool derived_from_node_charac_id_null = 1007;</code>
+       */
+      public Builder clearDerivedFromNodeCharacIdNull() {
+        
+        derivedFromNodeCharacIdNull_ = false;
         onChanged();
         return this;
       }
@@ -3361,7 +3849,7 @@ public final class OmModifyCampaignSurchargesAd {
       "aignSurcharges_Ad.proto\022,dstore.engine.o" +
       "m_ModifyCampaignSurcharges_Ad\032\032dstore/en" +
       "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\"\336\003\n\nPa" +
+      "roto\032\033dstore/engine/message.proto\"\312\005\n\nPa" +
       "rameters\022=\n\021surcharge_type_id\030\001 \001(\0132\".ds" +
       "tore.engine.values.integerValue\022\037\n\026surch" +
       "arge_type_id_null\030\351\007 \001(\010\022;\n\017surcharge_va" +
@@ -3373,15 +3861,21 @@ public final class OmModifyCampaignSurchargesAd {
       "dstore.engine.values.integerValue\022\035\n\024app" +
       "ly_to_option_null\030\354\007 \001(\010\022:\n\016delete_benef" +
       "it\030\005 \001(\0132\".dstore.engine.values.integerV" +
-      "alue\022\034\n\023delete_benefit_null\030\355\007 \001(\010\"\377\001\n\010R" +
-      "esponse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.e" +
-      "rror.Error\022/\n\007message\030\003 \003(\0132\036.dstore.eng" +
-      "ine.message.Message\022G\n\003row\030\004 \003(\0132:.dstor",
-      "e.engine.om_ModifyCampaignSurcharges_Ad." +
-      "Response.Row\0226\n\nbenefit_id\030e \001(\0132\".dstor" +
-      "e.engine.values.integerValue\032\026\n\003Row\022\017\n\006r" +
-      "ow_id\030\220N \001(\005B\030\n\026io.dstore.engine.procsb\006" +
-      "proto3"
+      "alue\022\034\n\023delete_benefit_null\030\355\007 \001(\010\022I\n\035de" +
+      "rived_from_person_charac_id\030\006 \001(\0132\".dsto" +
+      "re.engine.values.booleanValue\022+\n\"derived" +
+      "_from_person_charac_id_null\030\356\007 \001(\010\022G\n\033de",
+      "rived_from_node_charac_id\030\007 \001(\0132\".dstore" +
+      ".engine.values.booleanValue\022)\n derived_f" +
+      "rom_node_charac_id_null\030\357\007 \001(\010\"\377\001\n\010Respo" +
+      "nse\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error" +
+      ".Error\022/\n\007message\030\003 \003(\0132\036.dstore.engine." +
+      "message.Message\022G\n\003row\030\004 \003(\0132:.dstore.en" +
+      "gine.om_ModifyCampaignSurcharges_Ad.Resp" +
+      "onse.Row\0226\n\nbenefit_id\030e \001(\0132\".dstore.en" +
+      "gine.values.integerValue\032\026\n\003Row\022\017\n\006row_i" +
+      "d\030\220N \001(\005B\030\n\026io.dstore.engine.procsb\006prot",
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3403,7 +3897,7 @@ public final class OmModifyCampaignSurchargesAd {
     internal_static_dstore_engine_om_ModifyCampaignSurcharges_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_ModifyCampaignSurcharges_Ad_Parameters_descriptor,
-        new java.lang.String[] { "SurchargeTypeId", "SurchargeTypeIdNull", "SurchargeValue", "SurchargeValueNull", "ItemConditionId", "ItemConditionIdNull", "ApplyToOption", "ApplyToOptionNull", "DeleteBenefit", "DeleteBenefitNull", });
+        new java.lang.String[] { "SurchargeTypeId", "SurchargeTypeIdNull", "SurchargeValue", "SurchargeValueNull", "ItemConditionId", "ItemConditionIdNull", "ApplyToOption", "ApplyToOptionNull", "DeleteBenefit", "DeleteBenefitNull", "DerivedFromPersonCharacId", "DerivedFromPersonCharacIdNull", "DerivedFromNodeCharacId", "DerivedFromNodeCharacIdNull", });
     internal_static_dstore_engine_om_ModifyCampaignSurcharges_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_om_ModifyCampaignSurcharges_Ad_Response_fieldAccessorTable = new

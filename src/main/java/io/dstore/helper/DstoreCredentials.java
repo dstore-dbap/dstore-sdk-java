@@ -3,6 +3,7 @@ package io.dstore.helper;
 import com.google.auth.Credentials;
 
 import java.io.IOException;
+import java.net.URI;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -27,7 +28,7 @@ public class DstoreCredentials extends Credentials {
     }
 
     @Override
-    public Map<String, List<String>> getRequestMetadata() throws IOException {
+    public Map<String, List<String>> getRequestMetadata(URI uri) throws IOException {
         Map<String, List<String>> result = new HashMap<String, List<String>>();
 
         result.put("Username", Collections.singletonList(username));
