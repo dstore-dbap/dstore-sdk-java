@@ -6,6 +6,9 @@ repositories {
     mavenCentral()
 }
 
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
 group = 'io.dstore'
 
 def stdout = new ByteArrayOutputStream()
@@ -44,6 +47,10 @@ dependencies {
     compile "io.grpc:grpc-protobuf:0.9.0"
     compile "io.grpc:grpc-auth:0.9.0"
     compile "io.grpc:grpc-netty:0.9.0"
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.7' //version required
 }
 
 // instructions taken from http://central.sonatype.org/pages/gradle.html
