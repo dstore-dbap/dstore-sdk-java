@@ -1107,2597 +1107,2597 @@ public final class EngineOuterClass {
       "dures/st_ModifyPages_Ad.proto\032=dstore/en" +
       "gine/procedures/st_ModifyPeriodsToKeepSt" +
       "ats_Ad.proto\0325dstore/engine/procedures/s",
-      "t_UpdateStatistics_Ad.proto2\226\251\006\n\006Engine\022" +
-      "[\n\rexecProcedure\022#.dstore.engine.procedu" +
-      "re.Parameters\032!.dstore.engine.procedure." +
-      "Response\"\0000\001\022Y\n\texecBatch\022#.dstore.engin" +
-      "e.procedure.Parameters\032!.dstore.engine.p" +
-      "rocedure.Response\"\000(\0010\001\022\201\001\n\027ac_ChangeAct" +
-      "ionState_Ad\0221.dstore.engine.ac_ChangeAct" +
-      "ionState_Ad.Parameters\032/.dstore.engine.a" +
-      "c_ChangeActionState_Ad.Response\"\0000\001\022u\n\023a" +
-      "c_GetActionLogs_Ad\022-.dstore.engine.ac_Ge",
-      "tActionLogs_Ad.Parameters\032+.dstore.engin" +
-      "e.ac_GetActionLogs_Ad.Response\"\0000\001\022\215\001\n\033a" +
-      "c_GetActionStatusCategs_Ad\0225.dstore.engi" +
-      "ne.ac_GetActionStatusCategs_Ad.Parameter" +
-      "s\0323.dstore.engine.ac_GetActionStatusCate" +
-      "gs_Ad.Response\"\0000\001\022\215\001\n\033ac_GetActionStatu" +
-      "sValues_Ad\0225.dstore.engine.ac_GetActionS" +
-      "tatusValues_Ad.Parameters\0323.dstore.engin" +
-      "e.ac_GetActionStatusValues_Ad.Response\"\000" +
-      "0\001\022l\n\020ac_GetActions_Ad\022*.dstore.engine.a",
-      "c_GetActions_Ad.Parameters\032(.dstore.engi" +
-      "ne.ac_GetActions_Ad.Response\"\0000\001\022\207\001\n\031ac_" +
-      "GetCommandSettingEntry\0223.dstore.engine.a" +
-      "c_GetCommandSettingEntry.Parameters\0321.ds" +
-      "tore.engine.ac_GetCommandSettingEntry.Re" +
-      "sponse\"\0000\001\022\204\001\n\030ac_GetCommandSettings_Ad\022" +
-      "2.dstore.engine.ac_GetCommandSettings_Ad" +
-      ".Parameters\0320.dstore.engine.ac_GetComman" +
-      "dSettings_Ad.Response\"\0000\001\022o\n\021ac_GetComma" +
-      "nds_Ad\022+.dstore.engine.ac_GetCommands_Ad",
-      ".Parameters\032).dstore.engine.ac_GetComman" +
-      "ds_Ad.Response\"\0000\001\022{\n\025ac_InsertActionLog" +
-      "_Ad\022/.dstore.engine.ac_InsertActionLog_A" +
-      "d.Parameters\032-.dstore.engine.ac_InsertAc" +
-      "tionLog_Ad.Response\"\0000\001\022r\n\022ac_InsertActi" +
-      "on_Ad\022,.dstore.engine.ac_InsertAction_Ad" +
-      ".Parameters\032*.dstore.engine.ac_InsertAct" +
-      "ion_Ad.Response\"\0000\001\022\226\001\n\036ac_ModifyActionS" +
-      "tatusValues_Ad\0228.dstore.engine.ac_Modify" +
-      "ActionStatusValues_Ad.Parameters\0326.dstor",
-      "e.engine.ac_ModifyActionStatusValues_Ad." +
-      "Response\"\0000\001\022\215\001\n\033ac_ModifyCommandSetting" +
-      "s_Ad\0225.dstore.engine.ac_ModifyCommandSet" +
-      "tings_Ad.Parameters\0323.dstore.engine.ac_M" +
-      "odifyCommandSettings_Ad.Response\"\0000\001\022x\n\024" +
-      "ac_ModifyCommands_Ad\022..dstore.engine.ac_" +
-      "ModifyCommands_Ad.Parameters\032,.dstore.en" +
-      "gine.ac_ModifyCommands_Ad.Response\"\0000\001\022{" +
-      "\n\025co_CheckStatistics_Ad\022/.dstore.engine." +
-      "co_CheckStatistics_Ad.Parameters\032-.dstor",
-      "e.engine.co_CheckStatistics_Ad.Response\"" +
-      "\0000\001\022\226\001\n\036co_CreateNewCommunityMember_Pu\0228" +
-      ".dstore.engine.co_CreateNewCommunityMemb" +
-      "er_Pu.Parameters\0326.dstore.engine.co_Crea" +
-      "teNewCommunityMember_Pu.Response\"\0000\001\022~\n\026" +
-      "co_CreateNewMessage_Pu\0220.dstore.engine.c" +
-      "o_CreateNewMessage_Pu.Parameters\032..dstor" +
-      "e.engine.co_CreateNewMessage_Pu.Response" +
-      "\"\0000\001\022\215\001\n\033co_DeleteCommunityBinary_Ad\0225.d" +
-      "store.engine.co_DeleteCommunityBinary_Ad",
-      ".Parameters\0323.dstore.engine.co_DeleteCom" +
-      "munityBinary_Ad.Response\"\0000\001\022\215\001\n\033co_Dele" +
-      "teCommunityBinary_Pu\0225.dstore.engine.co_" +
-      "DeleteCommunityBinary_Pu.Parameters\0323.ds" +
-      "tore.engine.co_DeleteCommunityBinary_Pu." +
-      "Response\"\0000\001\022\215\001\n\033co_DeleteInactiveMember" +
-      "s_Ad\0225.dstore.engine.co_DeleteInactiveMe" +
-      "mbers_Ad.Parameters\0323.dstore.engine.co_D" +
-      "eleteInactiveMembers_Ad.Response\"\0000\001\022u\n\023" +
-      "co_DeleteMessage_Pu\022-.dstore.engine.co_D",
-      "eleteMessage_Pu.Parameters\032+.dstore.engi" +
-      "ne.co_DeleteMessage_Pu.Response\"\0000\001\022\215\001\n\033" +
-      "co_DeleteUsersOnlineTime_Ad\0225.dstore.eng" +
-      "ine.co_DeleteUsersOnlineTime_Ad.Paramete" +
-      "rs\0323.dstore.engine.co_DeleteUsersOnlineT" +
-      "ime_Ad.Response\"\0000\001\022\220\001\n\034co_GetBinQuotaIn" +
-      "formation_Pu\0226.dstore.engine.co_GetBinQu" +
-      "otaInformation_Pu.Parameters\0324.dstore.en" +
-      "gine.co_GetBinQuotaInformation_Pu.Respon" +
-      "se\"\0000\001\022\220\001\n\034co_GetBinariesOfOneMember_Ad\022",
-      "6.dstore.engine.co_GetBinariesOfOneMembe" +
-      "r_Ad.Parameters\0324.dstore.engine.co_GetBi" +
-      "nariesOfOneMember_Ad.Response\"\0000\001\022\215\001\n\033co" +
-      "_GetBinaryCatAccessLevels\0225.dstore.engin" +
-      "e.co_GetBinaryCatAccessLevels.Parameters" +
-      "\0323.dstore.engine.co_GetBinaryCatAccessLe" +
-      "vels.Response\"\0000\001\022\207\001\n\031co_GetBinaryCatego" +
-      "ries_Ad\0223.dstore.engine.co_GetBinaryCate" +
-      "gories_Ad.Parameters\0321.dstore.engine.co_" +
-      "GetBinaryCategories_Ad.Response\"\0000\001\022x\n\024c",
-      "o_GetCommunities_Ad\022..dstore.engine.co_G" +
-      "etCommunities_Ad.Parameters\032,.dstore.eng" +
-      "ine.co_GetCommunities_Ad.Response\"\0000\001\022\204\001" +
-      "\n\030co_GetCommunityForums_Ad\0222.dstore.engi" +
-      "ne.co_GetCommunityForums_Ad.Parameters\0320" +
-      ".dstore.engine.co_GetCommunityForums_Ad." +
-      "Response\"\0000\001\022\204\001\n\030co_GetCommunityForums_P" +
-      "u\0222.dstore.engine.co_GetCommunityForums_" +
-      "Pu.Parameters\0320.dstore.engine.co_GetComm" +
-      "unityForums_Pu.Response\"\0000\001\022\223\001\n\035co_GetCo",
-      "mmunityMemberSettings\0227.dstore.engine.co" +
-      "_GetCommunityMemberSettings.Parameters\0325" +
-      ".dstore.engine.co_GetCommunityMemberSett" +
-      "ings.Response\"\0000\001\022\201\001\n\027co_GetCommunitySet" +
-      "tings\0221.dstore.engine.co_GetCommunitySet" +
-      "tings.Parameters\032/.dstore.engine.co_GetC" +
-      "ommunitySettings.Response\"\0000\001\022\220\001\n\034co_Get" +
-      "CommunityStatistics_Ad\0226.dstore.engine.c" +
-      "o_GetCommunityStatistics_Ad.Parameters\0324" +
-      ".dstore.engine.co_GetCommunityStatistics",
-      "_Ad.Response\"\0000\001\022\220\001\n\034co_GetCommunityStat" +
-      "istics_Pu\0226.dstore.engine.co_GetCommunit" +
-      "yStatistics_Pu.Parameters\0324.dstore.engin" +
-      "e.co_GetCommunityStatistics_Pu.Response\"" +
-      "\0000\001\022\223\001\n\035co_GetCurrentlyUsersOnline_Pu\0227." +
-      "dstore.engine.co_GetCurrentlyUsersOnline" +
-      "_Pu.Parameters\0325.dstore.engine.co_GetCur" +
-      "rentlyUsersOnline_Pu.Response\"\0000\001\022\223\001\n\035co" +
-      "_GetLostPasswordQuestion_Pu\0227.dstore.eng" +
-      "ine.co_GetLostPasswordQuestion_Pu.Parame",
-      "ters\0325.dstore.engine.co_GetLostPasswordQ" +
-      "uestion_Pu.Response\"\0000\001\022{\n\025co_GetLostPas" +
-      "sword_Pu\022/.dstore.engine.co_GetLostPassw" +
-      "ord_Pu.Parameters\032-.dstore.engine.co_Get" +
-      "LostPassword_Pu.Response\"\0000\001\022\201\001\n\027co_GetM" +
-      "D5ForBinaryID_Pu\0221.dstore.engine.co_GetM" +
-      "D5ForBinaryID_Pu.Parameters\032/.dstore.eng" +
-      "ine.co_GetMD5ForBinaryID_Pu.Response\"\0000\001" +
-      "\022\201\001\n\027co_GetMemberBinaries_Pu\0221.dstore.en" +
-      "gine.co_GetMemberBinaries_Pu.Parameters\032",
-      "/.dstore.engine.co_GetMemberBinaries_Pu." +
-      "Response\"\0000\001\022\212\001\n\032co_GetMemberInformation" +
-      "_Pu\0224.dstore.engine.co_GetMemberInformat" +
-      "ion_Pu.Parameters\0322.dstore.engine.co_Get" +
-      "MemberInformation_Pu.Response\"\0000\001\022\207\001\n\031co" +
-      "_GetMemberProperties_Pu\0223.dstore.engine." +
-      "co_GetMemberProperties_Pu.Parameters\0321.d" +
-      "store.engine.co_GetMemberProperties_Pu.R" +
-      "esponse\"\0000\001\022\201\001\n\027co_GetMemberSettings_Ad\022" +
-      "1.dstore.engine.co_GetMemberSettings_Ad.",
+      "t_UpdateStatistics_Ad.proto2\212\251\006\n\006Engine\022" +
+      "U\n\rexecProcedure\022\035.dstore.engine.procedu" +
+      "re.Call\032!.dstore.engine.procedure.Respon" +
+      "se\"\0000\001\022S\n\texecBatch\022\035.dstore.engine.proc" +
+      "edure.Call\032!.dstore.engine.procedure.Res" +
+      "ponse\"\000(\0010\001\022\201\001\n\027ac_ChangeActionState_Ad\022" +
+      "1.dstore.engine.ac_ChangeActionState_Ad." +
+      "Parameters\032/.dstore.engine.ac_ChangeActi" +
+      "onState_Ad.Response\"\0000\001\022u\n\023ac_GetActionL" +
+      "ogs_Ad\022-.dstore.engine.ac_GetActionLogs_",
+      "Ad.Parameters\032+.dstore.engine.ac_GetActi" +
+      "onLogs_Ad.Response\"\0000\001\022\215\001\n\033ac_GetActionS" +
+      "tatusCategs_Ad\0225.dstore.engine.ac_GetAct" +
+      "ionStatusCategs_Ad.Parameters\0323.dstore.e" +
+      "ngine.ac_GetActionStatusCategs_Ad.Respon" +
+      "se\"\0000\001\022\215\001\n\033ac_GetActionStatusValues_Ad\0225" +
+      ".dstore.engine.ac_GetActionStatusValues_" +
+      "Ad.Parameters\0323.dstore.engine.ac_GetActi" +
+      "onStatusValues_Ad.Response\"\0000\001\022l\n\020ac_Get" +
+      "Actions_Ad\022*.dstore.engine.ac_GetActions",
+      "_Ad.Parameters\032(.dstore.engine.ac_GetAct" +
+      "ions_Ad.Response\"\0000\001\022\207\001\n\031ac_GetCommandSe" +
+      "ttingEntry\0223.dstore.engine.ac_GetCommand" +
+      "SettingEntry.Parameters\0321.dstore.engine." +
+      "ac_GetCommandSettingEntry.Response\"\0000\001\022\204" +
+      "\001\n\030ac_GetCommandSettings_Ad\0222.dstore.eng" +
+      "ine.ac_GetCommandSettings_Ad.Parameters\032" +
+      "0.dstore.engine.ac_GetCommandSettings_Ad" +
+      ".Response\"\0000\001\022o\n\021ac_GetCommands_Ad\022+.dst" +
+      "ore.engine.ac_GetCommands_Ad.Parameters\032",
+      ").dstore.engine.ac_GetCommands_Ad.Respon" +
+      "se\"\0000\001\022{\n\025ac_InsertActionLog_Ad\022/.dstore" +
+      ".engine.ac_InsertActionLog_Ad.Parameters" +
+      "\032-.dstore.engine.ac_InsertActionLog_Ad.R" +
+      "esponse\"\0000\001\022r\n\022ac_InsertAction_Ad\022,.dsto" +
+      "re.engine.ac_InsertAction_Ad.Parameters\032" +
+      "*.dstore.engine.ac_InsertAction_Ad.Respo" +
+      "nse\"\0000\001\022\226\001\n\036ac_ModifyActionStatusValues_" +
+      "Ad\0228.dstore.engine.ac_ModifyActionStatus" +
+      "Values_Ad.Parameters\0326.dstore.engine.ac_",
+      "ModifyActionStatusValues_Ad.Response\"\0000\001" +
+      "\022\215\001\n\033ac_ModifyCommandSettings_Ad\0225.dstor" +
+      "e.engine.ac_ModifyCommandSettings_Ad.Par" +
+      "ameters\0323.dstore.engine.ac_ModifyCommand" +
+      "Settings_Ad.Response\"\0000\001\022x\n\024ac_ModifyCom" +
+      "mands_Ad\022..dstore.engine.ac_ModifyComman" +
+      "ds_Ad.Parameters\032,.dstore.engine.ac_Modi" +
+      "fyCommands_Ad.Response\"\0000\001\022{\n\025co_CheckSt" +
+      "atistics_Ad\022/.dstore.engine.co_CheckStat" +
+      "istics_Ad.Parameters\032-.dstore.engine.co_",
+      "CheckStatistics_Ad.Response\"\0000\001\022\226\001\n\036co_C" +
+      "reateNewCommunityMember_Pu\0228.dstore.engi" +
+      "ne.co_CreateNewCommunityMember_Pu.Parame" +
+      "ters\0326.dstore.engine.co_CreateNewCommuni" +
+      "tyMember_Pu.Response\"\0000\001\022~\n\026co_CreateNew" +
+      "Message_Pu\0220.dstore.engine.co_CreateNewM" +
+      "essage_Pu.Parameters\032..dstore.engine.co_" +
+      "CreateNewMessage_Pu.Response\"\0000\001\022\215\001\n\033co_" +
+      "DeleteCommunityBinary_Ad\0225.dstore.engine" +
+      ".co_DeleteCommunityBinary_Ad.Parameters\032",
+      "3.dstore.engine.co_DeleteCommunityBinary" +
+      "_Ad.Response\"\0000\001\022\215\001\n\033co_DeleteCommunityB" +
+      "inary_Pu\0225.dstore.engine.co_DeleteCommun" +
+      "ityBinary_Pu.Parameters\0323.dstore.engine." +
+      "co_DeleteCommunityBinary_Pu.Response\"\0000\001" +
+      "\022\215\001\n\033co_DeleteInactiveMembers_Ad\0225.dstor" +
+      "e.engine.co_DeleteInactiveMembers_Ad.Par" +
+      "ameters\0323.dstore.engine.co_DeleteInactiv" +
+      "eMembers_Ad.Response\"\0000\001\022u\n\023co_DeleteMes" +
+      "sage_Pu\022-.dstore.engine.co_DeleteMessage",
+      "_Pu.Parameters\032+.dstore.engine.co_Delete" +
+      "Message_Pu.Response\"\0000\001\022\215\001\n\033co_DeleteUse" +
+      "rsOnlineTime_Ad\0225.dstore.engine.co_Delet" +
+      "eUsersOnlineTime_Ad.Parameters\0323.dstore." +
+      "engine.co_DeleteUsersOnlineTime_Ad.Respo" +
+      "nse\"\0000\001\022\220\001\n\034co_GetBinQuotaInformation_Pu" +
+      "\0226.dstore.engine.co_GetBinQuotaInformati" +
+      "on_Pu.Parameters\0324.dstore.engine.co_GetB" +
+      "inQuotaInformation_Pu.Response\"\0000\001\022\220\001\n\034c" +
+      "o_GetBinariesOfOneMember_Ad\0226.dstore.eng",
+      "ine.co_GetBinariesOfOneMember_Ad.Paramet" +
+      "ers\0324.dstore.engine.co_GetBinariesOfOneM" +
+      "ember_Ad.Response\"\0000\001\022\215\001\n\033co_GetBinaryCa" +
+      "tAccessLevels\0225.dstore.engine.co_GetBina" +
+      "ryCatAccessLevels.Parameters\0323.dstore.en" +
+      "gine.co_GetBinaryCatAccessLevels.Respons" +
+      "e\"\0000\001\022\207\001\n\031co_GetBinaryCategories_Ad\0223.ds" +
+      "tore.engine.co_GetBinaryCategories_Ad.Pa" +
+      "rameters\0321.dstore.engine.co_GetBinaryCat" +
+      "egories_Ad.Response\"\0000\001\022x\n\024co_GetCommuni",
+      "ties_Ad\022..dstore.engine.co_GetCommunitie" +
+      "s_Ad.Parameters\032,.dstore.engine.co_GetCo" +
+      "mmunities_Ad.Response\"\0000\001\022\204\001\n\030co_GetComm" +
+      "unityForums_Ad\0222.dstore.engine.co_GetCom" +
+      "munityForums_Ad.Parameters\0320.dstore.engi" +
+      "ne.co_GetCommunityForums_Ad.Response\"\0000\001" +
+      "\022\204\001\n\030co_GetCommunityForums_Pu\0222.dstore.e" +
+      "ngine.co_GetCommunityForums_Pu.Parameter" +
+      "s\0320.dstore.engine.co_GetCommunityForums_" +
+      "Pu.Response\"\0000\001\022\223\001\n\035co_GetCommunityMembe",
+      "rSettings\0227.dstore.engine.co_GetCommunit" +
+      "yMemberSettings.Parameters\0325.dstore.engi" +
+      "ne.co_GetCommunityMemberSettings.Respons" +
+      "e\"\0000\001\022\201\001\n\027co_GetCommunitySettings\0221.dsto" +
+      "re.engine.co_GetCommunitySettings.Parame" +
+      "ters\032/.dstore.engine.co_GetCommunitySett" +
+      "ings.Response\"\0000\001\022\220\001\n\034co_GetCommunitySta" +
+      "tistics_Ad\0226.dstore.engine.co_GetCommuni" +
+      "tyStatistics_Ad.Parameters\0324.dstore.engi" +
+      "ne.co_GetCommunityStatistics_Ad.Response",
+      "\"\0000\001\022\220\001\n\034co_GetCommunityStatistics_Pu\0226." +
+      "dstore.engine.co_GetCommunityStatistics_" +
+      "Pu.Parameters\0324.dstore.engine.co_GetComm" +
+      "unityStatistics_Pu.Response\"\0000\001\022\223\001\n\035co_G" +
+      "etCurrentlyUsersOnline_Pu\0227.dstore.engin" +
+      "e.co_GetCurrentlyUsersOnline_Pu.Paramete" +
+      "rs\0325.dstore.engine.co_GetCurrentlyUsersO" +
+      "nline_Pu.Response\"\0000\001\022\223\001\n\035co_GetLostPass" +
+      "wordQuestion_Pu\0227.dstore.engine.co_GetLo" +
+      "stPasswordQuestion_Pu.Parameters\0325.dstor",
+      "e.engine.co_GetLostPasswordQuestion_Pu.R" +
+      "esponse\"\0000\001\022{\n\025co_GetLostPassword_Pu\022/.d" +
+      "store.engine.co_GetLostPassword_Pu.Param" +
+      "eters\032-.dstore.engine.co_GetLostPassword" +
+      "_Pu.Response\"\0000\001\022\201\001\n\027co_GetMD5ForBinaryI" +
+      "D_Pu\0221.dstore.engine.co_GetMD5ForBinaryI" +
+      "D_Pu.Parameters\032/.dstore.engine.co_GetMD" +
+      "5ForBinaryID_Pu.Response\"\0000\001\022\201\001\n\027co_GetM" +
+      "emberBinaries_Pu\0221.dstore.engine.co_GetM" +
+      "emberBinaries_Pu.Parameters\032/.dstore.eng",
+      "ine.co_GetMemberBinaries_Pu.Response\"\0000\001" +
+      "\022\212\001\n\032co_GetMemberInformation_Pu\0224.dstore" +
+      ".engine.co_GetMemberInformation_Pu.Param" +
+      "eters\0322.dstore.engine.co_GetMemberInform" +
+      "ation_Pu.Response\"\0000\001\022\207\001\n\031co_GetMemberPr" +
+      "operties_Pu\0223.dstore.engine.co_GetMember" +
+      "Properties_Pu.Parameters\0321.dstore.engine" +
+      ".co_GetMemberProperties_Pu.Response\"\0000\001\022" +
+      "\201\001\n\027co_GetMemberSettings_Ad\0221.dstore.eng" +
+      "ine.co_GetMemberSettings_Ad.Parameters\032/",
+      ".dstore.engine.co_GetMemberSettings_Ad.R" +
+      "esponse\"\0000\001\022\201\001\n\027co_GetMemberSettings_Pu\022" +
+      "1.dstore.engine.co_GetMemberSettings_Pu." +
       "Parameters\032/.dstore.engine.co_GetMemberS" +
-      "ettings_Ad.Response\"\0000\001\022\201\001\n\027co_GetMember" +
-      "Settings_Pu\0221.dstore.engine.co_GetMember" +
-      "Settings_Pu.Parameters\032/.dstore.engine.c" +
-      "o_GetMemberSettings_Pu.Response\"\0000\001\022\207\001\n\031" +
-      "co_GetMemberStatistics_Pu\0223.dstore.engin" +
-      "e.co_GetMemberStatistics_Pu.Parameters\0321" +
-      ".dstore.engine.co_GetMemberStatistics_Pu" +
-      ".Response\"\0000\001\022\220\001\n\034co_GetMessagesOfOneMem" +
-      "ber_Ad\0226.dstore.engine.co_GetMessagesOfO",
-      "neMember_Ad.Parameters\0324.dstore.engine.c" +
-      "o_GetMessagesOfOneMember_Ad.Response\"\0000\001" +
-      "\022o\n\021co_GetMessages_Pu\022+.dstore.engine.co" +
-      "_GetMessages_Pu.Parameters\032).dstore.engi" +
-      "ne.co_GetMessages_Pu.Response\"\0000\001\022~\n\026co_" +
-      "GetNewestMembers_Pu\0220.dstore.engine.co_G" +
-      "etNewestMembers_Pu.Parameters\032..dstore.e" +
-      "ngine.co_GetNewestMembers_Pu.Response\"\0000" +
-      "\001\022{\n\025co_GetOnlineStatus_Pu\022/.dstore.engi" +
-      "ne.co_GetOnlineStatus_Pu.Parameters\032-.ds",
-      "tore.engine.co_GetOnlineStatus_Pu.Respon" +
-      "se\"\0000\001\022\220\001\n\034co_GetOnlineTimeOfMembers_Pu\022" +
-      "6.dstore.engine.co_GetOnlineTimeOfMember" +
-      "s_Pu.Parameters\0324.dstore.engine.co_GetOn" +
-      "lineTimeOfMembers_Pu.Response\"\0000\001\022\223\001\n\035co" +
-      "_GetPublicCommunityStats_Pu\0227.dstore.eng" +
-      "ine.co_GetPublicCommunityStats_Pu.Parame" +
-      "ters\0325.dstore.engine.co_GetPublicCommuni" +
-      "tyStats_Pu.Response\"\0000\001\022\201\001\n\027co_GetRelate" +
-      "dMembers_Pu\0221.dstore.engine.co_GetRelate",
-      "dMembers_Pu.Parameters\032/.dstore.engine.c" +
-      "o_GetRelatedMembers_Pu.Response\"\0000\001\022{\n\025c" +
-      "o_GetSentMessages_Pu\022/.dstore.engine.co_" +
-      "GetSentMessages_Pu.Parameters\032-.dstore.e" +
-      "ngine.co_GetSentMessages_Pu.Response\"\0000\001" +
-      "\022\220\001\n\034co_InsertCommunityMembers_Ad\0226.dsto" +
-      "re.engine.co_InsertCommunityMembers_Ad.P" +
-      "arameters\0324.dstore.engine.co_InsertCommu" +
-      "nityMembers_Ad.Response\"\0000\001\022\220\001\n\034co_Inser" +
-      "tCommunityMembers_Pu\0226.dstore.engine.co_",
-      "InsertCommunityMembers_Pu.Parameters\0324.d" +
-      "store.engine.co_InsertCommunityMembers_P" +
-      "u.Response\"\0000\001\022\204\001\n\030co_InsertNewCommunity" +
-      "_Ad\0222.dstore.engine.co_InsertNewCommunit" +
-      "y_Ad.Parameters\0320.dstore.engine.co_Inser" +
-      "tNewCommunity_Ad.Response\"\0000\001\022\215\001\n\033co_Ins" +
-      "ertNewMemberBinary_Pu\0225.dstore.engine.co" +
-      "_InsertNewMemberBinary_Pu.Parameters\0323.d" +
-      "store.engine.co_InsertNewMemberBinary_Pu" +
-      ".Response\"\0000\001\022\204\001\n\030co_LoginIntoCommunity_",
-      "Pu\0222.dstore.engine.co_LoginIntoCommunity" +
-      "_Pu.Parameters\0320.dstore.engine.co_LoginI" +
-      "ntoCommunity_Pu.Response\"\0000\001\022\215\001\n\033co_Logo" +
-      "utCommunityMember_Ad\0225.dstore.engine.co_" +
-      "LogoutCommunityMember_Ad.Parameters\0323.ds" +
-      "tore.engine.co_LogoutCommunityMember_Ad." +
-      "Response\"\0000\001\022\204\001\n\030co_LogoutOffCommunity_P" +
-      "u\0222.dstore.engine.co_LogoutOffCommunity_" +
-      "Pu.Parameters\0320.dstore.engine.co_LogoutO" +
-      "ffCommunity_Pu.Response\"\0000\001\022\220\001\n\034co_Modif",
-      "yBinaryCategories_Ad\0226.dstore.engine.co_" +
-      "ModifyBinaryCategories_Ad.Parameters\0324.d" +
-      "store.engine.co_ModifyBinaryCategories_A" +
-      "d.Response\"\0000\001\022\201\001\n\027co_ModifyCommunities_" +
-      "Ad\0221.dstore.engine.co_ModifyCommunities_" +
-      "Ad.Parameters\032/.dstore.engine.co_ModifyC" +
-      "ommunities_Ad.Response\"\0000\001\022\215\001\n\033co_Modify" +
-      "CommunityForums_Ad\0225.dstore.engine.co_Mo" +
-      "difyCommunityForums_Ad.Parameters\0323.dsto" +
-      "re.engine.co_ModifyCommunityForums_Ad.Re",
-      "sponse\"\0000\001\022\223\001\n\035co_ModifyCommunitySetting" +
-      "s_Ad\0227.dstore.engine.co_ModifyCommunityS" +
-      "ettings_Ad.Parameters\0325.dstore.engine.co" +
-      "_ModifyCommunitySettings_Ad.Response\"\0000\001" +
-      "\022\212\001\n\032co_ModifyMemberSettings_Ad\0224.dstore" +
-      ".engine.co_ModifyMemberSettings_Ad.Param" +
-      "eters\0322.dstore.engine.co_ModifyMemberSet" +
-      "tings_Ad.Response\"\0000\001\022\212\001\n\032co_ModifyMembe" +
-      "rSettings_Pu\0224.dstore.engine.co_ModifyMe" +
-      "mberSettings_Pu.Parameters\0322.dstore.engi",
-      "ne.co_ModifyMemberSettings_Pu.Response\"\000" +
-      "0\001\022\212\001\n\032co_SearchMemberSettings_Ad\0224.dsto" +
-      "re.engine.co_SearchMemberSettings_Ad.Par" +
-      "ameters\0322.dstore.engine.co_SearchMemberS" +
-      "ettings_Ad.Response\"\0000\001\022u\n\023co_SearchMemb" +
-      "ers_Ad\022-.dstore.engine.co_SearchMembers_" +
-      "Ad.Parameters\032+.dstore.engine.co_SearchM" +
-      "embers_Ad.Response\"\0000\001\022u\n\023co_SearchMembe" +
-      "rs_Pu\022-.dstore.engine.co_SearchMembers_P" +
-      "u.Parameters\032+.dstore.engine.co_SearchMe",
-      "mbers_Pu.Response\"\0000\001\022o\n\021do_GetGlossary_" +
-      "Ad\022+.dstore.engine.do_GetGlossary_Ad.Par" +
-      "ameters\032).dstore.engine.do_GetGlossary_A" +
-      "d.Response\"\0000\001\022\226\001\n\036do_GetProcResSortCond" +
-      "itions_Ad\0228.dstore.engine.do_GetProcResS" +
-      "ortConditions_Ad.Parameters\0326.dstore.eng" +
-      "ine.do_GetProcResSortConditions_Ad.Respo" +
-      "nse\"\0000\001\022\223\001\n\035do_GetProcResultConditions_A" +
-      "d\0227.dstore.engine.do_GetProcResultCondit" +
-      "ions_Ad.Parameters\0325.dstore.engine.do_Ge",
-      "tProcResultConditions_Ad.Response\"\0000\001\022\220\001" +
-      "\n\034do_GetProcedureCategories_Ad\0226.dstore." +
-      "engine.do_GetProcedureCategories_Ad.Para" +
-      "meters\0324.dstore.engine.do_GetProcedureCa" +
-      "tegories_Ad.Response\"\0000\001\022\226\001\n\036do_GetProce" +
-      "dureDependencies_Ad\0228.dstore.engine.do_G" +
-      "etProcedureDependencies_Ad.Parameters\0326." +
-      "dstore.engine.do_GetProcedureDependencie" +
-      "s_Ad.Response\"\0000\001\022~\n\026do_GetProcedureDocu" +
-      "_Ad\0220.dstore.engine.do_GetProcedureDocu_",
-      "Ad.Parameters\032..dstore.engine.do_GetProc" +
-      "edureDocu_Ad.Response\"\0000\001\022\207\001\n\031do_GetProc" +
-      "edureHistory_Ad\0223.dstore.engine.do_GetPr" +
-      "ocedureHistory_Ad.Parameters\0321.dstore.en" +
-      "gine.do_GetProcedureHistory_Ad.Response\"" +
-      "\0000\001\022\201\001\n\027do_GetProcedureNames_Ad\0221.dstore" +
-      ".engine.do_GetProcedureNames_Ad.Paramete" +
-      "rs\032/.dstore.engine.do_GetProcedureNames_" +
-      "Ad.Response\"\0000\001\022\220\001\n\034do_GetProcedureParam" +
-      "eters_Ad\0226.dstore.engine.do_GetProcedure",
-      "Parameters_Ad.Parameters\0324.dstore.engine" +
-      ".do_GetProcedureParameters_Ad.Response\"\000" +
-      "0\001\022\220\001\n\034do_GetProcedureResultSets_Ad\0226.ds" +
-      "tore.engine.do_GetProcedureResultSets_Ad" +
-      ".Parameters\0324.dstore.engine.do_GetProced" +
-      "ureResultSets_Ad.Response\"\0000\001\022\223\001\n\035do_Get" +
-      "ProcedureReturnCodes_Ad\0227.dstore.engine." +
-      "do_GetProcedureReturnCodes_Ad.Parameters" +
-      "\0325.dstore.engine.do_GetProcedureReturnCo" +
-      "des_Ad.Response\"\0000\001\022\201\001\n\027do_GetProcedureT",
-      "ypes_Ad\0221.dstore.engine.do_GetProcedureT" +
-      "ypes_Ad.Parameters\032/.dstore.engine.do_Ge" +
-      "tProcedureTypes_Ad.Response\"\0000\001\022\223\001\n\035do_G" +
-      "etReturnCodeCategories_Ad\0227.dstore.engin" +
-      "e.do_GetReturnCodeCategories_Ad.Paramete" +
-      "rs\0325.dstore.engine.do_GetReturnCodeCateg" +
-      "ories_Ad.Response\"\0000\001\022x\n\024do_GetReturnCod" +
-      "es_Ad\022..dstore.engine.do_GetReturnCodes_" +
-      "Ad.Parameters\032,.dstore.engine.do_GetRetu" +
-      "rnCodes_Ad.Response\"\0000\001\022\226\001\n\036do_GetSQLFun",
-      "ctionParameters_Ad\0228.dstore.engine.do_Ge" +
-      "tSQLFunctionParameters_Ad.Parameters\0326.d" +
-      "store.engine.do_GetSQLFunctionParameters" +
-      "_Ad.Response\"\0000\001\022\223\001\n\035do_GetSettingsDescr" +
-      "iptions_Ad\0227.dstore.engine.do_GetSetting" +
-      "sDescriptions_Ad.Parameters\0325.dstore.eng" +
-      "ine.do_GetSettingsDescriptions_Ad.Respon" +
-      "se\"\0000\001\022\212\001\n\032do_GetSettingsEntryCats_Ad\0224." +
-      "dstore.engine.do_GetSettingsEntryCats_Ad" +
-      ".Parameters\0322.dstore.engine.do_GetSettin",
-      "gsEntryCats_Ad.Response\"\0000\001\022\226\001\n\036do_GetSo" +
-      "rtOrderForResultSet_Ad\0228.dstore.engine.d" +
-      "o_GetSortOrderForResultSet_Ad.Parameters" +
-      "\0326.dstore.engine.do_GetSortOrderForResul" +
-      "tSet_Ad.Response\"\0000\001\022\204\001\n\030do_GetTableCate" +
-      "gories_Ad\0222.dstore.engine.do_GetTableCat" +
-      "egories_Ad.Parameters\0320.dstore.engine.do" +
-      "_GetTableCategories_Ad.Response\"\0000\001\022\204\001\n\030" +
-      "do_GetdStoreLanguages_Ad\0222.dstore.engine" +
-      ".do_GetdStoreLanguages_Ad.Parameters\0320.d",
-      "store.engine.do_GetdStoreLanguages_Ad.Re" +
-      "sponse\"\0000\001\022{\n\025do_GetdStoreTables_Ad\022/.ds" +
-      "tore.engine.do_GetdStoreTables_Ad.Parame" +
-      "ters\032-.dstore.engine.do_GetdStoreTables_" +
-      "Ad.Response\"\0000\001\022\201\001\n\027do_GetdStoreVersions" +
-      "_Ad\0221.dstore.engine.do_GetdStoreVersions" +
-      "_Ad.Parameters\032/.dstore.engine.do_GetdSt" +
-      "oreVersions_Ad.Response\"\0000\001\022~\n\026fo_CheckF" +
-      "orumAccess_Pu\0220.dstore.engine.fo_CheckFo" +
-      "rumAccess_Pu.Parameters\032..dstore.engine.",
-      "fo_CheckForumAccess_Pu.Response\"\0000\001\022o\n\021f" +
-      "o_CopyPosting_Pu\022+.dstore.engine.fo_Copy" +
-      "Posting_Pu.Parameters\032).dstore.engine.fo" +
-      "_CopyPosting_Pu.Response\"\0000\001\022\207\001\n\031fo_Dele" +
-      "tePostingBinary_Pu\0223.dstore.engine.fo_De" +
-      "letePostingBinary_Pu.Parameters\0321.dstore" +
-      ".engine.fo_DeletePostingBinary_Pu.Respon" +
-      "se\"\0000\001\022\220\001\n\034fo_GetForumAccessLevelIDs_Ad\022" +
-      "6.dstore.engine.fo_GetForumAccessLevelID" +
-      "s_Ad.Parameters\0324.dstore.engine.fo_GetFo",
-      "rumAccessLevelIDs_Ad.Response\"\0000\001\022\220\001\n\034fo" +
-      "_GetForumAccessLevelIDs_Pu\0226.dstore.engi" +
-      "ne.fo_GetForumAccessLevelIDs_Pu.Paramete" +
-      "rs\0324.dstore.engine.fo_GetForumAccessLeve" +
-      "lIDs_Pu.Response\"\0000\001\022\201\001\n\027fo_GetForumAcce" +
-      "ssLevels\0221.dstore.engine.fo_GetForumAcce" +
-      "ssLevels.Parameters\032/.dstore.engine.fo_G" +
-      "etForumAccessLevels.Response\"\0000\001\022\212\001\n\032fo_" +
-      "GetForumAccessMatrix_Ad\0224.dstore.engine." +
-      "fo_GetForumAccessMatrix_Ad.Parameters\0322.",
-      "dstore.engine.fo_GetForumAccessMatrix_Ad" +
-      ".Response\"\0000\001\022\204\001\n\030fo_GetForumCategories_" +
-      "Ad\0222.dstore.engine.fo_GetForumCategories" +
-      "_Ad.Parameters\0320.dstore.engine.fo_GetFor" +
-      "umCategories_Ad.Response\"\0000\001\022\204\001\n\030fo_GetF" +
-      "orumCategories_Pu\0222.dstore.engine.fo_Get" +
-      "ForumCategories_Pu.Parameters\0320.dstore.e" +
-      "ngine.fo_GetForumCategories_Pu.Response\"" +
-      "\0000\001\022~\n\026fo_GetForumSettings_Ad\0220.dstore.e" +
-      "ngine.fo_GetForumSettings_Ad.Parameters\032",
-      "..dstore.engine.fo_GetForumSettings_Ad.R" +
-      "esponse\"\0000\001\022~\n\026fo_GetForumSettings_Pu\0220." +
-      "dstore.engine.fo_GetForumSettings_Pu.Par" +
-      "ameters\032..dstore.engine.fo_GetForumSetti" +
-      "ngs_Pu.Response\"\0000\001\022\204\001\n\030fo_GetForumStati" +
-      "stics_Ad\0222.dstore.engine.fo_GetForumStat" +
-      "istics_Ad.Parameters\0320.dstore.engine.fo_" +
-      "GetForumStatistics_Ad.Response\"\0000\001\022\204\001\n\030f" +
-      "o_GetForumStatistics_Pu\0222.dstore.engine." +
-      "fo_GetForumStatistics_Pu.Parameters\0320.ds",
-      "tore.engine.fo_GetForumStatistics_Pu.Res" +
-      "ponse\"\0000\001\022i\n\017fo_GetForums_Ad\022).dstore.en" +
-      "gine.fo_GetForums_Ad.Parameters\032\'.dstore" +
-      ".engine.fo_GetForums_Ad.Response\"\0000\001\022i\n\017" +
-      "fo_GetForums_Pu\022).dstore.engine.fo_GetFo" +
-      "rums_Pu.Parameters\032\'.dstore.engine.fo_Ge" +
-      "tForums_Pu.Response\"\0000\001\022\223\001\n\035fo_GetMainPo" +
-      "stSortCriteria_Ad\0227.dstore.engine.fo_Get" +
-      "MainPostSortCriteria_Ad.Parameters\0325.dst" +
-      "ore.engine.fo_GetMainPostSortCriteria_Ad",
-      ".Response\"\0000\001\022{\n\025fo_GetMainPostings_Pu\022/" +
-      ".dstore.engine.fo_GetMainPostings_Pu.Par" +
-      "ameters\032-.dstore.engine.fo_GetMainPostin" +
-      "gs_Pu.Response\"\0000\001\022\204\001\n\030fo_GetPostingBina" +
-      "ries_Pu\0222.dstore.engine.fo_GetPostingBin" +
-      "aries_Pu.Parameters\0320.dstore.engine.fo_G" +
-      "etPostingBinaries_Pu.Response\"\0000\001\022\201\001\n\027fo" +
-      "_GetPostingCharacs_Ad\0221.dstore.engine.fo" +
-      "_GetPostingCharacs_Ad.Parameters\032/.dstor" +
-      "e.engine.fo_GetPostingCharacs_Ad.Respons",
-      "e\"\0000\001\022\201\001\n\027fo_GetPostingCharacs_Pu\0221.dsto" +
-      "re.engine.fo_GetPostingCharacs_Pu.Parame" +
-      "ters\032/.dstore.engine.fo_GetPostingCharac" +
-      "s_Pu.Response\"\0000\001\022\212\001\n\032fo_GetPostingPrope" +
-      "rties_Pu\0224.dstore.engine.fo_GetPostingPr" +
-      "operties_Pu.Parameters\0322.dstore.engine.f" +
-      "o_GetPostingProperties_Pu.Response\"\0000\001\022\201" +
-      "\001\n\027fo_GetPostingReplies_Pu\0221.dstore.engi" +
-      "ne.fo_GetPostingReplies_Pu.Parameters\032/." +
-      "dstore.engine.fo_GetPostingReplies_Pu.Re",
-      "sponse\"\0000\001\022~\n\026fo_GetPostingThread_Pu\0220.d" +
-      "store.engine.fo_GetPostingThread_Pu.Para" +
-      "meters\032..dstore.engine.fo_GetPostingThre" +
-      "ad_Pu.Response\"\0000\001\022\207\001\n\031fo_GetPostingVisi" +
-      "bilities\0223.dstore.engine.fo_GetPostingVi" +
-      "sibilities.Parameters\0321.dstore.engine.fo" +
-      "_GetPostingVisibilities.Response\"\0000\001\022l\n\020" +
-      "fo_GetPosting_Pu\022*.dstore.engine.fo_GetP" +
-      "osting_Pu.Parameters\032(.dstore.engine.fo_" +
-      "GetPosting_Pu.Response\"\0000\001\022\220\001\n\034fo_GetPos",
-      "tingsOfOnePerson_Ad\0226.dstore.engine.fo_G" +
-      "etPostingsOfOnePerson_Ad.Parameters\0324.ds" +
-      "tore.engine.fo_GetPostingsOfOnePerson_Ad" +
-      ".Response\"\0000\001\022\220\001\n\034fo_GetPostingsOfOnePer" +
-      "son_Pu\0226.dstore.engine.fo_GetPostingsOfO" +
-      "nePerson_Pu.Parameters\0324.dstore.engine.f" +
-      "o_GetPostingsOfOnePerson_Pu.Response\"\0000\001" +
-      "\022\215\001\n\033fo_GetPredValsForCharacs_Ad\0225.dstor" +
-      "e.engine.fo_GetPredValsForCharacs_Ad.Par" +
-      "ameters\0323.dstore.engine.fo_GetPredValsFo",
-      "rCharacs_Ad.Response\"\0000\001\022\215\001\n\033fo_GetPredV" +
-      "alsForCharacs_Pu\0225.dstore.engine.fo_GetP" +
-      "redValsForCharacs_Pu.Parameters\0323.dstore" +
-      ".engine.fo_GetPredValsForCharacs_Pu.Resp" +
-      "onse\"\0000\001\022\220\001\n\034fo_InsertBinaryForPosting_P" +
-      "u\0226.dstore.engine.fo_InsertBinaryForPost" +
-      "ing_Pu.Parameters\0324.dstore.engine.fo_Ins" +
-      "ertBinaryForPosting_Pu.Response\"\0000\001\022u\n\023f" +
-      "o_InsertPosting_Pu\022-.dstore.engine.fo_In" +
-      "sertPosting_Pu.Parameters\032+.dstore.engin",
-      "e.fo_InsertPosting_Pu.Response\"\0000\001\022\226\001\n\036f" +
-      "o_ModifyCharacForForumCats_Ad\0228.dstore.e" +
-      "ngine.fo_ModifyCharacForForumCats_Ad.Par" +
-      "ameters\0326.dstore.engine.fo_ModifyCharacF" +
-      "orForumCats_Ad.Response\"\0000\001\022\220\001\n\034fo_Modif" +
-      "yCharacsForForums_Ad\0226.dstore.engine.fo_" +
-      "ModifyCharacsForForums_Ad.Parameters\0324.d" +
-      "store.engine.fo_ModifyCharacsForForums_A" +
+      "ettings_Pu.Response\"\0000\001\022\207\001\n\031co_GetMember" +
+      "Statistics_Pu\0223.dstore.engine.co_GetMemb" +
+      "erStatistics_Pu.Parameters\0321.dstore.engi" +
+      "ne.co_GetMemberStatistics_Pu.Response\"\0000" +
+      "\001\022\220\001\n\034co_GetMessagesOfOneMember_Ad\0226.dst" +
+      "ore.engine.co_GetMessagesOfOneMember_Ad.",
+      "Parameters\0324.dstore.engine.co_GetMessage" +
+      "sOfOneMember_Ad.Response\"\0000\001\022o\n\021co_GetMe" +
+      "ssages_Pu\022+.dstore.engine.co_GetMessages" +
+      "_Pu.Parameters\032).dstore.engine.co_GetMes" +
+      "sages_Pu.Response\"\0000\001\022~\n\026co_GetNewestMem" +
+      "bers_Pu\0220.dstore.engine.co_GetNewestMemb" +
+      "ers_Pu.Parameters\032..dstore.engine.co_Get" +
+      "NewestMembers_Pu.Response\"\0000\001\022{\n\025co_GetO" +
+      "nlineStatus_Pu\022/.dstore.engine.co_GetOnl" +
+      "ineStatus_Pu.Parameters\032-.dstore.engine.",
+      "co_GetOnlineStatus_Pu.Response\"\0000\001\022\220\001\n\034c" +
+      "o_GetOnlineTimeOfMembers_Pu\0226.dstore.eng" +
+      "ine.co_GetOnlineTimeOfMembers_Pu.Paramet" +
+      "ers\0324.dstore.engine.co_GetOnlineTimeOfMe" +
+      "mbers_Pu.Response\"\0000\001\022\223\001\n\035co_GetPublicCo" +
+      "mmunityStats_Pu\0227.dstore.engine.co_GetPu" +
+      "blicCommunityStats_Pu.Parameters\0325.dstor" +
+      "e.engine.co_GetPublicCommunityStats_Pu.R" +
+      "esponse\"\0000\001\022\201\001\n\027co_GetRelatedMembers_Pu\022" +
+      "1.dstore.engine.co_GetRelatedMembers_Pu.",
+      "Parameters\032/.dstore.engine.co_GetRelated" +
+      "Members_Pu.Response\"\0000\001\022{\n\025co_GetSentMes" +
+      "sages_Pu\022/.dstore.engine.co_GetSentMessa" +
+      "ges_Pu.Parameters\032-.dstore.engine.co_Get" +
+      "SentMessages_Pu.Response\"\0000\001\022\220\001\n\034co_Inse" +
+      "rtCommunityMembers_Ad\0226.dstore.engine.co" +
+      "_InsertCommunityMembers_Ad.Parameters\0324." +
+      "dstore.engine.co_InsertCommunityMembers_" +
+      "Ad.Response\"\0000\001\022\220\001\n\034co_InsertCommunityMe" +
+      "mbers_Pu\0226.dstore.engine.co_InsertCommun",
+      "ityMembers_Pu.Parameters\0324.dstore.engine" +
+      ".co_InsertCommunityMembers_Pu.Response\"\000" +
+      "0\001\022\204\001\n\030co_InsertNewCommunity_Ad\0222.dstore" +
+      ".engine.co_InsertNewCommunity_Ad.Paramet" +
+      "ers\0320.dstore.engine.co_InsertNewCommunit" +
+      "y_Ad.Response\"\0000\001\022\215\001\n\033co_InsertNewMember" +
+      "Binary_Pu\0225.dstore.engine.co_InsertNewMe" +
+      "mberBinary_Pu.Parameters\0323.dstore.engine" +
+      ".co_InsertNewMemberBinary_Pu.Response\"\0000" +
+      "\001\022\204\001\n\030co_LoginIntoCommunity_Pu\0222.dstore.",
+      "engine.co_LoginIntoCommunity_Pu.Paramete" +
+      "rs\0320.dstore.engine.co_LoginIntoCommunity" +
+      "_Pu.Response\"\0000\001\022\215\001\n\033co_LogoutCommunityM" +
+      "ember_Ad\0225.dstore.engine.co_LogoutCommun" +
+      "ityMember_Ad.Parameters\0323.dstore.engine." +
+      "co_LogoutCommunityMember_Ad.Response\"\0000\001" +
+      "\022\204\001\n\030co_LogoutOffCommunity_Pu\0222.dstore.e" +
+      "ngine.co_LogoutOffCommunity_Pu.Parameter" +
+      "s\0320.dstore.engine.co_LogoutOffCommunity_" +
+      "Pu.Response\"\0000\001\022\220\001\n\034co_ModifyBinaryCateg",
+      "ories_Ad\0226.dstore.engine.co_ModifyBinary" +
+      "Categories_Ad.Parameters\0324.dstore.engine" +
+      ".co_ModifyBinaryCategories_Ad.Response\"\000" +
+      "0\001\022\201\001\n\027co_ModifyCommunities_Ad\0221.dstore." +
+      "engine.co_ModifyCommunities_Ad.Parameter" +
+      "s\032/.dstore.engine.co_ModifyCommunities_A" +
+      "d.Response\"\0000\001\022\215\001\n\033co_ModifyCommunityFor" +
+      "ums_Ad\0225.dstore.engine.co_ModifyCommunit" +
+      "yForums_Ad.Parameters\0323.dstore.engine.co" +
+      "_ModifyCommunityForums_Ad.Response\"\0000\001\022\223",
+      "\001\n\035co_ModifyCommunitySettings_Ad\0227.dstor" +
+      "e.engine.co_ModifyCommunitySettings_Ad.P" +
+      "arameters\0325.dstore.engine.co_ModifyCommu" +
+      "nitySettings_Ad.Response\"\0000\001\022\212\001\n\032co_Modi" +
+      "fyMemberSettings_Ad\0224.dstore.engine.co_M" +
+      "odifyMemberSettings_Ad.Parameters\0322.dsto" +
+      "re.engine.co_ModifyMemberSettings_Ad.Res" +
+      "ponse\"\0000\001\022\212\001\n\032co_ModifyMemberSettings_Pu" +
+      "\0224.dstore.engine.co_ModifyMemberSettings" +
+      "_Pu.Parameters\0322.dstore.engine.co_Modify",
+      "MemberSettings_Pu.Response\"\0000\001\022\212\001\n\032co_Se" +
+      "archMemberSettings_Ad\0224.dstore.engine.co" +
+      "_SearchMemberSettings_Ad.Parameters\0322.ds" +
+      "tore.engine.co_SearchMemberSettings_Ad.R" +
+      "esponse\"\0000\001\022u\n\023co_SearchMembers_Ad\022-.dst" +
+      "ore.engine.co_SearchMembers_Ad.Parameter" +
+      "s\032+.dstore.engine.co_SearchMembers_Ad.Re" +
+      "sponse\"\0000\001\022u\n\023co_SearchMembers_Pu\022-.dsto" +
+      "re.engine.co_SearchMembers_Pu.Parameters" +
+      "\032+.dstore.engine.co_SearchMembers_Pu.Res",
+      "ponse\"\0000\001\022o\n\021do_GetGlossary_Ad\022+.dstore." +
+      "engine.do_GetGlossary_Ad.Parameters\032).ds" +
+      "tore.engine.do_GetGlossary_Ad.Response\"\000" +
+      "0\001\022\226\001\n\036do_GetProcResSortConditions_Ad\0228." +
+      "dstore.engine.do_GetProcResSortCondition" +
+      "s_Ad.Parameters\0326.dstore.engine.do_GetPr" +
+      "ocResSortConditions_Ad.Response\"\0000\001\022\223\001\n\035" +
+      "do_GetProcResultConditions_Ad\0227.dstore.e" +
+      "ngine.do_GetProcResultConditions_Ad.Para" +
+      "meters\0325.dstore.engine.do_GetProcResultC",
+      "onditions_Ad.Response\"\0000\001\022\220\001\n\034do_GetProc" +
+      "edureCategories_Ad\0226.dstore.engine.do_Ge" +
+      "tProcedureCategories_Ad.Parameters\0324.dst" +
+      "ore.engine.do_GetProcedureCategories_Ad." +
+      "Response\"\0000\001\022\226\001\n\036do_GetProcedureDependen" +
+      "cies_Ad\0228.dstore.engine.do_GetProcedureD" +
+      "ependencies_Ad.Parameters\0326.dstore.engin" +
+      "e.do_GetProcedureDependencies_Ad.Respons" +
+      "e\"\0000\001\022~\n\026do_GetProcedureDocu_Ad\0220.dstore" +
+      ".engine.do_GetProcedureDocu_Ad.Parameter",
+      "s\032..dstore.engine.do_GetProcedureDocu_Ad" +
+      ".Response\"\0000\001\022\207\001\n\031do_GetProcedureHistory" +
+      "_Ad\0223.dstore.engine.do_GetProcedureHisto" +
+      "ry_Ad.Parameters\0321.dstore.engine.do_GetP" +
+      "rocedureHistory_Ad.Response\"\0000\001\022\201\001\n\027do_G" +
+      "etProcedureNames_Ad\0221.dstore.engine.do_G" +
+      "etProcedureNames_Ad.Parameters\032/.dstore." +
+      "engine.do_GetProcedureNames_Ad.Response\"" +
+      "\0000\001\022\220\001\n\034do_GetProcedureParameters_Ad\0226.d" +
+      "store.engine.do_GetProcedureParameters_A",
+      "d.Parameters\0324.dstore.engine.do_GetProce" +
+      "dureParameters_Ad.Response\"\0000\001\022\220\001\n\034do_Ge" +
+      "tProcedureResultSets_Ad\0226.dstore.engine." +
+      "do_GetProcedureResultSets_Ad.Parameters\032" +
+      "4.dstore.engine.do_GetProcedureResultSet" +
+      "s_Ad.Response\"\0000\001\022\223\001\n\035do_GetProcedureRet" +
+      "urnCodes_Ad\0227.dstore.engine.do_GetProced" +
+      "ureReturnCodes_Ad.Parameters\0325.dstore.en" +
+      "gine.do_GetProcedureReturnCodes_Ad.Respo" +
+      "nse\"\0000\001\022\201\001\n\027do_GetProcedureTypes_Ad\0221.ds",
+      "tore.engine.do_GetProcedureTypes_Ad.Para" +
+      "meters\032/.dstore.engine.do_GetProcedureTy" +
+      "pes_Ad.Response\"\0000\001\022\223\001\n\035do_GetReturnCode" +
+      "Categories_Ad\0227.dstore.engine.do_GetRetu" +
+      "rnCodeCategories_Ad.Parameters\0325.dstore." +
+      "engine.do_GetReturnCodeCategories_Ad.Res" +
+      "ponse\"\0000\001\022x\n\024do_GetReturnCodes_Ad\022..dsto" +
+      "re.engine.do_GetReturnCodes_Ad.Parameter" +
+      "s\032,.dstore.engine.do_GetReturnCodes_Ad.R" +
+      "esponse\"\0000\001\022\226\001\n\036do_GetSQLFunctionParamet",
+      "ers_Ad\0228.dstore.engine.do_GetSQLFunction" +
+      "Parameters_Ad.Parameters\0326.dstore.engine" +
+      ".do_GetSQLFunctionParameters_Ad.Response" +
+      "\"\0000\001\022\223\001\n\035do_GetSettingsDescriptions_Ad\0227" +
+      ".dstore.engine.do_GetSettingsDescription" +
+      "s_Ad.Parameters\0325.dstore.engine.do_GetSe" +
+      "ttingsDescriptions_Ad.Response\"\0000\001\022\212\001\n\032d" +
+      "o_GetSettingsEntryCats_Ad\0224.dstore.engin" +
+      "e.do_GetSettingsEntryCats_Ad.Parameters\032" +
+      "2.dstore.engine.do_GetSettingsEntryCats_",
+      "Ad.Response\"\0000\001\022\226\001\n\036do_GetSortOrderForRe" +
+      "sultSet_Ad\0228.dstore.engine.do_GetSortOrd" +
+      "erForResultSet_Ad.Parameters\0326.dstore.en" +
+      "gine.do_GetSortOrderForResultSet_Ad.Resp" +
+      "onse\"\0000\001\022\204\001\n\030do_GetTableCategories_Ad\0222." +
+      "dstore.engine.do_GetTableCategories_Ad.P" +
+      "arameters\0320.dstore.engine.do_GetTableCat" +
+      "egories_Ad.Response\"\0000\001\022\204\001\n\030do_GetdStore" +
+      "Languages_Ad\0222.dstore.engine.do_GetdStor" +
+      "eLanguages_Ad.Parameters\0320.dstore.engine",
+      ".do_GetdStoreLanguages_Ad.Response\"\0000\001\022{" +
+      "\n\025do_GetdStoreTables_Ad\022/.dstore.engine." +
+      "do_GetdStoreTables_Ad.Parameters\032-.dstor" +
+      "e.engine.do_GetdStoreTables_Ad.Response\"" +
+      "\0000\001\022\201\001\n\027do_GetdStoreVersions_Ad\0221.dstore" +
+      ".engine.do_GetdStoreVersions_Ad.Paramete" +
+      "rs\032/.dstore.engine.do_GetdStoreVersions_" +
+      "Ad.Response\"\0000\001\022~\n\026fo_CheckForumAccess_P" +
+      "u\0220.dstore.engine.fo_CheckForumAccess_Pu" +
+      ".Parameters\032..dstore.engine.fo_CheckForu",
+      "mAccess_Pu.Response\"\0000\001\022o\n\021fo_CopyPostin" +
+      "g_Pu\022+.dstore.engine.fo_CopyPosting_Pu.P" +
+      "arameters\032).dstore.engine.fo_CopyPosting" +
+      "_Pu.Response\"\0000\001\022\207\001\n\031fo_DeletePostingBin" +
+      "ary_Pu\0223.dstore.engine.fo_DeletePostingB" +
+      "inary_Pu.Parameters\0321.dstore.engine.fo_D" +
+      "eletePostingBinary_Pu.Response\"\0000\001\022\220\001\n\034f" +
+      "o_GetForumAccessLevelIDs_Ad\0226.dstore.eng" +
+      "ine.fo_GetForumAccessLevelIDs_Ad.Paramet" +
+      "ers\0324.dstore.engine.fo_GetForumAccessLev",
+      "elIDs_Ad.Response\"\0000\001\022\220\001\n\034fo_GetForumAcc" +
+      "essLevelIDs_Pu\0226.dstore.engine.fo_GetFor" +
+      "umAccessLevelIDs_Pu.Parameters\0324.dstore." +
+      "engine.fo_GetForumAccessLevelIDs_Pu.Resp" +
+      "onse\"\0000\001\022\201\001\n\027fo_GetForumAccessLevels\0221.d" +
+      "store.engine.fo_GetForumAccessLevels.Par" +
+      "ameters\032/.dstore.engine.fo_GetForumAcces" +
+      "sLevels.Response\"\0000\001\022\212\001\n\032fo_GetForumAcce" +
+      "ssMatrix_Ad\0224.dstore.engine.fo_GetForumA" +
+      "ccessMatrix_Ad.Parameters\0322.dstore.engin",
+      "e.fo_GetForumAccessMatrix_Ad.Response\"\0000" +
+      "\001\022\204\001\n\030fo_GetForumCategories_Ad\0222.dstore." +
+      "engine.fo_GetForumCategories_Ad.Paramete" +
+      "rs\0320.dstore.engine.fo_GetForumCategories" +
+      "_Ad.Response\"\0000\001\022\204\001\n\030fo_GetForumCategori" +
+      "es_Pu\0222.dstore.engine.fo_GetForumCategor" +
+      "ies_Pu.Parameters\0320.dstore.engine.fo_Get" +
+      "ForumCategories_Pu.Response\"\0000\001\022~\n\026fo_Ge" +
+      "tForumSettings_Ad\0220.dstore.engine.fo_Get" +
+      "ForumSettings_Ad.Parameters\032..dstore.eng",
+      "ine.fo_GetForumSettings_Ad.Response\"\0000\001\022" +
+      "~\n\026fo_GetForumSettings_Pu\0220.dstore.engin" +
+      "e.fo_GetForumSettings_Pu.Parameters\032..ds" +
+      "tore.engine.fo_GetForumSettings_Pu.Respo" +
+      "nse\"\0000\001\022\204\001\n\030fo_GetForumStatistics_Ad\0222.d" +
+      "store.engine.fo_GetForumStatistics_Ad.Pa" +
+      "rameters\0320.dstore.engine.fo_GetForumStat" +
+      "istics_Ad.Response\"\0000\001\022\204\001\n\030fo_GetForumSt" +
+      "atistics_Pu\0222.dstore.engine.fo_GetForumS" +
+      "tatistics_Pu.Parameters\0320.dstore.engine.",
+      "fo_GetForumStatistics_Pu.Response\"\0000\001\022i\n" +
+      "\017fo_GetForums_Ad\022).dstore.engine.fo_GetF" +
+      "orums_Ad.Parameters\032\'.dstore.engine.fo_G" +
+      "etForums_Ad.Response\"\0000\001\022i\n\017fo_GetForums" +
+      "_Pu\022).dstore.engine.fo_GetForums_Pu.Para" +
+      "meters\032\'.dstore.engine.fo_GetForums_Pu.R" +
+      "esponse\"\0000\001\022\223\001\n\035fo_GetMainPostSortCriter" +
+      "ia_Ad\0227.dstore.engine.fo_GetMainPostSort" +
+      "Criteria_Ad.Parameters\0325.dstore.engine.f" +
+      "o_GetMainPostSortCriteria_Ad.Response\"\0000",
+      "\001\022{\n\025fo_GetMainPostings_Pu\022/.dstore.engi" +
+      "ne.fo_GetMainPostings_Pu.Parameters\032-.ds" +
+      "tore.engine.fo_GetMainPostings_Pu.Respon" +
+      "se\"\0000\001\022\204\001\n\030fo_GetPostingBinaries_Pu\0222.ds" +
+      "tore.engine.fo_GetPostingBinaries_Pu.Par" +
+      "ameters\0320.dstore.engine.fo_GetPostingBin" +
+      "aries_Pu.Response\"\0000\001\022\201\001\n\027fo_GetPostingC" +
+      "haracs_Ad\0221.dstore.engine.fo_GetPostingC" +
+      "haracs_Ad.Parameters\032/.dstore.engine.fo_" +
+      "GetPostingCharacs_Ad.Response\"\0000\001\022\201\001\n\027fo",
+      "_GetPostingCharacs_Pu\0221.dstore.engine.fo" +
+      "_GetPostingCharacs_Pu.Parameters\032/.dstor" +
+      "e.engine.fo_GetPostingCharacs_Pu.Respons" +
+      "e\"\0000\001\022\212\001\n\032fo_GetPostingProperties_Pu\0224.d" +
+      "store.engine.fo_GetPostingProperties_Pu." +
+      "Parameters\0322.dstore.engine.fo_GetPosting" +
+      "Properties_Pu.Response\"\0000\001\022\201\001\n\027fo_GetPos" +
+      "tingReplies_Pu\0221.dstore.engine.fo_GetPos" +
+      "tingReplies_Pu.Parameters\032/.dstore.engin" +
+      "e.fo_GetPostingReplies_Pu.Response\"\0000\001\022~",
+      "\n\026fo_GetPostingThread_Pu\0220.dstore.engine" +
+      ".fo_GetPostingThread_Pu.Parameters\032..dst" +
+      "ore.engine.fo_GetPostingThread_Pu.Respon" +
+      "se\"\0000\001\022\207\001\n\031fo_GetPostingVisibilities\0223.d" +
+      "store.engine.fo_GetPostingVisibilities.P" +
+      "arameters\0321.dstore.engine.fo_GetPostingV" +
+      "isibilities.Response\"\0000\001\022l\n\020fo_GetPostin" +
+      "g_Pu\022*.dstore.engine.fo_GetPosting_Pu.Pa" +
+      "rameters\032(.dstore.engine.fo_GetPosting_P" +
+      "u.Response\"\0000\001\022\220\001\n\034fo_GetPostingsOfOnePe",
+      "rson_Ad\0226.dstore.engine.fo_GetPostingsOf" +
+      "OnePerson_Ad.Parameters\0324.dstore.engine." +
+      "fo_GetPostingsOfOnePerson_Ad.Response\"\0000" +
+      "\001\022\220\001\n\034fo_GetPostingsOfOnePerson_Pu\0226.dst" +
+      "ore.engine.fo_GetPostingsOfOnePerson_Pu." +
+      "Parameters\0324.dstore.engine.fo_GetPosting" +
+      "sOfOnePerson_Pu.Response\"\0000\001\022\215\001\n\033fo_GetP" +
+      "redValsForCharacs_Ad\0225.dstore.engine.fo_" +
+      "GetPredValsForCharacs_Ad.Parameters\0323.ds" +
+      "tore.engine.fo_GetPredValsForCharacs_Ad.",
+      "Response\"\0000\001\022\215\001\n\033fo_GetPredValsForCharac" +
+      "s_Pu\0225.dstore.engine.fo_GetPredValsForCh" +
+      "aracs_Pu.Parameters\0323.dstore.engine.fo_G" +
+      "etPredValsForCharacs_Pu.Response\"\0000\001\022\220\001\n" +
+      "\034fo_InsertBinaryForPosting_Pu\0226.dstore.e" +
+      "ngine.fo_InsertBinaryForPosting_Pu.Param" +
+      "eters\0324.dstore.engine.fo_InsertBinaryFor" +
+      "Posting_Pu.Response\"\0000\001\022u\n\023fo_InsertPost" +
+      "ing_Pu\022-.dstore.engine.fo_InsertPosting_" +
+      "Pu.Parameters\032+.dstore.engine.fo_InsertP",
+      "osting_Pu.Response\"\0000\001\022\226\001\n\036fo_ModifyChar" +
+      "acForForumCats_Ad\0228.dstore.engine.fo_Mod" +
+      "ifyCharacForForumCats_Ad.Parameters\0326.ds" +
+      "tore.engine.fo_ModifyCharacForForumCats_" +
+      "Ad.Response\"\0000\001\022\220\001\n\034fo_ModifyCharacsForF" +
+      "orums_Ad\0226.dstore.engine.fo_ModifyCharac" +
+      "sForForums_Ad.Parameters\0324.dstore.engine" +
+      ".fo_ModifyCharacsForForums_Ad.Response\"\000" +
+      "0\001\022\201\001\n\027fo_ModifyForumAccess_Ad\0221.dstore." +
+      "engine.fo_ModifyForumAccess_Ad.Parameter",
+      "s\032/.dstore.engine.fo_ModifyForumAccess_A" +
       "d.Response\"\0000\001\022\201\001\n\027fo_ModifyForumAccess_" +
-      "Ad\0221.dstore.engine.fo_ModifyForumAccess_",
-      "Ad.Parameters\032/.dstore.engine.fo_ModifyF" +
-      "orumAccess_Ad.Response\"\0000\001\022\201\001\n\027fo_Modify" +
-      "ForumAccess_Pu\0221.dstore.engine.fo_Modify" +
-      "ForumAccess_Pu.Parameters\032/.dstore.engin" +
-      "e.fo_ModifyForumAccess_Pu.Response\"\0000\001\022\215" +
-      "\001\n\033fo_ModifyForumCategories_Ad\0225.dstore." +
-      "engine.fo_ModifyForumCategories_Ad.Param" +
-      "eters\0323.dstore.engine.fo_ModifyForumCate" +
-      "gories_Ad.Response\"\0000\001\022\207\001\n\031fo_ModifyForu" +
-      "mSettings_Ad\0223.dstore.engine.fo_ModifyFo",
-      "rumSettings_Ad.Parameters\0321.dstore.engin" +
-      "e.fo_ModifyForumSettings_Ad.Response\"\0000\001" +
-      "\022\226\001\n\036fo_ModifyForumsInCategories_Ad\0228.ds" +
-      "tore.engine.fo_ModifyForumsInCategories_" +
-      "Ad.Parameters\0326.dstore.engine.fo_ModifyF" +
-      "orumsInCategories_Ad.Response\"\0000\001\022r\n\022fo_" +
-      "ModifyForums_Ad\022,.dstore.engine.fo_Modif" +
-      "yForums_Ad.Parameters\032*.dstore.engine.fo" +
-      "_ModifyForums_Ad.Response\"\0000\001\022\220\001\n\034fo_Mod" +
-      "ifyMainPostSortCrit_Ad\0226.dstore.engine.f",
-      "o_ModifyMainPostSortCrit_Ad.Parameters\0324" +
-      ".dstore.engine.fo_ModifyMainPostSortCrit" +
-      "_Ad.Response\"\0000\001\022\207\001\n\031fo_ModifyPostingBin" +
-      "ary_Pu\0223.dstore.engine.fo_ModifyPostingB" +
-      "inary_Pu.Parameters\0321.dstore.engine.fo_M" +
-      "odifyPostingBinary_Pu.Response\"\0000\001\022\212\001\n\032f" +
-      "o_ModifyPostingCharacs_Ad\0224.dstore.engin" +
-      "e.fo_ModifyPostingCharacs_Ad.Parameters\032" +
-      "2.dstore.engine.fo_ModifyPostingCharacs_" +
-      "Ad.Response\"\0000\001\022\223\001\n\035fo_ModifyPostingProp",
-      "erties_Pu\0227.dstore.engine.fo_ModifyPosti" +
-      "ngProperties_Pu.Parameters\0325.dstore.engi" +
-      "ne.fo_ModifyPostingProperties_Pu.Respons" +
-      "e\"\0000\001\022\223\001\n\035fo_ModifyPostingVisibility_Pu\022" +
-      "7.dstore.engine.fo_ModifyPostingVisibili" +
-      "ty_Pu.Parameters\0325.dstore.engine.fo_Modi" +
-      "fyPostingVisibility_Pu.Response\"\0000\001\022u\n\023f" +
-      "o_ModifyPosting_Pu\022-.dstore.engine.fo_Mo" +
-      "difyPosting_Pu.Parameters\032+.dstore.engin" +
-      "e.fo_ModifyPosting_Pu.Response\"\0000\001\022\226\001\n\036f",
-      "o_ModifyPredValsForCharacs_Ad\0228.dstore.e" +
-      "ngine.fo_ModifyPredValsForCharacs_Ad.Par" +
-      "ameters\0326.dstore.engine.fo_ModifyPredVal" +
-      "sForCharacs_Ad.Response\"\0000\001\022o\n\021fo_MovePo" +
-      "sting_Pu\022+.dstore.engine.fo_MovePosting_" +
-      "Pu.Parameters\032).dstore.engine.fo_MovePos" +
-      "ting_Pu.Response\"\0000\001\022x\n\024fo_SearchPosting" +
-      "s_Pu\022..dstore.engine.fo_SearchPostings_P" +
-      "u.Parameters\032,.dstore.engine.fo_SearchPo" +
-      "stings_Pu.Response\"\0000\001\022~\n\026im_AddBinaryTo",
-      "Nodes_Ad\0220.dstore.engine.im_AddBinaryToN" +
-      "odes_Ad.Parameters\032..dstore.engine.im_Ad" +
-      "dBinaryToNodes_Ad.Response\"\0000\001\022\201\001\n\027im_Ad" +
-      "dBinaryToValues_Ad\0221.dstore.engine.im_Ad" +
-      "dBinaryToValues_Ad.Parameters\032/.dstore.e" +
-      "ngine.im_AddBinaryToValues_Ad.Response\"\000" +
-      "0\001\022\223\001\n\035im_AlphabetizeCharacValues_Ad\0227.d" +
-      "store.engine.im_AlphabetizeCharacValues_" +
-      "Ad.Parameters\0325.dstore.engine.im_Alphabe" +
-      "tizeCharacValues_Ad.Response\"\0000\001\022\223\001\n\035im_",
-      "CheckConditionsForTNIDs_Ad\0227.dstore.engi" +
-      "ne.im_CheckConditionsForTNIDs_Ad.Paramet" +
-      "ers\0325.dstore.engine.im_CheckConditionsFo" +
-      "rTNIDs_Ad.Response\"\0000\001\022\215\001\n\033im_CountBinar" +
-      "iesForTreeNode\0225.dstore.engine.im_CountB" +
-      "inariesForTreeNode.Parameters\0323.dstore.e" +
-      "ngine.im_CountBinariesForTreeNode.Respon" +
-      "se\"\0000\001\022\226\001\n\036im_CreateProductRatSubjects_A" +
-      "d\0228.dstore.engine.im_CreateProductRatSub" +
-      "jects_Ad.Parameters\0326.dstore.engine.im_C",
-      "reateProductRatSubjects_Ad.Response\"\0000\001\022" +
-      "{\n\025im_DeActivateNodes_Ad\022/.dstore.engine" +
-      ".im_DeActivateNodes_Ad.Parameters\032-.dsto" +
-      "re.engine.im_DeActivateNodes_Ad.Response" +
-      "\"\0000\001\022\207\001\n\031im_DeleteBinaryForNode_Ad\0223.dst" +
-      "ore.engine.im_DeleteBinaryForNode_Ad.Par" +
-      "ameters\0321.dstore.engine.im_DeleteBinaryF" +
-      "orNode_Ad.Response\"\0000\001\022\215\001\n\033im_DeleteInte" +
-      "rfaceTables_Ad\0225.dstore.engine.im_Delete" +
-      "InterfaceTables_Ad.Parameters\0323.dstore.e",
-      "ngine.im_DeleteInterfaceTables_Ad.Respon" +
-      "se\"\0000\001\022\215\001\n\033im_DeleteNodeCharacValue_Ad\0225" +
-      ".dstore.engine.im_DeleteNodeCharacValue_" +
-      "Ad.Parameters\0323.dstore.engine.im_DeleteN" +
-      "odeCharacValue_Ad.Response\"\0000\001\022\207\001\n\031im_De" +
-      "letePageTreeNodes_Ad\0223.dstore.engine.im_" +
-      "DeletePageTreeNodes_Ad.Parameters\0321.dsto" +
-      "re.engine.im_DeletePageTreeNodes_Ad.Resp" +
-      "onse\"\0000\001\022\207\001\n\031im_DeleteTemplateUsage_Ad\0223" +
-      ".dstore.engine.im_DeleteTemplateUsage_Ad",
-      ".Parameters\0321.dstore.engine.im_DeleteTem" +
-      "plateUsage_Ad.Response\"\0000\001\022{\n\025im_DeleteT" +
-      "reeNodes_Ad\022/.dstore.engine.im_DeleteTre" +
-      "eNodes_Ad.Parameters\032-.dstore.engine.im_" +
-      "DeleteTreeNodes_Ad.Response\"\0000\001\022o\n\021im_Fu" +
-      "zzySearch_Ad\022+.dstore.engine.im_FuzzySea" +
-      "rch_Ad.Parameters\032).dstore.engine.im_Fuz" +
-      "zySearch_Ad.Response\"\0000\001\022~\n\026im_GenerateV" +
-      "ariants_Ad\0220.dstore.engine.im_GenerateVa" +
-      "riants_Ad.Parameters\032..dstore.engine.im_",
-      "GenerateVariants_Ad.Response\"\0000\001\022\201\001\n\027im_" +
-      "GetBinariesForValues\0221.dstore.engine.im_" +
-      "GetBinariesForValues.Parameters\032/.dstore" +
-      ".engine.im_GetBinariesForValues.Response" +
-      "\"\0000\001\022\226\001\n\036im_GetBinaryCharacteristics_Ad\022" +
-      "8.dstore.engine.im_GetBinaryCharacterist" +
-      "ics_Ad.Parameters\0326.dstore.engine.im_Get" +
-      "BinaryCharacteristics_Ad.Response\"\0000\001\022\223\001" +
-      "\n\035im_GetBinaryCodeIDsForNode_Pu\0227.dstore" +
-      ".engine.im_GetBinaryCodeIDsForNode_Pu.Pa",
-      "rameters\0325.dstore.engine.im_GetBinaryCod" +
-      "eIDsForNode_Pu.Response\"\0000\001\022\226\001\n\036im_GetBi" +
-      "naryCodeIDsForValue_Pu\0228.dstore.engine.i" +
-      "m_GetBinaryCodeIDsForValue_Pu.Parameters" +
-      "\0326.dstore.engine.im_GetBinaryCodeIDsForV" +
-      "alue_Pu.Response\"\0000\001\022\223\001\n\035im_GetBinaryPre" +
-      "definedVals_Ad\0227.dstore.engine.im_GetBin" +
-      "aryPredefinedVals_Ad.Parameters\0325.dstore" +
-      ".engine.im_GetBinaryPredefinedVals_Ad.Re" +
-      "sponse\"\0000\001\022\223\001\n\035im_GetBinaryPredefinedVal",
-      "s_Pu\0227.dstore.engine.im_GetBinaryPredefi" +
-      "nedVals_Pu.Parameters\0325.dstore.engine.im" +
-      "_GetBinaryPredefinedVals_Pu.Response\"\0000\001" +
-      "\022\207\001\n\031im_GetBinaryProperties_Ad\0223.dstore." +
-      "engine.im_GetBinaryProperties_Ad.Paramet" +
-      "ers\0321.dstore.engine.im_GetBinaryProperti" +
-      "es_Ad.Response\"\0000\001\022\207\001\n\031im_GetBinaryPrope" +
-      "rties_Pu\0223.dstore.engine.im_GetBinaryPro" +
-      "perties_Pu.Parameters\0321.dstore.engine.im" +
-      "_GetBinaryProperties_Pu.Response\"\0000\001\022i\n\017",
-      "im_GetBinary_Ad\022).dstore.engine.im_GetBi" +
-      "nary_Ad.Parameters\032\'.dstore.engine.im_Ge" +
-      "tBinary_Ad.Response\"\0000\001\022i\n\017im_GetBinary_" +
-      "Pu\022).dstore.engine.im_GetBinary_Pu.Param" +
-      "eters\032\'.dstore.engine.im_GetBinary_Pu.Re" +
-      "sponse\"\0000\001\022\223\001\n\035im_GetCommonNodePropertie" +
-      "s_Ad\0227.dstore.engine.im_GetCommonNodePro" +
-      "perties_Ad.Parameters\0325.dstore.engine.im" +
-      "_GetCommonNodeProperties_Ad.Response\"\0000\001" +
-      "\022\220\001\n\034im_GetCorrespondingValues_Ad\0226.dsto",
-      "re.engine.im_GetCorrespondingValues_Ad.P" +
-      "arameters\0324.dstore.engine.im_GetCorrespo" +
-      "ndingValues_Ad.Response\"\0000\001\022\207\001\n\031im_GetDi" +
-      "rectSuccessors_Ad\0223.dstore.engine.im_Get" +
-      "DirectSuccessors_Ad.Parameters\0321.dstore." +
-      "engine.im_GetDirectSuccessors_Ad.Respons" +
-      "e\"\0000\001\022\207\001\n\031im_GetDirectSuccessors_Pu\0223.ds" +
-      "tore.engine.im_GetDirectSuccessors_Pu.Pa" +
-      "rameters\0321.dstore.engine.im_GetDirectSuc" +
-      "cessors_Pu.Response\"\0000\001\022\226\001\n\036im_GetDirect",
-      "Successors_Tree_Ad\0228.dstore.engine.im_Ge" +
-      "tDirectSuccessors_Tree_Ad.Parameters\0326.d" +
-      "store.engine.im_GetDirectSuccessors_Tree" +
-      "_Ad.Response\"\0000\001\022\226\001\n\036im_GetDirectSuccess" +
-      "ors_Tree_Pu\0228.dstore.engine.im_GetDirect" +
-      "Successors_Tree_Pu.Parameters\0326.dstore.e" +
-      "ngine.im_GetDirectSuccessors_Tree_Pu.Res" +
-      "ponse\"\0000\001\022x\n\024im_GetHTreeNodeID_Pu\022..dsto" +
-      "re.engine.im_GetHTreeNodeID_Pu.Parameter" +
-      "s\032,.dstore.engine.im_GetHTreeNodeID_Pu.R",
-      "esponse\"\0000\001\022{\n\025im_GetHTreeNodeIDs_Ad\022/.d" +
-      "store.engine.im_GetHTreeNodeIDs_Ad.Param" +
-      "eters\032-.dstore.engine.im_GetHTreeNodeIDs" +
-      "_Ad.Response\"\0000\001\022{\n\025im_GetImportErrors_A" +
-      "d\022/.dstore.engine.im_GetImportErrors_Ad." +
-      "Parameters\032-.dstore.engine.im_GetImportE" +
-      "rrors_Ad.Response\"\0000\001\022\220\001\n\034im_GetItemCond" +
-      "itionGroups_Ad\0226.dstore.engine.im_GetIte" +
-      "mConditionGroups_Ad.Parameters\0324.dstore." +
-      "engine.im_GetItemConditionGroups_Ad.Resp",
-      "onse\"\0000\001\022\215\001\n\033im_GetItemConditionParts_Ad" +
-      "\0225.dstore.engine.im_GetItemConditionPart" +
-      "s_Ad.Parameters\0323.dstore.engine.im_GetIt" +
-      "emConditionParts_Ad.Response\"\0000\001\022\201\001\n\027im_" +
-      "GetItemConditions_Ad\0221.dstore.engine.im_" +
-      "GetItemConditions_Ad.Parameters\032/.dstore" +
-      ".engine.im_GetItemConditions_Ad.Response" +
-      "\"\0000\001\022{\n\025im_GetLevelForNode_Pu\022/.dstore.e" +
-      "ngine.im_GetLevelForNode_Pu.Parameters\032-" +
-      ".dstore.engine.im_GetLevelForNode_Pu.Res",
-      "ponse\"\0000\001\022i\n\017im_GetLevels_Ad\022).dstore.en" +
-      "gine.im_GetLevels_Ad.Parameters\032\'.dstore" +
-      ".engine.im_GetLevels_Ad.Response\"\0000\001\022i\n\017" +
-      "im_GetLevels_Pu\022).dstore.engine.im_GetLe" +
-      "vels_Pu.Parameters\032\'.dstore.engine.im_Ge" +
-      "tLevels_Pu.Response\"\0000\001\022\212\001\n\032im_GetLocked" +
-      "NodeCharacs_Ad\0224.dstore.engine.im_GetLoc" +
-      "kedNodeCharacs_Ad.Parameters\0322.dstore.en" +
-      "gine.im_GetLockedNodeCharacs_Ad.Response" +
-      "\"\0000\001\022~\n\026im_GetModifiedNodes_Ad\0220.dstore.",
-      "engine.im_GetModifiedNodes_Ad.Parameters" +
-      "\032..dstore.engine.im_GetModifiedNodes_Ad." +
-      "Response\"\0000\001\022\212\001\n\032im_GetNewCharacsForNode" +
-      "_Ad\0224.dstore.engine.im_GetNewCharacsForN" +
-      "ode_Ad.Parameters\0322.dstore.engine.im_Get" +
-      "NewCharacsForNode_Ad.Response\"\0000\001\022\223\001\n\035im" +
-      "_GetNodeCharacCategories_Ad\0227.dstore.eng" +
-      "ine.im_GetNodeCharacCategories_Ad.Parame" +
-      "ters\0325.dstore.engine.im_GetNodeCharacCat" +
-      "egories_Ad.Response\"\0000\001\022\204\001\n\030im_GetNodeCh",
-      "aracDescr_Ad\0222.dstore.engine.im_GetNodeC" +
-      "haracDescr_Ad.Parameters\0320.dstore.engine" +
-      ".im_GetNodeCharacDescr_Ad.Response\"\0000\001\022\204" +
-      "\001\n\030im_GetNodeCharacSettings\0222.dstore.eng" +
-      "ine.im_GetNodeCharacSettings.Parameters\032" +
-      "0.dstore.engine.im_GetNodeCharacSettings" +
-      ".Response\"\0000\001\022\207\001\n\031im_GetNodeCharacValues" +
-      "_Ad\0223.dstore.engine.im_GetNodeCharacValu" +
-      "es_Ad.Parameters\0321.dstore.engine.im_GetN" +
-      "odeCharacValues_Ad.Response\"\0000\001\022\207\001\n\031im_G",
-      "etNodeCharacValues_Pu\0223.dstore.engine.im" +
-      "_GetNodeCharacValues_Pu.Parameters\0321.dst" +
-      "ore.engine.im_GetNodeCharacValues_Pu.Res" +
-      "ponse\"\0000\001\022\220\001\n\034im_GetNodeCharacteristics_" +
-      "Ad\0226.dstore.engine.im_GetNodeCharacteris" +
-      "tics_Ad.Parameters\0324.dstore.engine.im_Ge" +
-      "tNodeCharacteristics_Ad.Response\"\0000\001\022\220\001\n" +
-      "\034im_GetNodeCharacteristics_Pu\0226.dstore.e" +
-      "ngine.im_GetNodeCharacteristics_Pu.Param" +
-      "eters\0324.dstore.engine.im_GetNodeCharacte",
-      "ristics_Pu.Response\"\0000\001\022\207\001\n\031im_GetNodeDe" +
-      "scriptions_Pu\0223.dstore.engine.im_GetNode" +
-      "Descriptions_Pu.Parameters\0321.dstore.engi" +
-      "ne.im_GetNodeDescriptions_Pu.Response\"\0000" +
-      "\001\022\220\001\n\034im_GetNodeMetaInformation_Ad\0226.dst" +
-      "ore.engine.im_GetNodeMetaInformation_Ad." +
-      "Parameters\0324.dstore.engine.im_GetNodeMet" +
-      "aInformation_Ad.Response\"\0000\001\022x\n\024im_GetNo" +
-      "deProperties\022..dstore.engine.im_GetNodeP" +
-      "roperties.Parameters\032,.dstore.engine.im_",
-      "GetNodeProperties.Response\"\0000\001\022\226\001\n\036im_Ge" +
-      "tNodePropertiesHistory_Ad\0228.dstore.engin" +
-      "e.im_GetNodePropertiesHistory_Ad.Paramet" +
-      "ers\0326.dstore.engine.im_GetNodeProperties" +
-      "History_Ad.Response\"\0000\001\022x\n\024im_GetNodeSym" +
-      "bols_Ad\022..dstore.engine.im_GetNodeSymbol" +
-      "s_Ad.Parameters\032,.dstore.engine.im_GetNo" +
-      "deSymbols_Ad.Response\"\0000\001\022~\n\026im_GetNumbe" +
-      "rOfNodes_Ad\0220.dstore.engine.im_GetNumber" +
-      "OfNodes_Ad.Parameters\032..dstore.engine.im",
-      "_GetNumberOfNodes_Ad.Response\"\0000\001\022~\n\026im_" +
-      "GetPageTreeNodes_Ad\0220.dstore.engine.im_G" +
-      "etPageTreeNodes_Ad.Parameters\032..dstore.e" +
-      "ngine.im_GetPageTreeNodes_Ad.Response\"\0000" +
-      "\001\022r\n\022im_GetPredecessors\022,.dstore.engine." +
-      "im_GetPredecessors.Parameters\032*.dstore.e" +
-      "ngine.im_GetPredecessors.Response\"\0000\001\022~\n" +
-      "\026im_GetRandomProduct_Pu\0220.dstore.engine." +
-      "im_GetRandomProduct_Pu.Parameters\032..dsto" +
-      "re.engine.im_GetRandomProduct_Pu.Respons",
-      "e\"\0000\001\022r\n\022im_GetRootNodes_Ad\022,.dstore.eng" +
-      "ine.im_GetRootNodes_Ad.Parameters\032*.dsto" +
-      "re.engine.im_GetRootNodes_Ad.Response\"\0000" +
-      "\001\022\212\001\n\032im_GetSimpleProductInfo_Pu\0224.dstor" +
-      "e.engine.im_GetSimpleProductInfo_Pu.Para" +
-      "meters\0322.dstore.engine.im_GetSimpleProdu" +
-      "ctInfo_Pu.Response\"\0000\001\022u\n\023im_GetSuccesso" +
-      "rs_Ad\022-.dstore.engine.im_GetSuccessors_A" +
-      "d.Parameters\032+.dstore.engine.im_GetSucce" +
-      "ssors_Ad.Response\"\0000\001\022u\n\023im_GetSuccessor",
-      "s_Pu\022-.dstore.engine.im_GetSuccessors_Pu" +
-      ".Parameters\032+.dstore.engine.im_GetSucces" +
-      "sors_Pu.Response\"\0000\001\022\223\001\n\035im_GetTNodeMeta" +
-      "Information_Ad\0227.dstore.engine.im_GetTNo" +
-      "deMetaInformation_Ad.Parameters\0325.dstore" +
-      ".engine.im_GetTNodeMetaInformation_Ad.Re" +
-      "sponse\"\0000\001\022r\n\022im_GetTemplates_Ad\022,.dstor" +
-      "e.engine.im_GetTemplates_Ad.Parameters\032*" +
-      ".dstore.engine.im_GetTemplates_Ad.Respon" +
-      "se\"\0000\001\022r\n\022im_GetTemplates_Pu\022,.dstore.en",
-      "gine.im_GetTemplates_Pu.Parameters\032*.dst" +
-      "ore.engine.im_GetTemplates_Pu.Response\"\000" +
-      "0\001\022\207\001\n\031im_GetThumbnailForNode_Ad\0223.dstor" +
-      "e.engine.im_GetThumbnailForNode_Ad.Param" +
-      "eters\0321.dstore.engine.im_GetThumbnailFor" +
-      "Node_Ad.Response\"\0000\001\022\212\001\n\032im_GetThumbnail" +
-      "ForValue_Ad\0224.dstore.engine.im_GetThumbn" +
-      "ailForValue_Ad.Parameters\0322.dstore.engin" +
-      "e.im_GetThumbnailForValue_Ad.Response\"\0000" +
-      "\001\022\220\001\n\034im_GetTreeNodeInformation_Ad\0226.dst",
-      "ore.engine.im_GetTreeNodeInformation_Ad." +
-      "Parameters\0324.dstore.engine.im_GetTreeNod" +
-      "eInformation_Ad.Response\"\0000\001\022\220\001\n\034im_GetT" +
-      "reeNodeInformation_Pu\0226.dstore.engine.im" +
-      "_GetTreeNodeInformation_Pu.Parameters\0324." +
-      "dstore.engine.im_GetTreeNodeInformation_" +
-      "Pu.Response\"\0000\001\022u\n\023im_GetUsedValues_Pu\022-" +
-      ".dstore.engine.im_GetUsedValues_Pu.Param" +
-      "eters\032+.dstore.engine.im_GetUsedValues_P" +
-      "u.Response\"\0000\001\022{\n\025im_GetValueCategories\022",
-      "/.dstore.engine.im_GetValueCategories.Pa" +
-      "rameters\032-.dstore.engine.im_GetValueCate" +
-      "gories.Response\"\0000\001\022{\n\025im_GetValueDetail" +
-      "s_Ad\022/.dstore.engine.im_GetValueDetails_" +
-      "Ad.Parameters\032-.dstore.engine.im_GetValu" +
-      "eDetails_Ad.Response\"\0000\001\022{\n\025im_GetValueD" +
-      "etails_Pu\022/.dstore.engine.im_GetValueDet" +
-      "ails_Pu.Parameters\032-.dstore.engine.im_Ge" +
-      "tValueDetails_Pu.Response\"\0000\001\022\215\001\n\033im_Get" +
-      "ValuesInCategories_Ad\0225.dstore.engine.im",
-      "_GetValuesInCategories_Ad.Parameters\0323.d" +
-      "store.engine.im_GetValuesInCategories_Ad" +
-      ".Response\"\0000\001\022u\n\023im_GetVariantMatrix\022-.d" +
-      "store.engine.im_GetVariantMatrix.Paramet" +
-      "ers\032+.dstore.engine.im_GetVariantMatrix." +
-      "Response\"\0000\001\022~\n\026im_GetVariantMatrix_Ad\0220" +
-      ".dstore.engine.im_GetVariantMatrix_Ad.Pa" +
-      "rameters\032..dstore.engine.im_GetVariantMa" +
-      "trix_Ad.Response\"\0000\001\022x\n\024im_ImportBinarie" +
-      "s_Ad\022..dstore.engine.im_ImportBinaries_A",
-      "d.Parameters\032,.dstore.engine.im_ImportBi" +
-      "naries_Ad.Response\"\0000\001\022x\n\024im_ImportItemD" +
-      "ata_Ad\022..dstore.engine.im_ImportItemData" +
-      "_Ad.Parameters\032,.dstore.engine.im_Import" +
-      "ItemData_Ad.Response\"\0000\001\022u\n\023im_InsertNew" +
-      "Node_Ad\022-.dstore.engine.im_InsertNewNode" +
-      "_Ad.Parameters\032+.dstore.engine.im_Insert" +
-      "NewNode_Ad.Response\"\0000\001\022\220\001\n\034im_InsertNew" +
-      "ValueCategory_Ad\0226.dstore.engine.im_Inse" +
-      "rtNewValueCategory_Ad.Parameters\0324.dstor",
-      "e.engine.im_InsertNewValueCategory_Ad.Re" +
-      "sponse\"\0000\001\022~\n\026im_InsertNodeBinary_Ad\0220.d" +
-      "store.engine.im_InsertNodeBinary_Ad.Para" +
-      "meters\032..dstore.engine.im_InsertNodeBina" +
-      "ry_Ad.Response\"\0000\001\022\223\001\n\035im_InsertNodePred" +
-      "efinedVal_Ad\0227.dstore.engine.im_InsertNo" +
-      "dePredefinedVal_Ad.Parameters\0325.dstore.e" +
-      "ngine.im_InsertNodePredefinedVal_Ad.Resp" +
-      "onse\"\0000\001\022~\n\026im_InsertNodeSymbol_Ad\0220.dst" +
-      "ore.engine.im_InsertNodeSymbol_Ad.Parame",
-      "ters\032..dstore.engine.im_InsertNodeSymbol" +
-      "_Ad.Response\"\0000\001\022\204\001\n\030im_InsertPageTreeNo" +
-      "de_Ad\0222.dstore.engine.im_InsertPageTreeN" +
-      "ode_Ad.Parameters\0320.dstore.engine.im_Ins" +
-      "ertPageTreeNode_Ad.Response\"\0000\001\022\201\001\n\027im_I" +
-      "nsertValueBinary_Ad\0221.dstore.engine.im_I" +
-      "nsertValueBinary_Ad.Parameters\032/.dstore." +
-      "engine.im_InsertValueBinary_Ad.Response\"" +
-      "\0000\001\022\220\001\n\034im_MaintainStatisticProps_Ad\0226.d" +
-      "store.engine.im_MaintainStatisticProps_A",
-      "d.Parameters\0324.dstore.engine.im_Maintain" +
-      "StatisticProps_Ad.Response\"\0000\001\022\226\001\n\036im_Mo" +
-      "difyBinaryCharacValues_Ad\0228.dstore.engin" +
-      "e.im_ModifyBinaryCharacValues_Ad.Paramet" +
-      "ers\0326.dstore.engine.im_ModifyBinaryChara" +
-      "cValues_Ad.Response\"\0000\001\022\220\001\n\034im_ModifyBin" +
-      "aryProperties_Ad\0226.dstore.engine.im_Modi" +
-      "fyBinaryProperties_Ad.Parameters\0324.dstor" +
-      "e.engine.im_ModifyBinaryProperties_Ad.Re" +
-      "sponse\"\0000\001\022\223\001\n\035im_ModifyCondPartsInGroup",
-      "s_Ad\0227.dstore.engine.im_ModifyCondPartsI" +
-      "nGroups_Ad.Parameters\0325.dstore.engine.im" +
-      "_ModifyCondPartsInGroups_Ad.Response\"\0000\001" +
-      "\022\215\001\n\033im_ModifyConditionGroups_Ad\0225.dstor" +
-      "e.engine.im_ModifyConditionGroups_Ad.Par" +
-      "ameters\0323.dstore.engine.im_ModifyConditi" +
-      "onGroups_Ad.Response\"\0000\001\022\212\001\n\032im_ModifyCo" +
-      "nditionParts_Ad\0224.dstore.engine.im_Modif" +
-      "yConditionParts_Ad.Parameters\0322.dstore.e" +
-      "ngine.im_ModifyConditionParts_Ad.Respons",
-      "e\"\0000\001\022~\n\026im_ModifyConditions_Ad\0220.dstore" +
-      ".engine.im_ModifyConditions_Ad.Parameter" +
-      "s\032..dstore.engine.im_ModifyConditions_Ad" +
-      ".Response\"\0000\001\022\223\001\n\035im_ModifyCorresponding" +
-      "Vals_Ad\0227.dstore.engine.im_ModifyCorresp" +
-      "ondingVals_Ad.Parameters\0325.dstore.engine" +
-      ".im_ModifyCorrespondingVals_Ad.Response\"" +
-      "\0000\001\022\223\001\n\035im_ModifyGroupsPerItemCond_Ad\0227." +
-      "dstore.engine.im_ModifyGroupsPerItemCond" +
-      "_Ad.Parameters\0325.dstore.engine.im_Modify",
-      "GroupsPerItemCond_Ad.Response\"\0000\001\022r\n\022im_" +
-      "ModifyLevels_Ad\022,.dstore.engine.im_Modif" +
-      "yLevels_Ad.Parameters\032*.dstore.engine.im" +
-      "_ModifyLevels_Ad.Response\"\0000\001\022\223\001\n\035im_Mod" +
-      "ifyLockedNodeCharacs_Ad\0227.dstore.engine." +
-      "im_ModifyLockedNodeCharacs_Ad.Parameters" +
-      "\0325.dstore.engine.im_ModifyLockedNodeChar" +
-      "acs_Ad.Response\"\0000\001\022\212\001\n\032im_ModifyNodeCha" +
-      "racCats_Ad\0224.dstore.engine.im_ModifyNode" +
-      "CharacCats_Ad.Parameters\0322.dstore.engine",
-      ".im_ModifyNodeCharacCats_Ad.Response\"\0000\001" +
-      "\022\215\001\n\033im_ModifyNodeCharacDescr_Ad\0225.dstor" +
-      "e.engine.im_ModifyNodeCharacDescr_Ad.Par" +
-      "ameters\0323.dstore.engine.im_ModifyNodeCha" +
-      "racDescr_Ad.Response\"\0000\001\022\226\001\n\036im_ModifyNo" +
-      "deCharacSettings_Ad\0228.dstore.engine.im_M" +
-      "odifyNodeCharacSettings_Ad.Parameters\0326." +
-      "dstore.engine.im_ModifyNodeCharacSetting" +
-      "s_Ad.Response\"\0000\001\022\220\001\n\034im_ModifyNodeChara" +
-      "csInCat_Ad\0226.dstore.engine.im_ModifyNode",
-      "CharacsInCat_Ad.Parameters\0324.dstore.engi" +
-      "ne.im_ModifyNodeCharacsInCat_Ad.Response" +
-      "\"\0000\001\022\201\001\n\027im_ModifyNodeCharacs_Ad\0221.dstor" +
-      "e.engine.im_ModifyNodeCharacs_Ad.Paramet" +
-      "ers\032/.dstore.engine.im_ModifyNodeCharacs" +
-      "_Ad.Response\"\0000\001\022\215\001\n\033im_ModifyNodeDescri" +
-      "ption_Ad\0225.dstore.engine.im_ModifyNodeDe" +
-      "scription_Ad.Parameters\0323.dstore.engine." +
-      "im_ModifyNodeDescription_Ad.Response\"\0000\001" +
-      "\022\212\001\n\032im_ModifyNodeProperties_Ad\0224.dstore",
-      ".engine.im_ModifyNodeProperties_Ad.Param" +
-      "eters\0322.dstore.engine.im_ModifyNodePrope" +
-      "rties_Ad.Response\"\0000\001\022\215\001\n\033im_ModifyPrede" +
-      "finedValue_Ad\0225.dstore.engine.im_ModifyP" +
-      "redefinedValue_Ad.Parameters\0323.dstore.en" +
-      "gine.im_ModifyPredefinedValue_Ad.Respons" +
-      "e\"\0000\001\022\215\001\n\033im_ModifyValueCategories_Ad\0225." +
-      "dstore.engine.im_ModifyValueCategories_A" +
-      "d.Parameters\0323.dstore.engine.im_ModifyVa" +
-      "lueCategories_Ad.Response\"\0000\001\022\204\001\n\030im_Mod",
-      "ifyValueDetails_Ad\0222.dstore.engine.im_Mo" +
-      "difyValueDetails_Ad.Parameters\0320.dstore." +
-      "engine.im_ModifyValueDetails_Ad.Response" +
-      "\"\0000\001\022\226\001\n\036im_ModifyValuesInCategories_Ad\022" +
-      "8.dstore.engine.im_ModifyValuesInCategor" +
-      "ies_Ad.Parameters\0326.dstore.engine.im_Mod" +
-      "ifyValuesInCategories_Ad.Response\"\0000\001\022\207\001" +
-      "\n\031im_MoveNodeCharacValue_Ad\0223.dstore.eng" +
-      "ine.im_MoveNodeCharacValue_Ad.Parameters" +
-      "\0321.dstore.engine.im_MoveNodeCharacValue_",
-      "Ad.Response\"\0000\001\022u\n\023im_MoveTreeNodes_Ad\022-" +
-      ".dstore.engine.im_MoveTreeNodes_Ad.Param" +
-      "eters\032+.dstore.engine.im_MoveTreeNodes_A" +
-      "d.Response\"\0000\001\022\215\001\n\033im_RemoveBinaryFromNo" +
-      "des_Ad\0225.dstore.engine.im_RemoveBinaryFr" +
-      "omNodes_Ad.Parameters\0323.dstore.engine.im" +
-      "_RemoveBinaryFromNodes_Ad.Response\"\0000\001\022\220" +
-      "\001\n\034im_RemoveBinaryFromValues_Ad\0226.dstore" +
-      ".engine.im_RemoveBinaryFromValues_Ad.Par" +
-      "ameters\0324.dstore.engine.im_RemoveBinaryF",
-      "romValues_Ad.Response\"\0000\001\022x\n\024im_ResetSym" +
-      "bolIDs_Ad\022..dstore.engine.im_ResetSymbol" +
-      "IDs_Ad.Parameters\032,.dstore.engine.im_Res" +
-      "etSymbolIDs_Ad.Response\"\0000\001\022x\n\024im_Search" +
-      "Binaries_Ad\022..dstore.engine.im_SearchBin" +
-      "aries_Ad.Parameters\032,.dstore.engine.im_S" +
-      "earchBinaries_Ad.Response\"\0000\001\022\215\001\n\033im_Sea" +
-      "rchCharacteristics_Pu\0225.dstore.engine.im" +
-      "_SearchCharacteristics_Pu.Parameters\0323.d" +
-      "store.engine.im_SearchCharacteristics_Pu",
-      ".Response\"\0000\001\022\220\001\n\034im_SearchProductTreeNo" +
-      "des_Ad\0226.dstore.engine.im_SearchProductT" +
-      "reeNodes_Ad.Parameters\0324.dstore.engine.i" +
-      "m_SearchProductTreeNodes_Ad.Response\"\0000\001" +
-      "\022\220\001\n\034im_SearchProductTreeNodes_Pu\0226.dsto" +
-      "re.engine.im_SearchProductTreeNodes_Pu.P" +
-      "arameters\0324.dstore.engine.im_SearchProdu" +
-      "ctTreeNodes_Pu.Response\"\0000\001\022{\n\025im_Search" +
-      "TreeNodes_Ad\022/.dstore.engine.im_SearchTr" +
-      "eeNodes_Ad.Parameters\032-.dstore.engine.im",
-      "_SearchTreeNodes_Ad.Response\"\0000\001\022{\n\025im_S" +
-      "earchTreeNodes_Pu\022/.dstore.engine.im_Sea" +
-      "rchTreeNodes_Pu.Parameters\032-.dstore.engi" +
-      "ne.im_SearchTreeNodes_Pu.Response\"\0000\001\022{\n" +
-      "\025im_SetLevelOfNodes_Ad\022/.dstore.engine.i" +
-      "m_SetLevelOfNodes_Ad.Parameters\032-.dstore" +
-      ".engine.im_SetLevelOfNodes_Ad.Response\"\000" +
-      "0\001\022\220\001\n\034im_SetProductDescriptions_Ad\0226.ds" +
-      "tore.engine.im_SetProductDescriptions_Ad" +
-      ".Parameters\0324.dstore.engine.im_SetProduc",
-      "tDescriptions_Ad.Response\"\0000\001\022o\n\021im_SetT" +
-      "emplate_Ad\022+.dstore.engine.im_SetTemplat" +
-      "e_Ad.Parameters\032).dstore.engine.im_SetTe" +
-      "mplate_Ad.Response\"\0000\001\022\223\001\n\035im_SortNodesA" +
-      "lphabetically_Ad\0227.dstore.engine.im_Sort" +
-      "NodesAlphabetically_Ad.Parameters\0325.dsto" +
-      "re.engine.im_SortNodesAlphabetically_Ad." +
-      "Response\"\0000\001\022u\n\023im_SortTreeNodes_Pu\022-.ds" +
-      "tore.engine.im_SortTreeNodes_Pu.Paramete" +
-      "rs\032+.dstore.engine.im_SortTreeNodes_Pu.R",
-      "esponse\"\0000\001\022\223\001\n\035im_SynchronizeItemBinari" +
-      "es_Ad\0227.dstore.engine.im_SynchronizeItem" +
-      "Binaries_Ad.Parameters\0325.dstore.engine.i" +
-      "m_SynchronizeItemBinaries_Ad.Response\"\0000" +
-      "\001\022~\n\026im_TraverseTreeView_Pu\0220.dstore.eng" +
-      "ine.im_TraverseTreeView_Pu.Parameters\032.." +
-      "dstore.engine.im_TraverseTreeView_Pu.Res" +
-      "ponse\"\0000\001\022\223\001\n\035im_UpdateLockedTreeNodeIDs" +
-      "_Ad\0227.dstore.engine.im_UpdateLockedTreeN" +
-      "odeIDs_Ad.Parameters\0325.dstore.engine.im_",
-      "UpdateLockedTreeNodeIDs_Ad.Response\"\0000\001\022" +
-      "\215\001\n\033mi_AnalyseObjectContTSQL_Ad\0225.dstore" +
-      ".engine.mi_AnalyseObjectContTSQL_Ad.Para" +
-      "meters\0323.dstore.engine.mi_AnalyseObjectC" +
-      "ontTSQL_Ad.Response\"\0000\001\022\226\001\n\036mi_ChangedSt" +
-      "oreUserPassword_Ad\0228.dstore.engine.mi_Ch" +
-      "angedStoreUserPassword_Ad.Parameters\0326.d" +
-      "store.engine.mi_ChangedStoreUserPassword" +
-      "_Ad.Response\"\0000\001\022\220\001\n\034mi_CheckFieldTypeOf" +
-      "Values_Ad\0226.dstore.engine.mi_CheckFieldT",
-      "ypeOfValues_Ad.Parameters\0324.dstore.engin" +
-      "e.mi_CheckFieldTypeOfValues_Ad.Response\"" +
-      "\0000\001\022~\n\026mi_CheckPerformance_Ad\0220.dstore.e" +
-      "ngine.mi_CheckPerformance_Ad.Parameters\032" +
-      "..dstore.engine.mi_CheckPerformance_Ad.R" +
-      "esponse\"\0000\001\022~\n\026mi_CreatedStoreUser_Ad\0220." +
-      "dstore.engine.mi_CreatedStoreUser_Ad.Par" +
-      "ameters\032..dstore.engine.mi_CreatedStoreU" +
-      "ser_Ad.Response\"\0000\001\022r\n\022mi_DeadlockTest_A" +
-      "d\022,.dstore.engine.mi_DeadlockTest_Ad.Par",
-      "ameters\032*.dstore.engine.mi_DeadlockTest_" +
-      "Ad.Response\"\0000\001\022\204\001\n\030mi_DeleteFromTempdbT" +
-      "able\0222.dstore.engine.mi_DeleteFromTempdb" +
-      "Table.Parameters\0320.dstore.engine.mi_Dele" +
-      "teFromTempdbTable.Response\"\0000\001\022~\n\026mi_Del" +
-      "etedStoreUser_Ad\0220.dstore.engine.mi_Dele" +
-      "tedStoreUser_Ad.Parameters\032..dstore.engi" +
-      "ne.mi_DeletedStoreUser_Ad.Response\"\0000\001\022r" +
-      "\n\022mi_DumpDatabase_Ad\022,.dstore.engine.mi_" +
-      "DumpDatabase_Ad.Parameters\032*.dstore.engi",
-      "ne.mi_DumpDatabase_Ad.Response\"\0000\001\022\204\001\n\030m" +
-      "i_DumpTransactionLog_Ad\0222.dstore.engine." +
-      "mi_DumpTransactionLog_Ad.Parameters\0320.ds" +
-      "tore.engine.mi_DumpTransactionLog_Ad.Res" +
-      "ponse\"\0000\001\022r\n\022mi_ExportLogins_Ad\022,.dstore" +
-      ".engine.mi_ExportLogins_Ad.Parameters\032*." +
-      "dstore.engine.mi_ExportLogins_Ad.Respons" +
-      "e\"\0000\001\022x\n\024mi_GarbageCollect_Ad\022..dstore.e" +
-      "ngine.mi_GarbageCollect_Ad.Parameters\032,." +
-      "dstore.engine.mi_GarbageCollect_Ad.Respo",
-      "nse\"\0000\001\022\207\001\n\031mi_GetAllDatabaseUsers_Ad\0223." +
-      "dstore.engine.mi_GetAllDatabaseUsers_Ad." +
-      "Parameters\0321.dstore.engine.mi_GetAllData" +
-      "baseUsers_Ad.Response\"\0000\001\022\223\001\n\035mi_GetAppP" +
-      "artsTreeSettings_Ad\0227.dstore.engine.mi_G" +
-      "etAppPartsTreeSettings_Ad.Parameters\0325.d" +
-      "store.engine.mi_GetAppPartsTreeSettings_" +
-      "Ad.Response\"\0000\001\022\223\001\n\035mi_GetAppPartsTreeSe" +
-      "ttings_Pu\0227.dstore.engine.mi_GetAppParts" +
-      "TreeSettings_Pu.Parameters\0325.dstore.engi",
-      "ne.mi_GetAppPartsTreeSettings_Pu.Respons" +
-      "e\"\0000\001\022\215\001\n\033mi_GetApplicPartSettings_Ad\0225." +
-      "dstore.engine.mi_GetApplicPartSettings_A" +
-      "d.Parameters\0323.dstore.engine.mi_GetAppli" +
-      "cPartSettings_Ad.Response\"\0000\001\022\215\001\n\033mi_Get" +
-      "ApplicPartSettings_Pu\0225.dstore.engine.mi" +
-      "_GetApplicPartSettings_Pu.Parameters\0323.d" +
-      "store.engine.mi_GetApplicPartSettings_Pu" +
-      ".Response\"\0000\001\022\223\001\n\035mi_GetApplicationParts" +
-      "Tree_Ad\0227.dstore.engine.mi_GetApplicatio",
-      "nPartsTree_Ad.Parameters\0325.dstore.engine" +
-      ".mi_GetApplicationPartsTree_Ad.Response\"" +
-      "\0000\001\022\223\001\n\035mi_GetApplicationPartsTree_Pu\0227." +
-      "dstore.engine.mi_GetApplicationPartsTree" +
-      "_Pu.Parameters\0325.dstore.engine.mi_GetApp" +
-      "licationPartsTree_Pu.Response\"\0000\001\022\207\001\n\031mi" +
-      "_GetApplicationParts_Ad\0223.dstore.engine." +
-      "mi_GetApplicationParts_Ad.Parameters\0321.d" +
-      "store.engine.mi_GetApplicationParts_Ad.R" +
-      "esponse\"\0000\001\022\207\001\n\031mi_GetApplicationParts_P",
-      "u\0223.dstore.engine.mi_GetApplicationParts" +
-      "_Pu.Parameters\0321.dstore.engine.mi_GetApp" +
-      "licationParts_Pu.Response\"\0000\001\022\220\001\n\034mi_Get" +
-      "ApplicationSettings_Ad\0226.dstore.engine.m" +
-      "i_GetApplicationSettings_Ad.Parameters\0324" +
-      ".dstore.engine.mi_GetApplicationSettings" +
-      "_Ad.Response\"\0000\001\022\220\001\n\034mi_GetApplicationSe" +
-      "ttings_Pu\0226.dstore.engine.mi_GetApplicat" +
-      "ionSettings_Pu.Parameters\0324.dstore.engin" +
-      "e.mi_GetApplicationSettings_Pu.Response\"",
-      "\0000\001\022{\n\025mi_GetApplications_Ad\022/.dstore.en" +
-      "gine.mi_GetApplications_Ad.Parameters\032-." +
-      "dstore.engine.mi_GetApplications_Ad.Resp" +
-      "onse\"\0000\001\022{\n\025mi_GetApplications_Pu\022/.dsto" +
-      "re.engine.mi_GetApplications_Pu.Paramete" +
-      "rs\032-.dstore.engine.mi_GetApplications_Pu" +
-      ".Response\"\0000\001\022r\n\022mi_GetBatchJobs_Ad\022,.ds" +
-      "tore.engine.mi_GetBatchJobs_Ad.Parameter" +
-      "s\032*.dstore.engine.mi_GetBatchJobs_Ad.Res" +
-      "ponse\"\0000\001\022\207\001\n\031mi_GetBinaryProperties_Ad\022",
-      "3.dstore.engine.mi_GetBinaryProperties_A" +
-      "d.Parameters\0321.dstore.engine.mi_GetBinar" +
-      "yProperties_Ad.Response\"\0000\001\022\207\001\n\031mi_GetBi" +
-      "naryProperties_Pu\0223.dstore.engine.mi_Get" +
-      "BinaryProperties_Pu.Parameters\0321.dstore." +
-      "engine.mi_GetBinaryProperties_Pu.Respons" +
-      "e\"\0000\001\022u\n\023mi_GetConvertFactor\022-.dstore.en" +
-      "gine.mi_GetConvertFactor.Parameters\032+.ds" +
-      "tore.engine.mi_GetConvertFactor.Response" +
-      "\"\0000\001\022i\n\017mi_GetCountries\022).dstore.engine.",
-      "mi_GetCountries.Parameters\032\'.dstore.engi" +
-      "ne.mi_GetCountries.Response\"\0000\001\022o\n\021mi_Ge" +
-      "tCurrentDate\022+.dstore.engine.mi_GetCurre" +
-      "ntDate.Parameters\032).dstore.engine.mi_Get" +
-      "CurrentDate.Response\"\0000\001\022{\n\025mi_GetCurren" +
-      "tLocks_Ad\022/.dstore.engine.mi_GetCurrentL" +
-      "ocks_Ad.Parameters\032-.dstore.engine.mi_Ge" +
-      "tCurrentLocks_Ad.Response\"\0000\001\022\207\001\n\031mi_Get" +
-      "CurrentProcesses_Ad\0223.dstore.engine.mi_G" +
-      "etCurrentProcesses_Ad.Parameters\0321.dstor",
-      "e.engine.mi_GetCurrentProcesses_Ad.Respo" +
-      "nse\"\0000\001\022r\n\022mi_GetDBObjects_Ad\022,.dstore.e" +
-      "ngine.mi_GetDBObjects_Ad.Parameters\032*.ds" +
-      "tore.engine.mi_GetDBObjects_Ad.Response\"" +
-      "\0000\001\022\212\001\n\032mi_GetDBSessionInformation\0224.dst" +
-      "ore.engine.mi_GetDBSessionInformation.Pa" +
-      "rameters\0322.dstore.engine.mi_GetDBSession" +
-      "Information.Response\"\0000\001\022~\n\026mi_GetExecut" +
-      "eRights_Ad\0220.dstore.engine.mi_GetExecute" +
-      "Rights_Ad.Parameters\032..dstore.engine.mi_",
-      "GetExecuteRights_Ad.Response\"\0000\001\022u\n\023mi_G" +
-      "etFieldTypes_Ad\022-.dstore.engine.mi_GetFi" +
-      "eldTypes_Ad.Parameters\032+.dstore.engine.m" +
-      "i_GetFieldTypes_Ad.Response\"\0000\001\022u\n\023mi_Ge" +
-      "tFieldTypes_Pu\022-.dstore.engine.mi_GetFie" +
-      "ldTypes_Pu.Parameters\032+.dstore.engine.mi" +
-      "_GetFieldTypes_Pu.Response\"\0000\001\022o\n\021mi_Get" +
-      "IndexDDL_Ad\022+.dstore.engine.mi_GetIndexD" +
-      "DL_Ad.Parameters\032).dstore.engine.mi_GetI" +
-      "ndexDDL_Ad.Response\"\0000\001\022o\n\021mi_GetIndexDL",
-      "L_Ad\022+.dstore.engine.mi_GetIndexDLL_Ad.P" +
-      "arameters\032).dstore.engine.mi_GetIndexDLL" +
-      "_Ad.Response\"\0000\001\022\207\001\n\031mi_GetInformationTy" +
-      "pes_Ad\0223.dstore.engine.mi_GetInformation" +
-      "Types_Ad.Parameters\0321.dstore.engine.mi_G" +
-      "etInformationTypes_Ad.Response\"\0000\001\022\223\001\n\035m" +
-      "i_GetLanguageDescriptions_Ad\0227.dstore.en" +
-      "gine.mi_GetLanguageDescriptions_Ad.Param" +
-      "eters\0325.dstore.engine.mi_GetLanguageDesc" +
-      "riptions_Ad.Response\"\0000\001\022~\n\026mi_GetLangua",
-      "geIcons_Ad\0220.dstore.engine.mi_GetLanguag" +
-      "eIcons_Ad.Parameters\032..dstore.engine.mi_" +
-      "GetLanguageIcons_Ad.Response\"\0000\001\022~\n\026mi_G" +
-      "etLanguageIcons_Pu\0220.dstore.engine.mi_Ge" +
-      "tLanguageIcons_Pu.Parameters\032..dstore.en" +
-      "gine.mi_GetLanguageIcons_Pu.Response\"\0000\001" +
-      "\022i\n\017mi_GetLanguages\022).dstore.engine.mi_G" +
-      "etLanguages.Parameters\032\'.dstore.engine.m" +
-      "i_GetLanguages.Response\"\0000\001\022x\n\024mi_GetLic" +
-      "enceKeyData\022..dstore.engine.mi_GetLicenc",
-      "eKeyData.Parameters\032,.dstore.engine.mi_G" +
-      "etLicenceKeyData.Response\"\0000\001\022c\n\rmi_GetL" +
-      "ocales\022\'.dstore.engine.mi_GetLocales.Par" +
-      "ameters\032%.dstore.engine.mi_GetLocales.Re" +
-      "sponse\"\0000\001\022\207\001\n\031mi_GetLockDependencies_Ad" +
-      "\0223.dstore.engine.mi_GetLockDependencies_" +
-      "Ad.Parameters\0321.dstore.engine.mi_GetLock" +
-      "Dependencies_Ad.Response\"\0000\001\022\223\001\n\035mi_GetM" +
-      "etaInformationTypes_Ad\0227.dstore.engine.m" +
-      "i_GetMetaInformationTypes_Ad.Parameters\032",
-      "5.dstore.engine.mi_GetMetaInformationTyp" +
-      "es_Ad.Response\"\0000\001\022\226\001\n\036mi_GetProcExecRes" +
-      "trForGroup_Ad\0228.dstore.engine.mi_GetProc" +
-      "ExecRestrForGroup_Ad.Parameters\0326.dstore" +
-      ".engine.mi_GetProcExecRestrForGroup_Ad.R" +
-      "esponse\"\0000\001\022\226\001\n\036mi_GetProcExecRestrForUs" +
-      "ers_Ad\0228.dstore.engine.mi_GetProcExecRes" +
-      "trForUsers_Ad.Parameters\0326.dstore.engine" +
-      ".mi_GetProcExecRestrForUsers_Ad.Response" +
-      "\"\0000\001\022\223\001\n\035mi_GetProcExecRights_Group_Ad\0227",
-      ".dstore.engine.mi_GetProcExecRights_Grou" +
-      "p_Ad.Parameters\0325.dstore.engine.mi_GetPr" +
-      "ocExecRights_Group_Ad.Response\"\0000\001\022\220\001\n\034m" +
-      "i_GetProcExecRights_User_Ad\0226.dstore.eng" +
-      "ine.mi_GetProcExecRights_User_Ad.Paramet" +
-      "ers\0324.dstore.engine.mi_GetProcExecRights" +
-      "_User_Ad.Response\"\0000\001\022\215\001\n\033mi_GetProcMeta" +
-      "Properties_Ad\0225.dstore.engine.mi_GetProc" +
-      "MetaProperties_Ad.Parameters\0323.dstore.en" +
-      "gine.mi_GetProcMetaProperties_Ad.Respons",
-      "e\"\0000\001\022~\n\026mi_GetProcedureCode_Ad\0220.dstore" +
-      ".engine.mi_GetProcedureCode_Ad.Parameter" +
-      "s\032..dstore.engine.mi_GetProcedureCode_Ad" +
-      ".Response\"\0000\001\022\226\001\n\036mi_GetProcedureDepende" +
-      "ncies_Ad\0228.dstore.engine.mi_GetProcedure" +
-      "Dependencies_Ad.Parameters\0326.dstore.engi" +
-      "ne.mi_GetProcedureDependencies_Ad.Respon" +
-      "se\"\0000\001\022\226\001\n\036mi_GetProcedureExecutionLog_A" +
-      "d\0228.dstore.engine.mi_GetProcedureExecuti" +
-      "onLog_Ad.Parameters\0326.dstore.engine.mi_G",
-      "etProcedureExecutionLog_Ad.Response\"\0000\001\022" +
-      "\207\001\n\031mi_GetProcedureParameters\0223.dstore.e" +
-      "ngine.mi_GetProcedureParameters.Paramete" +
-      "rs\0321.dstore.engine.mi_GetProcedureParame" +
-      "ters.Response\"\0000\001\022c\n\rmi_GetRegions\022\'.dst" +
-      "ore.engine.mi_GetRegions.Parameters\032%.ds" +
-      "tore.engine.mi_GetRegions.Response\"\0000\001\022\223" +
-      "\001\n\035mi_GetRegisteredProcedures_Ad\0227.dstor" +
-      "e.engine.mi_GetRegisteredProcedures_Ad.P" +
-      "arameters\0325.dstore.engine.mi_GetRegister",
-      "edProcedures_Ad.Response\"\0000\001\022x\n\024mi_GetRe" +
-      "ssourceUsage\022..dstore.engine.mi_GetResso" +
-      "urceUsage.Parameters\032,.dstore.engine.mi_" +
-      "GetRessourceUsage.Response\"\0000\001\022\201\001\n\027mi_Ge" +
-      "tReturnCodeMessage\0221.dstore.engine.mi_Ge" +
-      "tReturnCodeMessage.Parameters\032/.dstore.e" +
-      "ngine.mi_GetReturnCodeMessage.Response\"\000" +
-      "0\001\022\212\001\n\032mi_GetSQLFunctMetaProps_Ad\0224.dsto" +
-      "re.engine.mi_GetSQLFunctMetaProps_Ad.Par" +
-      "ameters\0322.dstore.engine.mi_GetSQLFunctMe",
-      "taProps_Ad.Response\"\0000\001\022\204\001\n\030mi_GetSQLFun" +
-      "ctionCode_Ad\0222.dstore.engine.mi_GetSQLFu" +
-      "nctionCode_Ad.Parameters\0320.dstore.engine" +
-      ".mi_GetSQLFunctionCode_Ad.Response\"\0000\001\022\215" +
-      "\001\n\033mi_GetSQLFunctionParameters\0225.dstore." +
-      "engine.mi_GetSQLFunctionParameters.Param" +
-      "eters\0323.dstore.engine.mi_GetSQLFunctionP" +
-      "arameters.Response\"\0000\001\022\204\001\n\030mi_GetSearchI" +
-      "temLacks_Ad\0222.dstore.engine.mi_GetSearch" +
-      "ItemLacks_Ad.Parameters\0320.dstore.engine.",
-      "mi_GetSearchItemLacks_Ad.Response\"\0000\001\022x\n" +
-      "\024mi_GetSearchItems_Ad\022..dstore.engine.mi" +
-      "_GetSearchItems_Ad.Parameters\032,.dstore.e" +
-      "ngine.mi_GetSearchItems_Ad.Response\"\0000\001\022" +
-      "\212\001\n\032mi_GetSessionManagement_Pu\0224.dstore." +
-      "engine.mi_GetSessionManagement_Pu.Parame" +
-      "ters\0322.dstore.engine.mi_GetSessionManage" +
-      "ment_Pu.Response\"\0000\001\022r\n\022mi_GetSettingEnt" +
-      "ry\022,.dstore.engine.mi_GetSettingEntry.Pa" +
-      "rameters\032*.dstore.engine.mi_GetSettingEn",
-      "try.Response\"\0000\001\022o\n\021mi_GetSettings_Ad\022+." +
-      "dstore.engine.mi_GetSettings_Ad.Paramete" +
-      "rs\032).dstore.engine.mi_GetSettings_Ad.Res" +
-      "ponse\"\0000\001\022\212\001\n\032mi_GetSourceCodeHistory_Ad" +
-      "\0224.dstore.engine.mi_GetSourceCodeHistory" +
-      "_Ad.Parameters\0322.dstore.engine.mi_GetSou" +
-      "rceCodeHistory_Ad.Response\"\0000\001\022\204\001\n\030mi_Ge" +
-      "tSourceTemplates_Ad\0222.dstore.engine.mi_G" +
-      "etSourceTemplates_Ad.Parameters\0320.dstore" +
-      ".engine.mi_GetSourceTemplates_Ad.Respons",
-      "e\"\0000\001\022\207\001\n\031mi_GetStorageAllocInfo_Ad\0223.ds" +
-      "tore.engine.mi_GetStorageAllocInfo_Ad.Pa" +
-      "rameters\0321.dstore.engine.mi_GetStorageAl" +
-      "locInfo_Ad.Response\"\0000\001\022\201\001\n\027mi_GetTRITri" +
-      "ggerCode_Ad\0221.dstore.engine.mi_GetTRITri" +
-      "ggerCode_Ad.Parameters\032/.dstore.engine.m" +
-      "i_GetTRITriggerCode_Ad.Response\"\0000\001\022\223\001\n\035" +
-      "mi_GetTRITriggerConditions_Ad\0227.dstore.e" +
-      "ngine.mi_GetTRITriggerConditions_Ad.Para" +
-      "meters\0325.dstore.engine.mi_GetTRITriggerC",
-      "onditions_Ad.Response\"\0000\001\022\223\001\n\035mi_GetTRIT" +
-      "riggerReplFuncts_Ad\0227.dstore.engine.mi_G" +
-      "etTRITriggerReplFuncts_Ad.Parameters\0325.d" +
-      "store.engine.mi_GetTRITriggerReplFuncts_" +
-      "Ad.Response\"\0000\001\022\204\001\n\030mi_GetTRITriggerToDo" +
-      "s_Ad\0222.dstore.engine.mi_GetTRITriggerToD" +
-      "os_Ad.Parameters\0320.dstore.engine.mi_GetT" +
-      "RITriggerToDos_Ad.Response\"\0000\001\022\204\001\n\030mi_Ge" +
-      "tTRITriggerTypes_Ad\0222.dstore.engine.mi_G" +
-      "etTRITriggerTypes_Ad.Parameters\0320.dstore",
-      ".engine.mi_GetTRITriggerTypes_Ad.Respons" +
-      "e\"\0000\001\022\215\001\n\033mi_GetTRITriggerWorkflow_Ad\0225." +
-      "dstore.engine.mi_GetTRITriggerWorkflow_A" +
-      "d.Parameters\0323.dstore.engine.mi_GetTRITr" +
-      "iggerWorkflow_Ad.Response\"\0000\001\022u\n\023mi_GetT" +
-      "RITrigger_Ad\022-.dstore.engine.mi_GetTRITr" +
-      "igger_Ad.Parameters\032+.dstore.engine.mi_G" +
-      "etTRITrigger_Ad.Response\"\0000\001\022o\n\021mi_GetTa" +
-      "bleDDL_Ad\022+.dstore.engine.mi_GetTableDDL" +
-      "_Ad.Parameters\032).dstore.engine.mi_GetTab",
-      "leDDL_Ad.Response\"\0000\001\022o\n\021mi_GetTableDLL_" +
-      "Ad\022+.dstore.engine.mi_GetTableDLL_Ad.Par" +
-      "ameters\032).dstore.engine.mi_GetTableDLL_A" +
-      "d.Response\"\0000\001\022\215\001\n\033mi_GetTabsRefInOtherT" +
-      "abs_Ad\0225.dstore.engine.mi_GetTabsRefInOt" +
-      "herTabs_Ad.Parameters\0323.dstore.engine.mi" +
-      "_GetTabsRefInOtherTabs_Ad.Response\"\0000\001\022f" +
-      "\n\016mi_GetTaxRates\022(.dstore.engine.mi_GetT" +
-      "axRates.Parameters\032&.dstore.engine.mi_Ge" +
-      "tTaxRates.Response\"\0000\001\022\223\001\n\035mi_GetTemplat",
-      "eCombinations_Ad\0227.dstore.engine.mi_GetT" +
-      "emplateCombinations_Ad.Parameters\0325.dsto" +
-      "re.engine.mi_GetTemplateCombinations_Ad." +
-      "Response\"\0000\001\022r\n\022mi_GetTemplates_Ad\022,.dst" +
-      "ore.engine.mi_GetTemplates_Ad.Parameters" +
-      "\032*.dstore.engine.mi_GetTemplates_Ad.Resp" +
-      "onse\"\0000\001\022x\n\024mi_GetTriggerCode_Ad\022..dstor" +
-      "e.engine.mi_GetTriggerCode_Ad.Parameters" +
-      "\032,.dstore.engine.mi_GetTriggerCode_Ad.Re" +
-      "sponse\"\0000\001\022\201\001\n\027mi_GetUnitCategories_Ad\0221",
-      ".dstore.engine.mi_GetUnitCategories_Ad.P" +
-      "arameters\032/.dstore.engine.mi_GetUnitCate" +
-      "gories_Ad.Response\"\0000\001\022{\n\025mi_GetUnitConv" +
-      "erts_Ad\022/.dstore.engine.mi_GetUnitConver" +
-      "ts_Ad.Parameters\032-.dstore.engine.mi_GetU" +
-      "nitConverts_Ad.Response\"\0000\001\022]\n\013mi_GetUni" +
-      "ts\022%.dstore.engine.mi_GetUnits.Parameter" +
-      "s\032#.dstore.engine.mi_GetUnits.Response\"\000" +
-      "0\001\022f\n\016mi_GetUnits_Ad\022(.dstore.engine.mi_" +
-      "GetUnits_Ad.Parameters\032&.dstore.engine.m",
-      "i_GetUnits_Ad.Response\"\0000\001\022~\n\026mi_GetUsag" +
-      "eOfTables_Ad\0220.dstore.engine.mi_GetUsage" +
-      "OfTables_Ad.Parameters\032..dstore.engine.m" +
-      "i_GetUsageOfTables_Ad.Response\"\0000\001\022u\n\023mi" +
-      "_GetUserGroups_Ad\022-.dstore.engine.mi_Get" +
-      "UserGroups_Ad.Parameters\032+.dstore.engine" +
-      ".mi_GetUserGroups_Ad.Response\"\0000\001\022f\n\016mi_" +
-      "GetUserInfo\022(.dstore.engine.mi_GetUserIn" +
-      "fo.Parameters\032&.dstore.engine.mi_GetUser" +
-      "Info.Response\"\0000\001\022o\n\021mi_GetUserInfo_Ad\022+",
-      ".dstore.engine.mi_GetUserInfo_Ad.Paramet" +
-      "ers\032).dstore.engine.mi_GetUserInfo_Ad.Re" +
-      "sponse\"\0000\001\022\215\001\n\033mi_GetVisitorInformation_" +
-      "Pu\0225.dstore.engine.mi_GetVisitorInformat" +
-      "ion_Pu.Parameters\0323.dstore.engine.mi_Get" +
-      "VisitorInformation_Pu.Response\"\0000\001\022\212\001\n\032m" +
-      "i_GetVisitorProperties_Pu\0224.dstore.engin" +
-      "e.mi_GetVisitorProperties_Pu.Parameters\032" +
-      "2.dstore.engine.mi_GetVisitorProperties_" +
-      "Pu.Response\"\0000\001\022u\n\023mi_GetdStoreUser_Ad\022-",
-      ".dstore.engine.mi_GetdStoreUser_Ad.Param" +
-      "eters\032+.dstore.engine.mi_GetdStoreUser_A" +
-      "d.Response\"\0000\001\022\201\001\n\027mi_InsertPerformance_" +
-      "Pu\0221.dstore.engine.mi_InsertPerformance_" +
-      "Pu.Parameters\032/.dstore.engine.mi_InsertP" +
-      "erformance_Pu.Response\"\0000\001\022\226\001\n\036mi_Insert" +
-      "Temp_CharacConditions\0228.dstore.engine.mi" +
-      "_InsertTemp_CharacConditions.Parameters\032" +
-      "6.dstore.engine.mi_InsertTemp_CharacCond" +
-      "itions.Response\"\0000\001\022\226\001\n\036mi_InsertTempdb_",
-      "AdditionalInfo\0228.dstore.engine.mi_Insert" +
-      "Tempdb_AdditionalInfo.Parameters\0326.dstor" +
-      "e.engine.mi_InsertTempdb_AdditionalInfo." +
-      "Response\"\0000\001\022\207\001\n\031mi_InsertTempdb_AnyValu" +
-      "es\0223.dstore.engine.mi_InsertTempdb_AnyVa" +
-      "lues.Parameters\0321.dstore.engine.mi_Inser" +
-      "tTempdb_AnyValues.Response\"\0000\001\022\220\001\n\034mi_In" +
-      "sertTempdb_CharacValues\0226.dstore.engine." +
-      "mi_InsertTempdb_CharacValues.Parameters\032" +
-      "4.dstore.engine.mi_InsertTempdb_CharacVa",
-      "lues.Response\"\0000\001\022\207\001\n\031mi_InsertTempdb_Im" +
-      "ageData\0223.dstore.engine.mi_InsertTempdb_" +
-      "ImageData.Parameters\0321.dstore.engine.mi_" +
-      "InsertTempdb_ImageData.Response\"\0000\001\022{\n\025m" +
-      "i_InsertTempdb_OneID\022/.dstore.engine.mi_" +
-      "InsertTempdb_OneID.Parameters\032-.dstore.e" +
-      "ngine.mi_InsertTempdb_OneID.Response\"\0000\001" +
-      "\022\204\001\n\030mi_InsertTempdb_TextData\0222.dstore.e" +
-      "ngine.mi_InsertTempdb_TextData.Parameter" +
-      "s\0320.dstore.engine.mi_InsertTempdb_TextDa",
-      "ta.Response\"\0000\001\022\204\001\n\030mi_InsertTempdb_Thre" +
-      "eIDs\0222.dstore.engine.mi_InsertTempdb_Thr" +
-      "eeIDs.Parameters\0320.dstore.engine.mi_Inse" +
-      "rtTempdb_ThreeIDs.Response\"\0000\001\022~\n\026mi_Ins" +
-      "ertTempdb_TwoIDs\0220.dstore.engine.mi_Inse" +
-      "rtTempdb_TwoIDs.Parameters\032..dstore.engi" +
-      "ne.mi_InsertTempdb_TwoIDs.Response\"\0000\001\022\226" +
-      "\001\n\036mi_InsertVisitorInformation_Pu\0228.dsto" +
-      "re.engine.mi_InsertVisitorInformation_Pu" +
-      ".Parameters\0326.dstore.engine.mi_InsertVis",
-      "itorInformation_Pu.Response\"\0000\001\022r\n\022mi_Lo" +
-      "adDatabase_Ad\022,.dstore.engine.mi_LoadDat" +
-      "abase_Ad.Parameters\032*.dstore.engine.mi_L" +
-      "oadDatabase_Ad.Response\"\0000\001\022\215\001\n\033mi_Modif" +
-      "yAppPartSettings_Ad\0225.dstore.engine.mi_M" +
-      "odifyAppPartSettings_Ad.Parameters\0323.dst" +
-      "ore.engine.mi_ModifyAppPartSettings_Ad.R" +
-      "esponse\"\0000\001\022\220\001\n\034mi_ModifyAppPartTreeSett" +
-      "s_Ad\0226.dstore.engine.mi_ModifyAppPartTre" +
-      "eSetts_Ad.Parameters\0324.dstore.engine.mi_",
-      "ModifyAppPartTreeSetts_Ad.Response\"\0000\001\022\201" +
-      "\001\n\027mi_ModifyAppSettings_Ad\0221.dstore.engi" +
-      "ne.mi_ModifyAppSettings_Ad.Parameters\032/." +
-      "dstore.engine.mi_ModifyAppSettings_Ad.Re" +
-      "sponse\"\0000\001\022\215\001\n\033mi_ModifyApplicPartsTree_" +
-      "Ad\0225.dstore.engine.mi_ModifyApplicPartsT" +
-      "ree_Ad.Parameters\0323.dstore.engine.mi_Mod" +
-      "ifyApplicPartsTree_Ad.Response\"\0000\001\022\220\001\n\034m" +
-      "i_ModifyApplicationParts_Ad\0226.dstore.eng" +
-      "ine.mi_ModifyApplicationParts_Ad.Paramet",
-      "ers\0324.dstore.engine.mi_ModifyApplication" +
-      "Parts_Ad.Response\"\0000\001\022\204\001\n\030mi_ModifyAppli" +
-      "cations_Ad\0222.dstore.engine.mi_ModifyAppl" +
-      "ications_Ad.Parameters\0320.dstore.engine.m" +
-      "i_ModifyApplications_Ad.Response\"\0000\001\022\226\001\n" +
-      "\036mi_ModifyCountriesInRegions_Ad\0228.dstore" +
-      ".engine.mi_ModifyCountriesInRegions_Ad.P" +
-      "arameters\0326.dstore.engine.mi_ModifyCount" +
-      "riesInRegions_Ad.Response\"\0000\001\022{\n\025mi_Modi" +
-      "fyCountries_Ad\022/.dstore.engine.mi_Modify",
-      "Countries_Ad.Parameters\032-.dstore.engine." +
-      "mi_ModifyCountries_Ad.Response\"\0000\001\022\220\001\n\034m" +
-      "i_ModifyInformationTypes_Ad\0226.dstore.eng" +
-      "ine.mi_ModifyInformationTypes_Ad.Paramet" +
-      "ers\0324.dstore.engine.mi_ModifyInformation" +
-      "Types_Ad.Response\"\0000\001\022\207\001\n\031mi_ModifyLangu" +
-      "ageDescr_Ad\0223.dstore.engine.mi_ModifyLan" +
-      "guageDescr_Ad.Parameters\0321.dstore.engine" +
-      ".mi_ModifyLanguageDescr_Ad.Response\"\0000\001\022" +
-      "{\n\025mi_ModifyLanguages_Ad\022/.dstore.engine",
-      ".mi_ModifyLanguages_Ad.Parameters\032-.dsto" +
-      "re.engine.mi_ModifyLanguages_Ad.Response" +
-      "\"\0000\001\022u\n\023mi_ModifyLocales_Ad\022-.dstore.eng" +
-      "ine.mi_ModifyLocales_Ad.Parameters\032+.dst" +
-      "ore.engine.mi_ModifyLocales_Ad.Response\"" +
-      "\0000\001\022\226\001\n\036mi_ModifyProcExRestForGroup_Ad\0228" +
-      ".dstore.engine.mi_ModifyProcExRestForGro" +
-      "up_Ad.Parameters\0326.dstore.engine.mi_Modi" +
-      "fyProcExRestForGroup_Ad.Response\"\0000\001\022\223\001\n" +
-      "\035mi_ModifyProcExRestForUser_Ad\0227.dstore.",
-      "engine.mi_ModifyProcExRestForUser_Ad.Par" +
-      "ameters\0325.dstore.engine.mi_ModifyProcExR" +
-      "estForUser_Ad.Response\"\0000\001\022\223\001\n\035mi_Modify" +
-      "ProcExRight_Group_Ad\0227.dstore.engine.mi_" +
-      "ModifyProcExRight_Group_Ad.Parameters\0325." +
-      "dstore.engine.mi_ModifyProcExRight_Group" +
-      "_Ad.Response\"\0000\001\022\220\001\n\034mi_ModifyProcExRigh" +
-      "t_User_Ad\0226.dstore.engine.mi_ModifyProcE" +
-      "xRight_User_Ad.Parameters\0324.dstore.engin" +
-      "e.mi_ModifyProcExRight_User_Ad.Response\"",
-      "\0000\001\022u\n\023mi_ModifyRegions_Ad\022-.dstore.engi" +
-      "ne.mi_ModifyRegions_Ad.Parameters\032+.dsto" +
-      "re.engine.mi_ModifyRegions_Ad.Response\"\000" +
-      "0\001\022\215\001\n\033mi_ModifyRegisteredProcs_Ad\0225.dst" +
-      "ore.engine.mi_ModifyRegisteredProcs_Ad.P" +
-      "arameters\0323.dstore.engine.mi_ModifyRegis" +
-      "teredProcs_Ad.Response\"\0000\001\022\201\001\n\027mi_Modify" +
-      "SearchItems_Ad\0221.dstore.engine.mi_Modify" +
-      "SearchItems_Ad.Parameters\032/.dstore.engin" +
-      "e.mi_ModifySearchItems_Ad.Response\"\0000\001\022\223",
-      "\001\n\035mi_ModifySessionManagement_Pu\0227.dstor" +
-      "e.engine.mi_ModifySessionManagement_Pu.P" +
-      "arameters\0325.dstore.engine.mi_ModifySessi" +
-      "onManagement_Pu.Response\"\0000\001\022x\n\024mi_Modif" +
-      "ySettings_Ad\022..dstore.engine.mi_ModifySe" +
-      "ttings_Ad.Parameters\032,.dstore.engine.mi_" +
-      "ModifySettings_Ad.Response\"\0000\001\022\215\001\n\033mi_Mo" +
-      "difyTRITriggerConds_Ad\0225.dstore.engine.m" +
-      "i_ModifyTRITriggerConds_Ad.Parameters\0323." +
-      "dstore.engine.mi_ModifyTRITriggerConds_A",
-      "d.Response\"\0000\001\022\226\001\n\036mi_ModifyTRITriggerRe" +
-      "plFunc_Ad\0228.dstore.engine.mi_ModifyTRITr" +
-      "iggerReplFunc_Ad.Parameters\0326.dstore.eng" +
-      "ine.mi_ModifyTRITriggerReplFunc_Ad.Respo" +
-      "nse\"\0000\001\022\215\001\n\033mi_ModifyTRITriggerToDos_Ad\022" +
-      "5.dstore.engine.mi_ModifyTRITriggerToDos" +
-      "_Ad.Parameters\0323.dstore.engine.mi_Modify" +
-      "TRITriggerToDos_Ad.Response\"\0000\001\022\226\001\n\036mi_M" +
-      "odifyTRITriggerWorkflow_Ad\0228.dstore.engi" +
-      "ne.mi_ModifyTRITriggerWorkflow_Ad.Parame",
-      "ters\0326.dstore.engine.mi_ModifyTRITrigger" +
-      "Workflow_Ad.Response\"\0000\001\022~\n\026mi_ModifyTRI" +
-      "Trigger_Ad\0220.dstore.engine.mi_ModifyTRIT" +
-      "rigger_Ad.Parameters\032..dstore.engine.mi_" +
-      "ModifyTRITrigger_Ad.Response\"\0000\001\022x\n\024mi_M" +
-      "odifyTaxRates_Ad\022..dstore.engine.mi_Modi" +
-      "fyTaxRates_Ad.Parameters\032,.dstore.engine" +
-      ".mi_ModifyTaxRates_Ad.Response\"\0000\001\022{\n\025mi" +
-      "_ModifyTemplates_Ad\022/.dstore.engine.mi_M" +
-      "odifyTemplates_Ad.Parameters\032-.dstore.en",
-      "gine.mi_ModifyTemplates_Ad.Response\"\0000\001\022" +
-      "\223\001\n\035mi_ModifyUnitCategoryDescr_Ad\0227.dsto" +
-      "re.engine.mi_ModifyUnitCategoryDescr_Ad." +
-      "Parameters\0325.dstore.engine.mi_ModifyUnit" +
-      "CategoryDescr_Ad.Response\"\0000\001\022\204\001\n\030mi_Mod" +
-      "ifyUnitConverts_Ad\0222.dstore.engine.mi_Mo" +
-      "difyUnitConverts_Ad.Parameters\0320.dstore." +
-      "engine.mi_ModifyUnitConverts_Ad.Response" +
-      "\"\0000\001\022\223\001\n\035mi_ModifyUnitsInCategories_Ad\0227" +
-      ".dstore.engine.mi_ModifyUnitsInCategorie",
-      "s_Ad.Parameters\0325.dstore.engine.mi_Modif" +
-      "yUnitsInCategories_Ad.Response\"\0000\001\022o\n\021mi" +
-      "_ModifyUnits_Ad\022+.dstore.engine.mi_Modif" +
-      "yUnits_Ad.Parameters\032).dstore.engine.mi_" +
-      "ModifyUnits_Ad.Response\"\0000\001\022~\n\026mi_Modify" +
-      "UserGroups_Ad\0220.dstore.engine.mi_ModifyU" +
-      "serGroups_Ad.Parameters\032..dstore.engine." +
-      "mi_ModifyUserGroups_Ad.Response\"\0000\001\022x\n\024m" +
-      "i_ModifyUserInfo_Ad\022..dstore.engine.mi_M" +
-      "odifyUserInfo_Ad.Parameters\032,.dstore.eng",
-      "ine.mi_ModifyUserInfo_Ad.Response\"\0000\001\022\207\001" +
-      "\n\031mi_ModifyUsersInGroups_Ad\0223.dstore.eng" +
-      "ine.mi_ModifyUsersInGroups_Ad.Parameters" +
-      "\0321.dstore.engine.mi_ModifyUsersInGroups_" +
-      "Ad.Response\"\0000\001\022u\n\023mi_ResetBatchJob_Ad\022-" +
-      ".dstore.engine.mi_ResetBatchJob_Ad.Param" +
-      "eters\032+.dstore.engine.mi_ResetBatchJob_A" +
-      "d.Response\"\0000\001\022\212\001\n\032mi_RestoreDefaultValu" +
-      "es_Ad\0224.dstore.engine.mi_RestoreDefaultV" +
-      "alues_Ad.Parameters\0322.dstore.engine.mi_R",
-      "estoreDefaultValues_Ad.Response\"\0000\001\022x\n\024m" +
-      "i_SearchBinaries_Ad\022..dstore.engine.mi_S" +
-      "earchBinaries_Ad.Parameters\032,.dstore.eng" +
-      "ine.mi_SearchBinaries_Ad.Response\"\0000\001\022~\n" +
-      "\026mi_SearchSourceCode_Ad\0220.dstore.engine." +
-      "mi_SearchSourceCode_Ad.Parameters\032..dsto" +
-      "re.engine.mi_SearchSourceCode_Ad.Respons" +
-      "e\"\0000\001\022\223\001\n\035mi_UpdateVisitorProperties_Pu\022" +
-      "7.dstore.engine.mi_UpdateVisitorProperti" +
-      "es_Pu.Parameters\0325.dstore.engine.mi_Upda",
-      "teVisitorProperties_Pu.Response\"\0000\001\022\204\001\n\030" +
-      "mi_ValidateTRITrigger_Ad\0222.dstore.engine" +
-      ".mi_ValidateTRITrigger_Ad.Parameters\0320.d" +
-      "store.engine.mi_ValidateTRITrigger_Ad.Re" +
-      "sponse\"\0000\001\022\201\001\n\027om_AcknowledgeOrders_Ad\0221" +
-      ".dstore.engine.om_AcknowledgeOrders_Ad.P" +
-      "arameters\032/.dstore.engine.om_Acknowledge" +
-      "Orders_Ad.Response\"\0000\001\022~\n\026om_ChangeOrder" +
-      "State_Ad\0220.dstore.engine.om_ChangeOrderS" +
-      "tate_Ad.Parameters\032..dstore.engine.om_Ch",
-      "angeOrderState_Ad.Response\"\0000\001\022~\n\026om_Cha" +
-      "ngeOrderState_Pu\0220.dstore.engine.om_Chan" +
-      "geOrderState_Pu.Parameters\032..dstore.engi" +
-      "ne.om_ChangeOrderState_Pu.Response\"\0000\001\022\220" +
-      "\001\n\034om_CheckCampCondsForTNIDs_Ad\0226.dstore" +
-      ".engine.om_CheckCampCondsForTNIDs_Ad.Par" +
-      "ameters\0324.dstore.engine.om_CheckCampCond" +
-      "sForTNIDs_Ad.Response\"\0000\001\022r\n\022om_ClearTro" +
-      "lley_Pu\022,.dstore.engine.om_ClearTrolley_" +
-      "Pu.Parameters\032*.dstore.engine.om_ClearTr",
-      "olley_Pu.Response\"\0000\001\022r\n\022om_ConvertCurre" +
-      "ncy\022,.dstore.engine.om_ConvertCurrency.P" +
-      "arameters\032*.dstore.engine.om_ConvertCurr" +
-      "ency.Response\"\0000\001\022\220\001\n\034om_CopyFromPOQueue" +
-      "ToOrder_Ad\0226.dstore.engine.om_CopyFromPO" +
-      "QueueToOrder_Ad.Parameters\0324.dstore.engi" +
-      "ne.om_CopyFromPOQueueToOrder_Ad.Response" +
-      "\"\0000\001\022\220\001\n\034om_CopyFromTrolleyToOrder_Pu\0226." +
-      "dstore.engine.om_CopyFromTrolleyToOrder_" +
-      "Pu.Parameters\0324.dstore.engine.om_CopyFro",
-      "mTrolleyToOrder_Pu.Response\"\0000\001\022\215\001\n\033om_C" +
-      "reateCustomerCashAcc_Pu\0225.dstore.engine." +
-      "om_CreateCustomerCashAcc_Pu.Parameters\0323" +
-      ".dstore.engine.om_CreateCustomerCashAcc_" +
-      "Pu.Response\"\0000\001\022u\n\023om_CreateNewBill_Ad\022-" +
-      ".dstore.engine.om_CreateNewBill_Ad.Param" +
-      "eters\032+.dstore.engine.om_CreateNewBill_A" +
-      "d.Response\"\0000\001\022\226\001\n\036om_CreateSimpleCampIt" +
-      "emCond_Ad\0228.dstore.engine.om_CreateSimpl" +
-      "eCampItemCond_Ad.Parameters\0326.dstore.eng",
-      "ine.om_CreateSimpleCampItemCond_Ad.Respo" +
-      "nse\"\0000\001\022\204\001\n\030om_CreateVoucherCodes_Ad\0222.d" +
-      "store.engine.om_CreateVoucherCodes_Ad.Pa" +
-      "rameters\0320.dstore.engine.om_CreateVouche" +
-      "rCodes_Ad.Response\"\0000\001\022\226\001\n\036om_CustomerWh" +
-      "oBoughtAlsoBought\0228.dstore.engine.om_Cus" +
-      "tomerWhoBoughtAlsoBought.Parameters\0326.ds" +
-      "tore.engine.om_CustomerWhoBoughtAlsoBoug" +
-      "ht.Response\"\0000\001\022r\n\022om_ExportOrders_Ad\022,." +
-      "dstore.engine.om_ExportOrders_Ad.Paramet",
-      "ers\032*.dstore.engine.om_ExportOrders_Ad.R" +
-      "esponse\"\0000\001\022\204\001\n\030om_GetAllowedOrderStates" +
-      "\0222.dstore.engine.om_GetAllowedOrderState" +
-      "s.Parameters\0320.dstore.engine.om_GetAllow" +
-      "edOrderStates.Response\"\0000\001\022{\n\025om_GetBene" +
-      "fitTypes_Ad\022/.dstore.engine.om_GetBenefi" +
-      "tTypes_Ad.Parameters\032-.dstore.engine.om_" +
-      "GetBenefitTypes_Ad.Response\"\0000\001\022\223\001\n\035om_G" +
-      "etBillContentInfoRules_Ad\0227.dstore.engin" +
-      "e.om_GetBillContentInfoRules_Ad.Paramete",
-      "rs\0325.dstore.engine.om_GetBillContentInfo" +
-      "Rules_Ad.Response\"\0000\001\022\223\001\n\035om_GetBillCont" +
-      "entInfoTypes_Ad\0227.dstore.engine.om_GetBi" +
-      "llContentInfoTypes_Ad.Parameters\0325.dstor" +
-      "e.engine.om_GetBillContentInfoTypes_Ad.R" +
-      "esponse\"\0000\001\022\204\001\n\030om_GetBillContentInfo_Ad" +
-      "\0222.dstore.engine.om_GetBillContentInfo_A" +
-      "d.Parameters\0320.dstore.engine.om_GetBillC" +
-      "ontentInfo_Ad.Response\"\0000\001\022\223\001\n\035om_GetBil" +
-      "lInformationRules_Ad\0227.dstore.engine.om_",
-      "GetBillInformationRules_Ad.Parameters\0325." +
-      "dstore.engine.om_GetBillInformationRules" +
-      "_Ad.Response\"\0000\001\022\223\001\n\035om_GetBillInformati" +
-      "onTypes_Ad\0227.dstore.engine.om_GetBillInf" +
-      "ormationTypes_Ad.Parameters\0325.dstore.eng" +
-      "ine.om_GetBillInformationTypes_Ad.Respon" +
-      "se\"\0000\001\022\204\001\n\030om_GetBillInformation_Ad\0222.ds" +
-      "tore.engine.om_GetBillInformation_Ad.Par" +
-      "ameters\0320.dstore.engine.om_GetBillInform" +
-      "ation_Ad.Response\"\0000\001\022~\n\026om_GetBonusItem",
-      "Sets_Ad\0220.dstore.engine.om_GetBonusItemS" +
-      "ets_Ad.Parameters\032..dstore.engine.om_Get" +
-      "BonusItemSets_Ad.Response\"\0000\001\022\201\001\n\027om_Get" +
-      "BundleItemSets_Ad\0221.dstore.engine.om_Get" +
-      "BundleItemSets_Ad.Parameters\032/.dstore.en" +
-      "gine.om_GetBundleItemSets_Ad.Response\"\0000" +
-      "\001\022\215\001\n\033om_GetBundlePricingTypes_Ad\0225.dsto" +
-      "re.engine.om_GetBundlePricingTypes_Ad.Pa" +
-      "rameters\0323.dstore.engine.om_GetBundlePri" +
-      "cingTypes_Ad.Response\"\0000\001\022\226\001\n\036om_GetCamP",
-      "eriodStatusValues_Ad\0228.dstore.engine.om_" +
-      "GetCamPeriodStatusValues_Ad.Parameters\0326" +
-      ".dstore.engine.om_GetCamPeriodStatusValu" +
-      "es_Ad.Response\"\0000\001\022\226\001\n\036om_GetCampCondCri" +
-      "teriaTypes_Ad\0228.dstore.engine.om_GetCamp" +
-      "CondCriteriaTypes_Ad.Parameters\0326.dstore" +
-      ".engine.om_GetCampCondCriteriaTypes_Ad.R" +
-      "esponse\"\0000\001\022\215\001\n\033om_GetCampOrderSurchDisc" +
-      "_Ad\0225.dstore.engine.om_GetCampOrderSurch" +
-      "Disc_Ad.Parameters\0323.dstore.engine.om_Ge",
-      "tCampOrderSurchDisc_Ad.Response\"\0000\001\022\223\001\n\035" +
-      "om_GetCampPaymentTypeConds_Ad\0227.dstore.e" +
-      "ngine.om_GetCampPaymentTypeConds_Ad.Para" +
-      "meters\0325.dstore.engine.om_GetCampPayment" +
-      "TypeConds_Ad.Response\"\0000\001\022\223\001\n\035om_GetCamp" +
-      "PersonGroupConds_Ad\0227.dstore.engine.om_G" +
-      "etCampPersonGroupConds_Ad.Parameters\0325.d" +
-      "store.engine.om_GetCampPersonGroupConds_" +
-      "Ad.Response\"\0000\001\022\226\001\n\036om_GetCampShippingTy" +
-      "peConds_Ad\0228.dstore.engine.om_GetCampShi",
-      "ppingTypeConds_Ad.Parameters\0326.dstore.en" +
-      "gine.om_GetCampShippingTypeConds_Ad.Resp" +
-      "onse\"\0000\001\022\223\001\n\035om_GetCampTrolleyValueCond_" +
-      "Ad\0227.dstore.engine.om_GetCampTrolleyValu" +
-      "eCond_Ad.Parameters\0325.dstore.engine.om_G" +
-      "etCampTrolleyValueCond_Ad.Response\"\0000\001\022\223" +
-      "\001\n\035om_GetCampVoucherCodeConds_Ad\0227.dstor" +
-      "e.engine.om_GetCampVoucherCodeConds_Ad.P" +
-      "arameters\0325.dstore.engine.om_GetCampVouc" +
-      "herCodeConds_Ad.Response\"\0000\001\022\207\001\n\031om_GetC",
-      "ampaignBenefits_Ad\0223.dstore.engine.om_Ge" +
-      "tCampaignBenefits_Ad.Parameters\0321.dstore" +
-      ".engine.om_GetCampaignBenefits_Ad.Respon" +
-      "se\"\0000\001\022\215\001\n\033om_GetCampaignBonusItems_Ad\0225" +
-      ".dstore.engine.om_GetCampaignBonusItems_" +
-      "Ad.Parameters\0323.dstore.engine.om_GetCamp" +
-      "aignBonusItems_Ad.Response\"\0000\001\022\215\001\n\033om_Ge" +
-      "tCampaignBonusItems_Pu\0225.dstore.engine.o" +
-      "m_GetCampaignBonusItems_Pu.Parameters\0323." +
-      "dstore.engine.om_GetCampaignBonusItems_P",
-      "u.Response\"\0000\001\022\226\001\n\036om_GetCampaignBundleP" +
-      "ricing_Ad\0228.dstore.engine.om_GetCampaign" +
-      "BundlePricing_Ad.Parameters\0326.dstore.eng" +
-      "ine.om_GetCampaignBundlePricing_Ad.Respo" +
-      "nse\"\0000\001\022\226\001\n\036om_GetCampaignBundlePricing_" +
-      "Pu\0228.dstore.engine.om_GetCampaignBundleP" +
-      "ricing_Pu.Parameters\0326.dstore.engine.om_" +
-      "GetCampaignBundlePricing_Pu.Response\"\0000\001" +
-      "\022\215\001\n\033om_GetCampaignCategories_Ad\0225.dstor" +
-      "e.engine.om_GetCampaignCategories_Ad.Par",
-      "ameters\0323.dstore.engine.om_GetCampaignCa" +
-      "tegories_Ad.Response\"\0000\001\022\215\001\n\033om_GetCampa" +
-      "ignConditions_Ad\0225.dstore.engine.om_GetC" +
-      "ampaignConditions_Ad.Parameters\0323.dstore" +
-      ".engine.om_GetCampaignConditions_Ad.Resp" +
-      "onse\"\0000\001\022\226\001\n\036om_GetCampaignItemConGroups" +
-      "_Ad\0228.dstore.engine.om_GetCampaignItemCo" +
-      "nGroups_Ad.Parameters\0326.dstore.engine.om" +
-      "_GetCampaignItemConGroups_Ad.Response\"\0000" +
-      "\001\022\226\001\n\036om_GetCampaignItemCondParts_Ad\0228.d",
-      "store.engine.om_GetCampaignItemCondParts" +
-      "_Ad.Parameters\0326.dstore.engine.om_GetCam" +
-      "paignItemCondParts_Ad.Response\"\0000\001\022\212\001\n\032o" +
-      "m_GetCampaignItemConds_Ad\0224.dstore.engin" +
-      "e.om_GetCampaignItemConds_Ad.Parameters\032" +
-      "2.dstore.engine.om_GetCampaignItemConds_" +
-      "Ad.Response\"\0000\001\022\215\001\n\033om_GetCampaignPeriod" +
-      "Defs_Ad\0225.dstore.engine.om_GetCampaignPe" +
-      "riodDefs_Ad.Parameters\0323.dstore.engine.o" +
-      "m_GetCampaignPeriodDefs_Ad.Response\"\0000\001\022",
-      "\204\001\n\030om_GetCampaignPeriods_Ad\0222.dstore.en" +
-      "gine.om_GetCampaignPeriods_Ad.Parameters" +
-      "\0320.dstore.engine.om_GetCampaignPeriods_A" +
-      "d.Response\"\0000\001\022\212\001\n\032om_GetCampaignSetting" +
-      "Entry\0224.dstore.engine.om_GetCampaignSett" +
-      "ingEntry.Parameters\0322.dstore.engine.om_G" +
-      "etCampaignSettingEntry.Response\"\0000\001\022\215\001\n\033" +
-      "om_GetCampaignSurcharges_Ad\0225.dstore.eng" +
-      "ine.om_GetCampaignSurcharges_Ad.Paramete" +
-      "rs\0323.dstore.engine.om_GetCampaignSurchar",
-      "ges_Ad.Response\"\0000\001\022\212\001\n\032om_GetCampaignTy" +
-      "peRules_Ad\0224.dstore.engine.om_GetCampaig" +
-      "nTypeRules_Ad.Parameters\0322.dstore.engine" +
-      ".om_GetCampaignTypeRules_Ad.Response\"\0000\001" +
-      "\022~\n\026om_GetCampaignTypes_Ad\0220.dstore.engi" +
-      "ne.om_GetCampaignTypes_Ad.Parameters\032..d" +
-      "store.engine.om_GetCampaignTypes_Ad.Resp" +
-      "onse\"\0000\001\022\226\001\n\036om_GetCampaignsInCategories" +
-      "_Ad\0228.dstore.engine.om_GetCampaignsInCat" +
-      "egories_Ad.Parameters\0326.dstore.engine.om",
-      "_GetCampaignsInCategories_Ad.Response\"\0000" +
-      "\001\022r\n\022om_GetCampaigns_Ad\022,.dstore.engine." +
-      "om_GetCampaigns_Ad.Parameters\032*.dstore.e" +
-      "ngine.om_GetCampaigns_Ad.Response\"\0000\001\022\223\001" +
-      "\n\035om_GetCashAccTransactTypes_Ad\0227.dstore" +
-      ".engine.om_GetCashAccTransactTypes_Ad.Pa" +
-      "rameters\0325.dstore.engine.om_GetCashAccTr" +
-      "ansactTypes_Ad.Response\"\0000\001\022\220\001\n\034om_GetCa" +
-      "shAccTransactions_Ad\0226.dstore.engine.om_" +
-      "GetCashAccTransactions_Ad.Parameters\0324.d",
-      "store.engine.om_GetCashAccTransactions_A" +
-      "d.Response\"\0000\001\022\220\001\n\034om_GetCashAccTransact" +
-      "ions_Pu\0226.dstore.engine.om_GetCashAccTra" +
-      "nsactions_Pu.Parameters\0324.dstore.engine." +
-      "om_GetCashAccTransactions_Pu.Response\"\0000" +
-      "\001\022~\n\026om_GetCashAccountTypes\0220.dstore.eng" +
-      "ine.om_GetCashAccountTypes.Parameters\032.." +
-      "dstore.engine.om_GetCashAccountTypes.Res" +
-      "ponse\"\0000\001\022\220\001\n\034om_GetChangeOStateTrigger_" +
-      "Ad\0226.dstore.engine.om_GetChangeOStateTri",
-      "gger_Ad.Parameters\0324.dstore.engine.om_Ge" +
-      "tChangeOStateTrigger_Ad.Response\"\0000\001\022~\n\026" +
-      "om_GetCurrentCampaigns\0220.dstore.engine.o" +
-      "m_GetCurrentCampaigns.Parameters\032..dstor" +
-      "e.engine.om_GetCurrentCampaigns.Response" +
-      "\"\0000\001\022\223\001\n\035om_GetCustomerCashAccounts_Ad\0227" +
-      ".dstore.engine.om_GetCustomerCashAccount" +
-      "s_Ad.Parameters\0325.dstore.engine.om_GetCu" +
-      "stomerCashAccounts_Ad.Response\"\0000\001\022\223\001\n\035o" +
-      "m_GetCustomerCashAccounts_Pu\0227.dstore.en",
-      "gine.om_GetCustomerCashAccounts_Pu.Param" +
-      "eters\0325.dstore.engine.om_GetCustomerCash" +
-      "Accounts_Pu.Response\"\0000\001\022\220\001\n\034om_GetGroup" +
-      "PaymentForShip_Ad\0226.dstore.engine.om_Get" +
-      "GroupPaymentForShip_Ad.Parameters\0324.dsto" +
-      "re.engine.om_GetGroupPaymentForShip_Ad.R" +
-      "esponse\"\0000\001\022\204\001\n\030om_GetGroupSurcharges_Ad" +
-      "\0222.dstore.engine.om_GetGroupSurcharges_A" +
-      "d.Parameters\0320.dstore.engine.om_GetGroup" +
-      "Surcharges_Ad.Response\"\0000\001\022\215\001\n\033om_GetNod",
-      "ePaymentForShip_Ad\0225.dstore.engine.om_Ge" +
-      "tNodePaymentForShip_Ad.Parameters\0323.dsto" +
-      "re.engine.om_GetNodePaymentForShip_Ad.Re" +
-      "sponse\"\0000\001\022\226\001\n\036om_GetOrderContentInfoRul" +
-      "es_Ad\0228.dstore.engine.om_GetOrderContent" +
-      "InfoRules_Ad.Parameters\0326.dstore.engine." +
-      "om_GetOrderContentInfoRules_Ad.Response\"" +
-      "\0000\001\022\226\001\n\036om_GetOrderContentInfoTypes_Ad\0228" +
-      ".dstore.engine.om_GetOrderContentInfoTyp" +
-      "es_Ad.Parameters\0326.dstore.engine.om_GetO",
-      "rderContentInfoTypes_Ad.Response\"\0000\001\022\207\001\n" +
-      "\031om_GetOrderContentInfo_Ad\0223.dstore.engi" +
-      "ne.om_GetOrderContentInfo_Ad.Parameters\032" +
-      "1.dstore.engine.om_GetOrderContentInfo_A" +
-      "d.Response\"\0000\001\022\207\001\n\031om_GetOrderContentInf" +
-      "o_Pu\0223.dstore.engine.om_GetOrderContentI" +
-      "nfo_Pu.Parameters\0321.dstore.engine.om_Get" +
-      "OrderContentInfo_Pu.Response\"\0000\001\022\226\001\n\036om_" +
-      "GetOrderInformationRules_Ad\0228.dstore.eng" +
-      "ine.om_GetOrderInformationRules_Ad.Param",
-      "eters\0326.dstore.engine.om_GetOrderInforma" +
-      "tionRules_Ad.Response\"\0000\001\022\226\001\n\036om_GetOrde" +
-      "rInformationTypes_Ad\0228.dstore.engine.om_" +
-      "GetOrderInformationTypes_Ad.Parameters\0326" +
-      ".dstore.engine.om_GetOrderInformationTyp" +
-      "es_Ad.Response\"\0000\001\022\207\001\n\031om_GetOrderInform" +
-      "ation_Ad\0223.dstore.engine.om_GetOrderInfo" +
-      "rmation_Ad.Parameters\0321.dstore.engine.om" +
-      "_GetOrderInformation_Ad.Response\"\0000\001\022\207\001\n" +
-      "\031om_GetOrderInformation_Pu\0223.dstore.engi",
-      "ne.om_GetOrderInformation_Pu.Parameters\032" +
-      "1.dstore.engine.om_GetOrderInformation_P" +
-      "u.Response\"\0000\001\022\223\001\n\035om_GetOrderStateCateg" +
-      "ories_Ad\0227.dstore.engine.om_GetOrderStat" +
-      "eCategories_Ad.Parameters\0325.dstore.engin" +
-      "e.om_GetOrderStateCategories_Ad.Response" +
-      "\"\0000\001\022\204\001\n\030om_GetOrderStateDescr_Ad\0222.dsto" +
-      "re.engine.om_GetOrderStateDescr_Ad.Param" +
-      "eters\0320.dstore.engine.om_GetOrderStateDe" +
-      "scr_Ad.Response\"\0000\001\022\212\001\n\032om_GetOrderState",
-      "History_Ad\0224.dstore.engine.om_GetOrderSt" +
-      "ateHistory_Ad.Parameters\0322.dstore.engine" +
-      ".om_GetOrderStateHistory_Ad.Response\"\0000\001" +
-      "\022\212\001\n\032om_GetOrderStateHistory_Pu\0224.dstore" +
-      ".engine.om_GetOrderStateHistory_Pu.Param" +
-      "eters\0322.dstore.engine.om_GetOrderStateHi" +
-      "story_Pu.Response\"\0000\001\022\204\001\n\030om_GetOrderSta" +
-      "teRules_Ad\0222.dstore.engine.om_GetOrderSt" +
-      "ateRules_Ad.Parameters\0320.dstore.engine.o" +
-      "m_GetOrderStateRules_Ad.Response\"\0000\001\022\201\001\n",
-      "\027om_GetOrderStatesInCats\0221.dstore.engine" +
-      ".om_GetOrderStatesInCats.Parameters\032/.ds" +
-      "tore.engine.om_GetOrderStatesInCats.Resp" +
-      "onse\"\0000\001\022\212\001\n\032om_GetOrderStatesInCats_Ad\022" +
-      "4.dstore.engine.om_GetOrderStatesInCats_" +
-      "Ad.Parameters\0322.dstore.engine.om_GetOrde" +
-      "rStatesInCats_Ad.Response\"\0000\001\022x\n\024om_GetO" +
-      "rderStates_Ad\022..dstore.engine.om_GetOrde" +
-      "rStates_Ad.Parameters\032,.dstore.engine.om" +
-      "_GetOrderStates_Ad.Response\"\0000\001\022\220\001\n\034om_G",
-      "etOrderSurchInfoTypes_Ad\0226.dstore.engine" +
-      ".om_GetOrderSurchInfoTypes_Ad.Parameters" +
-      "\0324.dstore.engine.om_GetOrderSurchInfoTyp" +
-      "es_Ad.Response\"\0000\001\022\215\001\n\033om_GetOrderSurcha" +
-      "rgeInfo_Ad\0225.dstore.engine.om_GetOrderSu" +
-      "rchargeInfo_Ad.Parameters\0323.dstore.engin" +
-      "e.om_GetOrderSurchargeInfo_Ad.Response\"\000" +
-      "0\001\022\215\001\n\033om_GetOrderSurchargeInfo_Pu\0225.dst" +
-      "ore.engine.om_GetOrderSurchargeInfo_Pu.P" +
-      "arameters\0323.dstore.engine.om_GetOrderSur",
-      "chargeInfo_Pu.Response\"\0000\001\022\204\001\n\030om_GetOrd" +
-      "erSurcharges_Ad\0222.dstore.engine.om_GetOr" +
-      "derSurcharges_Ad.Parameters\0320.dstore.eng" +
-      "ine.om_GetOrderSurcharges_Ad.Response\"\0000" +
-      "\001\022\204\001\n\030om_GetOrderSurcharges_Pu\0222.dstore." +
-      "engine.om_GetOrderSurcharges_Pu.Paramete" +
-      "rs\0320.dstore.engine.om_GetOrderSurcharges" +
-      "_Pu.Response\"\0000\001\022i\n\017om_GetOrders_Ad\022).ds" +
-      "tore.engine.om_GetOrders_Ad.Parameters\032\'" +
-      ".dstore.engine.om_GetOrders_Ad.Response\"",
-      "\0000\001\022\212\001\n\032om_GetOrders_Conditions_Ad\0224.dst" +
-      "ore.engine.om_GetOrders_Conditions_Ad.Pa" +
-      "rameters\0322.dstore.engine.om_GetOrders_Co" +
-      "nditions_Ad.Response\"\0000\001\022i\n\017om_GetOrders" +
-      "_Pu\022).dstore.engine.om_GetOrders_Pu.Para" +
-      "meters\032\'.dstore.engine.om_GetOrders_Pu.R" +
-      "esponse\"\0000\001\022\226\001\n\036om_GetOtherBillContInfRu" +
-      "les_Ad\0228.dstore.engine.om_GetOtherBillCo" +
-      "ntInfRules_Ad.Parameters\0326.dstore.engine" +
-      ".om_GetOtherBillContInfRules_Ad.Response",
-      "\"\0000\001\022\226\001\n\036om_GetOtherBillContInfTypes_Ad\022" +
-      "8.dstore.engine.om_GetOtherBillContInfTy" +
-      "pes_Ad.Parameters\0326.dstore.engine.om_Get" +
-      "OtherBillContInfTypes_Ad.Response\"\0000\001\022\215\001" +
-      "\n\033om_GetPaymentAndShipping_Pu\0225.dstore.e" +
-      "ngine.om_GetPaymentAndShipping_Pu.Parame" +
-      "ters\0323.dstore.engine.om_GetPaymentAndShi" +
-      "pping_Pu.Response\"\0000\001\022x\n\024om_GetPaymentCo" +
-      "st_Pu\022..dstore.engine.om_GetPaymentCost_" +
-      "Pu.Parameters\032,.dstore.engine.om_GetPaym",
-      "entCost_Pu.Response\"\0000\001\022\215\001\n\033om_GetPaymen" +
-      "tForShipping_Ad\0225.dstore.engine.om_GetPa" +
-      "ymentForShipping_Ad.Parameters\0323.dstore." +
-      "engine.om_GetPaymentForShipping_Ad.Respo" +
-      "nse\"\0000\001\022\215\001\n\033om_GetPaymentForShipping_Pu\022" +
-      "5.dstore.engine.om_GetPaymentForShipping" +
-      "_Pu.Parameters\0323.dstore.engine.om_GetPay" +
-      "mentForShipping_Pu.Response\"\0000\001\022\207\001\n\031om_G" +
-      "etPaymentTypeDescr_Ad\0223.dstore.engine.om" +
-      "_GetPaymentTypeDescr_Ad.Parameters\0321.dst",
-      "ore.engine.om_GetPaymentTypeDescr_Ad.Res" +
-      "ponse\"\0000\001\022\226\001\n\036om_GetPaymentTypeSurcharge" +
-      "s_Ad\0228.dstore.engine.om_GetPaymentTypeSu" +
-      "rcharges_Ad.Parameters\0326.dstore.engine.o" +
-      "m_GetPaymentTypeSurcharges_Ad.Response\"\000" +
-      "0\001\022{\n\025om_GetPaymentTypes_Ad\022/.dstore.eng" +
-      "ine.om_GetPaymentTypes_Ad.Parameters\032-.d" +
-      "store.engine.om_GetPaymentTypes_Ad.Respo" +
-      "nse\"\0000\001\022\220\001\n\034om_GetPersonInfoForOrders_Ad" +
-      "\0226.dstore.engine.om_GetPersonInfoForOrde",
-      "rs_Ad.Parameters\0324.dstore.engine.om_GetP" +
-      "ersonInfoForOrders_Ad.Response\"\0000\001\022\207\001\n\031o" +
-      "m_GetPersonSurcharges_Ad\0223.dstore.engine" +
-      ".om_GetPersonSurcharges_Ad.Parameters\0321." +
-      "dstore.engine.om_GetPersonSurcharges_Ad." +
-      "Response\"\0000\001\022\226\001\n\036om_GetPredefinedBillCon" +
-      "tent_Ad\0228.dstore.engine.om_GetPredefined" +
-      "BillContent_Ad.Parameters\0326.dstore.engin" +
-      "e.om_GetPredefinedBillContent_Ad.Respons" +
-      "e\"\0000\001\022{\n\025om_GetPrepaidCodes_Ad\022/.dstore.",
-      "engine.om_GetPrepaidCodes_Ad.Parameters\032" +
-      "-.dstore.engine.om_GetPrepaidCodes_Ad.Re" +
-      "sponse\"\0000\001\022i\n\017om_GetPrices_Ad\022).dstore.e" +
-      "ngine.om_GetPrices_Ad.Parameters\032\'.dstor" +
-      "e.engine.om_GetPrices_Ad.Response\"\0000\001\022i\n" +
-      "\017om_GetPrices_Pu\022).dstore.engine.om_GetP" +
-      "rices_Pu.Parameters\032\'.dstore.engine.om_G" +
-      "etPrices_Pu.Response\"\0000\001\022\220\001\n\034om_GetPurch" +
-      "aseOrderQueues_Ad\0226.dstore.engine.om_Get" +
-      "PurchaseOrderQueues_Ad.Parameters\0324.dsto",
-      "re.engine.om_GetPurchaseOrderQueues_Ad.R" +
-      "esponse\"\0000\001\022\215\001\n\033om_GetPurchaseOrderTypes" +
-      "_Ad\0225.dstore.engine.om_GetPurchaseOrderT" +
-      "ypes_Ad.Parameters\0323.dstore.engine.om_Ge" +
-      "tPurchaseOrderTypes_Ad.Response\"\0000\001\022\201\001\n\027" +
-      "om_GetPurchasePrices_Ad\0221.dstore.engine." +
-      "om_GetPurchasePrices_Ad.Parameters\032/.dst" +
-      "ore.engine.om_GetPurchasePrices_Ad.Respo" +
-      "nse\"\0000\001\022\215\001\n\033om_GetRequiredInfoForPay_Ad\022" +
-      "5.dstore.engine.om_GetRequiredInfoForPay",
-      "_Ad.Parameters\0323.dstore.engine.om_GetReq" +
-      "uiredInfoForPay_Ad.Response\"\0000\001\022\223\001\n\035om_G" +
-      "etSetsForBonItBenefits_Ad\0227.dstore.engin" +
-      "e.om_GetSetsForBonItBenefits_Ad.Paramete" +
-      "rs\0325.dstore.engine.om_GetSetsForBonItBen" +
-      "efits_Ad.Response\"\0000\001\022\226\001\n\036om_GetSetsForB" +
-      "undleBenefits_Ad\0228.dstore.engine.om_GetS" +
-      "etsForBundleBenefits_Ad.Parameters\0326.dst" +
-      "ore.engine.om_GetSetsForBundleBenefits_A" +
-      "d.Response\"\0000\001\022\220\001\n\034om_GetShippTypeSurcha",
-      "rges_Ad\0226.dstore.engine.om_GetShippTypeS" +
-      "urcharges_Ad.Parameters\0324.dstore.engine." +
-      "om_GetShippTypeSurcharges_Ad.Response\"\0000" +
-      "\001\022{\n\025om_GetShippingCost_Pu\022/.dstore.engi" +
-      "ne.om_GetShippingCost_Pu.Parameters\032-.ds" +
-      "tore.engine.om_GetShippingCost_Pu.Respon" +
-      "se\"\0000\001\022\212\001\n\032om_GetShippingTypeDescr_Ad\0224." +
-      "dstore.engine.om_GetShippingTypeDescr_Ad" +
-      ".Parameters\0322.dstore.engine.om_GetShippi" +
-      "ngTypeDescr_Ad.Response\"\0000\001\022~\n\026om_GetShi",
-      "ppingTypes_Ad\0220.dstore.engine.om_GetShip" +
-      "pingTypes_Ad.Parameters\032..dstore.engine." +
-      "om_GetShippingTypes_Ad.Response\"\0000\001\022\226\001\n\036" +
-      "om_GetSupplierConfiguration_Ad\0228.dstore." +
-      "engine.om_GetSupplierConfiguration_Ad.Pa" +
-      "rameters\0326.dstore.engine.om_GetSupplierC" +
-      "onfiguration_Ad.Response\"\0000\001\022\223\001\n\035om_GetS" +
-      "urchargeTypeCategories\0227.dstore.engine.o" +
-      "m_GetSurchargeTypeCategories.Parameters\032" +
-      "5.dstore.engine.om_GetSurchargeTypeCateg",
-      "ories.Response\"\0000\001\022\204\001\n\030om_GetSurchargeTy" +
-      "peTaxes\0222.dstore.engine.om_GetSurchargeT" +
-      "ypeTaxes.Parameters\0320.dstore.engine.om_G" +
-      "etSurchargeTypeTaxes.Response\"\0000\001\022\201\001\n\027om" +
-      "_GetSurchargeTypes_Ad\0221.dstore.engine.om" +
-      "_GetSurchargeTypes_Ad.Parameters\032/.dstor" +
-      "e.engine.om_GetSurchargeTypes_Ad.Respons" +
-      "e\"\0000\001\022u\n\023om_GetSurcharges_Pu\022-.dstore.en" +
-      "gine.om_GetSurcharges_Pu.Parameters\032+.ds" +
-      "tore.engine.om_GetSurcharges_Pu.Response",
-      "\"\0000\001\022f\n\016om_GetTaxTypes\022(.dstore.engine.o" +
-      "m_GetTaxTypes.Parameters\032&.dstore.engine" +
-      ".om_GetTaxTypes.Response\"\0000\001\022]\n\013om_GetTa" +
-      "xes\022%.dstore.engine.om_GetTaxes.Paramete" +
-      "rs\032#.dstore.engine.om_GetTaxes.Response\"" +
-      "\0000\001\022\223\001\n\035om_GetTimeUnitsForCPeriods_Ad\0227." +
-      "dstore.engine.om_GetTimeUnitsForCPeriods" +
-      "_Ad.Parameters\0325.dstore.engine.om_GetTim" +
-      "eUnitsForCPeriods_Ad.Response\"\0000\001\022\220\001\n\034om" +
-      "_GetTransactionMetaInfo_Ad\0226.dstore.engi",
-      "ne.om_GetTransactionMetaInfo_Ad.Paramete" +
-      "rs\0324.dstore.engine.om_GetTransactionMeta" +
-      "Info_Ad.Response\"\0000\001\022\204\001\n\030om_GetTrolleyAs" +
-      "Matrix_Pu\0222.dstore.engine.om_GetTrolleyA" +
-      "sMatrix_Pu.Parameters\0320.dstore.engine.om" +
-      "_GetTrolleyAsMatrix_Pu.Response\"\0000\001\022\223\001\n\035" +
-      "om_GetTrolleyContInfoTypes_Ad\0227.dstore.e" +
-      "ngine.om_GetTrolleyContInfoTypes_Ad.Para" +
-      "meters\0325.dstore.engine.om_GetTrolleyCont" +
-      "InfoTypes_Ad.Response\"\0000\001\022\215\001\n\033om_GetTrol",
-      "leyContentInfo_Pu\0225.dstore.engine.om_Get" +
-      "TrolleyContentInfo_Pu.Parameters\0323.dstor" +
-      "e.engine.om_GetTrolleyContentInfo_Pu.Res" +
-      "ponse\"\0000\001\022\207\001\n\031om_GetTrolleyInfoTypes_Ad\022" +
-      "3.dstore.engine.om_GetTrolleyInfoTypes_A" +
-      "d.Parameters\0321.dstore.engine.om_GetTroll" +
-      "eyInfoTypes_Ad.Response\"\0000\001\022\215\001\n\033om_GetTr" +
-      "olleyInformation_Pu\0225.dstore.engine.om_G" +
-      "etTrolleyInformation_Pu.Parameters\0323.dst" +
-      "ore.engine.om_GetTrolleyInformation_Pu.R",
-      "esponse\"\0000\001\022\226\001\n\036om_GetTrolleySurchInfoTy" +
-      "pes_Ad\0228.dstore.engine.om_GetTrolleySurc" +
-      "hInfoTypes_Ad.Parameters\0326.dstore.engine" +
-      ".om_GetTrolleySurchInfoTypes_Ad.Response" +
-      "\"\0000\001\022\223\001\n\035om_GetTrolleySurchargeInfo_Pu\0227" +
-      ".dstore.engine.om_GetTrolleySurchargeInf" +
-      "o_Pu.Parameters\0325.dstore.engine.om_GetTr" +
-      "olleySurchargeInfo_Pu.Response\"\0000\001\022\212\001\n\032o" +
-      "m_GetTrolleySurcharges_Pu\0224.dstore.engin" +
-      "e.om_GetTrolleySurcharges_Pu.Parameters\032",
-      "2.dstore.engine.om_GetTrolleySurcharges_" +
-      "Pu.Response\"\0000\001\022l\n\020om_GetTrolley_Pu\022*.ds" +
-      "tore.engine.om_GetTrolley_Pu.Parameters\032" +
-      "(.dstore.engine.om_GetTrolley_Pu.Respons" +
-      "e\"\0000\001\022o\n\021om_GetTrolleys_Ad\022+.dstore.engi" +
-      "ne.om_GetTrolleys_Ad.Parameters\032).dstore" +
-      ".engine.om_GetTrolleys_Ad.Response\"\0000\001\022\207" +
-      "\001\n\031om_GetUsedVoucherCodes_Ad\0223.dstore.en" +
-      "gine.om_GetUsedVoucherCodes_Ad.Parameter" +
-      "s\0321.dstore.engine.om_GetUsedVoucherCodes",
-      "_Ad.Response\"\0000\001\022\207\001\n\031om_GetVCodeOriginTy" +
-      "pes_Ad\0223.dstore.engine.om_GetVCodeOrigin" +
-      "Types_Ad.Parameters\0321.dstore.engine.om_G" +
-      "etVCodeOriginTypes_Ad.Response\"\0000\001\022{\n\025om" +
-      "_GetVoucherCodes_Ad\022/.dstore.engine.om_G" +
-      "etVoucherCodes_Ad.Parameters\032-.dstore.en" +
-      "gine.om_GetVoucherCodes_Ad.Response\"\0000\001\022" +
-      "\226\001\n\036om_GetVoucherTypeStatistics_Ad\0228.dst" +
-      "ore.engine.om_GetVoucherTypeStatistics_A" +
-      "d.Parameters\0326.dstore.engine.om_GetVouch",
-      "erTypeStatistics_Ad.Response\"\0000\001\022\226\001\n\036om_" +
-      "GetVoucherTypeSurcharges_Ad\0228.dstore.eng" +
-      "ine.om_GetVoucherTypeSurcharges_Ad.Param" +
-      "eters\0326.dstore.engine.om_GetVoucherTypeS" +
-      "urcharges_Ad.Response\"\0000\001\022{\n\025om_GetVouch" +
-      "erTypes_Ad\022/.dstore.engine.om_GetVoucher" +
-      "Types_Ad.Parameters\032-.dstore.engine.om_G" +
-      "etVoucherTypes_Ad.Response\"\0000\001\022\201\001\n\027om_In" +
-      "sertIntoTrolley_Pu\0221.dstore.engine.om_In" +
-      "sertIntoTrolley_Pu.Parameters\032/.dstore.e",
-      "ngine.om_InsertIntoTrolley_Pu.Response\"\000" +
-      "0\001\022\207\001\n\031om_ModifyBonusItemSets_Ad\0223.dstor" +
-      "e.engine.om_ModifyBonusItemSets_Ad.Param" +
-      "eters\0321.dstore.engine.om_ModifyBonusItem" +
-      "Sets_Ad.Response\"\0000\001\022\212\001\n\032om_ModifyBundle" +
-      "ItemSets_Ad\0224.dstore.engine.om_ModifyBun" +
-      "dleItemSets_Ad.Parameters\0322.dstore.engin" +
-      "e.om_ModifyBundleItemSets_Ad.Response\"\0000" +
-      "\001\022\223\001\n\035om_ModifyCampBundlePricing_Ad\0227.ds" +
-      "tore.engine.om_ModifyCampBundlePricing_A",
+      "Pu\0221.dstore.engine.fo_ModifyForumAccess_" +
+      "Pu.Parameters\032/.dstore.engine.fo_ModifyF" +
+      "orumAccess_Pu.Response\"\0000\001\022\215\001\n\033fo_Modify" +
+      "ForumCategories_Ad\0225.dstore.engine.fo_Mo" +
+      "difyForumCategories_Ad.Parameters\0323.dsto" +
+      "re.engine.fo_ModifyForumCategories_Ad.Re" +
+      "sponse\"\0000\001\022\207\001\n\031fo_ModifyForumSettings_Ad" +
+      "\0223.dstore.engine.fo_ModifyForumSettings_",
+      "Ad.Parameters\0321.dstore.engine.fo_ModifyF" +
+      "orumSettings_Ad.Response\"\0000\001\022\226\001\n\036fo_Modi" +
+      "fyForumsInCategories_Ad\0228.dstore.engine." +
+      "fo_ModifyForumsInCategories_Ad.Parameter" +
+      "s\0326.dstore.engine.fo_ModifyForumsInCateg" +
+      "ories_Ad.Response\"\0000\001\022r\n\022fo_ModifyForums" +
+      "_Ad\022,.dstore.engine.fo_ModifyForums_Ad.P" +
+      "arameters\032*.dstore.engine.fo_ModifyForum" +
+      "s_Ad.Response\"\0000\001\022\220\001\n\034fo_ModifyMainPostS" +
+      "ortCrit_Ad\0226.dstore.engine.fo_ModifyMain",
+      "PostSortCrit_Ad.Parameters\0324.dstore.engi" +
+      "ne.fo_ModifyMainPostSortCrit_Ad.Response" +
+      "\"\0000\001\022\207\001\n\031fo_ModifyPostingBinary_Pu\0223.dst" +
+      "ore.engine.fo_ModifyPostingBinary_Pu.Par" +
+      "ameters\0321.dstore.engine.fo_ModifyPosting" +
+      "Binary_Pu.Response\"\0000\001\022\212\001\n\032fo_ModifyPost" +
+      "ingCharacs_Ad\0224.dstore.engine.fo_ModifyP" +
+      "ostingCharacs_Ad.Parameters\0322.dstore.eng" +
+      "ine.fo_ModifyPostingCharacs_Ad.Response\"" +
+      "\0000\001\022\223\001\n\035fo_ModifyPostingProperties_Pu\0227.",
+      "dstore.engine.fo_ModifyPostingProperties" +
+      "_Pu.Parameters\0325.dstore.engine.fo_Modify" +
+      "PostingProperties_Pu.Response\"\0000\001\022\223\001\n\035fo" +
+      "_ModifyPostingVisibility_Pu\0227.dstore.eng" +
+      "ine.fo_ModifyPostingVisibility_Pu.Parame" +
+      "ters\0325.dstore.engine.fo_ModifyPostingVis" +
+      "ibility_Pu.Response\"\0000\001\022u\n\023fo_ModifyPost" +
+      "ing_Pu\022-.dstore.engine.fo_ModifyPosting_" +
+      "Pu.Parameters\032+.dstore.engine.fo_ModifyP" +
+      "osting_Pu.Response\"\0000\001\022\226\001\n\036fo_ModifyPred",
+      "ValsForCharacs_Ad\0228.dstore.engine.fo_Mod" +
+      "ifyPredValsForCharacs_Ad.Parameters\0326.ds" +
+      "tore.engine.fo_ModifyPredValsForCharacs_" +
+      "Ad.Response\"\0000\001\022o\n\021fo_MovePosting_Pu\022+.d" +
+      "store.engine.fo_MovePosting_Pu.Parameter" +
+      "s\032).dstore.engine.fo_MovePosting_Pu.Resp" +
+      "onse\"\0000\001\022x\n\024fo_SearchPostings_Pu\022..dstor" +
+      "e.engine.fo_SearchPostings_Pu.Parameters" +
+      "\032,.dstore.engine.fo_SearchPostings_Pu.Re" +
+      "sponse\"\0000\001\022~\n\026im_AddBinaryToNodes_Ad\0220.d",
+      "store.engine.im_AddBinaryToNodes_Ad.Para" +
+      "meters\032..dstore.engine.im_AddBinaryToNod" +
+      "es_Ad.Response\"\0000\001\022\201\001\n\027im_AddBinaryToVal" +
+      "ues_Ad\0221.dstore.engine.im_AddBinaryToVal" +
+      "ues_Ad.Parameters\032/.dstore.engine.im_Add" +
+      "BinaryToValues_Ad.Response\"\0000\001\022\223\001\n\035im_Al" +
+      "phabetizeCharacValues_Ad\0227.dstore.engine" +
+      ".im_AlphabetizeCharacValues_Ad.Parameter" +
+      "s\0325.dstore.engine.im_AlphabetizeCharacVa" +
+      "lues_Ad.Response\"\0000\001\022\223\001\n\035im_CheckConditi",
+      "onsForTNIDs_Ad\0227.dstore.engine.im_CheckC" +
+      "onditionsForTNIDs_Ad.Parameters\0325.dstore" +
+      ".engine.im_CheckConditionsForTNIDs_Ad.Re" +
+      "sponse\"\0000\001\022\215\001\n\033im_CountBinariesForTreeNo" +
+      "de\0225.dstore.engine.im_CountBinariesForTr" +
+      "eeNode.Parameters\0323.dstore.engine.im_Cou" +
+      "ntBinariesForTreeNode.Response\"\0000\001\022\226\001\n\036i" +
+      "m_CreateProductRatSubjects_Ad\0228.dstore.e" +
+      "ngine.im_CreateProductRatSubjects_Ad.Par" +
+      "ameters\0326.dstore.engine.im_CreateProduct",
+      "RatSubjects_Ad.Response\"\0000\001\022{\n\025im_DeActi" +
+      "vateNodes_Ad\022/.dstore.engine.im_DeActiva" +
+      "teNodes_Ad.Parameters\032-.dstore.engine.im" +
+      "_DeActivateNodes_Ad.Response\"\0000\001\022\207\001\n\031im_" +
+      "DeleteBinaryForNode_Ad\0223.dstore.engine.i" +
+      "m_DeleteBinaryForNode_Ad.Parameters\0321.ds" +
+      "tore.engine.im_DeleteBinaryForNode_Ad.Re" +
+      "sponse\"\0000\001\022\215\001\n\033im_DeleteInterfaceTables_" +
+      "Ad\0225.dstore.engine.im_DeleteInterfaceTab" +
+      "les_Ad.Parameters\0323.dstore.engine.im_Del",
+      "eteInterfaceTables_Ad.Response\"\0000\001\022\215\001\n\033i" +
+      "m_DeleteNodeCharacValue_Ad\0225.dstore.engi" +
+      "ne.im_DeleteNodeCharacValue_Ad.Parameter" +
+      "s\0323.dstore.engine.im_DeleteNodeCharacVal" +
+      "ue_Ad.Response\"\0000\001\022\207\001\n\031im_DeletePageTree" +
+      "Nodes_Ad\0223.dstore.engine.im_DeletePageTr" +
+      "eeNodes_Ad.Parameters\0321.dstore.engine.im" +
+      "_DeletePageTreeNodes_Ad.Response\"\0000\001\022\207\001\n" +
+      "\031im_DeleteTemplateUsage_Ad\0223.dstore.engi" +
+      "ne.im_DeleteTemplateUsage_Ad.Parameters\032",
+      "1.dstore.engine.im_DeleteTemplateUsage_A" +
+      "d.Response\"\0000\001\022{\n\025im_DeleteTreeNodes_Ad\022" +
+      "/.dstore.engine.im_DeleteTreeNodes_Ad.Pa" +
+      "rameters\032-.dstore.engine.im_DeleteTreeNo" +
+      "des_Ad.Response\"\0000\001\022o\n\021im_FuzzySearch_Ad" +
+      "\022+.dstore.engine.im_FuzzySearch_Ad.Param" +
+      "eters\032).dstore.engine.im_FuzzySearch_Ad." +
+      "Response\"\0000\001\022~\n\026im_GenerateVariants_Ad\0220" +
+      ".dstore.engine.im_GenerateVariants_Ad.Pa" +
+      "rameters\032..dstore.engine.im_GenerateVari",
+      "ants_Ad.Response\"\0000\001\022\201\001\n\027im_GetBinariesF" +
+      "orValues\0221.dstore.engine.im_GetBinariesF" +
+      "orValues.Parameters\032/.dstore.engine.im_G" +
+      "etBinariesForValues.Response\"\0000\001\022\226\001\n\036im_" +
+      "GetBinaryCharacteristics_Ad\0228.dstore.eng" +
+      "ine.im_GetBinaryCharacteristics_Ad.Param" +
+      "eters\0326.dstore.engine.im_GetBinaryCharac" +
+      "teristics_Ad.Response\"\0000\001\022\223\001\n\035im_GetBina" +
+      "ryCodeIDsForNode_Pu\0227.dstore.engine.im_G" +
+      "etBinaryCodeIDsForNode_Pu.Parameters\0325.d",
+      "store.engine.im_GetBinaryCodeIDsForNode_" +
+      "Pu.Response\"\0000\001\022\226\001\n\036im_GetBinaryCodeIDsF" +
+      "orValue_Pu\0228.dstore.engine.im_GetBinaryC" +
+      "odeIDsForValue_Pu.Parameters\0326.dstore.en" +
+      "gine.im_GetBinaryCodeIDsForValue_Pu.Resp" +
+      "onse\"\0000\001\022\223\001\n\035im_GetBinaryPredefinedVals_" +
+      "Ad\0227.dstore.engine.im_GetBinaryPredefine" +
+      "dVals_Ad.Parameters\0325.dstore.engine.im_G" +
+      "etBinaryPredefinedVals_Ad.Response\"\0000\001\022\223" +
+      "\001\n\035im_GetBinaryPredefinedVals_Pu\0227.dstor",
+      "e.engine.im_GetBinaryPredefinedVals_Pu.P" +
+      "arameters\0325.dstore.engine.im_GetBinaryPr" +
+      "edefinedVals_Pu.Response\"\0000\001\022\207\001\n\031im_GetB" +
+      "inaryProperties_Ad\0223.dstore.engine.im_Ge" +
+      "tBinaryProperties_Ad.Parameters\0321.dstore" +
+      ".engine.im_GetBinaryProperties_Ad.Respon" +
+      "se\"\0000\001\022\207\001\n\031im_GetBinaryProperties_Pu\0223.d" +
+      "store.engine.im_GetBinaryProperties_Pu.P" +
+      "arameters\0321.dstore.engine.im_GetBinaryPr" +
+      "operties_Pu.Response\"\0000\001\022i\n\017im_GetBinary",
+      "_Ad\022).dstore.engine.im_GetBinary_Ad.Para" +
+      "meters\032\'.dstore.engine.im_GetBinary_Ad.R" +
+      "esponse\"\0000\001\022i\n\017im_GetBinary_Pu\022).dstore." +
+      "engine.im_GetBinary_Pu.Parameters\032\'.dsto" +
+      "re.engine.im_GetBinary_Pu.Response\"\0000\001\022\223" +
+      "\001\n\035im_GetCommonNodeProperties_Ad\0227.dstor" +
+      "e.engine.im_GetCommonNodeProperties_Ad.P" +
+      "arameters\0325.dstore.engine.im_GetCommonNo" +
+      "deProperties_Ad.Response\"\0000\001\022\220\001\n\034im_GetC" +
+      "orrespondingValues_Ad\0226.dstore.engine.im",
+      "_GetCorrespondingValues_Ad.Parameters\0324." +
+      "dstore.engine.im_GetCorrespondingValues_" +
+      "Ad.Response\"\0000\001\022\207\001\n\031im_GetDirectSuccesso" +
+      "rs_Ad\0223.dstore.engine.im_GetDirectSucces" +
+      "sors_Ad.Parameters\0321.dstore.engine.im_Ge" +
+      "tDirectSuccessors_Ad.Response\"\0000\001\022\207\001\n\031im" +
+      "_GetDirectSuccessors_Pu\0223.dstore.engine." +
+      "im_GetDirectSuccessors_Pu.Parameters\0321.d" +
+      "store.engine.im_GetDirectSuccessors_Pu.R" +
+      "esponse\"\0000\001\022\226\001\n\036im_GetDirectSuccessors_T",
+      "ree_Ad\0228.dstore.engine.im_GetDirectSucce" +
+      "ssors_Tree_Ad.Parameters\0326.dstore.engine" +
+      ".im_GetDirectSuccessors_Tree_Ad.Response" +
+      "\"\0000\001\022\226\001\n\036im_GetDirectSuccessors_Tree_Pu\022" +
+      "8.dstore.engine.im_GetDirectSuccessors_T" +
+      "ree_Pu.Parameters\0326.dstore.engine.im_Get" +
+      "DirectSuccessors_Tree_Pu.Response\"\0000\001\022x\n" +
+      "\024im_GetHTreeNodeID_Pu\022..dstore.engine.im" +
+      "_GetHTreeNodeID_Pu.Parameters\032,.dstore.e" +
+      "ngine.im_GetHTreeNodeID_Pu.Response\"\0000\001\022",
+      "{\n\025im_GetHTreeNodeIDs_Ad\022/.dstore.engine" +
+      ".im_GetHTreeNodeIDs_Ad.Parameters\032-.dsto" +
+      "re.engine.im_GetHTreeNodeIDs_Ad.Response" +
+      "\"\0000\001\022{\n\025im_GetImportErrors_Ad\022/.dstore.e" +
+      "ngine.im_GetImportErrors_Ad.Parameters\032-" +
+      ".dstore.engine.im_GetImportErrors_Ad.Res" +
+      "ponse\"\0000\001\022\220\001\n\034im_GetItemConditionGroups_" +
+      "Ad\0226.dstore.engine.im_GetItemConditionGr" +
+      "oups_Ad.Parameters\0324.dstore.engine.im_Ge" +
+      "tItemConditionGroups_Ad.Response\"\0000\001\022\215\001\n",
+      "\033im_GetItemConditionParts_Ad\0225.dstore.en" +
+      "gine.im_GetItemConditionParts_Ad.Paramet" +
+      "ers\0323.dstore.engine.im_GetItemConditionP" +
+      "arts_Ad.Response\"\0000\001\022\201\001\n\027im_GetItemCondi" +
+      "tions_Ad\0221.dstore.engine.im_GetItemCondi" +
+      "tions_Ad.Parameters\032/.dstore.engine.im_G" +
+      "etItemConditions_Ad.Response\"\0000\001\022{\n\025im_G" +
+      "etLevelForNode_Pu\022/.dstore.engine.im_Get" +
+      "LevelForNode_Pu.Parameters\032-.dstore.engi" +
+      "ne.im_GetLevelForNode_Pu.Response\"\0000\001\022i\n",
+      "\017im_GetLevels_Ad\022).dstore.engine.im_GetL" +
+      "evels_Ad.Parameters\032\'.dstore.engine.im_G" +
+      "etLevels_Ad.Response\"\0000\001\022i\n\017im_GetLevels" +
+      "_Pu\022).dstore.engine.im_GetLevels_Pu.Para" +
+      "meters\032\'.dstore.engine.im_GetLevels_Pu.R" +
+      "esponse\"\0000\001\022\212\001\n\032im_GetLockedNodeCharacs_" +
+      "Ad\0224.dstore.engine.im_GetLockedNodeChara" +
+      "cs_Ad.Parameters\0322.dstore.engine.im_GetL" +
+      "ockedNodeCharacs_Ad.Response\"\0000\001\022~\n\026im_G" +
+      "etModifiedNodes_Ad\0220.dstore.engine.im_Ge",
+      "tModifiedNodes_Ad.Parameters\032..dstore.en" +
+      "gine.im_GetModifiedNodes_Ad.Response\"\0000\001" +
+      "\022\212\001\n\032im_GetNewCharacsForNode_Ad\0224.dstore" +
+      ".engine.im_GetNewCharacsForNode_Ad.Param" +
+      "eters\0322.dstore.engine.im_GetNewCharacsFo" +
+      "rNode_Ad.Response\"\0000\001\022\223\001\n\035im_GetNodeChar" +
+      "acCategories_Ad\0227.dstore.engine.im_GetNo" +
+      "deCharacCategories_Ad.Parameters\0325.dstor" +
+      "e.engine.im_GetNodeCharacCategories_Ad.R" +
+      "esponse\"\0000\001\022\204\001\n\030im_GetNodeCharacDescr_Ad",
+      "\0222.dstore.engine.im_GetNodeCharacDescr_A" +
+      "d.Parameters\0320.dstore.engine.im_GetNodeC" +
+      "haracDescr_Ad.Response\"\0000\001\022\204\001\n\030im_GetNod" +
+      "eCharacSettings\0222.dstore.engine.im_GetNo" +
+      "deCharacSettings.Parameters\0320.dstore.eng" +
+      "ine.im_GetNodeCharacSettings.Response\"\0000" +
+      "\001\022\207\001\n\031im_GetNodeCharacValues_Ad\0223.dstore" +
+      ".engine.im_GetNodeCharacValues_Ad.Parame" +
+      "ters\0321.dstore.engine.im_GetNodeCharacVal" +
+      "ues_Ad.Response\"\0000\001\022\207\001\n\031im_GetNodeCharac",
+      "Values_Pu\0223.dstore.engine.im_GetNodeChar" +
+      "acValues_Pu.Parameters\0321.dstore.engine.i" +
+      "m_GetNodeCharacValues_Pu.Response\"\0000\001\022\220\001" +
+      "\n\034im_GetNodeCharacteristics_Ad\0226.dstore." +
+      "engine.im_GetNodeCharacteristics_Ad.Para" +
+      "meters\0324.dstore.engine.im_GetNodeCharact" +
+      "eristics_Ad.Response\"\0000\001\022\220\001\n\034im_GetNodeC" +
+      "haracteristics_Pu\0226.dstore.engine.im_Get" +
+      "NodeCharacteristics_Pu.Parameters\0324.dsto" +
+      "re.engine.im_GetNodeCharacteristics_Pu.R",
+      "esponse\"\0000\001\022\207\001\n\031im_GetNodeDescriptions_P" +
+      "u\0223.dstore.engine.im_GetNodeDescriptions" +
+      "_Pu.Parameters\0321.dstore.engine.im_GetNod" +
+      "eDescriptions_Pu.Response\"\0000\001\022\220\001\n\034im_Get" +
+      "NodeMetaInformation_Ad\0226.dstore.engine.i" +
+      "m_GetNodeMetaInformation_Ad.Parameters\0324" +
+      ".dstore.engine.im_GetNodeMetaInformation" +
+      "_Ad.Response\"\0000\001\022x\n\024im_GetNodeProperties" +
+      "\022..dstore.engine.im_GetNodeProperties.Pa" +
+      "rameters\032,.dstore.engine.im_GetNodePrope",
+      "rties.Response\"\0000\001\022\226\001\n\036im_GetNodePropert" +
+      "iesHistory_Ad\0228.dstore.engine.im_GetNode" +
+      "PropertiesHistory_Ad.Parameters\0326.dstore" +
+      ".engine.im_GetNodePropertiesHistory_Ad.R" +
+      "esponse\"\0000\001\022x\n\024im_GetNodeSymbols_Ad\022..ds" +
+      "tore.engine.im_GetNodeSymbols_Ad.Paramet" +
+      "ers\032,.dstore.engine.im_GetNodeSymbols_Ad" +
+      ".Response\"\0000\001\022~\n\026im_GetNumberOfNodes_Ad\022" +
+      "0.dstore.engine.im_GetNumberOfNodes_Ad.P" +
+      "arameters\032..dstore.engine.im_GetNumberOf",
+      "Nodes_Ad.Response\"\0000\001\022~\n\026im_GetPageTreeN" +
+      "odes_Ad\0220.dstore.engine.im_GetPageTreeNo" +
+      "des_Ad.Parameters\032..dstore.engine.im_Get" +
+      "PageTreeNodes_Ad.Response\"\0000\001\022r\n\022im_GetP" +
+      "redecessors\022,.dstore.engine.im_GetPredec" +
+      "essors.Parameters\032*.dstore.engine.im_Get" +
+      "Predecessors.Response\"\0000\001\022~\n\026im_GetRando" +
+      "mProduct_Pu\0220.dstore.engine.im_GetRandom" +
+      "Product_Pu.Parameters\032..dstore.engine.im" +
+      "_GetRandomProduct_Pu.Response\"\0000\001\022r\n\022im_",
+      "GetRootNodes_Ad\022,.dstore.engine.im_GetRo" +
+      "otNodes_Ad.Parameters\032*.dstore.engine.im" +
+      "_GetRootNodes_Ad.Response\"\0000\001\022\212\001\n\032im_Get" +
+      "SimpleProductInfo_Pu\0224.dstore.engine.im_" +
+      "GetSimpleProductInfo_Pu.Parameters\0322.dst" +
+      "ore.engine.im_GetSimpleProductInfo_Pu.Re" +
+      "sponse\"\0000\001\022u\n\023im_GetSuccessors_Ad\022-.dsto" +
+      "re.engine.im_GetSuccessors_Ad.Parameters" +
+      "\032+.dstore.engine.im_GetSuccessors_Ad.Res" +
+      "ponse\"\0000\001\022u\n\023im_GetSuccessors_Pu\022-.dstor",
+      "e.engine.im_GetSuccessors_Pu.Parameters\032" +
+      "+.dstore.engine.im_GetSuccessors_Pu.Resp" +
+      "onse\"\0000\001\022\223\001\n\035im_GetTNodeMetaInformation_" +
+      "Ad\0227.dstore.engine.im_GetTNodeMetaInform" +
+      "ation_Ad.Parameters\0325.dstore.engine.im_G" +
+      "etTNodeMetaInformation_Ad.Response\"\0000\001\022r" +
+      "\n\022im_GetTemplates_Ad\022,.dstore.engine.im_" +
+      "GetTemplates_Ad.Parameters\032*.dstore.engi" +
+      "ne.im_GetTemplates_Ad.Response\"\0000\001\022r\n\022im" +
+      "_GetTemplates_Pu\022,.dstore.engine.im_GetT",
+      "emplates_Pu.Parameters\032*.dstore.engine.i" +
+      "m_GetTemplates_Pu.Response\"\0000\001\022\207\001\n\031im_Ge" +
+      "tThumbnailForNode_Ad\0223.dstore.engine.im_" +
+      "GetThumbnailForNode_Ad.Parameters\0321.dsto" +
+      "re.engine.im_GetThumbnailForNode_Ad.Resp" +
+      "onse\"\0000\001\022\212\001\n\032im_GetThumbnailForValue_Ad\022" +
+      "4.dstore.engine.im_GetThumbnailForValue_" +
+      "Ad.Parameters\0322.dstore.engine.im_GetThum" +
+      "bnailForValue_Ad.Response\"\0000\001\022\220\001\n\034im_Get" +
+      "TreeNodeInformation_Ad\0226.dstore.engine.i",
+      "m_GetTreeNodeInformation_Ad.Parameters\0324" +
+      ".dstore.engine.im_GetTreeNodeInformation" +
+      "_Ad.Response\"\0000\001\022\220\001\n\034im_GetTreeNodeInfor" +
+      "mation_Pu\0226.dstore.engine.im_GetTreeNode" +
+      "Information_Pu.Parameters\0324.dstore.engin" +
+      "e.im_GetTreeNodeInformation_Pu.Response\"" +
+      "\0000\001\022u\n\023im_GetUsedValues_Pu\022-.dstore.engi" +
+      "ne.im_GetUsedValues_Pu.Parameters\032+.dsto" +
+      "re.engine.im_GetUsedValues_Pu.Response\"\000" +
+      "0\001\022{\n\025im_GetValueCategories\022/.dstore.eng",
+      "ine.im_GetValueCategories.Parameters\032-.d" +
+      "store.engine.im_GetValueCategories.Respo" +
+      "nse\"\0000\001\022{\n\025im_GetValueDetails_Ad\022/.dstor" +
+      "e.engine.im_GetValueDetails_Ad.Parameter" +
+      "s\032-.dstore.engine.im_GetValueDetails_Ad." +
+      "Response\"\0000\001\022{\n\025im_GetValueDetails_Pu\022/." +
+      "dstore.engine.im_GetValueDetails_Pu.Para" +
+      "meters\032-.dstore.engine.im_GetValueDetail" +
+      "s_Pu.Response\"\0000\001\022\215\001\n\033im_GetValuesInCate" +
+      "gories_Ad\0225.dstore.engine.im_GetValuesIn",
+      "Categories_Ad.Parameters\0323.dstore.engine" +
+      ".im_GetValuesInCategories_Ad.Response\"\0000" +
+      "\001\022u\n\023im_GetVariantMatrix\022-.dstore.engine" +
+      ".im_GetVariantMatrix.Parameters\032+.dstore" +
+      ".engine.im_GetVariantMatrix.Response\"\0000\001" +
+      "\022~\n\026im_GetVariantMatrix_Ad\0220.dstore.engi" +
+      "ne.im_GetVariantMatrix_Ad.Parameters\032..d" +
+      "store.engine.im_GetVariantMatrix_Ad.Resp" +
+      "onse\"\0000\001\022x\n\024im_ImportBinaries_Ad\022..dstor" +
+      "e.engine.im_ImportBinaries_Ad.Parameters",
+      "\032,.dstore.engine.im_ImportBinaries_Ad.Re" +
+      "sponse\"\0000\001\022x\n\024im_ImportItemData_Ad\022..dst" +
+      "ore.engine.im_ImportItemData_Ad.Paramete" +
+      "rs\032,.dstore.engine.im_ImportItemData_Ad." +
+      "Response\"\0000\001\022u\n\023im_InsertNewNode_Ad\022-.ds" +
+      "tore.engine.im_InsertNewNode_Ad.Paramete" +
+      "rs\032+.dstore.engine.im_InsertNewNode_Ad.R" +
+      "esponse\"\0000\001\022\220\001\n\034im_InsertNewValueCategor" +
+      "y_Ad\0226.dstore.engine.im_InsertNewValueCa" +
+      "tegory_Ad.Parameters\0324.dstore.engine.im_",
+      "InsertNewValueCategory_Ad.Response\"\0000\001\022~" +
+      "\n\026im_InsertNodeBinary_Ad\0220.dstore.engine" +
+      ".im_InsertNodeBinary_Ad.Parameters\032..dst" +
+      "ore.engine.im_InsertNodeBinary_Ad.Respon" +
+      "se\"\0000\001\022\223\001\n\035im_InsertNodePredefinedVal_Ad" +
+      "\0227.dstore.engine.im_InsertNodePredefined" +
+      "Val_Ad.Parameters\0325.dstore.engine.im_Ins" +
+      "ertNodePredefinedVal_Ad.Response\"\0000\001\022~\n\026" +
+      "im_InsertNodeSymbol_Ad\0220.dstore.engine.i" +
+      "m_InsertNodeSymbol_Ad.Parameters\032..dstor",
+      "e.engine.im_InsertNodeSymbol_Ad.Response" +
+      "\"\0000\001\022\204\001\n\030im_InsertPageTreeNode_Ad\0222.dsto" +
+      "re.engine.im_InsertPageTreeNode_Ad.Param" +
+      "eters\0320.dstore.engine.im_InsertPageTreeN" +
+      "ode_Ad.Response\"\0000\001\022\201\001\n\027im_InsertValueBi" +
+      "nary_Ad\0221.dstore.engine.im_InsertValueBi" +
+      "nary_Ad.Parameters\032/.dstore.engine.im_In" +
+      "sertValueBinary_Ad.Response\"\0000\001\022\220\001\n\034im_M" +
+      "aintainStatisticProps_Ad\0226.dstore.engine" +
+      ".im_MaintainStatisticProps_Ad.Parameters",
+      "\0324.dstore.engine.im_MaintainStatisticPro" +
+      "ps_Ad.Response\"\0000\001\022\226\001\n\036im_ModifyBinaryCh" +
+      "aracValues_Ad\0228.dstore.engine.im_ModifyB" +
+      "inaryCharacValues_Ad.Parameters\0326.dstore" +
+      ".engine.im_ModifyBinaryCharacValues_Ad.R" +
+      "esponse\"\0000\001\022\220\001\n\034im_ModifyBinaryPropertie" +
+      "s_Ad\0226.dstore.engine.im_ModifyBinaryProp" +
+      "erties_Ad.Parameters\0324.dstore.engine.im_" +
+      "ModifyBinaryProperties_Ad.Response\"\0000\001\022\223" +
+      "\001\n\035im_ModifyCondPartsInGroups_Ad\0227.dstor",
+      "e.engine.im_ModifyCondPartsInGroups_Ad.P" +
+      "arameters\0325.dstore.engine.im_ModifyCondP" +
+      "artsInGroups_Ad.Response\"\0000\001\022\215\001\n\033im_Modi" +
+      "fyConditionGroups_Ad\0225.dstore.engine.im_" +
+      "ModifyConditionGroups_Ad.Parameters\0323.ds" +
+      "tore.engine.im_ModifyConditionGroups_Ad." +
+      "Response\"\0000\001\022\212\001\n\032im_ModifyConditionParts" +
+      "_Ad\0224.dstore.engine.im_ModifyConditionPa" +
+      "rts_Ad.Parameters\0322.dstore.engine.im_Mod" +
+      "ifyConditionParts_Ad.Response\"\0000\001\022~\n\026im_",
+      "ModifyConditions_Ad\0220.dstore.engine.im_M" +
+      "odifyConditions_Ad.Parameters\032..dstore.e" +
+      "ngine.im_ModifyConditions_Ad.Response\"\0000" +
+      "\001\022\223\001\n\035im_ModifyCorrespondingVals_Ad\0227.ds" +
+      "tore.engine.im_ModifyCorrespondingVals_A" +
+      "d.Parameters\0325.dstore.engine.im_ModifyCo" +
+      "rrespondingVals_Ad.Response\"\0000\001\022\223\001\n\035im_M" +
+      "odifyGroupsPerItemCond_Ad\0227.dstore.engin" +
+      "e.im_ModifyGroupsPerItemCond_Ad.Paramete" +
+      "rs\0325.dstore.engine.im_ModifyGroupsPerIte",
+      "mCond_Ad.Response\"\0000\001\022r\n\022im_ModifyLevels" +
+      "_Ad\022,.dstore.engine.im_ModifyLevels_Ad.P" +
+      "arameters\032*.dstore.engine.im_ModifyLevel" +
+      "s_Ad.Response\"\0000\001\022\223\001\n\035im_ModifyLockedNod" +
+      "eCharacs_Ad\0227.dstore.engine.im_ModifyLoc" +
+      "kedNodeCharacs_Ad.Parameters\0325.dstore.en" +
+      "gine.im_ModifyLockedNodeCharacs_Ad.Respo" +
+      "nse\"\0000\001\022\212\001\n\032im_ModifyNodeCharacCats_Ad\0224" +
+      ".dstore.engine.im_ModifyNodeCharacCats_A" +
+      "d.Parameters\0322.dstore.engine.im_ModifyNo",
+      "deCharacCats_Ad.Response\"\0000\001\022\215\001\n\033im_Modi" +
+      "fyNodeCharacDescr_Ad\0225.dstore.engine.im_" +
+      "ModifyNodeCharacDescr_Ad.Parameters\0323.ds" +
+      "tore.engine.im_ModifyNodeCharacDescr_Ad." +
+      "Response\"\0000\001\022\226\001\n\036im_ModifyNodeCharacSett" +
+      "ings_Ad\0228.dstore.engine.im_ModifyNodeCha" +
+      "racSettings_Ad.Parameters\0326.dstore.engin" +
+      "e.im_ModifyNodeCharacSettings_Ad.Respons" +
+      "e\"\0000\001\022\220\001\n\034im_ModifyNodeCharacsInCat_Ad\0226" +
+      ".dstore.engine.im_ModifyNodeCharacsInCat",
+      "_Ad.Parameters\0324.dstore.engine.im_Modify" +
+      "NodeCharacsInCat_Ad.Response\"\0000\001\022\201\001\n\027im_" +
+      "ModifyNodeCharacs_Ad\0221.dstore.engine.im_" +
+      "ModifyNodeCharacs_Ad.Parameters\032/.dstore" +
+      ".engine.im_ModifyNodeCharacs_Ad.Response" +
+      "\"\0000\001\022\215\001\n\033im_ModifyNodeDescription_Ad\0225.d" +
+      "store.engine.im_ModifyNodeDescription_Ad" +
+      ".Parameters\0323.dstore.engine.im_ModifyNod" +
+      "eDescription_Ad.Response\"\0000\001\022\212\001\n\032im_Modi" +
+      "fyNodeProperties_Ad\0224.dstore.engine.im_M",
+      "odifyNodeProperties_Ad.Parameters\0322.dsto" +
+      "re.engine.im_ModifyNodeProperties_Ad.Res" +
+      "ponse\"\0000\001\022\215\001\n\033im_ModifyPredefinedValue_A" +
+      "d\0225.dstore.engine.im_ModifyPredefinedVal" +
+      "ue_Ad.Parameters\0323.dstore.engine.im_Modi" +
+      "fyPredefinedValue_Ad.Response\"\0000\001\022\215\001\n\033im" +
+      "_ModifyValueCategories_Ad\0225.dstore.engin" +
+      "e.im_ModifyValueCategories_Ad.Parameters" +
+      "\0323.dstore.engine.im_ModifyValueCategorie" +
+      "s_Ad.Response\"\0000\001\022\204\001\n\030im_ModifyValueDeta",
+      "ils_Ad\0222.dstore.engine.im_ModifyValueDet" +
+      "ails_Ad.Parameters\0320.dstore.engine.im_Mo" +
+      "difyValueDetails_Ad.Response\"\0000\001\022\226\001\n\036im_" +
+      "ModifyValuesInCategories_Ad\0228.dstore.eng" +
+      "ine.im_ModifyValuesInCategories_Ad.Param" +
+      "eters\0326.dstore.engine.im_ModifyValuesInC" +
+      "ategories_Ad.Response\"\0000\001\022\207\001\n\031im_MoveNod" +
+      "eCharacValue_Ad\0223.dstore.engine.im_MoveN" +
+      "odeCharacValue_Ad.Parameters\0321.dstore.en" +
+      "gine.im_MoveNodeCharacValue_Ad.Response\"",
+      "\0000\001\022u\n\023im_MoveTreeNodes_Ad\022-.dstore.engi" +
+      "ne.im_MoveTreeNodes_Ad.Parameters\032+.dsto" +
+      "re.engine.im_MoveTreeNodes_Ad.Response\"\000" +
+      "0\001\022\215\001\n\033im_RemoveBinaryFromNodes_Ad\0225.dst" +
+      "ore.engine.im_RemoveBinaryFromNodes_Ad.P" +
+      "arameters\0323.dstore.engine.im_RemoveBinar" +
+      "yFromNodes_Ad.Response\"\0000\001\022\220\001\n\034im_Remove" +
+      "BinaryFromValues_Ad\0226.dstore.engine.im_R" +
+      "emoveBinaryFromValues_Ad.Parameters\0324.ds" +
+      "tore.engine.im_RemoveBinaryFromValues_Ad",
+      ".Response\"\0000\001\022x\n\024im_ResetSymbolIDs_Ad\022.." +
+      "dstore.engine.im_ResetSymbolIDs_Ad.Param" +
+      "eters\032,.dstore.engine.im_ResetSymbolIDs_" +
+      "Ad.Response\"\0000\001\022x\n\024im_SearchBinaries_Ad\022" +
+      "..dstore.engine.im_SearchBinaries_Ad.Par" +
+      "ameters\032,.dstore.engine.im_SearchBinarie" +
+      "s_Ad.Response\"\0000\001\022\215\001\n\033im_SearchCharacter" +
+      "istics_Pu\0225.dstore.engine.im_SearchChara" +
+      "cteristics_Pu.Parameters\0323.dstore.engine" +
+      ".im_SearchCharacteristics_Pu.Response\"\0000",
+      "\001\022\220\001\n\034im_SearchProductTreeNodes_Ad\0226.dst" +
+      "ore.engine.im_SearchProductTreeNodes_Ad." +
+      "Parameters\0324.dstore.engine.im_SearchProd" +
+      "uctTreeNodes_Ad.Response\"\0000\001\022\220\001\n\034im_Sear" +
+      "chProductTreeNodes_Pu\0226.dstore.engine.im" +
+      "_SearchProductTreeNodes_Pu.Parameters\0324." +
+      "dstore.engine.im_SearchProductTreeNodes_" +
+      "Pu.Response\"\0000\001\022{\n\025im_SearchTreeNodes_Ad" +
+      "\022/.dstore.engine.im_SearchTreeNodes_Ad.P" +
+      "arameters\032-.dstore.engine.im_SearchTreeN",
+      "odes_Ad.Response\"\0000\001\022{\n\025im_SearchTreeNod" +
+      "es_Pu\022/.dstore.engine.im_SearchTreeNodes" +
+      "_Pu.Parameters\032-.dstore.engine.im_Search" +
+      "TreeNodes_Pu.Response\"\0000\001\022{\n\025im_SetLevel" +
+      "OfNodes_Ad\022/.dstore.engine.im_SetLevelOf" +
+      "Nodes_Ad.Parameters\032-.dstore.engine.im_S" +
+      "etLevelOfNodes_Ad.Response\"\0000\001\022\220\001\n\034im_Se" +
+      "tProductDescriptions_Ad\0226.dstore.engine." +
+      "im_SetProductDescriptions_Ad.Parameters\032" +
+      "4.dstore.engine.im_SetProductDescription",
+      "s_Ad.Response\"\0000\001\022o\n\021im_SetTemplate_Ad\022+" +
+      ".dstore.engine.im_SetTemplate_Ad.Paramet" +
+      "ers\032).dstore.engine.im_SetTemplate_Ad.Re" +
+      "sponse\"\0000\001\022\223\001\n\035im_SortNodesAlphabeticall" +
+      "y_Ad\0227.dstore.engine.im_SortNodesAlphabe" +
+      "tically_Ad.Parameters\0325.dstore.engine.im" +
+      "_SortNodesAlphabetically_Ad.Response\"\0000\001" +
+      "\022u\n\023im_SortTreeNodes_Pu\022-.dstore.engine." +
+      "im_SortTreeNodes_Pu.Parameters\032+.dstore." +
+      "engine.im_SortTreeNodes_Pu.Response\"\0000\001\022",
+      "\223\001\n\035im_SynchronizeItemBinaries_Ad\0227.dsto" +
+      "re.engine.im_SynchronizeItemBinaries_Ad." +
+      "Parameters\0325.dstore.engine.im_Synchroniz" +
+      "eItemBinaries_Ad.Response\"\0000\001\022~\n\026im_Trav" +
+      "erseTreeView_Pu\0220.dstore.engine.im_Trave" +
+      "rseTreeView_Pu.Parameters\032..dstore.engin" +
+      "e.im_TraverseTreeView_Pu.Response\"\0000\001\022\223\001" +
+      "\n\035im_UpdateLockedTreeNodeIDs_Ad\0227.dstore" +
+      ".engine.im_UpdateLockedTreeNodeIDs_Ad.Pa" +
+      "rameters\0325.dstore.engine.im_UpdateLocked",
+      "TreeNodeIDs_Ad.Response\"\0000\001\022\215\001\n\033mi_Analy" +
+      "seObjectContTSQL_Ad\0225.dstore.engine.mi_A" +
+      "nalyseObjectContTSQL_Ad.Parameters\0323.dst" +
+      "ore.engine.mi_AnalyseObjectContTSQL_Ad.R" +
+      "esponse\"\0000\001\022\226\001\n\036mi_ChangedStoreUserPassw" +
+      "ord_Ad\0228.dstore.engine.mi_ChangedStoreUs" +
+      "erPassword_Ad.Parameters\0326.dstore.engine" +
+      ".mi_ChangedStoreUserPassword_Ad.Response" +
+      "\"\0000\001\022\220\001\n\034mi_CheckFieldTypeOfValues_Ad\0226." +
+      "dstore.engine.mi_CheckFieldTypeOfValues_",
+      "Ad.Parameters\0324.dstore.engine.mi_CheckFi" +
+      "eldTypeOfValues_Ad.Response\"\0000\001\022~\n\026mi_Ch" +
+      "eckPerformance_Ad\0220.dstore.engine.mi_Che" +
+      "ckPerformance_Ad.Parameters\032..dstore.eng" +
+      "ine.mi_CheckPerformance_Ad.Response\"\0000\001\022" +
+      "~\n\026mi_CreatedStoreUser_Ad\0220.dstore.engin" +
+      "e.mi_CreatedStoreUser_Ad.Parameters\032..ds" +
+      "tore.engine.mi_CreatedStoreUser_Ad.Respo" +
+      "nse\"\0000\001\022r\n\022mi_DeadlockTest_Ad\022,.dstore.e" +
+      "ngine.mi_DeadlockTest_Ad.Parameters\032*.ds",
+      "tore.engine.mi_DeadlockTest_Ad.Response\"" +
+      "\0000\001\022\204\001\n\030mi_DeleteFromTempdbTable\0222.dstor" +
+      "e.engine.mi_DeleteFromTempdbTable.Parame" +
+      "ters\0320.dstore.engine.mi_DeleteFromTempdb" +
+      "Table.Response\"\0000\001\022~\n\026mi_DeletedStoreUse" +
+      "r_Ad\0220.dstore.engine.mi_DeletedStoreUser" +
+      "_Ad.Parameters\032..dstore.engine.mi_Delete" +
+      "dStoreUser_Ad.Response\"\0000\001\022r\n\022mi_DumpDat" +
+      "abase_Ad\022,.dstore.engine.mi_DumpDatabase" +
+      "_Ad.Parameters\032*.dstore.engine.mi_DumpDa",
+      "tabase_Ad.Response\"\0000\001\022\204\001\n\030mi_DumpTransa" +
+      "ctionLog_Ad\0222.dstore.engine.mi_DumpTrans" +
+      "actionLog_Ad.Parameters\0320.dstore.engine." +
+      "mi_DumpTransactionLog_Ad.Response\"\0000\001\022r\n" +
+      "\022mi_ExportLogins_Ad\022,.dstore.engine.mi_E" +
+      "xportLogins_Ad.Parameters\032*.dstore.engin" +
+      "e.mi_ExportLogins_Ad.Response\"\0000\001\022x\n\024mi_" +
+      "GarbageCollect_Ad\022..dstore.engine.mi_Gar" +
+      "bageCollect_Ad.Parameters\032,.dstore.engin" +
+      "e.mi_GarbageCollect_Ad.Response\"\0000\001\022\207\001\n\031",
+      "mi_GetAllDatabaseUsers_Ad\0223.dstore.engin" +
+      "e.mi_GetAllDatabaseUsers_Ad.Parameters\0321" +
+      ".dstore.engine.mi_GetAllDatabaseUsers_Ad" +
+      ".Response\"\0000\001\022\223\001\n\035mi_GetAppPartsTreeSett" +
+      "ings_Ad\0227.dstore.engine.mi_GetAppPartsTr" +
+      "eeSettings_Ad.Parameters\0325.dstore.engine" +
+      ".mi_GetAppPartsTreeSettings_Ad.Response\"" +
+      "\0000\001\022\223\001\n\035mi_GetAppPartsTreeSettings_Pu\0227." +
+      "dstore.engine.mi_GetAppPartsTreeSettings" +
+      "_Pu.Parameters\0325.dstore.engine.mi_GetApp",
+      "PartsTreeSettings_Pu.Response\"\0000\001\022\215\001\n\033mi" +
+      "_GetApplicPartSettings_Ad\0225.dstore.engin" +
+      "e.mi_GetApplicPartSettings_Ad.Parameters" +
+      "\0323.dstore.engine.mi_GetApplicPartSetting" +
+      "s_Ad.Response\"\0000\001\022\215\001\n\033mi_GetApplicPartSe" +
+      "ttings_Pu\0225.dstore.engine.mi_GetApplicPa" +
+      "rtSettings_Pu.Parameters\0323.dstore.engine" +
+      ".mi_GetApplicPartSettings_Pu.Response\"\0000" +
+      "\001\022\223\001\n\035mi_GetApplicationPartsTree_Ad\0227.ds" +
+      "tore.engine.mi_GetApplicationPartsTree_A",
+      "d.Parameters\0325.dstore.engine.mi_GetAppli" +
+      "cationPartsTree_Ad.Response\"\0000\001\022\223\001\n\035mi_G" +
+      "etApplicationPartsTree_Pu\0227.dstore.engin" +
+      "e.mi_GetApplicationPartsTree_Pu.Paramete" +
+      "rs\0325.dstore.engine.mi_GetApplicationPart" +
+      "sTree_Pu.Response\"\0000\001\022\207\001\n\031mi_GetApplicat" +
+      "ionParts_Ad\0223.dstore.engine.mi_GetApplic" +
+      "ationParts_Ad.Parameters\0321.dstore.engine" +
+      ".mi_GetApplicationParts_Ad.Response\"\0000\001\022" +
+      "\207\001\n\031mi_GetApplicationParts_Pu\0223.dstore.e",
+      "ngine.mi_GetApplicationParts_Pu.Paramete" +
+      "rs\0321.dstore.engine.mi_GetApplicationPart" +
+      "s_Pu.Response\"\0000\001\022\220\001\n\034mi_GetApplicationS" +
+      "ettings_Ad\0226.dstore.engine.mi_GetApplica" +
+      "tionSettings_Ad.Parameters\0324.dstore.engi" +
+      "ne.mi_GetApplicationSettings_Ad.Response" +
+      "\"\0000\001\022\220\001\n\034mi_GetApplicationSettings_Pu\0226." +
+      "dstore.engine.mi_GetApplicationSettings_" +
+      "Pu.Parameters\0324.dstore.engine.mi_GetAppl" +
+      "icationSettings_Pu.Response\"\0000\001\022{\n\025mi_Ge",
+      "tApplications_Ad\022/.dstore.engine.mi_GetA" +
+      "pplications_Ad.Parameters\032-.dstore.engin" +
+      "e.mi_GetApplications_Ad.Response\"\0000\001\022{\n\025" +
+      "mi_GetApplications_Pu\022/.dstore.engine.mi" +
+      "_GetApplications_Pu.Parameters\032-.dstore." +
+      "engine.mi_GetApplications_Pu.Response\"\0000" +
+      "\001\022r\n\022mi_GetBatchJobs_Ad\022,.dstore.engine." +
+      "mi_GetBatchJobs_Ad.Parameters\032*.dstore.e" +
+      "ngine.mi_GetBatchJobs_Ad.Response\"\0000\001\022\207\001" +
+      "\n\031mi_GetBinaryProperties_Ad\0223.dstore.eng",
+      "ine.mi_GetBinaryProperties_Ad.Parameters" +
+      "\0321.dstore.engine.mi_GetBinaryProperties_" +
+      "Ad.Response\"\0000\001\022\207\001\n\031mi_GetBinaryProperti" +
+      "es_Pu\0223.dstore.engine.mi_GetBinaryProper" +
+      "ties_Pu.Parameters\0321.dstore.engine.mi_Ge" +
+      "tBinaryProperties_Pu.Response\"\0000\001\022u\n\023mi_" +
+      "GetConvertFactor\022-.dstore.engine.mi_GetC" +
+      "onvertFactor.Parameters\032+.dstore.engine." +
+      "mi_GetConvertFactor.Response\"\0000\001\022i\n\017mi_G" +
+      "etCountries\022).dstore.engine.mi_GetCountr",
+      "ies.Parameters\032\'.dstore.engine.mi_GetCou" +
+      "ntries.Response\"\0000\001\022o\n\021mi_GetCurrentDate" +
+      "\022+.dstore.engine.mi_GetCurrentDate.Param" +
+      "eters\032).dstore.engine.mi_GetCurrentDate." +
+      "Response\"\0000\001\022{\n\025mi_GetCurrentLocks_Ad\022/." +
+      "dstore.engine.mi_GetCurrentLocks_Ad.Para" +
+      "meters\032-.dstore.engine.mi_GetCurrentLock" +
+      "s_Ad.Response\"\0000\001\022\207\001\n\031mi_GetCurrentProce" +
+      "sses_Ad\0223.dstore.engine.mi_GetCurrentPro" +
+      "cesses_Ad.Parameters\0321.dstore.engine.mi_",
+      "GetCurrentProcesses_Ad.Response\"\0000\001\022r\n\022m" +
+      "i_GetDBObjects_Ad\022,.dstore.engine.mi_Get" +
+      "DBObjects_Ad.Parameters\032*.dstore.engine." +
+      "mi_GetDBObjects_Ad.Response\"\0000\001\022\212\001\n\032mi_G" +
+      "etDBSessionInformation\0224.dstore.engine.m" +
+      "i_GetDBSessionInformation.Parameters\0322.d" +
+      "store.engine.mi_GetDBSessionInformation." +
+      "Response\"\0000\001\022~\n\026mi_GetExecuteRights_Ad\0220" +
+      ".dstore.engine.mi_GetExecuteRights_Ad.Pa" +
+      "rameters\032..dstore.engine.mi_GetExecuteRi",
+      "ghts_Ad.Response\"\0000\001\022u\n\023mi_GetFieldTypes" +
+      "_Ad\022-.dstore.engine.mi_GetFieldTypes_Ad." +
+      "Parameters\032+.dstore.engine.mi_GetFieldTy" +
+      "pes_Ad.Response\"\0000\001\022u\n\023mi_GetFieldTypes_" +
+      "Pu\022-.dstore.engine.mi_GetFieldTypes_Pu.P" +
+      "arameters\032+.dstore.engine.mi_GetFieldTyp" +
+      "es_Pu.Response\"\0000\001\022o\n\021mi_GetIndexDDL_Ad\022" +
+      "+.dstore.engine.mi_GetIndexDDL_Ad.Parame" +
+      "ters\032).dstore.engine.mi_GetIndexDDL_Ad.R" +
+      "esponse\"\0000\001\022o\n\021mi_GetIndexDLL_Ad\022+.dstor",
+      "e.engine.mi_GetIndexDLL_Ad.Parameters\032)." +
+      "dstore.engine.mi_GetIndexDLL_Ad.Response" +
+      "\"\0000\001\022\207\001\n\031mi_GetInformationTypes_Ad\0223.dst" +
+      "ore.engine.mi_GetInformationTypes_Ad.Par" +
+      "ameters\0321.dstore.engine.mi_GetInformatio" +
+      "nTypes_Ad.Response\"\0000\001\022\223\001\n\035mi_GetLanguag" +
+      "eDescriptions_Ad\0227.dstore.engine.mi_GetL" +
+      "anguageDescriptions_Ad.Parameters\0325.dsto" +
+      "re.engine.mi_GetLanguageDescriptions_Ad." +
+      "Response\"\0000\001\022~\n\026mi_GetLanguageIcons_Ad\0220",
+      ".dstore.engine.mi_GetLanguageIcons_Ad.Pa" +
+      "rameters\032..dstore.engine.mi_GetLanguageI" +
+      "cons_Ad.Response\"\0000\001\022~\n\026mi_GetLanguageIc" +
+      "ons_Pu\0220.dstore.engine.mi_GetLanguageIco" +
+      "ns_Pu.Parameters\032..dstore.engine.mi_GetL" +
+      "anguageIcons_Pu.Response\"\0000\001\022i\n\017mi_GetLa" +
+      "nguages\022).dstore.engine.mi_GetLanguages." +
+      "Parameters\032\'.dstore.engine.mi_GetLanguag" +
+      "es.Response\"\0000\001\022x\n\024mi_GetLicenceKeyData\022" +
+      "..dstore.engine.mi_GetLicenceKeyData.Par",
+      "ameters\032,.dstore.engine.mi_GetLicenceKey" +
+      "Data.Response\"\0000\001\022c\n\rmi_GetLocales\022\'.dst" +
+      "ore.engine.mi_GetLocales.Parameters\032%.ds" +
+      "tore.engine.mi_GetLocales.Response\"\0000\001\022\207" +
+      "\001\n\031mi_GetLockDependencies_Ad\0223.dstore.en" +
+      "gine.mi_GetLockDependencies_Ad.Parameter" +
+      "s\0321.dstore.engine.mi_GetLockDependencies" +
+      "_Ad.Response\"\0000\001\022\223\001\n\035mi_GetMetaInformati" +
+      "onTypes_Ad\0227.dstore.engine.mi_GetMetaInf" +
+      "ormationTypes_Ad.Parameters\0325.dstore.eng",
+      "ine.mi_GetMetaInformationTypes_Ad.Respon" +
+      "se\"\0000\001\022\226\001\n\036mi_GetProcExecRestrForGroup_A" +
+      "d\0228.dstore.engine.mi_GetProcExecRestrFor" +
+      "Group_Ad.Parameters\0326.dstore.engine.mi_G" +
+      "etProcExecRestrForGroup_Ad.Response\"\0000\001\022" +
+      "\226\001\n\036mi_GetProcExecRestrForUsers_Ad\0228.dst" +
+      "ore.engine.mi_GetProcExecRestrForUsers_A" +
+      "d.Parameters\0326.dstore.engine.mi_GetProcE" +
+      "xecRestrForUsers_Ad.Response\"\0000\001\022\223\001\n\035mi_" +
+      "GetProcExecRights_Group_Ad\0227.dstore.engi",
+      "ne.mi_GetProcExecRights_Group_Ad.Paramet" +
+      "ers\0325.dstore.engine.mi_GetProcExecRights" +
+      "_Group_Ad.Response\"\0000\001\022\220\001\n\034mi_GetProcExe" +
+      "cRights_User_Ad\0226.dstore.engine.mi_GetPr" +
+      "ocExecRights_User_Ad.Parameters\0324.dstore" +
+      ".engine.mi_GetProcExecRights_User_Ad.Res" +
+      "ponse\"\0000\001\022\215\001\n\033mi_GetProcMetaProperties_A" +
+      "d\0225.dstore.engine.mi_GetProcMetaProperti" +
+      "es_Ad.Parameters\0323.dstore.engine.mi_GetP" +
+      "rocMetaProperties_Ad.Response\"\0000\001\022~\n\026mi_",
+      "GetProcedureCode_Ad\0220.dstore.engine.mi_G" +
+      "etProcedureCode_Ad.Parameters\032..dstore.e" +
+      "ngine.mi_GetProcedureCode_Ad.Response\"\0000" +
+      "\001\022\226\001\n\036mi_GetProcedureDependencies_Ad\0228.d" +
+      "store.engine.mi_GetProcedureDependencies" +
+      "_Ad.Parameters\0326.dstore.engine.mi_GetPro" +
+      "cedureDependencies_Ad.Response\"\0000\001\022\226\001\n\036m" +
+      "i_GetProcedureExecutionLog_Ad\0228.dstore.e" +
+      "ngine.mi_GetProcedureExecutionLog_Ad.Par" +
+      "ameters\0326.dstore.engine.mi_GetProcedureE",
+      "xecutionLog_Ad.Response\"\0000\001\022\207\001\n\031mi_GetPr" +
+      "ocedureParameters\0223.dstore.engine.mi_Get" +
+      "ProcedureParameters.Parameters\0321.dstore." +
+      "engine.mi_GetProcedureParameters.Respons" +
+      "e\"\0000\001\022c\n\rmi_GetRegions\022\'.dstore.engine.m" +
+      "i_GetRegions.Parameters\032%.dstore.engine." +
+      "mi_GetRegions.Response\"\0000\001\022\223\001\n\035mi_GetReg" +
+      "isteredProcedures_Ad\0227.dstore.engine.mi_" +
+      "GetRegisteredProcedures_Ad.Parameters\0325." +
+      "dstore.engine.mi_GetRegisteredProcedures",
+      "_Ad.Response\"\0000\001\022x\n\024mi_GetRessourceUsage" +
+      "\022..dstore.engine.mi_GetRessourceUsage.Pa" +
+      "rameters\032,.dstore.engine.mi_GetRessource" +
+      "Usage.Response\"\0000\001\022\201\001\n\027mi_GetReturnCodeM" +
+      "essage\0221.dstore.engine.mi_GetReturnCodeM" +
+      "essage.Parameters\032/.dstore.engine.mi_Get" +
+      "ReturnCodeMessage.Response\"\0000\001\022\212\001\n\032mi_Ge" +
+      "tSQLFunctMetaProps_Ad\0224.dstore.engine.mi" +
+      "_GetSQLFunctMetaProps_Ad.Parameters\0322.ds" +
+      "tore.engine.mi_GetSQLFunctMetaProps_Ad.R",
+      "esponse\"\0000\001\022\204\001\n\030mi_GetSQLFunctionCode_Ad" +
+      "\0222.dstore.engine.mi_GetSQLFunctionCode_A" +
+      "d.Parameters\0320.dstore.engine.mi_GetSQLFu" +
+      "nctionCode_Ad.Response\"\0000\001\022\215\001\n\033mi_GetSQL" +
+      "FunctionParameters\0225.dstore.engine.mi_Ge" +
+      "tSQLFunctionParameters.Parameters\0323.dsto" +
+      "re.engine.mi_GetSQLFunctionParameters.Re" +
+      "sponse\"\0000\001\022\204\001\n\030mi_GetSearchItemLacks_Ad\022" +
+      "2.dstore.engine.mi_GetSearchItemLacks_Ad" +
+      ".Parameters\0320.dstore.engine.mi_GetSearch",
+      "ItemLacks_Ad.Response\"\0000\001\022x\n\024mi_GetSearc" +
+      "hItems_Ad\022..dstore.engine.mi_GetSearchIt" +
+      "ems_Ad.Parameters\032,.dstore.engine.mi_Get" +
+      "SearchItems_Ad.Response\"\0000\001\022\212\001\n\032mi_GetSe" +
+      "ssionManagement_Pu\0224.dstore.engine.mi_Ge" +
+      "tSessionManagement_Pu.Parameters\0322.dstor" +
+      "e.engine.mi_GetSessionManagement_Pu.Resp" +
+      "onse\"\0000\001\022r\n\022mi_GetSettingEntry\022,.dstore." +
+      "engine.mi_GetSettingEntry.Parameters\032*.d" +
+      "store.engine.mi_GetSettingEntry.Response",
+      "\"\0000\001\022o\n\021mi_GetSettings_Ad\022+.dstore.engin" +
+      "e.mi_GetSettings_Ad.Parameters\032).dstore." +
+      "engine.mi_GetSettings_Ad.Response\"\0000\001\022\212\001" +
+      "\n\032mi_GetSourceCodeHistory_Ad\0224.dstore.en" +
+      "gine.mi_GetSourceCodeHistory_Ad.Paramete" +
+      "rs\0322.dstore.engine.mi_GetSourceCodeHisto" +
+      "ry_Ad.Response\"\0000\001\022\204\001\n\030mi_GetSourceTempl" +
+      "ates_Ad\0222.dstore.engine.mi_GetSourceTemp" +
+      "lates_Ad.Parameters\0320.dstore.engine.mi_G" +
+      "etSourceTemplates_Ad.Response\"\0000\001\022\207\001\n\031mi",
+      "_GetStorageAllocInfo_Ad\0223.dstore.engine." +
+      "mi_GetStorageAllocInfo_Ad.Parameters\0321.d" +
+      "store.engine.mi_GetStorageAllocInfo_Ad.R" +
+      "esponse\"\0000\001\022\201\001\n\027mi_GetTRITriggerCode_Ad\022" +
+      "1.dstore.engine.mi_GetTRITriggerCode_Ad." +
+      "Parameters\032/.dstore.engine.mi_GetTRITrig" +
+      "gerCode_Ad.Response\"\0000\001\022\223\001\n\035mi_GetTRITri" +
+      "ggerConditions_Ad\0227.dstore.engine.mi_Get" +
+      "TRITriggerConditions_Ad.Parameters\0325.dst" +
+      "ore.engine.mi_GetTRITriggerConditions_Ad",
+      ".Response\"\0000\001\022\223\001\n\035mi_GetTRITriggerReplFu" +
+      "ncts_Ad\0227.dstore.engine.mi_GetTRITrigger" +
+      "ReplFuncts_Ad.Parameters\0325.dstore.engine" +
+      ".mi_GetTRITriggerReplFuncts_Ad.Response\"" +
+      "\0000\001\022\204\001\n\030mi_GetTRITriggerToDos_Ad\0222.dstor" +
+      "e.engine.mi_GetTRITriggerToDos_Ad.Parame" +
+      "ters\0320.dstore.engine.mi_GetTRITriggerToD" +
+      "os_Ad.Response\"\0000\001\022\204\001\n\030mi_GetTRITriggerT" +
+      "ypes_Ad\0222.dstore.engine.mi_GetTRITrigger" +
+      "Types_Ad.Parameters\0320.dstore.engine.mi_G",
+      "etTRITriggerTypes_Ad.Response\"\0000\001\022\215\001\n\033mi" +
+      "_GetTRITriggerWorkflow_Ad\0225.dstore.engin" +
+      "e.mi_GetTRITriggerWorkflow_Ad.Parameters" +
+      "\0323.dstore.engine.mi_GetTRITriggerWorkflo" +
+      "w_Ad.Response\"\0000\001\022u\n\023mi_GetTRITrigger_Ad" +
+      "\022-.dstore.engine.mi_GetTRITrigger_Ad.Par" +
+      "ameters\032+.dstore.engine.mi_GetTRITrigger" +
+      "_Ad.Response\"\0000\001\022o\n\021mi_GetTableDDL_Ad\022+." +
+      "dstore.engine.mi_GetTableDDL_Ad.Paramete" +
+      "rs\032).dstore.engine.mi_GetTableDDL_Ad.Res",
+      "ponse\"\0000\001\022o\n\021mi_GetTableDLL_Ad\022+.dstore." +
+      "engine.mi_GetTableDLL_Ad.Parameters\032).ds" +
+      "tore.engine.mi_GetTableDLL_Ad.Response\"\000" +
+      "0\001\022\215\001\n\033mi_GetTabsRefInOtherTabs_Ad\0225.dst" +
+      "ore.engine.mi_GetTabsRefInOtherTabs_Ad.P" +
+      "arameters\0323.dstore.engine.mi_GetTabsRefI" +
+      "nOtherTabs_Ad.Response\"\0000\001\022f\n\016mi_GetTaxR" +
+      "ates\022(.dstore.engine.mi_GetTaxRates.Para" +
+      "meters\032&.dstore.engine.mi_GetTaxRates.Re" +
+      "sponse\"\0000\001\022\223\001\n\035mi_GetTemplateCombination",
+      "s_Ad\0227.dstore.engine.mi_GetTemplateCombi" +
+      "nations_Ad.Parameters\0325.dstore.engine.mi" +
+      "_GetTemplateCombinations_Ad.Response\"\0000\001" +
+      "\022r\n\022mi_GetTemplates_Ad\022,.dstore.engine.m" +
+      "i_GetTemplates_Ad.Parameters\032*.dstore.en" +
+      "gine.mi_GetTemplates_Ad.Response\"\0000\001\022x\n\024" +
+      "mi_GetTriggerCode_Ad\022..dstore.engine.mi_" +
+      "GetTriggerCode_Ad.Parameters\032,.dstore.en" +
+      "gine.mi_GetTriggerCode_Ad.Response\"\0000\001\022\201" +
+      "\001\n\027mi_GetUnitCategories_Ad\0221.dstore.engi",
+      "ne.mi_GetUnitCategories_Ad.Parameters\032/." +
+      "dstore.engine.mi_GetUnitCategories_Ad.Re" +
+      "sponse\"\0000\001\022{\n\025mi_GetUnitConverts_Ad\022/.ds" +
+      "tore.engine.mi_GetUnitConverts_Ad.Parame" +
+      "ters\032-.dstore.engine.mi_GetUnitConverts_" +
+      "Ad.Response\"\0000\001\022]\n\013mi_GetUnits\022%.dstore." +
+      "engine.mi_GetUnits.Parameters\032#.dstore.e" +
+      "ngine.mi_GetUnits.Response\"\0000\001\022f\n\016mi_Get" +
+      "Units_Ad\022(.dstore.engine.mi_GetUnits_Ad." +
+      "Parameters\032&.dstore.engine.mi_GetUnits_A",
+      "d.Response\"\0000\001\022~\n\026mi_GetUsageOfTables_Ad" +
+      "\0220.dstore.engine.mi_GetUsageOfTables_Ad." +
+      "Parameters\032..dstore.engine.mi_GetUsageOf" +
+      "Tables_Ad.Response\"\0000\001\022u\n\023mi_GetUserGrou" +
+      "ps_Ad\022-.dstore.engine.mi_GetUserGroups_A" +
+      "d.Parameters\032+.dstore.engine.mi_GetUserG" +
+      "roups_Ad.Response\"\0000\001\022f\n\016mi_GetUserInfo\022" +
+      "(.dstore.engine.mi_GetUserInfo.Parameter" +
+      "s\032&.dstore.engine.mi_GetUserInfo.Respons" +
+      "e\"\0000\001\022o\n\021mi_GetUserInfo_Ad\022+.dstore.engi",
+      "ne.mi_GetUserInfo_Ad.Parameters\032).dstore" +
+      ".engine.mi_GetUserInfo_Ad.Response\"\0000\001\022\215" +
+      "\001\n\033mi_GetVisitorInformation_Pu\0225.dstore." +
+      "engine.mi_GetVisitorInformation_Pu.Param" +
+      "eters\0323.dstore.engine.mi_GetVisitorInfor" +
+      "mation_Pu.Response\"\0000\001\022\212\001\n\032mi_GetVisitor" +
+      "Properties_Pu\0224.dstore.engine.mi_GetVisi" +
+      "torProperties_Pu.Parameters\0322.dstore.eng" +
+      "ine.mi_GetVisitorProperties_Pu.Response\"" +
+      "\0000\001\022u\n\023mi_GetdStoreUser_Ad\022-.dstore.engi",
+      "ne.mi_GetdStoreUser_Ad.Parameters\032+.dsto" +
+      "re.engine.mi_GetdStoreUser_Ad.Response\"\000" +
+      "0\001\022\201\001\n\027mi_InsertPerformance_Pu\0221.dstore." +
+      "engine.mi_InsertPerformance_Pu.Parameter" +
+      "s\032/.dstore.engine.mi_InsertPerformance_P" +
+      "u.Response\"\0000\001\022\226\001\n\036mi_InsertTemp_CharacC" +
+      "onditions\0228.dstore.engine.mi_InsertTemp_" +
+      "CharacConditions.Parameters\0326.dstore.eng" +
+      "ine.mi_InsertTemp_CharacConditions.Respo" +
+      "nse\"\0000\001\022\226\001\n\036mi_InsertTempdb_AdditionalIn",
+      "fo\0228.dstore.engine.mi_InsertTempdb_Addit" +
+      "ionalInfo.Parameters\0326.dstore.engine.mi_" +
+      "InsertTempdb_AdditionalInfo.Response\"\0000\001" +
+      "\022\207\001\n\031mi_InsertTempdb_AnyValues\0223.dstore." +
+      "engine.mi_InsertTempdb_AnyValues.Paramet" +
+      "ers\0321.dstore.engine.mi_InsertTempdb_AnyV" +
+      "alues.Response\"\0000\001\022\220\001\n\034mi_InsertTempdb_C" +
+      "haracValues\0226.dstore.engine.mi_InsertTem" +
+      "pdb_CharacValues.Parameters\0324.dstore.eng" +
+      "ine.mi_InsertTempdb_CharacValues.Respons",
+      "e\"\0000\001\022\207\001\n\031mi_InsertTempdb_ImageData\0223.ds" +
+      "tore.engine.mi_InsertTempdb_ImageData.Pa" +
+      "rameters\0321.dstore.engine.mi_InsertTempdb" +
+      "_ImageData.Response\"\0000\001\022{\n\025mi_InsertTemp" +
+      "db_OneID\022/.dstore.engine.mi_InsertTempdb" +
+      "_OneID.Parameters\032-.dstore.engine.mi_Ins" +
+      "ertTempdb_OneID.Response\"\0000\001\022\204\001\n\030mi_Inse" +
+      "rtTempdb_TextData\0222.dstore.engine.mi_Ins" +
+      "ertTempdb_TextData.Parameters\0320.dstore.e" +
+      "ngine.mi_InsertTempdb_TextData.Response\"",
+      "\0000\001\022\204\001\n\030mi_InsertTempdb_ThreeIDs\0222.dstor" +
+      "e.engine.mi_InsertTempdb_ThreeIDs.Parame" +
+      "ters\0320.dstore.engine.mi_InsertTempdb_Thr" +
+      "eeIDs.Response\"\0000\001\022~\n\026mi_InsertTempdb_Tw" +
+      "oIDs\0220.dstore.engine.mi_InsertTempdb_Two" +
+      "IDs.Parameters\032..dstore.engine.mi_Insert" +
+      "Tempdb_TwoIDs.Response\"\0000\001\022\226\001\n\036mi_Insert" +
+      "VisitorInformation_Pu\0228.dstore.engine.mi" +
+      "_InsertVisitorInformation_Pu.Parameters\032" +
+      "6.dstore.engine.mi_InsertVisitorInformat",
+      "ion_Pu.Response\"\0000\001\022r\n\022mi_LoadDatabase_A" +
+      "d\022,.dstore.engine.mi_LoadDatabase_Ad.Par" +
+      "ameters\032*.dstore.engine.mi_LoadDatabase_" +
+      "Ad.Response\"\0000\001\022\215\001\n\033mi_ModifyAppPartSett" +
+      "ings_Ad\0225.dstore.engine.mi_ModifyAppPart" +
+      "Settings_Ad.Parameters\0323.dstore.engine.m" +
+      "i_ModifyAppPartSettings_Ad.Response\"\0000\001\022" +
+      "\220\001\n\034mi_ModifyAppPartTreeSetts_Ad\0226.dstor" +
+      "e.engine.mi_ModifyAppPartTreeSetts_Ad.Pa" +
+      "rameters\0324.dstore.engine.mi_ModifyAppPar",
+      "tTreeSetts_Ad.Response\"\0000\001\022\201\001\n\027mi_Modify" +
+      "AppSettings_Ad\0221.dstore.engine.mi_Modify" +
+      "AppSettings_Ad.Parameters\032/.dstore.engin" +
+      "e.mi_ModifyAppSettings_Ad.Response\"\0000\001\022\215" +
+      "\001\n\033mi_ModifyApplicPartsTree_Ad\0225.dstore." +
+      "engine.mi_ModifyApplicPartsTree_Ad.Param" +
+      "eters\0323.dstore.engine.mi_ModifyApplicPar" +
+      "tsTree_Ad.Response\"\0000\001\022\220\001\n\034mi_ModifyAppl" +
+      "icationParts_Ad\0226.dstore.engine.mi_Modif" +
+      "yApplicationParts_Ad.Parameters\0324.dstore",
+      ".engine.mi_ModifyApplicationParts_Ad.Res" +
+      "ponse\"\0000\001\022\204\001\n\030mi_ModifyApplications_Ad\0222" +
+      ".dstore.engine.mi_ModifyApplications_Ad." +
+      "Parameters\0320.dstore.engine.mi_ModifyAppl" +
+      "ications_Ad.Response\"\0000\001\022\226\001\n\036mi_ModifyCo" +
+      "untriesInRegions_Ad\0228.dstore.engine.mi_M" +
+      "odifyCountriesInRegions_Ad.Parameters\0326." +
+      "dstore.engine.mi_ModifyCountriesInRegion" +
+      "s_Ad.Response\"\0000\001\022{\n\025mi_ModifyCountries_" +
+      "Ad\022/.dstore.engine.mi_ModifyCountries_Ad",
+      ".Parameters\032-.dstore.engine.mi_ModifyCou" +
+      "ntries_Ad.Response\"\0000\001\022\220\001\n\034mi_ModifyInfo" +
+      "rmationTypes_Ad\0226.dstore.engine.mi_Modif" +
+      "yInformationTypes_Ad.Parameters\0324.dstore" +
+      ".engine.mi_ModifyInformationTypes_Ad.Res" +
+      "ponse\"\0000\001\022\207\001\n\031mi_ModifyLanguageDescr_Ad\022" +
+      "3.dstore.engine.mi_ModifyLanguageDescr_A" +
+      "d.Parameters\0321.dstore.engine.mi_ModifyLa" +
+      "nguageDescr_Ad.Response\"\0000\001\022{\n\025mi_Modify" +
+      "Languages_Ad\022/.dstore.engine.mi_ModifyLa",
+      "nguages_Ad.Parameters\032-.dstore.engine.mi" +
+      "_ModifyLanguages_Ad.Response\"\0000\001\022u\n\023mi_M" +
+      "odifyLocales_Ad\022-.dstore.engine.mi_Modif" +
+      "yLocales_Ad.Parameters\032+.dstore.engine.m" +
+      "i_ModifyLocales_Ad.Response\"\0000\001\022\226\001\n\036mi_M" +
+      "odifyProcExRestForGroup_Ad\0228.dstore.engi" +
+      "ne.mi_ModifyProcExRestForGroup_Ad.Parame" +
+      "ters\0326.dstore.engine.mi_ModifyProcExRest" +
+      "ForGroup_Ad.Response\"\0000\001\022\223\001\n\035mi_ModifyPr" +
+      "ocExRestForUser_Ad\0227.dstore.engine.mi_Mo",
+      "difyProcExRestForUser_Ad.Parameters\0325.ds" +
+      "tore.engine.mi_ModifyProcExRestForUser_A" +
+      "d.Response\"\0000\001\022\223\001\n\035mi_ModifyProcExRight_" +
+      "Group_Ad\0227.dstore.engine.mi_ModifyProcEx" +
+      "Right_Group_Ad.Parameters\0325.dstore.engin" +
+      "e.mi_ModifyProcExRight_Group_Ad.Response" +
+      "\"\0000\001\022\220\001\n\034mi_ModifyProcExRight_User_Ad\0226." +
+      "dstore.engine.mi_ModifyProcExRight_User_" +
+      "Ad.Parameters\0324.dstore.engine.mi_ModifyP" +
+      "rocExRight_User_Ad.Response\"\0000\001\022u\n\023mi_Mo",
+      "difyRegions_Ad\022-.dstore.engine.mi_Modify" +
+      "Regions_Ad.Parameters\032+.dstore.engine.mi" +
+      "_ModifyRegions_Ad.Response\"\0000\001\022\215\001\n\033mi_Mo" +
+      "difyRegisteredProcs_Ad\0225.dstore.engine.m" +
+      "i_ModifyRegisteredProcs_Ad.Parameters\0323." +
+      "dstore.engine.mi_ModifyRegisteredProcs_A" +
+      "d.Response\"\0000\001\022\201\001\n\027mi_ModifySearchItems_" +
+      "Ad\0221.dstore.engine.mi_ModifySearchItems_" +
+      "Ad.Parameters\032/.dstore.engine.mi_ModifyS" +
+      "earchItems_Ad.Response\"\0000\001\022\223\001\n\035mi_Modify",
+      "SessionManagement_Pu\0227.dstore.engine.mi_" +
+      "ModifySessionManagement_Pu.Parameters\0325." +
+      "dstore.engine.mi_ModifySessionManagement" +
+      "_Pu.Response\"\0000\001\022x\n\024mi_ModifySettings_Ad" +
+      "\022..dstore.engine.mi_ModifySettings_Ad.Pa" +
+      "rameters\032,.dstore.engine.mi_ModifySettin" +
+      "gs_Ad.Response\"\0000\001\022\215\001\n\033mi_ModifyTRITrigg" +
+      "erConds_Ad\0225.dstore.engine.mi_ModifyTRIT" +
+      "riggerConds_Ad.Parameters\0323.dstore.engin" +
+      "e.mi_ModifyTRITriggerConds_Ad.Response\"\000",
+      "0\001\022\226\001\n\036mi_ModifyTRITriggerReplFunc_Ad\0228." +
+      "dstore.engine.mi_ModifyTRITriggerReplFun" +
+      "c_Ad.Parameters\0326.dstore.engine.mi_Modif" +
+      "yTRITriggerReplFunc_Ad.Response\"\0000\001\022\215\001\n\033" +
+      "mi_ModifyTRITriggerToDos_Ad\0225.dstore.eng" +
+      "ine.mi_ModifyTRITriggerToDos_Ad.Paramete" +
+      "rs\0323.dstore.engine.mi_ModifyTRITriggerTo" +
+      "Dos_Ad.Response\"\0000\001\022\226\001\n\036mi_ModifyTRITrig" +
+      "gerWorkflow_Ad\0228.dstore.engine.mi_Modify" +
+      "TRITriggerWorkflow_Ad.Parameters\0326.dstor",
+      "e.engine.mi_ModifyTRITriggerWorkflow_Ad." +
+      "Response\"\0000\001\022~\n\026mi_ModifyTRITrigger_Ad\0220" +
+      ".dstore.engine.mi_ModifyTRITrigger_Ad.Pa" +
+      "rameters\032..dstore.engine.mi_ModifyTRITri" +
+      "gger_Ad.Response\"\0000\001\022x\n\024mi_ModifyTaxRate" +
+      "s_Ad\022..dstore.engine.mi_ModifyTaxRates_A" +
+      "d.Parameters\032,.dstore.engine.mi_ModifyTa" +
+      "xRates_Ad.Response\"\0000\001\022{\n\025mi_ModifyTempl" +
+      "ates_Ad\022/.dstore.engine.mi_ModifyTemplat" +
+      "es_Ad.Parameters\032-.dstore.engine.mi_Modi",
+      "fyTemplates_Ad.Response\"\0000\001\022\223\001\n\035mi_Modif" +
+      "yUnitCategoryDescr_Ad\0227.dstore.engine.mi" +
+      "_ModifyUnitCategoryDescr_Ad.Parameters\0325" +
+      ".dstore.engine.mi_ModifyUnitCategoryDesc" +
+      "r_Ad.Response\"\0000\001\022\204\001\n\030mi_ModifyUnitConve" +
+      "rts_Ad\0222.dstore.engine.mi_ModifyUnitConv" +
+      "erts_Ad.Parameters\0320.dstore.engine.mi_Mo" +
+      "difyUnitConverts_Ad.Response\"\0000\001\022\223\001\n\035mi_" +
+      "ModifyUnitsInCategories_Ad\0227.dstore.engi" +
+      "ne.mi_ModifyUnitsInCategories_Ad.Paramet",
+      "ers\0325.dstore.engine.mi_ModifyUnitsInCate" +
+      "gories_Ad.Response\"\0000\001\022o\n\021mi_ModifyUnits" +
+      "_Ad\022+.dstore.engine.mi_ModifyUnits_Ad.Pa" +
+      "rameters\032).dstore.engine.mi_ModifyUnits_" +
+      "Ad.Response\"\0000\001\022~\n\026mi_ModifyUserGroups_A" +
+      "d\0220.dstore.engine.mi_ModifyUserGroups_Ad" +
+      ".Parameters\032..dstore.engine.mi_ModifyUse" +
+      "rGroups_Ad.Response\"\0000\001\022x\n\024mi_ModifyUser" +
+      "Info_Ad\022..dstore.engine.mi_ModifyUserInf" +
+      "o_Ad.Parameters\032,.dstore.engine.mi_Modif",
+      "yUserInfo_Ad.Response\"\0000\001\022\207\001\n\031mi_ModifyU" +
+      "sersInGroups_Ad\0223.dstore.engine.mi_Modif" +
+      "yUsersInGroups_Ad.Parameters\0321.dstore.en" +
+      "gine.mi_ModifyUsersInGroups_Ad.Response\"" +
+      "\0000\001\022u\n\023mi_ResetBatchJob_Ad\022-.dstore.engi" +
+      "ne.mi_ResetBatchJob_Ad.Parameters\032+.dsto" +
+      "re.engine.mi_ResetBatchJob_Ad.Response\"\000" +
+      "0\001\022\212\001\n\032mi_RestoreDefaultValues_Ad\0224.dsto" +
+      "re.engine.mi_RestoreDefaultValues_Ad.Par" +
+      "ameters\0322.dstore.engine.mi_RestoreDefaul",
+      "tValues_Ad.Response\"\0000\001\022x\n\024mi_SearchBina" +
+      "ries_Ad\022..dstore.engine.mi_SearchBinarie" +
+      "s_Ad.Parameters\032,.dstore.engine.mi_Searc" +
+      "hBinaries_Ad.Response\"\0000\001\022~\n\026mi_SearchSo" +
+      "urceCode_Ad\0220.dstore.engine.mi_SearchSou" +
+      "rceCode_Ad.Parameters\032..dstore.engine.mi" +
+      "_SearchSourceCode_Ad.Response\"\0000\001\022\223\001\n\035mi" +
+      "_UpdateVisitorProperties_Pu\0227.dstore.eng" +
+      "ine.mi_UpdateVisitorProperties_Pu.Parame" +
+      "ters\0325.dstore.engine.mi_UpdateVisitorPro",
+      "perties_Pu.Response\"\0000\001\022\204\001\n\030mi_ValidateT" +
+      "RITrigger_Ad\0222.dstore.engine.mi_Validate" +
+      "TRITrigger_Ad.Parameters\0320.dstore.engine" +
+      ".mi_ValidateTRITrigger_Ad.Response\"\0000\001\022\201" +
+      "\001\n\027om_AcknowledgeOrders_Ad\0221.dstore.engi" +
+      "ne.om_AcknowledgeOrders_Ad.Parameters\032/." +
+      "dstore.engine.om_AcknowledgeOrders_Ad.Re" +
+      "sponse\"\0000\001\022~\n\026om_ChangeOrderState_Ad\0220.d" +
+      "store.engine.om_ChangeOrderState_Ad.Para" +
+      "meters\032..dstore.engine.om_ChangeOrderSta",
+      "te_Ad.Response\"\0000\001\022~\n\026om_ChangeOrderStat" +
+      "e_Pu\0220.dstore.engine.om_ChangeOrderState" +
+      "_Pu.Parameters\032..dstore.engine.om_Change" +
+      "OrderState_Pu.Response\"\0000\001\022\220\001\n\034om_CheckC" +
+      "ampCondsForTNIDs_Ad\0226.dstore.engine.om_C" +
+      "heckCampCondsForTNIDs_Ad.Parameters\0324.ds" +
+      "tore.engine.om_CheckCampCondsForTNIDs_Ad" +
+      ".Response\"\0000\001\022r\n\022om_ClearTrolley_Pu\022,.ds" +
+      "tore.engine.om_ClearTrolley_Pu.Parameter" +
+      "s\032*.dstore.engine.om_ClearTrolley_Pu.Res",
+      "ponse\"\0000\001\022r\n\022om_ConvertCurrency\022,.dstore" +
+      ".engine.om_ConvertCurrency.Parameters\032*." +
+      "dstore.engine.om_ConvertCurrency.Respons" +
+      "e\"\0000\001\022\220\001\n\034om_CopyFromPOQueueToOrder_Ad\0226" +
+      ".dstore.engine.om_CopyFromPOQueueToOrder" +
+      "_Ad.Parameters\0324.dstore.engine.om_CopyFr" +
+      "omPOQueueToOrder_Ad.Response\"\0000\001\022\220\001\n\034om_" +
+      "CopyFromTrolleyToOrder_Pu\0226.dstore.engin" +
+      "e.om_CopyFromTrolleyToOrder_Pu.Parameter" +
+      "s\0324.dstore.engine.om_CopyFromTrolleyToOr",
+      "der_Pu.Response\"\0000\001\022\215\001\n\033om_CreateCustome" +
+      "rCashAcc_Pu\0225.dstore.engine.om_CreateCus" +
+      "tomerCashAcc_Pu.Parameters\0323.dstore.engi" +
+      "ne.om_CreateCustomerCashAcc_Pu.Response\"" +
+      "\0000\001\022u\n\023om_CreateNewBill_Ad\022-.dstore.engi" +
+      "ne.om_CreateNewBill_Ad.Parameters\032+.dsto" +
+      "re.engine.om_CreateNewBill_Ad.Response\"\000" +
+      "0\001\022\226\001\n\036om_CreateSimpleCampItemCond_Ad\0228." +
+      "dstore.engine.om_CreateSimpleCampItemCon" +
+      "d_Ad.Parameters\0326.dstore.engine.om_Creat",
+      "eSimpleCampItemCond_Ad.Response\"\0000\001\022\204\001\n\030" +
+      "om_CreateVoucherCodes_Ad\0222.dstore.engine" +
+      ".om_CreateVoucherCodes_Ad.Parameters\0320.d" +
+      "store.engine.om_CreateVoucherCodes_Ad.Re" +
+      "sponse\"\0000\001\022\226\001\n\036om_CustomerWhoBoughtAlsoB" +
+      "ought\0228.dstore.engine.om_CustomerWhoBoug" +
+      "htAlsoBought.Parameters\0326.dstore.engine." +
+      "om_CustomerWhoBoughtAlsoBought.Response\"" +
+      "\0000\001\022r\n\022om_ExportOrders_Ad\022,.dstore.engin" +
+      "e.om_ExportOrders_Ad.Parameters\032*.dstore",
+      ".engine.om_ExportOrders_Ad.Response\"\0000\001\022" +
+      "\204\001\n\030om_GetAllowedOrderStates\0222.dstore.en" +
+      "gine.om_GetAllowedOrderStates.Parameters" +
+      "\0320.dstore.engine.om_GetAllowedOrderState" +
+      "s.Response\"\0000\001\022{\n\025om_GetBenefitTypes_Ad\022" +
+      "/.dstore.engine.om_GetBenefitTypes_Ad.Pa" +
+      "rameters\032-.dstore.engine.om_GetBenefitTy" +
+      "pes_Ad.Response\"\0000\001\022\223\001\n\035om_GetBillConten" +
+      "tInfoRules_Ad\0227.dstore.engine.om_GetBill" +
+      "ContentInfoRules_Ad.Parameters\0325.dstore.",
+      "engine.om_GetBillContentInfoRules_Ad.Res" +
+      "ponse\"\0000\001\022\223\001\n\035om_GetBillContentInfoTypes" +
+      "_Ad\0227.dstore.engine.om_GetBillContentInf" +
+      "oTypes_Ad.Parameters\0325.dstore.engine.om_" +
+      "GetBillContentInfoTypes_Ad.Response\"\0000\001\022" +
+      "\204\001\n\030om_GetBillContentInfo_Ad\0222.dstore.en" +
+      "gine.om_GetBillContentInfo_Ad.Parameters" +
+      "\0320.dstore.engine.om_GetBillContentInfo_A" +
+      "d.Response\"\0000\001\022\223\001\n\035om_GetBillInformation" +
+      "Rules_Ad\0227.dstore.engine.om_GetBillInfor",
+      "mationRules_Ad.Parameters\0325.dstore.engin" +
+      "e.om_GetBillInformationRules_Ad.Response" +
+      "\"\0000\001\022\223\001\n\035om_GetBillInformationTypes_Ad\0227" +
+      ".dstore.engine.om_GetBillInformationType" +
+      "s_Ad.Parameters\0325.dstore.engine.om_GetBi" +
+      "llInformationTypes_Ad.Response\"\0000\001\022\204\001\n\030o" +
+      "m_GetBillInformation_Ad\0222.dstore.engine." +
+      "om_GetBillInformation_Ad.Parameters\0320.ds" +
+      "tore.engine.om_GetBillInformation_Ad.Res" +
+      "ponse\"\0000\001\022~\n\026om_GetBonusItemSets_Ad\0220.ds",
+      "tore.engine.om_GetBonusItemSets_Ad.Param" +
+      "eters\032..dstore.engine.om_GetBonusItemSet" +
+      "s_Ad.Response\"\0000\001\022\201\001\n\027om_GetBundleItemSe" +
+      "ts_Ad\0221.dstore.engine.om_GetBundleItemSe" +
+      "ts_Ad.Parameters\032/.dstore.engine.om_GetB" +
+      "undleItemSets_Ad.Response\"\0000\001\022\215\001\n\033om_Get" +
+      "BundlePricingTypes_Ad\0225.dstore.engine.om" +
+      "_GetBundlePricingTypes_Ad.Parameters\0323.d" +
+      "store.engine.om_GetBundlePricingTypes_Ad" +
+      ".Response\"\0000\001\022\226\001\n\036om_GetCamPeriodStatusV",
+      "alues_Ad\0228.dstore.engine.om_GetCamPeriod" +
+      "StatusValues_Ad.Parameters\0326.dstore.engi" +
+      "ne.om_GetCamPeriodStatusValues_Ad.Respon" +
+      "se\"\0000\001\022\226\001\n\036om_GetCampCondCriteriaTypes_A" +
+      "d\0228.dstore.engine.om_GetCampCondCriteria" +
+      "Types_Ad.Parameters\0326.dstore.engine.om_G" +
+      "etCampCondCriteriaTypes_Ad.Response\"\0000\001\022" +
+      "\215\001\n\033om_GetCampOrderSurchDisc_Ad\0225.dstore" +
+      ".engine.om_GetCampOrderSurchDisc_Ad.Para" +
+      "meters\0323.dstore.engine.om_GetCampOrderSu",
+      "rchDisc_Ad.Response\"\0000\001\022\223\001\n\035om_GetCampPa" +
+      "ymentTypeConds_Ad\0227.dstore.engine.om_Get" +
+      "CampPaymentTypeConds_Ad.Parameters\0325.dst" +
+      "ore.engine.om_GetCampPaymentTypeConds_Ad" +
+      ".Response\"\0000\001\022\223\001\n\035om_GetCampPersonGroupC" +
+      "onds_Ad\0227.dstore.engine.om_GetCampPerson" +
+      "GroupConds_Ad.Parameters\0325.dstore.engine" +
+      ".om_GetCampPersonGroupConds_Ad.Response\"" +
+      "\0000\001\022\226\001\n\036om_GetCampShippingTypeConds_Ad\0228" +
+      ".dstore.engine.om_GetCampShippingTypeCon",
+      "ds_Ad.Parameters\0326.dstore.engine.om_GetC" +
+      "ampShippingTypeConds_Ad.Response\"\0000\001\022\223\001\n" +
+      "\035om_GetCampTrolleyValueCond_Ad\0227.dstore." +
+      "engine.om_GetCampTrolleyValueCond_Ad.Par" +
+      "ameters\0325.dstore.engine.om_GetCampTrolle" +
+      "yValueCond_Ad.Response\"\0000\001\022\223\001\n\035om_GetCam" +
+      "pVoucherCodeConds_Ad\0227.dstore.engine.om_" +
+      "GetCampVoucherCodeConds_Ad.Parameters\0325." +
+      "dstore.engine.om_GetCampVoucherCodeConds" +
+      "_Ad.Response\"\0000\001\022\207\001\n\031om_GetCampaignBenef",
+      "its_Ad\0223.dstore.engine.om_GetCampaignBen" +
+      "efits_Ad.Parameters\0321.dstore.engine.om_G" +
+      "etCampaignBenefits_Ad.Response\"\0000\001\022\215\001\n\033o" +
+      "m_GetCampaignBonusItems_Ad\0225.dstore.engi" +
+      "ne.om_GetCampaignBonusItems_Ad.Parameter" +
+      "s\0323.dstore.engine.om_GetCampaignBonusIte" +
+      "ms_Ad.Response\"\0000\001\022\215\001\n\033om_GetCampaignBon" +
+      "usItems_Pu\0225.dstore.engine.om_GetCampaig" +
+      "nBonusItems_Pu.Parameters\0323.dstore.engin" +
+      "e.om_GetCampaignBonusItems_Pu.Response\"\000",
+      "0\001\022\226\001\n\036om_GetCampaignBundlePricing_Ad\0228." +
+      "dstore.engine.om_GetCampaignBundlePricin" +
+      "g_Ad.Parameters\0326.dstore.engine.om_GetCa" +
+      "mpaignBundlePricing_Ad.Response\"\0000\001\022\226\001\n\036" +
+      "om_GetCampaignBundlePricing_Pu\0228.dstore." +
+      "engine.om_GetCampaignBundlePricing_Pu.Pa" +
+      "rameters\0326.dstore.engine.om_GetCampaignB" +
+      "undlePricing_Pu.Response\"\0000\001\022\215\001\n\033om_GetC" +
+      "ampaignCategories_Ad\0225.dstore.engine.om_" +
+      "GetCampaignCategories_Ad.Parameters\0323.ds",
+      "tore.engine.om_GetCampaignCategories_Ad." +
+      "Response\"\0000\001\022\215\001\n\033om_GetCampaignCondition" +
+      "s_Ad\0225.dstore.engine.om_GetCampaignCondi" +
+      "tions_Ad.Parameters\0323.dstore.engine.om_G" +
+      "etCampaignConditions_Ad.Response\"\0000\001\022\226\001\n" +
+      "\036om_GetCampaignItemConGroups_Ad\0228.dstore" +
+      ".engine.om_GetCampaignItemConGroups_Ad.P" +
+      "arameters\0326.dstore.engine.om_GetCampaign" +
+      "ItemConGroups_Ad.Response\"\0000\001\022\226\001\n\036om_Get" +
+      "CampaignItemCondParts_Ad\0228.dstore.engine",
+      ".om_GetCampaignItemCondParts_Ad.Paramete" +
+      "rs\0326.dstore.engine.om_GetCampaignItemCon" +
+      "dParts_Ad.Response\"\0000\001\022\212\001\n\032om_GetCampaig" +
+      "nItemConds_Ad\0224.dstore.engine.om_GetCamp" +
+      "aignItemConds_Ad.Parameters\0322.dstore.eng" +
+      "ine.om_GetCampaignItemConds_Ad.Response\"" +
+      "\0000\001\022\215\001\n\033om_GetCampaignPeriodDefs_Ad\0225.ds" +
+      "tore.engine.om_GetCampaignPeriodDefs_Ad." +
+      "Parameters\0323.dstore.engine.om_GetCampaig" +
+      "nPeriodDefs_Ad.Response\"\0000\001\022\204\001\n\030om_GetCa",
+      "mpaignPeriods_Ad\0222.dstore.engine.om_GetC" +
+      "ampaignPeriods_Ad.Parameters\0320.dstore.en" +
+      "gine.om_GetCampaignPeriods_Ad.Response\"\000" +
+      "0\001\022\212\001\n\032om_GetCampaignSettingEntry\0224.dsto" +
+      "re.engine.om_GetCampaignSettingEntry.Par" +
+      "ameters\0322.dstore.engine.om_GetCampaignSe" +
+      "ttingEntry.Response\"\0000\001\022\215\001\n\033om_GetCampai" +
+      "gnSurcharges_Ad\0225.dstore.engine.om_GetCa" +
+      "mpaignSurcharges_Ad.Parameters\0323.dstore." +
+      "engine.om_GetCampaignSurcharges_Ad.Respo",
+      "nse\"\0000\001\022\212\001\n\032om_GetCampaignTypeRules_Ad\0224" +
+      ".dstore.engine.om_GetCampaignTypeRules_A" +
+      "d.Parameters\0322.dstore.engine.om_GetCampa" +
+      "ignTypeRules_Ad.Response\"\0000\001\022~\n\026om_GetCa" +
+      "mpaignTypes_Ad\0220.dstore.engine.om_GetCam" +
+      "paignTypes_Ad.Parameters\032..dstore.engine" +
+      ".om_GetCampaignTypes_Ad.Response\"\0000\001\022\226\001\n" +
+      "\036om_GetCampaignsInCategories_Ad\0228.dstore" +
+      ".engine.om_GetCampaignsInCategories_Ad.P" +
+      "arameters\0326.dstore.engine.om_GetCampaign",
+      "sInCategories_Ad.Response\"\0000\001\022r\n\022om_GetC" +
+      "ampaigns_Ad\022,.dstore.engine.om_GetCampai" +
+      "gns_Ad.Parameters\032*.dstore.engine.om_Get" +
+      "Campaigns_Ad.Response\"\0000\001\022\223\001\n\035om_GetCash" +
+      "AccTransactTypes_Ad\0227.dstore.engine.om_G" +
+      "etCashAccTransactTypes_Ad.Parameters\0325.d" +
+      "store.engine.om_GetCashAccTransactTypes_" +
+      "Ad.Response\"\0000\001\022\220\001\n\034om_GetCashAccTransac" +
+      "tions_Ad\0226.dstore.engine.om_GetCashAccTr" +
+      "ansactions_Ad.Parameters\0324.dstore.engine",
+      ".om_GetCashAccTransactions_Ad.Response\"\000" +
+      "0\001\022\220\001\n\034om_GetCashAccTransactions_Pu\0226.ds" +
+      "tore.engine.om_GetCashAccTransactions_Pu" +
+      ".Parameters\0324.dstore.engine.om_GetCashAc" +
+      "cTransactions_Pu.Response\"\0000\001\022~\n\026om_GetC" +
+      "ashAccountTypes\0220.dstore.engine.om_GetCa" +
+      "shAccountTypes.Parameters\032..dstore.engin" +
+      "e.om_GetCashAccountTypes.Response\"\0000\001\022\220\001" +
+      "\n\034om_GetChangeOStateTrigger_Ad\0226.dstore." +
+      "engine.om_GetChangeOStateTrigger_Ad.Para",
+      "meters\0324.dstore.engine.om_GetChangeOStat" +
+      "eTrigger_Ad.Response\"\0000\001\022~\n\026om_GetCurren" +
+      "tCampaigns\0220.dstore.engine.om_GetCurrent" +
+      "Campaigns.Parameters\032..dstore.engine.om_" +
+      "GetCurrentCampaigns.Response\"\0000\001\022\223\001\n\035om_" +
+      "GetCustomerCashAccounts_Ad\0227.dstore.engi" +
+      "ne.om_GetCustomerCashAccounts_Ad.Paramet" +
+      "ers\0325.dstore.engine.om_GetCustomerCashAc" +
+      "counts_Ad.Response\"\0000\001\022\223\001\n\035om_GetCustome" +
+      "rCashAccounts_Pu\0227.dstore.engine.om_GetC",
+      "ustomerCashAccounts_Pu.Parameters\0325.dsto" +
+      "re.engine.om_GetCustomerCashAccounts_Pu." +
+      "Response\"\0000\001\022\220\001\n\034om_GetGroupPaymentForSh" +
+      "ip_Ad\0226.dstore.engine.om_GetGroupPayment" +
+      "ForShip_Ad.Parameters\0324.dstore.engine.om" +
+      "_GetGroupPaymentForShip_Ad.Response\"\0000\001\022" +
+      "\204\001\n\030om_GetGroupSurcharges_Ad\0222.dstore.en" +
+      "gine.om_GetGroupSurcharges_Ad.Parameters" +
+      "\0320.dstore.engine.om_GetGroupSurcharges_A" +
+      "d.Response\"\0000\001\022\215\001\n\033om_GetNodePaymentForS",
+      "hip_Ad\0225.dstore.engine.om_GetNodePayment" +
+      "ForShip_Ad.Parameters\0323.dstore.engine.om" +
+      "_GetNodePaymentForShip_Ad.Response\"\0000\001\022\226" +
+      "\001\n\036om_GetOrderContentInfoRules_Ad\0228.dsto" +
+      "re.engine.om_GetOrderContentInfoRules_Ad" +
+      ".Parameters\0326.dstore.engine.om_GetOrderC" +
+      "ontentInfoRules_Ad.Response\"\0000\001\022\226\001\n\036om_G" +
+      "etOrderContentInfoTypes_Ad\0228.dstore.engi" +
+      "ne.om_GetOrderContentInfoTypes_Ad.Parame" +
+      "ters\0326.dstore.engine.om_GetOrderContentI",
+      "nfoTypes_Ad.Response\"\0000\001\022\207\001\n\031om_GetOrder" +
+      "ContentInfo_Ad\0223.dstore.engine.om_GetOrd" +
+      "erContentInfo_Ad.Parameters\0321.dstore.eng" +
+      "ine.om_GetOrderContentInfo_Ad.Response\"\000" +
+      "0\001\022\207\001\n\031om_GetOrderContentInfo_Pu\0223.dstor" +
+      "e.engine.om_GetOrderContentInfo_Pu.Param" +
+      "eters\0321.dstore.engine.om_GetOrderContent" +
+      "Info_Pu.Response\"\0000\001\022\226\001\n\036om_GetOrderInfo" +
+      "rmationRules_Ad\0228.dstore.engine.om_GetOr" +
+      "derInformationRules_Ad.Parameters\0326.dsto",
+      "re.engine.om_GetOrderInformationRules_Ad" +
+      ".Response\"\0000\001\022\226\001\n\036om_GetOrderInformation" +
+      "Types_Ad\0228.dstore.engine.om_GetOrderInfo" +
+      "rmationTypes_Ad.Parameters\0326.dstore.engi" +
+      "ne.om_GetOrderInformationTypes_Ad.Respon" +
+      "se\"\0000\001\022\207\001\n\031om_GetOrderInformation_Ad\0223.d" +
+      "store.engine.om_GetOrderInformation_Ad.P" +
+      "arameters\0321.dstore.engine.om_GetOrderInf" +
+      "ormation_Ad.Response\"\0000\001\022\207\001\n\031om_GetOrder" +
+      "Information_Pu\0223.dstore.engine.om_GetOrd",
+      "erInformation_Pu.Parameters\0321.dstore.eng" +
+      "ine.om_GetOrderInformation_Pu.Response\"\000" +
+      "0\001\022\223\001\n\035om_GetOrderStateCategories_Ad\0227.d" +
+      "store.engine.om_GetOrderStateCategories_" +
+      "Ad.Parameters\0325.dstore.engine.om_GetOrde" +
+      "rStateCategories_Ad.Response\"\0000\001\022\204\001\n\030om_" +
+      "GetOrderStateDescr_Ad\0222.dstore.engine.om" +
+      "_GetOrderStateDescr_Ad.Parameters\0320.dsto" +
+      "re.engine.om_GetOrderStateDescr_Ad.Respo" +
+      "nse\"\0000\001\022\212\001\n\032om_GetOrderStateHistory_Ad\0224",
+      ".dstore.engine.om_GetOrderStateHistory_A" +
+      "d.Parameters\0322.dstore.engine.om_GetOrder" +
+      "StateHistory_Ad.Response\"\0000\001\022\212\001\n\032om_GetO" +
+      "rderStateHistory_Pu\0224.dstore.engine.om_G" +
+      "etOrderStateHistory_Pu.Parameters\0322.dsto" +
+      "re.engine.om_GetOrderStateHistory_Pu.Res" +
+      "ponse\"\0000\001\022\204\001\n\030om_GetOrderStateRules_Ad\0222" +
+      ".dstore.engine.om_GetOrderStateRules_Ad." +
+      "Parameters\0320.dstore.engine.om_GetOrderSt" +
+      "ateRules_Ad.Response\"\0000\001\022\201\001\n\027om_GetOrder",
+      "StatesInCats\0221.dstore.engine.om_GetOrder" +
+      "StatesInCats.Parameters\032/.dstore.engine." +
+      "om_GetOrderStatesInCats.Response\"\0000\001\022\212\001\n" +
+      "\032om_GetOrderStatesInCats_Ad\0224.dstore.eng" +
+      "ine.om_GetOrderStatesInCats_Ad.Parameter" +
+      "s\0322.dstore.engine.om_GetOrderStatesInCat" +
+      "s_Ad.Response\"\0000\001\022x\n\024om_GetOrderStates_A" +
+      "d\022..dstore.engine.om_GetOrderStates_Ad.P" +
+      "arameters\032,.dstore.engine.om_GetOrderSta" +
+      "tes_Ad.Response\"\0000\001\022\220\001\n\034om_GetOrderSurch",
+      "InfoTypes_Ad\0226.dstore.engine.om_GetOrder" +
+      "SurchInfoTypes_Ad.Parameters\0324.dstore.en" +
+      "gine.om_GetOrderSurchInfoTypes_Ad.Respon" +
+      "se\"\0000\001\022\215\001\n\033om_GetOrderSurchargeInfo_Ad\0225" +
+      ".dstore.engine.om_GetOrderSurchargeInfo_" +
+      "Ad.Parameters\0323.dstore.engine.om_GetOrde" +
+      "rSurchargeInfo_Ad.Response\"\0000\001\022\215\001\n\033om_Ge" +
+      "tOrderSurchargeInfo_Pu\0225.dstore.engine.o" +
+      "m_GetOrderSurchargeInfo_Pu.Parameters\0323." +
+      "dstore.engine.om_GetOrderSurchargeInfo_P",
+      "u.Response\"\0000\001\022\204\001\n\030om_GetOrderSurcharges" +
+      "_Ad\0222.dstore.engine.om_GetOrderSurcharge" +
+      "s_Ad.Parameters\0320.dstore.engine.om_GetOr" +
+      "derSurcharges_Ad.Response\"\0000\001\022\204\001\n\030om_Get" +
+      "OrderSurcharges_Pu\0222.dstore.engine.om_Ge" +
+      "tOrderSurcharges_Pu.Parameters\0320.dstore." +
+      "engine.om_GetOrderSurcharges_Pu.Response" +
+      "\"\0000\001\022i\n\017om_GetOrders_Ad\022).dstore.engine." +
+      "om_GetOrders_Ad.Parameters\032\'.dstore.engi" +
+      "ne.om_GetOrders_Ad.Response\"\0000\001\022\212\001\n\032om_G",
+      "etOrders_Conditions_Ad\0224.dstore.engine.o" +
+      "m_GetOrders_Conditions_Ad.Parameters\0322.d" +
+      "store.engine.om_GetOrders_Conditions_Ad." +
+      "Response\"\0000\001\022i\n\017om_GetOrders_Pu\022).dstore" +
+      ".engine.om_GetOrders_Pu.Parameters\032\'.dst" +
+      "ore.engine.om_GetOrders_Pu.Response\"\0000\001\022" +
+      "\226\001\n\036om_GetOtherBillContInfRules_Ad\0228.dst" +
+      "ore.engine.om_GetOtherBillContInfRules_A" +
+      "d.Parameters\0326.dstore.engine.om_GetOther" +
+      "BillContInfRules_Ad.Response\"\0000\001\022\226\001\n\036om_",
+      "GetOtherBillContInfTypes_Ad\0228.dstore.eng" +
+      "ine.om_GetOtherBillContInfTypes_Ad.Param" +
+      "eters\0326.dstore.engine.om_GetOtherBillCon" +
+      "tInfTypes_Ad.Response\"\0000\001\022\215\001\n\033om_GetPaym" +
+      "entAndShipping_Pu\0225.dstore.engine.om_Get" +
+      "PaymentAndShipping_Pu.Parameters\0323.dstor" +
+      "e.engine.om_GetPaymentAndShipping_Pu.Res" +
+      "ponse\"\0000\001\022x\n\024om_GetPaymentCost_Pu\022..dsto" +
+      "re.engine.om_GetPaymentCost_Pu.Parameter" +
+      "s\032,.dstore.engine.om_GetPaymentCost_Pu.R",
+      "esponse\"\0000\001\022\215\001\n\033om_GetPaymentForShipping" +
+      "_Ad\0225.dstore.engine.om_GetPaymentForShip" +
+      "ping_Ad.Parameters\0323.dstore.engine.om_Ge" +
+      "tPaymentForShipping_Ad.Response\"\0000\001\022\215\001\n\033" +
+      "om_GetPaymentForShipping_Pu\0225.dstore.eng" +
+      "ine.om_GetPaymentForShipping_Pu.Paramete" +
+      "rs\0323.dstore.engine.om_GetPaymentForShipp" +
+      "ing_Pu.Response\"\0000\001\022\207\001\n\031om_GetPaymentTyp" +
+      "eDescr_Ad\0223.dstore.engine.om_GetPaymentT" +
+      "ypeDescr_Ad.Parameters\0321.dstore.engine.o",
+      "m_GetPaymentTypeDescr_Ad.Response\"\0000\001\022\226\001" +
+      "\n\036om_GetPaymentTypeSurcharges_Ad\0228.dstor" +
+      "e.engine.om_GetPaymentTypeSurcharges_Ad." +
+      "Parameters\0326.dstore.engine.om_GetPayment" +
+      "TypeSurcharges_Ad.Response\"\0000\001\022{\n\025om_Get" +
+      "PaymentTypes_Ad\022/.dstore.engine.om_GetPa" +
+      "ymentTypes_Ad.Parameters\032-.dstore.engine" +
+      ".om_GetPaymentTypes_Ad.Response\"\0000\001\022\220\001\n\034" +
+      "om_GetPersonInfoForOrders_Ad\0226.dstore.en" +
+      "gine.om_GetPersonInfoForOrders_Ad.Parame",
+      "ters\0324.dstore.engine.om_GetPersonInfoFor" +
+      "Orders_Ad.Response\"\0000\001\022\207\001\n\031om_GetPersonS" +
+      "urcharges_Ad\0223.dstore.engine.om_GetPerso" +
+      "nSurcharges_Ad.Parameters\0321.dstore.engin" +
+      "e.om_GetPersonSurcharges_Ad.Response\"\0000\001" +
+      "\022\226\001\n\036om_GetPredefinedBillContent_Ad\0228.ds" +
+      "tore.engine.om_GetPredefinedBillContent_" +
+      "Ad.Parameters\0326.dstore.engine.om_GetPred" +
+      "efinedBillContent_Ad.Response\"\0000\001\022{\n\025om_" +
+      "GetPrepaidCodes_Ad\022/.dstore.engine.om_Ge",
+      "tPrepaidCodes_Ad.Parameters\032-.dstore.eng" +
+      "ine.om_GetPrepaidCodes_Ad.Response\"\0000\001\022i" +
+      "\n\017om_GetPrices_Ad\022).dstore.engine.om_Get" +
+      "Prices_Ad.Parameters\032\'.dstore.engine.om_" +
+      "GetPrices_Ad.Response\"\0000\001\022i\n\017om_GetPrice" +
+      "s_Pu\022).dstore.engine.om_GetPrices_Pu.Par" +
+      "ameters\032\'.dstore.engine.om_GetPrices_Pu." +
+      "Response\"\0000\001\022\220\001\n\034om_GetPurchaseOrderQueu" +
+      "es_Ad\0226.dstore.engine.om_GetPurchaseOrde" +
+      "rQueues_Ad.Parameters\0324.dstore.engine.om",
+      "_GetPurchaseOrderQueues_Ad.Response\"\0000\001\022" +
+      "\215\001\n\033om_GetPurchaseOrderTypes_Ad\0225.dstore" +
+      ".engine.om_GetPurchaseOrderTypes_Ad.Para" +
+      "meters\0323.dstore.engine.om_GetPurchaseOrd" +
+      "erTypes_Ad.Response\"\0000\001\022\201\001\n\027om_GetPurcha" +
+      "sePrices_Ad\0221.dstore.engine.om_GetPurcha" +
+      "sePrices_Ad.Parameters\032/.dstore.engine.o" +
+      "m_GetPurchasePrices_Ad.Response\"\0000\001\022\215\001\n\033" +
+      "om_GetRequiredInfoForPay_Ad\0225.dstore.eng" +
+      "ine.om_GetRequiredInfoForPay_Ad.Paramete",
+      "rs\0323.dstore.engine.om_GetRequiredInfoFor" +
+      "Pay_Ad.Response\"\0000\001\022\223\001\n\035om_GetSetsForBon" +
+      "ItBenefits_Ad\0227.dstore.engine.om_GetSets" +
+      "ForBonItBenefits_Ad.Parameters\0325.dstore." +
+      "engine.om_GetSetsForBonItBenefits_Ad.Res" +
+      "ponse\"\0000\001\022\226\001\n\036om_GetSetsForBundleBenefit" +
+      "s_Ad\0228.dstore.engine.om_GetSetsForBundle" +
+      "Benefits_Ad.Parameters\0326.dstore.engine.o" +
+      "m_GetSetsForBundleBenefits_Ad.Response\"\000" +
+      "0\001\022\220\001\n\034om_GetShippTypeSurcharges_Ad\0226.ds",
+      "tore.engine.om_GetShippTypeSurcharges_Ad" +
+      ".Parameters\0324.dstore.engine.om_GetShippT" +
+      "ypeSurcharges_Ad.Response\"\0000\001\022{\n\025om_GetS" +
+      "hippingCost_Pu\022/.dstore.engine.om_GetShi" +
+      "ppingCost_Pu.Parameters\032-.dstore.engine." +
+      "om_GetShippingCost_Pu.Response\"\0000\001\022\212\001\n\032o" +
+      "m_GetShippingTypeDescr_Ad\0224.dstore.engin" +
+      "e.om_GetShippingTypeDescr_Ad.Parameters\032" +
+      "2.dstore.engine.om_GetShippingTypeDescr_" +
+      "Ad.Response\"\0000\001\022~\n\026om_GetShippingTypes_A",
+      "d\0220.dstore.engine.om_GetShippingTypes_Ad" +
+      ".Parameters\032..dstore.engine.om_GetShippi" +
+      "ngTypes_Ad.Response\"\0000\001\022\226\001\n\036om_GetSuppli" +
+      "erConfiguration_Ad\0228.dstore.engine.om_Ge" +
+      "tSupplierConfiguration_Ad.Parameters\0326.d" +
+      "store.engine.om_GetSupplierConfiguration" +
+      "_Ad.Response\"\0000\001\022\223\001\n\035om_GetSurchargeType" +
+      "Categories\0227.dstore.engine.om_GetSurchar" +
+      "geTypeCategories.Parameters\0325.dstore.eng" +
+      "ine.om_GetSurchargeTypeCategories.Respon",
+      "se\"\0000\001\022\204\001\n\030om_GetSurchargeTypeTaxes\0222.ds" +
+      "tore.engine.om_GetSurchargeTypeTaxes.Par" +
+      "ameters\0320.dstore.engine.om_GetSurchargeT" +
+      "ypeTaxes.Response\"\0000\001\022\201\001\n\027om_GetSurcharg" +
+      "eTypes_Ad\0221.dstore.engine.om_GetSurcharg" +
+      "eTypes_Ad.Parameters\032/.dstore.engine.om_" +
+      "GetSurchargeTypes_Ad.Response\"\0000\001\022u\n\023om_" +
+      "GetSurcharges_Pu\022-.dstore.engine.om_GetS" +
+      "urcharges_Pu.Parameters\032+.dstore.engine." +
+      "om_GetSurcharges_Pu.Response\"\0000\001\022f\n\016om_G",
+      "etTaxTypes\022(.dstore.engine.om_GetTaxType" +
+      "s.Parameters\032&.dstore.engine.om_GetTaxTy" +
+      "pes.Response\"\0000\001\022]\n\013om_GetTaxes\022%.dstore" +
+      ".engine.om_GetTaxes.Parameters\032#.dstore." +
+      "engine.om_GetTaxes.Response\"\0000\001\022\223\001\n\035om_G" +
+      "etTimeUnitsForCPeriods_Ad\0227.dstore.engin" +
+      "e.om_GetTimeUnitsForCPeriods_Ad.Paramete" +
+      "rs\0325.dstore.engine.om_GetTimeUnitsForCPe" +
+      "riods_Ad.Response\"\0000\001\022\220\001\n\034om_GetTransact" +
+      "ionMetaInfo_Ad\0226.dstore.engine.om_GetTra",
+      "nsactionMetaInfo_Ad.Parameters\0324.dstore." +
+      "engine.om_GetTransactionMetaInfo_Ad.Resp" +
+      "onse\"\0000\001\022\204\001\n\030om_GetTrolleyAsMatrix_Pu\0222." +
+      "dstore.engine.om_GetTrolleyAsMatrix_Pu.P" +
+      "arameters\0320.dstore.engine.om_GetTrolleyA" +
+      "sMatrix_Pu.Response\"\0000\001\022\223\001\n\035om_GetTrolle" +
+      "yContInfoTypes_Ad\0227.dstore.engine.om_Get" +
+      "TrolleyContInfoTypes_Ad.Parameters\0325.dst" +
+      "ore.engine.om_GetTrolleyContInfoTypes_Ad" +
+      ".Response\"\0000\001\022\215\001\n\033om_GetTrolleyContentIn",
+      "fo_Pu\0225.dstore.engine.om_GetTrolleyConte" +
+      "ntInfo_Pu.Parameters\0323.dstore.engine.om_" +
+      "GetTrolleyContentInfo_Pu.Response\"\0000\001\022\207\001" +
+      "\n\031om_GetTrolleyInfoTypes_Ad\0223.dstore.eng" +
+      "ine.om_GetTrolleyInfoTypes_Ad.Parameters" +
+      "\0321.dstore.engine.om_GetTrolleyInfoTypes_" +
+      "Ad.Response\"\0000\001\022\215\001\n\033om_GetTrolleyInforma" +
+      "tion_Pu\0225.dstore.engine.om_GetTrolleyInf" +
+      "ormation_Pu.Parameters\0323.dstore.engine.o" +
+      "m_GetTrolleyInformation_Pu.Response\"\0000\001\022",
+      "\226\001\n\036om_GetTrolleySurchInfoTypes_Ad\0228.dst" +
+      "ore.engine.om_GetTrolleySurchInfoTypes_A" +
+      "d.Parameters\0326.dstore.engine.om_GetTroll" +
+      "eySurchInfoTypes_Ad.Response\"\0000\001\022\223\001\n\035om_" +
+      "GetTrolleySurchargeInfo_Pu\0227.dstore.engi" +
+      "ne.om_GetTrolleySurchargeInfo_Pu.Paramet" +
+      "ers\0325.dstore.engine.om_GetTrolleySurchar" +
+      "geInfo_Pu.Response\"\0000\001\022\212\001\n\032om_GetTrolley" +
+      "Surcharges_Pu\0224.dstore.engine.om_GetTrol" +
+      "leySurcharges_Pu.Parameters\0322.dstore.eng",
+      "ine.om_GetTrolleySurcharges_Pu.Response\"" +
+      "\0000\001\022l\n\020om_GetTrolley_Pu\022*.dstore.engine." +
+      "om_GetTrolley_Pu.Parameters\032(.dstore.eng" +
+      "ine.om_GetTrolley_Pu.Response\"\0000\001\022o\n\021om_" +
+      "GetTrolleys_Ad\022+.dstore.engine.om_GetTro" +
+      "lleys_Ad.Parameters\032).dstore.engine.om_G" +
+      "etTrolleys_Ad.Response\"\0000\001\022\207\001\n\031om_GetUse" +
+      "dVoucherCodes_Ad\0223.dstore.engine.om_GetU" +
+      "sedVoucherCodes_Ad.Parameters\0321.dstore.e" +
+      "ngine.om_GetUsedVoucherCodes_Ad.Response",
+      "\"\0000\001\022\207\001\n\031om_GetVCodeOriginTypes_Ad\0223.dst" +
+      "ore.engine.om_GetVCodeOriginTypes_Ad.Par" +
+      "ameters\0321.dstore.engine.om_GetVCodeOrigi" +
+      "nTypes_Ad.Response\"\0000\001\022{\n\025om_GetVoucherC" +
+      "odes_Ad\022/.dstore.engine.om_GetVoucherCod" +
+      "es_Ad.Parameters\032-.dstore.engine.om_GetV" +
+      "oucherCodes_Ad.Response\"\0000\001\022\226\001\n\036om_GetVo" +
+      "ucherTypeStatistics_Ad\0228.dstore.engine.o" +
+      "m_GetVoucherTypeStatistics_Ad.Parameters" +
+      "\0326.dstore.engine.om_GetVoucherTypeStatis",
+      "tics_Ad.Response\"\0000\001\022\226\001\n\036om_GetVoucherTy" +
+      "peSurcharges_Ad\0228.dstore.engine.om_GetVo" +
+      "ucherTypeSurcharges_Ad.Parameters\0326.dsto" +
+      "re.engine.om_GetVoucherTypeSurcharges_Ad" +
+      ".Response\"\0000\001\022{\n\025om_GetVoucherTypes_Ad\022/" +
+      ".dstore.engine.om_GetVoucherTypes_Ad.Par" +
+      "ameters\032-.dstore.engine.om_GetVoucherTyp" +
+      "es_Ad.Response\"\0000\001\022\201\001\n\027om_InsertIntoTrol" +
+      "ley_Pu\0221.dstore.engine.om_InsertIntoTrol" +
+      "ley_Pu.Parameters\032/.dstore.engine.om_Ins",
+      "ertIntoTrolley_Pu.Response\"\0000\001\022\207\001\n\031om_Mo" +
+      "difyBonusItemSets_Ad\0223.dstore.engine.om_" +
+      "ModifyBonusItemSets_Ad.Parameters\0321.dsto" +
+      "re.engine.om_ModifyBonusItemSets_Ad.Resp" +
+      "onse\"\0000\001\022\212\001\n\032om_ModifyBundleItemSets_Ad\022" +
+      "4.dstore.engine.om_ModifyBundleItemSets_" +
+      "Ad.Parameters\0322.dstore.engine.om_ModifyB" +
+      "undleItemSets_Ad.Response\"\0000\001\022\223\001\n\035om_Mod" +
+      "ifyCampBundlePricing_Ad\0227.dstore.engine." +
+      "om_ModifyCampBundlePricing_Ad.Parameters",
+      "\0325.dstore.engine.om_ModifyCampBundlePric" +
+      "ing_Ad.Response\"\0000\001\022\223\001\n\035om_ModifyCampIte" +
+      "mConGroups_Ad\0227.dstore.engine.om_ModifyC" +
+      "ampItemConGroups_Ad.Parameters\0325.dstore." +
+      "engine.om_ModifyCampItemConGroups_Ad.Res" +
+      "ponse\"\0000\001\022\223\001\n\035om_ModifyCampItemCondParts" +
+      "_Ad\0227.dstore.engine.om_ModifyCampItemCon" +
+      "dParts_Ad.Parameters\0325.dstore.engine.om_" +
+      "ModifyCampItemCondParts_Ad.Response\"\0000\001\022" +
+      "\226\001\n\036om_ModifyCampOrderSurchDisc_Ad\0228.dst",
+      "ore.engine.om_ModifyCampOrderSurchDisc_A" +
+      "d.Parameters\0326.dstore.engine.om_ModifyCa" +
+      "mpOrderSurchDisc_Ad.Response\"\0000\001\022\215\001\n\033om_" +
+      "ModifyCampPaymentCond_Ad\0225.dstore.engine" +
+      ".om_ModifyCampPaymentCond_Ad.Parameters\032" +
+      "3.dstore.engine.om_ModifyCampPaymentCond" +
+      "_Ad.Response\"\0000\001\022\223\001\n\035om_ModifyCampPersGr" +
+      "oupCond_Ad\0227.dstore.engine.om_ModifyCamp" +
+      "PersGroupCond_Ad.Parameters\0325.dstore.eng" +
+      "ine.om_ModifyCampPersGroupCond_Ad.Respon",
+      "se\"\0000\001\022\220\001\n\034om_ModifyCampShippingCond_Ad\022" +
+      "6.dstore.engine.om_ModifyCampShippingCon" +
+      "d_Ad.Parameters\0324.dstore.engine.om_Modif" +
+      "yCampShippingCond_Ad.Response\"\0000\001\022\226\001\n\036om" +
+      "_ModifyCampTrolleyValCond_Ad\0228.dstore.en" +
+      "gine.om_ModifyCampTrolleyValCond_Ad.Para" +
+      "meters\0326.dstore.engine.om_ModifyCampTrol" +
+      "leyValCond_Ad.Response\"\0000\001\022\226\001\n\036om_Modify" +
+      "CampVouchCodeConds_Ad\0228.dstore.engine.om" +
+      "_ModifyCampVouchCodeConds_Ad.Parameters\032",
+      "6.dstore.engine.om_ModifyCampVouchCodeCo" +
+      "nds_Ad.Response\"\0000\001\022\220\001\n\034om_ModifyCampaig" +
+      "nBenefits_Ad\0226.dstore.engine.om_ModifyCa" +
+      "mpaignBenefits_Ad.Parameters\0324.dstore.en" +
+      "gine.om_ModifyCampaignBenefits_Ad.Respon" +
+      "se\"\0000\001\022\226\001\n\036om_ModifyCampaignBonusItems_A" +
+      "d\0228.dstore.engine.om_ModifyCampaignBonus" +
+      "Items_Ad.Parameters\0326.dstore.engine.om_M" +
+      "odifyCampaignBonusItems_Ad.Response\"\0000\001\022" +
+      "\226\001\n\036om_ModifyCampaignCategories_Ad\0228.dst",
+      "ore.engine.om_ModifyCampaignCategories_A" +
+      "d.Parameters\0326.dstore.engine.om_ModifyCa" +
+      "mpaignCategories_Ad.Response\"\0000\001\022\226\001\n\036om_" +
+      "ModifyCampaignConditions_Ad\0228.dstore.eng" +
+      "ine.om_ModifyCampaignConditions_Ad.Param" +
+      "eters\0326.dstore.engine.om_ModifyCampaignC" +
+      "onditions_Ad.Response\"\0000\001\022\223\001\n\035om_ModifyC" +
+      "ampaignItemConds_Ad\0227.dstore.engine.om_M" +
+      "odifyCampaignItemConds_Ad.Parameters\0325.d" +
+      "store.engine.om_ModifyCampaignItemConds_",
+      "Ad.Response\"\0000\001\022\226\001\n\036om_ModifyCampaignPer" +
+      "iodDefs_Ad\0228.dstore.engine.om_ModifyCamp" +
+      "aignPeriodDefs_Ad.Parameters\0326.dstore.en" +
+      "gine.om_ModifyCampaignPeriodDefs_Ad.Resp" +
+      "onse\"\0000\001\022\220\001\n\034om_ModifyCampaignSettings_A" +
+      "d\0226.dstore.engine.om_ModifyCampaignSetti" +
+      "ngs_Ad.Parameters\0324.dstore.engine.om_Mod" +
+      "ifyCampaignSettings_Ad.Response\"\0000\001\022\226\001\n\036" +
+      "om_ModifyCampaignSurcharges_Ad\0228.dstore." +
+      "engine.om_ModifyCampaignSurcharges_Ad.Pa",
+      "rameters\0326.dstore.engine.om_ModifyCampai" +
+      "gnSurcharges_Ad.Response\"\0000\001\022\223\001\n\035om_Modi" +
+      "fyCampaignTypeRules_Ad\0227.dstore.engine.o" +
+      "m_ModifyCampaignTypeRules_Ad.Parameters\032" +
+      "5.dstore.engine.om_ModifyCampaignTypeRul" +
+      "es_Ad.Response\"\0000\001\022\207\001\n\031om_ModifyCampaign" +
+      "Types_Ad\0223.dstore.engine.om_ModifyCampai" +
+      "gnTypes_Ad.Parameters\0321.dstore.engine.om" +
+      "_ModifyCampaignTypes_Ad.Response\"\0000\001\022{\n\025" +
+      "om_ModifyCampaigns_Ad\022/.dstore.engine.om",
+      "_ModifyCampaigns_Ad.Parameters\032-.dstore." +
+      "engine.om_ModifyCampaigns_Ad.Response\"\0000" +
+      "\001\022\223\001\n\035om_ModifyCampsInCategories_Ad\0227.ds" +
+      "tore.engine.om_ModifyCampsInCategories_A" +
       "d.Parameters\0325.dstore.engine.om_ModifyCa" +
-      "mpBundlePricing_Ad.Response\"\0000\001\022\223\001\n\035om_M" +
-      "odifyCampItemConGroups_Ad\0227.dstore.engin" +
-      "e.om_ModifyCampItemConGroups_Ad.Paramete" +
-      "rs\0325.dstore.engine.om_ModifyCampItemConG" +
-      "roups_Ad.Response\"\0000\001\022\223\001\n\035om_ModifyCampI" +
-      "temCondParts_Ad\0227.dstore.engine.om_Modif" +
-      "yCampItemCondParts_Ad.Parameters\0325.dstor" +
-      "e.engine.om_ModifyCampItemCondParts_Ad.R" +
-      "esponse\"\0000\001\022\226\001\n\036om_ModifyCampOrderSurchD",
-      "isc_Ad\0228.dstore.engine.om_ModifyCampOrde" +
-      "rSurchDisc_Ad.Parameters\0326.dstore.engine" +
-      ".om_ModifyCampOrderSurchDisc_Ad.Response" +
-      "\"\0000\001\022\215\001\n\033om_ModifyCampPaymentCond_Ad\0225.d" +
-      "store.engine.om_ModifyCampPaymentCond_Ad" +
-      ".Parameters\0323.dstore.engine.om_ModifyCam" +
-      "pPaymentCond_Ad.Response\"\0000\001\022\223\001\n\035om_Modi" +
-      "fyCampPersGroupCond_Ad\0227.dstore.engine.o" +
-      "m_ModifyCampPersGroupCond_Ad.Parameters\032" +
-      "5.dstore.engine.om_ModifyCampPersGroupCo",
-      "nd_Ad.Response\"\0000\001\022\220\001\n\034om_ModifyCampShip" +
-      "pingCond_Ad\0226.dstore.engine.om_ModifyCam" +
-      "pShippingCond_Ad.Parameters\0324.dstore.eng" +
-      "ine.om_ModifyCampShippingCond_Ad.Respons" +
-      "e\"\0000\001\022\226\001\n\036om_ModifyCampTrolleyValCond_Ad" +
-      "\0228.dstore.engine.om_ModifyCampTrolleyVal" +
-      "Cond_Ad.Parameters\0326.dstore.engine.om_Mo" +
-      "difyCampTrolleyValCond_Ad.Response\"\0000\001\022\226" +
-      "\001\n\036om_ModifyCampVouchCodeConds_Ad\0228.dsto" +
-      "re.engine.om_ModifyCampVouchCodeConds_Ad",
-      ".Parameters\0326.dstore.engine.om_ModifyCam" +
-      "pVouchCodeConds_Ad.Response\"\0000\001\022\220\001\n\034om_M" +
-      "odifyCampaignBenefits_Ad\0226.dstore.engine" +
-      ".om_ModifyCampaignBenefits_Ad.Parameters" +
-      "\0324.dstore.engine.om_ModifyCampaignBenefi" +
-      "ts_Ad.Response\"\0000\001\022\226\001\n\036om_ModifyCampaign" +
-      "BonusItems_Ad\0228.dstore.engine.om_ModifyC" +
-      "ampaignBonusItems_Ad.Parameters\0326.dstore" +
-      ".engine.om_ModifyCampaignBonusItems_Ad.R" +
-      "esponse\"\0000\001\022\226\001\n\036om_ModifyCampaignCategor",
-      "ies_Ad\0228.dstore.engine.om_ModifyCampaign" +
-      "Categories_Ad.Parameters\0326.dstore.engine" +
-      ".om_ModifyCampaignCategories_Ad.Response" +
-      "\"\0000\001\022\226\001\n\036om_ModifyCampaignConditions_Ad\022" +
-      "8.dstore.engine.om_ModifyCampaignConditi" +
-      "ons_Ad.Parameters\0326.dstore.engine.om_Mod" +
-      "ifyCampaignConditions_Ad.Response\"\0000\001\022\223\001" +
-      "\n\035om_ModifyCampaignItemConds_Ad\0227.dstore" +
-      ".engine.om_ModifyCampaignItemConds_Ad.Pa" +
-      "rameters\0325.dstore.engine.om_ModifyCampai",
-      "gnItemConds_Ad.Response\"\0000\001\022\226\001\n\036om_Modif" +
-      "yCampaignPeriodDefs_Ad\0228.dstore.engine.o" +
-      "m_ModifyCampaignPeriodDefs_Ad.Parameters" +
-      "\0326.dstore.engine.om_ModifyCampaignPeriod" +
-      "Defs_Ad.Response\"\0000\001\022\220\001\n\034om_ModifyCampai" +
-      "gnSettings_Ad\0226.dstore.engine.om_ModifyC" +
-      "ampaignSettings_Ad.Parameters\0324.dstore.e" +
-      "ngine.om_ModifyCampaignSettings_Ad.Respo" +
-      "nse\"\0000\001\022\226\001\n\036om_ModifyCampaignSurcharges_" +
-      "Ad\0228.dstore.engine.om_ModifyCampaignSurc",
-      "harges_Ad.Parameters\0326.dstore.engine.om_" +
-      "ModifyCampaignSurcharges_Ad.Response\"\0000\001" +
-      "\022\223\001\n\035om_ModifyCampaignTypeRules_Ad\0227.dst" +
-      "ore.engine.om_ModifyCampaignTypeRules_Ad" +
-      ".Parameters\0325.dstore.engine.om_ModifyCam" +
-      "paignTypeRules_Ad.Response\"\0000\001\022\207\001\n\031om_Mo" +
-      "difyCampaignTypes_Ad\0223.dstore.engine.om_" +
-      "ModifyCampaignTypes_Ad.Parameters\0321.dsto" +
-      "re.engine.om_ModifyCampaignTypes_Ad.Resp" +
-      "onse\"\0000\001\022{\n\025om_ModifyCampaigns_Ad\022/.dsto",
-      "re.engine.om_ModifyCampaigns_Ad.Paramete" +
-      "rs\032-.dstore.engine.om_ModifyCampaigns_Ad" +
-      ".Response\"\0000\001\022\223\001\n\035om_ModifyCampsInCatego" +
-      "ries_Ad\0227.dstore.engine.om_ModifyCampsIn" +
-      "Categories_Ad.Parameters\0325.dstore.engine" +
-      ".om_ModifyCampsInCategories_Ad.Response\"" +
-      "\0000\001\022\226\001\n\036om_ModifyChangeOStatTrigger_Ad\0228" +
-      ".dstore.engine.om_ModifyChangeOStatTrigg" +
-      "er_Ad.Parameters\0326.dstore.engine.om_Modi" +
-      "fyChangeOStatTrigger_Ad.Response\"\0000\001\022\215\001\n",
-      "\033om_ModifyCustomerCashAcc_Ad\0225.dstore.en" +
-      "gine.om_ModifyCustomerCashAcc_Ad.Paramet" +
-      "ers\0323.dstore.engine.om_ModifyCustomerCas" +
-      "hAcc_Ad.Response\"\0000\001\022\215\001\n\033om_ModifyGroupP" +
-      "ayForShip_Ad\0225.dstore.engine.om_ModifyGr" +
-      "oupPayForShip_Ad.Parameters\0323.dstore.eng" +
-      "ine.om_ModifyGroupPayForShip_Ad.Response" +
-      "\"\0000\001\022\215\001\n\033om_ModifyGroupSurcharges_Ad\0225.d" +
-      "store.engine.om_ModifyGroupSurcharges_Ad" +
-      ".Parameters\0323.dstore.engine.om_ModifyGro",
-      "upSurcharges_Ad.Response\"\0000\001\022\226\001\n\036om_Modi" +
-      "fyNodePaymentForShip_Ad\0228.dstore.engine." +
-      "om_ModifyNodePaymentForShip_Ad.Parameter" +
-      "s\0326.dstore.engine.om_ModifyNodePaymentFo" +
-      "rShip_Ad.Response\"\0000\001\022\226\001\n\036om_ModifyOrder" +
-      "ContInfoRules_Ad\0228.dstore.engine.om_Modi" +
-      "fyOrderContInfoRules_Ad.Parameters\0326.dst" +
-      "ore.engine.om_ModifyOrderContInfoRules_A" +
-      "d.Response\"\0000\001\022\226\001\n\036om_ModifyOrderContInf" +
-      "oTypes_Ad\0228.dstore.engine.om_ModifyOrder",
-      "ContInfoTypes_Ad.Parameters\0326.dstore.eng" +
-      "ine.om_ModifyOrderContInfoTypes_Ad.Respo" +
-      "nse\"\0000\001\022\220\001\n\034om_ModifyOrderContentInfo_Ad" +
-      "\0226.dstore.engine.om_ModifyOrderContentIn" +
-      "fo_Ad.Parameters\0324.dstore.engine.om_Modi" +
-      "fyOrderContentInfo_Ad.Response\"\0000\001\022\204\001\n\030o" +
-      "m_ModifyOrderContent_Ad\0222.dstore.engine." +
-      "om_ModifyOrderContent_Ad.Parameters\0320.ds" +
-      "tore.engine.om_ModifyOrderContent_Ad.Res" +
-      "ponse\"\0000\001\022\212\001\n\032om_ModifyOrderInfoRules_Ad",
-      "\0224.dstore.engine.om_ModifyOrderInfoRules" +
-      "_Ad.Parameters\0322.dstore.engine.om_Modify" +
-      "OrderInfoRules_Ad.Response\"\0000\001\022\212\001\n\032om_Mo" +
-      "difyOrderInfoTypes_Ad\0224.dstore.engine.om" +
-      "_ModifyOrderInfoTypes_Ad.Parameters\0322.ds" +
-      "tore.engine.om_ModifyOrderInfoTypes_Ad.R" +
-      "esponse\"\0000\001\022\220\001\n\034om_ModifyOrderInformatio" +
-      "n_Ad\0226.dstore.engine.om_ModifyOrderInfor" +
-      "mation_Ad.Parameters\0324.dstore.engine.om_" +
-      "ModifyOrderInformation_Ad.Response\"\0000\001\022\220",
-      "\001\n\034om_ModifyOrderInformation_Pu\0226.dstore" +
-      ".engine.om_ModifyOrderInformation_Pu.Par" +
-      "ameters\0324.dstore.engine.om_ModifyOrderIn" +
-      "formation_Pu.Response\"\0000\001\022\212\001\n\032om_ModifyO" +
-      "rderStateCats_Ad\0224.dstore.engine.om_Modi" +
-      "fyOrderStateCats_Ad.Parameters\0322.dstore." +
-      "engine.om_ModifyOrderStateCats_Ad.Respon" +
-      "se\"\0000\001\022\226\001\n\036om_ModifyOrderStateDescTran_A" +
-      "d\0228.dstore.engine.om_ModifyOrderStateDes" +
-      "cTran_Ad.Parameters\0326.dstore.engine.om_M",
-      "odifyOrderStateDescTran_Ad.Response\"\0000\001\022" +
-      "\215\001\n\033om_ModifyOrderStateRules_Ad\0225.dstore" +
-      ".engine.om_ModifyOrderStateRules_Ad.Para" +
-      "meters\0323.dstore.engine.om_ModifyOrderSta" +
-      "teRules_Ad.Response\"\0000\001\022\223\001\n\035om_ModifyOrd" +
-      "erStatesInCats_Ad\0227.dstore.engine.om_Mod" +
-      "ifyOrderStatesInCats_Ad.Parameters\0325.dst" +
-      "ore.engine.om_ModifyOrderStatesInCats_Ad" +
-      ".Response\"\0000\001\022\201\001\n\027om_ModifyOrderStates_A" +
-      "d\0221.dstore.engine.om_ModifyOrderStates_A",
-      "d.Parameters\032/.dstore.engine.om_ModifyOr" +
-      "derStates_Ad.Response\"\0000\001\022\226\001\n\036om_ModifyO" +
-      "rderSurchInfTypes_Ad\0228.dstore.engine.om_" +
-      "ModifyOrderSurchInfTypes_Ad.Parameters\0326" +
-      ".dstore.engine.om_ModifyOrderSurchInfTyp" +
-      "es_Ad.Response\"\0000\001\022o\n\021om_ModifyOrder_Ad\022" +
-      "+.dstore.engine.om_ModifyOrder_Ad.Parame" +
-      "ters\032).dstore.engine.om_ModifyOrder_Ad.R" +
-      "esponse\"\0000\001\022\215\001\n\033om_ModifyPayForShipDescr" +
-      "_Ad\0225.dstore.engine.om_ModifyPayForShipD",
-      "escr_Ad.Parameters\0323.dstore.engine.om_Mo" +
-      "difyPayForShipDescr_Ad.Response\"\0000\001\022\226\001\n\036" +
-      "om_ModifyPaymentForShipping_Ad\0228.dstore." +
-      "engine.om_ModifyPaymentForShipping_Ad.Pa" +
-      "rameters\0326.dstore.engine.om_ModifyPaymen" +
-      "tForShipping_Ad.Response\"\0000\001\022\220\001\n\034om_Modi" +
-      "fyPaymentTypeDescr_Ad\0226.dstore.engine.om" +
-      "_ModifyPaymentTypeDescr_Ad.Parameters\0324." +
-      "dstore.engine.om_ModifyPaymentTypeDescr_" +
-      "Ad.Response\"\0000\001\022\220\001\n\034om_ModifyPaymentType",
-      "Surch_Ad\0226.dstore.engine.om_ModifyPaymen" +
-      "tTypeSurch_Ad.Parameters\0324.dstore.engine" +
-      ".om_ModifyPaymentTypeSurch_Ad.Response\"\000" +
-      "0\001\022\204\001\n\030om_ModifyPaymentTypes_Ad\0222.dstore" +
-      ".engine.om_ModifyPaymentTypes_Ad.Paramet" +
-      "ers\0320.dstore.engine.om_ModifyPaymentType" +
-      "s_Ad.Response\"\0000\001\022\220\001\n\034om_ModifyPersonSur" +
-      "charges_Ad\0226.dstore.engine.om_ModifyPers" +
-      "onSurcharges_Ad.Parameters\0324.dstore.engi" +
-      "ne.om_ModifyPersonSurcharges_Ad.Response",
-      "\"\0000\001\022\223\001\n\035om_ModifyPredefBillContent_Ad\0227" +
-      ".dstore.engine.om_ModifyPredefBillConten" +
-      "t_Ad.Parameters\0325.dstore.engine.om_Modif" +
-      "yPredefBillContent_Ad.Response\"\0000\001\022\226\001\n\036o" +
-      "m_ModifyPurchaseOrderQueue_Ad\0228.dstore.e" +
-      "ngine.om_ModifyPurchaseOrderQueue_Ad.Par" +
-      "ameters\0326.dstore.engine.om_ModifyPurchas" +
-      "eOrderQueue_Ad.Response\"\0000\001\022\226\001\n\036om_Modif" +
-      "yPurchaseOrderTypes_Ad\0228.dstore.engine.o" +
-      "m_ModifyPurchaseOrderTypes_Ad.Parameters",
-      "\0326.dstore.engine.om_ModifyPurchaseOrderT" +
-      "ypes_Ad.Response\"\0000\001\022\226\001\n\036om_ModifyRequir" +
-      "edInfoForPay_Ad\0228.dstore.engine.om_Modif" +
-      "yRequiredInfoForPay_Ad.Parameters\0326.dsto" +
-      "re.engine.om_ModifyRequiredInfoForPay_Ad" +
-      ".Response\"\0000\001\022\226\001\n\036om_ModifySetsForBonItB" +
-      "enefs_Ad\0228.dstore.engine.om_ModifySetsFo" +
-      "rBonItBenefs_Ad.Parameters\0326.dstore.engi" +
-      "ne.om_ModifySetsForBonItBenefs_Ad.Respon" +
-      "se\"\0000\001\022\226\001\n\036om_ModifySetsForBunBenefits_A",
-      "d\0228.dstore.engine.om_ModifySetsForBunBen" +
-      "efits_Ad.Parameters\0326.dstore.engine.om_M" +
-      "odifySetsForBunBenefits_Ad.Response\"\0000\001\022" +
-      "\223\001\n\035om_ModifyShippingTypeDescr_Ad\0227.dsto" +
-      "re.engine.om_ModifyShippingTypeDescr_Ad." +
-      "Parameters\0325.dstore.engine.om_ModifyShip" +
-      "pingTypeDescr_Ad.Response\"\0000\001\022\223\001\n\035om_Mod" +
-      "ifyShippingTypeSurch_Ad\0227.dstore.engine." +
-      "om_ModifyShippingTypeSurch_Ad.Parameters" +
-      "\0325.dstore.engine.om_ModifyShippingTypeSu",
-      "rch_Ad.Response\"\0000\001\022\207\001\n\031om_ModifyShippin" +
-      "gTypes_Ad\0223.dstore.engine.om_ModifyShipp" +
-      "ingTypes_Ad.Parameters\0321.dstore.engine.o" +
-      "m_ModifyShippingTypes_Ad.Response\"\0000\001\022\223\001" +
-      "\n\035om_ModifySurchargeTypeCats_Ad\0227.dstore" +
-      ".engine.om_ModifySurchargeTypeCats_Ad.Pa" +
-      "rameters\0325.dstore.engine.om_ModifySurcha" +
-      "rgeTypeCats_Ad.Response\"\0000\001\022\226\001\n\036om_Modif" +
-      "ySurchargeTypeDescr_Ad\0228.dstore.engine.o" +
-      "m_ModifySurchargeTypeDescr_Ad.Parameters",
-      "\0326.dstore.engine.om_ModifySurchargeTypeD" +
-      "escr_Ad.Response\"\0000\001\022\226\001\n\036om_ModifySurcha" +
-      "rgeTypeTaxes_Ad\0228.dstore.engine.om_Modif" +
-      "ySurchargeTypeTaxes_Ad.Parameters\0326.dsto" +
-      "re.engine.om_ModifySurchargeTypeTaxes_Ad" +
-      ".Response\"\0000\001\022\212\001\n\032om_ModifySurchargeType" +
-      "s_Ad\0224.dstore.engine.om_ModifySurchargeT" +
-      "ypes_Ad.Parameters\0322.dstore.engine.om_Mo" +
-      "difySurchargeTypes_Ad.Response\"\0000\001\022x\n\024om" +
-      "_ModifyTaxTypes_Ad\022..dstore.engine.om_Mo",
-      "difyTaxTypes_Ad.Parameters\032,.dstore.engi" +
-      "ne.om_ModifyTaxTypes_Ad.Response\"\0000\001\022o\n\021" +
-      "om_ModifyTaxes_Ad\022+.dstore.engine.om_Mod" +
-      "ifyTaxes_Ad.Parameters\032).dstore.engine.o" +
-      "m_ModifyTaxes_Ad.Response\"\0000\001\022\223\001\n\035om_Mod" +
-      "ifyTrolleyCInfoTypes_Ad\0227.dstore.engine." +
-      "om_ModifyTrolleyCInfoTypes_Ad.Parameters" +
-      "\0325.dstore.engine.om_ModifyTrolleyCInfoTy" +
-      "pes_Ad.Response\"\0000\001\022\226\001\n\036om_ModifyTrolley" +
-      "ContentInfo_Pu\0228.dstore.engine.om_Modify",
-      "TrolleyContentInfo_Pu.Parameters\0326.dstor" +
-      "e.engine.om_ModifyTrolleyContentInfo_Pu." +
-      "Response\"\0000\001\022\220\001\n\034om_ModifyTrolleyInfoTyp" +
-      "es_Ad\0226.dstore.engine.om_ModifyTrolleyIn" +
-      "foTypes_Ad.Parameters\0324.dstore.engine.om" +
-      "_ModifyTrolleyInfoTypes_Ad.Response\"\0000\001\022" +
-      "\226\001\n\036om_ModifyTrolleyInformation_Pu\0228.dst" +
-      "ore.engine.om_ModifyTrolleyInformation_P" +
-      "u.Parameters\0326.dstore.engine.om_ModifyTr" +
-      "olleyInformation_Pu.Response\"\0000\001\022\226\001\n\036om_",
-      "ModifyTrolleySurInfTypes_Ad\0228.dstore.eng" +
-      "ine.om_ModifyTrolleySurInfTypes_Ad.Param" +
-      "eters\0326.dstore.engine.om_ModifyTrolleySu" +
-      "rInfTypes_Ad.Response\"\0000\001\022\220\001\n\034om_ModifyV" +
-      "oucherCodeValid_Ad\0226.dstore.engine.om_Mo" +
-      "difyVoucherCodeValid_Ad.Parameters\0324.dst" +
-      "ore.engine.om_ModifyVoucherCodeValid_Ad." +
-      "Response\"\0000\001\022\220\001\n\034om_ModifyVoucherTypeSur" +
-      "ch_Ad\0226.dstore.engine.om_ModifyVoucherTy" +
-      "peSurch_Ad.Parameters\0324.dstore.engine.om",
-      "_ModifyVoucherTypeSurch_Ad.Response\"\0000\001\022" +
-      "\204\001\n\030om_ModifyVoucherTypes_Ad\0222.dstore.en" +
-      "gine.om_ModifyVoucherTypes_Ad.Parameters" +
-      "\0320.dstore.engine.om_ModifyVoucherTypes_A" +
-      "d.Response\"\0000\001\022\220\001\n\034om_PerformCashAccTran" +
-      "sact_Ad\0226.dstore.engine.om_PerformCashAc" +
-      "cTransact_Ad.Parameters\0324.dstore.engine." +
-      "om_PerformCashAccTransact_Ad.Response\"\0000" +
-      "\001\022\201\001\n\027om_RedeemPrepaidCode_Pu\0221.dstore.e" +
-      "ngine.om_RedeemPrepaidCode_Pu.Parameters",
-      "\032/.dstore.engine.om_RedeemPrepaidCode_Pu" +
-      ".Response\"\0000\001\022\226\001\n\036om_RemoveVoucherFromTr" +
-      "olley_Pu\0228.dstore.engine.om_RemoveVouche" +
-      "rFromTrolley_Pu.Parameters\0326.dstore.engi" +
-      "ne.om_RemoveVoucherFromTrolley_Pu.Respon" +
-      "se\"\0000\001\022u\n\023om_SearchOrderNo_Ad\022-.dstore.e" +
-      "ngine.om_SearchOrderNo_Ad.Parameters\032+.d" +
-      "store.engine.om_SearchOrderNo_Ad.Respons" +
-      "e\"\0000\001\022u\n\023om_UpdateTrolley_Pu\022-.dstore.en" +
-      "gine.om_UpdateTrolley_Pu.Parameters\032+.ds",
-      "tore.engine.om_UpdateTrolley_Pu.Response" +
-      "\"\0000\001\022\207\001\n\031om_ValidateVoucherCode_Pu\0223.dst" +
-      "ore.engine.om_ValidateVoucherCode_Pu.Par" +
-      "ameters\0321.dstore.engine.om_ValidateVouch" +
-      "erCode_Pu.Response\"\0000\001\022u\n\023pm_AdressenChe" +
-      "ck_Pu\022-.dstore.engine.pm_AdressenCheck_P" +
-      "u.Parameters\032+.dstore.engine.pm_Adressen" +
-      "Check_Pu.Response\"\0000\001\022\223\001\n\035pm_Alphabetize" +
-      "CharacValues_Ad\0227.dstore.engine.pm_Alpha" +
-      "betizeCharacValues_Ad.Parameters\0325.dstor",
-      "e.engine.pm_AlphabetizeCharacValues_Ad.R" +
-      "esponse\"\0000\001\022\207\001\n\031pm_CheckPersonIdentity_P" +
-      "u\0223.dstore.engine.pm_CheckPersonIdentity" +
-      "_Pu.Parameters\0321.dstore.engine.pm_CheckP" +
-      "ersonIdentity_Pu.Response\"\0000\001\022\204\001\n\030pm_Clo" +
-      "seARelationship_Pu\0222.dstore.engine.pm_Cl" +
-      "oseARelationship_Pu.Parameters\0320.dstore." +
-      "engine.pm_CloseARelationship_Pu.Response" +
-      "\"\0000\001\022\207\001\n\031pm_CloseVisitorPersons_Pu\0223.dst" +
-      "ore.engine.pm_CloseVisitorPersons_Pu.Par",
-      "ameters\0321.dstore.engine.pm_CloseVisitorP" +
-      "ersons_Pu.Response\"\0000\001\022\215\001\n\033pm_ConfigureV" +
-      "alueColumns_Ad\0225.dstore.engine.pm_Config" +
-      "ureValueColumns_Ad.Parameters\0323.dstore.e" +
-      "ngine.pm_ConfigureValueColumns_Ad.Respon" +
-      "se\"\0000\001\022~\n\026pm_ConsistencyCheck_Ad\0220.dstor" +
-      "e.engine.pm_ConsistencyCheck_Ad.Paramete" +
-      "rs\032..dstore.engine.pm_ConsistencyCheck_A" +
-      "d.Response\"\0000\001\022\223\001\n\035pm_DeleteAllPersonsOf" +
-      "PType_Ad\0227.dstore.engine.pm_DeleteAllPer",
-      "sonsOfPType_Ad.Parameters\0325.dstore.engin" +
-      "e.pm_DeleteAllPersonsOfPType_Ad.Response" +
-      "\"\0000\001\022\226\001\n\036pm_DeleteDispensablePersons_Ad\022" +
-      "8.dstore.engine.pm_DeleteDispensablePers" +
-      "ons_Ad.Parameters\0326.dstore.engine.pm_Del" +
-      "eteDispensablePersons_Ad.Response\"\0000\001\022\215\001" +
-      "\n\033pm_DeleteInterfaceTables_Ad\0225.dstore.e" +
-      "ngine.pm_DeleteInterfaceTables_Ad.Parame" +
-      "ters\0323.dstore.engine.pm_DeleteInterfaceT" +
-      "ables_Ad.Response\"\0000\001\022r\n\022pm_DeletePerson",
-      "_Ad\022,.dstore.engine.pm_DeletePerson_Ad.P" +
-      "arameters\032*.dstore.engine.pm_DeletePerso" +
-      "n_Ad.Response\"\0000\001\022r\n\022pm_DeletePerson_Pu\022" +
-      ",.dstore.engine.pm_DeletePerson_Pu.Param" +
-      "eters\032*.dstore.engine.pm_DeletePerson_Pu" +
-      ".Response\"\0000\001\022~\n\026pm_ExportPersonData_Ad\022" +
-      "0.dstore.engine.pm_ExportPersonData_Ad.P" +
-      "arameters\032..dstore.engine.pm_ExportPerso" +
-      "nData_Ad.Response\"\0000\001\022\201\001\n\027pm_FormARelati" +
-      "onship_Pu\0221.dstore.engine.pm_FormARelati",
-      "onship_Pu.Parameters\032/.dstore.engine.pm_" +
-      "FormARelationship_Pu.Response\"\0000\001\022\220\001\n\034pm" +
-      "_GetEncryptionAlgorithm_Pu\0226.dstore.engi" +
-      "ne.pm_GetEncryptionAlgorithm_Pu.Paramete" +
-      "rs\0324.dstore.engine.pm_GetEncryptionAlgor" +
-      "ithm_Pu.Response\"\0000\001\022\204\001\n\030pm_GetGroupCond" +
-      "itions_Ad\0222.dstore.engine.pm_GetGroupCon" +
-      "ditions_Ad.Parameters\0320.dstore.engine.pm" +
-      "_GetGroupConditions_Ad.Response\"\0000\001\022\215\001\n\033" +
-      "pm_GetGroupsForOnePerson_Pu\0225.dstore.eng",
-      "ine.pm_GetGroupsForOnePerson_Pu.Paramete" +
-      "rs\0323.dstore.engine.pm_GetGroupsForOnePer" +
-      "son_Pu.Response\"\0000\001\022i\n\017pm_GetGroups_Ad\022)" +
-      ".dstore.engine.pm_GetGroups_Ad.Parameter" +
-      "s\032\'.dstore.engine.pm_GetGroups_Ad.Respon" +
-      "se\"\0000\001\022{\n\025pm_GetImportErrors_Ad\022/.dstore" +
-      ".engine.pm_GetImportErrors_Ad.Parameters" +
-      "\032-.dstore.engine.pm_GetImportErrors_Ad.R" +
-      "esponse\"\0000\001\022\212\001\n\032pm_GetLockedPersonTypes_" +
-      "Ad\0224.dstore.engine.pm_GetLockedPersonTyp",
-      "es_Ad.Parameters\0322.dstore.engine.pm_GetL" +
-      "ockedPersonTypes_Ad.Response\"\0000\001\022\215\001\n\033pm_" +
-      "GetMostRecentUniqueID_Pu\0225.dstore.engine" +
-      ".pm_GetMostRecentUniqueID_Pu.Parameters\032" +
-      "3.dstore.engine.pm_GetMostRecentUniqueID" +
-      "_Pu.Response\"\0000\001\022\223\001\n\035pm_GetPChAccRestrFo" +
-      "rGroups_Ad\0227.dstore.engine.pm_GetPChAccR" +
-      "estrForGroups_Ad.Parameters\0325.dstore.eng" +
-      "ine.pm_GetPChAccRestrForGroups_Ad.Respon" +
-      "se\"\0000\001\022\220\001\n\034pm_GetPChAccRestrForUsers_Ad\022",
-      "6.dstore.engine.pm_GetPChAccRestrForUser" +
-      "s_Ad.Parameters\0324.dstore.engine.pm_GetPC" +
-      "hAccRestrForUsers_Ad.Response\"\0000\001\022\223\001\n\035pm" +
-      "_GetPeriodsForPredefVals_Ad\0227.dstore.eng" +
-      "ine.pm_GetPeriodsForPredefVals_Ad.Parame" +
-      "ters\0325.dstore.engine.pm_GetPeriodsForPre" +
-      "defVals_Ad.Response\"\0000\001\022\220\001\n\034pm_GetPerson" +
-      "AccessCharacs_Pu\0226.dstore.engine.pm_GetP" +
-      "ersonAccessCharacs_Pu.Parameters\0324.dstor" +
-      "e.engine.pm_GetPersonAccessCharacs_Pu.Re",
-      "sponse\"\0000\001\022\201\001\n\027pm_GetPersonBinaries_Ad\0221" +
-      ".dstore.engine.pm_GetPersonBinaries_Ad.P" +
+      "mpsInCategories_Ad.Response\"\0000\001\022\226\001\n\036om_M" +
+      "odifyChangeOStatTrigger_Ad\0228.dstore.engi" +
+      "ne.om_ModifyChangeOStatTrigger_Ad.Parame" +
+      "ters\0326.dstore.engine.om_ModifyChangeOSta" +
+      "tTrigger_Ad.Response\"\0000\001\022\215\001\n\033om_ModifyCu",
+      "stomerCashAcc_Ad\0225.dstore.engine.om_Modi" +
+      "fyCustomerCashAcc_Ad.Parameters\0323.dstore" +
+      ".engine.om_ModifyCustomerCashAcc_Ad.Resp" +
+      "onse\"\0000\001\022\215\001\n\033om_ModifyGroupPayForShip_Ad" +
+      "\0225.dstore.engine.om_ModifyGroupPayForShi" +
+      "p_Ad.Parameters\0323.dstore.engine.om_Modif" +
+      "yGroupPayForShip_Ad.Response\"\0000\001\022\215\001\n\033om_" +
+      "ModifyGroupSurcharges_Ad\0225.dstore.engine" +
+      ".om_ModifyGroupSurcharges_Ad.Parameters\032" +
+      "3.dstore.engine.om_ModifyGroupSurcharges",
+      "_Ad.Response\"\0000\001\022\226\001\n\036om_ModifyNodePaymen" +
+      "tForShip_Ad\0228.dstore.engine.om_ModifyNod" +
+      "ePaymentForShip_Ad.Parameters\0326.dstore.e" +
+      "ngine.om_ModifyNodePaymentForShip_Ad.Res" +
+      "ponse\"\0000\001\022\226\001\n\036om_ModifyOrderContInfoRule" +
+      "s_Ad\0228.dstore.engine.om_ModifyOrderContI" +
+      "nfoRules_Ad.Parameters\0326.dstore.engine.o" +
+      "m_ModifyOrderContInfoRules_Ad.Response\"\000" +
+      "0\001\022\226\001\n\036om_ModifyOrderContInfoTypes_Ad\0228." +
+      "dstore.engine.om_ModifyOrderContInfoType",
+      "s_Ad.Parameters\0326.dstore.engine.om_Modif" +
+      "yOrderContInfoTypes_Ad.Response\"\0000\001\022\220\001\n\034" +
+      "om_ModifyOrderContentInfo_Ad\0226.dstore.en" +
+      "gine.om_ModifyOrderContentInfo_Ad.Parame" +
+      "ters\0324.dstore.engine.om_ModifyOrderConte" +
+      "ntInfo_Ad.Response\"\0000\001\022\204\001\n\030om_ModifyOrde" +
+      "rContent_Ad\0222.dstore.engine.om_ModifyOrd" +
+      "erContent_Ad.Parameters\0320.dstore.engine." +
+      "om_ModifyOrderContent_Ad.Response\"\0000\001\022\212\001" +
+      "\n\032om_ModifyOrderInfoRules_Ad\0224.dstore.en",
+      "gine.om_ModifyOrderInfoRules_Ad.Paramete" +
+      "rs\0322.dstore.engine.om_ModifyOrderInfoRul" +
+      "es_Ad.Response\"\0000\001\022\212\001\n\032om_ModifyOrderInf" +
+      "oTypes_Ad\0224.dstore.engine.om_ModifyOrder" +
+      "InfoTypes_Ad.Parameters\0322.dstore.engine." +
+      "om_ModifyOrderInfoTypes_Ad.Response\"\0000\001\022" +
+      "\220\001\n\034om_ModifyOrderInformation_Ad\0226.dstor" +
+      "e.engine.om_ModifyOrderInformation_Ad.Pa" +
+      "rameters\0324.dstore.engine.om_ModifyOrderI" +
+      "nformation_Ad.Response\"\0000\001\022\220\001\n\034om_Modify",
+      "OrderInformation_Pu\0226.dstore.engine.om_M" +
+      "odifyOrderInformation_Pu.Parameters\0324.ds" +
+      "tore.engine.om_ModifyOrderInformation_Pu" +
+      ".Response\"\0000\001\022\212\001\n\032om_ModifyOrderStateCat" +
+      "s_Ad\0224.dstore.engine.om_ModifyOrderState" +
+      "Cats_Ad.Parameters\0322.dstore.engine.om_Mo" +
+      "difyOrderStateCats_Ad.Response\"\0000\001\022\226\001\n\036o" +
+      "m_ModifyOrderStateDescTran_Ad\0228.dstore.e" +
+      "ngine.om_ModifyOrderStateDescTran_Ad.Par" +
+      "ameters\0326.dstore.engine.om_ModifyOrderSt",
+      "ateDescTran_Ad.Response\"\0000\001\022\215\001\n\033om_Modif" +
+      "yOrderStateRules_Ad\0225.dstore.engine.om_M" +
+      "odifyOrderStateRules_Ad.Parameters\0323.dst" +
+      "ore.engine.om_ModifyOrderStateRules_Ad.R" +
+      "esponse\"\0000\001\022\223\001\n\035om_ModifyOrderStatesInCa" +
+      "ts_Ad\0227.dstore.engine.om_ModifyOrderStat" +
+      "esInCats_Ad.Parameters\0325.dstore.engine.o" +
+      "m_ModifyOrderStatesInCats_Ad.Response\"\0000" +
+      "\001\022\201\001\n\027om_ModifyOrderStates_Ad\0221.dstore.e" +
+      "ngine.om_ModifyOrderStates_Ad.Parameters",
+      "\032/.dstore.engine.om_ModifyOrderStates_Ad" +
+      ".Response\"\0000\001\022\226\001\n\036om_ModifyOrderSurchInf" +
+      "Types_Ad\0228.dstore.engine.om_ModifyOrderS" +
+      "urchInfTypes_Ad.Parameters\0326.dstore.engi" +
+      "ne.om_ModifyOrderSurchInfTypes_Ad.Respon" +
+      "se\"\0000\001\022o\n\021om_ModifyOrder_Ad\022+.dstore.eng" +
+      "ine.om_ModifyOrder_Ad.Parameters\032).dstor" +
+      "e.engine.om_ModifyOrder_Ad.Response\"\0000\001\022" +
+      "\215\001\n\033om_ModifyPayForShipDescr_Ad\0225.dstore" +
+      ".engine.om_ModifyPayForShipDescr_Ad.Para",
+      "meters\0323.dstore.engine.om_ModifyPayForSh" +
+      "ipDescr_Ad.Response\"\0000\001\022\226\001\n\036om_ModifyPay" +
+      "mentForShipping_Ad\0228.dstore.engine.om_Mo" +
+      "difyPaymentForShipping_Ad.Parameters\0326.d" +
+      "store.engine.om_ModifyPaymentForShipping" +
+      "_Ad.Response\"\0000\001\022\220\001\n\034om_ModifyPaymentTyp" +
+      "eDescr_Ad\0226.dstore.engine.om_ModifyPayme" +
+      "ntTypeDescr_Ad.Parameters\0324.dstore.engin" +
+      "e.om_ModifyPaymentTypeDescr_Ad.Response\"" +
+      "\0000\001\022\220\001\n\034om_ModifyPaymentTypeSurch_Ad\0226.d",
+      "store.engine.om_ModifyPaymentTypeSurch_A" +
+      "d.Parameters\0324.dstore.engine.om_ModifyPa" +
+      "ymentTypeSurch_Ad.Response\"\0000\001\022\204\001\n\030om_Mo" +
+      "difyPaymentTypes_Ad\0222.dstore.engine.om_M" +
+      "odifyPaymentTypes_Ad.Parameters\0320.dstore" +
+      ".engine.om_ModifyPaymentTypes_Ad.Respons" +
+      "e\"\0000\001\022\220\001\n\034om_ModifyPersonSurcharges_Ad\0226" +
+      ".dstore.engine.om_ModifyPersonSurcharges" +
+      "_Ad.Parameters\0324.dstore.engine.om_Modify" +
+      "PersonSurcharges_Ad.Response\"\0000\001\022\223\001\n\035om_",
+      "ModifyPredefBillContent_Ad\0227.dstore.engi" +
+      "ne.om_ModifyPredefBillContent_Ad.Paramet" +
+      "ers\0325.dstore.engine.om_ModifyPredefBillC" +
+      "ontent_Ad.Response\"\0000\001\022\226\001\n\036om_ModifyPurc" +
+      "haseOrderQueue_Ad\0228.dstore.engine.om_Mod" +
+      "ifyPurchaseOrderQueue_Ad.Parameters\0326.ds" +
+      "tore.engine.om_ModifyPurchaseOrderQueue_" +
+      "Ad.Response\"\0000\001\022\226\001\n\036om_ModifyPurchaseOrd" +
+      "erTypes_Ad\0228.dstore.engine.om_ModifyPurc" +
+      "haseOrderTypes_Ad.Parameters\0326.dstore.en",
+      "gine.om_ModifyPurchaseOrderTypes_Ad.Resp" +
+      "onse\"\0000\001\022\226\001\n\036om_ModifyRequiredInfoForPay" +
+      "_Ad\0228.dstore.engine.om_ModifyRequiredInf" +
+      "oForPay_Ad.Parameters\0326.dstore.engine.om" +
+      "_ModifyRequiredInfoForPay_Ad.Response\"\0000" +
+      "\001\022\226\001\n\036om_ModifySetsForBonItBenefs_Ad\0228.d" +
+      "store.engine.om_ModifySetsForBonItBenefs" +
+      "_Ad.Parameters\0326.dstore.engine.om_Modify" +
+      "SetsForBonItBenefs_Ad.Response\"\0000\001\022\226\001\n\036o" +
+      "m_ModifySetsForBunBenefits_Ad\0228.dstore.e",
+      "ngine.om_ModifySetsForBunBenefits_Ad.Par" +
+      "ameters\0326.dstore.engine.om_ModifySetsFor" +
+      "BunBenefits_Ad.Response\"\0000\001\022\223\001\n\035om_Modif" +
+      "yShippingTypeDescr_Ad\0227.dstore.engine.om" +
+      "_ModifyShippingTypeDescr_Ad.Parameters\0325" +
+      ".dstore.engine.om_ModifyShippingTypeDesc" +
+      "r_Ad.Response\"\0000\001\022\223\001\n\035om_ModifyShippingT" +
+      "ypeSurch_Ad\0227.dstore.engine.om_ModifyShi" +
+      "ppingTypeSurch_Ad.Parameters\0325.dstore.en" +
+      "gine.om_ModifyShippingTypeSurch_Ad.Respo",
+      "nse\"\0000\001\022\207\001\n\031om_ModifyShippingTypes_Ad\0223." +
+      "dstore.engine.om_ModifyShippingTypes_Ad." +
+      "Parameters\0321.dstore.engine.om_ModifyShip" +
+      "pingTypes_Ad.Response\"\0000\001\022\223\001\n\035om_ModifyS" +
+      "urchargeTypeCats_Ad\0227.dstore.engine.om_M" +
+      "odifySurchargeTypeCats_Ad.Parameters\0325.d" +
+      "store.engine.om_ModifySurchargeTypeCats_" +
+      "Ad.Response\"\0000\001\022\226\001\n\036om_ModifySurchargeTy" +
+      "peDescr_Ad\0228.dstore.engine.om_ModifySurc" +
+      "hargeTypeDescr_Ad.Parameters\0326.dstore.en",
+      "gine.om_ModifySurchargeTypeDescr_Ad.Resp" +
+      "onse\"\0000\001\022\226\001\n\036om_ModifySurchargeTypeTaxes" +
+      "_Ad\0228.dstore.engine.om_ModifySurchargeTy" +
+      "peTaxes_Ad.Parameters\0326.dstore.engine.om" +
+      "_ModifySurchargeTypeTaxes_Ad.Response\"\0000" +
+      "\001\022\212\001\n\032om_ModifySurchargeTypes_Ad\0224.dstor" +
+      "e.engine.om_ModifySurchargeTypes_Ad.Para" +
+      "meters\0322.dstore.engine.om_ModifySurcharg" +
+      "eTypes_Ad.Response\"\0000\001\022x\n\024om_ModifyTaxTy" +
+      "pes_Ad\022..dstore.engine.om_ModifyTaxTypes",
+      "_Ad.Parameters\032,.dstore.engine.om_Modify" +
+      "TaxTypes_Ad.Response\"\0000\001\022o\n\021om_ModifyTax" +
+      "es_Ad\022+.dstore.engine.om_ModifyTaxes_Ad." +
+      "Parameters\032).dstore.engine.om_ModifyTaxe" +
+      "s_Ad.Response\"\0000\001\022\223\001\n\035om_ModifyTrolleyCI" +
+      "nfoTypes_Ad\0227.dstore.engine.om_ModifyTro" +
+      "lleyCInfoTypes_Ad.Parameters\0325.dstore.en" +
+      "gine.om_ModifyTrolleyCInfoTypes_Ad.Respo" +
+      "nse\"\0000\001\022\226\001\n\036om_ModifyTrolleyContentInfo_" +
+      "Pu\0228.dstore.engine.om_ModifyTrolleyConte",
+      "ntInfo_Pu.Parameters\0326.dstore.engine.om_" +
+      "ModifyTrolleyContentInfo_Pu.Response\"\0000\001" +
+      "\022\220\001\n\034om_ModifyTrolleyInfoTypes_Ad\0226.dsto" +
+      "re.engine.om_ModifyTrolleyInfoTypes_Ad.P" +
+      "arameters\0324.dstore.engine.om_ModifyTroll" +
+      "eyInfoTypes_Ad.Response\"\0000\001\022\226\001\n\036om_Modif" +
+      "yTrolleyInformation_Pu\0228.dstore.engine.o" +
+      "m_ModifyTrolleyInformation_Pu.Parameters" +
+      "\0326.dstore.engine.om_ModifyTrolleyInforma" +
+      "tion_Pu.Response\"\0000\001\022\226\001\n\036om_ModifyTrolle",
+      "ySurInfTypes_Ad\0228.dstore.engine.om_Modif" +
+      "yTrolleySurInfTypes_Ad.Parameters\0326.dsto" +
+      "re.engine.om_ModifyTrolleySurInfTypes_Ad" +
+      ".Response\"\0000\001\022\220\001\n\034om_ModifyVoucherCodeVa" +
+      "lid_Ad\0226.dstore.engine.om_ModifyVoucherC" +
+      "odeValid_Ad.Parameters\0324.dstore.engine.o" +
+      "m_ModifyVoucherCodeValid_Ad.Response\"\0000\001" +
+      "\022\220\001\n\034om_ModifyVoucherTypeSurch_Ad\0226.dsto" +
+      "re.engine.om_ModifyVoucherTypeSurch_Ad.P" +
+      "arameters\0324.dstore.engine.om_ModifyVouch",
+      "erTypeSurch_Ad.Response\"\0000\001\022\204\001\n\030om_Modif" +
+      "yVoucherTypes_Ad\0222.dstore.engine.om_Modi" +
+      "fyVoucherTypes_Ad.Parameters\0320.dstore.en" +
+      "gine.om_ModifyVoucherTypes_Ad.Response\"\000" +
+      "0\001\022\220\001\n\034om_PerformCashAccTransact_Ad\0226.ds" +
+      "tore.engine.om_PerformCashAccTransact_Ad" +
+      ".Parameters\0324.dstore.engine.om_PerformCa" +
+      "shAccTransact_Ad.Response\"\0000\001\022\201\001\n\027om_Red" +
+      "eemPrepaidCode_Pu\0221.dstore.engine.om_Red" +
+      "eemPrepaidCode_Pu.Parameters\032/.dstore.en",
+      "gine.om_RedeemPrepaidCode_Pu.Response\"\0000" +
+      "\001\022\226\001\n\036om_RemoveVoucherFromTrolley_Pu\0228.d" +
+      "store.engine.om_RemoveVoucherFromTrolley" +
+      "_Pu.Parameters\0326.dstore.engine.om_Remove" +
+      "VoucherFromTrolley_Pu.Response\"\0000\001\022u\n\023om" +
+      "_SearchOrderNo_Ad\022-.dstore.engine.om_Sea" +
+      "rchOrderNo_Ad.Parameters\032+.dstore.engine" +
+      ".om_SearchOrderNo_Ad.Response\"\0000\001\022u\n\023om_" +
+      "UpdateTrolley_Pu\022-.dstore.engine.om_Upda" +
+      "teTrolley_Pu.Parameters\032+.dstore.engine.",
+      "om_UpdateTrolley_Pu.Response\"\0000\001\022\207\001\n\031om_" +
+      "ValidateVoucherCode_Pu\0223.dstore.engine.o" +
+      "m_ValidateVoucherCode_Pu.Parameters\0321.ds" +
+      "tore.engine.om_ValidateVoucherCode_Pu.Re" +
+      "sponse\"\0000\001\022u\n\023pm_AdressenCheck_Pu\022-.dsto" +
+      "re.engine.pm_AdressenCheck_Pu.Parameters" +
+      "\032+.dstore.engine.pm_AdressenCheck_Pu.Res" +
+      "ponse\"\0000\001\022\223\001\n\035pm_AlphabetizeCharacValues" +
+      "_Ad\0227.dstore.engine.pm_AlphabetizeCharac" +
+      "Values_Ad.Parameters\0325.dstore.engine.pm_",
+      "AlphabetizeCharacValues_Ad.Response\"\0000\001\022" +
+      "\207\001\n\031pm_CheckPersonIdentity_Pu\0223.dstore.e" +
+      "ngine.pm_CheckPersonIdentity_Pu.Paramete" +
+      "rs\0321.dstore.engine.pm_CheckPersonIdentit" +
+      "y_Pu.Response\"\0000\001\022\204\001\n\030pm_CloseARelations" +
+      "hip_Pu\0222.dstore.engine.pm_CloseARelation" +
+      "ship_Pu.Parameters\0320.dstore.engine.pm_Cl" +
+      "oseARelationship_Pu.Response\"\0000\001\022\207\001\n\031pm_" +
+      "CloseVisitorPersons_Pu\0223.dstore.engine.p" +
+      "m_CloseVisitorPersons_Pu.Parameters\0321.ds",
+      "tore.engine.pm_CloseVisitorPersons_Pu.Re" +
+      "sponse\"\0000\001\022\215\001\n\033pm_ConfigureValueColumns_" +
+      "Ad\0225.dstore.engine.pm_ConfigureValueColu" +
+      "mns_Ad.Parameters\0323.dstore.engine.pm_Con" +
+      "figureValueColumns_Ad.Response\"\0000\001\022~\n\026pm" +
+      "_ConsistencyCheck_Ad\0220.dstore.engine.pm_" +
+      "ConsistencyCheck_Ad.Parameters\032..dstore." +
+      "engine.pm_ConsistencyCheck_Ad.Response\"\000" +
+      "0\001\022\223\001\n\035pm_DeleteAllPersonsOfPType_Ad\0227.d" +
+      "store.engine.pm_DeleteAllPersonsOfPType_",
+      "Ad.Parameters\0325.dstore.engine.pm_DeleteA" +
+      "llPersonsOfPType_Ad.Response\"\0000\001\022\226\001\n\036pm_" +
+      "DeleteDispensablePersons_Ad\0228.dstore.eng" +
+      "ine.pm_DeleteDispensablePersons_Ad.Param" +
+      "eters\0326.dstore.engine.pm_DeleteDispensab" +
+      "lePersons_Ad.Response\"\0000\001\022\215\001\n\033pm_DeleteI" +
+      "nterfaceTables_Ad\0225.dstore.engine.pm_Del" +
+      "eteInterfaceTables_Ad.Parameters\0323.dstor" +
+      "e.engine.pm_DeleteInterfaceTables_Ad.Res" +
+      "ponse\"\0000\001\022r\n\022pm_DeletePerson_Ad\022,.dstore",
+      ".engine.pm_DeletePerson_Ad.Parameters\032*." +
+      "dstore.engine.pm_DeletePerson_Ad.Respons" +
+      "e\"\0000\001\022r\n\022pm_DeletePerson_Pu\022,.dstore.eng" +
+      "ine.pm_DeletePerson_Pu.Parameters\032*.dsto" +
+      "re.engine.pm_DeletePerson_Pu.Response\"\0000" +
+      "\001\022~\n\026pm_ExportPersonData_Ad\0220.dstore.eng" +
+      "ine.pm_ExportPersonData_Ad.Parameters\032.." +
+      "dstore.engine.pm_ExportPersonData_Ad.Res" +
+      "ponse\"\0000\001\022\201\001\n\027pm_FormARelationship_Pu\0221." +
+      "dstore.engine.pm_FormARelationship_Pu.Pa",
+      "rameters\032/.dstore.engine.pm_FormARelatio" +
+      "nship_Pu.Response\"\0000\001\022\220\001\n\034pm_GetEncrypti" +
+      "onAlgorithm_Pu\0226.dstore.engine.pm_GetEnc" +
+      "ryptionAlgorithm_Pu.Parameters\0324.dstore." +
+      "engine.pm_GetEncryptionAlgorithm_Pu.Resp" +
+      "onse\"\0000\001\022\204\001\n\030pm_GetGroupConditions_Ad\0222." +
+      "dstore.engine.pm_GetGroupConditions_Ad.P" +
+      "arameters\0320.dstore.engine.pm_GetGroupCon" +
+      "ditions_Ad.Response\"\0000\001\022\215\001\n\033pm_GetGroups" +
+      "ForOnePerson_Pu\0225.dstore.engine.pm_GetGr",
+      "oupsForOnePerson_Pu.Parameters\0323.dstore." +
+      "engine.pm_GetGroupsForOnePerson_Pu.Respo" +
+      "nse\"\0000\001\022i\n\017pm_GetGroups_Ad\022).dstore.engi" +
+      "ne.pm_GetGroups_Ad.Parameters\032\'.dstore.e" +
+      "ngine.pm_GetGroups_Ad.Response\"\0000\001\022{\n\025pm" +
+      "_GetImportErrors_Ad\022/.dstore.engine.pm_G" +
+      "etImportErrors_Ad.Parameters\032-.dstore.en" +
+      "gine.pm_GetImportErrors_Ad.Response\"\0000\001\022" +
+      "\212\001\n\032pm_GetLockedPersonTypes_Ad\0224.dstore." +
+      "engine.pm_GetLockedPersonTypes_Ad.Parame",
+      "ters\0322.dstore.engine.pm_GetLockedPersonT" +
+      "ypes_Ad.Response\"\0000\001\022\215\001\n\033pm_GetMostRecen" +
+      "tUniqueID_Pu\0225.dstore.engine.pm_GetMostR" +
+      "ecentUniqueID_Pu.Parameters\0323.dstore.eng" +
+      "ine.pm_GetMostRecentUniqueID_Pu.Response" +
+      "\"\0000\001\022\223\001\n\035pm_GetPChAccRestrForGroups_Ad\0227" +
+      ".dstore.engine.pm_GetPChAccRestrForGroup" +
+      "s_Ad.Parameters\0325.dstore.engine.pm_GetPC" +
+      "hAccRestrForGroups_Ad.Response\"\0000\001\022\220\001\n\034p" +
+      "m_GetPChAccRestrForUsers_Ad\0226.dstore.eng",
+      "ine.pm_GetPChAccRestrForUsers_Ad.Paramet" +
+      "ers\0324.dstore.engine.pm_GetPChAccRestrFor" +
+      "Users_Ad.Response\"\0000\001\022\223\001\n\035pm_GetPeriodsF" +
+      "orPredefVals_Ad\0227.dstore.engine.pm_GetPe" +
+      "riodsForPredefVals_Ad.Parameters\0325.dstor" +
+      "e.engine.pm_GetPeriodsForPredefVals_Ad.R" +
+      "esponse\"\0000\001\022\220\001\n\034pm_GetPersonAccessCharac" +
+      "s_Pu\0226.dstore.engine.pm_GetPersonAccessC" +
+      "haracs_Pu.Parameters\0324.dstore.engine.pm_" +
+      "GetPersonAccessCharacs_Pu.Response\"\0000\001\022\201",
+      "\001\n\027pm_GetPersonBinaries_Ad\0221.dstore.engi" +
+      "ne.pm_GetPersonBinaries_Ad.Parameters\032/." +
+      "dstore.engine.pm_GetPersonBinaries_Ad.Re" +
+      "sponse\"\0000\001\022\201\001\n\027pm_GetPersonBinaries_Pu\0221" +
+      ".dstore.engine.pm_GetPersonBinaries_Pu.P" +
       "arameters\032/.dstore.engine.pm_GetPersonBi" +
-      "naries_Ad.Response\"\0000\001\022\201\001\n\027pm_GetPersonB" +
-      "inaries_Pu\0221.dstore.engine.pm_GetPersonB" +
-      "inaries_Pu.Parameters\032/.dstore.engine.pm" +
-      "_GetPersonBinaries_Pu.Response\"\0000\001\022\207\001\n\031p" +
-      "m_GetPersonCharacCats_Ad\0223.dstore.engine" +
-      ".pm_GetPersonCharacCats_Ad.Parameters\0321." +
-      "dstore.engine.pm_GetPersonCharacCats_Ad.",
-      "Response\"\0000\001\022\212\001\n\032pm_GetPersonCharacDescr" +
-      "_Ad\0224.dstore.engine.pm_GetPersonCharacDe" +
-      "scr_Ad.Parameters\0322.dstore.engine.pm_Get" +
-      "PersonCharacDescr_Ad.Response\"\0000\001\022\220\001\n\034pm" +
-      "_GetPersonCharacValueID_Ad\0226.dstore.engi" +
-      "ne.pm_GetPersonCharacValueID_Ad.Paramete" +
-      "rs\0324.dstore.engine.pm_GetPersonCharacVal" +
-      "ueID_Ad.Response\"\0000\001\022\220\001\n\034pm_GetPersonCha" +
-      "racsInCats_Ad\0226.dstore.engine.pm_GetPers" +
-      "onCharacsInCats_Ad.Parameters\0324.dstore.e",
-      "ngine.pm_GetPersonCharacsInCats_Ad.Respo" +
-      "nse\"\0000\001\022\226\001\n\036pm_GetPersonCharacteristics_" +
-      "Ad\0228.dstore.engine.pm_GetPersonCharacter" +
-      "istics_Ad.Parameters\0326.dstore.engine.pm_" +
-      "GetPersonCharacteristics_Ad.Response\"\0000\001" +
-      "\022\226\001\n\036pm_GetPersonCharacteristics_Pu\0228.ds" +
-      "tore.engine.pm_GetPersonCharacteristics_" +
-      "Pu.Parameters\0326.dstore.engine.pm_GetPers" +
-      "onCharacteristics_Pu.Response\"\0000\001\022~\n\026pm_" +
-      "GetPersonDetails_Ad\0220.dstore.engine.pm_G",
-      "etPersonDetails_Ad.Parameters\032..dstore.e" +
-      "ngine.pm_GetPersonDetails_Ad.Response\"\0000" +
-      "\001\022~\n\026pm_GetPersonDetails_Pu\0220.dstore.eng" +
-      "ine.pm_GetPersonDetails_Pu.Parameters\032.." +
-      "dstore.engine.pm_GetPersonDetails_Pu.Res" +
-      "ponse\"\0000\001\022\215\001\n\033pm_GetPersonIdentCharacs_P" +
-      "u\0225.dstore.engine.pm_GetPersonIdentChara" +
-      "cs_Pu.Parameters\0323.dstore.engine.pm_GetP" +
-      "ersonIdentCharacs_Pu.Response\"\0000\001\022\226\001\n\036pm" +
-      "_GetPersonMetaInformation_Ad\0228.dstore.en",
-      "gine.pm_GetPersonMetaInformation_Ad.Para" +
-      "meters\0326.dstore.engine.pm_GetPersonMetaI" +
-      "nformation_Ad.Response\"\0000\001\022\220\001\n\034pm_GetPer" +
-      "sonOutputCharacs_Ad\0226.dstore.engine.pm_G" +
-      "etPersonOutputCharacs_Ad.Parameters\0324.ds" +
-      "tore.engine.pm_GetPersonOutputCharacs_Ad" +
-      ".Response\"\0000\001\022\223\001\n\035pm_GetPersonPredefined" +
-      "Vals_Ad\0227.dstore.engine.pm_GetPersonPred" +
-      "efinedVals_Ad.Parameters\0325.dstore.engine" +
-      ".pm_GetPersonPredefinedVals_Ad.Response\"",
-      "\0000\001\022\223\001\n\035pm_GetPersonPredefinedVals_Pu\0227." +
-      "dstore.engine.pm_GetPersonPredefinedVals" +
-      "_Pu.Parameters\0325.dstore.engine.pm_GetPer" +
-      "sonPredefinedVals_Pu.Response\"\0000\001\022\223\001\n\035pm" +
-      "_GetPersonPropertiesHist_Ad\0227.dstore.eng" +
-      "ine.pm_GetPersonPropertiesHist_Ad.Parame" +
-      "ters\0325.dstore.engine.pm_GetPersonPropert" +
-      "iesHist_Ad.Response\"\0000\001\022\207\001\n\031pm_GetPerson" +
-      "Properties_Ad\0223.dstore.engine.pm_GetPers" +
-      "onProperties_Ad.Parameters\0321.dstore.engi",
-      "ne.pm_GetPersonProperties_Ad.Response\"\0000" +
-      "\001\022\207\001\n\031pm_GetPersonProperties_Pu\0223.dstore" +
-      ".engine.pm_GetPersonProperties_Pu.Parame" +
-      "ters\0321.dstore.engine.pm_GetPersonPropert" +
-      "ies_Pu.Response\"\0000\001\022\220\001\n\034pm_GetPersonRela" +
-      "tionships_Ad\0226.dstore.engine.pm_GetPerso" +
-      "nRelationships_Ad.Parameters\0324.dstore.en" +
-      "gine.pm_GetPersonRelationships_Ad.Respon" +
-      "se\"\0000\001\022\220\001\n\034pm_GetPersonRelationships_Pu\022" +
-      "6.dstore.engine.pm_GetPersonRelationship",
-      "s_Pu.Parameters\0324.dstore.engine.pm_GetPe" +
-      "rsonRelationships_Pu.Response\"\0000\001\022\215\001\n\033pm" +
-      "_GetPersonTypeMetaInfo_Ad\0225.dstore.engin" +
-      "e.pm_GetPersonTypeMetaInfo_Ad.Parameters" +
-      "\0323.dstore.engine.pm_GetPersonTypeMetaInf" +
-      "o_Ad.Response\"\0000\001\022\220\001\n\034pm_GetPersonTypeSe" +
-      "ttingEntry\0226.dstore.engine.pm_GetPersonT" +
-      "ypeSettingEntry.Parameters\0324.dstore.engi" +
-      "ne.pm_GetPersonTypeSettingEntry.Response" +
-      "\"\0000\001\022\215\001\n\033pm_GetPersonTypeSettings_Ad\0225.d",
-      "store.engine.pm_GetPersonTypeSettings_Ad" +
-      ".Parameters\0323.dstore.engine.pm_GetPerson" +
-      "TypeSettings_Ad.Response\"\0000\001\022x\n\024pm_GetPe" +
-      "rsonTypes_Ad\022..dstore.engine.pm_GetPerso" +
-      "nTypes_Ad.Parameters\032,.dstore.engine.pm_" +
-      "GetPersonTypes_Ad.Response\"\0000\001\022l\n\020pm_Get" +
-      "Persons_Ad\022*.dstore.engine.pm_GetPersons" +
-      "_Ad.Parameters\032(.dstore.engine.pm_GetPer" +
-      "sons_Ad.Response\"\0000\001\022\215\001\n\033pm_GetPersons_C" +
-      "onditions_Ad\0225.dstore.engine.pm_GetPerso",
-      "ns_Conditions_Ad.Parameters\0323.dstore.eng" +
-      "ine.pm_GetPersons_Conditions_Ad.Response" +
-      "\"\0000\001\022\215\001\n\033pm_GetPossibleDuplicates_Ad\0225.d" +
-      "store.engine.pm_GetPossibleDuplicates_Ad" +
-      ".Parameters\0323.dstore.engine.pm_GetPossib" +
-      "leDuplicates_Ad.Response\"\0000\001\022\212\001\n\032pm_GetR" +
-      "elationAccessLevels\0224.dstore.engine.pm_G" +
-      "etRelationAccessLevels.Parameters\0322.dsto" +
-      "re.engine.pm_GetRelationAccessLevels.Res" +
-      "ponse\"\0000\001\022\226\001\n\036pm_GetRelationshipSettingE",
-      "ntry\0228.dstore.engine.pm_GetRelationshipS" +
-      "ettingEntry.Parameters\0326.dstore.engine.p" +
-      "m_GetRelationshipSettingEntry.Response\"\000" +
-      "0\001\022\223\001\n\035pm_GetRelationshipSettings_Ad\0227.d" +
-      "store.engine.pm_GetRelationshipSettings_" +
-      "Ad.Parameters\0325.dstore.engine.pm_GetRela" +
-      "tionshipSettings_Ad.Response\"\0000\001\022~\n\026pm_G" +
-      "etRelationships_Ad\0220.dstore.engine.pm_Ge" +
-      "tRelationships_Ad.Parameters\032..dstore.en" +
-      "gine.pm_GetRelationships_Ad.Response\"\0000\001",
-      "\022~\n\026pm_ImportPersonData_Ad\0220.dstore.engi" +
-      "ne.pm_ImportPersonData_Ad.Parameters\032..d" +
-      "store.engine.pm_ImportPersonData_Ad.Resp" +
-      "onse\"\0000\001\022{\n\025pm_InsertNewPerson_Ad\022/.dsto" +
-      "re.engine.pm_InsertNewPerson_Ad.Paramete" +
-      "rs\032-.dstore.engine.pm_InsertNewPerson_Ad" +
-      ".Response\"\0000\001\022{\n\025pm_InsertNewPerson_Pu\022/" +
-      ".dstore.engine.pm_InsertNewPerson_Pu.Par" +
-      "ameters\032-.dstore.engine.pm_InsertNewPers" +
-      "on_Pu.Response\"\0000\001\022\226\001\n\036pm_ModifyBinaries",
-      "ForPersons_Ad\0228.dstore.engine.pm_ModifyB" +
-      "inariesForPersons_Ad.Parameters\0326.dstore" +
-      ".engine.pm_ModifyBinariesForPersons_Ad.R" +
-      "esponse\"\0000\001\022\226\001\n\036pm_ModifyBinariesForPers" +
-      "ons_Pu\0228.dstore.engine.pm_ModifyBinaries" +
-      "ForPersons_Pu.Parameters\0326.dstore.engine" +
-      ".pm_ModifyBinariesForPersons_Pu.Response" +
-      "\"\0000\001\022~\n\026pm_ModifyConditions_Ad\0220.dstore." +
-      "engine.pm_ModifyConditions_Ad.Parameters" +
-      "\032..dstore.engine.pm_ModifyConditions_Ad.",
-      "Response\"\0000\001\022\215\001\n\033pm_ModifyGroupCondition" +
-      "s_Ad\0225.dstore.engine.pm_ModifyGroupCondi" +
-      "tions_Ad.Parameters\0323.dstore.engine.pm_M" +
-      "odifyGroupConditions_Ad.Response\"\0000\001\022r\n\022" +
-      "pm_ModifyGroups_Ad\022,.dstore.engine.pm_Mo" +
-      "difyGroups_Ad.Parameters\032*.dstore.engine" +
-      ".pm_ModifyGroups_Ad.Response\"\0000\001\022\223\001\n\035pm_" +
-      "ModifyLockedPersonTypes_Ad\0227.dstore.engi" +
-      "ne.pm_ModifyLockedPersonTypes_Ad.Paramet" +
-      "ers\0325.dstore.engine.pm_ModifyLockedPerso",
-      "nTypes_Ad.Response\"\0000\001\022\223\001\n\035pm_ModifyPChA" +
-      "ccResForGroup_Ad\0227.dstore.engine.pm_Modi" +
-      "fyPChAccResForGroup_Ad.Parameters\0325.dsto" +
-      "re.engine.pm_ModifyPChAccResForGroup_Ad." +
-      "Response\"\0000\001\022\220\001\n\034pm_ModifyPChAccResForUs" +
-      "er_Ad\0226.dstore.engine.pm_ModifyPChAccRes" +
-      "ForUser_Ad.Parameters\0324.dstore.engine.pm" +
-      "_ModifyPChAccResForUser_Ad.Response\"\0000\001\022" +
-      "\226\001\n\036pm_ModifyPeriodsForPredVals_Ad\0228.dst" +
-      "ore.engine.pm_ModifyPeriodsForPredVals_A",
-      "d.Parameters\0326.dstore.engine.pm_ModifyPe" +
-      "riodsForPredVals_Ad.Response\"\0000\001\022\220\001\n\034pm_" +
-      "ModifyPersonCharacCats_Ad\0226.dstore.engin" +
-      "e.pm_ModifyPersonCharacCats_Ad.Parameter" +
-      "s\0324.dstore.engine.pm_ModifyPersonCharacC" +
-      "ats_Ad.Response\"\0000\001\022\223\001\n\035pm_ModifyPersonC" +
-      "haracDescr_Ad\0227.dstore.engine.pm_ModifyP" +
-      "ersonCharacDescr_Ad.Parameters\0325.dstore." +
-      "engine.pm_ModifyPersonCharacDescr_Ad.Res" +
-      "ponse\"\0000\001\022\226\001\n\036pm_ModifyPersonCharacsInCa",
-      "t_Ad\0228.dstore.engine.pm_ModifyPersonChar" +
-      "acsInCat_Ad.Parameters\0326.dstore.engine.p" +
-      "m_ModifyPersonCharacsInCat_Ad.Response\"\000" +
-      "0\001\022\207\001\n\031pm_ModifyPersonCharacs_Ad\0223.dstor" +
-      "e.engine.pm_ModifyPersonCharacs_Ad.Param" +
-      "eters\0321.dstore.engine.pm_ModifyPersonCha" +
-      "racs_Ad.Response\"\0000\001\022~\n\026pm_ModifyPersonD" +
-      "ata_Ad\0220.dstore.engine.pm_ModifyPersonDa" +
-      "ta_Ad.Parameters\032..dstore.engine.pm_Modi" +
-      "fyPersonData_Ad.Response\"\0000\001\022~\n\026pm_Modif",
-      "yPersonData_Pu\0220.dstore.engine.pm_Modify" +
-      "PersonData_Pu.Parameters\032..dstore.engine" +
-      ".pm_ModifyPersonData_Pu.Response\"\0000\001\022\207\001\n" +
-      "\031pm_ModifyPersonDetails_Ad\0223.dstore.engi" +
-      "ne.pm_ModifyPersonDetails_Ad.Parameters\032" +
-      "1.dstore.engine.pm_ModifyPersonDetails_A" +
-      "d.Response\"\0000\001\022\207\001\n\031pm_ModifyPersonDetail" +
-      "s_Pu\0223.dstore.engine.pm_ModifyPersonDeta" +
-      "ils_Pu.Parameters\0321.dstore.engine.pm_Mod" +
-      "ifyPersonDetails_Pu.Response\"\0000\001\022\220\001\n\034pm_",
-      "ModifyPersonPredefVals_Ad\0226.dstore.engin" +
-      "e.pm_ModifyPersonPredefVals_Ad.Parameter" +
-      "s\0324.dstore.engine.pm_ModifyPersonPredefV" +
-      "als_Ad.Response\"\0000\001\022\226\001\n\036pm_ModifyPersonR" +
-      "elationship_Ad\0228.dstore.engine.pm_Modify" +
-      "PersonRelationship_Ad.Parameters\0326.dstor" +
-      "e.engine.pm_ModifyPersonRelationship_Ad." +
-      "Response\"\0000\001\022\226\001\n\036pm_ModifyPersonRelation" +
-      "ship_Pu\0228.dstore.engine.pm_ModifyPersonR" +
-      "elationship_Pu.Parameters\0326.dstore.engin",
-      "e.pm_ModifyPersonRelationship_Pu.Respons" +
-      "e\"\0000\001\022\226\001\n\036pm_ModifyPersonTypeSettings_Ad" +
-      "\0228.dstore.engine.pm_ModifyPersonTypeSett" +
-      "ings_Ad.Parameters\0326.dstore.engine.pm_Mo" +
-      "difyPersonTypeSettings_Ad.Response\"\0000\001\022\201" +
-      "\001\n\027pm_ModifyPersonTypes_Ad\0221.dstore.engi" +
-      "ne.pm_ModifyPersonTypes_Ad.Parameters\032/." +
-      "dstore.engine.pm_ModifyPersonTypes_Ad.Re" +
-      "sponse\"\0000\001\022\215\001\n\033pm_ModifyPersonsInGroups_" +
-      "Ad\0225.dstore.engine.pm_ModifyPersonsInGro",
-      "ups_Ad.Parameters\0323.dstore.engine.pm_Mod" +
-      "ifyPersonsInGroups_Ad.Response\"\0000\001\022\223\001\n\035p" +
-      "m_ModifyRelationshipSetts_Ad\0227.dstore.en" +
-      "gine.pm_ModifyRelationshipSetts_Ad.Param" +
-      "eters\0325.dstore.engine.pm_ModifyRelations" +
-      "hipSetts_Ad.Response\"\0000\001\022\207\001\n\031pm_ModifyRe" +
-      "lationships_Ad\0223.dstore.engine.pm_Modify" +
-      "Relationships_Ad.Parameters\0321.dstore.eng" +
-      "ine.pm_ModifyRelationships_Ad.Response\"\000" +
-      "0\001\022\215\001\n\033pm_MovePersonCharacValue_Ad\0225.dst",
-      "ore.engine.pm_MovePersonCharacValue_Ad.P" +
-      "arameters\0323.dstore.engine.pm_MovePersonC" +
-      "haracValue_Ad.Response\"\0000\001\022\212\001\n\032pm_Postle" +
-      "itzahlenZumOrt_Pu\0224.dstore.engine.pm_Pos" +
-      "tleitzahlenZumOrt_Pu.Parameters\0322.dstore" +
-      ".engine.pm_PostleitzahlenZumOrt_Pu.Respo" +
-      "nse\"\0000\001\022\223\001\n\035pm_PrioritizeARelationship_P" +
-      "u\0227.dstore.engine.pm_PrioritizeARelation" +
-      "ship_Pu.Parameters\0325.dstore.engine.pm_Pr" +
-      "ioritizeARelationship_Pu.Response\"\0000\001\022{\n",
-      "\025pm_RemoveDuplicate_Ad\022/.dstore.engine.p" +
-      "m_RemoveDuplicate_Ad.Parameters\032-.dstore" +
-      ".engine.pm_RemoveDuplicate_Ad.Response\"\000" +
-      "0\001\022\226\001\n\036pm_RemovePossibleDuplicates_Ad\0228." +
-      "dstore.engine.pm_RemovePossibleDuplicate" +
-      "s_Ad.Parameters\0326.dstore.engine.pm_Remov" +
-      "ePossibleDuplicates_Ad.Response\"\0000\001\022\220\001\n\034" +
-      "pm_SetPropertyOfOnePerson_Pu\0226.dstore.en" +
-      "gine.pm_SetPropertyOfOnePerson_Pu.Parame" +
-      "ters\0324.dstore.engine.pm_SetPropertyOfOne",
-      "Person_Pu.Response\"\0000\001\022\226\001\n\036pm_UpdatePoss" +
-      "ibleDuplicates_Ad\0228.dstore.engine.pm_Upd" +
-      "atePossibleDuplicates_Ad.Parameters\0326.ds" +
-      "tore.engine.pm_UpdatePossibleDuplicates_" +
-      "Ad.Response\"\0000\001\022\201\001\n\027st_CopyFromOLTPtoDSS" +
-      "_Ad\0221.dstore.engine.st_CopyFromOLTPtoDSS" +
-      "_Ad.Parameters\032/.dstore.engine.st_CopyFr" +
-      "omOLTPtoDSS_Ad.Response\"\0000\001\022\223\001\n\035st_GetBa" +
-      "sicCharacteristics_Ad\0227.dstore.engine.st" +
-      "_GetBasicCharacteristics_Ad.Parameters\0325",
-      ".dstore.engine.st_GetBasicCharacteristic" +
-      "s_Ad.Response\"\0000\001\022x\n\024st_GetClickStream_A" +
-      "d\022..dstore.engine.st_GetClickStream_Ad.P" +
-      "arameters\032,.dstore.engine.st_GetClickStr" +
-      "eam_Ad.Response\"\0000\001\022\220\001\n\034st_GetDSS_Index_" +
-      "Frequency_Ad\0226.dstore.engine.st_GetDSS_I" +
-      "ndex_Frequency_Ad.Parameters\0324.dstore.en" +
-      "gine.st_GetDSS_Index_Frequency_Ad.Respon" +
-      "se\"\0000\001\022\204\001\n\030st_GetDSS_Index_Trend_Ad\0222.ds" +
-      "tore.engine.st_GetDSS_Index_Trend_Ad.Par",
-      "ameters\0320.dstore.engine.st_GetDSS_Index_" +
-      "Trend_Ad.Response\"\0000\001\022\226\001\n\036st_GetDirectSu" +
-      "ccessors_Tree_Ad\0228.dstore.engine.st_GetD" +
-      "irectSuccessors_Tree_Ad.Parameters\0326.dst" +
-      "ore.engine.st_GetDirectSuccessors_Tree_A" +
-      "d.Response\"\0000\001\022\220\001\n\034st_GetHTreeNodeStatis" +
-      "tics_Ad\0226.dstore.engine.st_GetHTreeNodeS" +
-      "tatistics_Ad.Parameters\0324.dstore.engine." +
-      "st_GetHTreeNodeStatistics_Ad.Response\"\0000" +
-      "\001\022{\n\025st_GetPHStatistics_Ad\022/.dstore.engi",
-      "ne.st_GetPHStatistics_Ad.Parameters\032-.ds" +
-      "tore.engine.st_GetPHStatistics_Ad.Respon" +
-      "se\"\0000\001\022\201\001\n\027st_GetPageCategories_Ad\0221.dst" +
-      "ore.engine.st_GetPageCategories_Ad.Param" +
-      "eters\032/.dstore.engine.st_GetPageCategori" +
-      "es_Ad.Response\"\0000\001\022u\n\023st_GetPageVisits_A" +
-      "d\022-.dstore.engine.st_GetPageVisits_Ad.Pa" +
-      "rameters\032+.dstore.engine.st_GetPageVisit" +
-      "s_Ad.Response\"\0000\001\022\212\001\n\032st_GetPagesInCateg" +
-      "ories_Ad\0224.dstore.engine.st_GetPagesInCa",
-      "tegories_Ad.Parameters\0322.dstore.engine.s" +
-      "t_GetPagesInCategories_Ad.Response\"\0000\001\022f" +
-      "\n\016st_GetPages_Ad\022(.dstore.engine.st_GetP" +
-      "ages_Ad.Parameters\032&.dstore.engine.st_Ge" +
-      "tPages_Ad.Response\"\0000\001\022\215\001\n\033st_GetPeriods" +
-      "ToKeepStats_Ad\0225.dstore.engine.st_GetPer" +
-      "iodsToKeepStats_Ad.Parameters\0323.dstore.e" +
-      "ngine.st_GetPeriodsToKeepStats_Ad.Respon" +
-      "se\"\0000\001\022\215\001\n\033st_GetPersonPDStatistics_Ad\0225" +
-      ".dstore.engine.st_GetPersonPDStatistics_",
-      "Ad.Parameters\0323.dstore.engine.st_GetPers" +
-      "onPDStatistics_Ad.Response\"\0000\001\022\215\001\n\033st_Ge" +
-      "tPersonPMStatistics_Ad\0225.dstore.engine.s" +
-      "t_GetPersonPMStatistics_Ad.Parameters\0323." +
-      "dstore.engine.st_GetPersonPMStatistics_A" +
-      "d.Response\"\0000\001\022\220\001\n\034st_GetSales_ByInforma" +
-      "tion_Ad\0226.dstore.engine.st_GetSales_ByIn" +
-      "formation_Ad.Parameters\0324.dstore.engine." +
-      "st_GetSales_ByInformation_Ad.Response\"\0000" +
-      "\001\022\223\001\n\035st_GetTreeNodePDStatistics_Ad\0227.ds",
-      "tore.engine.st_GetTreeNodePDStatistics_A" +
-      "d.Parameters\0325.dstore.engine.st_GetTreeN" +
-      "odePDStatistics_Ad.Response\"\0000\001\022\223\001\n\035st_G" +
-      "etTreeNodePMStatistics_Ad\0227.dstore.engin" +
-      "e.st_GetTreeNodePMStatistics_Ad.Paramete" +
-      "rs\0325.dstore.engine.st_GetTreeNodePMStati" +
-      "stics_Ad.Response\"\0000\001\022\223\001\n\035st_GetTreeNode" +
-      "PWStatistics_Ad\0227.dstore.engine.st_GetTr" +
-      "eeNodePWStatistics_Ad.Parameters\0325.dstor" +
-      "e.engine.st_GetTreeNodePWStatistics_Ad.R",
-      "esponse\"\0000\001\022\226\001\n\036st_GetVisitorInfoStatist" +
-      "ics_Ad\0228.dstore.engine.st_GetVisitorInfo" +
-      "Statistics_Ad.Parameters\0326.dstore.engine" +
-      ".st_GetVisitorInfoStatistics_Ad.Response" +
-      "\"\0000\001\022\215\001\n\033st_GetVisitorInformation_Ad\0225.d" +
-      "store.engine.st_GetVisitorInformation_Ad" +
-      ".Parameters\0323.dstore.engine.st_GetVisito" +
-      "rInformation_Ad.Response\"\0000\001\022\201\001\n\027st_GetV" +
-      "isitorPersons_Ad\0221.dstore.engine.st_GetV" +
-      "isitorPersons_Ad.Parameters\032/.dstore.eng",
-      "ine.st_GetVisitorPersons_Ad.Response\"\0000\001" +
-      "\022i\n\017st_GetVisits_Ad\022).dstore.engine.st_G" +
-      "etVisits_Ad.Parameters\032\'.dstore.engine.s" +
-      "t_GetVisits_Ad.Response\"\0000\001\022u\n\023st_Insert" +
-      "PageHit_Pu\022-.dstore.engine.st_InsertPage" +
-      "Hit_Pu.Parameters\032+.dstore.engine.st_Ins" +
-      "ertPageHit_Pu.Response\"\0000\001\022\204\001\n\030st_Insert" +
-      "TreeNodeHits_Pu\0222.dstore.engine.st_Inser" +
-      "tTreeNodeHits_Pu.Parameters\0320.dstore.eng" +
-      "ine.st_InsertTreeNodeHits_Pu.Response\"\0000",
-      "\001\022u\n\023st_LogPageVisits_Pu\022-.dstore.engine" +
-      ".st_LogPageVisits_Pu.Parameters\032+.dstore" +
-      ".engine.st_LogPageVisits_Pu.Response\"\0000\001" +
-      "\022\212\001\n\032st_ModifyPageCategories_Ad\0224.dstore" +
-      ".engine.st_ModifyPageCategories_Ad.Param" +
-      "eters\0322.dstore.engine.st_ModifyPageCateg" +
-      "ories_Ad.Response\"\0000\001\022\223\001\n\035st_ModifyPages" +
-      "InCategories_Ad\0227.dstore.engine.st_Modif" +
-      "yPagesInCategories_Ad.Parameters\0325.dstor" +
-      "e.engine.st_ModifyPagesInCategories_Ad.R",
-      "esponse\"\0000\001\022o\n\021st_ModifyPages_Ad\022+.dstor" +
-      "e.engine.st_ModifyPages_Ad.Parameters\032)." +
-      "dstore.engine.st_ModifyPages_Ad.Response" +
-      "\"\0000\001\022\226\001\n\036st_ModifyPeriodsToKeepStats_Ad\022" +
-      "8.dstore.engine.st_ModifyPeriodsToKeepSt" +
-      "ats_Ad.Parameters\0326.dstore.engine.st_Mod" +
-      "ifyPeriodsToKeepStats_Ad.Response\"\0000\001\022~\n" +
-      "\026st_UpdateStatistics_Ad\0220.dstore.engine." +
-      "st_UpdateStatistics_Ad.Parameters\032..dsto" +
-      "re.engine.st_UpdateStatistics_Ad.Respons",
-      "e\"\0000\001B\022\n\020io.dstore.engineb\006proto3"
+      "naries_Pu.Response\"\0000\001\022\207\001\n\031pm_GetPersonC" +
+      "haracCats_Ad\0223.dstore.engine.pm_GetPerso" +
+      "nCharacCats_Ad.Parameters\0321.dstore.engin" +
+      "e.pm_GetPersonCharacCats_Ad.Response\"\0000\001",
+      "\022\212\001\n\032pm_GetPersonCharacDescr_Ad\0224.dstore" +
+      ".engine.pm_GetPersonCharacDescr_Ad.Param" +
+      "eters\0322.dstore.engine.pm_GetPersonCharac" +
+      "Descr_Ad.Response\"\0000\001\022\220\001\n\034pm_GetPersonCh" +
+      "aracValueID_Ad\0226.dstore.engine.pm_GetPer" +
+      "sonCharacValueID_Ad.Parameters\0324.dstore." +
+      "engine.pm_GetPersonCharacValueID_Ad.Resp" +
+      "onse\"\0000\001\022\220\001\n\034pm_GetPersonCharacsInCats_A" +
+      "d\0226.dstore.engine.pm_GetPersonCharacsInC" +
+      "ats_Ad.Parameters\0324.dstore.engine.pm_Get",
+      "PersonCharacsInCats_Ad.Response\"\0000\001\022\226\001\n\036" +
+      "pm_GetPersonCharacteristics_Ad\0228.dstore." +
+      "engine.pm_GetPersonCharacteristics_Ad.Pa" +
+      "rameters\0326.dstore.engine.pm_GetPersonCha" +
+      "racteristics_Ad.Response\"\0000\001\022\226\001\n\036pm_GetP" +
+      "ersonCharacteristics_Pu\0228.dstore.engine." +
+      "pm_GetPersonCharacteristics_Pu.Parameter" +
+      "s\0326.dstore.engine.pm_GetPersonCharacteri" +
+      "stics_Pu.Response\"\0000\001\022~\n\026pm_GetPersonDet" +
+      "ails_Ad\0220.dstore.engine.pm_GetPersonDeta",
+      "ils_Ad.Parameters\032..dstore.engine.pm_Get" +
+      "PersonDetails_Ad.Response\"\0000\001\022~\n\026pm_GetP" +
+      "ersonDetails_Pu\0220.dstore.engine.pm_GetPe" +
+      "rsonDetails_Pu.Parameters\032..dstore.engin" +
+      "e.pm_GetPersonDetails_Pu.Response\"\0000\001\022\215\001" +
+      "\n\033pm_GetPersonIdentCharacs_Pu\0225.dstore.e" +
+      "ngine.pm_GetPersonIdentCharacs_Pu.Parame" +
+      "ters\0323.dstore.engine.pm_GetPersonIdentCh" +
+      "aracs_Pu.Response\"\0000\001\022\226\001\n\036pm_GetPersonMe" +
+      "taInformation_Ad\0228.dstore.engine.pm_GetP",
+      "ersonMetaInformation_Ad.Parameters\0326.dst" +
+      "ore.engine.pm_GetPersonMetaInformation_A" +
+      "d.Response\"\0000\001\022\220\001\n\034pm_GetPersonOutputCha" +
+      "racs_Ad\0226.dstore.engine.pm_GetPersonOutp" +
+      "utCharacs_Ad.Parameters\0324.dstore.engine." +
+      "pm_GetPersonOutputCharacs_Ad.Response\"\0000" +
+      "\001\022\223\001\n\035pm_GetPersonPredefinedVals_Ad\0227.ds" +
+      "tore.engine.pm_GetPersonPredefinedVals_A" +
+      "d.Parameters\0325.dstore.engine.pm_GetPerso" +
+      "nPredefinedVals_Ad.Response\"\0000\001\022\223\001\n\035pm_G",
+      "etPersonPredefinedVals_Pu\0227.dstore.engin" +
+      "e.pm_GetPersonPredefinedVals_Pu.Paramete" +
+      "rs\0325.dstore.engine.pm_GetPersonPredefine" +
+      "dVals_Pu.Response\"\0000\001\022\223\001\n\035pm_GetPersonPr" +
+      "opertiesHist_Ad\0227.dstore.engine.pm_GetPe" +
+      "rsonPropertiesHist_Ad.Parameters\0325.dstor" +
+      "e.engine.pm_GetPersonPropertiesHist_Ad.R" +
+      "esponse\"\0000\001\022\207\001\n\031pm_GetPersonProperties_A" +
+      "d\0223.dstore.engine.pm_GetPersonProperties" +
+      "_Ad.Parameters\0321.dstore.engine.pm_GetPer",
+      "sonProperties_Ad.Response\"\0000\001\022\207\001\n\031pm_Get" +
+      "PersonProperties_Pu\0223.dstore.engine.pm_G" +
+      "etPersonProperties_Pu.Parameters\0321.dstor" +
+      "e.engine.pm_GetPersonProperties_Pu.Respo" +
+      "nse\"\0000\001\022\220\001\n\034pm_GetPersonRelationships_Ad" +
+      "\0226.dstore.engine.pm_GetPersonRelationshi" +
+      "ps_Ad.Parameters\0324.dstore.engine.pm_GetP" +
+      "ersonRelationships_Ad.Response\"\0000\001\022\220\001\n\034p" +
+      "m_GetPersonRelationships_Pu\0226.dstore.eng" +
+      "ine.pm_GetPersonRelationships_Pu.Paramet",
+      "ers\0324.dstore.engine.pm_GetPersonRelation" +
+      "ships_Pu.Response\"\0000\001\022\215\001\n\033pm_GetPersonTy" +
+      "peMetaInfo_Ad\0225.dstore.engine.pm_GetPers" +
+      "onTypeMetaInfo_Ad.Parameters\0323.dstore.en" +
+      "gine.pm_GetPersonTypeMetaInfo_Ad.Respons" +
+      "e\"\0000\001\022\220\001\n\034pm_GetPersonTypeSettingEntry\0226" +
+      ".dstore.engine.pm_GetPersonTypeSettingEn" +
+      "try.Parameters\0324.dstore.engine.pm_GetPer" +
+      "sonTypeSettingEntry.Response\"\0000\001\022\215\001\n\033pm_" +
+      "GetPersonTypeSettings_Ad\0225.dstore.engine",
+      ".pm_GetPersonTypeSettings_Ad.Parameters\032" +
+      "3.dstore.engine.pm_GetPersonTypeSettings" +
+      "_Ad.Response\"\0000\001\022x\n\024pm_GetPersonTypes_Ad" +
+      "\022..dstore.engine.pm_GetPersonTypes_Ad.Pa" +
+      "rameters\032,.dstore.engine.pm_GetPersonTyp" +
+      "es_Ad.Response\"\0000\001\022l\n\020pm_GetPersons_Ad\022*" +
+      ".dstore.engine.pm_GetPersons_Ad.Paramete" +
+      "rs\032(.dstore.engine.pm_GetPersons_Ad.Resp" +
+      "onse\"\0000\001\022\215\001\n\033pm_GetPersons_Conditions_Ad" +
+      "\0225.dstore.engine.pm_GetPersons_Condition",
+      "s_Ad.Parameters\0323.dstore.engine.pm_GetPe" +
+      "rsons_Conditions_Ad.Response\"\0000\001\022\215\001\n\033pm_" +
+      "GetPossibleDuplicates_Ad\0225.dstore.engine" +
+      ".pm_GetPossibleDuplicates_Ad.Parameters\032" +
+      "3.dstore.engine.pm_GetPossibleDuplicates" +
+      "_Ad.Response\"\0000\001\022\212\001\n\032pm_GetRelationAcces" +
+      "sLevels\0224.dstore.engine.pm_GetRelationAc" +
+      "cessLevels.Parameters\0322.dstore.engine.pm" +
+      "_GetRelationAccessLevels.Response\"\0000\001\022\226\001" +
+      "\n\036pm_GetRelationshipSettingEntry\0228.dstor",
+      "e.engine.pm_GetRelationshipSettingEntry." +
+      "Parameters\0326.dstore.engine.pm_GetRelatio" +
+      "nshipSettingEntry.Response\"\0000\001\022\223\001\n\035pm_Ge" +
+      "tRelationshipSettings_Ad\0227.dstore.engine" +
+      ".pm_GetRelationshipSettings_Ad.Parameter" +
+      "s\0325.dstore.engine.pm_GetRelationshipSett" +
+      "ings_Ad.Response\"\0000\001\022~\n\026pm_GetRelationsh" +
+      "ips_Ad\0220.dstore.engine.pm_GetRelationshi" +
+      "ps_Ad.Parameters\032..dstore.engine.pm_GetR" +
+      "elationships_Ad.Response\"\0000\001\022~\n\026pm_Impor",
+      "tPersonData_Ad\0220.dstore.engine.pm_Import" +
+      "PersonData_Ad.Parameters\032..dstore.engine" +
+      ".pm_ImportPersonData_Ad.Response\"\0000\001\022{\n\025" +
+      "pm_InsertNewPerson_Ad\022/.dstore.engine.pm" +
+      "_InsertNewPerson_Ad.Parameters\032-.dstore." +
+      "engine.pm_InsertNewPerson_Ad.Response\"\0000" +
+      "\001\022{\n\025pm_InsertNewPerson_Pu\022/.dstore.engi" +
+      "ne.pm_InsertNewPerson_Pu.Parameters\032-.ds" +
+      "tore.engine.pm_InsertNewPerson_Pu.Respon" +
+      "se\"\0000\001\022\226\001\n\036pm_ModifyBinariesForPersons_A",
+      "d\0228.dstore.engine.pm_ModifyBinariesForPe" +
+      "rsons_Ad.Parameters\0326.dstore.engine.pm_M" +
+      "odifyBinariesForPersons_Ad.Response\"\0000\001\022" +
+      "\226\001\n\036pm_ModifyBinariesForPersons_Pu\0228.dst" +
+      "ore.engine.pm_ModifyBinariesForPersons_P" +
+      "u.Parameters\0326.dstore.engine.pm_ModifyBi" +
+      "nariesForPersons_Pu.Response\"\0000\001\022~\n\026pm_M" +
+      "odifyConditions_Ad\0220.dstore.engine.pm_Mo" +
+      "difyConditions_Ad.Parameters\032..dstore.en" +
+      "gine.pm_ModifyConditions_Ad.Response\"\0000\001",
+      "\022\215\001\n\033pm_ModifyGroupConditions_Ad\0225.dstor" +
+      "e.engine.pm_ModifyGroupConditions_Ad.Par" +
+      "ameters\0323.dstore.engine.pm_ModifyGroupCo" +
+      "nditions_Ad.Response\"\0000\001\022r\n\022pm_ModifyGro" +
+      "ups_Ad\022,.dstore.engine.pm_ModifyGroups_A" +
+      "d.Parameters\032*.dstore.engine.pm_ModifyGr" +
+      "oups_Ad.Response\"\0000\001\022\223\001\n\035pm_ModifyLocked" +
+      "PersonTypes_Ad\0227.dstore.engine.pm_Modify" +
+      "LockedPersonTypes_Ad.Parameters\0325.dstore" +
+      ".engine.pm_ModifyLockedPersonTypes_Ad.Re",
+      "sponse\"\0000\001\022\223\001\n\035pm_ModifyPChAccResForGrou" +
+      "p_Ad\0227.dstore.engine.pm_ModifyPChAccResF" +
+      "orGroup_Ad.Parameters\0325.dstore.engine.pm" +
+      "_ModifyPChAccResForGroup_Ad.Response\"\0000\001" +
+      "\022\220\001\n\034pm_ModifyPChAccResForUser_Ad\0226.dsto" +
+      "re.engine.pm_ModifyPChAccResForUser_Ad.P" +
+      "arameters\0324.dstore.engine.pm_ModifyPChAc" +
+      "cResForUser_Ad.Response\"\0000\001\022\226\001\n\036pm_Modif" +
+      "yPeriodsForPredVals_Ad\0228.dstore.engine.p" +
+      "m_ModifyPeriodsForPredVals_Ad.Parameters",
+      "\0326.dstore.engine.pm_ModifyPeriodsForPred" +
+      "Vals_Ad.Response\"\0000\001\022\220\001\n\034pm_ModifyPerson" +
+      "CharacCats_Ad\0226.dstore.engine.pm_ModifyP" +
+      "ersonCharacCats_Ad.Parameters\0324.dstore.e" +
+      "ngine.pm_ModifyPersonCharacCats_Ad.Respo" +
+      "nse\"\0000\001\022\223\001\n\035pm_ModifyPersonCharacDescr_A" +
+      "d\0227.dstore.engine.pm_ModifyPersonCharacD" +
+      "escr_Ad.Parameters\0325.dstore.engine.pm_Mo" +
+      "difyPersonCharacDescr_Ad.Response\"\0000\001\022\226\001" +
+      "\n\036pm_ModifyPersonCharacsInCat_Ad\0228.dstor",
+      "e.engine.pm_ModifyPersonCharacsInCat_Ad." +
+      "Parameters\0326.dstore.engine.pm_ModifyPers" +
+      "onCharacsInCat_Ad.Response\"\0000\001\022\207\001\n\031pm_Mo" +
+      "difyPersonCharacs_Ad\0223.dstore.engine.pm_" +
+      "ModifyPersonCharacs_Ad.Parameters\0321.dsto" +
+      "re.engine.pm_ModifyPersonCharacs_Ad.Resp" +
+      "onse\"\0000\001\022~\n\026pm_ModifyPersonData_Ad\0220.dst" +
+      "ore.engine.pm_ModifyPersonData_Ad.Parame" +
+      "ters\032..dstore.engine.pm_ModifyPersonData" +
+      "_Ad.Response\"\0000\001\022~\n\026pm_ModifyPersonData_",
+      "Pu\0220.dstore.engine.pm_ModifyPersonData_P" +
+      "u.Parameters\032..dstore.engine.pm_ModifyPe" +
+      "rsonData_Pu.Response\"\0000\001\022\207\001\n\031pm_ModifyPe" +
+      "rsonDetails_Ad\0223.dstore.engine.pm_Modify" +
+      "PersonDetails_Ad.Parameters\0321.dstore.eng" +
+      "ine.pm_ModifyPersonDetails_Ad.Response\"\000" +
+      "0\001\022\207\001\n\031pm_ModifyPersonDetails_Pu\0223.dstor" +
+      "e.engine.pm_ModifyPersonDetails_Pu.Param" +
+      "eters\0321.dstore.engine.pm_ModifyPersonDet" +
+      "ails_Pu.Response\"\0000\001\022\220\001\n\034pm_ModifyPerson",
+      "PredefVals_Ad\0226.dstore.engine.pm_ModifyP" +
+      "ersonPredefVals_Ad.Parameters\0324.dstore.e" +
+      "ngine.pm_ModifyPersonPredefVals_Ad.Respo" +
+      "nse\"\0000\001\022\226\001\n\036pm_ModifyPersonRelationship_" +
+      "Ad\0228.dstore.engine.pm_ModifyPersonRelati" +
+      "onship_Ad.Parameters\0326.dstore.engine.pm_" +
+      "ModifyPersonRelationship_Ad.Response\"\0000\001" +
+      "\022\226\001\n\036pm_ModifyPersonRelationship_Pu\0228.ds" +
+      "tore.engine.pm_ModifyPersonRelationship_" +
+      "Pu.Parameters\0326.dstore.engine.pm_ModifyP",
+      "ersonRelationship_Pu.Response\"\0000\001\022\226\001\n\036pm" +
+      "_ModifyPersonTypeSettings_Ad\0228.dstore.en" +
+      "gine.pm_ModifyPersonTypeSettings_Ad.Para" +
+      "meters\0326.dstore.engine.pm_ModifyPersonTy" +
+      "peSettings_Ad.Response\"\0000\001\022\201\001\n\027pm_Modify" +
+      "PersonTypes_Ad\0221.dstore.engine.pm_Modify" +
+      "PersonTypes_Ad.Parameters\032/.dstore.engin" +
+      "e.pm_ModifyPersonTypes_Ad.Response\"\0000\001\022\215" +
+      "\001\n\033pm_ModifyPersonsInGroups_Ad\0225.dstore." +
+      "engine.pm_ModifyPersonsInGroups_Ad.Param",
+      "eters\0323.dstore.engine.pm_ModifyPersonsIn" +
+      "Groups_Ad.Response\"\0000\001\022\223\001\n\035pm_ModifyRela" +
+      "tionshipSetts_Ad\0227.dstore.engine.pm_Modi" +
+      "fyRelationshipSetts_Ad.Parameters\0325.dsto" +
+      "re.engine.pm_ModifyRelationshipSetts_Ad." +
+      "Response\"\0000\001\022\207\001\n\031pm_ModifyRelationships_" +
+      "Ad\0223.dstore.engine.pm_ModifyRelationship" +
+      "s_Ad.Parameters\0321.dstore.engine.pm_Modif" +
+      "yRelationships_Ad.Response\"\0000\001\022\215\001\n\033pm_Mo" +
+      "vePersonCharacValue_Ad\0225.dstore.engine.p",
+      "m_MovePersonCharacValue_Ad.Parameters\0323." +
+      "dstore.engine.pm_MovePersonCharacValue_A" +
+      "d.Response\"\0000\001\022\212\001\n\032pm_PostleitzahlenZumO" +
+      "rt_Pu\0224.dstore.engine.pm_PostleitzahlenZ" +
+      "umOrt_Pu.Parameters\0322.dstore.engine.pm_P" +
+      "ostleitzahlenZumOrt_Pu.Response\"\0000\001\022\223\001\n\035" +
+      "pm_PrioritizeARelationship_Pu\0227.dstore.e" +
+      "ngine.pm_PrioritizeARelationship_Pu.Para" +
+      "meters\0325.dstore.engine.pm_PrioritizeARel" +
+      "ationship_Pu.Response\"\0000\001\022{\n\025pm_RemoveDu",
+      "plicate_Ad\022/.dstore.engine.pm_RemoveDupl" +
+      "icate_Ad.Parameters\032-.dstore.engine.pm_R" +
+      "emoveDuplicate_Ad.Response\"\0000\001\022\226\001\n\036pm_Re" +
+      "movePossibleDuplicates_Ad\0228.dstore.engin" +
+      "e.pm_RemovePossibleDuplicates_Ad.Paramet" +
+      "ers\0326.dstore.engine.pm_RemovePossibleDup" +
+      "licates_Ad.Response\"\0000\001\022\220\001\n\034pm_SetProper" +
+      "tyOfOnePerson_Pu\0226.dstore.engine.pm_SetP" +
+      "ropertyOfOnePerson_Pu.Parameters\0324.dstor" +
+      "e.engine.pm_SetPropertyOfOnePerson_Pu.Re",
+      "sponse\"\0000\001\022\226\001\n\036pm_UpdatePossibleDuplicat" +
+      "es_Ad\0228.dstore.engine.pm_UpdatePossibleD" +
+      "uplicates_Ad.Parameters\0326.dstore.engine." +
+      "pm_UpdatePossibleDuplicates_Ad.Response\"" +
+      "\0000\001\022\201\001\n\027st_CopyFromOLTPtoDSS_Ad\0221.dstore" +
+      ".engine.st_CopyFromOLTPtoDSS_Ad.Paramete" +
+      "rs\032/.dstore.engine.st_CopyFromOLTPtoDSS_" +
+      "Ad.Response\"\0000\001\022\223\001\n\035st_GetBasicCharacter" +
+      "istics_Ad\0227.dstore.engine.st_GetBasicCha" +
+      "racteristics_Ad.Parameters\0325.dstore.engi",
+      "ne.st_GetBasicCharacteristics_Ad.Respons" +
+      "e\"\0000\001\022x\n\024st_GetClickStream_Ad\022..dstore.e" +
+      "ngine.st_GetClickStream_Ad.Parameters\032,." +
+      "dstore.engine.st_GetClickStream_Ad.Respo" +
+      "nse\"\0000\001\022\220\001\n\034st_GetDSS_Index_Frequency_Ad" +
+      "\0226.dstore.engine.st_GetDSS_Index_Frequen" +
+      "cy_Ad.Parameters\0324.dstore.engine.st_GetD" +
+      "SS_Index_Frequency_Ad.Response\"\0000\001\022\204\001\n\030s" +
+      "t_GetDSS_Index_Trend_Ad\0222.dstore.engine." +
+      "st_GetDSS_Index_Trend_Ad.Parameters\0320.ds",
+      "tore.engine.st_GetDSS_Index_Trend_Ad.Res" +
+      "ponse\"\0000\001\022\226\001\n\036st_GetDirectSuccessors_Tre" +
+      "e_Ad\0228.dstore.engine.st_GetDirectSuccess" +
+      "ors_Tree_Ad.Parameters\0326.dstore.engine.s" +
+      "t_GetDirectSuccessors_Tree_Ad.Response\"\000" +
+      "0\001\022\220\001\n\034st_GetHTreeNodeStatistics_Ad\0226.ds" +
+      "tore.engine.st_GetHTreeNodeStatistics_Ad" +
+      ".Parameters\0324.dstore.engine.st_GetHTreeN" +
+      "odeStatistics_Ad.Response\"\0000\001\022{\n\025st_GetP" +
+      "HStatistics_Ad\022/.dstore.engine.st_GetPHS",
+      "tatistics_Ad.Parameters\032-.dstore.engine." +
+      "st_GetPHStatistics_Ad.Response\"\0000\001\022\201\001\n\027s" +
+      "t_GetPageCategories_Ad\0221.dstore.engine.s" +
+      "t_GetPageCategories_Ad.Parameters\032/.dsto" +
+      "re.engine.st_GetPageCategories_Ad.Respon" +
+      "se\"\0000\001\022u\n\023st_GetPageVisits_Ad\022-.dstore.e" +
+      "ngine.st_GetPageVisits_Ad.Parameters\032+.d" +
+      "store.engine.st_GetPageVisits_Ad.Respons" +
+      "e\"\0000\001\022\212\001\n\032st_GetPagesInCategories_Ad\0224.d" +
+      "store.engine.st_GetPagesInCategories_Ad.",
+      "Parameters\0322.dstore.engine.st_GetPagesIn" +
+      "Categories_Ad.Response\"\0000\001\022f\n\016st_GetPage" +
+      "s_Ad\022(.dstore.engine.st_GetPages_Ad.Para" +
+      "meters\032&.dstore.engine.st_GetPages_Ad.Re" +
+      "sponse\"\0000\001\022\215\001\n\033st_GetPeriodsToKeepStats_" +
+      "Ad\0225.dstore.engine.st_GetPeriodsToKeepSt" +
+      "ats_Ad.Parameters\0323.dstore.engine.st_Get" +
+      "PeriodsToKeepStats_Ad.Response\"\0000\001\022\215\001\n\033s" +
+      "t_GetPersonPDStatistics_Ad\0225.dstore.engi" +
+      "ne.st_GetPersonPDStatistics_Ad.Parameter",
+      "s\0323.dstore.engine.st_GetPersonPDStatisti" +
+      "cs_Ad.Response\"\0000\001\022\215\001\n\033st_GetPersonPMSta" +
+      "tistics_Ad\0225.dstore.engine.st_GetPersonP" +
+      "MStatistics_Ad.Parameters\0323.dstore.engin" +
+      "e.st_GetPersonPMStatistics_Ad.Response\"\000" +
+      "0\001\022\220\001\n\034st_GetSales_ByInformation_Ad\0226.ds" +
+      "tore.engine.st_GetSales_ByInformation_Ad" +
+      ".Parameters\0324.dstore.engine.st_GetSales_" +
+      "ByInformation_Ad.Response\"\0000\001\022\223\001\n\035st_Get" +
+      "TreeNodePDStatistics_Ad\0227.dstore.engine.",
+      "st_GetTreeNodePDStatistics_Ad.Parameters" +
+      "\0325.dstore.engine.st_GetTreeNodePDStatist" +
+      "ics_Ad.Response\"\0000\001\022\223\001\n\035st_GetTreeNodePM" +
+      "Statistics_Ad\0227.dstore.engine.st_GetTree" +
+      "NodePMStatistics_Ad.Parameters\0325.dstore." +
+      "engine.st_GetTreeNodePMStatistics_Ad.Res" +
+      "ponse\"\0000\001\022\223\001\n\035st_GetTreeNodePWStatistics" +
+      "_Ad\0227.dstore.engine.st_GetTreeNodePWStat" +
+      "istics_Ad.Parameters\0325.dstore.engine.st_" +
+      "GetTreeNodePWStatistics_Ad.Response\"\0000\001\022",
+      "\226\001\n\036st_GetVisitorInfoStatistics_Ad\0228.dst" +
+      "ore.engine.st_GetVisitorInfoStatistics_A" +
+      "d.Parameters\0326.dstore.engine.st_GetVisit" +
+      "orInfoStatistics_Ad.Response\"\0000\001\022\215\001\n\033st_" +
+      "GetVisitorInformation_Ad\0225.dstore.engine" +
+      ".st_GetVisitorInformation_Ad.Parameters\032" +
+      "3.dstore.engine.st_GetVisitorInformation" +
+      "_Ad.Response\"\0000\001\022\201\001\n\027st_GetVisitorPerson" +
+      "s_Ad\0221.dstore.engine.st_GetVisitorPerson" +
+      "s_Ad.Parameters\032/.dstore.engine.st_GetVi",
+      "sitorPersons_Ad.Response\"\0000\001\022i\n\017st_GetVi" +
+      "sits_Ad\022).dstore.engine.st_GetVisits_Ad." +
+      "Parameters\032\'.dstore.engine.st_GetVisits_" +
+      "Ad.Response\"\0000\001\022u\n\023st_InsertPageHit_Pu\022-" +
+      ".dstore.engine.st_InsertPageHit_Pu.Param" +
+      "eters\032+.dstore.engine.st_InsertPageHit_P" +
+      "u.Response\"\0000\001\022\204\001\n\030st_InsertTreeNodeHits" +
+      "_Pu\0222.dstore.engine.st_InsertTreeNodeHit" +
+      "s_Pu.Parameters\0320.dstore.engine.st_Inser" +
+      "tTreeNodeHits_Pu.Response\"\0000\001\022u\n\023st_LogP",
+      "ageVisits_Pu\022-.dstore.engine.st_LogPageV" +
+      "isits_Pu.Parameters\032+.dstore.engine.st_L" +
+      "ogPageVisits_Pu.Response\"\0000\001\022\212\001\n\032st_Modi" +
+      "fyPageCategories_Ad\0224.dstore.engine.st_M" +
+      "odifyPageCategories_Ad.Parameters\0322.dsto" +
+      "re.engine.st_ModifyPageCategories_Ad.Res" +
+      "ponse\"\0000\001\022\223\001\n\035st_ModifyPagesInCategories" +
+      "_Ad\0227.dstore.engine.st_ModifyPagesInCate" +
+      "gories_Ad.Parameters\0325.dstore.engine.st_" +
+      "ModifyPagesInCategories_Ad.Response\"\0000\001\022",
+      "o\n\021st_ModifyPages_Ad\022+.dstore.engine.st_" +
+      "ModifyPages_Ad.Parameters\032).dstore.engin" +
+      "e.st_ModifyPages_Ad.Response\"\0000\001\022\226\001\n\036st_" +
+      "ModifyPeriodsToKeepStats_Ad\0228.dstore.eng" +
+      "ine.st_ModifyPeriodsToKeepStats_Ad.Param" +
+      "eters\0326.dstore.engine.st_ModifyPeriodsTo" +
+      "KeepStats_Ad.Response\"\0000\001\022~\n\026st_UpdateSt" +
+      "atistics_Ad\0220.dstore.engine.st_UpdateSta" +
+      "tistics_Ad.Parameters\032..dstore.engine.st" +
+      "_UpdateStatistics_Ad.Response\"\0000\001B\022\n\020io.",
+      "dstore.engineb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

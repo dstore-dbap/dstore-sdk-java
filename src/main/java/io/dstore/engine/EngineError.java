@@ -3,15 +3,15 @@
 
 package io.dstore.engine;
 
-public final class ProcedureError {
-  private ProcedureError() {}
+public final class EngineError {
+  private EngineError() {}
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistry registry) {
   }
   /**
-   * Protobuf enum {@code dstore.engine.error.ErrorTypes}
+   * Protobuf enum {@code dstore.engine.error.Types}
    */
-  public enum ErrorTypes
+  public enum Types
       implements com.google.protobuf.ProtocolMessageEnum {
     /**
      * <code>UNKOWN = 0;</code>
@@ -42,7 +42,7 @@ public final class ProcedureError {
       return value;
     }
 
-    public static ErrorTypes valueOf(int value) {
+    public static Types valueOf(int value) {
       switch (value) {
         case 0: return UNKOWN;
         case 1: return RETURN_STATUS_NOT_ZERO;
@@ -50,15 +50,15 @@ public final class ProcedureError {
       }
     }
 
-    public static com.google.protobuf.Internal.EnumLiteMap<ErrorTypes>
+    public static com.google.protobuf.Internal.EnumLiteMap<Types>
         internalGetValueMap() {
       return internalValueMap;
     }
-    private static com.google.protobuf.Internal.EnumLiteMap<ErrorTypes>
+    private static com.google.protobuf.Internal.EnumLiteMap<Types>
         internalValueMap =
-          new com.google.protobuf.Internal.EnumLiteMap<ErrorTypes>() {
-            public ErrorTypes findValueByNumber(int number) {
-              return ErrorTypes.valueOf(number);
+          new com.google.protobuf.Internal.EnumLiteMap<Types>() {
+            public Types findValueByNumber(int number) {
+              return Types.valueOf(number);
             }
           };
 
@@ -72,12 +72,12 @@ public final class ProcedureError {
     }
     public static final com.google.protobuf.Descriptors.EnumDescriptor
         getDescriptor() {
-      return io.dstore.engine.ProcedureError.getDescriptor().getEnumTypes().get(0);
+      return io.dstore.engine.EngineError.getDescriptor().getEnumTypes().get(0);
     }
 
-    private static final ErrorTypes[] VALUES = values();
+    private static final Types[] VALUES = values();
 
-    public static ErrorTypes valueOf(
+    public static Types valueOf(
         com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
       if (desc.getType() != getDescriptor()) {
         throw new java.lang.IllegalArgumentException(
@@ -92,12 +92,12 @@ public final class ProcedureError {
     private final int index;
     private final int value;
 
-    private ErrorTypes(int index, int value) {
+    private Types(int index, int value) {
       this.index = index;
       this.value = value;
     }
 
-    // @@protoc_insertion_point(enum_scope:dstore.engine.error.ErrorTypes)
+    // @@protoc_insertion_point(enum_scope:dstore.engine.error.Types)
   }
 
   public interface ErrorOrBuilder extends
@@ -105,13 +105,13 @@ public final class ProcedureError {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.error.ErrorTypes error = 1;</code>
+     * <code>optional .dstore.engine.error.Types type = 1;</code>
      */
-    int getErrorValue();
+    int getTypeValue();
     /**
-     * <code>optional .dstore.engine.error.ErrorTypes error = 1;</code>
+     * <code>optional .dstore.engine.error.Types type = 1;</code>
      */
-    io.dstore.engine.ProcedureError.ErrorTypes getError();
+    io.dstore.engine.EngineError.Types getType();
 
     /**
      * <code>optional int32 code = 2;</code>
@@ -150,7 +150,7 @@ public final class ProcedureError {
       super(builder);
     }
     private Error() {
-      error_ = 0;
+      type_ = 0;
       code_ = 0;
       message_ = "";
       details_ = "";
@@ -183,7 +183,7 @@ public final class ProcedureError {
             case 8: {
               int rawValue = input.readEnum();
 
-              error_ = rawValue;
+              type_ = rawValue;
               break;
             }
             case 16: {
@@ -217,30 +217,30 @@ public final class ProcedureError {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.engine.ProcedureError.internal_static_dstore_engine_error_Error_descriptor;
+      return io.dstore.engine.EngineError.internal_static_dstore_engine_error_Error_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.engine.ProcedureError.internal_static_dstore_engine_error_Error_fieldAccessorTable
+      return io.dstore.engine.EngineError.internal_static_dstore_engine_error_Error_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              io.dstore.engine.ProcedureError.Error.class, io.dstore.engine.ProcedureError.Error.Builder.class);
+              io.dstore.engine.EngineError.Error.class, io.dstore.engine.EngineError.Error.Builder.class);
     }
 
-    public static final int ERROR_FIELD_NUMBER = 1;
-    private int error_;
+    public static final int TYPE_FIELD_NUMBER = 1;
+    private int type_;
     /**
-     * <code>optional .dstore.engine.error.ErrorTypes error = 1;</code>
+     * <code>optional .dstore.engine.error.Types type = 1;</code>
      */
-    public int getErrorValue() {
-      return error_;
+    public int getTypeValue() {
+      return type_;
     }
     /**
-     * <code>optional .dstore.engine.error.ErrorTypes error = 1;</code>
+     * <code>optional .dstore.engine.error.Types type = 1;</code>
      */
-    public io.dstore.engine.ProcedureError.ErrorTypes getError() {
-      io.dstore.engine.ProcedureError.ErrorTypes result = io.dstore.engine.ProcedureError.ErrorTypes.valueOf(error_);
-      return result == null ? io.dstore.engine.ProcedureError.ErrorTypes.UNRECOGNIZED : result;
+    public io.dstore.engine.EngineError.Types getType() {
+      io.dstore.engine.EngineError.Types result = io.dstore.engine.EngineError.Types.valueOf(type_);
+      return result == null ? io.dstore.engine.EngineError.Types.UNRECOGNIZED : result;
     }
 
     public static final int CODE_FIELD_NUMBER = 2;
@@ -336,8 +336,8 @@ public final class ProcedureError {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (error_ != io.dstore.engine.ProcedureError.ErrorTypes.UNKOWN.getNumber()) {
-        output.writeEnum(1, error_);
+      if (type_ != io.dstore.engine.EngineError.Types.UNKOWN.getNumber()) {
+        output.writeEnum(1, type_);
       }
       if (code_ != 0) {
         output.writeInt32(2, code_);
@@ -356,9 +356,9 @@ public final class ProcedureError {
       if (size != -1) return size;
 
       size = 0;
-      if (error_ != io.dstore.engine.ProcedureError.ErrorTypes.UNKOWN.getNumber()) {
+      if (type_ != io.dstore.engine.EngineError.Types.UNKOWN.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(1, error_);
+          .computeEnumSize(1, type_);
       }
       if (code_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -377,53 +377,53 @@ public final class ProcedureError {
     }
 
     private static final long serialVersionUID = 0L;
-    public static io.dstore.engine.ProcedureError.Error parseFrom(
+    public static io.dstore.engine.EngineError.Error parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.dstore.engine.ProcedureError.Error parseFrom(
+    public static io.dstore.engine.EngineError.Error parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.dstore.engine.ProcedureError.Error parseFrom(byte[] data)
+    public static io.dstore.engine.EngineError.Error parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.dstore.engine.ProcedureError.Error parseFrom(
+    public static io.dstore.engine.EngineError.Error parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.dstore.engine.ProcedureError.Error parseFrom(java.io.InputStream input)
+    public static io.dstore.engine.EngineError.Error parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.dstore.engine.ProcedureError.Error parseFrom(
+    public static io.dstore.engine.EngineError.Error parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseFrom(input, extensionRegistry);
     }
-    public static io.dstore.engine.ProcedureError.Error parseDelimitedFrom(java.io.InputStream input)
+    public static io.dstore.engine.EngineError.Error parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input);
     }
-    public static io.dstore.engine.ProcedureError.Error parseDelimitedFrom(
+    public static io.dstore.engine.EngineError.Error parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input, extensionRegistry);
     }
-    public static io.dstore.engine.ProcedureError.Error parseFrom(
+    public static io.dstore.engine.EngineError.Error parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.dstore.engine.ProcedureError.Error parseFrom(
+    public static io.dstore.engine.EngineError.Error parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -434,7 +434,7 @@ public final class ProcedureError {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(io.dstore.engine.ProcedureError.Error prototype) {
+    public static Builder newBuilder(io.dstore.engine.EngineError.Error prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() {
@@ -454,20 +454,20 @@ public final class ProcedureError {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:dstore.engine.error.Error)
-        io.dstore.engine.ProcedureError.ErrorOrBuilder {
+        io.dstore.engine.EngineError.ErrorOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.engine.ProcedureError.internal_static_dstore_engine_error_Error_descriptor;
+        return io.dstore.engine.EngineError.internal_static_dstore_engine_error_Error_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.engine.ProcedureError.internal_static_dstore_engine_error_Error_fieldAccessorTable
+        return io.dstore.engine.EngineError.internal_static_dstore_engine_error_Error_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                io.dstore.engine.ProcedureError.Error.class, io.dstore.engine.ProcedureError.Error.Builder.class);
+                io.dstore.engine.EngineError.Error.class, io.dstore.engine.EngineError.Error.Builder.class);
       }
 
-      // Construct using io.dstore.engine.ProcedureError.Error.newBuilder()
+      // Construct using io.dstore.engine.EngineError.Error.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -483,7 +483,7 @@ public final class ProcedureError {
       }
       public Builder clear() {
         super.clear();
-        error_ = 0;
+        type_ = 0;
 
         code_ = 0;
 
@@ -496,24 +496,24 @@ public final class ProcedureError {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.dstore.engine.ProcedureError.internal_static_dstore_engine_error_Error_descriptor;
+        return io.dstore.engine.EngineError.internal_static_dstore_engine_error_Error_descriptor;
       }
 
-      public io.dstore.engine.ProcedureError.Error getDefaultInstanceForType() {
-        return io.dstore.engine.ProcedureError.Error.getDefaultInstance();
+      public io.dstore.engine.EngineError.Error getDefaultInstanceForType() {
+        return io.dstore.engine.EngineError.Error.getDefaultInstance();
       }
 
-      public io.dstore.engine.ProcedureError.Error build() {
-        io.dstore.engine.ProcedureError.Error result = buildPartial();
+      public io.dstore.engine.EngineError.Error build() {
+        io.dstore.engine.EngineError.Error result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public io.dstore.engine.ProcedureError.Error buildPartial() {
-        io.dstore.engine.ProcedureError.Error result = new io.dstore.engine.ProcedureError.Error(this);
-        result.error_ = error_;
+      public io.dstore.engine.EngineError.Error buildPartial() {
+        io.dstore.engine.EngineError.Error result = new io.dstore.engine.EngineError.Error(this);
+        result.type_ = type_;
         result.code_ = code_;
         result.message_ = message_;
         result.details_ = details_;
@@ -522,18 +522,18 @@ public final class ProcedureError {
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof io.dstore.engine.ProcedureError.Error) {
-          return mergeFrom((io.dstore.engine.ProcedureError.Error)other);
+        if (other instanceof io.dstore.engine.EngineError.Error) {
+          return mergeFrom((io.dstore.engine.EngineError.Error)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(io.dstore.engine.ProcedureError.Error other) {
-        if (other == io.dstore.engine.ProcedureError.Error.getDefaultInstance()) return this;
-        if (other.error_ != 0) {
-          setErrorValue(other.getErrorValue());
+      public Builder mergeFrom(io.dstore.engine.EngineError.Error other) {
+        if (other == io.dstore.engine.EngineError.Error.getDefaultInstance()) return this;
+        if (other.type_ != 0) {
+          setTypeValue(other.getTypeValue());
         }
         if (other.getCode() != 0) {
           setCode(other.getCode());
@@ -558,11 +558,11 @@ public final class ProcedureError {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        io.dstore.engine.ProcedureError.Error parsedMessage = null;
+        io.dstore.engine.EngineError.Error parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (io.dstore.engine.ProcedureError.Error) e.getUnfinishedMessage();
+          parsedMessage = (io.dstore.engine.EngineError.Error) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -572,46 +572,46 @@ public final class ProcedureError {
         return this;
       }
 
-      private int error_ = 0;
+      private int type_ = 0;
       /**
-       * <code>optional .dstore.engine.error.ErrorTypes error = 1;</code>
+       * <code>optional .dstore.engine.error.Types type = 1;</code>
        */
-      public int getErrorValue() {
-        return error_;
+      public int getTypeValue() {
+        return type_;
       }
       /**
-       * <code>optional .dstore.engine.error.ErrorTypes error = 1;</code>
+       * <code>optional .dstore.engine.error.Types type = 1;</code>
        */
-      public Builder setErrorValue(int value) {
-        error_ = value;
+      public Builder setTypeValue(int value) {
+        type_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional .dstore.engine.error.ErrorTypes error = 1;</code>
+       * <code>optional .dstore.engine.error.Types type = 1;</code>
        */
-      public io.dstore.engine.ProcedureError.ErrorTypes getError() {
-        io.dstore.engine.ProcedureError.ErrorTypes result = io.dstore.engine.ProcedureError.ErrorTypes.valueOf(error_);
-        return result == null ? io.dstore.engine.ProcedureError.ErrorTypes.UNRECOGNIZED : result;
+      public io.dstore.engine.EngineError.Types getType() {
+        io.dstore.engine.EngineError.Types result = io.dstore.engine.EngineError.Types.valueOf(type_);
+        return result == null ? io.dstore.engine.EngineError.Types.UNRECOGNIZED : result;
       }
       /**
-       * <code>optional .dstore.engine.error.ErrorTypes error = 1;</code>
+       * <code>optional .dstore.engine.error.Types type = 1;</code>
        */
-      public Builder setError(io.dstore.engine.ProcedureError.ErrorTypes value) {
+      public Builder setType(io.dstore.engine.EngineError.Types value) {
         if (value == null) {
           throw new NullPointerException();
         }
         
-        error_ = value.getNumber();
+        type_ = value.getNumber();
         onChanged();
         return this;
       }
       /**
-       * <code>optional .dstore.engine.error.ErrorTypes error = 1;</code>
+       * <code>optional .dstore.engine.error.Types type = 1;</code>
        */
-      public Builder clearError() {
+      public Builder clearType() {
         
-        error_ = 0;
+        type_ = 0;
         onChanged();
         return this;
       }
@@ -796,12 +796,12 @@ public final class ProcedureError {
     }
 
     // @@protoc_insertion_point(class_scope:dstore.engine.error.Error)
-    private static final io.dstore.engine.ProcedureError.Error DEFAULT_INSTANCE;
+    private static final io.dstore.engine.EngineError.Error DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new io.dstore.engine.ProcedureError.Error();
+      DEFAULT_INSTANCE = new io.dstore.engine.EngineError.Error();
     }
 
-    public static io.dstore.engine.ProcedureError.Error getDefaultInstance() {
+    public static io.dstore.engine.EngineError.Error getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -833,7 +833,7 @@ public final class ProcedureError {
       return PARSER;
     }
 
-    public io.dstore.engine.ProcedureError.Error getDefaultInstanceForType() {
+    public io.dstore.engine.EngineError.Error getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -854,12 +854,11 @@ public final class ProcedureError {
   static {
     java.lang.String[] descriptorData = {
       "\n\031dstore/engine/error.proto\022\023dstore.engi" +
-      "ne.error\"g\n\005Error\022.\n\005error\030\001 \001(\0162\037.dstor" +
-      "e.engine.error.ErrorTypes\022\014\n\004code\030\002 \001(\005\022" +
-      "\017\n\007message\030\003 \001(\t\022\017\n\007details\030\004 \001(\t*4\n\nErr" +
-      "orTypes\022\n\n\006UNKOWN\020\000\022\032\n\026RETURN_STATUS_NOT" +
-      "_ZERO\020\001B\"\n\020io.dstore.engineB\016ProcedureEr" +
-      "rorb\006proto3"
+      "ne.error\"a\n\005Error\022(\n\004type\030\001 \001(\0162\032.dstore" +
+      ".engine.error.Types\022\014\n\004code\030\002 \001(\005\022\017\n\007mes" +
+      "sage\030\003 \001(\t\022\017\n\007details\030\004 \001(\t*/\n\005Types\022\n\n\006" +
+      "UNKOWN\020\000\022\032\n\026RETURN_STATUS_NOT_ZERO\020\001B\037\n\020" +
+      "io.dstore.engineB\013EngineErrorb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -878,7 +877,7 @@ public final class ProcedureError {
     internal_static_dstore_engine_error_Error_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_error_Error_descriptor,
-        new java.lang.String[] { "Error", "Code", "Message", "Details", });
+        new java.lang.String[] { "Type", "Code", "Message", "Details", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

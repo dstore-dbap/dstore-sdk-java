@@ -824,11 +824,11 @@ public final class OmGetCampaignItemCondPartsAd {
     /**
      * <code>optional .dstore.engine.error.Error error = 1;</code>
      */
-    io.dstore.engine.ProcedureError.Error getError();
+    io.dstore.engine.EngineError.Error getError();
     /**
      * <code>optional .dstore.engine.error.Error error = 1;</code>
      */
-    io.dstore.engine.ProcedureError.ErrorOrBuilder getErrorOrBuilder();
+    io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
 
     /**
      * <code>repeated .dstore.engine.message.Message message = 3;</code>
@@ -939,11 +939,11 @@ public final class OmGetCampaignItemCondPartsAd {
               break;
             }
             case 10: {
-              io.dstore.engine.ProcedureError.Error.Builder subBuilder = null;
+              io.dstore.engine.EngineError.Error.Builder subBuilder = null;
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.ProcedureError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -6275,7 +6275,7 @@ public final class OmGetCampaignItemCondPartsAd {
 
     private int bitField0_;
     public static final int ERROR_FIELD_NUMBER = 1;
-    private io.dstore.engine.ProcedureError.Error error_;
+    private io.dstore.engine.EngineError.Error error_;
     /**
      * <code>optional .dstore.engine.error.Error error = 1;</code>
      */
@@ -6285,13 +6285,13 @@ public final class OmGetCampaignItemCondPartsAd {
     /**
      * <code>optional .dstore.engine.error.Error error = 1;</code>
      */
-    public io.dstore.engine.ProcedureError.Error getError() {
-      return error_ == null ? io.dstore.engine.ProcedureError.Error.getDefaultInstance() : error_;
+    public io.dstore.engine.EngineError.Error getError() {
+      return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
     }
     /**
      * <code>optional .dstore.engine.error.Error error = 1;</code>
      */
-    public io.dstore.engine.ProcedureError.ErrorOrBuilder getErrorOrBuilder() {
+    public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
       return getError();
     }
 
@@ -6702,9 +6702,9 @@ public final class OmGetCampaignItemCondPartsAd {
       }
       private int bitField0_;
 
-      private io.dstore.engine.ProcedureError.Error error_ = null;
+      private io.dstore.engine.EngineError.Error error_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.ProcedureError.Error, io.dstore.engine.ProcedureError.Error.Builder, io.dstore.engine.ProcedureError.ErrorOrBuilder> errorBuilder_;
+          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> errorBuilder_;
       /**
        * <code>optional .dstore.engine.error.Error error = 1;</code>
        */
@@ -6714,9 +6714,9 @@ public final class OmGetCampaignItemCondPartsAd {
       /**
        * <code>optional .dstore.engine.error.Error error = 1;</code>
        */
-      public io.dstore.engine.ProcedureError.Error getError() {
+      public io.dstore.engine.EngineError.Error getError() {
         if (errorBuilder_ == null) {
-          return error_ == null ? io.dstore.engine.ProcedureError.Error.getDefaultInstance() : error_;
+          return error_ == null ? io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
         } else {
           return errorBuilder_.getMessage();
         }
@@ -6724,7 +6724,7 @@ public final class OmGetCampaignItemCondPartsAd {
       /**
        * <code>optional .dstore.engine.error.Error error = 1;</code>
        */
-      public Builder setError(io.dstore.engine.ProcedureError.Error value) {
+      public Builder setError(io.dstore.engine.EngineError.Error value) {
         if (errorBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -6741,7 +6741,7 @@ public final class OmGetCampaignItemCondPartsAd {
        * <code>optional .dstore.engine.error.Error error = 1;</code>
        */
       public Builder setError(
-          io.dstore.engine.ProcedureError.Error.Builder builderForValue) {
+          io.dstore.engine.EngineError.Error.Builder builderForValue) {
         if (errorBuilder_ == null) {
           error_ = builderForValue.build();
           onChanged();
@@ -6754,11 +6754,11 @@ public final class OmGetCampaignItemCondPartsAd {
       /**
        * <code>optional .dstore.engine.error.Error error = 1;</code>
        */
-      public Builder mergeError(io.dstore.engine.ProcedureError.Error value) {
+      public Builder mergeError(io.dstore.engine.EngineError.Error value) {
         if (errorBuilder_ == null) {
           if (error_ != null) {
             error_ =
-              io.dstore.engine.ProcedureError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
+              io.dstore.engine.EngineError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
           } else {
             error_ = value;
           }
@@ -6786,7 +6786,7 @@ public final class OmGetCampaignItemCondPartsAd {
       /**
        * <code>optional .dstore.engine.error.Error error = 1;</code>
        */
-      public io.dstore.engine.ProcedureError.Error.Builder getErrorBuilder() {
+      public io.dstore.engine.EngineError.Error.Builder getErrorBuilder() {
         
         onChanged();
         return getErrorFieldBuilder().getBuilder();
@@ -6794,23 +6794,23 @@ public final class OmGetCampaignItemCondPartsAd {
       /**
        * <code>optional .dstore.engine.error.Error error = 1;</code>
        */
-      public io.dstore.engine.ProcedureError.ErrorOrBuilder getErrorOrBuilder() {
+      public io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder() {
         if (errorBuilder_ != null) {
           return errorBuilder_.getMessageOrBuilder();
         } else {
           return error_ == null ?
-              io.dstore.engine.ProcedureError.Error.getDefaultInstance() : error_;
+              io.dstore.engine.EngineError.Error.getDefaultInstance() : error_;
         }
       }
       /**
        * <code>optional .dstore.engine.error.Error error = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.ProcedureError.Error, io.dstore.engine.ProcedureError.Error.Builder, io.dstore.engine.ProcedureError.ErrorOrBuilder> 
+          io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder> 
           getErrorFieldBuilder() {
         if (errorBuilder_ == null) {
           errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.ProcedureError.Error, io.dstore.engine.ProcedureError.Error.Builder, io.dstore.engine.ProcedureError.ErrorOrBuilder>(
+              io.dstore.engine.EngineError.Error, io.dstore.engine.EngineError.Error.Builder, io.dstore.engine.EngineError.ErrorOrBuilder>(
                   getError(),
                   getParentForChildren(),
                   isClean());
@@ -7513,7 +7513,7 @@ public final class OmGetCampaignItemCondPartsAd {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.engine.Values.getDescriptor(),
-          io.dstore.engine.ProcedureError.getDescriptor(),
+          io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetCampaignItemCondParts_Ad_Parameters_descriptor =
@@ -7535,7 +7535,7 @@ public final class OmGetCampaignItemCondPartsAd {
         internal_static_dstore_engine_om_GetCampaignItemCondParts_Ad_Response_Row_descriptor,
         new java.lang.String[] { "RowId", "Operator1", "Condition1", "Condition2", "Operator2", "RecursiveEvaluation", "DomainTreeNodeIds", "NodeCharacteristicId", "ItemConditionPartId", "ExtendedItemCondPartDescr", "MinNumberOfItems", "ToQuantity", "FromBasicPriceSum", "MaxNumberOfItems", "ToBasicPriceSum", "LevelIds", "ConditionId", "ToItemBasicPrice", "FromQuantity", "InheritDepth", "FromItemBasicPrice", });
     io.dstore.engine.Values.getDescriptor();
-    io.dstore.engine.ProcedureError.getDescriptor();
+    io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
   }
 

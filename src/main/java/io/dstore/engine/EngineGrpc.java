@@ -22,22 +22,22 @@ public class EngineGrpc {
 
   // Static method descriptors that strictly reflect the proto.
   @io.grpc.ExperimentalApi
-  public static final io.grpc.MethodDescriptor<io.dstore.engine.Procedure.Parameters,
+  public static final io.grpc.MethodDescriptor<io.dstore.engine.Procedure.Call,
       io.dstore.engine.Procedure.Response> METHOD_EXEC_PROCEDURE =
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
               "dstore.engine.Engine", "execProcedure"),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Parameters.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Call.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Response.getDefaultInstance()));
   @io.grpc.ExperimentalApi
-  public static final io.grpc.MethodDescriptor<io.dstore.engine.Procedure.Parameters,
+  public static final io.grpc.MethodDescriptor<io.dstore.engine.Procedure.Call,
       io.dstore.engine.Procedure.Response> METHOD_EXEC_BATCH =
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.BIDI_STREAMING,
           generateFullMethodName(
               "dstore.engine.Engine", "execBatch"),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Parameters.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Call.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.engine.Procedure.Response.getDefaultInstance()));
   @io.grpc.ExperimentalApi
   public static final io.grpc.MethodDescriptor<io.dstore.engine.procs.AcChangeActionStateAd.Parameters,
@@ -6815,10 +6815,10 @@ public class EngineGrpc {
 
   public static interface Engine {
 
-    public void execProcedure(io.dstore.engine.Procedure.Parameters request,
+    public void execProcedure(io.dstore.engine.Procedure.Call request,
         io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver);
 
-    public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Parameters> execBatch(
+    public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Call> execBatch(
         io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver);
 
     public void acChangeActionStateAd(io.dstore.engine.procs.AcChangeActionStateAd.Parameters request,
@@ -9078,7 +9078,7 @@ public class EngineGrpc {
   public static interface EngineBlockingClient {
 
     public java.util.Iterator<io.dstore.engine.Procedure.Response> execProcedure(
-        io.dstore.engine.Procedure.Parameters request);
+        io.dstore.engine.Procedure.Call request);
 
     public java.util.Iterator<io.dstore.engine.procs.AcChangeActionStateAd.Response> acChangeActionStateAd(
         io.dstore.engine.procs.AcChangeActionStateAd.Parameters request);
@@ -11355,14 +11355,14 @@ public class EngineGrpc {
     }
 
     @java.lang.Override
-    public void execProcedure(io.dstore.engine.Procedure.Parameters request,
+    public void execProcedure(io.dstore.engine.Procedure.Call request,
         io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
       asyncServerStreamingCall(
           getChannel().newCall(METHOD_EXEC_PROCEDURE, getCallOptions()), request, responseObserver);
     }
 
     @java.lang.Override
-    public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Parameters> execBatch(
+    public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Call> execBatch(
         io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
       return asyncBidiStreamingCall(
           getChannel().newCall(METHOD_EXEC_BATCH, getCallOptions()), responseObserver);
@@ -16645,7 +16645,7 @@ public class EngineGrpc {
 
     @java.lang.Override
     public java.util.Iterator<io.dstore.engine.Procedure.Response> execProcedure(
-        io.dstore.engine.Procedure.Parameters request) {
+        io.dstore.engine.Procedure.Call request) {
       return blockingServerStreamingCall(
           getChannel().newCall(METHOD_EXEC_PROCEDURE, getCallOptions()), request);
     }
@@ -21933,11 +21933,11 @@ public class EngineGrpc {
         METHOD_EXEC_PROCEDURE,
         asyncServerStreamingCall(
           new io.grpc.stub.ServerCalls.ServerStreamingMethod<
-              io.dstore.engine.Procedure.Parameters,
+              io.dstore.engine.Procedure.Call,
               io.dstore.engine.Procedure.Response>() {
             @java.lang.Override
             public void invoke(
-                io.dstore.engine.Procedure.Parameters request,
+                io.dstore.engine.Procedure.Call request,
                 io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
               serviceImpl.execProcedure(request, responseObserver);
             }
@@ -21946,10 +21946,10 @@ public class EngineGrpc {
         METHOD_EXEC_BATCH,
         asyncBidiStreamingCall(
           new io.grpc.stub.ServerCalls.BidiStreamingMethod<
-              io.dstore.engine.Procedure.Parameters,
+              io.dstore.engine.Procedure.Call,
               io.dstore.engine.Procedure.Response>() {
             @java.lang.Override
-            public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Parameters> invoke(
+            public io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Call> invoke(
                 io.grpc.stub.StreamObserver<io.dstore.engine.Procedure.Response> responseObserver) {
               return serviceImpl.execBatch(responseObserver);
             }

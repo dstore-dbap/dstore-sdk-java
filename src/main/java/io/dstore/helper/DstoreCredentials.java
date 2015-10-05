@@ -16,8 +16,14 @@ public class DstoreCredentials extends Credentials {
 
     String username;
     String password;
+    String accessToken;
 
     public DstoreCredentials(String username, String password) {
+        this("default", username, password);
+    }
+
+    public DstoreCredentials(String accessToken, String username, String password) {
+        this.accessToken = accessToken;
         this.username = username;
         this.password = password;
     }
@@ -31,6 +37,7 @@ public class DstoreCredentials extends Credentials {
     public Map<String, List<String>> getRequestMetadata(URI uri) throws IOException {
         Map<String, List<String>> result = new HashMap<String, List<String>>();
 
+        result.put("AccessToken", Collections.singletonList(accessToken));
         result.put("Username", Collections.singletonList(username));
         result.put("Password", Collections.singletonList(password));
 

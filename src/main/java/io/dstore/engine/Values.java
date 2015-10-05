@@ -1975,20 +1975,24 @@ public final class Values {
 
     /**
      * <code>optional string value = 1;</code>
+     *
+     * <pre>
+     * Encoded with decimal separator "."
+     * </pre>
      */
     java.lang.String getValue();
     /**
      * <code>optional string value = 1;</code>
+     *
+     * <pre>
+     * Encoded with decimal separator "."
+     * </pre>
      */
     com.google.protobuf.ByteString
         getValueBytes();
   }
   /**
    * Protobuf type {@code dstore.engine.values.decimalValue}
-   *
-   * <pre>
-   * Encoded with decimal separator "."
-   * </pre>
    */
   public  static final class decimalValue extends
       com.google.protobuf.GeneratedMessage implements
@@ -2060,6 +2064,10 @@ public final class Values {
     private volatile java.lang.Object value_;
     /**
      * <code>optional string value = 1;</code>
+     *
+     * <pre>
+     * Encoded with decimal separator "."
+     * </pre>
      */
     public java.lang.String getValue() {
       java.lang.Object ref = value_;
@@ -2077,6 +2085,10 @@ public final class Values {
     }
     /**
      * <code>optional string value = 1;</code>
+     *
+     * <pre>
+     * Encoded with decimal separator "."
+     * </pre>
      */
     public com.google.protobuf.ByteString
         getValueBytes() {
@@ -2197,10 +2209,6 @@ public final class Values {
     }
     /**
      * Protobuf type {@code dstore.engine.values.decimalValue}
-     *
-     * <pre>
-     * Encoded with decimal separator "."
-     * </pre>
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
@@ -2307,6 +2315,10 @@ public final class Values {
       private java.lang.Object value_ = "";
       /**
        * <code>optional string value = 1;</code>
+       *
+       * <pre>
+       * Encoded with decimal separator "."
+       * </pre>
        */
       public java.lang.String getValue() {
         java.lang.Object ref = value_;
@@ -2324,6 +2336,10 @@ public final class Values {
       }
       /**
        * <code>optional string value = 1;</code>
+       *
+       * <pre>
+       * Encoded with decimal separator "."
+       * </pre>
        */
       public com.google.protobuf.ByteString
           getValueBytes() {
@@ -2340,6 +2356,10 @@ public final class Values {
       }
       /**
        * <code>optional string value = 1;</code>
+       *
+       * <pre>
+       * Encoded with decimal separator "."
+       * </pre>
        */
       public Builder setValue(
           java.lang.String value) {
@@ -2353,6 +2373,10 @@ public final class Values {
       }
       /**
        * <code>optional string value = 1;</code>
+       *
+       * <pre>
+       * Encoded with decimal separator "."
+       * </pre>
        */
       public Builder clearValue() {
         
@@ -2362,6 +2386,10 @@ public final class Values {
       }
       /**
        * <code>optional string value = 1;</code>
+       *
+       * <pre>
+       * Encoded with decimal separator "."
+       * </pre>
        */
       public Builder setValueBytes(
           com.google.protobuf.ByteString value) {
@@ -3309,6 +3337,1909 @@ public final class Values {
 
   }
 
+  public interface ValueOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dstore.engine.values.Value)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+     */
+    io.dstore.engine.Values.integerValue getIntegerValue();
+    /**
+     * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+     */
+    io.dstore.engine.Values.integerValueOrBuilder getIntegerValueOrBuilder();
+
+    /**
+     * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+     */
+    io.dstore.engine.Values.stringValue getStringValue();
+    /**
+     * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+     */
+    io.dstore.engine.Values.stringValueOrBuilder getStringValueOrBuilder();
+
+    /**
+     * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+     */
+    io.dstore.engine.Values.byteValue getByteValue();
+    /**
+     * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+     */
+    io.dstore.engine.Values.byteValueOrBuilder getByteValueOrBuilder();
+
+    /**
+     * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+     */
+    io.dstore.engine.Values.doubleValue getDoubleValue();
+    /**
+     * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+     */
+    io.dstore.engine.Values.doubleValueOrBuilder getDoubleValueOrBuilder();
+
+    /**
+     * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+     */
+    io.dstore.engine.Values.booleanValue getBooleanValue();
+    /**
+     * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+     */
+    io.dstore.engine.Values.booleanValueOrBuilder getBooleanValueOrBuilder();
+
+    /**
+     * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+     */
+    io.dstore.engine.Values.decimalValue getDecimalValue();
+    /**
+     * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+     */
+    io.dstore.engine.Values.decimalValueOrBuilder getDecimalValueOrBuilder();
+
+    /**
+     * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+     */
+    io.dstore.engine.Values.timestampValue getTimestampValue();
+    /**
+     * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+     */
+    io.dstore.engine.Values.timestampValueOrBuilder getTimestampValueOrBuilder();
+
+    /**
+     * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+     */
+    io.dstore.engine.Values.longValue getLongValue();
+    /**
+     * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+     */
+    io.dstore.engine.Values.longValueOrBuilder getLongValueOrBuilder();
+  }
+  /**
+   * Protobuf type {@code dstore.engine.values.Value}
+   */
+  public  static final class Value extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dstore.engine.values.Value)
+      ValueOrBuilder {
+    // Use Value.newBuilder() to construct.
+    private Value(com.google.protobuf.GeneratedMessage.Builder builder) {
+      super(builder);
+    }
+    private Value() {
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+    }
+    private Value(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+      this();
+      int mutable_bitField0_ = 0;
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!input.skipField(tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 82: {
+              io.dstore.engine.Values.integerValue.Builder subBuilder = null;
+              if (valueCase_ == 10) {
+                subBuilder = ((io.dstore.engine.Values.integerValue) value_).toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.engine.Values.integerValue) value_);
+                value_ = subBuilder.buildPartial();
+              }
+              valueCase_ = 10;
+              break;
+            }
+            case 90: {
+              io.dstore.engine.Values.stringValue.Builder subBuilder = null;
+              if (valueCase_ == 11) {
+                subBuilder = ((io.dstore.engine.Values.stringValue) value_).toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.engine.Values.stringValue) value_);
+                value_ = subBuilder.buildPartial();
+              }
+              valueCase_ = 11;
+              break;
+            }
+            case 98: {
+              io.dstore.engine.Values.byteValue.Builder subBuilder = null;
+              if (valueCase_ == 12) {
+                subBuilder = ((io.dstore.engine.Values.byteValue) value_).toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.engine.Values.byteValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.engine.Values.byteValue) value_);
+                value_ = subBuilder.buildPartial();
+              }
+              valueCase_ = 12;
+              break;
+            }
+            case 106: {
+              io.dstore.engine.Values.doubleValue.Builder subBuilder = null;
+              if (valueCase_ == 13) {
+                subBuilder = ((io.dstore.engine.Values.doubleValue) value_).toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.engine.Values.doubleValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.engine.Values.doubleValue) value_);
+                value_ = subBuilder.buildPartial();
+              }
+              valueCase_ = 13;
+              break;
+            }
+            case 114: {
+              io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
+              if (valueCase_ == 14) {
+                subBuilder = ((io.dstore.engine.Values.booleanValue) value_).toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.engine.Values.booleanValue) value_);
+                value_ = subBuilder.buildPartial();
+              }
+              valueCase_ = 14;
+              break;
+            }
+            case 122: {
+              io.dstore.engine.Values.decimalValue.Builder subBuilder = null;
+              if (valueCase_ == 15) {
+                subBuilder = ((io.dstore.engine.Values.decimalValue) value_).toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.engine.Values.decimalValue) value_);
+                value_ = subBuilder.buildPartial();
+              }
+              valueCase_ = 15;
+              break;
+            }
+            case 130: {
+              io.dstore.engine.Values.timestampValue.Builder subBuilder = null;
+              if (valueCase_ == 16) {
+                subBuilder = ((io.dstore.engine.Values.timestampValue) value_).toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.engine.Values.timestampValue) value_);
+                value_ = subBuilder.buildPartial();
+              }
+              valueCase_ = 16;
+              break;
+            }
+            case 138: {
+              io.dstore.engine.Values.longValue.Builder subBuilder = null;
+              if (valueCase_ == 17) {
+                subBuilder = ((io.dstore.engine.Values.longValue) value_).toBuilder();
+              }
+              value_ = input.readMessage(io.dstore.engine.Values.longValue.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.engine.Values.longValue) value_);
+                value_ = subBuilder.buildPartial();
+              }
+              valueCase_ = 17;
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw new RuntimeException(e.setUnfinishedMessage(this));
+      } catch (java.io.IOException e) {
+        throw new RuntimeException(
+            new com.google.protobuf.InvalidProtocolBufferException(
+                e.getMessage()).setUnfinishedMessage(this));
+      } finally {
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return io.dstore.engine.Values.internal_static_dstore_engine_values_Value_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return io.dstore.engine.Values.internal_static_dstore_engine_values_Value_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              io.dstore.engine.Values.Value.class, io.dstore.engine.Values.Value.Builder.class);
+    }
+
+    private int valueCase_ = 0;
+    private java.lang.Object value_;
+    public enum ValueCase
+        implements com.google.protobuf.Internal.EnumLite {
+      INTEGER_VALUE(10),
+      STRING_VALUE(11),
+      BYTE_VALUE(12),
+      DOUBLE_VALUE(13),
+      BOOLEAN_VALUE(14),
+      DECIMAL_VALUE(15),
+      TIMESTAMP_VALUE(16),
+      LONG_VALUE(17),
+      VALUE_NOT_SET(0);
+      private int value = 0;
+      private ValueCase(int value) {
+        this.value = value;
+      }
+      public static ValueCase valueOf(int value) {
+        switch (value) {
+          case 10: return INTEGER_VALUE;
+          case 11: return STRING_VALUE;
+          case 12: return BYTE_VALUE;
+          case 13: return DOUBLE_VALUE;
+          case 14: return BOOLEAN_VALUE;
+          case 15: return DECIMAL_VALUE;
+          case 16: return TIMESTAMP_VALUE;
+          case 17: return LONG_VALUE;
+          case 0: return VALUE_NOT_SET;
+          default: throw new java.lang.IllegalArgumentException(
+            "Value is undefined for this oneof enum.");
+        }
+      }
+      public int getNumber() {
+        return this.value;
+      }
+    };
+
+    public ValueCase
+    getValueCase() {
+      return ValueCase.valueOf(
+          valueCase_);
+    }
+
+    public static final int INTEGER_VALUE_FIELD_NUMBER = 10;
+    /**
+     * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+     */
+    public io.dstore.engine.Values.integerValue getIntegerValue() {
+      if (valueCase_ == 10) {
+         return (io.dstore.engine.Values.integerValue) value_;
+      }
+      return io.dstore.engine.Values.integerValue.getDefaultInstance();
+    }
+    /**
+     * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+     */
+    public io.dstore.engine.Values.integerValueOrBuilder getIntegerValueOrBuilder() {
+      if (valueCase_ == 10) {
+         return (io.dstore.engine.Values.integerValue) value_;
+      }
+      return io.dstore.engine.Values.integerValue.getDefaultInstance();
+    }
+
+    public static final int STRING_VALUE_FIELD_NUMBER = 11;
+    /**
+     * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+     */
+    public io.dstore.engine.Values.stringValue getStringValue() {
+      if (valueCase_ == 11) {
+         return (io.dstore.engine.Values.stringValue) value_;
+      }
+      return io.dstore.engine.Values.stringValue.getDefaultInstance();
+    }
+    /**
+     * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+     */
+    public io.dstore.engine.Values.stringValueOrBuilder getStringValueOrBuilder() {
+      if (valueCase_ == 11) {
+         return (io.dstore.engine.Values.stringValue) value_;
+      }
+      return io.dstore.engine.Values.stringValue.getDefaultInstance();
+    }
+
+    public static final int BYTE_VALUE_FIELD_NUMBER = 12;
+    /**
+     * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+     */
+    public io.dstore.engine.Values.byteValue getByteValue() {
+      if (valueCase_ == 12) {
+         return (io.dstore.engine.Values.byteValue) value_;
+      }
+      return io.dstore.engine.Values.byteValue.getDefaultInstance();
+    }
+    /**
+     * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+     */
+    public io.dstore.engine.Values.byteValueOrBuilder getByteValueOrBuilder() {
+      if (valueCase_ == 12) {
+         return (io.dstore.engine.Values.byteValue) value_;
+      }
+      return io.dstore.engine.Values.byteValue.getDefaultInstance();
+    }
+
+    public static final int DOUBLE_VALUE_FIELD_NUMBER = 13;
+    /**
+     * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+     */
+    public io.dstore.engine.Values.doubleValue getDoubleValue() {
+      if (valueCase_ == 13) {
+         return (io.dstore.engine.Values.doubleValue) value_;
+      }
+      return io.dstore.engine.Values.doubleValue.getDefaultInstance();
+    }
+    /**
+     * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+     */
+    public io.dstore.engine.Values.doubleValueOrBuilder getDoubleValueOrBuilder() {
+      if (valueCase_ == 13) {
+         return (io.dstore.engine.Values.doubleValue) value_;
+      }
+      return io.dstore.engine.Values.doubleValue.getDefaultInstance();
+    }
+
+    public static final int BOOLEAN_VALUE_FIELD_NUMBER = 14;
+    /**
+     * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+     */
+    public io.dstore.engine.Values.booleanValue getBooleanValue() {
+      if (valueCase_ == 14) {
+         return (io.dstore.engine.Values.booleanValue) value_;
+      }
+      return io.dstore.engine.Values.booleanValue.getDefaultInstance();
+    }
+    /**
+     * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+     */
+    public io.dstore.engine.Values.booleanValueOrBuilder getBooleanValueOrBuilder() {
+      if (valueCase_ == 14) {
+         return (io.dstore.engine.Values.booleanValue) value_;
+      }
+      return io.dstore.engine.Values.booleanValue.getDefaultInstance();
+    }
+
+    public static final int DECIMAL_VALUE_FIELD_NUMBER = 15;
+    /**
+     * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+     */
+    public io.dstore.engine.Values.decimalValue getDecimalValue() {
+      if (valueCase_ == 15) {
+         return (io.dstore.engine.Values.decimalValue) value_;
+      }
+      return io.dstore.engine.Values.decimalValue.getDefaultInstance();
+    }
+    /**
+     * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+     */
+    public io.dstore.engine.Values.decimalValueOrBuilder getDecimalValueOrBuilder() {
+      if (valueCase_ == 15) {
+         return (io.dstore.engine.Values.decimalValue) value_;
+      }
+      return io.dstore.engine.Values.decimalValue.getDefaultInstance();
+    }
+
+    public static final int TIMESTAMP_VALUE_FIELD_NUMBER = 16;
+    /**
+     * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+     */
+    public io.dstore.engine.Values.timestampValue getTimestampValue() {
+      if (valueCase_ == 16) {
+         return (io.dstore.engine.Values.timestampValue) value_;
+      }
+      return io.dstore.engine.Values.timestampValue.getDefaultInstance();
+    }
+    /**
+     * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+     */
+    public io.dstore.engine.Values.timestampValueOrBuilder getTimestampValueOrBuilder() {
+      if (valueCase_ == 16) {
+         return (io.dstore.engine.Values.timestampValue) value_;
+      }
+      return io.dstore.engine.Values.timestampValue.getDefaultInstance();
+    }
+
+    public static final int LONG_VALUE_FIELD_NUMBER = 17;
+    /**
+     * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+     */
+    public io.dstore.engine.Values.longValue getLongValue() {
+      if (valueCase_ == 17) {
+         return (io.dstore.engine.Values.longValue) value_;
+      }
+      return io.dstore.engine.Values.longValue.getDefaultInstance();
+    }
+    /**
+     * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+     */
+    public io.dstore.engine.Values.longValueOrBuilder getLongValueOrBuilder() {
+      if (valueCase_ == 17) {
+         return (io.dstore.engine.Values.longValue) value_;
+      }
+      return io.dstore.engine.Values.longValue.getDefaultInstance();
+    }
+
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      if (valueCase_ == 10) {
+        output.writeMessage(10, (io.dstore.engine.Values.integerValue) value_);
+      }
+      if (valueCase_ == 11) {
+        output.writeMessage(11, (io.dstore.engine.Values.stringValue) value_);
+      }
+      if (valueCase_ == 12) {
+        output.writeMessage(12, (io.dstore.engine.Values.byteValue) value_);
+      }
+      if (valueCase_ == 13) {
+        output.writeMessage(13, (io.dstore.engine.Values.doubleValue) value_);
+      }
+      if (valueCase_ == 14) {
+        output.writeMessage(14, (io.dstore.engine.Values.booleanValue) value_);
+      }
+      if (valueCase_ == 15) {
+        output.writeMessage(15, (io.dstore.engine.Values.decimalValue) value_);
+      }
+      if (valueCase_ == 16) {
+        output.writeMessage(16, (io.dstore.engine.Values.timestampValue) value_);
+      }
+      if (valueCase_ == 17) {
+        output.writeMessage(17, (io.dstore.engine.Values.longValue) value_);
+      }
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (valueCase_ == 10) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, (io.dstore.engine.Values.integerValue) value_);
+      }
+      if (valueCase_ == 11) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(11, (io.dstore.engine.Values.stringValue) value_);
+      }
+      if (valueCase_ == 12) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, (io.dstore.engine.Values.byteValue) value_);
+      }
+      if (valueCase_ == 13) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, (io.dstore.engine.Values.doubleValue) value_);
+      }
+      if (valueCase_ == 14) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(14, (io.dstore.engine.Values.booleanValue) value_);
+      }
+      if (valueCase_ == 15) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(15, (io.dstore.engine.Values.decimalValue) value_);
+      }
+      if (valueCase_ == 16) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(16, (io.dstore.engine.Values.timestampValue) value_);
+      }
+      if (valueCase_ == 17) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(17, (io.dstore.engine.Values.longValue) value_);
+      }
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    public static io.dstore.engine.Values.Value parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static io.dstore.engine.Values.Value parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static io.dstore.engine.Values.Value parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static io.dstore.engine.Values.Value parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static io.dstore.engine.Values.Value parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static io.dstore.engine.Values.Value parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static io.dstore.engine.Values.Value parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static io.dstore.engine.Values.Value parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static io.dstore.engine.Values.Value parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static io.dstore.engine.Values.Value parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(io.dstore.engine.Values.Value prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dstore.engine.values.Value}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dstore.engine.values.Value)
+        io.dstore.engine.Values.ValueOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return io.dstore.engine.Values.internal_static_dstore_engine_values_Value_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return io.dstore.engine.Values.internal_static_dstore_engine_values_Value_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                io.dstore.engine.Values.Value.class, io.dstore.engine.Values.Value.Builder.class);
+      }
+
+      // Construct using io.dstore.engine.Values.Value.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      public Builder clear() {
+        super.clear();
+        valueCase_ = 0;
+        value_ = null;
+        return this;
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return io.dstore.engine.Values.internal_static_dstore_engine_values_Value_descriptor;
+      }
+
+      public io.dstore.engine.Values.Value getDefaultInstanceForType() {
+        return io.dstore.engine.Values.Value.getDefaultInstance();
+      }
+
+      public io.dstore.engine.Values.Value build() {
+        io.dstore.engine.Values.Value result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public io.dstore.engine.Values.Value buildPartial() {
+        io.dstore.engine.Values.Value result = new io.dstore.engine.Values.Value(this);
+        if (valueCase_ == 10) {
+          if (integerValueBuilder_ == null) {
+            result.value_ = value_;
+          } else {
+            result.value_ = integerValueBuilder_.build();
+          }
+        }
+        if (valueCase_ == 11) {
+          if (stringValueBuilder_ == null) {
+            result.value_ = value_;
+          } else {
+            result.value_ = stringValueBuilder_.build();
+          }
+        }
+        if (valueCase_ == 12) {
+          if (byteValueBuilder_ == null) {
+            result.value_ = value_;
+          } else {
+            result.value_ = byteValueBuilder_.build();
+          }
+        }
+        if (valueCase_ == 13) {
+          if (doubleValueBuilder_ == null) {
+            result.value_ = value_;
+          } else {
+            result.value_ = doubleValueBuilder_.build();
+          }
+        }
+        if (valueCase_ == 14) {
+          if (booleanValueBuilder_ == null) {
+            result.value_ = value_;
+          } else {
+            result.value_ = booleanValueBuilder_.build();
+          }
+        }
+        if (valueCase_ == 15) {
+          if (decimalValueBuilder_ == null) {
+            result.value_ = value_;
+          } else {
+            result.value_ = decimalValueBuilder_.build();
+          }
+        }
+        if (valueCase_ == 16) {
+          if (timestampValueBuilder_ == null) {
+            result.value_ = value_;
+          } else {
+            result.value_ = timestampValueBuilder_.build();
+          }
+        }
+        if (valueCase_ == 17) {
+          if (longValueBuilder_ == null) {
+            result.value_ = value_;
+          } else {
+            result.value_ = longValueBuilder_.build();
+          }
+        }
+        result.valueCase_ = valueCase_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof io.dstore.engine.Values.Value) {
+          return mergeFrom((io.dstore.engine.Values.Value)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(io.dstore.engine.Values.Value other) {
+        if (other == io.dstore.engine.Values.Value.getDefaultInstance()) return this;
+        switch (other.getValueCase()) {
+          case INTEGER_VALUE: {
+            mergeIntegerValue(other.getIntegerValue());
+            break;
+          }
+          case STRING_VALUE: {
+            mergeStringValue(other.getStringValue());
+            break;
+          }
+          case BYTE_VALUE: {
+            mergeByteValue(other.getByteValue());
+            break;
+          }
+          case DOUBLE_VALUE: {
+            mergeDoubleValue(other.getDoubleValue());
+            break;
+          }
+          case BOOLEAN_VALUE: {
+            mergeBooleanValue(other.getBooleanValue());
+            break;
+          }
+          case DECIMAL_VALUE: {
+            mergeDecimalValue(other.getDecimalValue());
+            break;
+          }
+          case TIMESTAMP_VALUE: {
+            mergeTimestampValue(other.getTimestampValue());
+            break;
+          }
+          case LONG_VALUE: {
+            mergeLongValue(other.getLongValue());
+            break;
+          }
+          case VALUE_NOT_SET: {
+            break;
+          }
+        }
+        onChanged();
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        io.dstore.engine.Values.Value parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (io.dstore.engine.Values.Value) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int valueCase_ = 0;
+      private java.lang.Object value_;
+      public ValueCase
+          getValueCase() {
+        return ValueCase.valueOf(
+            valueCase_);
+      }
+
+      public Builder clearValue() {
+        valueCase_ = 0;
+        value_ = null;
+        onChanged();
+        return this;
+      }
+
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> integerValueBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+       */
+      public io.dstore.engine.Values.integerValue getIntegerValue() {
+        if (integerValueBuilder_ == null) {
+          if (valueCase_ == 10) {
+            return (io.dstore.engine.Values.integerValue) value_;
+          }
+          return io.dstore.engine.Values.integerValue.getDefaultInstance();
+        } else {
+          if (valueCase_ == 10) {
+            return integerValueBuilder_.getMessage();
+          }
+          return io.dstore.engine.Values.integerValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+       */
+      public Builder setIntegerValue(io.dstore.engine.Values.integerValue value) {
+        if (integerValueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          integerValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 10;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+       */
+      public Builder setIntegerValue(
+          io.dstore.engine.Values.integerValue.Builder builderForValue) {
+        if (integerValueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          integerValueBuilder_.setMessage(builderForValue.build());
+        }
+        valueCase_ = 10;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+       */
+      public Builder mergeIntegerValue(io.dstore.engine.Values.integerValue value) {
+        if (integerValueBuilder_ == null) {
+          if (valueCase_ == 10 &&
+              value_ != io.dstore.engine.Values.integerValue.getDefaultInstance()) {
+            value_ = io.dstore.engine.Values.integerValue.newBuilder((io.dstore.engine.Values.integerValue) value_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          if (valueCase_ == 10) {
+            integerValueBuilder_.mergeFrom(value);
+          }
+          integerValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 10;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+       */
+      public Builder clearIntegerValue() {
+        if (integerValueBuilder_ == null) {
+          if (valueCase_ == 10) {
+            valueCase_ = 0;
+            value_ = null;
+            onChanged();
+          }
+        } else {
+          if (valueCase_ == 10) {
+            valueCase_ = 0;
+            value_ = null;
+          }
+          integerValueBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+       */
+      public io.dstore.engine.Values.integerValue.Builder getIntegerValueBuilder() {
+        return getIntegerValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+       */
+      public io.dstore.engine.Values.integerValueOrBuilder getIntegerValueOrBuilder() {
+        if ((valueCase_ == 10) && (integerValueBuilder_ != null)) {
+          return integerValueBuilder_.getMessageOrBuilder();
+        } else {
+          if (valueCase_ == 10) {
+            return (io.dstore.engine.Values.integerValue) value_;
+          }
+          return io.dstore.engine.Values.integerValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.integerValue integer_value = 10;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
+          getIntegerValueFieldBuilder() {
+        if (integerValueBuilder_ == null) {
+          if (!(valueCase_ == 10)) {
+            value_ = io.dstore.engine.Values.integerValue.getDefaultInstance();
+          }
+          integerValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
+                  (io.dstore.engine.Values.integerValue) value_,
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        valueCase_ = 10;
+        onChanged();;
+        return integerValueBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> stringValueBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+       */
+      public io.dstore.engine.Values.stringValue getStringValue() {
+        if (stringValueBuilder_ == null) {
+          if (valueCase_ == 11) {
+            return (io.dstore.engine.Values.stringValue) value_;
+          }
+          return io.dstore.engine.Values.stringValue.getDefaultInstance();
+        } else {
+          if (valueCase_ == 11) {
+            return stringValueBuilder_.getMessage();
+          }
+          return io.dstore.engine.Values.stringValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+       */
+      public Builder setStringValue(io.dstore.engine.Values.stringValue value) {
+        if (stringValueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          stringValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 11;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+       */
+      public Builder setStringValue(
+          io.dstore.engine.Values.stringValue.Builder builderForValue) {
+        if (stringValueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          stringValueBuilder_.setMessage(builderForValue.build());
+        }
+        valueCase_ = 11;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+       */
+      public Builder mergeStringValue(io.dstore.engine.Values.stringValue value) {
+        if (stringValueBuilder_ == null) {
+          if (valueCase_ == 11 &&
+              value_ != io.dstore.engine.Values.stringValue.getDefaultInstance()) {
+            value_ = io.dstore.engine.Values.stringValue.newBuilder((io.dstore.engine.Values.stringValue) value_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          if (valueCase_ == 11) {
+            stringValueBuilder_.mergeFrom(value);
+          }
+          stringValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 11;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+       */
+      public Builder clearStringValue() {
+        if (stringValueBuilder_ == null) {
+          if (valueCase_ == 11) {
+            valueCase_ = 0;
+            value_ = null;
+            onChanged();
+          }
+        } else {
+          if (valueCase_ == 11) {
+            valueCase_ = 0;
+            value_ = null;
+          }
+          stringValueBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+       */
+      public io.dstore.engine.Values.stringValue.Builder getStringValueBuilder() {
+        return getStringValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+       */
+      public io.dstore.engine.Values.stringValueOrBuilder getStringValueOrBuilder() {
+        if ((valueCase_ == 11) && (stringValueBuilder_ != null)) {
+          return stringValueBuilder_.getMessageOrBuilder();
+        } else {
+          if (valueCase_ == 11) {
+            return (io.dstore.engine.Values.stringValue) value_;
+          }
+          return io.dstore.engine.Values.stringValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.stringValue string_value = 11;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> 
+          getStringValueFieldBuilder() {
+        if (stringValueBuilder_ == null) {
+          if (!(valueCase_ == 11)) {
+            value_ = io.dstore.engine.Values.stringValue.getDefaultInstance();
+          }
+          stringValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder>(
+                  (io.dstore.engine.Values.stringValue) value_,
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        valueCase_ = 11;
+        onChanged();;
+        return stringValueBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> byteValueBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       */
+      public io.dstore.engine.Values.byteValue getByteValue() {
+        if (byteValueBuilder_ == null) {
+          if (valueCase_ == 12) {
+            return (io.dstore.engine.Values.byteValue) value_;
+          }
+          return io.dstore.engine.Values.byteValue.getDefaultInstance();
+        } else {
+          if (valueCase_ == 12) {
+            return byteValueBuilder_.getMessage();
+          }
+          return io.dstore.engine.Values.byteValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       */
+      public Builder setByteValue(io.dstore.engine.Values.byteValue value) {
+        if (byteValueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          byteValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 12;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       */
+      public Builder setByteValue(
+          io.dstore.engine.Values.byteValue.Builder builderForValue) {
+        if (byteValueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          byteValueBuilder_.setMessage(builderForValue.build());
+        }
+        valueCase_ = 12;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       */
+      public Builder mergeByteValue(io.dstore.engine.Values.byteValue value) {
+        if (byteValueBuilder_ == null) {
+          if (valueCase_ == 12 &&
+              value_ != io.dstore.engine.Values.byteValue.getDefaultInstance()) {
+            value_ = io.dstore.engine.Values.byteValue.newBuilder((io.dstore.engine.Values.byteValue) value_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          if (valueCase_ == 12) {
+            byteValueBuilder_.mergeFrom(value);
+          }
+          byteValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 12;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       */
+      public Builder clearByteValue() {
+        if (byteValueBuilder_ == null) {
+          if (valueCase_ == 12) {
+            valueCase_ = 0;
+            value_ = null;
+            onChanged();
+          }
+        } else {
+          if (valueCase_ == 12) {
+            valueCase_ = 0;
+            value_ = null;
+          }
+          byteValueBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       */
+      public io.dstore.engine.Values.byteValue.Builder getByteValueBuilder() {
+        return getByteValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       */
+      public io.dstore.engine.Values.byteValueOrBuilder getByteValueOrBuilder() {
+        if ((valueCase_ == 12) && (byteValueBuilder_ != null)) {
+          return byteValueBuilder_.getMessageOrBuilder();
+        } else {
+          if (valueCase_ == 12) {
+            return (io.dstore.engine.Values.byteValue) value_;
+          }
+          return io.dstore.engine.Values.byteValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> 
+          getByteValueFieldBuilder() {
+        if (byteValueBuilder_ == null) {
+          if (!(valueCase_ == 12)) {
+            value_ = io.dstore.engine.Values.byteValue.getDefaultInstance();
+          }
+          byteValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder>(
+                  (io.dstore.engine.Values.byteValue) value_,
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        valueCase_ = 12;
+        onChanged();;
+        return byteValueBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.doubleValue, io.dstore.engine.Values.doubleValue.Builder, io.dstore.engine.Values.doubleValueOrBuilder> doubleValueBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+       */
+      public io.dstore.engine.Values.doubleValue getDoubleValue() {
+        if (doubleValueBuilder_ == null) {
+          if (valueCase_ == 13) {
+            return (io.dstore.engine.Values.doubleValue) value_;
+          }
+          return io.dstore.engine.Values.doubleValue.getDefaultInstance();
+        } else {
+          if (valueCase_ == 13) {
+            return doubleValueBuilder_.getMessage();
+          }
+          return io.dstore.engine.Values.doubleValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+       */
+      public Builder setDoubleValue(io.dstore.engine.Values.doubleValue value) {
+        if (doubleValueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          doubleValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 13;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+       */
+      public Builder setDoubleValue(
+          io.dstore.engine.Values.doubleValue.Builder builderForValue) {
+        if (doubleValueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          doubleValueBuilder_.setMessage(builderForValue.build());
+        }
+        valueCase_ = 13;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+       */
+      public Builder mergeDoubleValue(io.dstore.engine.Values.doubleValue value) {
+        if (doubleValueBuilder_ == null) {
+          if (valueCase_ == 13 &&
+              value_ != io.dstore.engine.Values.doubleValue.getDefaultInstance()) {
+            value_ = io.dstore.engine.Values.doubleValue.newBuilder((io.dstore.engine.Values.doubleValue) value_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          if (valueCase_ == 13) {
+            doubleValueBuilder_.mergeFrom(value);
+          }
+          doubleValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 13;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+       */
+      public Builder clearDoubleValue() {
+        if (doubleValueBuilder_ == null) {
+          if (valueCase_ == 13) {
+            valueCase_ = 0;
+            value_ = null;
+            onChanged();
+          }
+        } else {
+          if (valueCase_ == 13) {
+            valueCase_ = 0;
+            value_ = null;
+          }
+          doubleValueBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+       */
+      public io.dstore.engine.Values.doubleValue.Builder getDoubleValueBuilder() {
+        return getDoubleValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+       */
+      public io.dstore.engine.Values.doubleValueOrBuilder getDoubleValueOrBuilder() {
+        if ((valueCase_ == 13) && (doubleValueBuilder_ != null)) {
+          return doubleValueBuilder_.getMessageOrBuilder();
+        } else {
+          if (valueCase_ == 13) {
+            return (io.dstore.engine.Values.doubleValue) value_;
+          }
+          return io.dstore.engine.Values.doubleValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.doubleValue, io.dstore.engine.Values.doubleValue.Builder, io.dstore.engine.Values.doubleValueOrBuilder> 
+          getDoubleValueFieldBuilder() {
+        if (doubleValueBuilder_ == null) {
+          if (!(valueCase_ == 13)) {
+            value_ = io.dstore.engine.Values.doubleValue.getDefaultInstance();
+          }
+          doubleValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.doubleValue, io.dstore.engine.Values.doubleValue.Builder, io.dstore.engine.Values.doubleValueOrBuilder>(
+                  (io.dstore.engine.Values.doubleValue) value_,
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        valueCase_ = 13;
+        onChanged();;
+        return doubleValueBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> booleanValueBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+       */
+      public io.dstore.engine.Values.booleanValue getBooleanValue() {
+        if (booleanValueBuilder_ == null) {
+          if (valueCase_ == 14) {
+            return (io.dstore.engine.Values.booleanValue) value_;
+          }
+          return io.dstore.engine.Values.booleanValue.getDefaultInstance();
+        } else {
+          if (valueCase_ == 14) {
+            return booleanValueBuilder_.getMessage();
+          }
+          return io.dstore.engine.Values.booleanValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+       */
+      public Builder setBooleanValue(io.dstore.engine.Values.booleanValue value) {
+        if (booleanValueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          booleanValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 14;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+       */
+      public Builder setBooleanValue(
+          io.dstore.engine.Values.booleanValue.Builder builderForValue) {
+        if (booleanValueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          booleanValueBuilder_.setMessage(builderForValue.build());
+        }
+        valueCase_ = 14;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+       */
+      public Builder mergeBooleanValue(io.dstore.engine.Values.booleanValue value) {
+        if (booleanValueBuilder_ == null) {
+          if (valueCase_ == 14 &&
+              value_ != io.dstore.engine.Values.booleanValue.getDefaultInstance()) {
+            value_ = io.dstore.engine.Values.booleanValue.newBuilder((io.dstore.engine.Values.booleanValue) value_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          if (valueCase_ == 14) {
+            booleanValueBuilder_.mergeFrom(value);
+          }
+          booleanValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 14;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+       */
+      public Builder clearBooleanValue() {
+        if (booleanValueBuilder_ == null) {
+          if (valueCase_ == 14) {
+            valueCase_ = 0;
+            value_ = null;
+            onChanged();
+          }
+        } else {
+          if (valueCase_ == 14) {
+            valueCase_ = 0;
+            value_ = null;
+          }
+          booleanValueBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+       */
+      public io.dstore.engine.Values.booleanValue.Builder getBooleanValueBuilder() {
+        return getBooleanValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+       */
+      public io.dstore.engine.Values.booleanValueOrBuilder getBooleanValueOrBuilder() {
+        if ((valueCase_ == 14) && (booleanValueBuilder_ != null)) {
+          return booleanValueBuilder_.getMessageOrBuilder();
+        } else {
+          if (valueCase_ == 14) {
+            return (io.dstore.engine.Values.booleanValue) value_;
+          }
+          return io.dstore.engine.Values.booleanValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.booleanValue boolean_value = 14;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
+          getBooleanValueFieldBuilder() {
+        if (booleanValueBuilder_ == null) {
+          if (!(valueCase_ == 14)) {
+            value_ = io.dstore.engine.Values.booleanValue.getDefaultInstance();
+          }
+          booleanValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
+                  (io.dstore.engine.Values.booleanValue) value_,
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        valueCase_ = 14;
+        onChanged();;
+        return booleanValueBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> decimalValueBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+       */
+      public io.dstore.engine.Values.decimalValue getDecimalValue() {
+        if (decimalValueBuilder_ == null) {
+          if (valueCase_ == 15) {
+            return (io.dstore.engine.Values.decimalValue) value_;
+          }
+          return io.dstore.engine.Values.decimalValue.getDefaultInstance();
+        } else {
+          if (valueCase_ == 15) {
+            return decimalValueBuilder_.getMessage();
+          }
+          return io.dstore.engine.Values.decimalValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+       */
+      public Builder setDecimalValue(io.dstore.engine.Values.decimalValue value) {
+        if (decimalValueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          decimalValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 15;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+       */
+      public Builder setDecimalValue(
+          io.dstore.engine.Values.decimalValue.Builder builderForValue) {
+        if (decimalValueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          decimalValueBuilder_.setMessage(builderForValue.build());
+        }
+        valueCase_ = 15;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+       */
+      public Builder mergeDecimalValue(io.dstore.engine.Values.decimalValue value) {
+        if (decimalValueBuilder_ == null) {
+          if (valueCase_ == 15 &&
+              value_ != io.dstore.engine.Values.decimalValue.getDefaultInstance()) {
+            value_ = io.dstore.engine.Values.decimalValue.newBuilder((io.dstore.engine.Values.decimalValue) value_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          if (valueCase_ == 15) {
+            decimalValueBuilder_.mergeFrom(value);
+          }
+          decimalValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 15;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+       */
+      public Builder clearDecimalValue() {
+        if (decimalValueBuilder_ == null) {
+          if (valueCase_ == 15) {
+            valueCase_ = 0;
+            value_ = null;
+            onChanged();
+          }
+        } else {
+          if (valueCase_ == 15) {
+            valueCase_ = 0;
+            value_ = null;
+          }
+          decimalValueBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+       */
+      public io.dstore.engine.Values.decimalValue.Builder getDecimalValueBuilder() {
+        return getDecimalValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+       */
+      public io.dstore.engine.Values.decimalValueOrBuilder getDecimalValueOrBuilder() {
+        if ((valueCase_ == 15) && (decimalValueBuilder_ != null)) {
+          return decimalValueBuilder_.getMessageOrBuilder();
+        } else {
+          if (valueCase_ == 15) {
+            return (io.dstore.engine.Values.decimalValue) value_;
+          }
+          return io.dstore.engine.Values.decimalValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.decimalValue decimal_value = 15;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> 
+          getDecimalValueFieldBuilder() {
+        if (decimalValueBuilder_ == null) {
+          if (!(valueCase_ == 15)) {
+            value_ = io.dstore.engine.Values.decimalValue.getDefaultInstance();
+          }
+          decimalValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder>(
+                  (io.dstore.engine.Values.decimalValue) value_,
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        valueCase_ = 15;
+        onChanged();;
+        return decimalValueBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> timestampValueBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+       */
+      public io.dstore.engine.Values.timestampValue getTimestampValue() {
+        if (timestampValueBuilder_ == null) {
+          if (valueCase_ == 16) {
+            return (io.dstore.engine.Values.timestampValue) value_;
+          }
+          return io.dstore.engine.Values.timestampValue.getDefaultInstance();
+        } else {
+          if (valueCase_ == 16) {
+            return timestampValueBuilder_.getMessage();
+          }
+          return io.dstore.engine.Values.timestampValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+       */
+      public Builder setTimestampValue(io.dstore.engine.Values.timestampValue value) {
+        if (timestampValueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          timestampValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 16;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+       */
+      public Builder setTimestampValue(
+          io.dstore.engine.Values.timestampValue.Builder builderForValue) {
+        if (timestampValueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          timestampValueBuilder_.setMessage(builderForValue.build());
+        }
+        valueCase_ = 16;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+       */
+      public Builder mergeTimestampValue(io.dstore.engine.Values.timestampValue value) {
+        if (timestampValueBuilder_ == null) {
+          if (valueCase_ == 16 &&
+              value_ != io.dstore.engine.Values.timestampValue.getDefaultInstance()) {
+            value_ = io.dstore.engine.Values.timestampValue.newBuilder((io.dstore.engine.Values.timestampValue) value_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          if (valueCase_ == 16) {
+            timestampValueBuilder_.mergeFrom(value);
+          }
+          timestampValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 16;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+       */
+      public Builder clearTimestampValue() {
+        if (timestampValueBuilder_ == null) {
+          if (valueCase_ == 16) {
+            valueCase_ = 0;
+            value_ = null;
+            onChanged();
+          }
+        } else {
+          if (valueCase_ == 16) {
+            valueCase_ = 0;
+            value_ = null;
+          }
+          timestampValueBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+       */
+      public io.dstore.engine.Values.timestampValue.Builder getTimestampValueBuilder() {
+        return getTimestampValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+       */
+      public io.dstore.engine.Values.timestampValueOrBuilder getTimestampValueOrBuilder() {
+        if ((valueCase_ == 16) && (timestampValueBuilder_ != null)) {
+          return timestampValueBuilder_.getMessageOrBuilder();
+        } else {
+          if (valueCase_ == 16) {
+            return (io.dstore.engine.Values.timestampValue) value_;
+          }
+          return io.dstore.engine.Values.timestampValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.timestampValue timestamp_value = 16;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder> 
+          getTimestampValueFieldBuilder() {
+        if (timestampValueBuilder_ == null) {
+          if (!(valueCase_ == 16)) {
+            value_ = io.dstore.engine.Values.timestampValue.getDefaultInstance();
+          }
+          timestampValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.timestampValue, io.dstore.engine.Values.timestampValue.Builder, io.dstore.engine.Values.timestampValueOrBuilder>(
+                  (io.dstore.engine.Values.timestampValue) value_,
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        valueCase_ = 16;
+        onChanged();;
+        return timestampValueBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.longValue, io.dstore.engine.Values.longValue.Builder, io.dstore.engine.Values.longValueOrBuilder> longValueBuilder_;
+      /**
+       * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+       */
+      public io.dstore.engine.Values.longValue getLongValue() {
+        if (longValueBuilder_ == null) {
+          if (valueCase_ == 17) {
+            return (io.dstore.engine.Values.longValue) value_;
+          }
+          return io.dstore.engine.Values.longValue.getDefaultInstance();
+        } else {
+          if (valueCase_ == 17) {
+            return longValueBuilder_.getMessage();
+          }
+          return io.dstore.engine.Values.longValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+       */
+      public Builder setLongValue(io.dstore.engine.Values.longValue value) {
+        if (longValueBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          value_ = value;
+          onChanged();
+        } else {
+          longValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 17;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+       */
+      public Builder setLongValue(
+          io.dstore.engine.Values.longValue.Builder builderForValue) {
+        if (longValueBuilder_ == null) {
+          value_ = builderForValue.build();
+          onChanged();
+        } else {
+          longValueBuilder_.setMessage(builderForValue.build());
+        }
+        valueCase_ = 17;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+       */
+      public Builder mergeLongValue(io.dstore.engine.Values.longValue value) {
+        if (longValueBuilder_ == null) {
+          if (valueCase_ == 17 &&
+              value_ != io.dstore.engine.Values.longValue.getDefaultInstance()) {
+            value_ = io.dstore.engine.Values.longValue.newBuilder((io.dstore.engine.Values.longValue) value_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            value_ = value;
+          }
+          onChanged();
+        } else {
+          if (valueCase_ == 17) {
+            longValueBuilder_.mergeFrom(value);
+          }
+          longValueBuilder_.setMessage(value);
+        }
+        valueCase_ = 17;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+       */
+      public Builder clearLongValue() {
+        if (longValueBuilder_ == null) {
+          if (valueCase_ == 17) {
+            valueCase_ = 0;
+            value_ = null;
+            onChanged();
+          }
+        } else {
+          if (valueCase_ == 17) {
+            valueCase_ = 0;
+            value_ = null;
+          }
+          longValueBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+       */
+      public io.dstore.engine.Values.longValue.Builder getLongValueBuilder() {
+        return getLongValueFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+       */
+      public io.dstore.engine.Values.longValueOrBuilder getLongValueOrBuilder() {
+        if ((valueCase_ == 17) && (longValueBuilder_ != null)) {
+          return longValueBuilder_.getMessageOrBuilder();
+        } else {
+          if (valueCase_ == 17) {
+            return (io.dstore.engine.Values.longValue) value_;
+          }
+          return io.dstore.engine.Values.longValue.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.engine.Values.longValue, io.dstore.engine.Values.longValue.Builder, io.dstore.engine.Values.longValueOrBuilder> 
+          getLongValueFieldBuilder() {
+        if (longValueBuilder_ == null) {
+          if (!(valueCase_ == 17)) {
+            value_ = io.dstore.engine.Values.longValue.getDefaultInstance();
+          }
+          longValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.engine.Values.longValue, io.dstore.engine.Values.longValue.Builder, io.dstore.engine.Values.longValueOrBuilder>(
+                  (io.dstore.engine.Values.longValue) value_,
+                  getParentForChildren(),
+                  isClean());
+          value_ = null;
+        }
+        valueCase_ = 17;
+        onChanged();;
+        return longValueBuilder_;
+      }
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:dstore.engine.values.Value)
+    }
+
+    // @@protoc_insertion_point(class_scope:dstore.engine.values.Value)
+    private static final io.dstore.engine.Values.Value DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new io.dstore.engine.Values.Value();
+    }
+
+    public static io.dstore.engine.Values.Value getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    public static final com.google.protobuf.Parser<Value> PARSER =
+        new com.google.protobuf.AbstractParser<Value>() {
+      public Value parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        try {
+          return new Value(input, extensionRegistry);
+        } catch (RuntimeException e) {
+          if (e.getCause() instanceof
+              com.google.protobuf.InvalidProtocolBufferException) {
+            throw (com.google.protobuf.InvalidProtocolBufferException)
+                e.getCause();
+          }
+          throw e;
+        }
+      }
+    };
+
+    public static com.google.protobuf.Parser<Value> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<Value> getParserForType() {
+      return PARSER;
+    }
+
+    public io.dstore.engine.Values.Value getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
   private static com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_values_integerValue_descriptor;
   private static
@@ -3349,6 +5280,11 @@ public final class Values {
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_values_longValue_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_dstore_engine_values_Value_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dstore_engine_values_Value_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -3366,8 +5302,20 @@ public final class Values {
       "(\001\"\035\n\014booleanValue\022\r\n\005value\030\001 \001(\010\"\035\n\014dec" +
       "imalValue\022\r\n\005value\030\001 \001(\t\";\n\016timestampVal" +
       "ue\022)\n\005value\030\001 \001(\0132\032.google.protobuf.Time" +
-      "stamp\"\032\n\tlongValue\022\r\n\005value\030\001 \001(\003B\022\n\020io." +
-      "dstore.engineb\006proto3"
+      "stamp\"\032\n\tlongValue\022\r\n\005value\030\001 \001(\003\"\354\003\n\005Va" +
+      "lue\022;\n\rinteger_value\030\n \001(\0132\".dstore.engi",
+      "ne.values.integerValueH\000\0229\n\014string_value" +
+      "\030\013 \001(\0132!.dstore.engine.values.stringValu" +
+      "eH\000\0225\n\nbyte_value\030\014 \001(\0132\037.dstore.engine." +
+      "values.byteValueH\000\0229\n\014double_value\030\r \001(\013" +
+      "2!.dstore.engine.values.doubleValueH\000\022;\n" +
+      "\rboolean_value\030\016 \001(\0132\".dstore.engine.val" +
+      "ues.booleanValueH\000\022;\n\rdecimal_value\030\017 \001(" +
+      "\0132\".dstore.engine.values.decimalValueH\000\022" +
+      "?\n\017timestamp_value\030\020 \001(\0132$.dstore.engine" +
+      ".values.timestampValueH\000\0225\n\nlong_value\030\021",
+      " \001(\0132\037.dstore.engine.values.longValueH\000B" +
+      "\007\n\005valueB\022\n\020io.dstore.engineb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3430,6 +5378,12 @@ public final class Values {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_values_longValue_descriptor,
         new java.lang.String[] { "Value", });
+    internal_static_dstore_engine_values_Value_descriptor =
+      getDescriptor().getMessageTypes().get(8);
+    internal_static_dstore_engine_values_Value_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dstore_engine_values_Value_descriptor,
+        new java.lang.String[] { "IntegerValue", "StringValue", "ByteValue", "DoubleValue", "BooleanValue", "DecimalValue", "TimestampValue", "LongValue", "Value", });
     com.google.protobuf.TimestampProto.getDescriptor();
   }
 
