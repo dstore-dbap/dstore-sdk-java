@@ -128,7 +128,7 @@ public final class FoGetPostingCharacsPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingCharacs_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -169,7 +169,7 @@ public final class FoGetPostingCharacsPu {
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -182,7 +182,7 @@ public final class FoGetPostingCharacsPu {
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -195,7 +195,7 @@ public final class FoGetPostingCharacsPu {
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -208,7 +208,7 @@ public final class FoGetPostingCharacsPu {
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -221,7 +221,7 @@ public final class FoGetPostingCharacsPu {
               if (characteristicIdList_ != null) {
                 subBuilder = characteristicIdList_.toBuilder();
               }
-              characteristicIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              characteristicIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characteristicIdList_);
                 characteristicIdList_ = subBuilder.buildPartial();
@@ -234,7 +234,7 @@ public final class FoGetPostingCharacsPu {
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -526,9 +526,8 @@ public final class FoGetPostingCharacsPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -580,7 +579,7 @@ public final class FoGetPostingCharacsPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1006, separatorInIdentValsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1755,8 +1754,8 @@ public final class FoGetPostingCharacsPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1882,7 +1881,7 @@ public final class FoGetPostingCharacsPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingCharacs_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1919,7 +1918,7 @@ public final class FoGetPostingCharacsPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1932,7 +1931,7 @@ public final class FoGetPostingCharacsPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1940,7 +1939,7 @@ public final class FoGetPostingCharacsPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.FoGetPostingCharacsPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.FoGetPostingCharacsPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.FoGetPostingCharacsPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2340,7 +2339,7 @@ public final class FoGetPostingCharacsPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingCharacs_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2381,7 +2380,7 @@ public final class FoGetPostingCharacsPu {
                 if (characteristicDescription_ != null) {
                   subBuilder = characteristicDescription_.toBuilder();
                 }
-                characteristicDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                characteristicDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicDescription_);
                   characteristicDescription_ = subBuilder.buildPartial();
@@ -2394,7 +2393,7 @@ public final class FoGetPostingCharacsPu {
                 if (fieldTypeId_ != null) {
                   subBuilder = fieldTypeId_.toBuilder();
                 }
-                fieldTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                fieldTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fieldTypeId_);
                   fieldTypeId_ = subBuilder.buildPartial();
@@ -2407,7 +2406,7 @@ public final class FoGetPostingCharacsPu {
                 if (postingCharacteristicId_ != null) {
                   subBuilder = postingCharacteristicId_.toBuilder();
                 }
-                postingCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                postingCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postingCharacteristicId_);
                   postingCharacteristicId_ = subBuilder.buildPartial();
@@ -2420,7 +2419,7 @@ public final class FoGetPostingCharacsPu {
                 if (precisionValue_ != null) {
                   subBuilder = precisionValue_.toBuilder();
                 }
-                precisionValue_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                precisionValue_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(precisionValue_);
                   precisionValue_ = subBuilder.buildPartial();
@@ -2433,7 +2432,7 @@ public final class FoGetPostingCharacsPu {
                 if (commonCharacteristic_ != null) {
                   subBuilder = commonCharacteristic_.toBuilder();
                 }
-                commonCharacteristic_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                commonCharacteristic_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(commonCharacteristic_);
                   commonCharacteristic_ = subBuilder.buildPartial();
@@ -2446,7 +2445,7 @@ public final class FoGetPostingCharacsPu {
                 if (maxLength_ != null) {
                   subBuilder = maxLength_.toBuilder();
                 }
-                maxLength_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                maxLength_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(maxLength_);
                   maxLength_ = subBuilder.buildPartial();
@@ -2459,7 +2458,7 @@ public final class FoGetPostingCharacsPu {
                 if (predefinedValues_ != null) {
                   subBuilder = predefinedValues_.toBuilder();
                 }
-                predefinedValues_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                predefinedValues_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predefinedValues_);
                   predefinedValues_ = subBuilder.buildPartial();
@@ -2472,7 +2471,7 @@ public final class FoGetPostingCharacsPu {
                 if (checkPostingVisibility_ != null) {
                   subBuilder = checkPostingVisibility_.toBuilder();
                 }
-                checkPostingVisibility_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                checkPostingVisibility_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(checkPostingVisibility_);
                   checkPostingVisibility_ = subBuilder.buildPartial();
@@ -2485,7 +2484,7 @@ public final class FoGetPostingCharacsPu {
                 if (format_ != null) {
                   subBuilder = format_.toBuilder();
                 }
-                format_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                format_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(format_);
                   format_ = subBuilder.buildPartial();
@@ -2498,7 +2497,7 @@ public final class FoGetPostingCharacsPu {
                 if (basicFieldType_ != null) {
                   subBuilder = basicFieldType_.toBuilder();
                 }
-                basicFieldType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                basicFieldType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicFieldType_);
                   basicFieldType_ = subBuilder.buildPartial();
@@ -2511,7 +2510,7 @@ public final class FoGetPostingCharacsPu {
                 if (fieldTypeDescription_ != null) {
                   subBuilder = fieldTypeDescription_.toBuilder();
                 }
-                fieldTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                fieldTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fieldTypeDescription_);
                   fieldTypeDescription_ = subBuilder.buildPartial();
@@ -2524,7 +2523,7 @@ public final class FoGetPostingCharacsPu {
                 if (basicFieldTypeId_ != null) {
                   subBuilder = basicFieldTypeId_.toBuilder();
                 }
-                basicFieldTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                basicFieldTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicFieldTypeId_);
                   basicFieldTypeId_ = subBuilder.buildPartial();
@@ -2537,7 +2536,7 @@ public final class FoGetPostingCharacsPu {
                 if (propertyModificationAllowed_ != null) {
                   subBuilder = propertyModificationAllowed_.toBuilder();
                 }
-                propertyModificationAllowed_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                propertyModificationAllowed_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(propertyModificationAllowed_);
                   propertyModificationAllowed_ = subBuilder.buildPartial();
@@ -2550,7 +2549,7 @@ public final class FoGetPostingCharacsPu {
                 if (maxNumberOfProperties_ != null) {
                   subBuilder = maxNumberOfProperties_.toBuilder();
                 }
-                maxNumberOfProperties_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                maxNumberOfProperties_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(maxNumberOfProperties_);
                   maxNumberOfProperties_ = subBuilder.buildPartial();
@@ -3112,9 +3111,8 @@ public final class FoGetPostingCharacsPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3178,7 +3176,7 @@ public final class FoGetPostingCharacsPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10014, getMaxNumberOfProperties());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5745,8 +5743,8 @@ public final class FoGetPostingCharacsPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -5914,9 +5912,8 @@ public final class FoGetPostingCharacsPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -5932,7 +5929,7 @@ public final class FoGetPostingCharacsPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -6900,8 +6897,8 @@ public final class FoGetPostingCharacsPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

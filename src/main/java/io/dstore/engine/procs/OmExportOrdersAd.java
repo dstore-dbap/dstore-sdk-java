@@ -200,7 +200,7 @@ public final class OmExportOrdersAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ExportOrders_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -245,7 +245,7 @@ public final class OmExportOrdersAd {
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -258,7 +258,7 @@ public final class OmExportOrdersAd {
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -271,7 +271,7 @@ public final class OmExportOrdersAd {
               if (nodeCharacteristicId1_ != null) {
                 subBuilder = nodeCharacteristicId1_.toBuilder();
               }
-              nodeCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId1_);
                 nodeCharacteristicId1_ = subBuilder.buildPartial();
@@ -284,7 +284,7 @@ public final class OmExportOrdersAd {
               if (nodeCharacteristicId2_ != null) {
                 subBuilder = nodeCharacteristicId2_.toBuilder();
               }
-              nodeCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId2_);
                 nodeCharacteristicId2_ = subBuilder.buildPartial();
@@ -297,7 +297,7 @@ public final class OmExportOrdersAd {
               if (nodeCharacteristicId3_ != null) {
                 subBuilder = nodeCharacteristicId3_.toBuilder();
               }
-              nodeCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId3_);
                 nodeCharacteristicId3_ = subBuilder.buildPartial();
@@ -310,7 +310,7 @@ public final class OmExportOrdersAd {
               if (skipOHavingDifferentOStates_ != null) {
                 subBuilder = skipOHavingDifferentOStates_.toBuilder();
               }
-              skipOHavingDifferentOStates_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              skipOHavingDifferentOStates_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(skipOHavingDifferentOStates_);
                 skipOHavingDifferentOStates_ = subBuilder.buildPartial();
@@ -323,7 +323,7 @@ public final class OmExportOrdersAd {
               if (getAllPositionsOfOrder_ != null) {
                 subBuilder = getAllPositionsOfOrder_.toBuilder();
               }
-              getAllPositionsOfOrder_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getAllPositionsOfOrder_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getAllPositionsOfOrder_);
                 getAllPositionsOfOrder_ = subBuilder.buildPartial();
@@ -336,7 +336,7 @@ public final class OmExportOrdersAd {
               if (maxNumberOfOrders_ != null) {
                 subBuilder = maxNumberOfOrders_.toBuilder();
               }
-              maxNumberOfOrders_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              maxNumberOfOrders_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfOrders_);
                 maxNumberOfOrders_ = subBuilder.buildPartial();
@@ -349,7 +349,7 @@ public final class OmExportOrdersAd {
               if (includeOrdersWithOrderNo_ != null) {
                 subBuilder = includeOrdersWithOrderNo_.toBuilder();
               }
-              includeOrdersWithOrderNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              includeOrdersWithOrderNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeOrdersWithOrderNo_);
                 includeOrdersWithOrderNo_ = subBuilder.buildPartial();
@@ -362,7 +362,7 @@ public final class OmExportOrdersAd {
               if (getActualItemInfo_ != null) {
                 subBuilder = getActualItemInfo_.toBuilder();
               }
-              getActualItemInfo_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getActualItemInfo_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getActualItemInfo_);
                 getActualItemInfo_ = subBuilder.buildPartial();
@@ -818,9 +818,8 @@ public final class OmExportOrdersAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -904,7 +903,7 @@ public final class OmExportOrdersAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1010, getActualItemInfoNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2731,8 +2730,8 @@ public final class OmExportOrdersAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2858,7 +2857,7 @@ public final class OmExportOrdersAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ExportOrders_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2895,7 +2894,7 @@ public final class OmExportOrdersAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2908,7 +2907,7 @@ public final class OmExportOrdersAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2916,7 +2915,7 @@ public final class OmExportOrdersAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmExportOrdersAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmExportOrdersAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmExportOrdersAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -4016,7 +4015,7 @@ public final class OmExportOrdersAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_ExportOrders_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -4058,7 +4057,7 @@ public final class OmExportOrdersAd {
                 if (deliveryDateAndTime_ != null) {
                   subBuilder = deliveryDateAndTime_.toBuilder();
                 }
-                deliveryDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                deliveryDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(deliveryDateAndTime_);
                   deliveryDateAndTime_ = subBuilder.buildPartial();
@@ -4071,7 +4070,7 @@ public final class OmExportOrdersAd {
                 if (deliveryDateAndTimeChar_ != null) {
                   subBuilder = deliveryDateAndTimeChar_.toBuilder();
                 }
-                deliveryDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                deliveryDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(deliveryDateAndTimeChar_);
                   deliveryDateAndTimeChar_ = subBuilder.buildPartial();
@@ -4084,7 +4083,7 @@ public final class OmExportOrdersAd {
                 if (netShippingCost_ != null) {
                   subBuilder = netShippingCost_.toBuilder();
                 }
-                netShippingCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                netShippingCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(netShippingCost_);
                   netShippingCost_ = subBuilder.buildPartial();
@@ -4097,7 +4096,7 @@ public final class OmExportOrdersAd {
                 if (orderId_ != null) {
                   subBuilder = orderId_.toBuilder();
                 }
-                orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderId_);
                   orderId_ = subBuilder.buildPartial();
@@ -4110,7 +4109,7 @@ public final class OmExportOrdersAd {
                 if (orderContentId_ != null) {
                   subBuilder = orderContentId_.toBuilder();
                 }
-                orderContentId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                orderContentId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderContentId_);
                   orderContentId_ = subBuilder.buildPartial();
@@ -4123,7 +4122,7 @@ public final class OmExportOrdersAd {
                 if (preciseNetShippingCost_ != null) {
                   subBuilder = preciseNetShippingCost_.toBuilder();
                 }
-                preciseNetShippingCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseNetShippingCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseNetShippingCost_);
                   preciseNetShippingCost_ = subBuilder.buildPartial();
@@ -4136,7 +4135,7 @@ public final class OmExportOrdersAd {
                 if (preciseGrossPaymentCost_ != null) {
                   subBuilder = preciseGrossPaymentCost_.toBuilder();
                 }
-                preciseGrossPaymentCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseGrossPaymentCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseGrossPaymentCost_);
                   preciseGrossPaymentCost_ = subBuilder.buildPartial();
@@ -4149,7 +4148,7 @@ public final class OmExportOrdersAd {
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -4162,7 +4161,7 @@ public final class OmExportOrdersAd {
                 if (preciseNetSum_ != null) {
                   subBuilder = preciseNetSum_.toBuilder();
                 }
-                preciseNetSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseNetSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseNetSum_);
                   preciseNetSum_ = subBuilder.buildPartial();
@@ -4175,7 +4174,7 @@ public final class OmExportOrdersAd {
                 if (currency_ != null) {
                   subBuilder = currency_.toBuilder();
                 }
-                currency_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                currency_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currency_);
                   currency_ = subBuilder.buildPartial();
@@ -4188,7 +4187,7 @@ public final class OmExportOrdersAd {
                 if (orderStateId_ != null) {
                   subBuilder = orderStateId_.toBuilder();
                 }
-                orderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                orderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderStateId_);
                   orderStateId_ = subBuilder.buildPartial();
@@ -4201,7 +4200,7 @@ public final class OmExportOrdersAd {
                 if (shippingTypeId_ != null) {
                   subBuilder = shippingTypeId_.toBuilder();
                 }
-                shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(shippingTypeId_);
                   shippingTypeId_ = subBuilder.buildPartial();
@@ -4214,7 +4213,7 @@ public final class OmExportOrdersAd {
                 if (grossPaymentCost_ != null) {
                   subBuilder = grossPaymentCost_.toBuilder();
                 }
-                grossPaymentCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                grossPaymentCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(grossPaymentCost_);
                   grossPaymentCost_ = subBuilder.buildPartial();
@@ -4227,7 +4226,7 @@ public final class OmExportOrdersAd {
                 if (shippingType_ != null) {
                   subBuilder = shippingType_.toBuilder();
                 }
-                shippingType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                shippingType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(shippingType_);
                   shippingType_ = subBuilder.buildPartial();
@@ -4240,7 +4239,7 @@ public final class OmExportOrdersAd {
                 if (position_ != null) {
                   subBuilder = position_.toBuilder();
                 }
-                position_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                position_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(position_);
                   position_ = subBuilder.buildPartial();
@@ -4253,7 +4252,7 @@ public final class OmExportOrdersAd {
                 if (preciseNetPaymentCost_ != null) {
                   subBuilder = preciseNetPaymentCost_.toBuilder();
                 }
-                preciseNetPaymentCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseNetPaymentCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseNetPaymentCost_);
                   preciseNetPaymentCost_ = subBuilder.buildPartial();
@@ -4266,7 +4265,7 @@ public final class OmExportOrdersAd {
                 if (grossPositionSum_ != null) {
                   subBuilder = grossPositionSum_.toBuilder();
                 }
-                grossPositionSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                grossPositionSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(grossPositionSum_);
                   grossPositionSum_ = subBuilder.buildPartial();
@@ -4279,7 +4278,7 @@ public final class OmExportOrdersAd {
                 if (surchargeValue_ != null) {
                   subBuilder = surchargeValue_.toBuilder();
                 }
-                surchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                surchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeValue_);
                   surchargeValue_ = subBuilder.buildPartial();
@@ -4292,7 +4291,7 @@ public final class OmExportOrdersAd {
                 if (preciseGrossShippingCost_ != null) {
                   subBuilder = preciseGrossShippingCost_.toBuilder();
                 }
-                preciseGrossShippingCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseGrossShippingCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseGrossShippingCost_);
                   preciseGrossShippingCost_ = subBuilder.buildPartial();
@@ -4305,7 +4304,7 @@ public final class OmExportOrdersAd {
                 if (preciseGrossSum_ != null) {
                   subBuilder = preciseGrossSum_.toBuilder();
                 }
-                preciseGrossSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseGrossSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseGrossSum_);
                   preciseGrossSum_ = subBuilder.buildPartial();
@@ -4318,7 +4317,7 @@ public final class OmExportOrdersAd {
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -4331,7 +4330,7 @@ public final class OmExportOrdersAd {
                 if (paymentTypeId_ != null) {
                   subBuilder = paymentTypeId_.toBuilder();
                 }
-                paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentTypeId_);
                   paymentTypeId_ = subBuilder.buildPartial();
@@ -4344,7 +4343,7 @@ public final class OmExportOrdersAd {
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
                 }
-                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeId_);
                   surchargeTypeId_ = subBuilder.buildPartial();
@@ -4357,7 +4356,7 @@ public final class OmExportOrdersAd {
                 if (orderDateAndTime_ != null) {
                   subBuilder = orderDateAndTime_.toBuilder();
                 }
-                orderDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                orderDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderDateAndTime_);
                   orderDateAndTime_ = subBuilder.buildPartial();
@@ -4370,7 +4369,7 @@ public final class OmExportOrdersAd {
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -4383,7 +4382,7 @@ public final class OmExportOrdersAd {
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -4396,7 +4395,7 @@ public final class OmExportOrdersAd {
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -4409,7 +4408,7 @@ public final class OmExportOrdersAd {
                 if (orderDateAndTimeChar_ != null) {
                   subBuilder = orderDateAndTimeChar_.toBuilder();
                 }
-                orderDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                orderDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderDateAndTimeChar_);
                   orderDateAndTimeChar_ = subBuilder.buildPartial();
@@ -4422,7 +4421,7 @@ public final class OmExportOrdersAd {
                 if (netSum_ != null) {
                   subBuilder = netSum_.toBuilder();
                 }
-                netSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                netSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(netSum_);
                   netSum_ = subBuilder.buildPartial();
@@ -4435,7 +4434,7 @@ public final class OmExportOrdersAd {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -4448,7 +4447,7 @@ public final class OmExportOrdersAd {
                 if (paymentType_ != null) {
                   subBuilder = paymentType_.toBuilder();
                 }
-                paymentType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                paymentType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(paymentType_);
                   paymentType_ = subBuilder.buildPartial();
@@ -4461,7 +4460,7 @@ public final class OmExportOrdersAd {
                 if (positionCount_ != null) {
                   subBuilder = positionCount_.toBuilder();
                 }
-                positionCount_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                positionCount_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(positionCount_);
                   positionCount_ = subBuilder.buildPartial();
@@ -4474,7 +4473,7 @@ public final class OmExportOrdersAd {
                 if (netPositionSum_ != null) {
                   subBuilder = netPositionSum_.toBuilder();
                 }
-                netPositionSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                netPositionSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(netPositionSum_);
                   netPositionSum_ = subBuilder.buildPartial();
@@ -4487,7 +4486,7 @@ public final class OmExportOrdersAd {
                 if (surchargeIsAbsoluteValue_ != null) {
                   subBuilder = surchargeIsAbsoluteValue_.toBuilder();
                 }
-                surchargeIsAbsoluteValue_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                surchargeIsAbsoluteValue_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeIsAbsoluteValue_);
                   surchargeIsAbsoluteValue_ = subBuilder.buildPartial();
@@ -4500,7 +4499,7 @@ public final class OmExportOrdersAd {
                 if (preciseNetPositionSum_ != null) {
                   subBuilder = preciseNetPositionSum_.toBuilder();
                 }
-                preciseNetPositionSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseNetPositionSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseNetPositionSum_);
                   preciseNetPositionSum_ = subBuilder.buildPartial();
@@ -4513,7 +4512,7 @@ public final class OmExportOrdersAd {
                 if (netPaymentCost_ != null) {
                   subBuilder = netPaymentCost_.toBuilder();
                 }
-                netPaymentCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                netPaymentCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(netPaymentCost_);
                   netPaymentCost_ = subBuilder.buildPartial();
@@ -4526,7 +4525,7 @@ public final class OmExportOrdersAd {
                 if (deliveryPersonId_ != null) {
                   subBuilder = deliveryPersonId_.toBuilder();
                 }
-                deliveryPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                deliveryPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(deliveryPersonId_);
                   deliveryPersonId_ = subBuilder.buildPartial();
@@ -4539,7 +4538,7 @@ public final class OmExportOrdersAd {
                 if (quantity_ != null) {
                   subBuilder = quantity_.toBuilder();
                 }
-                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quantity_);
                   quantity_ = subBuilder.buildPartial();
@@ -4552,7 +4551,7 @@ public final class OmExportOrdersAd {
                 if (grossShippingCost_ != null) {
                   subBuilder = grossShippingCost_.toBuilder();
                 }
-                grossShippingCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                grossShippingCost_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(grossShippingCost_);
                   grossShippingCost_ = subBuilder.buildPartial();
@@ -4565,7 +4564,7 @@ public final class OmExportOrdersAd {
                 if (grossSum_ != null) {
                   subBuilder = grossSum_.toBuilder();
                 }
-                grossSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                grossSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(grossSum_);
                   grossSum_ = subBuilder.buildPartial();
@@ -4578,7 +4577,7 @@ public final class OmExportOrdersAd {
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
                 }
-                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencyId_);
                   currencyId_ = subBuilder.buildPartial();
@@ -4591,7 +4590,7 @@ public final class OmExportOrdersAd {
                 if (preciseGrossPositionSum_ != null) {
                   subBuilder = preciseGrossPositionSum_.toBuilder();
                 }
-                preciseGrossPositionSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseGrossPositionSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseGrossPositionSum_);
                   preciseGrossPositionSum_ = subBuilder.buildPartial();
@@ -6161,9 +6160,8 @@ public final class OmExportOrdersAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -6339,7 +6337,7 @@ public final class OmExportOrdersAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10042, getPreciseGrossPositionSum());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -13582,8 +13580,8 @@ public final class OmExportOrdersAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -13751,9 +13749,8 @@ public final class OmExportOrdersAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -13769,7 +13766,7 @@ public final class OmExportOrdersAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -14737,8 +14734,8 @@ public final class OmExportOrdersAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

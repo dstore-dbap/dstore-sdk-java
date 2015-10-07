@@ -182,7 +182,7 @@ public final class MiCreatedStoreUserAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_CreatedStoreUser_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -226,7 +226,7 @@ public final class MiCreatedStoreUserAd {
               if (userName_ != null) {
                 subBuilder = userName_.toBuilder();
               }
-              userName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              userName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userName_);
                 userName_ = subBuilder.buildPartial();
@@ -239,7 +239,7 @@ public final class MiCreatedStoreUserAd {
               if (dBLogin_ != null) {
                 subBuilder = dBLogin_.toBuilder();
               }
-              dBLogin_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              dBLogin_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dBLogin_);
                 dBLogin_ = subBuilder.buildPartial();
@@ -252,7 +252,7 @@ public final class MiCreatedStoreUserAd {
               if (dBPassword_ != null) {
                 subBuilder = dBPassword_.toBuilder();
               }
-              dBPassword_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              dBPassword_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dBPassword_);
                 dBPassword_ = subBuilder.buildPartial();
@@ -265,7 +265,7 @@ public final class MiCreatedStoreUserAd {
               if (dBLoginDescription_ != null) {
                 subBuilder = dBLoginDescription_.toBuilder();
               }
-              dBLoginDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              dBLoginDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dBLoginDescription_);
                 dBLoginDescription_ = subBuilder.buildPartial();
@@ -278,7 +278,7 @@ public final class MiCreatedStoreUserAd {
               if (dBGroupAdmin_ != null) {
                 subBuilder = dBGroupAdmin_.toBuilder();
               }
-              dBGroupAdmin_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              dBGroupAdmin_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dBGroupAdmin_);
                 dBGroupAdmin_ = subBuilder.buildPartial();
@@ -291,7 +291,7 @@ public final class MiCreatedStoreUserAd {
               if (userGroupId_ != null) {
                 subBuilder = userGroupId_.toBuilder();
               }
-              userGroupId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              userGroupId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userGroupId_);
                 userGroupId_ = subBuilder.buildPartial();
@@ -304,7 +304,7 @@ public final class MiCreatedStoreUserAd {
               if (createPersonWithPassword_ != null) {
                 subBuilder = createPersonWithPassword_.toBuilder();
               }
-              createPersonWithPassword_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              createPersonWithPassword_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(createPersonWithPassword_);
                 createPersonWithPassword_ = subBuilder.buildPartial();
@@ -317,7 +317,7 @@ public final class MiCreatedStoreUserAd {
               if (userMayCreateNewUsers_ != null) {
                 subBuilder = userMayCreateNewUsers_.toBuilder();
               }
-              userMayCreateNewUsers_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              userMayCreateNewUsers_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userMayCreateNewUsers_);
                 userMayCreateNewUsers_ = subBuilder.buildPartial();
@@ -330,7 +330,7 @@ public final class MiCreatedStoreUserAd {
               if (abortIfLoginAlreadyExists_ != null) {
                 subBuilder = abortIfLoginAlreadyExists_.toBuilder();
               }
-              abortIfLoginAlreadyExists_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              abortIfLoginAlreadyExists_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(abortIfLoginAlreadyExists_);
                 abortIfLoginAlreadyExists_ = subBuilder.buildPartial();
@@ -745,9 +745,8 @@ public final class MiCreatedStoreUserAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -823,7 +822,7 @@ public final class MiCreatedStoreUserAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1009, abortIfLoginAlreadyExistsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2487,8 +2486,8 @@ public final class MiCreatedStoreUserAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2614,7 +2613,7 @@ public final class MiCreatedStoreUserAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_CreatedStoreUser_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2651,7 +2650,7 @@ public final class MiCreatedStoreUserAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2664,7 +2663,7 @@ public final class MiCreatedStoreUserAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2672,7 +2671,7 @@ public final class MiCreatedStoreUserAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiCreatedStoreUserAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiCreatedStoreUserAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiCreatedStoreUserAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2722,7 +2721,7 @@ public final class MiCreatedStoreUserAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_CreatedStoreUser_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2808,9 +2807,8 @@ public final class MiCreatedStoreUserAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2818,7 +2816,7 @@ public final class MiCreatedStoreUserAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3047,8 +3045,8 @@ public final class MiCreatedStoreUserAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3216,9 +3214,8 @@ public final class MiCreatedStoreUserAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3234,7 +3231,7 @@ public final class MiCreatedStoreUserAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -4202,8 +4199,8 @@ public final class MiCreatedStoreUserAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

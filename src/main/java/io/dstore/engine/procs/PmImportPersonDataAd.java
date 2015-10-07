@@ -200,7 +200,7 @@ public final class PmImportPersonDataAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_ImportPersonData_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -245,7 +245,7 @@ public final class PmImportPersonDataAd {
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -258,7 +258,7 @@ public final class PmImportPersonDataAd {
               if (howManyCharacteristics_ != null) {
                 subBuilder = howManyCharacteristics_.toBuilder();
               }
-              howManyCharacteristics_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              howManyCharacteristics_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(howManyCharacteristics_);
                 howManyCharacteristics_ = subBuilder.buildPartial();
@@ -271,7 +271,7 @@ public final class PmImportPersonDataAd {
               if (dumpTransaction_ != null) {
                 subBuilder = dumpTransaction_.toBuilder();
               }
-              dumpTransaction_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              dumpTransaction_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dumpTransaction_);
                 dumpTransaction_ = subBuilder.buildPartial();
@@ -284,7 +284,7 @@ public final class PmImportPersonDataAd {
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              country_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -297,7 +297,7 @@ public final class PmImportPersonDataAd {
               if (identifyingCharacteristicId_ != null) {
                 subBuilder = identifyingCharacteristicId_.toBuilder();
               }
-              identifyingCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              identifyingCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(identifyingCharacteristicId_);
                 identifyingCharacteristicId_ = subBuilder.buildPartial();
@@ -310,7 +310,7 @@ public final class PmImportPersonDataAd {
               if (verifyChanges_ != null) {
                 subBuilder = verifyChanges_.toBuilder();
               }
-              verifyChanges_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              verifyChanges_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(verifyChanges_);
                 verifyChanges_ = subBuilder.buildPartial();
@@ -323,7 +323,7 @@ public final class PmImportPersonDataAd {
               if (logErrors_ != null) {
                 subBuilder = logErrors_.toBuilder();
               }
-              logErrors_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              logErrors_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(logErrors_);
                 logErrors_ = subBuilder.buildPartial();
@@ -336,7 +336,7 @@ public final class PmImportPersonDataAd {
               if (identValuesAreCaseSensitive_ != null) {
                 subBuilder = identValuesAreCaseSensitive_.toBuilder();
               }
-              identValuesAreCaseSensitive_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              identValuesAreCaseSensitive_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(identValuesAreCaseSensitive_);
                 identValuesAreCaseSensitive_ = subBuilder.buildPartial();
@@ -349,7 +349,7 @@ public final class PmImportPersonDataAd {
               if (emptyStringToDeleteDetails_ != null) {
                 subBuilder = emptyStringToDeleteDetails_.toBuilder();
               }
-              emptyStringToDeleteDetails_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              emptyStringToDeleteDetails_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(emptyStringToDeleteDetails_);
                 emptyStringToDeleteDetails_ = subBuilder.buildPartial();
@@ -362,7 +362,7 @@ public final class PmImportPersonDataAd {
               if (ignEmptStrInNOrMTabForNewPers_ != null) {
                 subBuilder = ignEmptStrInNOrMTabForNewPers_.toBuilder();
               }
-              ignEmptStrInNOrMTabForNewPers_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              ignEmptStrInNOrMTabForNewPers_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(ignEmptStrInNOrMTabForNewPers_);
                 ignEmptStrInNOrMTabForNewPers_ = subBuilder.buildPartial();
@@ -818,9 +818,8 @@ public final class PmImportPersonDataAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -904,7 +903,7 @@ public final class PmImportPersonDataAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1010, ignEmptStrInNOrMTabForNewPersNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2731,8 +2730,8 @@ public final class PmImportPersonDataAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2864,7 +2863,7 @@ public final class PmImportPersonDataAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_ImportPersonData_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2901,7 +2900,7 @@ public final class PmImportPersonDataAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2914,7 +2913,7 @@ public final class PmImportPersonDataAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2922,7 +2921,7 @@ public final class PmImportPersonDataAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.PmImportPersonDataAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.PmImportPersonDataAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.PmImportPersonDataAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -2930,7 +2929,7 @@ public final class PmImportPersonDataAd {
               if (errorDateAndTimeNew_ != null) {
                 subBuilder = errorDateAndTimeNew_.toBuilder();
               }
-              errorDateAndTimeNew_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              errorDateAndTimeNew_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(errorDateAndTimeNew_);
                 errorDateAndTimeNew_ = subBuilder.buildPartial();
@@ -2943,7 +2942,7 @@ public final class PmImportPersonDataAd {
               if (errorDateAndTimeModify_ != null) {
                 subBuilder = errorDateAndTimeModify_.toBuilder();
               }
-              errorDateAndTimeModify_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              errorDateAndTimeModify_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(errorDateAndTimeModify_);
                 errorDateAndTimeModify_ = subBuilder.buildPartial();
@@ -2998,7 +2997,7 @@ public final class PmImportPersonDataAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.pm_ImportPersonData_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3084,9 +3083,8 @@ public final class PmImportPersonDataAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3094,7 +3092,7 @@ public final class PmImportPersonDataAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3323,8 +3321,8 @@ public final class PmImportPersonDataAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3520,9 +3518,8 @@ public final class PmImportPersonDataAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3546,7 +3543,7 @@ public final class PmImportPersonDataAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(102, getErrorDateAndTimeModify());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -4704,8 +4701,8 @@ public final class PmImportPersonDataAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

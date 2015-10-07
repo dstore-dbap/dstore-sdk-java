@@ -92,7 +92,7 @@ public final class MiGetSessionManagementPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetSessionManagement_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -131,7 +131,7 @@ public final class MiGetSessionManagementPu {
               if (sessionId_ != null) {
                 subBuilder = sessionId_.toBuilder();
               }
-              sessionId_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              sessionId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sessionId_);
                 sessionId_ = subBuilder.buildPartial();
@@ -144,7 +144,7 @@ public final class MiGetSessionManagementPu {
               if (keyVariable_ != null) {
                 subBuilder = keyVariable_.toBuilder();
               }
-              keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keyVariable_);
                 keyVariable_ = subBuilder.buildPartial();
@@ -157,7 +157,7 @@ public final class MiGetSessionManagementPu {
               if (updateDateAndTime_ != null) {
                 subBuilder = updateDateAndTime_.toBuilder();
               }
-              updateDateAndTime_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              updateDateAndTime_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(updateDateAndTime_);
                 updateDateAndTime_ = subBuilder.buildPartial();
@@ -170,7 +170,7 @@ public final class MiGetSessionManagementPu {
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
               }
-              selectResult_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              selectResult_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(selectResult_);
                 selectResult_ = subBuilder.buildPartial();
@@ -380,9 +380,8 @@ public final class MiGetSessionManagementPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -418,7 +417,7 @@ public final class MiGetSessionManagementPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1004, selectResultNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1267,8 +1266,8 @@ public final class MiGetSessionManagementPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1387,7 +1386,7 @@ public final class MiGetSessionManagementPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetSessionManagement_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1424,7 +1423,7 @@ public final class MiGetSessionManagementPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1437,7 +1436,7 @@ public final class MiGetSessionManagementPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1445,7 +1444,7 @@ public final class MiGetSessionManagementPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiGetSessionManagementPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiGetSessionManagementPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiGetSessionManagementPu.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -1453,7 +1452,7 @@ public final class MiGetSessionManagementPu {
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -1583,7 +1582,7 @@ public final class MiGetSessionManagementPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetSessionManagement_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1624,7 +1623,7 @@ public final class MiGetSessionManagementPu {
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1637,7 +1636,7 @@ public final class MiGetSessionManagementPu {
                 if (dateAndTime_ != null) {
                   subBuilder = dateAndTime_.toBuilder();
                 }
-                dateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                dateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dateAndTime_);
                   dateAndTime_ = subBuilder.buildPartial();
@@ -1650,7 +1649,7 @@ public final class MiGetSessionManagementPu {
                 if (keyVariable_ != null) {
                   subBuilder = keyVariable_.toBuilder();
                 }
-                keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(keyVariable_);
                   keyVariable_ = subBuilder.buildPartial();
@@ -1816,9 +1815,8 @@ public final class MiGetSessionManagementPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1838,7 +1836,7 @@ public final class MiGetSessionManagementPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20003, getKeyVariable());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2568,8 +2566,8 @@ public final class MiGetSessionManagementPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2741,9 +2739,8 @@ public final class MiGetSessionManagementPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2763,7 +2760,7 @@ public final class MiGetSessionManagementPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getValue());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3790,8 +3787,8 @@ public final class MiGetSessionManagementPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

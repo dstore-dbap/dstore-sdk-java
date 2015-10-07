@@ -128,7 +128,7 @@ public final class OmModifyCampaignsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyCampaigns_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -169,7 +169,7 @@ public final class OmModifyCampaignsAd {
               if (campaignName_ != null) {
                 subBuilder = campaignName_.toBuilder();
               }
-              campaignName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              campaignName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignName_);
                 campaignName_ = subBuilder.buildPartial();
@@ -182,7 +182,7 @@ public final class OmModifyCampaignsAd {
               if (campaignDescription_ != null) {
                 subBuilder = campaignDescription_.toBuilder();
               }
-              campaignDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              campaignDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignDescription_);
                 campaignDescription_ = subBuilder.buildPartial();
@@ -195,7 +195,7 @@ public final class OmModifyCampaignsAd {
               if (campaignTypeId_ != null) {
                 subBuilder = campaignTypeId_.toBuilder();
               }
-              campaignTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              campaignTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignTypeId_);
                 campaignTypeId_ = subBuilder.buildPartial();
@@ -208,7 +208,7 @@ public final class OmModifyCampaignsAd {
               if (active_ != null) {
                 subBuilder = active_.toBuilder();
               }
-              active_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              active_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(active_);
                 active_ = subBuilder.buildPartial();
@@ -221,7 +221,7 @@ public final class OmModifyCampaignsAd {
               if (deleteCampaign_ != null) {
                 subBuilder = deleteCampaign_.toBuilder();
               }
-              deleteCampaign_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              deleteCampaign_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteCampaign_);
                 deleteCampaign_ = subBuilder.buildPartial();
@@ -234,7 +234,7 @@ public final class OmModifyCampaignsAd {
               if (forceDelete_ != null) {
                 subBuilder = forceDelete_.toBuilder();
               }
-              forceDelete_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              forceDelete_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forceDelete_);
                 forceDelete_ = subBuilder.buildPartial();
@@ -526,9 +526,8 @@ public final class OmModifyCampaignsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -580,7 +579,7 @@ public final class OmModifyCampaignsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1006, forceDeleteNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1755,8 +1754,8 @@ public final class OmModifyCampaignsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1875,7 +1874,7 @@ public final class OmModifyCampaignsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyCampaigns_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1912,7 +1911,7 @@ public final class OmModifyCampaignsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1925,7 +1924,7 @@ public final class OmModifyCampaignsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1933,7 +1932,7 @@ public final class OmModifyCampaignsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmModifyCampaignsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmModifyCampaignsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmModifyCampaignsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -1941,7 +1940,7 @@ public final class OmModifyCampaignsAd {
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -1996,7 +1995,7 @@ public final class OmModifyCampaignsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyCampaigns_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2082,9 +2081,8 @@ public final class OmModifyCampaignsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2092,7 +2090,7 @@ public final class OmModifyCampaignsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2321,8 +2319,8 @@ public final class OmModifyCampaignsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2494,9 +2492,8 @@ public final class OmModifyCampaignsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2516,7 +2513,7 @@ public final class OmModifyCampaignsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getCampaignId());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3543,8 +3540,8 @@ public final class OmModifyCampaignsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

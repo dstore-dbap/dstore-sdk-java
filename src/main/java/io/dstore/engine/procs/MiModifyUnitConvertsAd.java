@@ -128,7 +128,7 @@ public final class MiModifyUnitConvertsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_ModifyUnitConverts_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -169,7 +169,7 @@ public final class MiModifyUnitConvertsAd {
               if (fromUnitId_ != null) {
                 subBuilder = fromUnitId_.toBuilder();
               }
-              fromUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              fromUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromUnitId_);
                 fromUnitId_ = subBuilder.buildPartial();
@@ -182,7 +182,7 @@ public final class MiModifyUnitConvertsAd {
               if (toUnitId_ != null) {
                 subBuilder = toUnitId_.toBuilder();
               }
-              toUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              toUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toUnitId_);
                 toUnitId_ = subBuilder.buildPartial();
@@ -195,7 +195,7 @@ public final class MiModifyUnitConvertsAd {
               if (convertFactor_ != null) {
                 subBuilder = convertFactor_.toBuilder();
               }
-              convertFactor_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              convertFactor_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(convertFactor_);
                 convertFactor_ = subBuilder.buildPartial();
@@ -208,7 +208,7 @@ public final class MiModifyUnitConvertsAd {
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -221,7 +221,7 @@ public final class MiModifyUnitConvertsAd {
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -234,7 +234,7 @@ public final class MiModifyUnitConvertsAd {
               if (dateIndependent_ != null) {
                 subBuilder = dateIndependent_.toBuilder();
               }
-              dateIndependent_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              dateIndependent_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dateIndependent_);
                 dateIndependent_ = subBuilder.buildPartial();
@@ -526,9 +526,8 @@ public final class MiModifyUnitConvertsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -580,7 +579,7 @@ public final class MiModifyUnitConvertsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1006, dateIndependentNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1755,8 +1754,8 @@ public final class MiModifyUnitConvertsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1882,7 +1881,7 @@ public final class MiModifyUnitConvertsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_ModifyUnitConverts_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1919,7 +1918,7 @@ public final class MiModifyUnitConvertsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1932,7 +1931,7 @@ public final class MiModifyUnitConvertsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1940,7 +1939,7 @@ public final class MiModifyUnitConvertsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiModifyUnitConvertsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiModifyUnitConvertsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiModifyUnitConvertsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1990,7 +1989,7 @@ public final class MiModifyUnitConvertsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_ModifyUnitConverts_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2076,9 +2075,8 @@ public final class MiModifyUnitConvertsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2086,7 +2084,7 @@ public final class MiModifyUnitConvertsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2315,8 +2313,8 @@ public final class MiModifyUnitConvertsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2484,9 +2482,8 @@ public final class MiModifyUnitConvertsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2502,7 +2499,7 @@ public final class MiModifyUnitConvertsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3470,8 +3467,8 @@ public final class MiModifyUnitConvertsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -92,7 +92,7 @@ public final class OmGetShippingTypesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetShippingTypes_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -131,7 +131,7 @@ public final class OmGetShippingTypesAd {
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -144,7 +144,7 @@ public final class OmGetShippingTypesAd {
               if (shippingTypeId_ != null) {
                 subBuilder = shippingTypeId_.toBuilder();
               }
-              shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(shippingTypeId_);
                 shippingTypeId_ = subBuilder.buildPartial();
@@ -157,7 +157,7 @@ public final class OmGetShippingTypesAd {
               if (onlyActive_ != null) {
                 subBuilder = onlyActive_.toBuilder();
               }
-              onlyActive_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              onlyActive_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyActive_);
                 onlyActive_ = subBuilder.buildPartial();
@@ -170,7 +170,7 @@ public final class OmGetShippingTypesAd {
               if (validAtDateAndTime_ != null) {
                 subBuilder = validAtDateAndTime_.toBuilder();
               }
-              validAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              validAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(validAtDateAndTime_);
                 validAtDateAndTime_ = subBuilder.buildPartial();
@@ -380,9 +380,8 @@ public final class OmGetShippingTypesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -418,7 +417,7 @@ public final class OmGetShippingTypesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1004, validAtDateAndTimeNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1267,8 +1266,8 @@ public final class OmGetShippingTypesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1394,7 +1393,7 @@ public final class OmGetShippingTypesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetShippingTypes_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1431,7 +1430,7 @@ public final class OmGetShippingTypesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1444,7 +1443,7 @@ public final class OmGetShippingTypesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1452,7 +1451,7 @@ public final class OmGetShippingTypesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetShippingTypesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetShippingTypesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetShippingTypesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2027,7 +2026,7 @@ public final class OmGetShippingTypesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetShippingTypes_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2068,7 +2067,7 @@ public final class OmGetShippingTypesAd {
                 if (priorityNo_ != null) {
                   subBuilder = priorityNo_.toBuilder();
                 }
-                priorityNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                priorityNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(priorityNo_);
                   priorityNo_ = subBuilder.buildPartial();
@@ -2081,7 +2080,7 @@ public final class OmGetShippingTypesAd {
                 if (shippingTypeDescription_ != null) {
                   subBuilder = shippingTypeDescription_.toBuilder();
                 }
-                shippingTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                shippingTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(shippingTypeDescription_);
                   shippingTypeDescription_ = subBuilder.buildPartial();
@@ -2094,7 +2093,7 @@ public final class OmGetShippingTypesAd {
                 if (surchargeUnitSymbol_ != null) {
                   subBuilder = surchargeUnitSymbol_.toBuilder();
                 }
-                surchargeUnitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                surchargeUnitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeUnitSymbol_);
                   surchargeUnitSymbol_ = subBuilder.buildPartial();
@@ -2107,7 +2106,7 @@ public final class OmGetShippingTypesAd {
                 if (surchargeValue_ != null) {
                   subBuilder = surchargeValue_.toBuilder();
                 }
-                surchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                surchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeValue_);
                   surchargeValue_ = subBuilder.buildPartial();
@@ -2120,7 +2119,7 @@ public final class OmGetShippingTypesAd {
                 if (cost_ != null) {
                   subBuilder = cost_.toBuilder();
                 }
-                cost_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                cost_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(cost_);
                   cost_ = subBuilder.buildPartial();
@@ -2133,7 +2132,7 @@ public final class OmGetShippingTypesAd {
                 if (grossSumTo_ != null) {
                   subBuilder = grossSumTo_.toBuilder();
                 }
-                grossSumTo_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                grossSumTo_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(grossSumTo_);
                   grossSumTo_ = subBuilder.buildPartial();
@@ -2146,7 +2145,7 @@ public final class OmGetShippingTypesAd {
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
                 }
-                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencyId_);
                   currencyId_ = subBuilder.buildPartial();
@@ -2159,7 +2158,7 @@ public final class OmGetShippingTypesAd {
                 if (currencySymbol_ != null) {
                   subBuilder = currencySymbol_.toBuilder();
                 }
-                currencySymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                currencySymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencySymbol_);
                   currencySymbol_ = subBuilder.buildPartial();
@@ -2172,7 +2171,7 @@ public final class OmGetShippingTypesAd {
                 if (createdAtDateAndTime_ != null) {
                   subBuilder = createdAtDateAndTime_.toBuilder();
                 }
-                createdAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                createdAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdAtDateAndTime_);
                   createdAtDateAndTime_ = subBuilder.buildPartial();
@@ -2185,7 +2184,7 @@ public final class OmGetShippingTypesAd {
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -2198,7 +2197,7 @@ public final class OmGetShippingTypesAd {
                 if (costCurrencyId_ != null) {
                   subBuilder = costCurrencyId_.toBuilder();
                 }
-                costCurrencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                costCurrencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(costCurrencyId_);
                   costCurrencyId_ = subBuilder.buildPartial();
@@ -2211,7 +2210,7 @@ public final class OmGetShippingTypesAd {
                 if (translatedDescription_ != null) {
                   subBuilder = translatedDescription_.toBuilder();
                 }
-                translatedDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                translatedDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(translatedDescription_);
                   translatedDescription_ = subBuilder.buildPartial();
@@ -2224,7 +2223,7 @@ public final class OmGetShippingTypesAd {
                 if (grossSumFrom_ != null) {
                   subBuilder = grossSumFrom_.toBuilder();
                 }
-                grossSumFrom_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                grossSumFrom_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(grossSumFrom_);
                   grossSumFrom_ = subBuilder.buildPartial();
@@ -2237,7 +2236,7 @@ public final class OmGetShippingTypesAd {
                 if (region_ != null) {
                   subBuilder = region_.toBuilder();
                 }
-                region_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                region_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(region_);
                   region_ = subBuilder.buildPartial();
@@ -2250,7 +2249,7 @@ public final class OmGetShippingTypesAd {
                 if (surchargeIsAbsoluteValue_ != null) {
                   subBuilder = surchargeIsAbsoluteValue_.toBuilder();
                 }
-                surchargeIsAbsoluteValue_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                surchargeIsAbsoluteValue_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeIsAbsoluteValue_);
                   surchargeIsAbsoluteValue_ = subBuilder.buildPartial();
@@ -2263,7 +2262,7 @@ public final class OmGetShippingTypesAd {
                 if (costCurrencySymbol_ != null) {
                   subBuilder = costCurrencySymbol_.toBuilder();
                 }
-                costCurrencySymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                costCurrencySymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(costCurrencySymbol_);
                   costCurrencySymbol_ = subBuilder.buildPartial();
@@ -2276,7 +2275,7 @@ public final class OmGetShippingTypesAd {
                 if (shippingTypeId_ != null) {
                   subBuilder = shippingTypeId_.toBuilder();
                 }
-                shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(shippingTypeId_);
                   shippingTypeId_ = subBuilder.buildPartial();
@@ -2289,7 +2288,7 @@ public final class OmGetShippingTypesAd {
                 if (regionId_ != null) {
                   subBuilder = regionId_.toBuilder();
                 }
-                regionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                regionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(regionId_);
                   regionId_ = subBuilder.buildPartial();
@@ -2302,7 +2301,7 @@ public final class OmGetShippingTypesAd {
                 if (surchargeTypeDescription_ != null) {
                   subBuilder = surchargeTypeDescription_.toBuilder();
                 }
-                surchargeTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                surchargeTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeDescription_);
                   surchargeTypeDescription_ = subBuilder.buildPartial();
@@ -2315,7 +2314,7 @@ public final class OmGetShippingTypesAd {
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
                 }
-                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeId_);
                   surchargeTypeId_ = subBuilder.buildPartial();
@@ -2328,7 +2327,7 @@ public final class OmGetShippingTypesAd {
                 if (surchargeUnitId_ != null) {
                   subBuilder = surchargeUnitId_.toBuilder();
                 }
-                surchargeUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                surchargeUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeUnitId_);
                   surchargeUnitId_ = subBuilder.buildPartial();
@@ -3142,9 +3141,8 @@ public final class OmGetShippingTypesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3236,7 +3234,7 @@ public final class OmGetShippingTypesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10021, getSurchargeUnitId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -6972,8 +6970,8 @@ public final class OmGetShippingTypesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -7141,9 +7139,8 @@ public final class OmGetShippingTypesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -7159,7 +7156,7 @@ public final class OmGetShippingTypesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -8127,8 +8124,8 @@ public final class OmGetShippingTypesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

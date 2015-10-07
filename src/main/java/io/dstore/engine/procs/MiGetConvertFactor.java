@@ -74,7 +74,7 @@ public final class MiGetConvertFactor {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetConvertFactor.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -112,7 +112,7 @@ public final class MiGetConvertFactor {
               if (fromUnitId_ != null) {
                 subBuilder = fromUnitId_.toBuilder();
               }
-              fromUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              fromUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromUnitId_);
                 fromUnitId_ = subBuilder.buildPartial();
@@ -125,7 +125,7 @@ public final class MiGetConvertFactor {
               if (toUnitId_ != null) {
                 subBuilder = toUnitId_.toBuilder();
               }
-              toUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              toUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toUnitId_);
                 toUnitId_ = subBuilder.buildPartial();
@@ -138,7 +138,7 @@ public final class MiGetConvertFactor {
               if (date_ != null) {
                 subBuilder = date_.toBuilder();
               }
-              date_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              date_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(date_);
                 date_ = subBuilder.buildPartial();
@@ -307,9 +307,8 @@ public final class MiGetConvertFactor {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -337,7 +336,7 @@ public final class MiGetConvertFactor {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, dateNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1023,8 +1022,8 @@ public final class MiGetConvertFactor {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1182,7 +1181,7 @@ public final class MiGetConvertFactor {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetConvertFactor.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1219,7 +1218,7 @@ public final class MiGetConvertFactor {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1232,7 +1231,7 @@ public final class MiGetConvertFactor {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1240,7 +1239,7 @@ public final class MiGetConvertFactor {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiGetConvertFactor.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiGetConvertFactor.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiGetConvertFactor.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -1248,7 +1247,7 @@ public final class MiGetConvertFactor {
               if (factor1_ != null) {
                 subBuilder = factor1_.toBuilder();
               }
-              factor1_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              factor1_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(factor1_);
                 factor1_ = subBuilder.buildPartial();
@@ -1261,7 +1260,7 @@ public final class MiGetConvertFactor {
               if (factor2_ != null) {
                 subBuilder = factor2_.toBuilder();
               }
-              factor2_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              factor2_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(factor2_);
                 factor2_ = subBuilder.buildPartial();
@@ -1274,7 +1273,7 @@ public final class MiGetConvertFactor {
               if (divisor1_ != null) {
                 subBuilder = divisor1_.toBuilder();
               }
-              divisor1_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              divisor1_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(divisor1_);
                 divisor1_ = subBuilder.buildPartial();
@@ -1287,7 +1286,7 @@ public final class MiGetConvertFactor {
               if (divisor2_ != null) {
                 subBuilder = divisor2_.toBuilder();
               }
-              divisor2_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              divisor2_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(divisor2_);
                 divisor2_ = subBuilder.buildPartial();
@@ -1342,7 +1341,7 @@ public final class MiGetConvertFactor {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetConvertFactor.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1428,9 +1427,8 @@ public final class MiGetConvertFactor {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1438,7 +1436,7 @@ public final class MiGetConvertFactor {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -1667,8 +1665,8 @@ public final class MiGetConvertFactor {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1912,9 +1910,8 @@ public final class MiGetConvertFactor {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1946,7 +1943,7 @@ public final class MiGetConvertFactor {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(104, getDivisor2());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3366,8 +3363,8 @@ public final class MiGetConvertFactor {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

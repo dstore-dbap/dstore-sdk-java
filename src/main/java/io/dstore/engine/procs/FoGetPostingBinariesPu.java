@@ -164,7 +164,7 @@ public final class FoGetPostingBinariesPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingBinaries_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -207,7 +207,7 @@ public final class FoGetPostingBinariesPu {
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -220,7 +220,7 @@ public final class FoGetPostingBinariesPu {
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -233,7 +233,7 @@ public final class FoGetPostingBinariesPu {
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -246,7 +246,7 @@ public final class FoGetPostingBinariesPu {
               if (postingId_ != null) {
                 subBuilder = postingId_.toBuilder();
               }
-              postingId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              postingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(postingId_);
                 postingId_ = subBuilder.buildPartial();
@@ -259,7 +259,7 @@ public final class FoGetPostingBinariesPu {
               if (sortNo_ != null) {
                 subBuilder = sortNo_.toBuilder();
               }
-              sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortNo_);
                 sortNo_ = subBuilder.buildPartial();
@@ -272,7 +272,7 @@ public final class FoGetPostingBinariesPu {
               if (includeBinaryCode_ != null) {
                 subBuilder = includeBinaryCode_.toBuilder();
               }
-              includeBinaryCode_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeBinaryCode_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeBinaryCode_);
                 includeBinaryCode_ = subBuilder.buildPartial();
@@ -285,7 +285,7 @@ public final class FoGetPostingBinariesPu {
               if (postingBinaryIdentifier_ != null) {
                 subBuilder = postingBinaryIdentifier_.toBuilder();
               }
-              postingBinaryIdentifier_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              postingBinaryIdentifier_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(postingBinaryIdentifier_);
                 postingBinaryIdentifier_ = subBuilder.buildPartial();
@@ -298,7 +298,7 @@ public final class FoGetPostingBinariesPu {
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -672,9 +672,8 @@ public final class FoGetPostingBinariesPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -742,7 +741,7 @@ public final class FoGetPostingBinariesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1008, separatorInIdentValsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2243,8 +2242,8 @@ public final class FoGetPostingBinariesPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2370,7 +2369,7 @@ public final class FoGetPostingBinariesPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingBinaries_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2407,7 +2406,7 @@ public final class FoGetPostingBinariesPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2420,7 +2419,7 @@ public final class FoGetPostingBinariesPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2428,7 +2427,7 @@ public final class FoGetPostingBinariesPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.FoGetPostingBinariesPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.FoGetPostingBinariesPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.FoGetPostingBinariesPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2703,7 +2702,7 @@ public final class FoGetPostingBinariesPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingBinaries_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2744,7 +2743,7 @@ public final class FoGetPostingBinariesPu {
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -2757,7 +2756,7 @@ public final class FoGetPostingBinariesPu {
                 if (contentType_ != null) {
                   subBuilder = contentType_.toBuilder();
                 }
-                contentType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                contentType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(contentType_);
                   contentType_ = subBuilder.buildPartial();
@@ -2770,7 +2769,7 @@ public final class FoGetPostingBinariesPu {
                 if (postingBinaryIdentifier_ != null) {
                   subBuilder = postingBinaryIdentifier_.toBuilder();
                 }
-                postingBinaryIdentifier_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                postingBinaryIdentifier_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postingBinaryIdentifier_);
                   postingBinaryIdentifier_ = subBuilder.buildPartial();
@@ -2783,7 +2782,7 @@ public final class FoGetPostingBinariesPu {
                 if (filename_ != null) {
                   subBuilder = filename_.toBuilder();
                 }
-                filename_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                filename_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(filename_);
                   filename_ = subBuilder.buildPartial();
@@ -2796,7 +2795,7 @@ public final class FoGetPostingBinariesPu {
                 if (filesizeInKB_ != null) {
                   subBuilder = filesizeInKB_.toBuilder();
                 }
-                filesizeInKB_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                filesizeInKB_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(filesizeInKB_);
                   filesizeInKB_ = subBuilder.buildPartial();
@@ -2809,7 +2808,7 @@ public final class FoGetPostingBinariesPu {
                 if (lastModifiedAtDateAndTimeChar_ != null) {
                   subBuilder = lastModifiedAtDateAndTimeChar_.toBuilder();
                 }
-                lastModifiedAtDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                lastModifiedAtDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lastModifiedAtDateAndTimeChar_);
                   lastModifiedAtDateAndTimeChar_ = subBuilder.buildPartial();
@@ -2822,7 +2821,7 @@ public final class FoGetPostingBinariesPu {
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -2835,7 +2834,7 @@ public final class FoGetPostingBinariesPu {
                 if (lastModifiedAtDateAndTime_ != null) {
                   subBuilder = lastModifiedAtDateAndTime_.toBuilder();
                 }
-                lastModifiedAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                lastModifiedAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lastModifiedAtDateAndTime_);
                   lastModifiedAtDateAndTime_ = subBuilder.buildPartial();
@@ -2848,7 +2847,7 @@ public final class FoGetPostingBinariesPu {
                 if (binaryCode_ != null) {
                   subBuilder = binaryCode_.toBuilder();
                 }
-                binaryCode_ = input.readMessage(io.dstore.engine.Values.byteValue.PARSER, extensionRegistry);
+                binaryCode_ = input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCode_);
                   binaryCode_ = subBuilder.buildPartial();
@@ -3230,9 +3229,8 @@ public final class FoGetPostingBinariesPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3276,7 +3274,7 @@ public final class FoGetPostingBinariesPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20009, getBinaryCode());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5008,8 +5006,8 @@ public final class FoGetPostingBinariesPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -5177,9 +5175,8 @@ public final class FoGetPostingBinariesPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -5195,7 +5192,7 @@ public final class FoGetPostingBinariesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -6163,8 +6160,8 @@ public final class FoGetPostingBinariesPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

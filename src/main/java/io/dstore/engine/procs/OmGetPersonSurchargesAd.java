@@ -128,7 +128,7 @@ public final class OmGetPersonSurchargesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPersonSurcharges_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -169,7 +169,7 @@ public final class OmGetPersonSurchargesAd {
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -182,7 +182,7 @@ public final class OmGetPersonSurchargesAd {
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -195,7 +195,7 @@ public final class OmGetPersonSurchargesAd {
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -208,7 +208,7 @@ public final class OmGetPersonSurchargesAd {
               if (outputCharacteristicId1_ != null) {
                 subBuilder = outputCharacteristicId1_.toBuilder();
               }
-              outputCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              outputCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId1_);
                 outputCharacteristicId1_ = subBuilder.buildPartial();
@@ -221,7 +221,7 @@ public final class OmGetPersonSurchargesAd {
               if (outputCharacteristicId2_ != null) {
                 subBuilder = outputCharacteristicId2_.toBuilder();
               }
-              outputCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              outputCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId2_);
                 outputCharacteristicId2_ = subBuilder.buildPartial();
@@ -234,7 +234,7 @@ public final class OmGetPersonSurchargesAd {
               if (outputCharacteristicId3_ != null) {
                 subBuilder = outputCharacteristicId3_.toBuilder();
               }
-              outputCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              outputCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId3_);
                 outputCharacteristicId3_ = subBuilder.buildPartial();
@@ -526,9 +526,8 @@ public final class OmGetPersonSurchargesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -580,7 +579,7 @@ public final class OmGetPersonSurchargesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1006, outputCharacteristicId3Null_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1755,8 +1754,8 @@ public final class OmGetPersonSurchargesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1882,7 +1881,7 @@ public final class OmGetPersonSurchargesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPersonSurcharges_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1919,7 +1918,7 @@ public final class OmGetPersonSurchargesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1932,7 +1931,7 @@ public final class OmGetPersonSurchargesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1940,7 +1939,7 @@ public final class OmGetPersonSurchargesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetPersonSurchargesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetPersonSurchargesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetPersonSurchargesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2440,7 +2439,7 @@ public final class OmGetPersonSurchargesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPersonSurcharges_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2481,7 +2480,7 @@ public final class OmGetPersonSurchargesAd {
                 if (value1RestrictedByPattern_ != null) {
                   subBuilder = value1RestrictedByPattern_.toBuilder();
                 }
-                value1RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value1RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1RestrictedByPattern_);
                   value1RestrictedByPattern_ = subBuilder.buildPartial();
@@ -2494,7 +2493,7 @@ public final class OmGetPersonSurchargesAd {
                 if (value2RestrictedByPattern_ != null) {
                   subBuilder = value2RestrictedByPattern_.toBuilder();
                 }
-                value2RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value2RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2RestrictedByPattern_);
                   value2RestrictedByPattern_ = subBuilder.buildPartial();
@@ -2507,7 +2506,7 @@ public final class OmGetPersonSurchargesAd {
                 if (relative_ != null) {
                   subBuilder = relative_.toBuilder();
                 }
-                relative_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                relative_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relative_);
                   relative_ = subBuilder.buildPartial();
@@ -2520,7 +2519,7 @@ public final class OmGetPersonSurchargesAd {
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -2533,7 +2532,7 @@ public final class OmGetPersonSurchargesAd {
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -2546,7 +2545,7 @@ public final class OmGetPersonSurchargesAd {
                 if (unitSymbol_ != null) {
                   subBuilder = unitSymbol_.toBuilder();
                 }
-                unitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                unitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitSymbol_);
                   unitSymbol_ = subBuilder.buildPartial();
@@ -2559,7 +2558,7 @@ public final class OmGetPersonSurchargesAd {
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -2572,7 +2571,7 @@ public final class OmGetPersonSurchargesAd {
                 if (surchargeValue_ != null) {
                   subBuilder = surchargeValue_.toBuilder();
                 }
-                surchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                surchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeValue_);
                   surchargeValue_ = subBuilder.buildPartial();
@@ -2585,7 +2584,7 @@ public final class OmGetPersonSurchargesAd {
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -2598,7 +2597,7 @@ public final class OmGetPersonSurchargesAd {
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -2611,7 +2610,7 @@ public final class OmGetPersonSurchargesAd {
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -2624,7 +2623,7 @@ public final class OmGetPersonSurchargesAd {
                 if (unitId_ != null) {
                   subBuilder = unitId_.toBuilder();
                 }
-                unitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                unitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitId_);
                   unitId_ = subBuilder.buildPartial();
@@ -2637,7 +2636,7 @@ public final class OmGetPersonSurchargesAd {
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -2650,7 +2649,7 @@ public final class OmGetPersonSurchargesAd {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -2663,7 +2662,7 @@ public final class OmGetPersonSurchargesAd {
                 if (surchargeTypeDescription_ != null) {
                   subBuilder = surchargeTypeDescription_.toBuilder();
                 }
-                surchargeTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                surchargeTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeDescription_);
                   surchargeTypeDescription_ = subBuilder.buildPartial();
@@ -2676,7 +2675,7 @@ public final class OmGetPersonSurchargesAd {
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
                 }
-                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeId_);
                   surchargeTypeId_ = subBuilder.buildPartial();
@@ -2689,7 +2688,7 @@ public final class OmGetPersonSurchargesAd {
                 if (value3RestrictedByPattern_ != null) {
                   subBuilder = value3RestrictedByPattern_.toBuilder();
                 }
-                value3RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value3RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3RestrictedByPattern_);
                   value3RestrictedByPattern_ = subBuilder.buildPartial();
@@ -2702,7 +2701,7 @@ public final class OmGetPersonSurchargesAd {
                 if (levelId_ != null) {
                   subBuilder = levelId_.toBuilder();
                 }
-                levelId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                levelId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelId_);
                   levelId_ = subBuilder.buildPartial();
@@ -3408,9 +3407,8 @@ public final class OmGetPersonSurchargesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3490,7 +3488,7 @@ public final class OmGetPersonSurchargesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10018, getLevelId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -6725,8 +6723,8 @@ public final class OmGetPersonSurchargesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -6894,9 +6892,8 @@ public final class OmGetPersonSurchargesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -6912,7 +6909,7 @@ public final class OmGetPersonSurchargesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -7880,8 +7877,8 @@ public final class OmGetPersonSurchargesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

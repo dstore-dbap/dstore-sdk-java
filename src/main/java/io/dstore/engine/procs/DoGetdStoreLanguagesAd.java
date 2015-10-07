@@ -38,7 +38,7 @@ public final class DoGetdStoreLanguagesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.do_GetdStoreLanguages_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -74,7 +74,7 @@ public final class DoGetdStoreLanguagesAd {
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -161,9 +161,8 @@ public final class DoGetdStoreLanguagesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -175,7 +174,7 @@ public final class DoGetdStoreLanguagesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, languageIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -535,8 +534,8 @@ public final class DoGetdStoreLanguagesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -662,7 +661,7 @@ public final class DoGetdStoreLanguagesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.do_GetdStoreLanguages_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -699,7 +698,7 @@ public final class DoGetdStoreLanguagesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -712,7 +711,7 @@ public final class DoGetdStoreLanguagesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -720,7 +719,7 @@ public final class DoGetdStoreLanguagesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.DoGetdStoreLanguagesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.DoGetdStoreLanguagesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.DoGetdStoreLanguagesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -895,7 +894,7 @@ public final class DoGetdStoreLanguagesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.do_GetdStoreLanguages_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -936,7 +935,7 @@ public final class DoGetdStoreLanguagesAd {
                 if (languageSymbol_ != null) {
                   subBuilder = languageSymbol_.toBuilder();
                 }
-                languageSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                languageSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageSymbol_);
                   languageSymbol_ = subBuilder.buildPartial();
@@ -949,7 +948,7 @@ public final class DoGetdStoreLanguagesAd {
                 if (correspondingDBLanguage_ != null) {
                   subBuilder = correspondingDBLanguage_.toBuilder();
                 }
-                correspondingDBLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                correspondingDBLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(correspondingDBLanguage_);
                   correspondingDBLanguage_ = subBuilder.buildPartial();
@@ -962,7 +961,7 @@ public final class DoGetdStoreLanguagesAd {
                 if (language_ != null) {
                   subBuilder = language_.toBuilder();
                 }
-                language_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                language_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(language_);
                   language_ = subBuilder.buildPartial();
@@ -975,7 +974,7 @@ public final class DoGetdStoreLanguagesAd {
                 if (languageId_ != null) {
                   subBuilder = languageId_.toBuilder();
                 }
-                languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageId_);
                   languageId_ = subBuilder.buildPartial();
@@ -988,7 +987,7 @@ public final class DoGetdStoreLanguagesAd {
                 if (correspondingDBLanguageId_ != null) {
                   subBuilder = correspondingDBLanguageId_.toBuilder();
                 }
-                correspondingDBLanguageId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                correspondingDBLanguageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(correspondingDBLanguageId_);
                   correspondingDBLanguageId_ = subBuilder.buildPartial();
@@ -1226,9 +1225,8 @@ public final class DoGetdStoreLanguagesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1256,7 +1254,7 @@ public final class DoGetdStoreLanguagesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10005, getCorrespondingDBLanguageId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2320,8 +2318,8 @@ public final class DoGetdStoreLanguagesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2489,9 +2487,8 @@ public final class DoGetdStoreLanguagesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2507,7 +2504,7 @@ public final class DoGetdStoreLanguagesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3475,8 +3472,8 @@ public final class DoGetdStoreLanguagesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -236,7 +236,7 @@ public final class ImModifyConditionPartsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyConditionParts_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -283,7 +283,7 @@ public final class ImModifyConditionPartsAd {
               if (conditionPartDescription_ != null) {
                 subBuilder = conditionPartDescription_.toBuilder();
               }
-              conditionPartDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              conditionPartDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionPartDescription_);
                 conditionPartDescription_ = subBuilder.buildPartial();
@@ -296,7 +296,7 @@ public final class ImModifyConditionPartsAd {
               if (levelIds_ != null) {
                 subBuilder = levelIds_.toBuilder();
               }
-              levelIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              levelIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(levelIds_);
                 levelIds_ = subBuilder.buildPartial();
@@ -309,7 +309,7 @@ public final class ImModifyConditionPartsAd {
               if (domainTreeNodeIds_ != null) {
                 subBuilder = domainTreeNodeIds_.toBuilder();
               }
-              domainTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              domainTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(domainTreeNodeIds_);
                 domainTreeNodeIds_ = subBuilder.buildPartial();
@@ -322,7 +322,7 @@ public final class ImModifyConditionPartsAd {
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -335,7 +335,7 @@ public final class ImModifyConditionPartsAd {
               if (operator1_ != null) {
                 subBuilder = operator1_.toBuilder();
               }
-              operator1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              operator1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(operator1_);
                 operator1_ = subBuilder.buildPartial();
@@ -348,7 +348,7 @@ public final class ImModifyConditionPartsAd {
               if (condition1_ != null) {
                 subBuilder = condition1_.toBuilder();
               }
-              condition1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              condition1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(condition1_);
                 condition1_ = subBuilder.buildPartial();
@@ -361,7 +361,7 @@ public final class ImModifyConditionPartsAd {
               if (operator2_ != null) {
                 subBuilder = operator2_.toBuilder();
               }
-              operator2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              operator2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(operator2_);
                 operator2_ = subBuilder.buildPartial();
@@ -374,7 +374,7 @@ public final class ImModifyConditionPartsAd {
               if (condition2_ != null) {
                 subBuilder = condition2_.toBuilder();
               }
-              condition2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              condition2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(condition2_);
                 condition2_ = subBuilder.buildPartial();
@@ -387,7 +387,7 @@ public final class ImModifyConditionPartsAd {
               if (inheritDepth_ != null) {
                 subBuilder = inheritDepth_.toBuilder();
               }
-              inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(inheritDepth_);
                 inheritDepth_ = subBuilder.buildPartial();
@@ -400,7 +400,7 @@ public final class ImModifyConditionPartsAd {
               if (recursiveEvaluation_ != null) {
                 subBuilder = recursiveEvaluation_.toBuilder();
               }
-              recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(recursiveEvaluation_);
                 recursiveEvaluation_ = subBuilder.buildPartial();
@@ -413,7 +413,7 @@ public final class ImModifyConditionPartsAd {
               if (deleteConditionPart_ != null) {
                 subBuilder = deleteConditionPart_.toBuilder();
               }
-              deleteConditionPart_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              deleteConditionPart_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteConditionPart_);
                 deleteConditionPart_ = subBuilder.buildPartial();
@@ -426,7 +426,7 @@ public final class ImModifyConditionPartsAd {
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              country_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -964,9 +964,8 @@ public final class ImModifyConditionPartsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1066,7 +1065,7 @@ public final class ImModifyConditionPartsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1012, countryNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3219,8 +3218,8 @@ public final class ImModifyConditionPartsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3352,7 +3351,7 @@ public final class ImModifyConditionPartsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyConditionParts_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3389,7 +3388,7 @@ public final class ImModifyConditionPartsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3402,7 +3401,7 @@ public final class ImModifyConditionPartsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3410,7 +3409,7 @@ public final class ImModifyConditionPartsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImModifyConditionPartsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImModifyConditionPartsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImModifyConditionPartsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -3418,7 +3417,7 @@ public final class ImModifyConditionPartsAd {
               if (conditionPartId_ != null) {
                 subBuilder = conditionPartId_.toBuilder();
               }
-              conditionPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              conditionPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionPartId_);
                 conditionPartId_ = subBuilder.buildPartial();
@@ -3431,7 +3430,7 @@ public final class ImModifyConditionPartsAd {
               if (conditionPartIdWithSameConfig_ != null) {
                 subBuilder = conditionPartIdWithSameConfig_.toBuilder();
               }
-              conditionPartIdWithSameConfig_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              conditionPartIdWithSameConfig_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionPartIdWithSameConfig_);
                 conditionPartIdWithSameConfig_ = subBuilder.buildPartial();
@@ -3486,7 +3485,7 @@ public final class ImModifyConditionPartsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyConditionParts_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3572,9 +3571,8 @@ public final class ImModifyConditionPartsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3582,7 +3580,7 @@ public final class ImModifyConditionPartsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3811,8 +3809,8 @@ public final class ImModifyConditionPartsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4008,9 +4006,8 @@ public final class ImModifyConditionPartsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4034,7 +4031,7 @@ public final class ImModifyConditionPartsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(102, getConditionPartIdWithSameConfig());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5192,8 +5189,8 @@ public final class ImModifyConditionPartsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

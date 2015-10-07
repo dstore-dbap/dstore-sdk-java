@@ -92,7 +92,7 @@ public final class OmGetOrderContentInfoRulesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderContentInfoRules_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -131,7 +131,7 @@ public final class OmGetOrderContentInfoRulesAd {
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              userId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -144,7 +144,7 @@ public final class OmGetOrderContentInfoRulesAd {
               if (informationTypeId_ != null) {
                 subBuilder = informationTypeId_.toBuilder();
               }
-              informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeId_);
                 informationTypeId_ = subBuilder.buildPartial();
@@ -157,7 +157,7 @@ public final class OmGetOrderContentInfoRulesAd {
               if (orderStateId_ != null) {
                 subBuilder = orderStateId_.toBuilder();
               }
-              orderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              orderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderStateId_);
                 orderStateId_ = subBuilder.buildPartial();
@@ -170,7 +170,7 @@ public final class OmGetOrderContentInfoRulesAd {
               if (getMyRulesForOrderStateId_ != null) {
                 subBuilder = getMyRulesForOrderStateId_.toBuilder();
               }
-              getMyRulesForOrderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              getMyRulesForOrderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getMyRulesForOrderStateId_);
                 getMyRulesForOrderStateId_ = subBuilder.buildPartial();
@@ -380,9 +380,8 @@ public final class OmGetOrderContentInfoRulesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -418,7 +417,7 @@ public final class OmGetOrderContentInfoRulesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1004, getMyRulesForOrderStateIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1267,8 +1266,8 @@ public final class OmGetOrderContentInfoRulesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1394,7 +1393,7 @@ public final class OmGetOrderContentInfoRulesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderContentInfoRules_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1431,7 +1430,7 @@ public final class OmGetOrderContentInfoRulesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1444,7 +1443,7 @@ public final class OmGetOrderContentInfoRulesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1452,7 +1451,7 @@ public final class OmGetOrderContentInfoRulesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetOrderContentInfoRulesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetOrderContentInfoRulesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetOrderContentInfoRulesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1677,7 +1676,7 @@ public final class OmGetOrderContentInfoRulesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderContentInfoRules_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1718,7 +1717,7 @@ public final class OmGetOrderContentInfoRulesAd {
                 if (userName_ != null) {
                   subBuilder = userName_.toBuilder();
                 }
-                userName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                userName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userName_);
                   userName_ = subBuilder.buildPartial();
@@ -1731,7 +1730,7 @@ public final class OmGetOrderContentInfoRulesAd {
                 if (informationTypeId_ != null) {
                   subBuilder = informationTypeId_.toBuilder();
                 }
-                informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationTypeId_);
                   informationTypeId_ = subBuilder.buildPartial();
@@ -1744,7 +1743,7 @@ public final class OmGetOrderContentInfoRulesAd {
                 if (userId_ != null) {
                   subBuilder = userId_.toBuilder();
                 }
-                userId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                userId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userId_);
                   userId_ = subBuilder.buildPartial();
@@ -1757,7 +1756,7 @@ public final class OmGetOrderContentInfoRulesAd {
                 if (orderStateId_ != null) {
                   subBuilder = orderStateId_.toBuilder();
                 }
-                orderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                orderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderStateId_);
                   orderStateId_ = subBuilder.buildPartial();
@@ -1770,7 +1769,7 @@ public final class OmGetOrderContentInfoRulesAd {
                 if (informationType_ != null) {
                   subBuilder = informationType_.toBuilder();
                 }
-                informationType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                informationType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationType_);
                   informationType_ = subBuilder.buildPartial();
@@ -1783,7 +1782,7 @@ public final class OmGetOrderContentInfoRulesAd {
                 if (orderState_ != null) {
                   subBuilder = orderState_.toBuilder();
                 }
-                orderState_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                orderState_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderState_);
                   orderState_ = subBuilder.buildPartial();
@@ -1796,7 +1795,7 @@ public final class OmGetOrderContentInfoRulesAd {
                 if (modificationAllowed_ != null) {
                   subBuilder = modificationAllowed_.toBuilder();
                 }
-                modificationAllowed_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                modificationAllowed_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(modificationAllowed_);
                   modificationAllowed_ = subBuilder.buildPartial();
@@ -2106,9 +2105,8 @@ public final class OmGetOrderContentInfoRulesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2144,7 +2142,7 @@ public final class OmGetOrderContentInfoRulesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10007, getModificationAllowed());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3542,8 +3540,8 @@ public final class OmGetOrderContentInfoRulesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3711,9 +3709,8 @@ public final class OmGetOrderContentInfoRulesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3729,7 +3726,7 @@ public final class OmGetOrderContentInfoRulesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -4697,8 +4694,8 @@ public final class OmGetOrderContentInfoRulesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

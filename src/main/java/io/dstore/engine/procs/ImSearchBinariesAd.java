@@ -236,7 +236,7 @@ public final class ImSearchBinariesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_SearchBinaries_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -283,7 +283,7 @@ public final class ImSearchBinariesAd {
               if (assignedToTable_ != null) {
                 subBuilder = assignedToTable_.toBuilder();
               }
-              assignedToTable_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              assignedToTable_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(assignedToTable_);
                 assignedToTable_ = subBuilder.buildPartial();
@@ -296,7 +296,7 @@ public final class ImSearchBinariesAd {
               if (inputNestLevelConds_ != null) {
                 subBuilder = inputNestLevelConds_.toBuilder();
               }
-              inputNestLevelConds_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              inputNestLevelConds_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(inputNestLevelConds_);
                 inputNestLevelConds_ = subBuilder.buildPartial();
@@ -309,7 +309,7 @@ public final class ImSearchBinariesAd {
               if (valueSeparatorINOperator_ != null) {
                 subBuilder = valueSeparatorINOperator_.toBuilder();
               }
-              valueSeparatorINOperator_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              valueSeparatorINOperator_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueSeparatorINOperator_);
                 valueSeparatorINOperator_ = subBuilder.buildPartial();
@@ -322,7 +322,7 @@ public final class ImSearchBinariesAd {
               if (startAtRowNo_ != null) {
                 subBuilder = startAtRowNo_.toBuilder();
               }
-              startAtRowNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              startAtRowNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(startAtRowNo_);
                 startAtRowNo_ = subBuilder.buildPartial();
@@ -335,7 +335,7 @@ public final class ImSearchBinariesAd {
               if (rowCount_ != null) {
                 subBuilder = rowCount_.toBuilder();
               }
-              rowCount_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              rowCount_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(rowCount_);
                 rowCount_ = subBuilder.buildPartial();
@@ -348,7 +348,7 @@ public final class ImSearchBinariesAd {
               if (outputBinaryCharacId1_ != null) {
                 subBuilder = outputBinaryCharacId1_.toBuilder();
               }
-              outputBinaryCharacId1_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              outputBinaryCharacId1_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputBinaryCharacId1_);
                 outputBinaryCharacId1_ = subBuilder.buildPartial();
@@ -361,7 +361,7 @@ public final class ImSearchBinariesAd {
               if (outputBinaryCharacId2_ != null) {
                 subBuilder = outputBinaryCharacId2_.toBuilder();
               }
-              outputBinaryCharacId2_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              outputBinaryCharacId2_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputBinaryCharacId2_);
                 outputBinaryCharacId2_ = subBuilder.buildPartial();
@@ -374,7 +374,7 @@ public final class ImSearchBinariesAd {
               if (outputBinaryCharacId3_ != null) {
                 subBuilder = outputBinaryCharacId3_.toBuilder();
               }
-              outputBinaryCharacId3_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              outputBinaryCharacId3_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputBinaryCharacId3_);
                 outputBinaryCharacId3_ = subBuilder.buildPartial();
@@ -387,7 +387,7 @@ public final class ImSearchBinariesAd {
               if (includeBinaryCode_ != null) {
                 subBuilder = includeBinaryCode_.toBuilder();
               }
-              includeBinaryCode_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeBinaryCode_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeBinaryCode_);
                 includeBinaryCode_ = subBuilder.buildPartial();
@@ -400,7 +400,7 @@ public final class ImSearchBinariesAd {
               if (nodeCharacteristicId1_ != null) {
                 subBuilder = nodeCharacteristicId1_.toBuilder();
               }
-              nodeCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId1_);
                 nodeCharacteristicId1_ = subBuilder.buildPartial();
@@ -413,7 +413,7 @@ public final class ImSearchBinariesAd {
               if (nodeCharacteristicId2_ != null) {
                 subBuilder = nodeCharacteristicId2_.toBuilder();
               }
-              nodeCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId2_);
                 nodeCharacteristicId2_ = subBuilder.buildPartial();
@@ -426,7 +426,7 @@ public final class ImSearchBinariesAd {
               if (nodeCharacteristicId3_ != null) {
                 subBuilder = nodeCharacteristicId3_.toBuilder();
               }
-              nodeCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId3_);
                 nodeCharacteristicId3_ = subBuilder.buildPartial();
@@ -964,9 +964,8 @@ public final class ImSearchBinariesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1066,7 +1065,7 @@ public final class ImSearchBinariesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1012, nodeCharacteristicId3Null_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3219,8 +3218,8 @@ public final class ImSearchBinariesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3339,7 +3338,7 @@ public final class ImSearchBinariesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_SearchBinaries_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3376,7 +3375,7 @@ public final class ImSearchBinariesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3389,7 +3388,7 @@ public final class ImSearchBinariesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3397,7 +3396,7 @@ public final class ImSearchBinariesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImSearchBinariesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImSearchBinariesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImSearchBinariesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -3405,7 +3404,7 @@ public final class ImSearchBinariesAd {
               if (numberOfElementsInResult_ != null) {
                 subBuilder = numberOfElementsInResult_.toBuilder();
               }
-              numberOfElementsInResult_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              numberOfElementsInResult_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfElementsInResult_);
                 numberOfElementsInResult_ = subBuilder.buildPartial();
@@ -3810,7 +3809,7 @@ public final class ImSearchBinariesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_SearchBinaries_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3851,7 +3850,7 @@ public final class ImSearchBinariesAd {
                 if (binaryCodeId_ != null) {
                   subBuilder = binaryCodeId_.toBuilder();
                 }
-                binaryCodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                binaryCodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCodeId_);
                   binaryCodeId_ = subBuilder.buildPartial();
@@ -3864,7 +3863,7 @@ public final class ImSearchBinariesAd {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -3877,7 +3876,7 @@ public final class ImSearchBinariesAd {
                 if (chosenTreeNodeId_ != null) {
                   subBuilder = chosenTreeNodeId_.toBuilder();
                 }
-                chosenTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                chosenTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(chosenTreeNodeId_);
                   chosenTreeNodeId_ = subBuilder.buildPartial();
@@ -3890,7 +3889,7 @@ public final class ImSearchBinariesAd {
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -3903,7 +3902,7 @@ public final class ImSearchBinariesAd {
                 if (binaryValue1_ != null) {
                   subBuilder = binaryValue1_.toBuilder();
                 }
-                binaryValue1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                binaryValue1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryValue1_);
                   binaryValue1_ = subBuilder.buildPartial();
@@ -3916,7 +3915,7 @@ public final class ImSearchBinariesAd {
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -3929,7 +3928,7 @@ public final class ImSearchBinariesAd {
                 if (binaryValue3_ != null) {
                   subBuilder = binaryValue3_.toBuilder();
                 }
-                binaryValue3_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                binaryValue3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryValue3_);
                   binaryValue3_ = subBuilder.buildPartial();
@@ -3942,7 +3941,7 @@ public final class ImSearchBinariesAd {
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -3955,7 +3954,7 @@ public final class ImSearchBinariesAd {
                 if (binaryValue2_ != null) {
                   subBuilder = binaryValue2_.toBuilder();
                 }
-                binaryValue2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                binaryValue2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryValue2_);
                   binaryValue2_ = subBuilder.buildPartial();
@@ -3968,7 +3967,7 @@ public final class ImSearchBinariesAd {
                 if (thumbnailCode_ != null) {
                   subBuilder = thumbnailCode_.toBuilder();
                 }
-                thumbnailCode_ = input.readMessage(io.dstore.engine.Values.byteValue.PARSER, extensionRegistry);
+                thumbnailCode_ = input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(thumbnailCode_);
                   thumbnailCode_ = subBuilder.buildPartial();
@@ -3981,7 +3980,7 @@ public final class ImSearchBinariesAd {
                 if (binaryCode_ != null) {
                   subBuilder = binaryCode_.toBuilder();
                 }
-                binaryCode_ = input.readMessage(io.dstore.engine.Values.byteValue.PARSER, extensionRegistry);
+                binaryCode_ = input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCode_);
                   binaryCode_ = subBuilder.buildPartial();
@@ -3994,7 +3993,7 @@ public final class ImSearchBinariesAd {
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -4007,7 +4006,7 @@ public final class ImSearchBinariesAd {
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -4020,7 +4019,7 @@ public final class ImSearchBinariesAd {
                 if (valueId_ != null) {
                   subBuilder = valueId_.toBuilder();
                 }
-                valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueId_);
                   valueId_ = subBuilder.buildPartial();
@@ -4582,9 +4581,8 @@ public final class ImSearchBinariesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -4648,7 +4646,7 @@ public final class ImSearchBinariesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(30005, getValueId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -7215,8 +7213,8 @@ public final class ImSearchBinariesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -7388,9 +7386,8 @@ public final class ImSearchBinariesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -7410,7 +7407,7 @@ public final class ImSearchBinariesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getNumberOfElementsInResult());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -8437,8 +8434,8 @@ public final class ImSearchBinariesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

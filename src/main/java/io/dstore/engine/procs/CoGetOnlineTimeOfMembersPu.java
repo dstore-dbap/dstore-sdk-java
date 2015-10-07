@@ -290,7 +290,7 @@ public final class CoGetOnlineTimeOfMembersPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetOnlineTimeOfMembers_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -340,7 +340,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (rowCount_ != null) {
                 subBuilder = rowCount_.toBuilder();
               }
-              rowCount_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              rowCount_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(rowCount_);
                 rowCount_ = subBuilder.buildPartial();
@@ -353,7 +353,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (communityMemberIds_ != null) {
                 subBuilder = communityMemberIds_.toBuilder();
               }
-              communityMemberIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              communityMemberIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityMemberIds_);
                 communityMemberIds_ = subBuilder.buildPartial();
@@ -366,7 +366,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (numberOfHoursConsidered_ != null) {
                 subBuilder = numberOfHoursConsidered_.toBuilder();
               }
-              numberOfHoursConsidered_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              numberOfHoursConsidered_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfHoursConsidered_);
                 numberOfHoursConsidered_ = subBuilder.buildPartial();
@@ -379,7 +379,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -392,7 +392,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -405,7 +405,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -418,7 +418,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (onlineTimeDuringLastXMinutes_ != null) {
                 subBuilder = onlineTimeDuringLastXMinutes_.toBuilder();
               }
-              onlineTimeDuringLastXMinutes_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              onlineTimeDuringLastXMinutes_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlineTimeDuringLastXMinutes_);
                 onlineTimeDuringLastXMinutes_ = subBuilder.buildPartial();
@@ -431,7 +431,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (getTopX_ != null) {
                 subBuilder = getTopX_.toBuilder();
               }
-              getTopX_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              getTopX_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getTopX_);
                 getTopX_ = subBuilder.buildPartial();
@@ -444,7 +444,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (outputCharacteristicId1_ != null) {
                 subBuilder = outputCharacteristicId1_.toBuilder();
               }
-              outputCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              outputCharacteristicId1_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId1_);
                 outputCharacteristicId1_ = subBuilder.buildPartial();
@@ -457,7 +457,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (outputCharacteristicId2_ != null) {
                 subBuilder = outputCharacteristicId2_.toBuilder();
               }
-              outputCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              outputCharacteristicId2_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId2_);
                 outputCharacteristicId2_ = subBuilder.buildPartial();
@@ -470,7 +470,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (outputCharacteristicId3_ != null) {
                 subBuilder = outputCharacteristicId3_.toBuilder();
               }
-              outputCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              outputCharacteristicId3_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicId3_);
                 outputCharacteristicId3_ = subBuilder.buildPartial();
@@ -483,7 +483,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (communityBinaryCategoryId_ != null) {
                 subBuilder = communityBinaryCategoryId_.toBuilder();
               }
-              communityBinaryCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              communityBinaryCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityBinaryCategoryId_);
                 communityBinaryCategoryId_ = subBuilder.buildPartial();
@@ -496,7 +496,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (orderByNick_ != null) {
                 subBuilder = orderByNick_.toBuilder();
               }
-              orderByNick_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              orderByNick_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderByNick_);
                 orderByNick_ = subBuilder.buildPartial();
@@ -509,7 +509,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (onlineStatusInsteadOfIsOnline_ != null) {
                 subBuilder = onlineStatusInsteadOfIsOnline_.toBuilder();
               }
-              onlineStatusInsteadOfIsOnline_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              onlineStatusInsteadOfIsOnline_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlineStatusInsteadOfIsOnline_);
                 onlineStatusInsteadOfIsOnline_ = subBuilder.buildPartial();
@@ -522,7 +522,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -1183,9 +1183,8 @@ public final class CoGetOnlineTimeOfMembersPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1309,7 +1308,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1015, separatorInIdentValsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3951,8 +3950,8 @@ public final class CoGetOnlineTimeOfMembersPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4078,7 +4077,7 @@ public final class CoGetOnlineTimeOfMembersPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetOnlineTimeOfMembers_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -4115,7 +4114,7 @@ public final class CoGetOnlineTimeOfMembersPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -4128,7 +4127,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -4136,7 +4135,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.CoGetOnlineTimeOfMembersPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.CoGetOnlineTimeOfMembersPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.CoGetOnlineTimeOfMembersPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -4486,7 +4485,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.co_GetOnlineTimeOfMembers_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -4527,7 +4526,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (value1RestrictedByPattern_ != null) {
                   subBuilder = value1RestrictedByPattern_.toBuilder();
                 }
-                value1RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value1RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1RestrictedByPattern_);
                   value1RestrictedByPattern_ = subBuilder.buildPartial();
@@ -4540,7 +4539,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (binaryId_ != null) {
                   subBuilder = binaryId_.toBuilder();
                 }
-                binaryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                binaryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryId_);
                   binaryId_ = subBuilder.buildPartial();
@@ -4553,7 +4552,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (onlineTimeInSeconds_ != null) {
                   subBuilder = onlineTimeInSeconds_.toBuilder();
                 }
-                onlineTimeInSeconds_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                onlineTimeInSeconds_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(onlineTimeInSeconds_);
                   onlineTimeInSeconds_ = subBuilder.buildPartial();
@@ -4566,7 +4565,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (value2RestrictedByPattern_ != null) {
                   subBuilder = value2RestrictedByPattern_.toBuilder();
                 }
-                value2RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value2RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2RestrictedByPattern_);
                   value2RestrictedByPattern_ = subBuilder.buildPartial();
@@ -4579,7 +4578,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (communityMemberId_ != null) {
                   subBuilder = communityMemberId_.toBuilder();
                 }
-                communityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                communityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(communityMemberId_);
                   communityMemberId_ = subBuilder.buildPartial();
@@ -4592,7 +4591,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -4605,7 +4604,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (onlineStatus_ != null) {
                   subBuilder = onlineStatus_.toBuilder();
                 }
-                onlineStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                onlineStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(onlineStatus_);
                   onlineStatus_ = subBuilder.buildPartial();
@@ -4618,7 +4617,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -4631,7 +4630,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -4644,7 +4643,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (value3RestrictedByPattern_ != null) {
                   subBuilder = value3RestrictedByPattern_.toBuilder();
                 }
-                value3RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value3RestrictedByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3RestrictedByPattern_);
                   value3RestrictedByPattern_ = subBuilder.buildPartial();
@@ -4657,7 +4656,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (nickname_ != null) {
                   subBuilder = nickname_.toBuilder();
                 }
-                nickname_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                nickname_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nickname_);
                   nickname_ = subBuilder.buildPartial();
@@ -4670,7 +4669,7 @@ public final class CoGetOnlineTimeOfMembersPu {
                 if (isOnline_ != null) {
                   subBuilder = isOnline_.toBuilder();
                 }
-                isOnline_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                isOnline_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(isOnline_);
                   isOnline_ = subBuilder.buildPartial();
@@ -5160,9 +5159,8 @@ public final class CoGetOnlineTimeOfMembersPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -5218,7 +5216,7 @@ public final class CoGetOnlineTimeOfMembersPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10012, getIsOnline());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -7451,8 +7449,8 @@ public final class CoGetOnlineTimeOfMembersPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -7620,9 +7618,8 @@ public final class CoGetOnlineTimeOfMembersPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -7638,7 +7635,7 @@ public final class CoGetOnlineTimeOfMembersPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -8606,8 +8603,8 @@ public final class CoGetOnlineTimeOfMembersPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -110,7 +110,7 @@ public final class ImGetItemConditionsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetItemConditions_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -150,7 +150,7 @@ public final class ImGetItemConditionsAd {
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -163,7 +163,7 @@ public final class ImGetItemConditionsAd {
               if (conditionDescriptionLike_ != null) {
                 subBuilder = conditionDescriptionLike_.toBuilder();
               }
-              conditionDescriptionLike_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              conditionDescriptionLike_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionDescriptionLike_);
                 conditionDescriptionLike_ = subBuilder.buildPartial();
@@ -176,7 +176,7 @@ public final class ImGetItemConditionsAd {
               if (getUnusedConditions_ != null) {
                 subBuilder = getUnusedConditions_.toBuilder();
               }
-              getUnusedConditions_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getUnusedConditions_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getUnusedConditions_);
                 getUnusedConditions_ = subBuilder.buildPartial();
@@ -189,7 +189,7 @@ public final class ImGetItemConditionsAd {
               if (orderBy_ != null) {
                 subBuilder = orderBy_.toBuilder();
               }
-              orderBy_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              orderBy_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderBy_);
                 orderBy_ = subBuilder.buildPartial();
@@ -202,7 +202,7 @@ public final class ImGetItemConditionsAd {
               if (rowCount_ != null) {
                 subBuilder = rowCount_.toBuilder();
               }
-              rowCount_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              rowCount_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(rowCount_);
                 rowCount_ = subBuilder.buildPartial();
@@ -453,9 +453,8 @@ public final class ImGetItemConditionsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -499,7 +498,7 @@ public final class ImGetItemConditionsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, rowCountNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1511,8 +1510,8 @@ public final class ImGetItemConditionsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1638,7 +1637,7 @@ public final class ImGetItemConditionsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetItemConditions_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1675,7 +1674,7 @@ public final class ImGetItemConditionsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1688,7 +1687,7 @@ public final class ImGetItemConditionsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1696,7 +1695,7 @@ public final class ImGetItemConditionsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImGetItemConditionsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImGetItemConditionsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImGetItemConditionsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2346,7 +2345,7 @@ public final class ImGetItemConditionsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_GetItemConditions_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2387,7 +2386,7 @@ public final class ImGetItemConditionsAd {
                 if (conditionDescription_ != null) {
                   subBuilder = conditionDescription_.toBuilder();
                 }
-                conditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                conditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionDescription_);
                   conditionDescription_ = subBuilder.buildPartial();
@@ -2400,7 +2399,7 @@ public final class ImGetItemConditionsAd {
                 if (operator1_ != null) {
                   subBuilder = operator1_.toBuilder();
                 }
-                operator1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                operator1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(operator1_);
                   operator1_ = subBuilder.buildPartial();
@@ -2413,7 +2412,7 @@ public final class ImGetItemConditionsAd {
                 if (condition1_ != null) {
                   subBuilder = condition1_.toBuilder();
                 }
-                condition1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                condition1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(condition1_);
                   condition1_ = subBuilder.buildPartial();
@@ -2426,7 +2425,7 @@ public final class ImGetItemConditionsAd {
                 if (condition2_ != null) {
                   subBuilder = condition2_.toBuilder();
                 }
-                condition2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                condition2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(condition2_);
                   condition2_ = subBuilder.buildPartial();
@@ -2439,7 +2438,7 @@ public final class ImGetItemConditionsAd {
                 if (operator2_ != null) {
                   subBuilder = operator2_.toBuilder();
                 }
-                operator2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                operator2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(operator2_);
                   operator2_ = subBuilder.buildPartial();
@@ -2452,7 +2451,7 @@ public final class ImGetItemConditionsAd {
                 if (conditionGroupDescription_ != null) {
                   subBuilder = conditionGroupDescription_.toBuilder();
                 }
-                conditionGroupDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                conditionGroupDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionGroupDescription_);
                   conditionGroupDescription_ = subBuilder.buildPartial();
@@ -2465,7 +2464,7 @@ public final class ImGetItemConditionsAd {
                 if (combinePartsWithANDOperator_ != null) {
                   subBuilder = combinePartsWithANDOperator_.toBuilder();
                 }
-                combinePartsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                combinePartsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(combinePartsWithANDOperator_);
                   combinePartsWithANDOperator_ = subBuilder.buildPartial();
@@ -2478,7 +2477,7 @@ public final class ImGetItemConditionsAd {
                 if (recursiveEvaluation_ != null) {
                   subBuilder = recursiveEvaluation_.toBuilder();
                 }
-                recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(recursiveEvaluation_);
                   recursiveEvaluation_ = subBuilder.buildPartial();
@@ -2491,7 +2490,7 @@ public final class ImGetItemConditionsAd {
                 if (conditionPartId_ != null) {
                   subBuilder = conditionPartId_.toBuilder();
                 }
-                conditionPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                conditionPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionPartId_);
                   conditionPartId_ = subBuilder.buildPartial();
@@ -2504,7 +2503,7 @@ public final class ImGetItemConditionsAd {
                 if (domainTreeNodeIds_ != null) {
                   subBuilder = domainTreeNodeIds_.toBuilder();
                 }
-                domainTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                domainTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(domainTreeNodeIds_);
                   domainTreeNodeIds_ = subBuilder.buildPartial();
@@ -2517,7 +2516,7 @@ public final class ImGetItemConditionsAd {
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -2530,7 +2529,7 @@ public final class ImGetItemConditionsAd {
                 if (createdAtDateAndTime_ != null) {
                   subBuilder = createdAtDateAndTime_.toBuilder();
                 }
-                createdAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                createdAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdAtDateAndTime_);
                   createdAtDateAndTime_ = subBuilder.buildPartial();
@@ -2543,7 +2542,7 @@ public final class ImGetItemConditionsAd {
                 if (combineGroupsWithANDOperator_ != null) {
                   subBuilder = combineGroupsWithANDOperator_.toBuilder();
                 }
-                combineGroupsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                combineGroupsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(combineGroupsWithANDOperator_);
                   combineGroupsWithANDOperator_ = subBuilder.buildPartial();
@@ -2556,7 +2555,7 @@ public final class ImGetItemConditionsAd {
                 if (usedAsCampaignBenefitCondition_ != null) {
                   subBuilder = usedAsCampaignBenefitCondition_.toBuilder();
                 }
-                usedAsCampaignBenefitCondition_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                usedAsCampaignBenefitCondition_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedAsCampaignBenefitCondition_);
                   usedAsCampaignBenefitCondition_ = subBuilder.buildPartial();
@@ -2569,7 +2568,7 @@ public final class ImGetItemConditionsAd {
                 if (conditionGroupId_ != null) {
                   subBuilder = conditionGroupId_.toBuilder();
                 }
-                conditionGroupId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                conditionGroupId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionGroupId_);
                   conditionGroupId_ = subBuilder.buildPartial();
@@ -2582,7 +2581,7 @@ public final class ImGetItemConditionsAd {
                 if (levelIds_ != null) {
                   subBuilder = levelIds_.toBuilder();
                 }
-                levelIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                levelIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelIds_);
                   levelIds_ = subBuilder.buildPartial();
@@ -2595,7 +2594,7 @@ public final class ImGetItemConditionsAd {
                 if (editedAtDateAndTime_ != null) {
                   subBuilder = editedAtDateAndTime_.toBuilder();
                 }
-                editedAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                editedAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(editedAtDateAndTime_);
                   editedAtDateAndTime_ = subBuilder.buildPartial();
@@ -2608,7 +2607,7 @@ public final class ImGetItemConditionsAd {
                 if (usedAsCampaignCondition_ != null) {
                   subBuilder = usedAsCampaignCondition_.toBuilder();
                 }
-                usedAsCampaignCondition_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                usedAsCampaignCondition_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedAsCampaignCondition_);
                   usedAsCampaignCondition_ = subBuilder.buildPartial();
@@ -2621,7 +2620,7 @@ public final class ImGetItemConditionsAd {
                 if (groupSortNo_ != null) {
                   subBuilder = groupSortNo_.toBuilder();
                 }
-                groupSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                groupSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(groupSortNo_);
                   groupSortNo_ = subBuilder.buildPartial();
@@ -2634,7 +2633,7 @@ public final class ImGetItemConditionsAd {
                 if (partSortNo_ != null) {
                   subBuilder = partSortNo_.toBuilder();
                 }
-                partSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                partSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(partSortNo_);
                   partSortNo_ = subBuilder.buildPartial();
@@ -2647,7 +2646,7 @@ public final class ImGetItemConditionsAd {
                 if (isValid_ != null) {
                   subBuilder = isValid_.toBuilder();
                 }
-                isValid_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                isValid_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(isValid_);
                   isValid_ = subBuilder.buildPartial();
@@ -2660,7 +2659,7 @@ public final class ImGetItemConditionsAd {
                 if (conditionPartDescription_ != null) {
                   subBuilder = conditionPartDescription_.toBuilder();
                 }
-                conditionPartDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                conditionPartDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionPartDescription_);
                   conditionPartDescription_ = subBuilder.buildPartial();
@@ -2673,7 +2672,7 @@ public final class ImGetItemConditionsAd {
                 if (inheritDepth_ != null) {
                   subBuilder = inheritDepth_.toBuilder();
                 }
-                inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inheritDepth_);
                   inheritDepth_ = subBuilder.buildPartial();
@@ -2686,7 +2685,7 @@ public final class ImGetItemConditionsAd {
                 if (conditionId_ != null) {
                   subBuilder = conditionId_.toBuilder();
                 }
-                conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(conditionId_);
                   conditionId_ = subBuilder.buildPartial();
@@ -3608,9 +3607,8 @@ public final class ImGetItemConditionsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3714,7 +3712,7 @@ public final class ImGetItemConditionsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20006, getConditionId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -7951,8 +7949,8 @@ public final class ImGetItemConditionsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -8120,9 +8118,8 @@ public final class ImGetItemConditionsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -8138,7 +8135,7 @@ public final class ImGetItemConditionsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -9106,8 +9103,8 @@ public final class ImGetItemConditionsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

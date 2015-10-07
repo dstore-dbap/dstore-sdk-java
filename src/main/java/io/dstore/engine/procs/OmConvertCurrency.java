@@ -110,7 +110,7 @@ public final class OmConvertCurrency {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ConvertCurrency.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -150,7 +150,7 @@ public final class OmConvertCurrency {
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              value_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -163,7 +163,7 @@ public final class OmConvertCurrency {
               if (fromUnitId_ != null) {
                 subBuilder = fromUnitId_.toBuilder();
               }
-              fromUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              fromUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromUnitId_);
                 fromUnitId_ = subBuilder.buildPartial();
@@ -176,7 +176,7 @@ public final class OmConvertCurrency {
               if (toUnitId_ != null) {
                 subBuilder = toUnitId_.toBuilder();
               }
-              toUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              toUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toUnitId_);
                 toUnitId_ = subBuilder.buildPartial();
@@ -189,7 +189,7 @@ public final class OmConvertCurrency {
               if (date_ != null) {
                 subBuilder = date_.toBuilder();
               }
-              date_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              date_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(date_);
                 date_ = subBuilder.buildPartial();
@@ -202,7 +202,7 @@ public final class OmConvertCurrency {
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
               }
-              selectResult_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              selectResult_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(selectResult_);
                 selectResult_ = subBuilder.buildPartial();
@@ -453,9 +453,8 @@ public final class OmConvertCurrency {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -499,7 +498,7 @@ public final class OmConvertCurrency {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, selectResultNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1511,8 +1510,8 @@ public final class OmConvertCurrency {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1631,7 +1630,7 @@ public final class OmConvertCurrency {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ConvertCurrency.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1668,7 +1667,7 @@ public final class OmConvertCurrency {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1681,7 +1680,7 @@ public final class OmConvertCurrency {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1689,7 +1688,7 @@ public final class OmConvertCurrency {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmConvertCurrency.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmConvertCurrency.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmConvertCurrency.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -1697,7 +1696,7 @@ public final class OmConvertCurrency {
               if (convertedValue_ != null) {
                 subBuilder = convertedValue_.toBuilder();
               }
-              convertedValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              convertedValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(convertedValue_);
                 convertedValue_ = subBuilder.buildPartial();
@@ -1777,7 +1776,7 @@ public final class OmConvertCurrency {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_ConvertCurrency.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1818,7 +1817,7 @@ public final class OmConvertCurrency {
                 if (convertedValue_ != null) {
                   subBuilder = convertedValue_.toBuilder();
                 }
-                convertedValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                convertedValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(convertedValue_);
                   convertedValue_ = subBuilder.buildPartial();
@@ -1912,9 +1911,8 @@ public final class OmConvertCurrency {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1926,7 +1924,7 @@ public final class OmConvertCurrency {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10001, getConvertedValue());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2322,8 +2320,8 @@ public final class OmConvertCurrency {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2495,9 +2493,8 @@ public final class OmConvertCurrency {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2517,7 +2514,7 @@ public final class OmConvertCurrency {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getConvertedValue());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3544,8 +3541,8 @@ public final class OmConvertCurrency {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

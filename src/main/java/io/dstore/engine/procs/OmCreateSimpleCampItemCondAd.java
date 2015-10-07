@@ -434,7 +434,7 @@ public final class OmCreateSimpleCampItemCondAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_CreateSimpleCampItemCond_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -493,7 +493,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -506,7 +506,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (conditionDescription_ != null) {
                 subBuilder = conditionDescription_.toBuilder();
               }
-              conditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              conditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionDescription_);
                 conditionDescription_ = subBuilder.buildPartial();
@@ -519,7 +519,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (levelIds_ != null) {
                 subBuilder = levelIds_.toBuilder();
               }
-              levelIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              levelIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(levelIds_);
                 levelIds_ = subBuilder.buildPartial();
@@ -532,7 +532,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (domainTreeNodeIds_ != null) {
                 subBuilder = domainTreeNodeIds_.toBuilder();
               }
-              domainTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              domainTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(domainTreeNodeIds_);
                 domainTreeNodeIds_ = subBuilder.buildPartial();
@@ -545,7 +545,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -558,7 +558,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (operator1_ != null) {
                 subBuilder = operator1_.toBuilder();
               }
-              operator1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              operator1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(operator1_);
                 operator1_ = subBuilder.buildPartial();
@@ -571,7 +571,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (condition1_ != null) {
                 subBuilder = condition1_.toBuilder();
               }
-              condition1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              condition1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(condition1_);
                 condition1_ = subBuilder.buildPartial();
@@ -584,7 +584,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (operator2_ != null) {
                 subBuilder = operator2_.toBuilder();
               }
-              operator2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              operator2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(operator2_);
                 operator2_ = subBuilder.buildPartial();
@@ -597,7 +597,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (condition2_ != null) {
                 subBuilder = condition2_.toBuilder();
               }
-              condition2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              condition2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(condition2_);
                 condition2_ = subBuilder.buildPartial();
@@ -610,7 +610,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (inheritDepth_ != null) {
                 subBuilder = inheritDepth_.toBuilder();
               }
-              inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(inheritDepth_);
                 inheritDepth_ = subBuilder.buildPartial();
@@ -623,7 +623,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (recursiveEvaluation_ != null) {
                 subBuilder = recursiveEvaluation_.toBuilder();
               }
-              recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(recursiveEvaluation_);
                 recursiveEvaluation_ = subBuilder.buildPartial();
@@ -636,7 +636,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              country_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -649,7 +649,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (extendedConditionDescription_ != null) {
                 subBuilder = extendedConditionDescription_.toBuilder();
               }
-              extendedConditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              extendedConditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(extendedConditionDescription_);
                 extendedConditionDescription_ = subBuilder.buildPartial();
@@ -662,7 +662,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (minNumberOfItems_ != null) {
                 subBuilder = minNumberOfItems_.toBuilder();
               }
-              minNumberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              minNumberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(minNumberOfItems_);
                 minNumberOfItems_ = subBuilder.buildPartial();
@@ -675,7 +675,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (maxNumberOfItems_ != null) {
                 subBuilder = maxNumberOfItems_.toBuilder();
               }
-              maxNumberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              maxNumberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfItems_);
                 maxNumberOfItems_ = subBuilder.buildPartial();
@@ -688,7 +688,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (fromQuantity_ != null) {
                 subBuilder = fromQuantity_.toBuilder();
               }
-              fromQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              fromQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromQuantity_);
                 fromQuantity_ = subBuilder.buildPartial();
@@ -701,7 +701,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (toQuantity_ != null) {
                 subBuilder = toQuantity_.toBuilder();
               }
-              toQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              toQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toQuantity_);
                 toQuantity_ = subBuilder.buildPartial();
@@ -714,7 +714,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (fromItemBasicPrice_ != null) {
                 subBuilder = fromItemBasicPrice_.toBuilder();
               }
-              fromItemBasicPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              fromItemBasicPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromItemBasicPrice_);
                 fromItemBasicPrice_ = subBuilder.buildPartial();
@@ -727,7 +727,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (toItemBasicPrice_ != null) {
                 subBuilder = toItemBasicPrice_.toBuilder();
               }
-              toItemBasicPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              toItemBasicPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toItemBasicPrice_);
                 toItemBasicPrice_ = subBuilder.buildPartial();
@@ -740,7 +740,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (fromBasicPriceSum_ != null) {
                 subBuilder = fromBasicPriceSum_.toBuilder();
               }
-              fromBasicPriceSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              fromBasicPriceSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromBasicPriceSum_);
                 fromBasicPriceSum_ = subBuilder.buildPartial();
@@ -753,7 +753,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (toBasicPriceSum_ != null) {
                 subBuilder = toBasicPriceSum_.toBuilder();
               }
-              toBasicPriceSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              toBasicPriceSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toBasicPriceSum_);
                 toBasicPriceSum_ = subBuilder.buildPartial();
@@ -766,7 +766,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (combineGroupsWithANDOperator_ != null) {
                 subBuilder = combineGroupsWithANDOperator_.toBuilder();
               }
-              combineGroupsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              combineGroupsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(combineGroupsWithANDOperator_);
                 combineGroupsWithANDOperator_ = subBuilder.buildPartial();
@@ -779,7 +779,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (combinePartsWithANDOperator_ != null) {
                 subBuilder = combinePartsWithANDOperator_.toBuilder();
               }
-              combinePartsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              combinePartsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(combinePartsWithANDOperator_);
                 combinePartsWithANDOperator_ = subBuilder.buildPartial();
@@ -1768,9 +1768,8 @@ public final class OmCreateSimpleCampItemCondAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1958,7 +1957,7 @@ public final class OmCreateSimpleCampItemCondAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1023, combinePartsWithANDOperatorNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5904,8 +5903,8 @@ public final class OmCreateSimpleCampItemCondAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -6063,7 +6062,7 @@ public final class OmCreateSimpleCampItemCondAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_CreateSimpleCampItemCond_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -6100,7 +6099,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -6113,7 +6112,7 @@ public final class OmCreateSimpleCampItemCondAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -6121,7 +6120,7 @@ public final class OmCreateSimpleCampItemCondAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmCreateSimpleCampItemCondAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmCreateSimpleCampItemCondAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmCreateSimpleCampItemCondAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -6129,7 +6128,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -6142,7 +6141,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (itemConditionId_ != null) {
                 subBuilder = itemConditionId_.toBuilder();
               }
-              itemConditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              itemConditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemConditionId_);
                 itemConditionId_ = subBuilder.buildPartial();
@@ -6155,7 +6154,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (itemConditionGroupId_ != null) {
                 subBuilder = itemConditionGroupId_.toBuilder();
               }
-              itemConditionGroupId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              itemConditionGroupId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemConditionGroupId_);
                 itemConditionGroupId_ = subBuilder.buildPartial();
@@ -6168,7 +6167,7 @@ public final class OmCreateSimpleCampItemCondAd {
               if (itemConditionPartId_ != null) {
                 subBuilder = itemConditionPartId_.toBuilder();
               }
-              itemConditionPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              itemConditionPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemConditionPartId_);
                 itemConditionPartId_ = subBuilder.buildPartial();
@@ -6223,7 +6222,7 @@ public final class OmCreateSimpleCampItemCondAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_CreateSimpleCampItemCond_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -6309,9 +6308,8 @@ public final class OmCreateSimpleCampItemCondAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -6319,7 +6317,7 @@ public final class OmCreateSimpleCampItemCondAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -6548,8 +6546,8 @@ public final class OmCreateSimpleCampItemCondAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -6793,9 +6791,8 @@ public final class OmCreateSimpleCampItemCondAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -6827,7 +6824,7 @@ public final class OmCreateSimpleCampItemCondAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(104, getItemConditionPartId());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -8247,8 +8244,8 @@ public final class OmCreateSimpleCampItemCondAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

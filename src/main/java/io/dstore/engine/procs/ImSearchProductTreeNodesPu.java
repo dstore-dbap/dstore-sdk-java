@@ -398,7 +398,7 @@ public final class ImSearchProductTreeNodesPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_SearchProductTreeNodes_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -455,7 +455,7 @@ public final class ImSearchProductTreeNodesPu {
               if (domainTreeNodeId_ != null) {
                 subBuilder = domainTreeNodeId_.toBuilder();
               }
-              domainTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              domainTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(domainTreeNodeId_);
                 domainTreeNodeId_ = subBuilder.buildPartial();
@@ -468,7 +468,7 @@ public final class ImSearchProductTreeNodesPu {
               if (nodeCharacteristicIds_ != null) {
                 subBuilder = nodeCharacteristicIds_.toBuilder();
               }
-              nodeCharacteristicIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              nodeCharacteristicIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicIds_);
                 nodeCharacteristicIds_ = subBuilder.buildPartial();
@@ -481,7 +481,7 @@ public final class ImSearchProductTreeNodesPu {
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -494,7 +494,7 @@ public final class ImSearchProductTreeNodesPu {
               if (isLike_ != null) {
                 subBuilder = isLike_.toBuilder();
               }
-              isLike_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              isLike_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isLike_);
                 isLike_ = subBuilder.buildPartial();
@@ -507,7 +507,7 @@ public final class ImSearchProductTreeNodesPu {
               if (includeInherited_ != null) {
                 subBuilder = includeInherited_.toBuilder();
               }
-              includeInherited_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeInherited_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeInherited_);
                 includeInherited_ = subBuilder.buildPartial();
@@ -520,7 +520,7 @@ public final class ImSearchProductTreeNodesPu {
               if (startAtRowNo_ != null) {
                 subBuilder = startAtRowNo_.toBuilder();
               }
-              startAtRowNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              startAtRowNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(startAtRowNo_);
                 startAtRowNo_ = subBuilder.buildPartial();
@@ -533,7 +533,7 @@ public final class ImSearchProductTreeNodesPu {
               if (rowCount_ != null) {
                 subBuilder = rowCount_.toBuilder();
               }
-              rowCount_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              rowCount_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(rowCount_);
                 rowCount_ = subBuilder.buildPartial();
@@ -546,7 +546,7 @@ public final class ImSearchProductTreeNodesPu {
               if (includeValueDetails_ != null) {
                 subBuilder = includeValueDetails_.toBuilder();
               }
-              includeValueDetails_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeValueDetails_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeValueDetails_);
                 includeValueDetails_ = subBuilder.buildPartial();
@@ -559,7 +559,7 @@ public final class ImSearchProductTreeNodesPu {
               if (includeVariants_ != null) {
                 subBuilder = includeVariants_.toBuilder();
               }
-              includeVariants_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeVariants_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeVariants_);
                 includeVariants_ = subBuilder.buildPartial();
@@ -572,7 +572,7 @@ public final class ImSearchProductTreeNodesPu {
               if (maintainSearchItemLacks_ != null) {
                 subBuilder = maintainSearchItemLacks_.toBuilder();
               }
-              maintainSearchItemLacks_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              maintainSearchItemLacks_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maintainSearchItemLacks_);
                 maintainSearchItemLacks_ = subBuilder.buildPartial();
@@ -585,7 +585,7 @@ public final class ImSearchProductTreeNodesPu {
               if (binaryCharacteristicValueId_ != null) {
                 subBuilder = binaryCharacteristicValueId_.toBuilder();
               }
-              binaryCharacteristicValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              binaryCharacteristicValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryCharacteristicValueId_);
                 binaryCharacteristicValueId_ = subBuilder.buildPartial();
@@ -598,7 +598,7 @@ public final class ImSearchProductTreeNodesPu {
               if (filterByCharacteristicId_ != null) {
                 subBuilder = filterByCharacteristicId_.toBuilder();
               }
-              filterByCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              filterByCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacteristicId_);
                 filterByCharacteristicId_ = subBuilder.buildPartial();
@@ -611,7 +611,7 @@ public final class ImSearchProductTreeNodesPu {
               if (filterByCharacValue_ != null) {
                 subBuilder = filterByCharacValue_.toBuilder();
               }
-              filterByCharacValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              filterByCharacValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacValue_);
                 filterByCharacValue_ = subBuilder.buildPartial();
@@ -624,7 +624,7 @@ public final class ImSearchProductTreeNodesPu {
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              country_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -637,7 +637,7 @@ public final class ImSearchProductTreeNodesPu {
               if (negateFilterByParams_ != null) {
                 subBuilder = negateFilterByParams_.toBuilder();
               }
-              negateFilterByParams_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              negateFilterByParams_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(negateFilterByParams_);
                 negateFilterByParams_ = subBuilder.buildPartial();
@@ -650,7 +650,7 @@ public final class ImSearchProductTreeNodesPu {
               if (sortByCharacteristicIdList_ != null) {
                 subBuilder = sortByCharacteristicIdList_.toBuilder();
               }
-              sortByCharacteristicIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              sortByCharacteristicIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortByCharacteristicIdList_);
                 sortByCharacteristicIdList_ = subBuilder.buildPartial();
@@ -663,7 +663,7 @@ public final class ImSearchProductTreeNodesPu {
               if (sortOptionList_ != null) {
                 subBuilder = sortOptionList_.toBuilder();
               }
-              sortOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              sortOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortOptionList_);
                 sortOptionList_ = subBuilder.buildPartial();
@@ -676,7 +676,7 @@ public final class ImSearchProductTreeNodesPu {
               if (inheritDepthOptionList_ != null) {
                 subBuilder = inheritDepthOptionList_.toBuilder();
               }
-              inheritDepthOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              inheritDepthOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(inheritDepthOptionList_);
                 inheritDepthOptionList_ = subBuilder.buildPartial();
@@ -689,7 +689,7 @@ public final class ImSearchProductTreeNodesPu {
               if (recursiveEvaluationOptionList_ != null) {
                 subBuilder = recursiveEvaluationOptionList_.toBuilder();
               }
-              recursiveEvaluationOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              recursiveEvaluationOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(recursiveEvaluationOptionList_);
                 recursiveEvaluationOptionList_ = subBuilder.buildPartial();
@@ -702,7 +702,7 @@ public final class ImSearchProductTreeNodesPu {
               if (getValuesForSortByCharacs_ != null) {
                 subBuilder = getValuesForSortByCharacs_.toBuilder();
               }
-              getValuesForSortByCharacs_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getValuesForSortByCharacs_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getValuesForSortByCharacs_);
                 getValuesForSortByCharacs_ = subBuilder.buildPartial();
@@ -715,7 +715,7 @@ public final class ImSearchProductTreeNodesPu {
               if (outputIntoOneId_ != null) {
                 subBuilder = outputIntoOneId_.toBuilder();
               }
-              outputIntoOneId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              outputIntoOneId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputIntoOneId_);
                 outputIntoOneId_ = subBuilder.buildPartial();
@@ -1622,9 +1622,8 @@ public final class ImSearchProductTreeNodesPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1796,7 +1795,7 @@ public final class ImSearchProductTreeNodesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1021, outputIntoOneIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5416,8 +5415,8 @@ public final class ImSearchProductTreeNodesPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -5536,7 +5535,7 @@ public final class ImSearchProductTreeNodesPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_SearchProductTreeNodes_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -5573,7 +5572,7 @@ public final class ImSearchProductTreeNodesPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -5586,7 +5585,7 @@ public final class ImSearchProductTreeNodesPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -5594,7 +5593,7 @@ public final class ImSearchProductTreeNodesPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImSearchProductTreeNodesPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImSearchProductTreeNodesPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImSearchProductTreeNodesPu.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -5602,7 +5601,7 @@ public final class ImSearchProductTreeNodesPu {
               if (count_ != null) {
                 subBuilder = count_.toBuilder();
               }
-              count_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              count_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(count_);
                 count_ = subBuilder.buildPartial();
@@ -5957,7 +5956,7 @@ public final class ImSearchProductTreeNodesPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_SearchProductTreeNodes_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -5998,7 +5997,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -6011,7 +6010,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -6024,7 +6023,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -6037,7 +6036,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (matchingValue_ != null) {
                   subBuilder = matchingValue_.toBuilder();
                 }
-                matchingValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                matchingValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(matchingValue_);
                   matchingValue_ = subBuilder.buildPartial();
@@ -6050,7 +6049,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (binaryCodeId_ != null) {
                   subBuilder = binaryCodeId_.toBuilder();
                 }
-                binaryCodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                binaryCodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCodeId_);
                   binaryCodeId_ = subBuilder.buildPartial();
@@ -6063,7 +6062,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -6076,7 +6075,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -6089,7 +6088,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (prePredecessorsDescription_ != null) {
                   subBuilder = prePredecessorsDescription_.toBuilder();
                 }
-                prePredecessorsDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                prePredecessorsDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prePredecessorsDescription_);
                   prePredecessorsDescription_ = subBuilder.buildPartial();
@@ -6102,7 +6101,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (product_ != null) {
                   subBuilder = product_.toBuilder();
                 }
-                product_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                product_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(product_);
                   product_ = subBuilder.buildPartial();
@@ -6115,7 +6114,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (prePredecessorsTreeNodeId_ != null) {
                   subBuilder = prePredecessorsTreeNodeId_.toBuilder();
                 }
-                prePredecessorsTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                prePredecessorsTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prePredecessorsTreeNodeId_);
                   prePredecessorsTreeNodeId_ = subBuilder.buildPartial();
@@ -6128,7 +6127,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (predecessorsTreeNodeId_ != null) {
                   subBuilder = predecessorsTreeNodeId_.toBuilder();
                 }
-                predecessorsTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                predecessorsTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessorsTreeNodeId_);
                   predecessorsTreeNodeId_ = subBuilder.buildPartial();
@@ -6141,7 +6140,7 @@ public final class ImSearchProductTreeNodesPu {
                 if (predecessorsDescription_ != null) {
                   subBuilder = predecessorsDescription_.toBuilder();
                 }
-                predecessorsDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                predecessorsDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessorsDescription_);
                   predecessorsDescription_ = subBuilder.buildPartial();
@@ -6631,9 +6630,8 @@ public final class ImSearchProductTreeNodesPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -6689,7 +6687,7 @@ public final class ImSearchProductTreeNodesPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10012, getPredecessorsDescription());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -8922,8 +8920,8 @@ public final class ImSearchProductTreeNodesPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -9095,9 +9093,8 @@ public final class ImSearchProductTreeNodesPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -9117,7 +9114,7 @@ public final class ImSearchProductTreeNodesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getCount());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -10144,8 +10141,8 @@ public final class ImSearchProductTreeNodesPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

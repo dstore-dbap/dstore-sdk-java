@@ -128,7 +128,7 @@ public final class MiGetAppPartsTreeSettingsPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetAppPartsTreeSettings_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -169,7 +169,7 @@ public final class MiGetAppPartsTreeSettingsPu {
               if (applicationPartTreeId_ != null) {
                 subBuilder = applicationPartTreeId_.toBuilder();
               }
-              applicationPartTreeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              applicationPartTreeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(applicationPartTreeId_);
                 applicationPartTreeId_ = subBuilder.buildPartial();
@@ -182,7 +182,7 @@ public final class MiGetAppPartsTreeSettingsPu {
               if (keyVariable_ != null) {
                 subBuilder = keyVariable_.toBuilder();
               }
-              keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keyVariable_);
                 keyVariable_ = subBuilder.buildPartial();
@@ -195,7 +195,7 @@ public final class MiGetAppPartsTreeSettingsPu {
               if (searchForKeyVariableWithLike_ != null) {
                 subBuilder = searchForKeyVariableWithLike_.toBuilder();
               }
-              searchForKeyVariableWithLike_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              searchForKeyVariableWithLike_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchForKeyVariableWithLike_);
                 searchForKeyVariableWithLike_ = subBuilder.buildPartial();
@@ -208,7 +208,7 @@ public final class MiGetAppPartsTreeSettingsPu {
               if (getValuesForGlobalUser_ != null) {
                 subBuilder = getValuesForGlobalUser_.toBuilder();
               }
-              getValuesForGlobalUser_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              getValuesForGlobalUser_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getValuesForGlobalUser_);
                 getValuesForGlobalUser_ = subBuilder.buildPartial();
@@ -221,7 +221,7 @@ public final class MiGetAppPartsTreeSettingsPu {
               if (getValuesForCorrespondingPart_ != null) {
                 subBuilder = getValuesForCorrespondingPart_.toBuilder();
               }
-              getValuesForCorrespondingPart_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getValuesForCorrespondingPart_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getValuesForCorrespondingPart_);
                 getValuesForCorrespondingPart_ = subBuilder.buildPartial();
@@ -234,7 +234,7 @@ public final class MiGetAppPartsTreeSettingsPu {
               if (idsInTwoIds_ != null) {
                 subBuilder = idsInTwoIds_.toBuilder();
               }
-              idsInTwoIds_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              idsInTwoIds_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(idsInTwoIds_);
                 idsInTwoIds_ = subBuilder.buildPartial();
@@ -526,9 +526,8 @@ public final class MiGetAppPartsTreeSettingsPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -580,7 +579,7 @@ public final class MiGetAppPartsTreeSettingsPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1006, idsInTwoIdsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1755,8 +1754,8 @@ public final class MiGetAppPartsTreeSettingsPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1882,7 +1881,7 @@ public final class MiGetAppPartsTreeSettingsPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetAppPartsTreeSettings_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1919,7 +1918,7 @@ public final class MiGetAppPartsTreeSettingsPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1932,7 +1931,7 @@ public final class MiGetAppPartsTreeSettingsPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1940,7 +1939,7 @@ public final class MiGetAppPartsTreeSettingsPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiGetAppPartsTreeSettingsPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiGetAppPartsTreeSettingsPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiGetAppPartsTreeSettingsPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2115,7 +2114,7 @@ public final class MiGetAppPartsTreeSettingsPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetAppPartsTreeSettings_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2156,7 +2155,7 @@ public final class MiGetAppPartsTreeSettingsPu {
                 if (valueDerivedFromAppPartId_ != null) {
                   subBuilder = valueDerivedFromAppPartId_.toBuilder();
                 }
-                valueDerivedFromAppPartId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                valueDerivedFromAppPartId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueDerivedFromAppPartId_);
                   valueDerivedFromAppPartId_ = subBuilder.buildPartial();
@@ -2169,7 +2168,7 @@ public final class MiGetAppPartsTreeSettingsPu {
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -2182,7 +2181,7 @@ public final class MiGetAppPartsTreeSettingsPu {
                 if (keyVariable_ != null) {
                   subBuilder = keyVariable_.toBuilder();
                 }
-                keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(keyVariable_);
                   keyVariable_ = subBuilder.buildPartial();
@@ -2195,7 +2194,7 @@ public final class MiGetAppPartsTreeSettingsPu {
                 if (applicationPartTreeId_ != null) {
                   subBuilder = applicationPartTreeId_.toBuilder();
                 }
-                applicationPartTreeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                applicationPartTreeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(applicationPartTreeId_);
                   applicationPartTreeId_ = subBuilder.buildPartial();
@@ -2208,7 +2207,7 @@ public final class MiGetAppPartsTreeSettingsPu {
                 if (valueDerivedFromGlobalUser_ != null) {
                   subBuilder = valueDerivedFromGlobalUser_.toBuilder();
                 }
-                valueDerivedFromGlobalUser_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                valueDerivedFromGlobalUser_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueDerivedFromGlobalUser_);
                   valueDerivedFromGlobalUser_ = subBuilder.buildPartial();
@@ -2446,9 +2445,8 @@ public final class MiGetAppPartsTreeSettingsPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2476,7 +2474,7 @@ public final class MiGetAppPartsTreeSettingsPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10005, getValueDerivedFromGlobalUser());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3540,8 +3538,8 @@ public final class MiGetAppPartsTreeSettingsPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3709,9 +3707,8 @@ public final class MiGetAppPartsTreeSettingsPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3727,7 +3724,7 @@ public final class MiGetAppPartsTreeSettingsPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -4695,8 +4692,8 @@ public final class MiGetAppPartsTreeSettingsPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -272,7 +272,7 @@ public final class StGetDSSIndexTrendAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDSS_Index_Trend_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -321,7 +321,7 @@ public final class StGetDSSIndexTrendAd {
               if (domainTreeNodeId_ != null) {
                 subBuilder = domainTreeNodeId_.toBuilder();
               }
-              domainTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              domainTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(domainTreeNodeId_);
                 domainTreeNodeId_ = subBuilder.buildPartial();
@@ -334,7 +334,7 @@ public final class StGetDSSIndexTrendAd {
               if (intervalls_ != null) {
                 subBuilder = intervalls_.toBuilder();
               }
-              intervalls_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              intervalls_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(intervalls_);
                 intervalls_ = subBuilder.buildPartial();
@@ -347,7 +347,7 @@ public final class StGetDSSIndexTrendAd {
               if (minutesPerIntervall_ != null) {
                 subBuilder = minutesPerIntervall_.toBuilder();
               }
-              minutesPerIntervall_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              minutesPerIntervall_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(minutesPerIntervall_);
                 minutesPerIntervall_ = subBuilder.buildPartial();
@@ -360,7 +360,7 @@ public final class StGetDSSIndexTrendAd {
               if (groupByNodesOnLevel_ != null) {
                 subBuilder = groupByNodesOnLevel_.toBuilder();
               }
-              groupByNodesOnLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              groupByNodesOnLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(groupByNodesOnLevel_);
                 groupByNodesOnLevel_ = subBuilder.buildPartial();
@@ -373,7 +373,7 @@ public final class StGetDSSIndexTrendAd {
               if (isLevelId_ != null) {
                 subBuilder = isLevelId_.toBuilder();
               }
-              isLevelId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              isLevelId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isLevelId_);
                 isLevelId_ = subBuilder.buildPartial();
@@ -386,7 +386,7 @@ public final class StGetDSSIndexTrendAd {
               if (groupByNodeCharacteristicId_ != null) {
                 subBuilder = groupByNodeCharacteristicId_.toBuilder();
               }
-              groupByNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              groupByNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(groupByNodeCharacteristicId_);
                 groupByNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -399,7 +399,7 @@ public final class StGetDSSIndexTrendAd {
               if (onlyValuesInOneId_ != null) {
                 subBuilder = onlyValuesInOneId_.toBuilder();
               }
-              onlyValuesInOneId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              onlyValuesInOneId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyValuesInOneId_);
                 onlyValuesInOneId_ = subBuilder.buildPartial();
@@ -412,7 +412,7 @@ public final class StGetDSSIndexTrendAd {
               if (idsInOneIdAreTreeNodeIds_ != null) {
                 subBuilder = idsInOneIdAreTreeNodeIds_.toBuilder();
               }
-              idsInOneIdAreTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              idsInOneIdAreTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(idsInOneIdAreTreeNodeIds_);
                 idsInOneIdAreTreeNodeIds_ = subBuilder.buildPartial();
@@ -425,7 +425,7 @@ public final class StGetDSSIndexTrendAd {
               if (weightViews_ != null) {
                 subBuilder = weightViews_.toBuilder();
               }
-              weightViews_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              weightViews_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(weightViews_);
                 weightViews_ = subBuilder.buildPartial();
@@ -438,7 +438,7 @@ public final class StGetDSSIndexTrendAd {
               if (weightBuyingInterest_ != null) {
                 subBuilder = weightBuyingInterest_.toBuilder();
               }
-              weightBuyingInterest_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              weightBuyingInterest_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(weightBuyingInterest_);
                 weightBuyingInterest_ = subBuilder.buildPartial();
@@ -451,7 +451,7 @@ public final class StGetDSSIndexTrendAd {
               if (weightOrder_ != null) {
                 subBuilder = weightOrder_.toBuilder();
               }
-              weightOrder_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              weightOrder_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(weightOrder_);
                 weightOrder_ = subBuilder.buildPartial();
@@ -464,7 +464,7 @@ public final class StGetDSSIndexTrendAd {
               if (includeDeactivatedNodes_ != null) {
                 subBuilder = includeDeactivatedNodes_.toBuilder();
               }
-              includeDeactivatedNodes_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeDeactivatedNodes_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeDeactivatedNodes_);
                 includeDeactivatedNodes_ = subBuilder.buildPartial();
@@ -477,7 +477,7 @@ public final class StGetDSSIndexTrendAd {
               if (includeNodesWithoutTreeNodeId_ != null) {
                 subBuilder = includeNodesWithoutTreeNodeId_.toBuilder();
               }
-              includeNodesWithoutTreeNodeId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeNodesWithoutTreeNodeId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeNodesWithoutTreeNodeId_);
                 includeNodesWithoutTreeNodeId_ = subBuilder.buildPartial();
@@ -490,7 +490,7 @@ public final class StGetDSSIndexTrendAd {
               if (orderResultByIntervall_ != null) {
                 subBuilder = orderResultByIntervall_.toBuilder();
               }
-              orderResultByIntervall_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              orderResultByIntervall_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderResultByIntervall_);
                 orderResultByIntervall_ = subBuilder.buildPartial();
@@ -1110,9 +1110,8 @@ public final class StGetDSSIndexTrendAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1228,7 +1227,7 @@ public final class StGetDSSIndexTrendAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1014, orderResultByIntervallNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3707,8 +3706,8 @@ public final class StGetDSSIndexTrendAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3834,7 +3833,7 @@ public final class StGetDSSIndexTrendAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDSS_Index_Trend_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3871,7 +3870,7 @@ public final class StGetDSSIndexTrendAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3884,7 +3883,7 @@ public final class StGetDSSIndexTrendAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3892,7 +3891,7 @@ public final class StGetDSSIndexTrendAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.StGetDSSIndexTrendAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.StGetDSSIndexTrendAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.StGetDSSIndexTrendAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -4142,7 +4141,7 @@ public final class StGetDSSIndexTrendAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDSS_Index_Trend_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -4183,7 +4182,7 @@ public final class StGetDSSIndexTrendAd {
                 if (intervallStart_ != null) {
                   subBuilder = intervallStart_.toBuilder();
                 }
-                intervallStart_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                intervallStart_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(intervallStart_);
                   intervallStart_ = subBuilder.buildPartial();
@@ -4196,7 +4195,7 @@ public final class StGetDSSIndexTrendAd {
                 if (orders_ != null) {
                   subBuilder = orders_.toBuilder();
                 }
-                orders_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                orders_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orders_);
                   orders_ = subBuilder.buildPartial();
@@ -4209,7 +4208,7 @@ public final class StGetDSSIndexTrendAd {
                 if (vBOIndex_ != null) {
                   subBuilder = vBOIndex_.toBuilder();
                 }
-                vBOIndex_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                vBOIndex_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(vBOIndex_);
                   vBOIndex_ = subBuilder.buildPartial();
@@ -4222,7 +4221,7 @@ public final class StGetDSSIndexTrendAd {
                 if (trendOfId_ != null) {
                   subBuilder = trendOfId_.toBuilder();
                 }
-                trendOfId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                trendOfId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(trendOfId_);
                   trendOfId_ = subBuilder.buildPartial();
@@ -4235,7 +4234,7 @@ public final class StGetDSSIndexTrendAd {
                 if (views_ != null) {
                   subBuilder = views_.toBuilder();
                 }
-                views_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                views_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(views_);
                   views_ = subBuilder.buildPartial();
@@ -4248,7 +4247,7 @@ public final class StGetDSSIndexTrendAd {
                 if (trendOfDescription_ != null) {
                   subBuilder = trendOfDescription_.toBuilder();
                 }
-                trendOfDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                trendOfDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(trendOfDescription_);
                   trendOfDescription_ = subBuilder.buildPartial();
@@ -4261,7 +4260,7 @@ public final class StGetDSSIndexTrendAd {
                 if (intervall_ != null) {
                   subBuilder = intervall_.toBuilder();
                 }
-                intervall_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                intervall_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(intervall_);
                   intervall_ = subBuilder.buildPartial();
@@ -4274,7 +4273,7 @@ public final class StGetDSSIndexTrendAd {
                 if (buyingInterests_ != null) {
                   subBuilder = buyingInterests_.toBuilder();
                 }
-                buyingInterests_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                buyingInterests_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(buyingInterests_);
                   buyingInterests_ = subBuilder.buildPartial();
@@ -4620,9 +4619,8 @@ public final class StGetDSSIndexTrendAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -4662,7 +4660,7 @@ public final class StGetDSSIndexTrendAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10008, getBuyingInterests());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -6227,8 +6225,8 @@ public final class StGetDSSIndexTrendAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -6396,9 +6394,8 @@ public final class StGetDSSIndexTrendAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -6414,7 +6411,7 @@ public final class StGetDSSIndexTrendAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -7382,8 +7379,8 @@ public final class StGetDSSIndexTrendAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

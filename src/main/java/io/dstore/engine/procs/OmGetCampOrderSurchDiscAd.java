@@ -74,7 +74,7 @@ public final class OmGetCampOrderSurchDiscAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampOrderSurchDisc_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -112,7 +112,7 @@ public final class OmGetCampOrderSurchDiscAd {
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -125,7 +125,7 @@ public final class OmGetCampOrderSurchDiscAd {
               if (benefitId_ != null) {
                 subBuilder = benefitId_.toBuilder();
               }
-              benefitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              benefitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(benefitId_);
                 benefitId_ = subBuilder.buildPartial();
@@ -138,7 +138,7 @@ public final class OmGetCampOrderSurchDiscAd {
               if (getUnusedBenefits_ != null) {
                 subBuilder = getUnusedBenefits_.toBuilder();
               }
-              getUnusedBenefits_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getUnusedBenefits_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getUnusedBenefits_);
                 getUnusedBenefits_ = subBuilder.buildPartial();
@@ -307,9 +307,8 @@ public final class OmGetCampOrderSurchDiscAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -337,7 +336,7 @@ public final class OmGetCampOrderSurchDiscAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, getUnusedBenefitsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1023,8 +1022,8 @@ public final class OmGetCampOrderSurchDiscAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1150,7 +1149,7 @@ public final class OmGetCampOrderSurchDiscAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampOrderSurchDisc_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1187,7 +1186,7 @@ public final class OmGetCampOrderSurchDiscAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1200,7 +1199,7 @@ public final class OmGetCampOrderSurchDiscAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1208,7 +1207,7 @@ public final class OmGetCampOrderSurchDiscAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetCampOrderSurchDiscAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetCampOrderSurchDiscAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetCampOrderSurchDiscAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1408,7 +1407,7 @@ public final class OmGetCampOrderSurchDiscAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampOrderSurchDisc_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1449,7 +1448,7 @@ public final class OmGetCampOrderSurchDiscAd {
                 if (discountSurchargeTypeId_ != null) {
                   subBuilder = discountSurchargeTypeId_.toBuilder();
                 }
-                discountSurchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                discountSurchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(discountSurchargeTypeId_);
                   discountSurchargeTypeId_ = subBuilder.buildPartial();
@@ -1462,7 +1461,7 @@ public final class OmGetCampOrderSurchDiscAd {
                 if (benefitId_ != null) {
                   subBuilder = benefitId_.toBuilder();
                 }
-                benefitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                benefitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(benefitId_);
                   benefitId_ = subBuilder.buildPartial();
@@ -1475,7 +1474,7 @@ public final class OmGetCampOrderSurchDiscAd {
                 if (applyToSurchargeTypeId_ != null) {
                   subBuilder = applyToSurchargeTypeId_.toBuilder();
                 }
-                applyToSurchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                applyToSurchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(applyToSurchargeTypeId_);
                   applyToSurchargeTypeId_ = subBuilder.buildPartial();
@@ -1488,7 +1487,7 @@ public final class OmGetCampOrderSurchDiscAd {
                 if (applyToSurchargeDescription_ != null) {
                   subBuilder = applyToSurchargeDescription_.toBuilder();
                 }
-                applyToSurchargeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                applyToSurchargeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(applyToSurchargeDescription_);
                   applyToSurchargeDescription_ = subBuilder.buildPartial();
@@ -1501,7 +1500,7 @@ public final class OmGetCampOrderSurchDiscAd {
                 if (discountValue_ != null) {
                   subBuilder = discountValue_.toBuilder();
                 }
-                discountValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                discountValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(discountValue_);
                   discountValue_ = subBuilder.buildPartial();
@@ -1514,7 +1513,7 @@ public final class OmGetCampOrderSurchDiscAd {
                 if (discountSurchargeDescription_ != null) {
                   subBuilder = discountSurchargeDescription_.toBuilder();
                 }
-                discountSurchargeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                discountSurchargeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(discountSurchargeDescription_);
                   discountSurchargeDescription_ = subBuilder.buildPartial();
@@ -1788,9 +1787,8 @@ public final class OmGetCampOrderSurchDiscAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1822,7 +1820,7 @@ public final class OmGetCampOrderSurchDiscAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10006, getDiscountSurchargeDescription());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3053,8 +3051,8 @@ public final class OmGetCampOrderSurchDiscAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3222,9 +3220,8 @@ public final class OmGetCampOrderSurchDiscAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3240,7 +3237,7 @@ public final class OmGetCampOrderSurchDiscAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -4208,8 +4205,8 @@ public final class OmGetCampOrderSurchDiscAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

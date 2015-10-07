@@ -290,7 +290,7 @@ public final class OmGetTrolleyPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolley_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -340,7 +340,7 @@ public final class OmGetTrolleyPu {
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -353,7 +353,7 @@ public final class OmGetTrolleyPu {
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -366,7 +366,7 @@ public final class OmGetTrolleyPu {
               if (calculatePrices_ != null) {
                 subBuilder = calculatePrices_.toBuilder();
               }
-              calculatePrices_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              calculatePrices_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(calculatePrices_);
                 calculatePrices_ = subBuilder.buildPartial();
@@ -379,7 +379,7 @@ public final class OmGetTrolleyPu {
               if (checkAvailability_ != null) {
                 subBuilder = checkAvailability_.toBuilder();
               }
-              checkAvailability_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              checkAvailability_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkAvailability_);
                 checkAvailability_ = subBuilder.buildPartial();
@@ -392,7 +392,7 @@ public final class OmGetTrolleyPu {
               if (showDescriptions_ != null) {
                 subBuilder = showDescriptions_.toBuilder();
               }
-              showDescriptions_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              showDescriptions_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(showDescriptions_);
                 showDescriptions_ = subBuilder.buildPartial();
@@ -405,7 +405,7 @@ public final class OmGetTrolleyPu {
               if (priceNodeCharacteristicId_ != null) {
                 subBuilder = priceNodeCharacteristicId_.toBuilder();
               }
-              priceNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              priceNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(priceNodeCharacteristicId_);
                 priceNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -418,7 +418,7 @@ public final class OmGetTrolleyPu {
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -431,7 +431,7 @@ public final class OmGetTrolleyPu {
               if (includePredecessors_ != null) {
                 subBuilder = includePredecessors_.toBuilder();
               }
-              includePredecessors_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includePredecessors_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includePredecessors_);
                 includePredecessors_ = subBuilder.buildPartial();
@@ -444,7 +444,7 @@ public final class OmGetTrolleyPu {
               if (lookForProductDescription_ != null) {
                 subBuilder = lookForProductDescription_.toBuilder();
               }
-              lookForProductDescription_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              lookForProductDescription_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(lookForProductDescription_);
                 lookForProductDescription_ = subBuilder.buildPartial();
@@ -457,7 +457,7 @@ public final class OmGetTrolleyPu {
               if (repairEntriesWithSameNodeId_ != null) {
                 subBuilder = repairEntriesWithSameNodeId_.toBuilder();
               }
-              repairEntriesWithSameNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              repairEntriesWithSameNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(repairEntriesWithSameNodeId_);
                 repairEntriesWithSameNodeId_ = subBuilder.buildPartial();
@@ -470,7 +470,7 @@ public final class OmGetTrolleyPu {
               if (getPlainTrolley_ != null) {
                 subBuilder = getPlainTrolley_.toBuilder();
               }
-              getPlainTrolley_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getPlainTrolley_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getPlainTrolley_);
                 getPlainTrolley_ = subBuilder.buildPartial();
@@ -483,7 +483,7 @@ public final class OmGetTrolleyPu {
               if (deliveryPersonId_ != null) {
                 subBuilder = deliveryPersonId_.toBuilder();
               }
-              deliveryPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              deliveryPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deliveryPersonId_);
                 deliveryPersonId_ = subBuilder.buildPartial();
@@ -496,7 +496,7 @@ public final class OmGetTrolleyPu {
               if (outputIntoTrolleySurchInterf_ != null) {
                 subBuilder = outputIntoTrolleySurchInterf_.toBuilder();
               }
-              outputIntoTrolleySurchInterf_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              outputIntoTrolleySurchInterf_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputIntoTrolleySurchInterf_);
                 outputIntoTrolleySurchInterf_ = subBuilder.buildPartial();
@@ -509,7 +509,7 @@ public final class OmGetTrolleyPu {
               if (paymentTypeId_ != null) {
                 subBuilder = paymentTypeId_.toBuilder();
               }
-              paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(paymentTypeId_);
                 paymentTypeId_ = subBuilder.buildPartial();
@@ -522,7 +522,7 @@ public final class OmGetTrolleyPu {
               if (shippingTypeId_ != null) {
                 subBuilder = shippingTypeId_.toBuilder();
               }
-              shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(shippingTypeId_);
                 shippingTypeId_ = subBuilder.buildPartial();
@@ -1183,9 +1183,8 @@ public final class OmGetTrolleyPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1309,7 +1308,7 @@ public final class OmGetTrolleyPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1015, shippingTypeIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3951,8 +3950,8 @@ public final class OmGetTrolleyPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4078,7 +4077,7 @@ public final class OmGetTrolleyPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolley_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -4115,7 +4114,7 @@ public final class OmGetTrolleyPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -4128,7 +4127,7 @@ public final class OmGetTrolleyPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -4136,7 +4135,7 @@ public final class OmGetTrolleyPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetTrolleyPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetTrolleyPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetTrolleyPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -5336,7 +5335,7 @@ public final class OmGetTrolleyPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolley_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -5378,7 +5377,7 @@ public final class OmGetTrolleyPu {
                 if (preciseAbsUnitGrossSurcharge_ != null) {
                   subBuilder = preciseAbsUnitGrossSurcharge_.toBuilder();
                 }
-                preciseAbsUnitGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseAbsUnitGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseAbsUnitGrossSurcharge_);
                   preciseAbsUnitGrossSurcharge_ = subBuilder.buildPartial();
@@ -5391,7 +5390,7 @@ public final class OmGetTrolleyPu {
                 if (priceNodeCharacteristicId_ != null) {
                   subBuilder = priceNodeCharacteristicId_.toBuilder();
                 }
-                priceNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                priceNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(priceNodeCharacteristicId_);
                   priceNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -5404,7 +5403,7 @@ public final class OmGetTrolleyPu {
                 if (unitGrossPrice_ != null) {
                   subBuilder = unitGrossPrice_.toBuilder();
                 }
-                unitGrossPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                unitGrossPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitGrossPrice_);
                   unitGrossPrice_ = subBuilder.buildPartial();
@@ -5417,7 +5416,7 @@ public final class OmGetTrolleyPu {
                 if (absoluteTotalNetSurcharge_ != null) {
                   subBuilder = absoluteTotalNetSurcharge_.toBuilder();
                 }
-                absoluteTotalNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                absoluteTotalNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteTotalNetSurcharge_);
                   absoluteTotalNetSurcharge_ = subBuilder.buildPartial();
@@ -5430,7 +5429,7 @@ public final class OmGetTrolleyPu {
                 if (absoluteTotalGrossSurcharge_ != null) {
                   subBuilder = absoluteTotalGrossSurcharge_.toBuilder();
                 }
-                absoluteTotalGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                absoluteTotalGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteTotalGrossSurcharge_);
                   absoluteTotalGrossSurcharge_ = subBuilder.buildPartial();
@@ -5443,7 +5442,7 @@ public final class OmGetTrolleyPu {
                 if (removed_ != null) {
                   subBuilder = removed_.toBuilder();
                 }
-                removed_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                removed_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(removed_);
                   removed_ = subBuilder.buildPartial();
@@ -5456,7 +5455,7 @@ public final class OmGetTrolleyPu {
                 if (currencySymbol_ != null) {
                   subBuilder = currencySymbol_.toBuilder();
                 }
-                currencySymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                currencySymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencySymbol_);
                   currencySymbol_ = subBuilder.buildPartial();
@@ -5469,7 +5468,7 @@ public final class OmGetTrolleyPu {
                 if (preciseUnitGrossPrice_ != null) {
                   subBuilder = preciseUnitGrossPrice_.toBuilder();
                 }
-                preciseUnitGrossPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseUnitGrossPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseUnitGrossPrice_);
                   preciseUnitGrossPrice_ = subBuilder.buildPartial();
@@ -5482,7 +5481,7 @@ public final class OmGetTrolleyPu {
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -5495,7 +5494,7 @@ public final class OmGetTrolleyPu {
                 if (unitNetPrice_ != null) {
                   subBuilder = unitNetPrice_.toBuilder();
                 }
-                unitNetPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                unitNetPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitNetPrice_);
                   unitNetPrice_ = subBuilder.buildPartial();
@@ -5508,7 +5507,7 @@ public final class OmGetTrolleyPu {
                 if (preciseAbsUnitNetSurcharge_ != null) {
                   subBuilder = preciseAbsUnitNetSurcharge_.toBuilder();
                 }
-                preciseAbsUnitNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseAbsUnitNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseAbsUnitNetSurcharge_);
                   preciseAbsUnitNetSurcharge_ = subBuilder.buildPartial();
@@ -5521,7 +5520,7 @@ public final class OmGetTrolleyPu {
                 if (surchargeReason_ != null) {
                   subBuilder = surchargeReason_.toBuilder();
                 }
-                surchargeReason_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                surchargeReason_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeReason_);
                   surchargeReason_ = subBuilder.buildPartial();
@@ -5534,7 +5533,7 @@ public final class OmGetTrolleyPu {
                 if (associatedOrChosenTreeNodeId_ != null) {
                   subBuilder = associatedOrChosenTreeNodeId_.toBuilder();
                 }
-                associatedOrChosenTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                associatedOrChosenTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(associatedOrChosenTreeNodeId_);
                   associatedOrChosenTreeNodeId_ = subBuilder.buildPartial();
@@ -5547,7 +5546,7 @@ public final class OmGetTrolleyPu {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -5560,7 +5559,7 @@ public final class OmGetTrolleyPu {
                 if (deleted_ != null) {
                   subBuilder = deleted_.toBuilder();
                 }
-                deleted_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                deleted_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(deleted_);
                   deleted_ = subBuilder.buildPartial();
@@ -5573,7 +5572,7 @@ public final class OmGetTrolleyPu {
                 if (bonusItemForItemSetId_ != null) {
                   subBuilder = bonusItemForItemSetId_.toBuilder();
                 }
-                bonusItemForItemSetId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                bonusItemForItemSetId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(bonusItemForItemSetId_);
                   bonusItemForItemSetId_ = subBuilder.buildPartial();
@@ -5586,7 +5585,7 @@ public final class OmGetTrolleyPu {
                 if (relativeSurcharge_ != null) {
                   subBuilder = relativeSurcharge_.toBuilder();
                 }
-                relativeSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                relativeSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relativeSurcharge_);
                   relativeSurcharge_ = subBuilder.buildPartial();
@@ -5599,7 +5598,7 @@ public final class OmGetTrolleyPu {
                 if (surchargeGeneratedByCampIds_ != null) {
                   subBuilder = surchargeGeneratedByCampIds_.toBuilder();
                 }
-                surchargeGeneratedByCampIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                surchargeGeneratedByCampIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeGeneratedByCampIds_);
                   surchargeGeneratedByCampIds_ = subBuilder.buildPartial();
@@ -5612,7 +5611,7 @@ public final class OmGetTrolleyPu {
                 if (preciseTotalGrossPrice_ != null) {
                   subBuilder = preciseTotalGrossPrice_.toBuilder();
                 }
-                preciseTotalGrossPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseTotalGrossPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseTotalGrossPrice_);
                   preciseTotalGrossPrice_ = subBuilder.buildPartial();
@@ -5625,7 +5624,7 @@ public final class OmGetTrolleyPu {
                 if (inputDateAndTime_ != null) {
                   subBuilder = inputDateAndTime_.toBuilder();
                 }
-                inputDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                inputDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inputDateAndTime_);
                   inputDateAndTime_ = subBuilder.buildPartial();
@@ -5638,7 +5637,7 @@ public final class OmGetTrolleyPu {
                 if (taxesMultiplier_ != null) {
                   subBuilder = taxesMultiplier_.toBuilder();
                 }
-                taxesMultiplier_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                taxesMultiplier_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(taxesMultiplier_);
                   taxesMultiplier_ = subBuilder.buildPartial();
@@ -5651,7 +5650,7 @@ public final class OmGetTrolleyPu {
                 if (preciseAbsTotalGrossSurcharge_ != null) {
                   subBuilder = preciseAbsTotalGrossSurcharge_.toBuilder();
                 }
-                preciseAbsTotalGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseAbsTotalGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseAbsTotalGrossSurcharge_);
                   preciseAbsTotalGrossSurcharge_ = subBuilder.buildPartial();
@@ -5664,7 +5663,7 @@ public final class OmGetTrolleyPu {
                 if (itemProperty_ != null) {
                   subBuilder = itemProperty_.toBuilder();
                 }
-                itemProperty_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                itemProperty_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemProperty_);
                   itemProperty_ = subBuilder.buildPartial();
@@ -5677,7 +5676,7 @@ public final class OmGetTrolleyPu {
                 if (preciseAbsTotalNetSurcharge_ != null) {
                   subBuilder = preciseAbsTotalNetSurcharge_.toBuilder();
                 }
-                preciseAbsTotalNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseAbsTotalNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseAbsTotalNetSurcharge_);
                   preciseAbsTotalNetSurcharge_ = subBuilder.buildPartial();
@@ -5690,7 +5689,7 @@ public final class OmGetTrolleyPu {
                 if (totalNetPrice_ != null) {
                   subBuilder = totalNetPrice_.toBuilder();
                 }
-                totalNetPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                totalNetPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalNetPrice_);
                   totalNetPrice_ = subBuilder.buildPartial();
@@ -5703,7 +5702,7 @@ public final class OmGetTrolleyPu {
                 if (quantity_ != null) {
                   subBuilder = quantity_.toBuilder();
                 }
-                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quantity_);
                   quantity_ = subBuilder.buildPartial();
@@ -5716,7 +5715,7 @@ public final class OmGetTrolleyPu {
                 if (unitSymbol_ != null) {
                   subBuilder = unitSymbol_.toBuilder();
                 }
-                unitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                unitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitSymbol_);
                   unitSymbol_ = subBuilder.buildPartial();
@@ -5729,7 +5728,7 @@ public final class OmGetTrolleyPu {
                 if (quantityPerBundleItemSetIdList_ != null) {
                   subBuilder = quantityPerBundleItemSetIdList_.toBuilder();
                 }
-                quantityPerBundleItemSetIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                quantityPerBundleItemSetIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quantityPerBundleItemSetIdList_);
                   quantityPerBundleItemSetIdList_ = subBuilder.buildPartial();
@@ -5742,7 +5741,7 @@ public final class OmGetTrolleyPu {
                 if (surchargeValue_ != null) {
                   subBuilder = surchargeValue_.toBuilder();
                 }
-                surchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                surchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeValue_);
                   surchargeValue_ = subBuilder.buildPartial();
@@ -5755,7 +5754,7 @@ public final class OmGetTrolleyPu {
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
                 }
-                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencyId_);
                   currencyId_ = subBuilder.buildPartial();
@@ -5768,7 +5767,7 @@ public final class OmGetTrolleyPu {
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -5781,7 +5780,7 @@ public final class OmGetTrolleyPu {
                 if (absoluteUnitNetSurcharge_ != null) {
                   subBuilder = absoluteUnitNetSurcharge_.toBuilder();
                 }
-                absoluteUnitNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                absoluteUnitNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteUnitNetSurcharge_);
                   absoluteUnitNetSurcharge_ = subBuilder.buildPartial();
@@ -5794,7 +5793,7 @@ public final class OmGetTrolleyPu {
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -5807,7 +5806,7 @@ public final class OmGetTrolleyPu {
                 if (absoluteUnitGrossSurcharge_ != null) {
                   subBuilder = absoluteUnitGrossSurcharge_.toBuilder();
                 }
-                absoluteUnitGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                absoluteUnitGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteUnitGrossSurcharge_);
                   absoluteUnitGrossSurcharge_ = subBuilder.buildPartial();
@@ -5820,7 +5819,7 @@ public final class OmGetTrolleyPu {
                 if (preciseTotalNetPrice_ != null) {
                   subBuilder = preciseTotalNetPrice_.toBuilder();
                 }
-                preciseTotalNetPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseTotalNetPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseTotalNetPrice_);
                   preciseTotalNetPrice_ = subBuilder.buildPartial();
@@ -5833,7 +5832,7 @@ public final class OmGetTrolleyPu {
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
                 }
-                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeId_);
                   surchargeTypeId_ = subBuilder.buildPartial();
@@ -5846,7 +5845,7 @@ public final class OmGetTrolleyPu {
                 if (preciseUnitNetPrice_ != null) {
                   subBuilder = preciseUnitNetPrice_.toBuilder();
                 }
-                preciseUnitNetPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                preciseUnitNetPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(preciseUnitNetPrice_);
                   preciseUnitNetPrice_ = subBuilder.buildPartial();
@@ -5859,7 +5858,7 @@ public final class OmGetTrolleyPu {
                 if (totalGrossPrice_ != null) {
                   subBuilder = totalGrossPrice_.toBuilder();
                 }
-                totalGrossPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                totalGrossPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalGrossPrice_);
                   totalGrossPrice_ = subBuilder.buildPartial();
@@ -5872,7 +5871,7 @@ public final class OmGetTrolleyPu {
                 if (prePredecessorsLevelNo_ != null) {
                   subBuilder = prePredecessorsLevelNo_.toBuilder();
                 }
-                prePredecessorsLevelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                prePredecessorsLevelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prePredecessorsLevelNo_);
                   prePredecessorsLevelNo_ = subBuilder.buildPartial();
@@ -5885,7 +5884,7 @@ public final class OmGetTrolleyPu {
                 if (prePredecessorsTreeNodeId_ != null) {
                   subBuilder = prePredecessorsTreeNodeId_.toBuilder();
                 }
-                prePredecessorsTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                prePredecessorsTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prePredecessorsTreeNodeId_);
                   prePredecessorsTreeNodeId_ = subBuilder.buildPartial();
@@ -5898,7 +5897,7 @@ public final class OmGetTrolleyPu {
                 if (predecessorsTreeNodeId_ != null) {
                   subBuilder = predecessorsTreeNodeId_.toBuilder();
                 }
-                predecessorsTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                predecessorsTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessorsTreeNodeId_);
                   predecessorsTreeNodeId_ = subBuilder.buildPartial();
@@ -5911,7 +5910,7 @@ public final class OmGetTrolleyPu {
                 if (predecessorsDescription_ != null) {
                   subBuilder = predecessorsDescription_.toBuilder();
                 }
-                predecessorsDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                predecessorsDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessorsDescription_);
                   predecessorsDescription_ = subBuilder.buildPartial();
@@ -5924,7 +5923,7 @@ public final class OmGetTrolleyPu {
                 if (predecessorsLevelNo_ != null) {
                   subBuilder = predecessorsLevelNo_.toBuilder();
                 }
-                predecessorsLevelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                predecessorsLevelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessorsLevelNo_);
                   predecessorsLevelNo_ = subBuilder.buildPartial();
@@ -5937,7 +5936,7 @@ public final class OmGetTrolleyPu {
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -5950,7 +5949,7 @@ public final class OmGetTrolleyPu {
                 if (prePredecessorsDescription_ != null) {
                   subBuilder = prePredecessorsDescription_.toBuilder();
                 }
-                prePredecessorsDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                prePredecessorsDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prePredecessorsDescription_);
                   prePredecessorsDescription_ = subBuilder.buildPartial();
@@ -5963,7 +5962,7 @@ public final class OmGetTrolleyPu {
                 if (inputDateAndTimeChar_ != null) {
                   subBuilder = inputDateAndTimeChar_.toBuilder();
                 }
-                inputDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                inputDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inputDateAndTimeChar_);
                   inputDateAndTimeChar_ = subBuilder.buildPartial();
@@ -7677,9 +7676,8 @@ public final class OmGetTrolleyPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -7871,7 +7869,7 @@ public final class OmGetTrolleyPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(30007, getInputDateAndTimeChar());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -15782,8 +15780,8 @@ public final class OmGetTrolleyPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -15951,9 +15949,8 @@ public final class OmGetTrolleyPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -15969,7 +15966,7 @@ public final class OmGetTrolleyPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -16937,8 +16934,8 @@ public final class OmGetTrolleyPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -128,7 +128,7 @@ public final class StGetVisitorPersonsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetVisitorPersons_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -169,7 +169,7 @@ public final class StGetVisitorPersonsAd {
               if (visitorId_ != null) {
                 subBuilder = visitorId_.toBuilder();
               }
-              visitorId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              visitorId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visitorId_);
                 visitorId_ = subBuilder.buildPartial();
@@ -182,7 +182,7 @@ public final class StGetVisitorPersonsAd {
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -195,7 +195,7 @@ public final class StGetVisitorPersonsAd {
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -208,7 +208,7 @@ public final class StGetVisitorPersonsAd {
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -221,7 +221,7 @@ public final class StGetVisitorPersonsAd {
               if (visitorOrPersonIdsInOneId_ != null) {
                 subBuilder = visitorOrPersonIdsInOneId_.toBuilder();
               }
-              visitorOrPersonIdsInOneId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              visitorOrPersonIdsInOneId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visitorOrPersonIdsInOneId_);
                 visitorOrPersonIdsInOneId_ = subBuilder.buildPartial();
@@ -234,7 +234,7 @@ public final class StGetVisitorPersonsAd {
               if (outputIntoOneId_ != null) {
                 subBuilder = outputIntoOneId_.toBuilder();
               }
-              outputIntoOneId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              outputIntoOneId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputIntoOneId_);
                 outputIntoOneId_ = subBuilder.buildPartial();
@@ -526,9 +526,8 @@ public final class StGetVisitorPersonsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -580,7 +579,7 @@ public final class StGetVisitorPersonsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1006, outputIntoOneIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1755,8 +1754,8 @@ public final class StGetVisitorPersonsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1882,7 +1881,7 @@ public final class StGetVisitorPersonsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetVisitorPersons_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1919,7 +1918,7 @@ public final class StGetVisitorPersonsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1932,7 +1931,7 @@ public final class StGetVisitorPersonsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1940,7 +1939,7 @@ public final class StGetVisitorPersonsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.StGetVisitorPersonsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.StGetVisitorPersonsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.StGetVisitorPersonsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2240,7 +2239,7 @@ public final class StGetVisitorPersonsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.st_GetVisitorPersons_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2281,7 +2280,7 @@ public final class StGetVisitorPersonsAd {
                 if (characVal2RestrByPattern_ != null) {
                   subBuilder = characVal2RestrByPattern_.toBuilder();
                 }
-                characVal2RestrByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                characVal2RestrByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characVal2RestrByPattern_);
                   characVal2RestrByPattern_ = subBuilder.buildPartial();
@@ -2294,7 +2293,7 @@ public final class StGetVisitorPersonsAd {
                 if (visitorId_ != null) {
                   subBuilder = visitorId_.toBuilder();
                 }
-                visitorId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                visitorId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visitorId_);
                   visitorId_ = subBuilder.buildPartial();
@@ -2307,7 +2306,7 @@ public final class StGetVisitorPersonsAd {
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -2320,7 +2319,7 @@ public final class StGetVisitorPersonsAd {
                 if (validTo_ != null) {
                   subBuilder = validTo_.toBuilder();
                 }
-                validTo_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                validTo_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validTo_);
                   validTo_ = subBuilder.buildPartial();
@@ -2333,7 +2332,7 @@ public final class StGetVisitorPersonsAd {
                 if (validFrom_ != null) {
                   subBuilder = validFrom_.toBuilder();
                 }
-                validFrom_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                validFrom_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validFrom_);
                   validFrom_ = subBuilder.buildPartial();
@@ -2346,7 +2345,7 @@ public final class StGetVisitorPersonsAd {
                 if (personType_ != null) {
                   subBuilder = personType_.toBuilder();
                 }
-                personType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                personType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personType_);
                   personType_ = subBuilder.buildPartial();
@@ -2359,7 +2358,7 @@ public final class StGetVisitorPersonsAd {
                 if (characteristicValue2_ != null) {
                   subBuilder = characteristicValue2_.toBuilder();
                 }
-                characteristicValue2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                characteristicValue2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicValue2_);
                   characteristicValue2_ = subBuilder.buildPartial();
@@ -2372,7 +2371,7 @@ public final class StGetVisitorPersonsAd {
                 if (characVal1RestrByPattern_ != null) {
                   subBuilder = characVal1RestrByPattern_.toBuilder();
                 }
-                characVal1RestrByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                characVal1RestrByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characVal1RestrByPattern_);
                   characVal1RestrByPattern_ = subBuilder.buildPartial();
@@ -2385,7 +2384,7 @@ public final class StGetVisitorPersonsAd {
                 if (characteristicValue1_ != null) {
                   subBuilder = characteristicValue1_.toBuilder();
                 }
-                characteristicValue1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                characteristicValue1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicValue1_);
                   characteristicValue1_ = subBuilder.buildPartial();
@@ -2398,7 +2397,7 @@ public final class StGetVisitorPersonsAd {
                 if (personTypeId_ != null) {
                   subBuilder = personTypeId_.toBuilder();
                 }
-                personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personTypeId_);
                   personTypeId_ = subBuilder.buildPartial();
@@ -2816,9 +2815,8 @@ public final class StGetVisitorPersonsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2866,7 +2864,7 @@ public final class StGetVisitorPersonsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10010, getPersonTypeId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4765,8 +4763,8 @@ public final class StGetVisitorPersonsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4934,9 +4932,8 @@ public final class StGetVisitorPersonsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4952,7 +4949,7 @@ public final class StGetVisitorPersonsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5920,8 +5917,8 @@ public final class StGetVisitorPersonsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

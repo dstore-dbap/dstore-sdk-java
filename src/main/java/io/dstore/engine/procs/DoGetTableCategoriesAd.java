@@ -20,7 +20,7 @@ public final class DoGetTableCategoriesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.do_GetTableCategories_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -87,13 +87,12 @@ public final class DoGetTableCategoriesAd {
                         throws java.io.IOException {
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -290,8 +289,8 @@ public final class DoGetTableCategoriesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -417,7 +416,7 @@ public final class DoGetTableCategoriesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.do_GetTableCategories_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -454,7 +453,7 @@ public final class DoGetTableCategoriesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -467,7 +466,7 @@ public final class DoGetTableCategoriesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -475,7 +474,7 @@ public final class DoGetTableCategoriesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.DoGetTableCategoriesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.DoGetTableCategoriesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.DoGetTableCategoriesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -600,7 +599,7 @@ public final class DoGetTableCategoriesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.do_GetTableCategories_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -641,7 +640,7 @@ public final class DoGetTableCategoriesAd {
                 if (tableCategoryId_ != null) {
                   subBuilder = tableCategoryId_.toBuilder();
                 }
-                tableCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                tableCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableCategoryId_);
                   tableCategoryId_ = subBuilder.buildPartial();
@@ -654,7 +653,7 @@ public final class DoGetTableCategoriesAd {
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -667,7 +666,7 @@ public final class DoGetTableCategoriesAd {
                 if (tableCategory_ != null) {
                   subBuilder = tableCategory_.toBuilder();
                 }
-                tableCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                tableCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableCategory_);
                   tableCategory_ = subBuilder.buildPartial();
@@ -833,9 +832,8 @@ public final class DoGetTableCategoriesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -855,7 +853,7 @@ public final class DoGetTableCategoriesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10003, getTableCategory());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -1585,8 +1583,8 @@ public final class DoGetTableCategoriesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1754,9 +1752,8 @@ public final class DoGetTableCategoriesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1772,7 +1769,7 @@ public final class DoGetTableCategoriesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2740,8 +2737,8 @@ public final class DoGetTableCategoriesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

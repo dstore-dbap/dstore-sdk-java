@@ -236,7 +236,7 @@ public final class ImGetNodeProperties {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetNodeProperties.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -283,7 +283,7 @@ public final class ImGetNodeProperties {
               if (nodeList_ != null) {
                 subBuilder = nodeList_.toBuilder();
               }
-              nodeList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              nodeList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeList_);
                 nodeList_ = subBuilder.buildPartial();
@@ -296,7 +296,7 @@ public final class ImGetNodeProperties {
               if (treeNodeIds_ != null) {
                 subBuilder = treeNodeIds_.toBuilder();
               }
-              treeNodeIds_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              treeNodeIds_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeIds_);
                 treeNodeIds_ = subBuilder.buildPartial();
@@ -309,7 +309,7 @@ public final class ImGetNodeProperties {
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -322,7 +322,7 @@ public final class ImGetNodeProperties {
               if (inheritDepth_ != null) {
                 subBuilder = inheritDepth_.toBuilder();
               }
-              inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(inheritDepth_);
                 inheritDepth_ = subBuilder.buildPartial();
@@ -335,7 +335,7 @@ public final class ImGetNodeProperties {
               if (recursiveEvaluation_ != null) {
                 subBuilder = recursiveEvaluation_.toBuilder();
               }
-              recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(recursiveEvaluation_);
                 recursiveEvaluation_ = subBuilder.buildPartial();
@@ -348,7 +348,7 @@ public final class ImGetNodeProperties {
               if (characteristicIdList_ != null) {
                 subBuilder = characteristicIdList_.toBuilder();
               }
-              characteristicIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              characteristicIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characteristicIdList_);
                 characteristicIdList_ = subBuilder.buildPartial();
@@ -361,7 +361,7 @@ public final class ImGetNodeProperties {
               if (useDistinct_ != null) {
                 subBuilder = useDistinct_.toBuilder();
               }
-              useDistinct_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              useDistinct_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(useDistinct_);
                 useDistinct_ = subBuilder.buildPartial();
@@ -374,7 +374,7 @@ public final class ImGetNodeProperties {
               if (dateFormat_ != null) {
                 subBuilder = dateFormat_.toBuilder();
               }
-              dateFormat_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              dateFormat_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dateFormat_);
                 dateFormat_ = subBuilder.buildPartial();
@@ -387,7 +387,7 @@ public final class ImGetNodeProperties {
               if (includeInheritsFromInfo_ != null) {
                 subBuilder = includeInheritsFromInfo_.toBuilder();
               }
-              includeInheritsFromInfo_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeInheritsFromInfo_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeInheritsFromInfo_);
                 includeInheritsFromInfo_ = subBuilder.buildPartial();
@@ -400,7 +400,7 @@ public final class ImGetNodeProperties {
               if (languageIdForCharacDescript_ != null) {
                 subBuilder = languageIdForCharacDescript_.toBuilder();
               }
-              languageIdForCharacDescript_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              languageIdForCharacDescript_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageIdForCharacDescript_);
                 languageIdForCharacDescript_ = subBuilder.buildPartial();
@@ -413,7 +413,7 @@ public final class ImGetNodeProperties {
               if (checkNodes_ != null) {
                 subBuilder = checkNodes_.toBuilder();
               }
-              checkNodes_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              checkNodes_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkNodes_);
                 checkNodes_ = subBuilder.buildPartial();
@@ -426,7 +426,7 @@ public final class ImGetNodeProperties {
               if (getDetailsForCharacIdList_ != null) {
                 subBuilder = getDetailsForCharacIdList_.toBuilder();
               }
-              getDetailsForCharacIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              getDetailsForCharacIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getDetailsForCharacIdList_);
                 getDetailsForCharacIdList_ = subBuilder.buildPartial();
@@ -964,9 +964,8 @@ public final class ImGetNodeProperties {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1066,7 +1065,7 @@ public final class ImGetNodeProperties {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1012, getDetailsForCharacIdListNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3219,8 +3218,8 @@ public final class ImGetNodeProperties {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3346,7 +3345,7 @@ public final class ImGetNodeProperties {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetNodeProperties.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3383,7 +3382,7 @@ public final class ImGetNodeProperties {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3396,7 +3395,7 @@ public final class ImGetNodeProperties {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3404,7 +3403,7 @@ public final class ImGetNodeProperties {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImGetNodeProperties.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImGetNodeProperties.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImGetNodeProperties.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3879,7 +3878,7 @@ public final class ImGetNodeProperties {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_GetNodeProperties.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3920,7 +3919,7 @@ public final class ImGetNodeProperties {
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -3933,7 +3932,7 @@ public final class ImGetNodeProperties {
                 if (details_ != null) {
                   subBuilder = details_.toBuilder();
                 }
-                details_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                details_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(details_);
                   details_ = subBuilder.buildPartial();
@@ -3946,7 +3945,7 @@ public final class ImGetNodeProperties {
                 if (unitId_ != null) {
                   subBuilder = unitId_.toBuilder();
                 }
-                unitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                unitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitId_);
                   unitId_ = subBuilder.buildPartial();
@@ -3959,7 +3958,7 @@ public final class ImGetNodeProperties {
                 if (characteristicDescription_ != null) {
                   subBuilder = characteristicDescription_.toBuilder();
                 }
-                characteristicDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                characteristicDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicDescription_);
                   characteristicDescription_ = subBuilder.buildPartial();
@@ -3972,7 +3971,7 @@ public final class ImGetNodeProperties {
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -3985,7 +3984,7 @@ public final class ImGetNodeProperties {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -3998,7 +3997,7 @@ public final class ImGetNodeProperties {
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -4011,7 +4010,7 @@ public final class ImGetNodeProperties {
                 if (characteristicId_ != null) {
                   subBuilder = characteristicId_.toBuilder();
                 }
-                characteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                characteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(characteristicId_);
                   characteristicId_ = subBuilder.buildPartial();
@@ -4024,7 +4023,7 @@ public final class ImGetNodeProperties {
                 if (valueId_ != null) {
                   subBuilder = valueId_.toBuilder();
                 }
-                valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueId_);
                   valueId_ = subBuilder.buildPartial();
@@ -4037,7 +4036,7 @@ public final class ImGetNodeProperties {
                 if (unitSymbol_ != null) {
                   subBuilder = unitSymbol_.toBuilder();
                 }
-                unitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                unitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitSymbol_);
                   unitSymbol_ = subBuilder.buildPartial();
@@ -4050,7 +4049,7 @@ public final class ImGetNodeProperties {
                 if (deleted_ != null) {
                   subBuilder = deleted_.toBuilder();
                 }
-                deleted_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                deleted_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(deleted_);
                   deleted_ = subBuilder.buildPartial();
@@ -4063,7 +4062,7 @@ public final class ImGetNodeProperties {
                 if (validToChar_ != null) {
                   subBuilder = validToChar_.toBuilder();
                 }
-                validToChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                validToChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validToChar_);
                   validToChar_ = subBuilder.buildPartial();
@@ -4076,7 +4075,7 @@ public final class ImGetNodeProperties {
                 if (inheritsFromTreeNodeId_ != null) {
                   subBuilder = inheritsFromTreeNodeId_.toBuilder();
                 }
-                inheritsFromTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                inheritsFromTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inheritsFromTreeNodeId_);
                   inheritsFromTreeNodeId_ = subBuilder.buildPartial();
@@ -4089,7 +4088,7 @@ public final class ImGetNodeProperties {
                 if (validTo_ != null) {
                   subBuilder = validTo_.toBuilder();
                 }
-                validTo_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                validTo_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validTo_);
                   validTo_ = subBuilder.buildPartial();
@@ -4102,7 +4101,7 @@ public final class ImGetNodeProperties {
                 if (validFrom_ != null) {
                   subBuilder = validFrom_.toBuilder();
                 }
-                validFrom_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                validFrom_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validFrom_);
                   validFrom_ = subBuilder.buildPartial();
@@ -4115,7 +4114,7 @@ public final class ImGetNodeProperties {
                 if (inheritsFromNodeId_ != null) {
                   subBuilder = inheritsFromNodeId_.toBuilder();
                 }
-                inheritsFromNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                inheritsFromNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inheritsFromNodeId_);
                   inheritsFromNodeId_ = subBuilder.buildPartial();
@@ -4128,7 +4127,7 @@ public final class ImGetNodeProperties {
                 if (validFromChar_ != null) {
                   subBuilder = validFromChar_.toBuilder();
                 }
-                validFromChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                validFromChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(validFromChar_);
                   validFromChar_ = subBuilder.buildPartial();
@@ -4798,9 +4797,8 @@ public final class ImGetNodeProperties {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -4876,7 +4874,7 @@ public final class ImGetNodeProperties {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(30017, getValidFromChar());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -7944,8 +7942,8 @@ public final class ImGetNodeProperties {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -8113,9 +8111,8 @@ public final class ImGetNodeProperties {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -8131,7 +8128,7 @@ public final class ImGetNodeProperties {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -9099,8 +9096,8 @@ public final class ImGetNodeProperties {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

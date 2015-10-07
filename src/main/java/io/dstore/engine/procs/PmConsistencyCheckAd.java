@@ -56,7 +56,7 @@ public final class PmConsistencyCheckAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_ConsistencyCheck_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -93,7 +93,7 @@ public final class PmConsistencyCheckAd {
               if (personCharacteristicId_ != null) {
                 subBuilder = personCharacteristicId_.toBuilder();
               }
-              personCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personCharacteristicId_);
                 personCharacteristicId_ = subBuilder.buildPartial();
@@ -106,7 +106,7 @@ public final class PmConsistencyCheckAd {
               if (whatToCheck_ != null) {
                 subBuilder = whatToCheck_.toBuilder();
               }
-              whatToCheck_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              whatToCheck_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(whatToCheck_);
                 whatToCheck_ = subBuilder.buildPartial();
@@ -234,9 +234,8 @@ public final class PmConsistencyCheckAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -256,7 +255,7 @@ public final class PmConsistencyCheckAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1002, whatToCheckNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -779,8 +778,8 @@ public final class PmConsistencyCheckAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -906,7 +905,7 @@ public final class PmConsistencyCheckAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_ConsistencyCheck_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -943,7 +942,7 @@ public final class PmConsistencyCheckAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -956,7 +955,7 @@ public final class PmConsistencyCheckAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -964,7 +963,7 @@ public final class PmConsistencyCheckAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.PmConsistencyCheckAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.PmConsistencyCheckAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.PmConsistencyCheckAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1414,7 +1413,7 @@ public final class PmConsistencyCheckAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.pm_ConsistencyCheck_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1455,7 +1454,7 @@ public final class PmConsistencyCheckAd {
                 if (personCharacteristicId_ != null) {
                   subBuilder = personCharacteristicId_.toBuilder();
                 }
-                personCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                personCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personCharacteristicId_);
                   personCharacteristicId_ = subBuilder.buildPartial();
@@ -1468,7 +1467,7 @@ public final class PmConsistencyCheckAd {
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -1481,7 +1480,7 @@ public final class PmConsistencyCheckAd {
                 if (valueId_ != null) {
                   subBuilder = valueId_.toBuilder();
                 }
-                valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueId_);
                   valueId_ = subBuilder.buildPartial();
@@ -1494,7 +1493,7 @@ public final class PmConsistencyCheckAd {
                 if (usedByPersonTypeBitmap_ != null) {
                   subBuilder = usedByPersonTypeBitmap_.toBuilder();
                 }
-                usedByPersonTypeBitmap_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                usedByPersonTypeBitmap_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedByPersonTypeBitmap_);
                   usedByPersonTypeBitmap_ = subBuilder.buildPartial();
@@ -1507,7 +1506,7 @@ public final class PmConsistencyCheckAd {
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -1520,7 +1519,7 @@ public final class PmConsistencyCheckAd {
                 if (correctUsedByPersonTypeBtmp_ != null) {
                   subBuilder = correctUsedByPersonTypeBtmp_.toBuilder();
                 }
-                correctUsedByPersonTypeBtmp_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                correctUsedByPersonTypeBtmp_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(correctUsedByPersonTypeBtmp_);
                   correctUsedByPersonTypeBtmp_ = subBuilder.buildPartial();
@@ -1533,7 +1532,7 @@ public final class PmConsistencyCheckAd {
                 if (wrongUsedByPersonTypeBtmp_ != null) {
                   subBuilder = wrongUsedByPersonTypeBtmp_.toBuilder();
                 }
-                wrongUsedByPersonTypeBtmp_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                wrongUsedByPersonTypeBtmp_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(wrongUsedByPersonTypeBtmp_);
                   wrongUsedByPersonTypeBtmp_ = subBuilder.buildPartial();
@@ -1546,7 +1545,7 @@ public final class PmConsistencyCheckAd {
                 if (wrongCountValues_ != null) {
                   subBuilder = wrongCountValues_.toBuilder();
                 }
-                wrongCountValues_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                wrongCountValues_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(wrongCountValues_);
                   wrongCountValues_ = subBuilder.buildPartial();
@@ -1559,7 +1558,7 @@ public final class PmConsistencyCheckAd {
                 if (firstFourCharactersLowerCase_ != null) {
                   subBuilder = firstFourCharactersLowerCase_.toBuilder();
                 }
-                firstFourCharactersLowerCase_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                firstFourCharactersLowerCase_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(firstFourCharactersLowerCase_);
                   firstFourCharactersLowerCase_ = subBuilder.buildPartial();
@@ -1572,7 +1571,7 @@ public final class PmConsistencyCheckAd {
                 if (correctCountValues_ != null) {
                   subBuilder = correctCountValues_.toBuilder();
                 }
-                correctCountValues_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                correctCountValues_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(correctCountValues_);
                   correctCountValues_ = subBuilder.buildPartial();
@@ -1585,7 +1584,7 @@ public final class PmConsistencyCheckAd {
                 if (correctCountPersons_ != null) {
                   subBuilder = correctCountPersons_.toBuilder();
                 }
-                correctCountPersons_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                correctCountPersons_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(correctCountPersons_);
                   correctCountPersons_ = subBuilder.buildPartial();
@@ -1598,7 +1597,7 @@ public final class PmConsistencyCheckAd {
                 if (inconsistenceType_ != null) {
                   subBuilder = inconsistenceType_.toBuilder();
                 }
-                inconsistenceType_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                inconsistenceType_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inconsistenceType_);
                   inconsistenceType_ = subBuilder.buildPartial();
@@ -1611,7 +1610,7 @@ public final class PmConsistencyCheckAd {
                 if (wrongCountPersons_ != null) {
                   subBuilder = wrongCountPersons_.toBuilder();
                 }
-                wrongCountPersons_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                wrongCountPersons_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(wrongCountPersons_);
                   wrongCountPersons_ = subBuilder.buildPartial();
@@ -1624,7 +1623,7 @@ public final class PmConsistencyCheckAd {
                 if (personTypeId_ != null) {
                   subBuilder = personTypeId_.toBuilder();
                 }
-                personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personTypeId_);
                   personTypeId_ = subBuilder.buildPartial();
@@ -1637,7 +1636,7 @@ public final class PmConsistencyCheckAd {
                 if (valueLowercase_ != null) {
                   subBuilder = valueLowercase_.toBuilder();
                 }
-                valueLowercase_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                valueLowercase_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueLowercase_);
                   valueLowercase_ = subBuilder.buildPartial();
@@ -1650,7 +1649,7 @@ public final class PmConsistencyCheckAd {
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -2284,9 +2283,8 @@ public final class PmConsistencyCheckAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2358,7 +2356,7 @@ public final class PmConsistencyCheckAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(40002, getPersonId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5259,8 +5257,8 @@ public final class PmConsistencyCheckAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -5428,9 +5426,8 @@ public final class PmConsistencyCheckAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -5446,7 +5443,7 @@ public final class PmConsistencyCheckAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -6414,8 +6411,8 @@ public final class PmConsistencyCheckAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -254,7 +254,7 @@ public final class MiGetProcedureExecutionLogAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetProcedureExecutionLog_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -302,7 +302,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (procedureId_ != null) {
                 subBuilder = procedureId_.toBuilder();
               }
-              procedureId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              procedureId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureId_);
                 procedureId_ = subBuilder.buildPartial();
@@ -315,7 +315,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -328,7 +328,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -341,7 +341,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (executedByUserId_ != null) {
                 subBuilder = executedByUserId_.toBuilder();
               }
-              executedByUserId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              executedByUserId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(executedByUserId_);
                 executedByUserId_ = subBuilder.buildPartial();
@@ -354,7 +354,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (executedOnNestingLevelFrom_ != null) {
                 subBuilder = executedOnNestingLevelFrom_.toBuilder();
               }
-              executedOnNestingLevelFrom_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              executedOnNestingLevelFrom_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(executedOnNestingLevelFrom_);
                 executedOnNestingLevelFrom_ = subBuilder.buildPartial();
@@ -367,7 +367,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (executedOnNestingLevelTo_ != null) {
                 subBuilder = executedOnNestingLevelTo_.toBuilder();
               }
-              executedOnNestingLevelTo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              executedOnNestingLevelTo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(executedOnNestingLevelTo_);
                 executedOnNestingLevelTo_ = subBuilder.buildPartial();
@@ -380,7 +380,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (hostName_ != null) {
                 subBuilder = hostName_.toBuilder();
               }
-              hostName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              hostName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(hostName_);
                 hostName_ = subBuilder.buildPartial();
@@ -393,7 +393,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (programName_ != null) {
                 subBuilder = programName_.toBuilder();
               }
-              programName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              programName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(programName_);
                 programName_ = subBuilder.buildPartial();
@@ -406,7 +406,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (executionTimemsFrom_ != null) {
                 subBuilder = executionTimemsFrom_.toBuilder();
               }
-              executionTimemsFrom_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              executionTimemsFrom_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(executionTimemsFrom_);
                 executionTimemsFrom_ = subBuilder.buildPartial();
@@ -419,7 +419,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (executionTimemsTo_ != null) {
                 subBuilder = executionTimemsTo_.toBuilder();
               }
-              executionTimemsTo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              executionTimemsTo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(executionTimemsTo_);
                 executionTimemsTo_ = subBuilder.buildPartial();
@@ -432,7 +432,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (returnCodeFrom_ != null) {
                 subBuilder = returnCodeFrom_.toBuilder();
               }
-              returnCodeFrom_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              returnCodeFrom_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(returnCodeFrom_);
                 returnCodeFrom_ = subBuilder.buildPartial();
@@ -445,7 +445,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (returnCodeTo_ != null) {
                 subBuilder = returnCodeTo_.toBuilder();
               }
-              returnCodeTo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              returnCodeTo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(returnCodeTo_);
                 returnCodeTo_ = subBuilder.buildPartial();
@@ -458,7 +458,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (includeLoggedParamValues_ != null) {
                 subBuilder = includeLoggedParamValues_.toBuilder();
               }
-              includeLoggedParamValues_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeLoggedParamValues_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeLoggedParamValues_);
                 includeLoggedParamValues_ = subBuilder.buildPartial();
@@ -1037,9 +1037,8 @@ public final class MiGetProcedureExecutionLogAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1147,7 +1146,7 @@ public final class MiGetProcedureExecutionLogAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1013, includeLoggedParamValuesNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3463,8 +3462,8 @@ public final class MiGetProcedureExecutionLogAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3590,7 +3589,7 @@ public final class MiGetProcedureExecutionLogAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetProcedureExecutionLog_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3627,7 +3626,7 @@ public final class MiGetProcedureExecutionLogAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3640,7 +3639,7 @@ public final class MiGetProcedureExecutionLogAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3648,7 +3647,7 @@ public final class MiGetProcedureExecutionLogAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiGetProcedureExecutionLogAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiGetProcedureExecutionLogAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiGetProcedureExecutionLogAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -4048,7 +4047,7 @@ public final class MiGetProcedureExecutionLogAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetProcedureExecutionLog_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -4089,7 +4088,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (executionDateAndTime_ != null) {
                   subBuilder = executionDateAndTime_.toBuilder();
                 }
-                executionDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                executionDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(executionDateAndTime_);
                   executionDateAndTime_ = subBuilder.buildPartial();
@@ -4102,7 +4101,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (uniqueValue_ != null) {
                   subBuilder = uniqueValue_.toBuilder();
                 }
-                uniqueValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                uniqueValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(uniqueValue_);
                   uniqueValue_ = subBuilder.buildPartial();
@@ -4115,7 +4114,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (executedByUserId_ != null) {
                   subBuilder = executedByUserId_.toBuilder();
                 }
-                executedByUserId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                executedByUserId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(executedByUserId_);
                   executedByUserId_ = subBuilder.buildPartial();
@@ -4128,7 +4127,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (executedByUserName_ != null) {
                   subBuilder = executedByUserName_.toBuilder();
                 }
-                executedByUserName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                executedByUserName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(executedByUserName_);
                   executedByUserName_ = subBuilder.buildPartial();
@@ -4141,7 +4140,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (engineNumber_ != null) {
                   subBuilder = engineNumber_.toBuilder();
                 }
-                engineNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                engineNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(engineNumber_);
                   engineNumber_ = subBuilder.buildPartial();
@@ -4154,7 +4153,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (returnCode_ != null) {
                   subBuilder = returnCode_.toBuilder();
                 }
-                returnCode_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                returnCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(returnCode_);
                   returnCode_ = subBuilder.buildPartial();
@@ -4167,7 +4166,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (executionDateAndTimeChar_ != null) {
                   subBuilder = executionDateAndTimeChar_.toBuilder();
                 }
-                executionDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                executionDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(executionDateAndTimeChar_);
                   executionDateAndTimeChar_ = subBuilder.buildPartial();
@@ -4180,7 +4179,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (serverProcessId_ != null) {
                   subBuilder = serverProcessId_.toBuilder();
                 }
-                serverProcessId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                serverProcessId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(serverProcessId_);
                   serverProcessId_ = subBuilder.buildPartial();
@@ -4193,7 +4192,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (executionTimeMs_ != null) {
                   subBuilder = executionTimeMs_.toBuilder();
                 }
-                executionTimeMs_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                executionTimeMs_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(executionTimeMs_);
                   executionTimeMs_ = subBuilder.buildPartial();
@@ -4206,7 +4205,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (programName_ != null) {
                   subBuilder = programName_.toBuilder();
                 }
-                programName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                programName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(programName_);
                   programName_ = subBuilder.buildPartial();
@@ -4219,7 +4218,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (executedOnNestingLevel_ != null) {
                   subBuilder = executedOnNestingLevel_.toBuilder();
                 }
-                executedOnNestingLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                executedOnNestingLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(executedOnNestingLevel_);
                   executedOnNestingLevel_ = subBuilder.buildPartial();
@@ -4232,7 +4231,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (hostName_ != null) {
                   subBuilder = hostName_.toBuilder();
                 }
-                hostName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                hostName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hostName_);
                   hostName_ = subBuilder.buildPartial();
@@ -4245,7 +4244,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (parameterValue_ != null) {
                   subBuilder = parameterValue_.toBuilder();
                 }
-                parameterValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                parameterValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(parameterValue_);
                   parameterValue_ = subBuilder.buildPartial();
@@ -4258,7 +4257,7 @@ public final class MiGetProcedureExecutionLogAd {
                 if (parameterName_ != null) {
                   subBuilder = parameterName_.toBuilder();
                 }
-                parameterName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                parameterName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(parameterName_);
                   parameterName_ = subBuilder.buildPartial();
@@ -4820,9 +4819,8 @@ public final class MiGetProcedureExecutionLogAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -4886,7 +4884,7 @@ public final class MiGetProcedureExecutionLogAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20005, getParameterName());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -7453,8 +7451,8 @@ public final class MiGetProcedureExecutionLogAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -7622,9 +7620,8 @@ public final class MiGetProcedureExecutionLogAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -7640,7 +7637,7 @@ public final class MiGetProcedureExecutionLogAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -8608,8 +8605,8 @@ public final class MiGetProcedureExecutionLogAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

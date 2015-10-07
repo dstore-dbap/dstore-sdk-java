@@ -146,7 +146,7 @@ public final class MiSearchSourceCodeAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_SearchSourceCode_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -188,7 +188,7 @@ public final class MiSearchSourceCodeAd {
               if (searchPattern_ != null) {
                 subBuilder = searchPattern_.toBuilder();
               }
-              searchPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              searchPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchPattern_);
                 searchPattern_ = subBuilder.buildPartial();
@@ -201,7 +201,7 @@ public final class MiSearchSourceCodeAd {
               if (caseSensitive_ != null) {
                 subBuilder = caseSensitive_.toBuilder();
               }
-              caseSensitive_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              caseSensitive_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(caseSensitive_);
                 caseSensitive_ = subBuilder.buildPartial();
@@ -214,7 +214,7 @@ public final class MiSearchSourceCodeAd {
               if (doNotSearchInCommentPart_ != null) {
                 subBuilder = doNotSearchInCommentPart_.toBuilder();
               }
-              doNotSearchInCommentPart_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              doNotSearchInCommentPart_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(doNotSearchInCommentPart_);
                 doNotSearchInCommentPart_ = subBuilder.buildPartial();
@@ -227,7 +227,7 @@ public final class MiSearchSourceCodeAd {
               if (searchOnlyThisObjectName_ != null) {
                 subBuilder = searchOnlyThisObjectName_.toBuilder();
               }
-              searchOnlyThisObjectName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              searchOnlyThisObjectName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchOnlyThisObjectName_);
                 searchOnlyThisObjectName_ = subBuilder.buildPartial();
@@ -240,7 +240,7 @@ public final class MiSearchSourceCodeAd {
               if (searchOnlyObjectType_ != null) {
                 subBuilder = searchOnlyObjectType_.toBuilder();
               }
-              searchOnlyObjectType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              searchOnlyObjectType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchOnlyObjectType_);
                 searchOnlyObjectType_ = subBuilder.buildPartial();
@@ -253,7 +253,7 @@ public final class MiSearchSourceCodeAd {
               if (getDistinctObjectNamesOnly_ != null) {
                 subBuilder = getDistinctObjectNamesOnly_.toBuilder();
               }
-              getDistinctObjectNamesOnly_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getDistinctObjectNamesOnly_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getDistinctObjectNamesOnly_);
                 getDistinctObjectNamesOnly_ = subBuilder.buildPartial();
@@ -266,7 +266,7 @@ public final class MiSearchSourceCodeAd {
               if (searchObjectsWithNameLike_ != null) {
                 subBuilder = searchObjectsWithNameLike_.toBuilder();
               }
-              searchObjectsWithNameLike_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              searchObjectsWithNameLike_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchObjectsWithNameLike_);
                 searchObjectsWithNameLike_ = subBuilder.buildPartial();
@@ -599,9 +599,8 @@ public final class MiSearchSourceCodeAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -661,7 +660,7 @@ public final class MiSearchSourceCodeAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1007, searchObjectsWithNameLikeNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1999,8 +1998,8 @@ public final class MiSearchSourceCodeAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2126,7 +2125,7 @@ public final class MiSearchSourceCodeAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_SearchSourceCode_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2163,7 +2162,7 @@ public final class MiSearchSourceCodeAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2176,7 +2175,7 @@ public final class MiSearchSourceCodeAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2184,7 +2183,7 @@ public final class MiSearchSourceCodeAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiSearchSourceCodeAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiSearchSourceCodeAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiSearchSourceCodeAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2334,7 +2333,7 @@ public final class MiSearchSourceCodeAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_SearchSourceCode_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2375,7 +2374,7 @@ public final class MiSearchSourceCodeAd {
                 if (objectType_ != null) {
                   subBuilder = objectType_.toBuilder();
                 }
-                objectType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                objectType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectType_);
                   objectType_ = subBuilder.buildPartial();
@@ -2388,7 +2387,7 @@ public final class MiSearchSourceCodeAd {
                 if (codeLineNumber_ != null) {
                   subBuilder = codeLineNumber_.toBuilder();
                 }
-                codeLineNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                codeLineNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLineNumber_);
                   codeLineNumber_ = subBuilder.buildPartial();
@@ -2401,7 +2400,7 @@ public final class MiSearchSourceCodeAd {
                 if (codeLine_ != null) {
                   subBuilder = codeLine_.toBuilder();
                 }
-                codeLine_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                codeLine_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeLine_);
                   codeLine_ = subBuilder.buildPartial();
@@ -2414,7 +2413,7 @@ public final class MiSearchSourceCodeAd {
                 if (objectName_ != null) {
                   subBuilder = objectName_.toBuilder();
                 }
-                objectName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                objectName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectName_);
                   objectName_ = subBuilder.buildPartial();
@@ -2616,9 +2615,8 @@ public final class MiSearchSourceCodeAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2642,7 +2640,7 @@ public final class MiSearchSourceCodeAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10004, getObjectName());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3539,8 +3537,8 @@ public final class MiSearchSourceCodeAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3708,9 +3706,8 @@ public final class MiSearchSourceCodeAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3726,7 +3723,7 @@ public final class MiSearchSourceCodeAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -4694,8 +4691,8 @@ public final class MiSearchSourceCodeAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

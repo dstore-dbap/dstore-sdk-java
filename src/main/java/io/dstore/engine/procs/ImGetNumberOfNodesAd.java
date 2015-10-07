@@ -74,7 +74,7 @@ public final class ImGetNumberOfNodesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetNumberOfNodes_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -112,7 +112,7 @@ public final class ImGetNumberOfNodesAd {
               if (includeDeleted_ != null) {
                 subBuilder = includeDeleted_.toBuilder();
               }
-              includeDeleted_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeDeleted_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeDeleted_);
                 includeDeleted_ = subBuilder.buildPartial();
@@ -125,7 +125,7 @@ public final class ImGetNumberOfNodesAd {
               if (includeDeActivated_ != null) {
                 subBuilder = includeDeActivated_.toBuilder();
               }
-              includeDeActivated_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeDeActivated_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeDeActivated_);
                 includeDeActivated_ = subBuilder.buildPartial();
@@ -138,7 +138,7 @@ public final class ImGetNumberOfNodesAd {
               if (onlyItemNodes_ != null) {
                 subBuilder = onlyItemNodes_.toBuilder();
               }
-              onlyItemNodes_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              onlyItemNodes_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyItemNodes_);
                 onlyItemNodes_ = subBuilder.buildPartial();
@@ -307,9 +307,8 @@ public final class ImGetNumberOfNodesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -337,7 +336,7 @@ public final class ImGetNumberOfNodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, onlyItemNodesNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1023,8 +1022,8 @@ public final class ImGetNumberOfNodesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1150,7 +1149,7 @@ public final class ImGetNumberOfNodesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetNumberOfNodes_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1187,7 +1186,7 @@ public final class ImGetNumberOfNodesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1200,7 +1199,7 @@ public final class ImGetNumberOfNodesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1208,7 +1207,7 @@ public final class ImGetNumberOfNodesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImGetNumberOfNodesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImGetNumberOfNodesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImGetNumberOfNodesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1283,7 +1282,7 @@ public final class ImGetNumberOfNodesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_GetNumberOfNodes_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1324,7 +1323,7 @@ public final class ImGetNumberOfNodesAd {
                 if (numberOfNodes_ != null) {
                   subBuilder = numberOfNodes_.toBuilder();
                 }
-                numberOfNodes_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                numberOfNodes_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(numberOfNodes_);
                   numberOfNodes_ = subBuilder.buildPartial();
@@ -1418,9 +1417,8 @@ public final class ImGetNumberOfNodesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1432,7 +1430,7 @@ public final class ImGetNumberOfNodesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10001, getNumberOfNodes());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -1828,8 +1826,8 @@ public final class ImGetNumberOfNodesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1997,9 +1995,8 @@ public final class ImGetNumberOfNodesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2015,7 +2012,7 @@ public final class ImGetNumberOfNodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2983,8 +2980,8 @@ public final class ImGetNumberOfNodesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

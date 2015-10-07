@@ -74,7 +74,7 @@ public final class MiGetLocales {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetLocales.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -112,7 +112,7 @@ public final class MiGetLocales {
               if (countryId_ != null) {
                 subBuilder = countryId_.toBuilder();
               }
-              countryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              countryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(countryId_);
                 countryId_ = subBuilder.buildPartial();
@@ -125,7 +125,7 @@ public final class MiGetLocales {
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -138,7 +138,7 @@ public final class MiGetLocales {
               if (getNamesInLanguageId_ != null) {
                 subBuilder = getNamesInLanguageId_.toBuilder();
               }
-              getNamesInLanguageId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              getNamesInLanguageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getNamesInLanguageId_);
                 getNamesInLanguageId_ = subBuilder.buildPartial();
@@ -307,9 +307,8 @@ public final class MiGetLocales {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -337,7 +336,7 @@ public final class MiGetLocales {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, getNamesInLanguageIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1023,8 +1022,8 @@ public final class MiGetLocales {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1150,7 +1149,7 @@ public final class MiGetLocales {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetLocales.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1187,7 +1186,7 @@ public final class MiGetLocales {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1200,7 +1199,7 @@ public final class MiGetLocales {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1208,7 +1207,7 @@ public final class MiGetLocales {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiGetLocales.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiGetLocales.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiGetLocales.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1533,7 +1532,7 @@ public final class MiGetLocales {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetLocales.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1574,7 +1573,7 @@ public final class MiGetLocales {
                 if (countryId_ != null) {
                   subBuilder = countryId_.toBuilder();
                 }
-                countryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                countryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryId_);
                   countryId_ = subBuilder.buildPartial();
@@ -1587,7 +1586,7 @@ public final class MiGetLocales {
                 if (countryDescription_ != null) {
                   subBuilder = countryDescription_.toBuilder();
                 }
-                countryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                countryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryDescription_);
                   countryDescription_ = subBuilder.buildPartial();
@@ -1600,7 +1599,7 @@ public final class MiGetLocales {
                 if (languageSymbol_ != null) {
                   subBuilder = languageSymbol_.toBuilder();
                 }
-                languageSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                languageSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageSymbol_);
                   languageSymbol_ = subBuilder.buildPartial();
@@ -1613,7 +1612,7 @@ public final class MiGetLocales {
                 if (localeId_ != null) {
                   subBuilder = localeId_.toBuilder();
                 }
-                localeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                localeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(localeId_);
                   localeId_ = subBuilder.buildPartial();
@@ -1626,7 +1625,7 @@ public final class MiGetLocales {
                 if (countryDescrInGivenLanguage_ != null) {
                   subBuilder = countryDescrInGivenLanguage_.toBuilder();
                 }
-                countryDescrInGivenLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                countryDescrInGivenLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryDescrInGivenLanguage_);
                   countryDescrInGivenLanguage_ = subBuilder.buildPartial();
@@ -1639,7 +1638,7 @@ public final class MiGetLocales {
                 if (language_ != null) {
                   subBuilder = language_.toBuilder();
                 }
-                language_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                language_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(language_);
                   language_ = subBuilder.buildPartial();
@@ -1652,7 +1651,7 @@ public final class MiGetLocales {
                 if (languageInLocaleLanguage_ != null) {
                   subBuilder = languageInLocaleLanguage_.toBuilder();
                 }
-                languageInLocaleLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                languageInLocaleLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageInLocaleLanguage_);
                   languageInLocaleLanguage_ = subBuilder.buildPartial();
@@ -1665,7 +1664,7 @@ public final class MiGetLocales {
                 if (languageInGivenLanguage_ != null) {
                   subBuilder = languageInGivenLanguage_.toBuilder();
                 }
-                languageInGivenLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                languageInGivenLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageInGivenLanguage_);
                   languageInGivenLanguage_ = subBuilder.buildPartial();
@@ -1678,7 +1677,7 @@ public final class MiGetLocales {
                 if (countryCode_ != null) {
                   subBuilder = countryCode_.toBuilder();
                 }
-                countryCode_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                countryCode_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryCode_);
                   countryCode_ = subBuilder.buildPartial();
@@ -1691,7 +1690,7 @@ public final class MiGetLocales {
                 if (countryDescrInLocaleLanguage_ != null) {
                   subBuilder = countryDescrInLocaleLanguage_.toBuilder();
                 }
-                countryDescrInLocaleLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                countryDescrInLocaleLanguage_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(countryDescrInLocaleLanguage_);
                   countryDescrInLocaleLanguage_ = subBuilder.buildPartial();
@@ -1704,7 +1703,7 @@ public final class MiGetLocales {
                 if (languageId_ != null) {
                   subBuilder = languageId_.toBuilder();
                 }
-                languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageId_);
                   languageId_ = subBuilder.buildPartial();
@@ -2158,9 +2157,8 @@ public final class MiGetLocales {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2212,7 +2210,7 @@ public final class MiGetLocales {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10011, getLanguageId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4278,8 +4276,8 @@ public final class MiGetLocales {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4447,9 +4445,8 @@ public final class MiGetLocales {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4465,7 +4462,7 @@ public final class MiGetLocales {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5433,8 +5430,8 @@ public final class MiGetLocales {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

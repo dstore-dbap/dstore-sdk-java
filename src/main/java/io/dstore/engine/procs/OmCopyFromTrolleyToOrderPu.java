@@ -290,7 +290,7 @@ public final class OmCopyFromTrolleyToOrderPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_CopyFromTrolleyToOrder_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -340,7 +340,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (incorrectInformationExist_ != null) {
                 subBuilder = incorrectInformationExist_.toBuilder();
               }
-              incorrectInformationExist_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              incorrectInformationExist_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(incorrectInformationExist_);
                 incorrectInformationExist_ = subBuilder.buildPartial();
@@ -353,7 +353,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (addOrderInformations_ != null) {
                 subBuilder = addOrderInformations_.toBuilder();
               }
-              addOrderInformations_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              addOrderInformations_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(addOrderInformations_);
                 addOrderInformations_ = subBuilder.buildPartial();
@@ -366,7 +366,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -379,7 +379,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -392,7 +392,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (deliveryPersonId_ != null) {
                 subBuilder = deliveryPersonId_.toBuilder();
               }
-              deliveryPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              deliveryPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deliveryPersonId_);
                 deliveryPersonId_ = subBuilder.buildPartial();
@@ -405,7 +405,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (shippingTypeId_ != null) {
                 subBuilder = shippingTypeId_.toBuilder();
               }
-              shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(shippingTypeId_);
                 shippingTypeId_ = subBuilder.buildPartial();
@@ -418,7 +418,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (paymentTypeId_ != null) {
                 subBuilder = paymentTypeId_.toBuilder();
               }
-              paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(paymentTypeId_);
                 paymentTypeId_ = subBuilder.buildPartial();
@@ -431,7 +431,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (deliveryDateAndTime_ != null) {
                 subBuilder = deliveryDateAndTime_.toBuilder();
               }
-              deliveryDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              deliveryDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deliveryDateAndTime_);
                 deliveryDateAndTime_ = subBuilder.buildPartial();
@@ -444,7 +444,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (startOrderId_ != null) {
                 subBuilder = startOrderId_.toBuilder();
               }
-              startOrderId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              startOrderId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(startOrderId_);
                 startOrderId_ = subBuilder.buildPartial();
@@ -457,7 +457,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (priceNodeCharacteristicId_ != null) {
                 subBuilder = priceNodeCharacteristicId_.toBuilder();
               }
-              priceNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              priceNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(priceNodeCharacteristicId_);
                 priceNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -470,7 +470,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (addOrderInformation_ != null) {
                 subBuilder = addOrderInformation_.toBuilder();
               }
-              addOrderInformation_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              addOrderInformation_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(addOrderInformation_);
                 addOrderInformation_ = subBuilder.buildPartial();
@@ -483,7 +483,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (addOrderContentInformation_ != null) {
                 subBuilder = addOrderContentInformation_.toBuilder();
               }
-              addOrderContentInformation_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              addOrderContentInformation_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(addOrderContentInformation_);
                 addOrderContentInformation_ = subBuilder.buildPartial();
@@ -496,7 +496,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (getIncorrectInformation_ != null) {
                 subBuilder = getIncorrectInformation_.toBuilder();
               }
-              getIncorrectInformation_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getIncorrectInformation_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getIncorrectInformation_);
                 getIncorrectInformation_ = subBuilder.buildPartial();
@@ -509,7 +509,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (useCashAccountMaxValue_ != null) {
                 subBuilder = useCashAccountMaxValue_.toBuilder();
               }
-              useCashAccountMaxValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              useCashAccountMaxValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(useCashAccountMaxValue_);
                 useCashAccountMaxValue_ = subBuilder.buildPartial();
@@ -522,7 +522,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (abortIfItemsRemoved_ != null) {
                 subBuilder = abortIfItemsRemoved_.toBuilder();
               }
-              abortIfItemsRemoved_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              abortIfItemsRemoved_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(abortIfItemsRemoved_);
                 abortIfItemsRemoved_ = subBuilder.buildPartial();
@@ -1183,9 +1183,8 @@ public final class OmCopyFromTrolleyToOrderPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1309,7 +1308,7 @@ public final class OmCopyFromTrolleyToOrderPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1015, abortIfItemsRemovedNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3951,8 +3950,8 @@ public final class OmCopyFromTrolleyToOrderPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4071,7 +4070,7 @@ public final class OmCopyFromTrolleyToOrderPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_CopyFromTrolleyToOrder_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -4108,7 +4107,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -4121,7 +4120,7 @@ public final class OmCopyFromTrolleyToOrderPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -4129,7 +4128,7 @@ public final class OmCopyFromTrolleyToOrderPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmCopyFromTrolleyToOrderPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmCopyFromTrolleyToOrderPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmCopyFromTrolleyToOrderPu.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -4137,7 +4136,7 @@ public final class OmCopyFromTrolleyToOrderPu {
               if (generatedOrderId_ != null) {
                 subBuilder = generatedOrderId_.toBuilder();
               }
-              generatedOrderId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              generatedOrderId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(generatedOrderId_);
                 generatedOrderId_ = subBuilder.buildPartial();
@@ -4267,7 +4266,7 @@ public final class OmCopyFromTrolleyToOrderPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_CopyFromTrolleyToOrder_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -4308,7 +4307,7 @@ public final class OmCopyFromTrolleyToOrderPu {
                 if (informationTypeId_ != null) {
                   subBuilder = informationTypeId_.toBuilder();
                 }
-                informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationTypeId_);
                   informationTypeId_ = subBuilder.buildPartial();
@@ -4321,7 +4320,7 @@ public final class OmCopyFromTrolleyToOrderPu {
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -4334,7 +4333,7 @@ public final class OmCopyFromTrolleyToOrderPu {
                 if (errorCode_ != null) {
                   subBuilder = errorCode_.toBuilder();
                 }
-                errorCode_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                errorCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(errorCode_);
                   errorCode_ = subBuilder.buildPartial();
@@ -4500,9 +4499,8 @@ public final class OmCopyFromTrolleyToOrderPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -4522,7 +4520,7 @@ public final class OmCopyFromTrolleyToOrderPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10003, getErrorCode());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5252,8 +5250,8 @@ public final class OmCopyFromTrolleyToOrderPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -5425,9 +5423,8 @@ public final class OmCopyFromTrolleyToOrderPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -5447,7 +5444,7 @@ public final class OmCopyFromTrolleyToOrderPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getGeneratedOrderId());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -6474,8 +6471,8 @@ public final class OmCopyFromTrolleyToOrderPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

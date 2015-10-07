@@ -74,7 +74,7 @@ public final class DoGetReturnCodesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.do_GetReturnCodes_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -112,7 +112,7 @@ public final class DoGetReturnCodesAd {
               if (returnCode_ != null) {
                 subBuilder = returnCode_.toBuilder();
               }
-              returnCode_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              returnCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(returnCode_);
                 returnCode_ = subBuilder.buildPartial();
@@ -125,7 +125,7 @@ public final class DoGetReturnCodesAd {
               if (returnCodeCategoryId_ != null) {
                 subBuilder = returnCodeCategoryId_.toBuilder();
               }
-              returnCodeCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              returnCodeCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(returnCodeCategoryId_);
                 returnCodeCategoryId_ = subBuilder.buildPartial();
@@ -138,7 +138,7 @@ public final class DoGetReturnCodesAd {
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -307,9 +307,8 @@ public final class DoGetReturnCodesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -337,7 +336,7 @@ public final class DoGetReturnCodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, languageIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1023,8 +1022,8 @@ public final class DoGetReturnCodesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1150,7 +1149,7 @@ public final class DoGetReturnCodesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.do_GetReturnCodes_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1187,7 +1186,7 @@ public final class DoGetReturnCodesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1200,7 +1199,7 @@ public final class DoGetReturnCodesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1208,7 +1207,7 @@ public final class DoGetReturnCodesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.DoGetReturnCodesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.DoGetReturnCodesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.DoGetReturnCodesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1383,7 +1382,7 @@ public final class DoGetReturnCodesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.do_GetReturnCodes_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1424,7 +1423,7 @@ public final class DoGetReturnCodesAd {
                 if (returnCode_ != null) {
                   subBuilder = returnCode_.toBuilder();
                 }
-                returnCode_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                returnCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(returnCode_);
                   returnCode_ = subBuilder.buildPartial();
@@ -1437,7 +1436,7 @@ public final class DoGetReturnCodesAd {
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1450,7 +1449,7 @@ public final class DoGetReturnCodesAd {
                 if (returnCodeCategoryId_ != null) {
                   subBuilder = returnCodeCategoryId_.toBuilder();
                 }
-                returnCodeCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                returnCodeCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(returnCodeCategoryId_);
                   returnCodeCategoryId_ = subBuilder.buildPartial();
@@ -1463,7 +1462,7 @@ public final class DoGetReturnCodesAd {
                 if (detailedDescription_ != null) {
                   subBuilder = detailedDescription_.toBuilder();
                 }
-                detailedDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                detailedDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(detailedDescription_);
                   detailedDescription_ = subBuilder.buildPartial();
@@ -1476,7 +1475,7 @@ public final class DoGetReturnCodesAd {
                 if (returnCodeCategory_ != null) {
                   subBuilder = returnCodeCategory_.toBuilder();
                 }
-                returnCodeCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                returnCodeCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(returnCodeCategory_);
                   returnCodeCategory_ = subBuilder.buildPartial();
@@ -1714,9 +1713,8 @@ public final class DoGetReturnCodesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1744,7 +1742,7 @@ public final class DoGetReturnCodesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10005, getReturnCodeCategory());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2808,8 +2806,8 @@ public final class DoGetReturnCodesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2977,9 +2975,8 @@ public final class DoGetReturnCodesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2995,7 +2992,7 @@ public final class DoGetReturnCodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3963,8 +3960,8 @@ public final class DoGetReturnCodesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -146,7 +146,7 @@ public final class PmAdressenCheckPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_AdressenCheck_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -188,7 +188,7 @@ public final class PmAdressenCheckPu {
               if (pLZ_ != null) {
                 subBuilder = pLZ_.toBuilder();
               }
-              pLZ_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              pLZ_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(pLZ_);
                 pLZ_ = subBuilder.buildPartial();
@@ -201,7 +201,7 @@ public final class PmAdressenCheckPu {
               if (ort_ != null) {
                 subBuilder = ort_.toBuilder();
               }
-              ort_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              ort_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(ort_);
                 ort_ = subBuilder.buildPartial();
@@ -214,7 +214,7 @@ public final class PmAdressenCheckPu {
               if (strasse_ != null) {
                 subBuilder = strasse_.toBuilder();
               }
-              strasse_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              strasse_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(strasse_);
                 strasse_ = subBuilder.buildPartial();
@@ -227,7 +227,7 @@ public final class PmAdressenCheckPu {
               if (hausnummer_ != null) {
                 subBuilder = hausnummer_.toBuilder();
               }
-              hausnummer_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              hausnummer_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(hausnummer_);
                 hausnummer_ = subBuilder.buildPartial();
@@ -240,7 +240,7 @@ public final class PmAdressenCheckPu {
               if (returnResult_ != null) {
                 subBuilder = returnResult_.toBuilder();
               }
-              returnResult_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              returnResult_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(returnResult_);
                 returnResult_ = subBuilder.buildPartial();
@@ -253,7 +253,7 @@ public final class PmAdressenCheckPu {
               if (ortVorPLZ_ != null) {
                 subBuilder = ortVorPLZ_.toBuilder();
               }
-              ortVorPLZ_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              ortVorPLZ_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(ortVorPLZ_);
                 ortVorPLZ_ = subBuilder.buildPartial();
@@ -266,7 +266,7 @@ public final class PmAdressenCheckPu {
               if (strasseVorPLZ_ != null) {
                 subBuilder = strasseVorPLZ_.toBuilder();
               }
-              strasseVorPLZ_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              strasseVorPLZ_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(strasseVorPLZ_);
                 strasseVorPLZ_ = subBuilder.buildPartial();
@@ -599,9 +599,8 @@ public final class PmAdressenCheckPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -661,7 +660,7 @@ public final class PmAdressenCheckPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1007, strasseVorPLZNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1999,8 +1998,8 @@ public final class PmAdressenCheckPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2119,7 +2118,7 @@ public final class PmAdressenCheckPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_AdressenCheck_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2156,7 +2155,7 @@ public final class PmAdressenCheckPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2169,7 +2168,7 @@ public final class PmAdressenCheckPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2177,7 +2176,7 @@ public final class PmAdressenCheckPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.PmAdressenCheckPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.PmAdressenCheckPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.PmAdressenCheckPu.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -2185,7 +2184,7 @@ public final class PmAdressenCheckPu {
               if (correctAdress_ != null) {
                 subBuilder = correctAdress_.toBuilder();
               }
-              correctAdress_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              correctAdress_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(correctAdress_);
                 correctAdress_ = subBuilder.buildPartial();
@@ -2465,7 +2464,7 @@ public final class PmAdressenCheckPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.pm_AdressenCheck_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2506,7 +2505,7 @@ public final class PmAdressenCheckPu {
                 if (ort_ != null) {
                   subBuilder = ort_.toBuilder();
                 }
-                ort_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                ort_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(ort_);
                   ort_ = subBuilder.buildPartial();
@@ -2519,7 +2518,7 @@ public final class PmAdressenCheckPu {
                 if (ortZusatz_ != null) {
                   subBuilder = ortZusatz_.toBuilder();
                 }
-                ortZusatz_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                ortZusatz_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(ortZusatz_);
                   ortZusatz_ = subBuilder.buildPartial();
@@ -2532,7 +2531,7 @@ public final class PmAdressenCheckPu {
                 if (pLZStatus_ != null) {
                   subBuilder = pLZStatus_.toBuilder();
                 }
-                pLZStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                pLZStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(pLZStatus_);
                   pLZStatus_ = subBuilder.buildPartial();
@@ -2545,7 +2544,7 @@ public final class PmAdressenCheckPu {
                 if (strasseStatus_ != null) {
                   subBuilder = strasseStatus_.toBuilder();
                 }
-                strasseStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                strasseStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(strasseStatus_);
                   strasseStatus_ = subBuilder.buildPartial();
@@ -2558,7 +2557,7 @@ public final class PmAdressenCheckPu {
                 if (hausnummerStatus_ != null) {
                   subBuilder = hausnummerStatus_.toBuilder();
                 }
-                hausnummerStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                hausnummerStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hausnummerStatus_);
                   hausnummerStatus_ = subBuilder.buildPartial();
@@ -2571,7 +2570,7 @@ public final class PmAdressenCheckPu {
                 if (ortStatus_ != null) {
                   subBuilder = ortStatus_.toBuilder();
                 }
-                ortStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                ortStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(ortStatus_);
                   ortStatus_ = subBuilder.buildPartial();
@@ -2584,7 +2583,7 @@ public final class PmAdressenCheckPu {
                 if (strasse_ != null) {
                   subBuilder = strasse_.toBuilder();
                 }
-                strasse_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                strasse_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(strasse_);
                   strasse_ = subBuilder.buildPartial();
@@ -2597,7 +2596,7 @@ public final class PmAdressenCheckPu {
                 if (hausnummer_ != null) {
                   subBuilder = hausnummer_.toBuilder();
                 }
-                hausnummer_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                hausnummer_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hausnummer_);
                   hausnummer_ = subBuilder.buildPartial();
@@ -2610,7 +2609,7 @@ public final class PmAdressenCheckPu {
                 if (pLZ_ != null) {
                   subBuilder = pLZ_.toBuilder();
                 }
-                pLZ_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                pLZ_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(pLZ_);
                   pLZ_ = subBuilder.buildPartial();
@@ -2992,9 +2991,8 @@ public final class PmAdressenCheckPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3038,7 +3036,7 @@ public final class PmAdressenCheckPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10009, getPLZ());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4770,8 +4768,8 @@ public final class PmAdressenCheckPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4943,9 +4941,8 @@ public final class PmAdressenCheckPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4965,7 +4962,7 @@ public final class PmAdressenCheckPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getCorrectAdress());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5992,8 +5989,8 @@ public final class PmAdressenCheckPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

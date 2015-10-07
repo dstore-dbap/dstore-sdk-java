@@ -38,7 +38,7 @@ public final class DoGetSQLFunctionParametersAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.do_GetSQLFunctionParameters_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -74,7 +74,7 @@ public final class DoGetSQLFunctionParametersAd {
               if (sQLFunctionName_ != null) {
                 subBuilder = sQLFunctionName_.toBuilder();
               }
-              sQLFunctionName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              sQLFunctionName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sQLFunctionName_);
                 sQLFunctionName_ = subBuilder.buildPartial();
@@ -161,9 +161,8 @@ public final class DoGetSQLFunctionParametersAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -175,7 +174,7 @@ public final class DoGetSQLFunctionParametersAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, sQLFunctionNameNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -535,8 +534,8 @@ public final class DoGetSQLFunctionParametersAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -662,7 +661,7 @@ public final class DoGetSQLFunctionParametersAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.do_GetSQLFunctionParameters_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -699,7 +698,7 @@ public final class DoGetSQLFunctionParametersAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -712,7 +711,7 @@ public final class DoGetSQLFunctionParametersAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -720,7 +719,7 @@ public final class DoGetSQLFunctionParametersAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.DoGetSQLFunctionParametersAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.DoGetSQLFunctionParametersAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.DoGetSQLFunctionParametersAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -945,7 +944,7 @@ public final class DoGetSQLFunctionParametersAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.do_GetSQLFunctionParameters_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -986,7 +985,7 @@ public final class DoGetSQLFunctionParametersAd {
                 if (defaultValue_ != null) {
                   subBuilder = defaultValue_.toBuilder();
                 }
-                defaultValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                defaultValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(defaultValue_);
                   defaultValue_ = subBuilder.buildPartial();
@@ -999,7 +998,7 @@ public final class DoGetSQLFunctionParametersAd {
                 if (length_ != null) {
                   subBuilder = length_.toBuilder();
                 }
-                length_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                length_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(length_);
                   length_ = subBuilder.buildPartial();
@@ -1012,7 +1011,7 @@ public final class DoGetSQLFunctionParametersAd {
                 if (introducedIndstoreVersion_ != null) {
                   subBuilder = introducedIndstoreVersion_.toBuilder();
                 }
-                introducedIndstoreVersion_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                introducedIndstoreVersion_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(introducedIndstoreVersion_);
                   introducedIndstoreVersion_ = subBuilder.buildPartial();
@@ -1025,7 +1024,7 @@ public final class DoGetSQLFunctionParametersAd {
                 if (dataType_ != null) {
                   subBuilder = dataType_.toBuilder();
                 }
-                dataType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                dataType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dataType_);
                   dataType_ = subBuilder.buildPartial();
@@ -1038,7 +1037,7 @@ public final class DoGetSQLFunctionParametersAd {
                 if (precisionValue_ != null) {
                   subBuilder = precisionValue_.toBuilder();
                 }
-                precisionValue_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                precisionValue_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(precisionValue_);
                   precisionValue_ = subBuilder.buildPartial();
@@ -1051,7 +1050,7 @@ public final class DoGetSQLFunctionParametersAd {
                 if (parameterName_ != null) {
                   subBuilder = parameterName_.toBuilder();
                 }
-                parameterName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                parameterName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(parameterName_);
                   parameterName_ = subBuilder.buildPartial();
@@ -1064,7 +1063,7 @@ public final class DoGetSQLFunctionParametersAd {
                 if (scale_ != null) {
                   subBuilder = scale_.toBuilder();
                 }
-                scale_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                scale_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(scale_);
                   scale_ = subBuilder.buildPartial();
@@ -1374,9 +1373,8 @@ public final class DoGetSQLFunctionParametersAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1412,7 +1410,7 @@ public final class DoGetSQLFunctionParametersAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10007, getScale());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2810,8 +2808,8 @@ public final class DoGetSQLFunctionParametersAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2979,9 +2977,8 @@ public final class DoGetSQLFunctionParametersAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2997,7 +2994,7 @@ public final class DoGetSQLFunctionParametersAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3965,8 +3962,8 @@ public final class DoGetSQLFunctionParametersAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

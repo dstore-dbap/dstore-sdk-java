@@ -146,7 +146,7 @@ public final class ImGetVariantMatrixAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetVariantMatrix_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -188,7 +188,7 @@ public final class ImGetVariantMatrixAd {
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -201,7 +201,7 @@ public final class ImGetVariantMatrixAd {
               if (yAxisCharacteristicId_ != null) {
                 subBuilder = yAxisCharacteristicId_.toBuilder();
               }
-              yAxisCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              yAxisCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(yAxisCharacteristicId_);
                 yAxisCharacteristicId_ = subBuilder.buildPartial();
@@ -214,7 +214,7 @@ public final class ImGetVariantMatrixAd {
               if (xAxisCharacteristicId_ != null) {
                 subBuilder = xAxisCharacteristicId_.toBuilder();
               }
-              xAxisCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              xAxisCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(xAxisCharacteristicId_);
                 xAxisCharacteristicId_ = subBuilder.buildPartial();
@@ -227,7 +227,7 @@ public final class ImGetVariantMatrixAd {
               if (valueCharacteristicId_ != null) {
                 subBuilder = valueCharacteristicId_.toBuilder();
               }
-              valueCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              valueCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueCharacteristicId_);
                 valueCharacteristicId_ = subBuilder.buildPartial();
@@ -240,7 +240,7 @@ public final class ImGetVariantMatrixAd {
               if (directSuccessors_ != null) {
                 subBuilder = directSuccessors_.toBuilder();
               }
-              directSuccessors_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              directSuccessors_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(directSuccessors_);
                 directSuccessors_ = subBuilder.buildPartial();
@@ -253,7 +253,7 @@ public final class ImGetVariantMatrixAd {
               if (directProperties_ != null) {
                 subBuilder = directProperties_.toBuilder();
               }
-              directProperties_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              directProperties_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(directProperties_);
                 directProperties_ = subBuilder.buildPartial();
@@ -266,7 +266,7 @@ public final class ImGetVariantMatrixAd {
               if (includeInactiveVariants_ != null) {
                 subBuilder = includeInactiveVariants_.toBuilder();
               }
-              includeInactiveVariants_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeInactiveVariants_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeInactiveVariants_);
                 includeInactiveVariants_ = subBuilder.buildPartial();
@@ -599,9 +599,8 @@ public final class ImGetVariantMatrixAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -661,7 +660,7 @@ public final class ImGetVariantMatrixAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1007, includeInactiveVariantsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1999,8 +1998,8 @@ public final class ImGetVariantMatrixAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2126,7 +2125,7 @@ public final class ImGetVariantMatrixAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetVariantMatrix_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2163,7 +2162,7 @@ public final class ImGetVariantMatrixAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2176,7 +2175,7 @@ public final class ImGetVariantMatrixAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2184,7 +2183,7 @@ public final class ImGetVariantMatrixAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImGetVariantMatrixAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImGetVariantMatrixAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImGetVariantMatrixAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2434,7 +2433,7 @@ public final class ImGetVariantMatrixAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_GetVariantMatrix_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2475,7 +2474,7 @@ public final class ImGetVariantMatrixAd {
                 if (yAxisValueId_ != null) {
                   subBuilder = yAxisValueId_.toBuilder();
                 }
-                yAxisValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                yAxisValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(yAxisValueId_);
                   yAxisValueId_ = subBuilder.buildPartial();
@@ -2488,7 +2487,7 @@ public final class ImGetVariantMatrixAd {
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -2501,7 +2500,7 @@ public final class ImGetVariantMatrixAd {
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -2514,7 +2513,7 @@ public final class ImGetVariantMatrixAd {
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -2527,7 +2526,7 @@ public final class ImGetVariantMatrixAd {
                 if (xAxisValue_ != null) {
                   subBuilder = xAxisValue_.toBuilder();
                 }
-                xAxisValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                xAxisValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(xAxisValue_);
                   xAxisValue_ = subBuilder.buildPartial();
@@ -2540,7 +2539,7 @@ public final class ImGetVariantMatrixAd {
                 if (valueId_ != null) {
                   subBuilder = valueId_.toBuilder();
                 }
-                valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                valueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueId_);
                   valueId_ = subBuilder.buildPartial();
@@ -2553,7 +2552,7 @@ public final class ImGetVariantMatrixAd {
                 if (yAxisValue_ != null) {
                   subBuilder = yAxisValue_.toBuilder();
                 }
-                yAxisValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                yAxisValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(yAxisValue_);
                   yAxisValue_ = subBuilder.buildPartial();
@@ -2566,7 +2565,7 @@ public final class ImGetVariantMatrixAd {
                 if (xAxisValueId_ != null) {
                   subBuilder = xAxisValueId_.toBuilder();
                 }
-                xAxisValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                xAxisValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(xAxisValueId_);
                   xAxisValueId_ = subBuilder.buildPartial();
@@ -2912,9 +2911,8 @@ public final class ImGetVariantMatrixAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2954,7 +2952,7 @@ public final class ImGetVariantMatrixAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10008, getXAxisValueId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4519,8 +4517,8 @@ public final class ImGetVariantMatrixAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4688,9 +4686,8 @@ public final class ImGetVariantMatrixAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4706,7 +4703,7 @@ public final class ImGetVariantMatrixAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5674,8 +5671,8 @@ public final class ImGetVariantMatrixAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

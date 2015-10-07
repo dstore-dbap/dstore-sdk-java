@@ -164,7 +164,7 @@ public final class FoModifyPostingCharacsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_ModifyPostingCharacs_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -207,7 +207,7 @@ public final class FoModifyPostingCharacsAd {
               if (characteristicDescription_ != null) {
                 subBuilder = characteristicDescription_.toBuilder();
               }
-              characteristicDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              characteristicDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(characteristicDescription_);
                 characteristicDescription_ = subBuilder.buildPartial();
@@ -220,7 +220,7 @@ public final class FoModifyPostingCharacsAd {
               if (fieldTypeId_ != null) {
                 subBuilder = fieldTypeId_.toBuilder();
               }
-              fieldTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              fieldTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fieldTypeId_);
                 fieldTypeId_ = subBuilder.buildPartial();
@@ -233,7 +233,7 @@ public final class FoModifyPostingCharacsAd {
               if (propertyModificationAllowed_ != null) {
                 subBuilder = propertyModificationAllowed_.toBuilder();
               }
-              propertyModificationAllowed_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              propertyModificationAllowed_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(propertyModificationAllowed_);
                 propertyModificationAllowed_ = subBuilder.buildPartial();
@@ -246,7 +246,7 @@ public final class FoModifyPostingCharacsAd {
               if (commonCharacteristic_ != null) {
                 subBuilder = commonCharacteristic_.toBuilder();
               }
-              commonCharacteristic_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              commonCharacteristic_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(commonCharacteristic_);
                 commonCharacteristic_ = subBuilder.buildPartial();
@@ -259,7 +259,7 @@ public final class FoModifyPostingCharacsAd {
               if (predefinedValues_ != null) {
                 subBuilder = predefinedValues_.toBuilder();
               }
-              predefinedValues_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              predefinedValues_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(predefinedValues_);
                 predefinedValues_ = subBuilder.buildPartial();
@@ -272,7 +272,7 @@ public final class FoModifyPostingCharacsAd {
               if (checkPostingVisibility_ != null) {
                 subBuilder = checkPostingVisibility_.toBuilder();
               }
-              checkPostingVisibility_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              checkPostingVisibility_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkPostingVisibility_);
                 checkPostingVisibility_ = subBuilder.buildPartial();
@@ -285,7 +285,7 @@ public final class FoModifyPostingCharacsAd {
               if (maxNumberOfProperties_ != null) {
                 subBuilder = maxNumberOfProperties_.toBuilder();
               }
-              maxNumberOfProperties_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              maxNumberOfProperties_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfProperties_);
                 maxNumberOfProperties_ = subBuilder.buildPartial();
@@ -298,7 +298,7 @@ public final class FoModifyPostingCharacsAd {
               if (deleteCharacteristic_ != null) {
                 subBuilder = deleteCharacteristic_.toBuilder();
               }
-              deleteCharacteristic_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              deleteCharacteristic_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteCharacteristic_);
                 deleteCharacteristic_ = subBuilder.buildPartial();
@@ -672,9 +672,8 @@ public final class FoModifyPostingCharacsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -742,7 +741,7 @@ public final class FoModifyPostingCharacsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1008, deleteCharacteristicNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2243,8 +2242,8 @@ public final class FoModifyPostingCharacsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2363,7 +2362,7 @@ public final class FoModifyPostingCharacsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_ModifyPostingCharacs_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2400,7 +2399,7 @@ public final class FoModifyPostingCharacsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2413,7 +2412,7 @@ public final class FoModifyPostingCharacsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2421,7 +2420,7 @@ public final class FoModifyPostingCharacsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.FoModifyPostingCharacsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.FoModifyPostingCharacsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.FoModifyPostingCharacsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -2429,7 +2428,7 @@ public final class FoModifyPostingCharacsAd {
               if (postingCharacteristicId_ != null) {
                 subBuilder = postingCharacteristicId_.toBuilder();
               }
-              postingCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              postingCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(postingCharacteristicId_);
                 postingCharacteristicId_ = subBuilder.buildPartial();
@@ -2484,7 +2483,7 @@ public final class FoModifyPostingCharacsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.fo_ModifyPostingCharacs_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2570,9 +2569,8 @@ public final class FoModifyPostingCharacsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2580,7 +2578,7 @@ public final class FoModifyPostingCharacsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2809,8 +2807,8 @@ public final class FoModifyPostingCharacsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2982,9 +2980,8 @@ public final class FoModifyPostingCharacsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3004,7 +3001,7 @@ public final class FoModifyPostingCharacsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getPostingCharacteristicId());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -4031,8 +4028,8 @@ public final class FoModifyPostingCharacsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -146,7 +146,7 @@ public final class OmModifyTrolleyInformationPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyTrolleyInformation_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -188,7 +188,7 @@ public final class OmModifyTrolleyInformationPu {
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -201,7 +201,7 @@ public final class OmModifyTrolleyInformationPu {
               if (nestingLevelForInputData_ != null) {
                 subBuilder = nestingLevelForInputData_.toBuilder();
               }
-              nestingLevelForInputData_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nestingLevelForInputData_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nestingLevelForInputData_);
                 nestingLevelForInputData_ = subBuilder.buildPartial();
@@ -214,7 +214,7 @@ public final class OmModifyTrolleyInformationPu {
               if (changeAllOrNothing_ != null) {
                 subBuilder = changeAllOrNothing_.toBuilder();
               }
-              changeAllOrNothing_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              changeAllOrNothing_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(changeAllOrNothing_);
                 changeAllOrNothing_ = subBuilder.buildPartial();
@@ -227,7 +227,7 @@ public final class OmModifyTrolleyInformationPu {
               if (onlyNewData_ != null) {
                 subBuilder = onlyNewData_.toBuilder();
               }
-              onlyNewData_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              onlyNewData_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyNewData_);
                 onlyNewData_ = subBuilder.buildPartial();
@@ -240,7 +240,7 @@ public final class OmModifyTrolleyInformationPu {
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              country_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -253,7 +253,7 @@ public final class OmModifyTrolleyInformationPu {
               if (informationTypeId_ != null) {
                 subBuilder = informationTypeId_.toBuilder();
               }
-              informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeId_);
                 informationTypeId_ = subBuilder.buildPartial();
@@ -266,7 +266,7 @@ public final class OmModifyTrolleyInformationPu {
               if (information_ != null) {
                 subBuilder = information_.toBuilder();
               }
-              information_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              information_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(information_);
                 information_ = subBuilder.buildPartial();
@@ -599,9 +599,8 @@ public final class OmModifyTrolleyInformationPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -661,7 +660,7 @@ public final class OmModifyTrolleyInformationPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1007, informationNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1999,8 +1998,8 @@ public final class OmModifyTrolleyInformationPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2126,7 +2125,7 @@ public final class OmModifyTrolleyInformationPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyTrolleyInformation_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2163,7 +2162,7 @@ public final class OmModifyTrolleyInformationPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2176,7 +2175,7 @@ public final class OmModifyTrolleyInformationPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2184,7 +2183,7 @@ public final class OmModifyTrolleyInformationPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmModifyTrolleyInformationPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmModifyTrolleyInformationPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmModifyTrolleyInformationPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2309,7 +2308,7 @@ public final class OmModifyTrolleyInformationPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyTrolleyInformation_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2350,7 +2349,7 @@ public final class OmModifyTrolleyInformationPu {
                 if (visitorId_ != null) {
                   subBuilder = visitorId_.toBuilder();
                 }
-                visitorId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                visitorId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visitorId_);
                   visitorId_ = subBuilder.buildPartial();
@@ -2363,7 +2362,7 @@ public final class OmModifyTrolleyInformationPu {
                 if (informationTypeId_ != null) {
                   subBuilder = informationTypeId_.toBuilder();
                 }
-                informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationTypeId_);
                   informationTypeId_ = subBuilder.buildPartial();
@@ -2376,7 +2375,7 @@ public final class OmModifyTrolleyInformationPu {
                 if (errorCode_ != null) {
                   subBuilder = errorCode_.toBuilder();
                 }
-                errorCode_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                errorCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(errorCode_);
                   errorCode_ = subBuilder.buildPartial();
@@ -2542,9 +2541,8 @@ public final class OmModifyTrolleyInformationPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2564,7 +2562,7 @@ public final class OmModifyTrolleyInformationPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10003, getErrorCode());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3294,8 +3292,8 @@ public final class OmModifyTrolleyInformationPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3463,9 +3461,8 @@ public final class OmModifyTrolleyInformationPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3481,7 +3478,7 @@ public final class OmModifyTrolleyInformationPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -4449,8 +4446,8 @@ public final class OmModifyTrolleyInformationPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -54,8 +54,8 @@ public final class EngineError {
         internalGetValueMap() {
       return internalValueMap;
     }
-    private static com.google.protobuf.Internal.EnumLiteMap<Types>
-        internalValueMap =
+    private static final com.google.protobuf.Internal.EnumLiteMap<
+        Types> internalValueMap =
           new com.google.protobuf.Internal.EnumLiteMap<Types>() {
             public Types findValueByNumber(int number) {
               return Types.valueOf(number);
@@ -146,7 +146,7 @@ public final class EngineError {
       // @@protoc_insertion_point(message_implements:dstore.engine.error.Error)
       ErrorOrBuilder {
     // Use Error.newBuilder() to construct.
-    private Error(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Error(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Error() {
@@ -192,15 +192,15 @@ public final class EngineError {
               break;
             }
             case 26: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+              String s = input.readStringRequireUtf8();
 
-              message_ = bs;
+              message_ = s;
               break;
             }
             case 34: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+              String s = input.readStringRequireUtf8();
 
-              details_ = bs;
+              details_ = s;
               break;
             }
           }
@@ -265,9 +265,7 @@ public final class EngineError {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          message_ = s;
-        }
+        message_ = s;
         return s;
       }
     }
@@ -301,9 +299,7 @@ public final class EngineError {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          details_ = s;
-        }
+        details_ = s;
         return s;
       }
     }
@@ -343,16 +339,15 @@ public final class EngineError {
         output.writeInt32(2, code_);
       }
       if (!getMessageBytes().isEmpty()) {
-        output.writeBytes(3, getMessageBytes());
+        com.google.protobuf.GeneratedMessage.writeString(output, 3, message_);
       }
       if (!getDetailsBytes().isEmpty()) {
-        output.writeBytes(4, getDetailsBytes());
+        com.google.protobuf.GeneratedMessage.writeString(output, 4, details_);
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -365,14 +360,12 @@ public final class EngineError {
           .computeInt32Size(2, code_);
       }
       if (!getMessageBytes().isEmpty()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(3, getMessageBytes());
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(3, message_);
       }
       if (!getDetailsBytes().isEmpty()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(4, getDetailsBytes());
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(4, details_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -652,9 +645,7 @@ public final class EngineError {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            message_ = s;
-          }
+          message_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
@@ -706,7 +697,8 @@ public final class EngineError {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  checkByteStringIsUtf8(value);
+        
         message_ = value;
         onChanged();
         return this;
@@ -722,9 +714,7 @@ public final class EngineError {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            details_ = s;
-          }
+          details_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
@@ -776,7 +766,8 @@ public final class EngineError {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  checkByteStringIsUtf8(value);
+        
         details_ = value;
         onChanged();
         return this;
@@ -805,8 +796,8 @@ public final class EngineError {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Error> PARSER =
-        new com.google.protobuf.AbstractParser<Error>() {
+    private static final com.google.protobuf.Parser<Error>
+        PARSER = new com.google.protobuf.AbstractParser<Error>() {
       public Error parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

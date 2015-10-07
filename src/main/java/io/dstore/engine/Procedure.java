@@ -63,7 +63,7 @@ public final class Procedure {
       // @@protoc_insertion_point(message_implements:dstore.engine.procedure.Call)
       CallOrBuilder {
     // Use Call.newBuilder() to construct.
-    private Call(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Call(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Call() {
@@ -97,9 +97,9 @@ public final class Procedure {
               break;
             }
             case 10: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+              String s = input.readStringRequireUtf8();
 
-              procedureName_ = bs;
+              procedureName_ = s;
               break;
             }
             case 18: {
@@ -107,7 +107,7 @@ public final class Procedure {
                 parameter_ = new java.util.ArrayList<io.dstore.engine.Procedure.Parameter>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              parameter_.add(input.readMessage(io.dstore.engine.Procedure.Parameter.PARSER, extensionRegistry));
+              parameter_.add(input.readMessage(io.dstore.engine.Procedure.Parameter.parser(), extensionRegistry));
               break;
             }
             case 24: {
@@ -156,9 +156,7 @@ public final class Procedure {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          procedureName_ = s;
-        }
+        procedureName_ = s;
         return s;
       }
     }
@@ -240,7 +238,7 @@ public final class Procedure {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!getProcedureNameBytes().isEmpty()) {
-        output.writeBytes(1, getProcedureNameBytes());
+        com.google.protobuf.GeneratedMessage.writeString(output, 1, procedureName_);
       }
       for (int i = 0; i < parameter_.size(); i++) {
         output.writeMessage(2, parameter_.get(i));
@@ -250,15 +248,13 @@ public final class Procedure {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
       if (!getProcedureNameBytes().isEmpty()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(1, getProcedureNameBytes());
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, procedureName_);
       }
       for (int i = 0; i < parameter_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -268,7 +264,7 @@ public final class Procedure {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(3, callId_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -511,9 +507,7 @@ public final class Procedure {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            procedureName_ = s;
-          }
+          procedureName_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
@@ -565,7 +559,8 @@ public final class Procedure {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  checkByteStringIsUtf8(value);
+        
         procedureName_ = value;
         onChanged();
         return this;
@@ -872,8 +867,8 @@ public final class Procedure {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Call> PARSER =
-        new com.google.protobuf.AbstractParser<Call>() {
+    private static final com.google.protobuf.Parser<Call>
+        PARSER = new com.google.protobuf.AbstractParser<Call>() {
       public Call parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -947,7 +942,7 @@ public final class Procedure {
       // @@protoc_insertion_point(message_implements:dstore.engine.procedure.Parameter)
       ParameterOrBuilder {
     // Use Parameter.newBuilder() to construct.
-    private Parameter(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameter(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameter() {
@@ -981,15 +976,15 @@ public final class Procedure {
               break;
             }
             case 10: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+              String s = input.readStringRequireUtf8();
 
-              name_ = bs;
+              name_ = s;
               break;
             }
             case 18: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+              String s = input.readStringRequireUtf8();
 
-              value_ = bs;
+              value_ = s;
               break;
             }
             case 24: {
@@ -1034,9 +1029,7 @@ public final class Procedure {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          name_ = s;
-        }
+        name_ = s;
         return s;
       }
     }
@@ -1070,9 +1063,7 @@ public final class Procedure {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          value_ = s;
-        }
+        value_ = s;
         return s;
       }
     }
@@ -1119,35 +1110,32 @@ public final class Procedure {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!getNameBytes().isEmpty()) {
-        output.writeBytes(1, getNameBytes());
+        com.google.protobuf.GeneratedMessage.writeString(output, 1, name_);
       }
       if (!getValueBytes().isEmpty()) {
-        output.writeBytes(2, getValueBytes());
+        com.google.protobuf.GeneratedMessage.writeString(output, 2, value_);
       }
       if (isNull_ != false) {
         output.writeBool(3, isNull_);
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
       if (!getNameBytes().isEmpty()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(1, getNameBytes());
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, name_);
       }
       if (!getValueBytes().isEmpty()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(2, getValueBytes());
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(2, value_);
       }
       if (isNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(3, isNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1351,9 +1339,7 @@ public final class Procedure {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            name_ = s;
-          }
+          name_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
@@ -1405,7 +1391,8 @@ public final class Procedure {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  checkByteStringIsUtf8(value);
+        
         name_ = value;
         onChanged();
         return this;
@@ -1421,9 +1408,7 @@ public final class Procedure {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            value_ = s;
-          }
+          value_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
@@ -1475,7 +1460,8 @@ public final class Procedure {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  checkByteStringIsUtf8(value);
+        
         value_ = value;
         onChanged();
         return this;
@@ -1542,8 +1528,8 @@ public final class Procedure {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameter> PARSER =
-        new com.google.protobuf.AbstractParser<Parameter>() {
+    private static final com.google.protobuf.Parser<Parameter>
+        PARSER = new com.google.protobuf.AbstractParser<Parameter>() {
       public Parameter parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1667,7 +1653,7 @@ public final class Procedure {
       // @@protoc_insertion_point(message_implements:dstore.engine.procedure.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1705,7 +1691,7 @@ public final class Procedure {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1718,7 +1704,7 @@ public final class Procedure {
               if (returnStatus_ != null) {
                 subBuilder = returnStatus_.toBuilder();
               }
-              returnStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              returnStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(returnStatus_);
                 returnStatus_ = subBuilder.buildPartial();
@@ -1731,7 +1717,7 @@ public final class Procedure {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 32: {
@@ -1744,7 +1730,7 @@ public final class Procedure {
                 row_ = new java.util.ArrayList<io.dstore.engine.Procedure.Response.Row>();
                 mutable_bitField0_ |= 0x00000010;
               }
-              row_.add(input.readMessage(io.dstore.engine.Procedure.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.Procedure.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1804,7 +1790,7 @@ public final class Procedure {
         // @@protoc_insertion_point(message_implements:dstore.engine.procedure.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1957,9 +1943,8 @@ public final class Procedure {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1977,7 +1962,7 @@ public final class Procedure {
           size += com.google.protobuf.CodedOutputStream
               .computeMessageSize(2, columns);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2257,6 +2242,18 @@ public final class Procedure {
         getMutableColumns() {
           return internalGetMutableColumns().getMutableMap();
         }
+        /**
+         * <code>map&lt;string, .dstore.engine.values.Value&gt; columns = 2;</code>
+         *
+         * <pre>
+         * a map of column names to values
+         * </pre>
+         */
+        public Builder putAllColumns(
+            java.util.Map<java.lang.String, io.dstore.engine.Values.Value> values) {
+          getMutableColumns().putAll(values);
+          return this;
+        }
         public final Builder setUnknownFields(
             final com.google.protobuf.UnknownFieldSet unknownFields) {
           return this;
@@ -2281,8 +2278,8 @@ public final class Procedure {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2466,9 +2463,8 @@ public final class Procedure {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2492,7 +2488,7 @@ public final class Procedure {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3551,8 +3547,8 @@ public final class Procedure {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

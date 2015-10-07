@@ -182,7 +182,7 @@ public final class ImGetPredecessors {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetPredecessors.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -226,7 +226,7 @@ public final class ImGetPredecessors {
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -239,7 +239,7 @@ public final class ImGetPredecessors {
               if (languageId_ != null) {
                 subBuilder = languageId_.toBuilder();
               }
-              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              languageId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(languageId_);
                 languageId_ = subBuilder.buildPartial();
@@ -252,7 +252,7 @@ public final class ImGetPredecessors {
               if (includeRootLevel_ != null) {
                 subBuilder = includeRootLevel_.toBuilder();
               }
-              includeRootLevel_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeRootLevel_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeRootLevel_);
                 includeRootLevel_ = subBuilder.buildPartial();
@@ -265,7 +265,7 @@ public final class ImGetPredecessors {
               if (includeMyLevel_ != null) {
                 subBuilder = includeMyLevel_.toBuilder();
               }
-              includeMyLevel_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeMyLevel_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeMyLevel_);
                 includeMyLevel_ = subBuilder.buildPartial();
@@ -278,7 +278,7 @@ public final class ImGetPredecessors {
               if (getNodeDescriptions_ != null) {
                 subBuilder = getNodeDescriptions_.toBuilder();
               }
-              getNodeDescriptions_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              getNodeDescriptions_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getNodeDescriptions_);
                 getNodeDescriptions_ = subBuilder.buildPartial();
@@ -291,7 +291,7 @@ public final class ImGetPredecessors {
               if (onlyPredecessorOnLevel_ != null) {
                 subBuilder = onlyPredecessorOnLevel_.toBuilder();
               }
-              onlyPredecessorOnLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              onlyPredecessorOnLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyPredecessorOnLevel_);
                 onlyPredecessorOnLevel_ = subBuilder.buildPartial();
@@ -304,7 +304,7 @@ public final class ImGetPredecessors {
               if (howManyLevels_ != null) {
                 subBuilder = howManyLevels_.toBuilder();
               }
-              howManyLevels_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              howManyLevels_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(howManyLevels_);
                 howManyLevels_ = subBuilder.buildPartial();
@@ -317,7 +317,7 @@ public final class ImGetPredecessors {
               if (getLevelNoInfo_ != null) {
                 subBuilder = getLevelNoInfo_.toBuilder();
               }
-              getLevelNoInfo_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getLevelNoInfo_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getLevelNoInfo_);
                 getLevelNoInfo_ = subBuilder.buildPartial();
@@ -330,7 +330,7 @@ public final class ImGetPredecessors {
               if (orderDescByLevelNo_ != null) {
                 subBuilder = orderDescByLevelNo_.toBuilder();
               }
-              orderDescByLevelNo_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              orderDescByLevelNo_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderDescByLevelNo_);
                 orderDescByLevelNo_ = subBuilder.buildPartial();
@@ -745,9 +745,8 @@ public final class ImGetPredecessors {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -823,7 +822,7 @@ public final class ImGetPredecessors {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1009, orderDescByLevelNoNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2487,8 +2486,8 @@ public final class ImGetPredecessors {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2614,7 +2613,7 @@ public final class ImGetPredecessors {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetPredecessors.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2651,7 +2650,7 @@ public final class ImGetPredecessors {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2664,7 +2663,7 @@ public final class ImGetPredecessors {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2672,7 +2671,7 @@ public final class ImGetPredecessors {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImGetPredecessors.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImGetPredecessors.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImGetPredecessors.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2847,7 +2846,7 @@ public final class ImGetPredecessors {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_GetPredecessors.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2888,7 +2887,7 @@ public final class ImGetPredecessors {
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -2901,7 +2900,7 @@ public final class ImGetPredecessors {
                 if (levelNo_ != null) {
                   subBuilder = levelNo_.toBuilder();
                 }
-                levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelNo_);
                   levelNo_ = subBuilder.buildPartial();
@@ -2914,7 +2913,7 @@ public final class ImGetPredecessors {
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -2927,7 +2926,7 @@ public final class ImGetPredecessors {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -2940,7 +2939,7 @@ public final class ImGetPredecessors {
                 if (predecessor_ != null) {
                   subBuilder = predecessor_.toBuilder();
                 }
-                predecessor_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                predecessor_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessor_);
                   predecessor_ = subBuilder.buildPartial();
@@ -3178,9 +3177,8 @@ public final class ImGetPredecessors {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3208,7 +3206,7 @@ public final class ImGetPredecessors {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20001, getPredecessor());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4272,8 +4270,8 @@ public final class ImGetPredecessors {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4441,9 +4439,8 @@ public final class ImGetPredecessors {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4459,7 +4456,7 @@ public final class ImGetPredecessors {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5427,8 +5424,8 @@ public final class ImGetPredecessors {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

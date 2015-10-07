@@ -110,7 +110,7 @@ public final class OmGetPrepaidCodesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPrepaidCodes_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -150,7 +150,7 @@ public final class OmGetPrepaidCodesAd {
               if (prepaidCode_ != null) {
                 subBuilder = prepaidCode_.toBuilder();
               }
-              prepaidCode_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              prepaidCode_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(prepaidCode_);
                 prepaidCode_ = subBuilder.buildPartial();
@@ -163,7 +163,7 @@ public final class OmGetPrepaidCodesAd {
               if (fromCodeValidUntil_ != null) {
                 subBuilder = fromCodeValidUntil_.toBuilder();
               }
-              fromCodeValidUntil_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromCodeValidUntil_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromCodeValidUntil_);
                 fromCodeValidUntil_ = subBuilder.buildPartial();
@@ -176,7 +176,7 @@ public final class OmGetPrepaidCodesAd {
               if (toCodeValidUntil_ != null) {
                 subBuilder = toCodeValidUntil_.toBuilder();
               }
-              toCodeValidUntil_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toCodeValidUntil_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toCodeValidUntil_);
                 toCodeValidUntil_ = subBuilder.buildPartial();
@@ -189,7 +189,7 @@ public final class OmGetPrepaidCodesAd {
               if (filterByUseState_ != null) {
                 subBuilder = filterByUseState_.toBuilder();
               }
-              filterByUseState_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              filterByUseState_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByUseState_);
                 filterByUseState_ = subBuilder.buildPartial();
@@ -202,7 +202,7 @@ public final class OmGetPrepaidCodesAd {
               if (orderBy_ != null) {
                 subBuilder = orderBy_.toBuilder();
               }
-              orderBy_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              orderBy_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderBy_);
                 orderBy_ = subBuilder.buildPartial();
@@ -453,9 +453,8 @@ public final class OmGetPrepaidCodesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -499,7 +498,7 @@ public final class OmGetPrepaidCodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, orderByNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1511,8 +1510,8 @@ public final class OmGetPrepaidCodesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1638,7 +1637,7 @@ public final class OmGetPrepaidCodesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPrepaidCodes_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1675,7 +1674,7 @@ public final class OmGetPrepaidCodesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1688,7 +1687,7 @@ public final class OmGetPrepaidCodesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1696,7 +1695,7 @@ public final class OmGetPrepaidCodesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetPrepaidCodesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetPrepaidCodesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetPrepaidCodesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1946,7 +1945,7 @@ public final class OmGetPrepaidCodesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPrepaidCodes_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1987,7 +1986,7 @@ public final class OmGetPrepaidCodesAd {
                 if (generatedByOrderId_ != null) {
                   subBuilder = generatedByOrderId_.toBuilder();
                 }
-                generatedByOrderId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                generatedByOrderId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(generatedByOrderId_);
                   generatedByOrderId_ = subBuilder.buildPartial();
@@ -2000,7 +1999,7 @@ public final class OmGetPrepaidCodesAd {
                 if (generatedAtDateAndTime_ != null) {
                   subBuilder = generatedAtDateAndTime_.toBuilder();
                 }
-                generatedAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                generatedAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(generatedAtDateAndTime_);
                   generatedAtDateAndTime_ = subBuilder.buildPartial();
@@ -2013,7 +2012,7 @@ public final class OmGetPrepaidCodesAd {
                 if (usedForTransactionId_ != null) {
                   subBuilder = usedForTransactionId_.toBuilder();
                 }
-                usedForTransactionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                usedForTransactionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usedForTransactionId_);
                   usedForTransactionId_ = subBuilder.buildPartial();
@@ -2026,7 +2025,7 @@ public final class OmGetPrepaidCodesAd {
                 if (codeAlreadyUsed_ != null) {
                   subBuilder = codeAlreadyUsed_.toBuilder();
                 }
-                codeAlreadyUsed_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                codeAlreadyUsed_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeAlreadyUsed_);
                   codeAlreadyUsed_ = subBuilder.buildPartial();
@@ -2039,7 +2038,7 @@ public final class OmGetPrepaidCodesAd {
                 if (prepaidCode_ != null) {
                   subBuilder = prepaidCode_.toBuilder();
                 }
-                prepaidCode_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                prepaidCode_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prepaidCode_);
                   prepaidCode_ = subBuilder.buildPartial();
@@ -2052,7 +2051,7 @@ public final class OmGetPrepaidCodesAd {
                 if (prepaidValue_ != null) {
                   subBuilder = prepaidValue_.toBuilder();
                 }
-                prepaidValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                prepaidValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prepaidValue_);
                   prepaidValue_ = subBuilder.buildPartial();
@@ -2065,7 +2064,7 @@ public final class OmGetPrepaidCodesAd {
                 if (codeValidUntil_ != null) {
                   subBuilder = codeValidUntil_.toBuilder();
                 }
-                codeValidUntil_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                codeValidUntil_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeValidUntil_);
                   codeValidUntil_ = subBuilder.buildPartial();
@@ -2078,7 +2077,7 @@ public final class OmGetPrepaidCodesAd {
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
                 }
-                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencyId_);
                   currencyId_ = subBuilder.buildPartial();
@@ -2424,9 +2423,8 @@ public final class OmGetPrepaidCodesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2466,7 +2464,7 @@ public final class OmGetPrepaidCodesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10008, getCurrencyId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4031,8 +4029,8 @@ public final class OmGetPrepaidCodesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4200,9 +4198,8 @@ public final class OmGetPrepaidCodesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4218,7 +4215,7 @@ public final class OmGetPrepaidCodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5186,8 +5183,8 @@ public final class OmGetPrepaidCodesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -110,7 +110,7 @@ public final class OmGetVoucherCodesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetVoucherCodes_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -150,7 +150,7 @@ public final class OmGetVoucherCodesAd {
               if (fromCreationDate_ != null) {
                 subBuilder = fromCreationDate_.toBuilder();
               }
-              fromCreationDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromCreationDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromCreationDate_);
                 fromCreationDate_ = subBuilder.buildPartial();
@@ -163,7 +163,7 @@ public final class OmGetVoucherCodesAd {
               if (toCreationDate_ != null) {
                 subBuilder = toCreationDate_.toBuilder();
               }
-              toCreationDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toCreationDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toCreationDate_);
                 toCreationDate_ = subBuilder.buildPartial();
@@ -176,7 +176,7 @@ public final class OmGetVoucherCodesAd {
               if (voucherCode_ != null) {
                 subBuilder = voucherCode_.toBuilder();
               }
-              voucherCode_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              voucherCode_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(voucherCode_);
                 voucherCode_ = subBuilder.buildPartial();
@@ -189,7 +189,7 @@ public final class OmGetVoucherCodesAd {
               if (voucherTypeId_ != null) {
                 subBuilder = voucherTypeId_.toBuilder();
               }
-              voucherTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              voucherTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(voucherTypeId_);
                 voucherTypeId_ = subBuilder.buildPartial();
@@ -202,7 +202,7 @@ public final class OmGetVoucherCodesAd {
               if (getUsedCodes_ != null) {
                 subBuilder = getUsedCodes_.toBuilder();
               }
-              getUsedCodes_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              getUsedCodes_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getUsedCodes_);
                 getUsedCodes_ = subBuilder.buildPartial();
@@ -453,9 +453,8 @@ public final class OmGetVoucherCodesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -499,7 +498,7 @@ public final class OmGetVoucherCodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, getUsedCodesNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1511,8 +1510,8 @@ public final class OmGetVoucherCodesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1638,7 +1637,7 @@ public final class OmGetVoucherCodesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetVoucherCodes_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1675,7 +1674,7 @@ public final class OmGetVoucherCodesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1688,7 +1687,7 @@ public final class OmGetVoucherCodesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1696,7 +1695,7 @@ public final class OmGetVoucherCodesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetVoucherCodesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetVoucherCodesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetVoucherCodesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1946,7 +1945,7 @@ public final class OmGetVoucherCodesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetVoucherCodes_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1987,7 +1986,7 @@ public final class OmGetVoucherCodesAd {
                 if (createdByUserId_ != null) {
                   subBuilder = createdByUserId_.toBuilder();
                 }
-                createdByUserId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                createdByUserId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdByUserId_);
                   createdByUserId_ = subBuilder.buildPartial();
@@ -2000,7 +1999,7 @@ public final class OmGetVoucherCodesAd {
                 if (voucherCode_ != null) {
                   subBuilder = voucherCode_.toBuilder();
                 }
-                voucherCode_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                voucherCode_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(voucherCode_);
                   voucherCode_ = subBuilder.buildPartial();
@@ -2013,7 +2012,7 @@ public final class OmGetVoucherCodesAd {
                 if (voucherTypeId_ != null) {
                   subBuilder = voucherTypeId_.toBuilder();
                 }
-                voucherTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                voucherTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(voucherTypeId_);
                   voucherTypeId_ = subBuilder.buildPartial();
@@ -2026,7 +2025,7 @@ public final class OmGetVoucherCodesAd {
                 if (voucherTypeDescription_ != null) {
                   subBuilder = voucherTypeDescription_.toBuilder();
                 }
-                voucherTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                voucherTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(voucherTypeDescription_);
                   voucherTypeDescription_ = subBuilder.buildPartial();
@@ -2039,7 +2038,7 @@ public final class OmGetVoucherCodesAd {
                 if (codeValidUntil_ != null) {
                   subBuilder = codeValidUntil_.toBuilder();
                 }
-                codeValidUntil_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                codeValidUntil_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(codeValidUntil_);
                   codeValidUntil_ = subBuilder.buildPartial();
@@ -2052,7 +2051,7 @@ public final class OmGetVoucherCodesAd {
                 if (lastUsageAtDateAndTime_ != null) {
                   subBuilder = lastUsageAtDateAndTime_.toBuilder();
                 }
-                lastUsageAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                lastUsageAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lastUsageAtDateAndTime_);
                   lastUsageAtDateAndTime_ = subBuilder.buildPartial();
@@ -2065,7 +2064,7 @@ public final class OmGetVoucherCodesAd {
                 if (usageCount_ != null) {
                   subBuilder = usageCount_.toBuilder();
                 }
-                usageCount_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                usageCount_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(usageCount_);
                   usageCount_ = subBuilder.buildPartial();
@@ -2078,7 +2077,7 @@ public final class OmGetVoucherCodesAd {
                 if (createdAtDateAndTime_ != null) {
                   subBuilder = createdAtDateAndTime_.toBuilder();
                 }
-                createdAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                createdAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdAtDateAndTime_);
                   createdAtDateAndTime_ = subBuilder.buildPartial();
@@ -2424,9 +2423,8 @@ public final class OmGetVoucherCodesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2466,7 +2464,7 @@ public final class OmGetVoucherCodesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10008, getCreatedAtDateAndTime());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4031,8 +4029,8 @@ public final class OmGetVoucherCodesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4200,9 +4198,8 @@ public final class OmGetVoucherCodesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4218,7 +4215,7 @@ public final class OmGetVoucherCodesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5186,8 +5183,8 @@ public final class OmGetVoucherCodesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

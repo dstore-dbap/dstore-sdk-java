@@ -74,7 +74,7 @@ public final class OmGetBundleItemSetsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetBundleItemSets_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -112,7 +112,7 @@ public final class OmGetBundleItemSetsAd {
               if (itemSetId_ != null) {
                 subBuilder = itemSetId_.toBuilder();
               }
-              itemSetId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              itemSetId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemSetId_);
                 itemSetId_ = subBuilder.buildPartial();
@@ -125,7 +125,7 @@ public final class OmGetBundleItemSetsAd {
               if (itemConditionId_ != null) {
                 subBuilder = itemConditionId_.toBuilder();
               }
-              itemConditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              itemConditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemConditionId_);
                 itemConditionId_ = subBuilder.buildPartial();
@@ -138,7 +138,7 @@ public final class OmGetBundleItemSetsAd {
               if (getUnusedSets_ != null) {
                 subBuilder = getUnusedSets_.toBuilder();
               }
-              getUnusedSets_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getUnusedSets_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getUnusedSets_);
                 getUnusedSets_ = subBuilder.buildPartial();
@@ -307,9 +307,8 @@ public final class OmGetBundleItemSetsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -337,7 +336,7 @@ public final class OmGetBundleItemSetsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, getUnusedSetsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1023,8 +1022,8 @@ public final class OmGetBundleItemSetsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1150,7 +1149,7 @@ public final class OmGetBundleItemSetsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetBundleItemSets_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1187,7 +1186,7 @@ public final class OmGetBundleItemSetsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1200,7 +1199,7 @@ public final class OmGetBundleItemSetsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1208,7 +1207,7 @@ public final class OmGetBundleItemSetsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetBundleItemSetsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetBundleItemSetsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetBundleItemSetsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1808,7 +1807,7 @@ public final class OmGetBundleItemSetsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetBundleItemSets_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1849,7 +1848,7 @@ public final class OmGetBundleItemSetsAd {
                 if (itemGroupSortNo_ != null) {
                   subBuilder = itemGroupSortNo_.toBuilder();
                 }
-                itemGroupSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemGroupSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemGroupSortNo_);
                   itemGroupSortNo_ = subBuilder.buildPartial();
@@ -1862,7 +1861,7 @@ public final class OmGetBundleItemSetsAd {
                 if (operator1_ != null) {
                   subBuilder = operator1_.toBuilder();
                 }
-                operator1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                operator1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(operator1_);
                   operator1_ = subBuilder.buildPartial();
@@ -1875,7 +1874,7 @@ public final class OmGetBundleItemSetsAd {
                 if (condition1_ != null) {
                   subBuilder = condition1_.toBuilder();
                 }
-                condition1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                condition1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(condition1_);
                   condition1_ = subBuilder.buildPartial();
@@ -1888,7 +1887,7 @@ public final class OmGetBundleItemSetsAd {
                 if (condition2_ != null) {
                   subBuilder = condition2_.toBuilder();
                 }
-                condition2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                condition2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(condition2_);
                   condition2_ = subBuilder.buildPartial();
@@ -1901,7 +1900,7 @@ public final class OmGetBundleItemSetsAd {
                 if (operator2_ != null) {
                   subBuilder = operator2_.toBuilder();
                 }
-                operator2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                operator2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(operator2_);
                   operator2_ = subBuilder.buildPartial();
@@ -1914,7 +1913,7 @@ public final class OmGetBundleItemSetsAd {
                 if (itemConditionGroupDescription_ != null) {
                   subBuilder = itemConditionGroupDescription_.toBuilder();
                 }
-                itemConditionGroupDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                itemConditionGroupDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionGroupDescription_);
                   itemConditionGroupDescription_ = subBuilder.buildPartial();
@@ -1927,7 +1926,7 @@ public final class OmGetBundleItemSetsAd {
                 if (combinePartsWithANDOperator_ != null) {
                   subBuilder = combinePartsWithANDOperator_.toBuilder();
                 }
-                combinePartsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                combinePartsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(combinePartsWithANDOperator_);
                   combinePartsWithANDOperator_ = subBuilder.buildPartial();
@@ -1940,7 +1939,7 @@ public final class OmGetBundleItemSetsAd {
                 if (recursiveEvaluation_ != null) {
                   subBuilder = recursiveEvaluation_.toBuilder();
                 }
-                recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(recursiveEvaluation_);
                   recursiveEvaluation_ = subBuilder.buildPartial();
@@ -1953,7 +1952,7 @@ public final class OmGetBundleItemSetsAd {
                 if (itemPartSortNo_ != null) {
                   subBuilder = itemPartSortNo_.toBuilder();
                 }
-                itemPartSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemPartSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemPartSortNo_);
                   itemPartSortNo_ = subBuilder.buildPartial();
@@ -1966,7 +1965,7 @@ public final class OmGetBundleItemSetsAd {
                 if (itemSetId_ != null) {
                   subBuilder = itemSetId_.toBuilder();
                 }
-                itemSetId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemSetId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemSetId_);
                   itemSetId_ = subBuilder.buildPartial();
@@ -1979,7 +1978,7 @@ public final class OmGetBundleItemSetsAd {
                 if (domainTreeNodeIds_ != null) {
                   subBuilder = domainTreeNodeIds_.toBuilder();
                 }
-                domainTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                domainTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(domainTreeNodeIds_);
                   domainTreeNodeIds_ = subBuilder.buildPartial();
@@ -1992,7 +1991,7 @@ public final class OmGetBundleItemSetsAd {
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -2005,7 +2004,7 @@ public final class OmGetBundleItemSetsAd {
                 if (quantity_ != null) {
                   subBuilder = quantity_.toBuilder();
                 }
-                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quantity_);
                   quantity_ = subBuilder.buildPartial();
@@ -2018,7 +2017,7 @@ public final class OmGetBundleItemSetsAd {
                 if (itemConditionPartId_ != null) {
                   subBuilder = itemConditionPartId_.toBuilder();
                 }
-                itemConditionPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemConditionPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionPartId_);
                   itemConditionPartId_ = subBuilder.buildPartial();
@@ -2031,7 +2030,7 @@ public final class OmGetBundleItemSetsAd {
                 if (itemConditionId_ != null) {
                   subBuilder = itemConditionId_.toBuilder();
                 }
-                itemConditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemConditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionId_);
                   itemConditionId_ = subBuilder.buildPartial();
@@ -2044,7 +2043,7 @@ public final class OmGetBundleItemSetsAd {
                 if (combineGroupsWithANDOperator_ != null) {
                   subBuilder = combineGroupsWithANDOperator_.toBuilder();
                 }
-                combineGroupsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                combineGroupsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(combineGroupsWithANDOperator_);
                   combineGroupsWithANDOperator_ = subBuilder.buildPartial();
@@ -2057,7 +2056,7 @@ public final class OmGetBundleItemSetsAd {
                 if (itemConditionPartDescription_ != null) {
                   subBuilder = itemConditionPartDescription_.toBuilder();
                 }
-                itemConditionPartDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                itemConditionPartDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionPartDescription_);
                   itemConditionPartDescription_ = subBuilder.buildPartial();
@@ -2070,7 +2069,7 @@ public final class OmGetBundleItemSetsAd {
                 if (levelIds_ != null) {
                   subBuilder = levelIds_.toBuilder();
                 }
-                levelIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                levelIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelIds_);
                   levelIds_ = subBuilder.buildPartial();
@@ -2083,7 +2082,7 @@ public final class OmGetBundleItemSetsAd {
                 if (distinctItemsOnly_ != null) {
                   subBuilder = distinctItemsOnly_.toBuilder();
                 }
-                distinctItemsOnly_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                distinctItemsOnly_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(distinctItemsOnly_);
                   distinctItemsOnly_ = subBuilder.buildPartial();
@@ -2096,7 +2095,7 @@ public final class OmGetBundleItemSetsAd {
                 if (itemConditionGroupId_ != null) {
                   subBuilder = itemConditionGroupId_.toBuilder();
                 }
-                itemConditionGroupId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemConditionGroupId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionGroupId_);
                   itemConditionGroupId_ = subBuilder.buildPartial();
@@ -2109,7 +2108,7 @@ public final class OmGetBundleItemSetsAd {
                 if (itemConditionDescription_ != null) {
                   subBuilder = itemConditionDescription_.toBuilder();
                 }
-                itemConditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                itemConditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionDescription_);
                   itemConditionDescription_ = subBuilder.buildPartial();
@@ -2122,7 +2121,7 @@ public final class OmGetBundleItemSetsAd {
                 if (inheritDepth_ != null) {
                   subBuilder = inheritDepth_.toBuilder();
                 }
-                inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inheritDepth_);
                   inheritDepth_ = subBuilder.buildPartial();
@@ -2972,9 +2971,8 @@ public final class OmGetBundleItemSetsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3070,7 +3068,7 @@ public final class OmGetBundleItemSetsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10022, getInheritDepth());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -6973,8 +6971,8 @@ public final class OmGetBundleItemSetsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -7142,9 +7140,8 @@ public final class OmGetBundleItemSetsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -7160,7 +7157,7 @@ public final class OmGetBundleItemSetsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -8128,8 +8125,8 @@ public final class OmGetBundleItemSetsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

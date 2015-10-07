@@ -146,7 +146,7 @@ public final class OmGetOrderStateHistoryAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderStateHistory_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -188,7 +188,7 @@ public final class OmGetOrderStateHistoryAd {
               if (orderOrOrderContentId_ != null) {
                 subBuilder = orderOrOrderContentId_.toBuilder();
               }
-              orderOrOrderContentId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              orderOrOrderContentId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderOrOrderContentId_);
                 orderOrOrderContentId_ = subBuilder.buildPartial();
@@ -201,7 +201,7 @@ public final class OmGetOrderStateHistoryAd {
               if (isOrderId_ != null) {
                 subBuilder = isOrderId_.toBuilder();
               }
-              isOrderId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              isOrderId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isOrderId_);
                 isOrderId_ = subBuilder.buildPartial();
@@ -214,7 +214,7 @@ public final class OmGetOrderStateHistoryAd {
               if (fromOrderStateId_ != null) {
                 subBuilder = fromOrderStateId_.toBuilder();
               }
-              fromOrderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              fromOrderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromOrderStateId_);
                 fromOrderStateId_ = subBuilder.buildPartial();
@@ -227,7 +227,7 @@ public final class OmGetOrderStateHistoryAd {
               if (toOrderStateId_ != null) {
                 subBuilder = toOrderStateId_.toBuilder();
               }
-              toOrderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              toOrderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toOrderStateId_);
                 toOrderStateId_ = subBuilder.buildPartial();
@@ -240,7 +240,7 @@ public final class OmGetOrderStateHistoryAd {
               if (userId_ != null) {
                 subBuilder = userId_.toBuilder();
               }
-              userId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              userId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(userId_);
                 userId_ = subBuilder.buildPartial();
@@ -253,7 +253,7 @@ public final class OmGetOrderStateHistoryAd {
               if (fromDateAndTime_ != null) {
                 subBuilder = fromDateAndTime_.toBuilder();
               }
-              fromDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDateAndTime_);
                 fromDateAndTime_ = subBuilder.buildPartial();
@@ -266,7 +266,7 @@ public final class OmGetOrderStateHistoryAd {
               if (toDateAndTime_ != null) {
                 subBuilder = toDateAndTime_.toBuilder();
               }
-              toDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDateAndTime_);
                 toDateAndTime_ = subBuilder.buildPartial();
@@ -599,9 +599,8 @@ public final class OmGetOrderStateHistoryAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -661,7 +660,7 @@ public final class OmGetOrderStateHistoryAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1007, toDateAndTimeNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1999,8 +1998,8 @@ public final class OmGetOrderStateHistoryAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2126,7 +2125,7 @@ public final class OmGetOrderStateHistoryAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderStateHistory_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2163,7 +2162,7 @@ public final class OmGetOrderStateHistoryAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2176,7 +2175,7 @@ public final class OmGetOrderStateHistoryAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2184,7 +2183,7 @@ public final class OmGetOrderStateHistoryAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetOrderStateHistoryAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetOrderStateHistoryAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetOrderStateHistoryAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2509,7 +2508,7 @@ public final class OmGetOrderStateHistoryAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderStateHistory_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2550,7 +2549,7 @@ public final class OmGetOrderStateHistoryAd {
                 if (changingDateAndTime_ != null) {
                   subBuilder = changingDateAndTime_.toBuilder();
                 }
-                changingDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                changingDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(changingDateAndTime_);
                   changingDateAndTime_ = subBuilder.buildPartial();
@@ -2563,7 +2562,7 @@ public final class OmGetOrderStateHistoryAd {
                 if (toOrderStateId_ != null) {
                   subBuilder = toOrderStateId_.toBuilder();
                 }
-                toOrderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                toOrderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toOrderStateId_);
                   toOrderStateId_ = subBuilder.buildPartial();
@@ -2576,7 +2575,7 @@ public final class OmGetOrderStateHistoryAd {
                 if (userName_ != null) {
                   subBuilder = userName_.toBuilder();
                 }
-                userName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                userName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userName_);
                   userName_ = subBuilder.buildPartial();
@@ -2589,7 +2588,7 @@ public final class OmGetOrderStateHistoryAd {
                 if (userId_ != null) {
                   subBuilder = userId_.toBuilder();
                 }
-                userId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                userId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(userId_);
                   userId_ = subBuilder.buildPartial();
@@ -2602,7 +2601,7 @@ public final class OmGetOrderStateHistoryAd {
                 if (completeOrder_ != null) {
                   subBuilder = completeOrder_.toBuilder();
                 }
-                completeOrder_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                completeOrder_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(completeOrder_);
                   completeOrder_ = subBuilder.buildPartial();
@@ -2615,7 +2614,7 @@ public final class OmGetOrderStateHistoryAd {
                 if (fromOrderStateId_ != null) {
                   subBuilder = fromOrderStateId_.toBuilder();
                 }
-                fromOrderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                fromOrderStateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromOrderStateId_);
                   fromOrderStateId_ = subBuilder.buildPartial();
@@ -2628,7 +2627,7 @@ public final class OmGetOrderStateHistoryAd {
                 if (changingDateAndTimeChar_ != null) {
                   subBuilder = changingDateAndTimeChar_.toBuilder();
                 }
-                changingDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                changingDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(changingDateAndTimeChar_);
                   changingDateAndTimeChar_ = subBuilder.buildPartial();
@@ -2641,7 +2640,7 @@ public final class OmGetOrderStateHistoryAd {
                 if (orderId_ != null) {
                   subBuilder = orderId_.toBuilder();
                 }
-                orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderId_);
                   orderId_ = subBuilder.buildPartial();
@@ -2654,7 +2653,7 @@ public final class OmGetOrderStateHistoryAd {
                 if (toOrderState_ != null) {
                   subBuilder = toOrderState_.toBuilder();
                 }
-                toOrderState_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                toOrderState_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toOrderState_);
                   toOrderState_ = subBuilder.buildPartial();
@@ -2667,7 +2666,7 @@ public final class OmGetOrderStateHistoryAd {
                 if (orderContentId_ != null) {
                   subBuilder = orderContentId_.toBuilder();
                 }
-                orderContentId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                orderContentId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderContentId_);
                   orderContentId_ = subBuilder.buildPartial();
@@ -2680,7 +2679,7 @@ public final class OmGetOrderStateHistoryAd {
                 if (fromOrderState_ != null) {
                   subBuilder = fromOrderState_.toBuilder();
                 }
-                fromOrderState_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                fromOrderState_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromOrderState_);
                   fromOrderState_ = subBuilder.buildPartial();
@@ -3134,9 +3133,8 @@ public final class OmGetOrderStateHistoryAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3188,7 +3186,7 @@ public final class OmGetOrderStateHistoryAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10011, getFromOrderState());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5254,8 +5252,8 @@ public final class OmGetOrderStateHistoryAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -5423,9 +5421,8 @@ public final class OmGetOrderStateHistoryAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -5441,7 +5438,7 @@ public final class OmGetOrderStateHistoryAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -6409,8 +6406,8 @@ public final class OmGetOrderStateHistoryAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -182,7 +182,7 @@ public final class ImModifyNodePropertiesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyNodeProperties_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -226,7 +226,7 @@ public final class ImModifyNodePropertiesAd {
               if (result_ != null) {
                 subBuilder = result_.toBuilder();
               }
-              result_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              result_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(result_);
                 result_ = subBuilder.buildPartial();
@@ -239,7 +239,7 @@ public final class ImModifyNodePropertiesAd {
               if (nodeIdList_ != null) {
                 subBuilder = nodeIdList_.toBuilder();
               }
-              nodeIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              nodeIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeIdList_);
                 nodeIdList_ = subBuilder.buildPartial();
@@ -252,7 +252,7 @@ public final class ImModifyNodePropertiesAd {
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -265,7 +265,7 @@ public final class ImModifyNodePropertiesAd {
               if (value_ != null) {
                 subBuilder = value_.toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              value_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(value_);
                 value_ = subBuilder.buildPartial();
@@ -278,7 +278,7 @@ public final class ImModifyNodePropertiesAd {
               if (validFrom_ != null) {
                 subBuilder = validFrom_.toBuilder();
               }
-              validFrom_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              validFrom_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(validFrom_);
                 validFrom_ = subBuilder.buildPartial();
@@ -291,7 +291,7 @@ public final class ImModifyNodePropertiesAd {
               if (validTo_ != null) {
                 subBuilder = validTo_.toBuilder();
               }
-              validTo_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              validTo_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(validTo_);
                 validTo_ = subBuilder.buildPartial();
@@ -304,7 +304,7 @@ public final class ImModifyNodePropertiesAd {
               if (deleteValueId_ != null) {
                 subBuilder = deleteValueId_.toBuilder();
               }
-              deleteValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              deleteValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteValueId_);
                 deleteValueId_ = subBuilder.buildPartial();
@@ -317,7 +317,7 @@ public final class ImModifyNodePropertiesAd {
               if (valueIdForPredefinedCharac_ != null) {
                 subBuilder = valueIdForPredefinedCharac_.toBuilder();
               }
-              valueIdForPredefinedCharac_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              valueIdForPredefinedCharac_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueIdForPredefinedCharac_);
                 valueIdForPredefinedCharac_ = subBuilder.buildPartial();
@@ -330,7 +330,7 @@ public final class ImModifyNodePropertiesAd {
               if (useDataFromdstoreifin_ != null) {
                 subBuilder = useDataFromdstoreifin_.toBuilder();
               }
-              useDataFromdstoreifin_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              useDataFromdstoreifin_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(useDataFromdstoreifin_);
                 useDataFromdstoreifin_ = subBuilder.buildPartial();
@@ -745,9 +745,8 @@ public final class ImModifyNodePropertiesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -823,7 +822,7 @@ public final class ImModifyNodePropertiesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1009, useDataFromdstoreifinNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2487,8 +2486,8 @@ public final class ImModifyNodePropertiesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2607,7 +2606,7 @@ public final class ImModifyNodePropertiesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyNodeProperties_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2644,7 +2643,7 @@ public final class ImModifyNodePropertiesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2657,7 +2656,7 @@ public final class ImModifyNodePropertiesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2665,7 +2664,7 @@ public final class ImModifyNodePropertiesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImModifyNodePropertiesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImModifyNodePropertiesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImModifyNodePropertiesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -2673,7 +2672,7 @@ public final class ImModifyNodePropertiesAd {
               if (newValueId_ != null) {
                 subBuilder = newValueId_.toBuilder();
               }
-              newValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              newValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(newValueId_);
                 newValueId_ = subBuilder.buildPartial();
@@ -2803,7 +2802,7 @@ public final class ImModifyNodePropertiesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_ModifyNodeProperties_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2844,7 +2843,7 @@ public final class ImModifyNodePropertiesAd {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -2857,7 +2856,7 @@ public final class ImModifyNodePropertiesAd {
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -2870,7 +2869,7 @@ public final class ImModifyNodePropertiesAd {
                 if (errorCode_ != null) {
                   subBuilder = errorCode_.toBuilder();
                 }
-                errorCode_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                errorCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(errorCode_);
                   errorCode_ = subBuilder.buildPartial();
@@ -3036,9 +3035,8 @@ public final class ImModifyNodePropertiesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3058,7 +3056,7 @@ public final class ImModifyNodePropertiesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10003, getErrorCode());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3788,8 +3786,8 @@ public final class ImModifyNodePropertiesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3961,9 +3959,8 @@ public final class ImModifyNodePropertiesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3983,7 +3980,7 @@ public final class ImModifyNodePropertiesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getNewValueId());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5010,8 +5007,8 @@ public final class ImModifyNodePropertiesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

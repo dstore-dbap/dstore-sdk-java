@@ -110,7 +110,7 @@ public final class OmGetOrderSurchargesPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderSurcharges_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -150,7 +150,7 @@ public final class OmGetOrderSurchargesPu {
               if (orderId_ != null) {
                 subBuilder = orderId_.toBuilder();
               }
-              orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderId_);
                 orderId_ = subBuilder.buildPartial();
@@ -163,7 +163,7 @@ public final class OmGetOrderSurchargesPu {
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -176,7 +176,7 @@ public final class OmGetOrderSurchargesPu {
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -189,7 +189,7 @@ public final class OmGetOrderSurchargesPu {
               if (getAdditionalInfo_ != null) {
                 subBuilder = getAdditionalInfo_.toBuilder();
               }
-              getAdditionalInfo_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getAdditionalInfo_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getAdditionalInfo_);
                 getAdditionalInfo_ = subBuilder.buildPartial();
@@ -202,7 +202,7 @@ public final class OmGetOrderSurchargesPu {
               if (splitByTaxes_ != null) {
                 subBuilder = splitByTaxes_.toBuilder();
               }
-              splitByTaxes_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              splitByTaxes_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(splitByTaxes_);
                 splitByTaxes_ = subBuilder.buildPartial();
@@ -453,9 +453,8 @@ public final class OmGetOrderSurchargesPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -499,7 +498,7 @@ public final class OmGetOrderSurchargesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, splitByTaxesNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1511,8 +1510,8 @@ public final class OmGetOrderSurchargesPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1638,7 +1637,7 @@ public final class OmGetOrderSurchargesPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderSurcharges_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1675,7 +1674,7 @@ public final class OmGetOrderSurchargesPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1688,7 +1687,7 @@ public final class OmGetOrderSurchargesPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1696,7 +1695,7 @@ public final class OmGetOrderSurchargesPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetOrderSurchargesPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetOrderSurchargesPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetOrderSurchargesPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2146,7 +2145,7 @@ public final class OmGetOrderSurchargesPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetOrderSurcharges_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2187,7 +2186,7 @@ public final class OmGetOrderSurchargesPu {
                 if (taxesMultiplier_ != null) {
                   subBuilder = taxesMultiplier_.toBuilder();
                 }
-                taxesMultiplier_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                taxesMultiplier_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(taxesMultiplier_);
                   taxesMultiplier_ = subBuilder.buildPartial();
@@ -2200,7 +2199,7 @@ public final class OmGetOrderSurchargesPu {
                 if (absoluteNetSurcharge_ != null) {
                   subBuilder = absoluteNetSurcharge_.toBuilder();
                 }
-                absoluteNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                absoluteNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteNetSurcharge_);
                   absoluteNetSurcharge_ = subBuilder.buildPartial();
@@ -2213,7 +2212,7 @@ public final class OmGetOrderSurchargesPu {
                 if (absoluteGrossSurcharge_ != null) {
                   subBuilder = absoluteGrossSurcharge_.toBuilder();
                 }
-                absoluteGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                absoluteGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteGrossSurcharge_);
                   absoluteGrossSurcharge_ = subBuilder.buildPartial();
@@ -2226,7 +2225,7 @@ public final class OmGetOrderSurchargesPu {
                 if (positionNo_ != null) {
                   subBuilder = positionNo_.toBuilder();
                 }
-                positionNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                positionNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(positionNo_);
                   positionNo_ = subBuilder.buildPartial();
@@ -2239,7 +2238,7 @@ public final class OmGetOrderSurchargesPu {
                 if (categoryDescription_ != null) {
                   subBuilder = categoryDescription_.toBuilder();
                 }
-                categoryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                categoryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(categoryDescription_);
                   categoryDescription_ = subBuilder.buildPartial();
@@ -2252,7 +2251,7 @@ public final class OmGetOrderSurchargesPu {
                 if (surchargeTypeDescription_ != null) {
                   subBuilder = surchargeTypeDescription_.toBuilder();
                 }
-                surchargeTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                surchargeTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeDescription_);
                   surchargeTypeDescription_ = subBuilder.buildPartial();
@@ -2265,7 +2264,7 @@ public final class OmGetOrderSurchargesPu {
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
                 }
-                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeId_);
                   surchargeTypeId_ = subBuilder.buildPartial();
@@ -2278,7 +2277,7 @@ public final class OmGetOrderSurchargesPu {
                 if (surchargeTypeCategoryId_ != null) {
                   subBuilder = surchargeTypeCategoryId_.toBuilder();
                 }
-                surchargeTypeCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                surchargeTypeCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeCategoryId_);
                   surchargeTypeCategoryId_ = subBuilder.buildPartial();
@@ -2291,7 +2290,7 @@ public final class OmGetOrderSurchargesPu {
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
                 }
-                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencyId_);
                   currencyId_ = subBuilder.buildPartial();
@@ -2304,7 +2303,7 @@ public final class OmGetOrderSurchargesPu {
                 if (currencySymbol_ != null) {
                   subBuilder = currencySymbol_.toBuilder();
                 }
-                currencySymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                currencySymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencySymbol_);
                   currencySymbol_ = subBuilder.buildPartial();
@@ -2317,7 +2316,7 @@ public final class OmGetOrderSurchargesPu {
                 if (originalSurchargeValue_ != null) {
                   subBuilder = originalSurchargeValue_.toBuilder();
                 }
-                originalSurchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                originalSurchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(originalSurchargeValue_);
                   originalSurchargeValue_ = subBuilder.buildPartial();
@@ -2330,7 +2329,7 @@ public final class OmGetOrderSurchargesPu {
                 if (origSurchValUnitId_ != null) {
                   subBuilder = origSurchValUnitId_.toBuilder();
                 }
-                origSurchValUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                origSurchValUnitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(origSurchValUnitId_);
                   origSurchValUnitId_ = subBuilder.buildPartial();
@@ -2343,7 +2342,7 @@ public final class OmGetOrderSurchargesPu {
                 if (origSurchValUnitSymbol_ != null) {
                   subBuilder = origSurchValUnitSymbol_.toBuilder();
                 }
-                origSurchValUnitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                origSurchValUnitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(origSurchValUnitSymbol_);
                   origSurchValUnitSymbol_ = subBuilder.buildPartial();
@@ -2356,7 +2355,7 @@ public final class OmGetOrderSurchargesPu {
                 if (appliedOnNetSum_ != null) {
                   subBuilder = appliedOnNetSum_.toBuilder();
                 }
-                appliedOnNetSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                appliedOnNetSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(appliedOnNetSum_);
                   appliedOnNetSum_ = subBuilder.buildPartial();
@@ -2369,7 +2368,7 @@ public final class OmGetOrderSurchargesPu {
                 if (appliedOnGrossSum_ != null) {
                   subBuilder = appliedOnGrossSum_.toBuilder();
                 }
-                appliedOnGrossSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                appliedOnGrossSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(appliedOnGrossSum_);
                   appliedOnGrossSum_ = subBuilder.buildPartial();
@@ -2382,7 +2381,7 @@ public final class OmGetOrderSurchargesPu {
                 if (origSurchValIsAbsolute_ != null) {
                   subBuilder = origSurchValIsAbsolute_.toBuilder();
                 }
-                origSurchValIsAbsolute_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                origSurchValIsAbsolute_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(origSurchValIsAbsolute_);
                   origSurchValIsAbsolute_ = subBuilder.buildPartial();
@@ -3016,9 +3015,8 @@ public final class OmGetOrderSurchargesPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3090,7 +3088,7 @@ public final class OmGetOrderSurchargesPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20011, getOrigSurchValIsAbsolute());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5991,8 +5989,8 @@ public final class OmGetOrderSurchargesPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -6160,9 +6158,8 @@ public final class OmGetOrderSurchargesPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -6178,7 +6175,7 @@ public final class OmGetOrderSurchargesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -7146,8 +7143,8 @@ public final class OmGetOrderSurchargesPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

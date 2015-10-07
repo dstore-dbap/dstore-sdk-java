@@ -254,7 +254,7 @@ public final class FoCopyPostingPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_CopyPosting_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -302,7 +302,7 @@ public final class FoCopyPostingPu {
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -315,7 +315,7 @@ public final class FoCopyPostingPu {
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -328,7 +328,7 @@ public final class FoCopyPostingPu {
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -341,7 +341,7 @@ public final class FoCopyPostingPu {
               if (postingId_ != null) {
                 subBuilder = postingId_.toBuilder();
               }
-              postingId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              postingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(postingId_);
                 postingId_ = subBuilder.buildPartial();
@@ -354,7 +354,7 @@ public final class FoCopyPostingPu {
               if (targetForumId_ != null) {
                 subBuilder = targetForumId_.toBuilder();
               }
-              targetForumId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              targetForumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(targetForumId_);
                 targetForumId_ = subBuilder.buildPartial();
@@ -367,7 +367,7 @@ public final class FoCopyPostingPu {
               if (targetPostingId_ != null) {
                 subBuilder = targetPostingId_.toBuilder();
               }
-              targetPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              targetPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(targetPostingId_);
                 targetPostingId_ = subBuilder.buildPartial();
@@ -380,7 +380,7 @@ public final class FoCopyPostingPu {
               if (keepAuthor_ != null) {
                 subBuilder = keepAuthor_.toBuilder();
               }
-              keepAuthor_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              keepAuthor_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keepAuthor_);
                 keepAuthor_ = subBuilder.buildPartial();
@@ -393,7 +393,7 @@ public final class FoCopyPostingPu {
               if (includeReplies_ != null) {
                 subBuilder = includeReplies_.toBuilder();
               }
-              includeReplies_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              includeReplies_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeReplies_);
                 includeReplies_ = subBuilder.buildPartial();
@@ -406,7 +406,7 @@ public final class FoCopyPostingPu {
               if (includeBinaries_ != null) {
                 subBuilder = includeBinaries_.toBuilder();
               }
-              includeBinaries_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              includeBinaries_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeBinaries_);
                 includeBinaries_ = subBuilder.buildPartial();
@@ -419,7 +419,7 @@ public final class FoCopyPostingPu {
               if (includeProperties_ != null) {
                 subBuilder = includeProperties_.toBuilder();
               }
-              includeProperties_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              includeProperties_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeProperties_);
                 includeProperties_ = subBuilder.buildPartial();
@@ -432,7 +432,7 @@ public final class FoCopyPostingPu {
               if (author_ != null) {
                 subBuilder = author_.toBuilder();
               }
-              author_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              author_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(author_);
                 author_ = subBuilder.buildPartial();
@@ -445,7 +445,7 @@ public final class FoCopyPostingPu {
               if (eMailOfAuthor_ != null) {
                 subBuilder = eMailOfAuthor_.toBuilder();
               }
-              eMailOfAuthor_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              eMailOfAuthor_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(eMailOfAuthor_);
                 eMailOfAuthor_ = subBuilder.buildPartial();
@@ -458,7 +458,7 @@ public final class FoCopyPostingPu {
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -1037,9 +1037,8 @@ public final class FoCopyPostingPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1147,7 +1146,7 @@ public final class FoCopyPostingPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1013, separatorInIdentValsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3463,8 +3462,8 @@ public final class FoCopyPostingPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3590,7 +3589,7 @@ public final class FoCopyPostingPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_CopyPosting_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3627,7 +3626,7 @@ public final class FoCopyPostingPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3640,7 +3639,7 @@ public final class FoCopyPostingPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3648,7 +3647,7 @@ public final class FoCopyPostingPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.FoCopyPostingPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.FoCopyPostingPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.FoCopyPostingPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3698,7 +3697,7 @@ public final class FoCopyPostingPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.fo_CopyPosting_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3784,9 +3783,8 @@ public final class FoCopyPostingPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3794,7 +3792,7 @@ public final class FoCopyPostingPu {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4023,8 +4021,8 @@ public final class FoCopyPostingPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4192,9 +4190,8 @@ public final class FoCopyPostingPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4210,7 +4207,7 @@ public final class FoCopyPostingPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5178,8 +5175,8 @@ public final class FoCopyPostingPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

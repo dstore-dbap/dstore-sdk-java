@@ -254,7 +254,7 @@ public final class CoGetSentMessagesPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetSentMessages_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -302,7 +302,7 @@ public final class CoGetSentMessagesPu {
               if (messageNo_ != null) {
                 subBuilder = messageNo_.toBuilder();
               }
-              messageNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              messageNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(messageNo_);
                 messageNo_ = subBuilder.buildPartial();
@@ -315,7 +315,7 @@ public final class CoGetSentMessagesPu {
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -328,7 +328,7 @@ public final class CoGetSentMessagesPu {
               if (personIdentificationValues_ != null) {
                 subBuilder = personIdentificationValues_.toBuilder();
               }
-              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              personIdentificationValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personIdentificationValues_);
                 personIdentificationValues_ = subBuilder.buildPartial();
@@ -341,7 +341,7 @@ public final class CoGetSentMessagesPu {
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -354,7 +354,7 @@ public final class CoGetSentMessagesPu {
               if (onlyMessagesToMemberId_ != null) {
                 subBuilder = onlyMessagesToMemberId_.toBuilder();
               }
-              onlyMessagesToMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              onlyMessagesToMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyMessagesToMemberId_);
                 onlyMessagesToMemberId_ = subBuilder.buildPartial();
@@ -367,7 +367,7 @@ public final class CoGetSentMessagesPu {
               if (dateAndTimeFormat_ != null) {
                 subBuilder = dateAndTimeFormat_.toBuilder();
               }
-              dateAndTimeFormat_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              dateAndTimeFormat_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dateAndTimeFormat_);
                 dateAndTimeFormat_ = subBuilder.buildPartial();
@@ -380,7 +380,7 @@ public final class CoGetSentMessagesPu {
               if (fromRowNumber_ != null) {
                 subBuilder = fromRowNumber_.toBuilder();
               }
-              fromRowNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              fromRowNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromRowNumber_);
                 fromRowNumber_ = subBuilder.buildPartial();
@@ -393,7 +393,7 @@ public final class CoGetSentMessagesPu {
               if (maxNumberOfRows_ != null) {
                 subBuilder = maxNumberOfRows_.toBuilder();
               }
-              maxNumberOfRows_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              maxNumberOfRows_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfRows_);
                 maxNumberOfRows_ = subBuilder.buildPartial();
@@ -406,7 +406,7 @@ public final class CoGetSentMessagesPu {
               if (fromMessageStatus_ != null) {
                 subBuilder = fromMessageStatus_.toBuilder();
               }
-              fromMessageStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              fromMessageStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromMessageStatus_);
                 fromMessageStatus_ = subBuilder.buildPartial();
@@ -419,7 +419,7 @@ public final class CoGetSentMessagesPu {
               if (toMessageStatus_ != null) {
                 subBuilder = toMessageStatus_.toBuilder();
               }
-              toMessageStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              toMessageStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toMessageStatus_);
                 toMessageStatus_ = subBuilder.buildPartial();
@@ -432,7 +432,7 @@ public final class CoGetSentMessagesPu {
               if (orderDesc_ != null) {
                 subBuilder = orderDesc_.toBuilder();
               }
-              orderDesc_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              orderDesc_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderDesc_);
                 orderDesc_ = subBuilder.buildPartial();
@@ -445,7 +445,7 @@ public final class CoGetSentMessagesPu {
               if (orderByNick_ != null) {
                 subBuilder = orderByNick_.toBuilder();
               }
-              orderByNick_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              orderByNick_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderByNick_);
                 orderByNick_ = subBuilder.buildPartial();
@@ -458,7 +458,7 @@ public final class CoGetSentMessagesPu {
               if (separatorInIdentVals_ != null) {
                 subBuilder = separatorInIdentVals_.toBuilder();
               }
-              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              separatorInIdentVals_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInIdentVals_);
                 separatorInIdentVals_ = subBuilder.buildPartial();
@@ -1037,9 +1037,8 @@ public final class CoGetSentMessagesPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1147,7 +1146,7 @@ public final class CoGetSentMessagesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1013, separatorInIdentValsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3463,8 +3462,8 @@ public final class CoGetSentMessagesPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3590,7 +3589,7 @@ public final class CoGetSentMessagesPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetSentMessages_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3627,7 +3626,7 @@ public final class CoGetSentMessagesPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3640,7 +3639,7 @@ public final class CoGetSentMessagesPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3648,7 +3647,7 @@ public final class CoGetSentMessagesPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.CoGetSentMessagesPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.CoGetSentMessagesPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.CoGetSentMessagesPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3873,7 +3872,7 @@ public final class CoGetSentMessagesPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.co_GetSentMessages_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3914,7 +3913,7 @@ public final class CoGetSentMessagesPu {
                 if (messageStatus_ != null) {
                   subBuilder = messageStatus_.toBuilder();
                 }
-                messageStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                messageStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(messageStatus_);
                   messageStatus_ = subBuilder.buildPartial();
@@ -3927,7 +3926,7 @@ public final class CoGetSentMessagesPu {
                 if (toCommunityMemberId_ != null) {
                   subBuilder = toCommunityMemberId_.toBuilder();
                 }
-                toCommunityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                toCommunityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toCommunityMemberId_);
                   toCommunityMemberId_ = subBuilder.buildPartial();
@@ -3940,7 +3939,7 @@ public final class CoGetSentMessagesPu {
                 if (message_ != null) {
                   subBuilder = message_.toBuilder();
                 }
-                message_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                message_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(message_);
                   message_ = subBuilder.buildPartial();
@@ -3953,7 +3952,7 @@ public final class CoGetSentMessagesPu {
                 if (messageNo_ != null) {
                   subBuilder = messageNo_.toBuilder();
                 }
-                messageNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                messageNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(messageNo_);
                   messageNo_ = subBuilder.buildPartial();
@@ -3966,7 +3965,7 @@ public final class CoGetSentMessagesPu {
                 if (messageDateAndTime_ != null) {
                   subBuilder = messageDateAndTime_.toBuilder();
                 }
-                messageDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                messageDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(messageDateAndTime_);
                   messageDateAndTime_ = subBuilder.buildPartial();
@@ -3979,7 +3978,7 @@ public final class CoGetSentMessagesPu {
                 if (toCommunityMemberNickname_ != null) {
                   subBuilder = toCommunityMemberNickname_.toBuilder();
                 }
-                toCommunityMemberNickname_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                toCommunityMemberNickname_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toCommunityMemberNickname_);
                   toCommunityMemberNickname_ = subBuilder.buildPartial();
@@ -3992,7 +3991,7 @@ public final class CoGetSentMessagesPu {
                 if (messageDateAndTimeChar_ != null) {
                   subBuilder = messageDateAndTimeChar_.toBuilder();
                 }
-                messageDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                messageDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(messageDateAndTimeChar_);
                   messageDateAndTimeChar_ = subBuilder.buildPartial();
@@ -4302,9 +4301,8 @@ public final class CoGetSentMessagesPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -4340,7 +4338,7 @@ public final class CoGetSentMessagesPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10007, getMessageDateAndTimeChar());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5738,8 +5736,8 @@ public final class CoGetSentMessagesPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -5907,9 +5905,8 @@ public final class CoGetSentMessagesPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -5925,7 +5922,7 @@ public final class CoGetSentMessagesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -6893,8 +6890,8 @@ public final class CoGetSentMessagesPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

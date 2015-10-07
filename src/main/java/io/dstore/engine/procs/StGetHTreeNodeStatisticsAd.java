@@ -128,7 +128,7 @@ public final class StGetHTreeNodeStatisticsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetHTreeNodeStatistics_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -169,7 +169,7 @@ public final class StGetHTreeNodeStatisticsAd {
               if (hTreeNodeId_ != null) {
                 subBuilder = hTreeNodeId_.toBuilder();
               }
-              hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(hTreeNodeId_);
                 hTreeNodeId_ = subBuilder.buildPartial();
@@ -182,7 +182,7 @@ public final class StGetHTreeNodeStatisticsAd {
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -195,7 +195,7 @@ public final class StGetHTreeNodeStatisticsAd {
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -208,7 +208,7 @@ public final class StGetHTreeNodeStatisticsAd {
               if (sourceTable_ != null) {
                 subBuilder = sourceTable_.toBuilder();
               }
-              sourceTable_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              sourceTable_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sourceTable_);
                 sourceTable_ = subBuilder.buildPartial();
@@ -221,7 +221,7 @@ public final class StGetHTreeNodeStatisticsAd {
               if (basicCharacteristicNumbers_ != null) {
                 subBuilder = basicCharacteristicNumbers_.toBuilder();
               }
-              basicCharacteristicNumbers_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              basicCharacteristicNumbers_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(basicCharacteristicNumbers_);
                 basicCharacteristicNumbers_ = subBuilder.buildPartial();
@@ -234,7 +234,7 @@ public final class StGetHTreeNodeStatisticsAd {
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -526,9 +526,8 @@ public final class StGetHTreeNodeStatisticsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -580,7 +579,7 @@ public final class StGetHTreeNodeStatisticsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1006, nodeCharacteristicIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1755,8 +1754,8 @@ public final class StGetHTreeNodeStatisticsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1882,7 +1881,7 @@ public final class StGetHTreeNodeStatisticsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetHTreeNodeStatistics_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1919,7 +1918,7 @@ public final class StGetHTreeNodeStatisticsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1932,7 +1931,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1940,7 +1939,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.StGetHTreeNodeStatisticsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.StGetHTreeNodeStatisticsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.StGetHTreeNodeStatisticsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2240,7 +2239,7 @@ public final class StGetHTreeNodeStatisticsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.st_GetHTreeNodeStatistics_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2281,7 +2280,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 if (percentageOfAllItems_ != null) {
                   subBuilder = percentageOfAllItems_.toBuilder();
                 }
-                percentageOfAllItems_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                percentageOfAllItems_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(percentageOfAllItems_);
                   percentageOfAllItems_ = subBuilder.buildPartial();
@@ -2294,7 +2293,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -2307,7 +2306,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 if (basicCharacteristic_ != null) {
                   subBuilder = basicCharacteristic_.toBuilder();
                 }
-                basicCharacteristic_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                basicCharacteristic_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristic_);
                   basicCharacteristic_ = subBuilder.buildPartial();
@@ -2320,7 +2319,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 if (percentageOfItemTree_ != null) {
                   subBuilder = percentageOfItemTree_.toBuilder();
                 }
-                percentageOfItemTree_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                percentageOfItemTree_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(percentageOfItemTree_);
                   percentageOfItemTree_ = subBuilder.buildPartial();
@@ -2333,7 +2332,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 if (totalValueHTreeNodeId_ != null) {
                   subBuilder = totalValueHTreeNodeId_.toBuilder();
                 }
-                totalValueHTreeNodeId_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                totalValueHTreeNodeId_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalValueHTreeNodeId_);
                   totalValueHTreeNodeId_ = subBuilder.buildPartial();
@@ -2346,7 +2345,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 if (directValueSimilarNodes_ != null) {
                   subBuilder = directValueSimilarNodes_.toBuilder();
                 }
-                directValueSimilarNodes_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                directValueSimilarNodes_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(directValueSimilarNodes_);
                   directValueSimilarNodes_ = subBuilder.buildPartial();
@@ -2359,7 +2358,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 if (totalValueSimilarNodes_ != null) {
                   subBuilder = totalValueSimilarNodes_.toBuilder();
                 }
-                totalValueSimilarNodes_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                totalValueSimilarNodes_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalValueSimilarNodes_);
                   totalValueSimilarNodes_ = subBuilder.buildPartial();
@@ -2372,7 +2371,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 if (basicCharacteristicNumber_ != null) {
                   subBuilder = basicCharacteristicNumber_.toBuilder();
                 }
-                basicCharacteristicNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                basicCharacteristicNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristicNumber_);
                   basicCharacteristicNumber_ = subBuilder.buildPartial();
@@ -2385,7 +2384,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 if (percentageOfPredecessor_ != null) {
                   subBuilder = percentageOfPredecessor_.toBuilder();
                 }
-                percentageOfPredecessor_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                percentageOfPredecessor_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(percentageOfPredecessor_);
                   percentageOfPredecessor_ = subBuilder.buildPartial();
@@ -2398,7 +2397,7 @@ public final class StGetHTreeNodeStatisticsAd {
                 if (directValueHTreeNodeId_ != null) {
                   subBuilder = directValueHTreeNodeId_.toBuilder();
                 }
-                directValueHTreeNodeId_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                directValueHTreeNodeId_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(directValueHTreeNodeId_);
                   directValueHTreeNodeId_ = subBuilder.buildPartial();
@@ -2816,9 +2815,8 @@ public final class StGetHTreeNodeStatisticsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2866,7 +2864,7 @@ public final class StGetHTreeNodeStatisticsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10010, getDirectValueHTreeNodeId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4765,8 +4763,8 @@ public final class StGetHTreeNodeStatisticsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4934,9 +4932,8 @@ public final class StGetHTreeNodeStatisticsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4952,7 +4949,7 @@ public final class StGetHTreeNodeStatisticsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5920,8 +5917,8 @@ public final class StGetHTreeNodeStatisticsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

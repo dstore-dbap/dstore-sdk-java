@@ -110,7 +110,7 @@ public final class FoGetPostingsOfOnePersonAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingsOfOnePerson_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -150,7 +150,7 @@ public final class FoGetPostingsOfOnePersonAd {
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -163,7 +163,7 @@ public final class FoGetPostingsOfOnePersonAd {
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -176,7 +176,7 @@ public final class FoGetPostingsOfOnePersonAd {
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -189,7 +189,7 @@ public final class FoGetPostingsOfOnePersonAd {
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -202,7 +202,7 @@ public final class FoGetPostingsOfOnePersonAd {
               if (includeBodies_ != null) {
                 subBuilder = includeBodies_.toBuilder();
               }
-              includeBodies_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeBodies_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeBodies_);
                 includeBodies_ = subBuilder.buildPartial();
@@ -453,9 +453,8 @@ public final class FoGetPostingsOfOnePersonAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -499,7 +498,7 @@ public final class FoGetPostingsOfOnePersonAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, includeBodiesNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1511,8 +1510,8 @@ public final class FoGetPostingsOfOnePersonAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1638,7 +1637,7 @@ public final class FoGetPostingsOfOnePersonAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingsOfOnePerson_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1675,7 +1674,7 @@ public final class FoGetPostingsOfOnePersonAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1688,7 +1687,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1696,7 +1695,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.FoGetPostingsOfOnePersonAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.FoGetPostingsOfOnePersonAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.FoGetPostingsOfOnePersonAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2071,7 +2070,7 @@ public final class FoGetPostingsOfOnePersonAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetPostingsOfOnePerson_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2112,7 +2111,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (smallBody_ != null) {
                   subBuilder = smallBody_.toBuilder();
                 }
-                smallBody_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                smallBody_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(smallBody_);
                   smallBody_ = subBuilder.buildPartial();
@@ -2125,7 +2124,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (postingId_ != null) {
                   subBuilder = postingId_.toBuilder();
                 }
-                postingId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                postingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postingId_);
                   postingId_ = subBuilder.buildPartial();
@@ -2138,7 +2137,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (forumId_ != null) {
                   subBuilder = forumId_.toBuilder();
                 }
-                forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(forumId_);
                   forumId_ = subBuilder.buildPartial();
@@ -2151,7 +2150,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (forumName_ != null) {
                   subBuilder = forumName_.toBuilder();
                 }
-                forumName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                forumName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(forumName_);
                   forumName_ = subBuilder.buildPartial();
@@ -2164,7 +2163,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (replyToPostingId_ != null) {
                   subBuilder = replyToPostingId_.toBuilder();
                 }
-                replyToPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                replyToPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(replyToPostingId_);
                   replyToPostingId_ = subBuilder.buildPartial();
@@ -2177,7 +2176,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (subject_ != null) {
                   subBuilder = subject_.toBuilder();
                 }
-                subject_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                subject_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(subject_);
                   subject_ = subBuilder.buildPartial();
@@ -2190,7 +2189,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (eMailOfAuthor_ != null) {
                   subBuilder = eMailOfAuthor_.toBuilder();
                 }
-                eMailOfAuthor_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                eMailOfAuthor_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(eMailOfAuthor_);
                   eMailOfAuthor_ = subBuilder.buildPartial();
@@ -2203,7 +2202,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (postDateChar_ != null) {
                   subBuilder = postDateChar_.toBuilder();
                 }
-                postDateChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                postDateChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postDateChar_);
                   postDateChar_ = subBuilder.buildPartial();
@@ -2216,7 +2215,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (mainPostingId_ != null) {
                   subBuilder = mainPostingId_.toBuilder();
                 }
-                mainPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                mainPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(mainPostingId_);
                   mainPostingId_ = subBuilder.buildPartial();
@@ -2229,7 +2228,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (visible_ != null) {
                   subBuilder = visible_.toBuilder();
                 }
-                visible_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                visible_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visible_);
                   visible_ = subBuilder.buildPartial();
@@ -2242,7 +2241,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (author_ != null) {
                   subBuilder = author_.toBuilder();
                 }
-                author_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                author_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(author_);
                   author_ = subBuilder.buildPartial();
@@ -2255,7 +2254,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (postDate_ != null) {
                   subBuilder = postDate_.toBuilder();
                 }
-                postDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                postDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postDate_);
                   postDate_ = subBuilder.buildPartial();
@@ -2268,7 +2267,7 @@ public final class FoGetPostingsOfOnePersonAd {
                 if (body_ != null) {
                   subBuilder = body_.toBuilder();
                 }
-                body_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                body_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(body_);
                   body_ = subBuilder.buildPartial();
@@ -2794,9 +2793,8 @@ public final class FoGetPostingsOfOnePersonAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2856,7 +2854,7 @@ public final class FoGetPostingsOfOnePersonAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10013, getBody());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5256,8 +5254,8 @@ public final class FoGetPostingsOfOnePersonAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -5425,9 +5423,8 @@ public final class FoGetPostingsOfOnePersonAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -5443,7 +5440,7 @@ public final class FoGetPostingsOfOnePersonAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -6411,8 +6408,8 @@ public final class FoGetPostingsOfOnePersonAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

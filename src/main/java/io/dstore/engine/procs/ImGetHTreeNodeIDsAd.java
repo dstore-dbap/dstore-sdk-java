@@ -74,7 +74,7 @@ public final class ImGetHTreeNodeIDsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetHTreeNodeIDs_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -112,7 +112,7 @@ public final class ImGetHTreeNodeIDsAd {
               if (nodeId_ != null) {
                 subBuilder = nodeId_.toBuilder();
               }
-              nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeId_);
                 nodeId_ = subBuilder.buildPartial();
@@ -125,7 +125,7 @@ public final class ImGetHTreeNodeIDsAd {
               if (isTreeNodeId_ != null) {
                 subBuilder = isTreeNodeId_.toBuilder();
               }
-              isTreeNodeId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              isTreeNodeId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isTreeNodeId_);
                 isTreeNodeId_ = subBuilder.buildPartial();
@@ -138,7 +138,7 @@ public final class ImGetHTreeNodeIDsAd {
               if (getHierarchyIndependentNodes_ != null) {
                 subBuilder = getHierarchyIndependentNodes_.toBuilder();
               }
-              getHierarchyIndependentNodes_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getHierarchyIndependentNodes_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getHierarchyIndependentNodes_);
                 getHierarchyIndependentNodes_ = subBuilder.buildPartial();
@@ -307,9 +307,8 @@ public final class ImGetHTreeNodeIDsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -337,7 +336,7 @@ public final class ImGetHTreeNodeIDsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, getHierarchyIndependentNodesNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1023,8 +1022,8 @@ public final class ImGetHTreeNodeIDsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1150,7 +1149,7 @@ public final class ImGetHTreeNodeIDsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetHTreeNodeIDs_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1187,7 +1186,7 @@ public final class ImGetHTreeNodeIDsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1200,7 +1199,7 @@ public final class ImGetHTreeNodeIDsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1208,7 +1207,7 @@ public final class ImGetHTreeNodeIDsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImGetHTreeNodeIDsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImGetHTreeNodeIDsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImGetHTreeNodeIDsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1558,7 +1557,7 @@ public final class ImGetHTreeNodeIDsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_GetHTreeNodeIDs_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1599,7 +1598,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -1612,7 +1611,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (predecessorTreeNodeId_ != null) {
                   subBuilder = predecessorTreeNodeId_.toBuilder();
                 }
-                predecessorTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                predecessorTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessorTreeNodeId_);
                   predecessorTreeNodeId_ = subBuilder.buildPartial();
@@ -1625,7 +1624,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (predecessorDescription_ != null) {
                   subBuilder = predecessorDescription_.toBuilder();
                 }
-                predecessorDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                predecessorDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessorDescription_);
                   predecessorDescription_ = subBuilder.buildPartial();
@@ -1638,7 +1637,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -1651,7 +1650,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (prePredecessorDescription_ != null) {
                   subBuilder = prePredecessorDescription_.toBuilder();
                 }
-                prePredecessorDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                prePredecessorDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prePredecessorDescription_);
                   prePredecessorDescription_ = subBuilder.buildPartial();
@@ -1664,7 +1663,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (prePredecessorTreeNodeId_ != null) {
                   subBuilder = prePredecessorTreeNodeId_.toBuilder();
                 }
-                prePredecessorTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                prePredecessorTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(prePredecessorTreeNodeId_);
                   prePredecessorTreeNodeId_ = subBuilder.buildPartial();
@@ -1677,7 +1676,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -1690,7 +1689,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -1703,7 +1702,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (fromDate_ != null) {
                   subBuilder = fromDate_.toBuilder();
                 }
-                fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromDate_);
                   fromDate_ = subBuilder.buildPartial();
@@ -1716,7 +1715,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (toDate_ != null) {
                   subBuilder = toDate_.toBuilder();
                 }
-                toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toDate_);
                   toDate_ = subBuilder.buildPartial();
@@ -1729,7 +1728,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (toDateChar_ != null) {
                   subBuilder = toDateChar_.toBuilder();
                 }
-                toDateChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                toDateChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toDateChar_);
                   toDateChar_ = subBuilder.buildPartial();
@@ -1742,7 +1741,7 @@ public final class ImGetHTreeNodeIDsAd {
                 if (fromDateChar_ != null) {
                   subBuilder = fromDateChar_.toBuilder();
                 }
-                fromDateChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                fromDateChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromDateChar_);
                   fromDateChar_ = subBuilder.buildPartial();
@@ -2232,9 +2231,8 @@ public final class ImGetHTreeNodeIDsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2290,7 +2288,7 @@ public final class ImGetHTreeNodeIDsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10012, getFromDateChar());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4523,8 +4521,8 @@ public final class ImGetHTreeNodeIDsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4692,9 +4690,8 @@ public final class ImGetHTreeNodeIDsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4710,7 +4707,7 @@ public final class ImGetHTreeNodeIDsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5678,8 +5675,8 @@ public final class ImGetHTreeNodeIDsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

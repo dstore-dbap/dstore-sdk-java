@@ -164,7 +164,7 @@ public final class OmGetCampaignBundlePricingPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignBundlePricing_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -207,7 +207,7 @@ public final class OmGetCampaignBundlePricingPu {
               if (benefitId_ != null) {
                 subBuilder = benefitId_.toBuilder();
               }
-              benefitId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              benefitId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(benefitId_);
                 benefitId_ = subBuilder.buildPartial();
@@ -220,7 +220,7 @@ public final class OmGetCampaignBundlePricingPu {
               if (onlyDefinition_ != null) {
                 subBuilder = onlyDefinition_.toBuilder();
               }
-              onlyDefinition_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              onlyDefinition_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyDefinition_);
                 onlyDefinition_ = subBuilder.buildPartial();
@@ -233,7 +233,7 @@ public final class OmGetCampaignBundlePricingPu {
               if (filterByItemSetId_ != null) {
                 subBuilder = filterByItemSetId_.toBuilder();
               }
-              filterByItemSetId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              filterByItemSetId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByItemSetId_);
                 filterByItemSetId_ = subBuilder.buildPartial();
@@ -246,7 +246,7 @@ public final class OmGetCampaignBundlePricingPu {
               if (sortByCharacteristicIdList_ != null) {
                 subBuilder = sortByCharacteristicIdList_.toBuilder();
               }
-              sortByCharacteristicIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              sortByCharacteristicIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortByCharacteristicIdList_);
                 sortByCharacteristicIdList_ = subBuilder.buildPartial();
@@ -259,7 +259,7 @@ public final class OmGetCampaignBundlePricingPu {
               if (sortOptionList_ != null) {
                 subBuilder = sortOptionList_.toBuilder();
               }
-              sortOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              sortOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortOptionList_);
                 sortOptionList_ = subBuilder.buildPartial();
@@ -272,7 +272,7 @@ public final class OmGetCampaignBundlePricingPu {
               if (inheritDepthOptionList_ != null) {
                 subBuilder = inheritDepthOptionList_.toBuilder();
               }
-              inheritDepthOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              inheritDepthOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(inheritDepthOptionList_);
                 inheritDepthOptionList_ = subBuilder.buildPartial();
@@ -285,7 +285,7 @@ public final class OmGetCampaignBundlePricingPu {
               if (recursiveEvaluationOptionList_ != null) {
                 subBuilder = recursiveEvaluationOptionList_.toBuilder();
               }
-              recursiveEvaluationOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              recursiveEvaluationOptionList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(recursiveEvaluationOptionList_);
                 recursiveEvaluationOptionList_ = subBuilder.buildPartial();
@@ -298,7 +298,7 @@ public final class OmGetCampaignBundlePricingPu {
               if (getValuesForSortByCharacs_ != null) {
                 subBuilder = getValuesForSortByCharacs_.toBuilder();
               }
-              getValuesForSortByCharacs_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getValuesForSortByCharacs_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getValuesForSortByCharacs_);
                 getValuesForSortByCharacs_ = subBuilder.buildPartial();
@@ -672,9 +672,8 @@ public final class OmGetCampaignBundlePricingPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -742,7 +741,7 @@ public final class OmGetCampaignBundlePricingPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1008, getValuesForSortByCharacsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2243,8 +2242,8 @@ public final class OmGetCampaignBundlePricingPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2370,7 +2369,7 @@ public final class OmGetCampaignBundlePricingPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignBundlePricing_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2407,7 +2406,7 @@ public final class OmGetCampaignBundlePricingPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2420,7 +2419,7 @@ public final class OmGetCampaignBundlePricingPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2428,7 +2427,7 @@ public final class OmGetCampaignBundlePricingPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetCampaignBundlePricingPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetCampaignBundlePricingPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetCampaignBundlePricingPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3303,7 +3302,7 @@ public final class OmGetCampaignBundlePricingPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignBundlePricing_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3345,7 +3344,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (netBasedPricing_ != null) {
                   subBuilder = netBasedPricing_.toBuilder();
                 }
-                netBasedPricing_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                netBasedPricing_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(netBasedPricing_);
                   netBasedPricing_ = subBuilder.buildPartial();
@@ -3358,7 +3357,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (itemConditionId_ != null) {
                   subBuilder = itemConditionId_.toBuilder();
                 }
-                itemConditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemConditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionId_);
                   itemConditionId_ = subBuilder.buildPartial();
@@ -3371,7 +3370,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (bundlePricingTypeId_ != null) {
                   subBuilder = bundlePricingTypeId_.toBuilder();
                 }
-                bundlePricingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                bundlePricingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(bundlePricingTypeId_);
                   bundlePricingTypeId_ = subBuilder.buildPartial();
@@ -3384,7 +3383,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (bundlePricingType_ != null) {
                   subBuilder = bundlePricingType_.toBuilder();
                 }
-                bundlePricingType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                bundlePricingType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(bundlePricingType_);
                   bundlePricingType_ = subBuilder.buildPartial();
@@ -3397,7 +3396,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (itemSetId_ != null) {
                   subBuilder = itemSetId_.toBuilder();
                 }
-                itemSetId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemSetId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemSetId_);
                   itemSetId_ = subBuilder.buildPartial();
@@ -3410,7 +3409,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (quantity_ != null) {
                   subBuilder = quantity_.toBuilder();
                 }
-                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quantity_);
                   quantity_ = subBuilder.buildPartial();
@@ -3423,7 +3422,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (distinctItemsOnly_ != null) {
                   subBuilder = distinctItemsOnly_.toBuilder();
                 }
-                distinctItemsOnly_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                distinctItemsOnly_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(distinctItemsOnly_);
                   distinctItemsOnly_ = subBuilder.buildPartial();
@@ -3436,7 +3435,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (itemConditionDescription_ != null) {
                   subBuilder = itemConditionDescription_.toBuilder();
                 }
-                itemConditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                itemConditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionDescription_);
                   itemConditionDescription_ = subBuilder.buildPartial();
@@ -3449,7 +3448,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -3462,7 +3461,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (bundlePriceOrDiscount_ != null) {
                   subBuilder = bundlePriceOrDiscount_.toBuilder();
                 }
-                bundlePriceOrDiscount_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                bundlePriceOrDiscount_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(bundlePriceOrDiscount_);
                   bundlePriceOrDiscount_ = subBuilder.buildPartial();
@@ -3475,7 +3474,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (condition1_ != null) {
                   subBuilder = condition1_.toBuilder();
                 }
-                condition1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                condition1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(condition1_);
                   condition1_ = subBuilder.buildPartial();
@@ -3488,7 +3487,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (condition2_ != null) {
                   subBuilder = condition2_.toBuilder();
                 }
-                condition2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                condition2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(condition2_);
                   condition2_ = subBuilder.buildPartial();
@@ -3501,7 +3500,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (recursiveEvaluation_ != null) {
                   subBuilder = recursiveEvaluation_.toBuilder();
                 }
-                recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                recursiveEvaluation_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(recursiveEvaluation_);
                   recursiveEvaluation_ = subBuilder.buildPartial();
@@ -3514,7 +3513,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (domainTreeNodeIds_ != null) {
                   subBuilder = domainTreeNodeIds_.toBuilder();
                 }
-                domainTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                domainTreeNodeIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(domainTreeNodeIds_);
                   domainTreeNodeIds_ = subBuilder.buildPartial();
@@ -3527,7 +3526,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (nodeCharacteristicId_ != null) {
                   subBuilder = nodeCharacteristicId_.toBuilder();
                 }
-                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeCharacteristicId_);
                   nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -3540,7 +3539,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (itemConditionPartId_ != null) {
                   subBuilder = itemConditionPartId_.toBuilder();
                 }
-                itemConditionPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemConditionPartId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionPartId_);
                   itemConditionPartId_ = subBuilder.buildPartial();
@@ -3553,7 +3552,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (combineGroupsWithANDOperator_ != null) {
                   subBuilder = combineGroupsWithANDOperator_.toBuilder();
                 }
-                combineGroupsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                combineGroupsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(combineGroupsWithANDOperator_);
                   combineGroupsWithANDOperator_ = subBuilder.buildPartial();
@@ -3566,7 +3565,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (itemConditionPartDescription_ != null) {
                   subBuilder = itemConditionPartDescription_.toBuilder();
                 }
-                itemConditionPartDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                itemConditionPartDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionPartDescription_);
                   itemConditionPartDescription_ = subBuilder.buildPartial();
@@ -3579,7 +3578,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (levelIds_ != null) {
                   subBuilder = levelIds_.toBuilder();
                 }
-                levelIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                levelIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelIds_);
                   levelIds_ = subBuilder.buildPartial();
@@ -3592,7 +3591,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (itemConditionGroupId_ != null) {
                   subBuilder = itemConditionGroupId_.toBuilder();
                 }
-                itemConditionGroupId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemConditionGroupId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionGroupId_);
                   itemConditionGroupId_ = subBuilder.buildPartial();
@@ -3605,7 +3604,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (itemGroupSortNo_ != null) {
                   subBuilder = itemGroupSortNo_.toBuilder();
                 }
-                itemGroupSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemGroupSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemGroupSortNo_);
                   itemGroupSortNo_ = subBuilder.buildPartial();
@@ -3618,7 +3617,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (operator1_ != null) {
                   subBuilder = operator1_.toBuilder();
                 }
-                operator1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                operator1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(operator1_);
                   operator1_ = subBuilder.buildPartial();
@@ -3631,7 +3630,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (operator2_ != null) {
                   subBuilder = operator2_.toBuilder();
                 }
-                operator2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                operator2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(operator2_);
                   operator2_ = subBuilder.buildPartial();
@@ -3644,7 +3643,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (itemConditionGroupDescription_ != null) {
                   subBuilder = itemConditionGroupDescription_.toBuilder();
                 }
-                itemConditionGroupDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                itemConditionGroupDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemConditionGroupDescription_);
                   itemConditionGroupDescription_ = subBuilder.buildPartial();
@@ -3657,7 +3656,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (combinePartsWithANDOperator_ != null) {
                   subBuilder = combinePartsWithANDOperator_.toBuilder();
                 }
-                combinePartsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                combinePartsWithANDOperator_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(combinePartsWithANDOperator_);
                   combinePartsWithANDOperator_ = subBuilder.buildPartial();
@@ -3670,7 +3669,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (itemPartSortNo_ != null) {
                   subBuilder = itemPartSortNo_.toBuilder();
                 }
-                itemPartSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                itemPartSortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemPartSortNo_);
                   itemPartSortNo_ = subBuilder.buildPartial();
@@ -3683,7 +3682,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (inheritDepth_ != null) {
                   subBuilder = inheritDepth_.toBuilder();
                 }
-                inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                inheritDepth_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inheritDepth_);
                   inheritDepth_ = subBuilder.buildPartial();
@@ -3696,7 +3695,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -3709,7 +3708,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -3722,7 +3721,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -3735,7 +3734,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -3748,7 +3747,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -3761,7 +3760,7 @@ public final class OmGetCampaignBundlePricingPu {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -5007,9 +5006,8 @@ public final class OmGetCampaignBundlePricingPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -5149,7 +5147,7 @@ public final class OmGetCampaignBundlePricingPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(30007, getNodeId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -10889,8 +10887,8 @@ public final class OmGetCampaignBundlePricingPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -11058,9 +11056,8 @@ public final class OmGetCampaignBundlePricingPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -11076,7 +11073,7 @@ public final class OmGetCampaignBundlePricingPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -12044,8 +12041,8 @@ public final class OmGetCampaignBundlePricingPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

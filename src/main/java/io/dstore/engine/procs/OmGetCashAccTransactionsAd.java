@@ -74,7 +74,7 @@ public final class OmGetCashAccTransactionsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCashAccTransactions_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -112,7 +112,7 @@ public final class OmGetCashAccTransactionsAd {
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -125,7 +125,7 @@ public final class OmGetCashAccTransactionsAd {
               if (cashAccountTypeId_ != null) {
                 subBuilder = cashAccountTypeId_.toBuilder();
               }
-              cashAccountTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              cashAccountTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(cashAccountTypeId_);
                 cashAccountTypeId_ = subBuilder.buildPartial();
@@ -138,7 +138,7 @@ public final class OmGetCashAccTransactionsAd {
               if (onlyTransactionsSince_ != null) {
                 subBuilder = onlyTransactionsSince_.toBuilder();
               }
-              onlyTransactionsSince_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              onlyTransactionsSince_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyTransactionsSince_);
                 onlyTransactionsSince_ = subBuilder.buildPartial();
@@ -307,9 +307,8 @@ public final class OmGetCashAccTransactionsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -337,7 +336,7 @@ public final class OmGetCashAccTransactionsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, onlyTransactionsSinceNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1023,8 +1022,8 @@ public final class OmGetCashAccTransactionsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1143,7 +1142,7 @@ public final class OmGetCashAccTransactionsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCashAccTransactions_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1180,7 +1179,7 @@ public final class OmGetCashAccTransactionsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1193,7 +1192,7 @@ public final class OmGetCashAccTransactionsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1201,7 +1200,7 @@ public final class OmGetCashAccTransactionsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetCashAccTransactionsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetCashAccTransactionsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetCashAccTransactionsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -1209,7 +1208,7 @@ public final class OmGetCashAccTransactionsAd {
               if (accountBalance_ != null) {
                 subBuilder = accountBalance_.toBuilder();
               }
-              accountBalance_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              accountBalance_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(accountBalance_);
                 accountBalance_ = subBuilder.buildPartial();
@@ -1489,7 +1488,7 @@ public final class OmGetCashAccTransactionsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCashAccTransactions_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1530,7 +1529,7 @@ public final class OmGetCashAccTransactionsAd {
                 if (transactionType_ != null) {
                   subBuilder = transactionType_.toBuilder();
                 }
-                transactionType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                transactionType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(transactionType_);
                   transactionType_ = subBuilder.buildPartial();
@@ -1543,7 +1542,7 @@ public final class OmGetCashAccTransactionsAd {
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -1556,7 +1555,7 @@ public final class OmGetCashAccTransactionsAd {
                 if (transactionDateAndTime_ != null) {
                   subBuilder = transactionDateAndTime_.toBuilder();
                 }
-                transactionDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                transactionDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(transactionDateAndTime_);
                   transactionDateAndTime_ = subBuilder.buildPartial();
@@ -1569,7 +1568,7 @@ public final class OmGetCashAccTransactionsAd {
                 if (transactionValue_ != null) {
                   subBuilder = transactionValue_.toBuilder();
                 }
-                transactionValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                transactionValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(transactionValue_);
                   transactionValue_ = subBuilder.buildPartial();
@@ -1582,7 +1581,7 @@ public final class OmGetCashAccTransactionsAd {
                 if (transactionComment_ != null) {
                   subBuilder = transactionComment_.toBuilder();
                 }
-                transactionComment_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                transactionComment_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(transactionComment_);
                   transactionComment_ = subBuilder.buildPartial();
@@ -1595,7 +1594,7 @@ public final class OmGetCashAccTransactionsAd {
                 if (transactionTypeId_ != null) {
                   subBuilder = transactionTypeId_.toBuilder();
                 }
-                transactionTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                transactionTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(transactionTypeId_);
                   transactionTypeId_ = subBuilder.buildPartial();
@@ -1608,7 +1607,7 @@ public final class OmGetCashAccTransactionsAd {
                 if (cashAccountTypeId_ != null) {
                   subBuilder = cashAccountTypeId_.toBuilder();
                 }
-                cashAccountTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                cashAccountTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(cashAccountTypeId_);
                   cashAccountTypeId_ = subBuilder.buildPartial();
@@ -1621,7 +1620,7 @@ public final class OmGetCashAccTransactionsAd {
                 if (suspendedUntil_ != null) {
                   subBuilder = suspendedUntil_.toBuilder();
                 }
-                suspendedUntil_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                suspendedUntil_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(suspendedUntil_);
                   suspendedUntil_ = subBuilder.buildPartial();
@@ -1634,7 +1633,7 @@ public final class OmGetCashAccTransactionsAd {
                 if (transactionId_ != null) {
                   subBuilder = transactionId_.toBuilder();
                 }
-                transactionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                transactionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(transactionId_);
                   transactionId_ = subBuilder.buildPartial();
@@ -2016,9 +2015,8 @@ public final class OmGetCashAccTransactionsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2062,7 +2060,7 @@ public final class OmGetCashAccTransactionsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10009, getTransactionId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3794,8 +3792,8 @@ public final class OmGetCashAccTransactionsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3967,9 +3965,8 @@ public final class OmGetCashAccTransactionsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3989,7 +3986,7 @@ public final class OmGetCashAccTransactionsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getAccountBalance());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5016,8 +5013,8 @@ public final class OmGetCashAccTransactionsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

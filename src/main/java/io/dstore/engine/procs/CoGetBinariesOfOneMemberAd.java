@@ -56,7 +56,7 @@ public final class CoGetBinariesOfOneMemberAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetBinariesOfOneMember_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -93,7 +93,7 @@ public final class CoGetBinariesOfOneMemberAd {
               if (communityMemberId_ != null) {
                 subBuilder = communityMemberId_.toBuilder();
               }
-              communityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              communityMemberId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityMemberId_);
                 communityMemberId_ = subBuilder.buildPartial();
@@ -106,7 +106,7 @@ public final class CoGetBinariesOfOneMemberAd {
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -234,9 +234,8 @@ public final class CoGetBinariesOfOneMemberAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -256,7 +255,7 @@ public final class CoGetBinariesOfOneMemberAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1002, communityIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -779,8 +778,8 @@ public final class CoGetBinariesOfOneMemberAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -906,7 +905,7 @@ public final class CoGetBinariesOfOneMemberAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.co_GetBinariesOfOneMember_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -943,7 +942,7 @@ public final class CoGetBinariesOfOneMemberAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -956,7 +955,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -964,7 +963,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.CoGetBinariesOfOneMemberAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.CoGetBinariesOfOneMemberAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.CoGetBinariesOfOneMemberAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1339,7 +1338,7 @@ public final class CoGetBinariesOfOneMemberAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.co_GetBinariesOfOneMember_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1380,7 +1379,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (binaryId_ != null) {
                   subBuilder = binaryId_.toBuilder();
                 }
-                binaryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                binaryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryId_);
                   binaryId_ = subBuilder.buildPartial();
@@ -1393,7 +1392,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (binaryDescription_ != null) {
                   subBuilder = binaryDescription_.toBuilder();
                 }
-                binaryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                binaryDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryDescription_);
                   binaryDescription_ = subBuilder.buildPartial();
@@ -1406,7 +1405,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (inputDateAndTime_ != null) {
                   subBuilder = inputDateAndTime_.toBuilder();
                 }
-                inputDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                inputDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inputDateAndTime_);
                   inputDateAndTime_ = subBuilder.buildPartial();
@@ -1419,7 +1418,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (contentType_ != null) {
                   subBuilder = contentType_.toBuilder();
                 }
-                contentType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                contentType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(contentType_);
                   contentType_ = subBuilder.buildPartial();
@@ -1432,7 +1431,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (fileDateAndTime_ != null) {
                   subBuilder = fileDateAndTime_.toBuilder();
                 }
-                fileDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                fileDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fileDateAndTime_);
                   fileDateAndTime_ = subBuilder.buildPartial();
@@ -1445,7 +1444,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (filesizeInKB_ != null) {
                   subBuilder = filesizeInKB_.toBuilder();
                 }
-                filesizeInKB_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                filesizeInKB_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(filesizeInKB_);
                   filesizeInKB_ = subBuilder.buildPartial();
@@ -1458,7 +1457,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (sortNo_ != null) {
                   subBuilder = sortNo_.toBuilder();
                 }
-                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(sortNo_);
                   sortNo_ = subBuilder.buildPartial();
@@ -1471,7 +1470,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (communityBinaryCategory_ != null) {
                   subBuilder = communityBinaryCategory_.toBuilder();
                 }
-                communityBinaryCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                communityBinaryCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(communityBinaryCategory_);
                   communityBinaryCategory_ = subBuilder.buildPartial();
@@ -1484,7 +1483,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (communityBinaryCategoryId_ != null) {
                   subBuilder = communityBinaryCategoryId_.toBuilder();
                 }
-                communityBinaryCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                communityBinaryCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(communityBinaryCategoryId_);
                   communityBinaryCategoryId_ = subBuilder.buildPartial();
@@ -1497,7 +1496,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (quotedFileSizeInKB_ != null) {
                   subBuilder = quotedFileSizeInKB_.toBuilder();
                 }
-                quotedFileSizeInKB_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                quotedFileSizeInKB_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quotedFileSizeInKB_);
                   quotedFileSizeInKB_ = subBuilder.buildPartial();
@@ -1510,7 +1509,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (fileDateAndTimeChar_ != null) {
                   subBuilder = fileDateAndTimeChar_.toBuilder();
                 }
-                fileDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                fileDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fileDateAndTimeChar_);
                   fileDateAndTimeChar_ = subBuilder.buildPartial();
@@ -1523,7 +1522,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (mD5Hash_ != null) {
                   subBuilder = mD5Hash_.toBuilder();
                 }
-                mD5Hash_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                mD5Hash_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(mD5Hash_);
                   mD5Hash_ = subBuilder.buildPartial();
@@ -1536,7 +1535,7 @@ public final class CoGetBinariesOfOneMemberAd {
                 if (inputDateAndTimeChar_ != null) {
                   subBuilder = inputDateAndTimeChar_.toBuilder();
                 }
-                inputDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                inputDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inputDateAndTimeChar_);
                   inputDateAndTimeChar_ = subBuilder.buildPartial();
@@ -2062,9 +2061,8 @@ public final class CoGetBinariesOfOneMemberAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2124,7 +2122,7 @@ public final class CoGetBinariesOfOneMemberAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10013, getInputDateAndTimeChar());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4524,8 +4522,8 @@ public final class CoGetBinariesOfOneMemberAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4693,9 +4691,8 @@ public final class CoGetBinariesOfOneMemberAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4711,7 +4708,7 @@ public final class CoGetBinariesOfOneMemberAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5679,8 +5676,8 @@ public final class CoGetBinariesOfOneMemberAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

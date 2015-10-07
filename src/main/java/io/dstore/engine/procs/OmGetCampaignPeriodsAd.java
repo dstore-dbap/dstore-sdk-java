@@ -92,7 +92,7 @@ public final class OmGetCampaignPeriodsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignPeriods_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -131,7 +131,7 @@ public final class OmGetCampaignPeriodsAd {
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -144,7 +144,7 @@ public final class OmGetCampaignPeriodsAd {
               if (periodDefinitionId_ != null) {
                 subBuilder = periodDefinitionId_.toBuilder();
               }
-              periodDefinitionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              periodDefinitionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(periodDefinitionId_);
                 periodDefinitionId_ = subBuilder.buildPartial();
@@ -157,7 +157,7 @@ public final class OmGetCampaignPeriodsAd {
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -170,7 +170,7 @@ public final class OmGetCampaignPeriodsAd {
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -380,9 +380,8 @@ public final class OmGetCampaignPeriodsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -418,7 +417,7 @@ public final class OmGetCampaignPeriodsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1004, toDateNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1267,8 +1266,8 @@ public final class OmGetCampaignPeriodsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1394,7 +1393,7 @@ public final class OmGetCampaignPeriodsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignPeriods_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1431,7 +1430,7 @@ public final class OmGetCampaignPeriodsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1444,7 +1443,7 @@ public final class OmGetCampaignPeriodsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1452,7 +1451,7 @@ public final class OmGetCampaignPeriodsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetCampaignPeriodsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetCampaignPeriodsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetCampaignPeriodsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1802,7 +1801,7 @@ public final class OmGetCampaignPeriodsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignPeriods_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1843,7 +1842,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (campaignId_ != null) {
                   subBuilder = campaignId_.toBuilder();
                 }
-                campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignId_);
                   campaignId_ = subBuilder.buildPartial();
@@ -1856,7 +1855,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (periodEndDateAndTime_ != null) {
                   subBuilder = periodEndDateAndTime_.toBuilder();
                 }
-                periodEndDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                periodEndDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(periodEndDateAndTime_);
                   periodEndDateAndTime_ = subBuilder.buildPartial();
@@ -1869,7 +1868,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (periodDefinitionName_ != null) {
                   subBuilder = periodDefinitionName_.toBuilder();
                 }
-                periodDefinitionName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                periodDefinitionName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(periodDefinitionName_);
                   periodDefinitionName_ = subBuilder.buildPartial();
@@ -1882,7 +1881,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (periodDefinitionId_ != null) {
                   subBuilder = periodDefinitionId_.toBuilder();
                 }
-                periodDefinitionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                periodDefinitionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(periodDefinitionId_);
                   periodDefinitionId_ = subBuilder.buildPartial();
@@ -1895,7 +1894,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (periodEndDateAndTimeChar_ != null) {
                   subBuilder = periodEndDateAndTimeChar_.toBuilder();
                 }
-                periodEndDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                periodEndDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(periodEndDateAndTimeChar_);
                   periodEndDateAndTimeChar_ = subBuilder.buildPartial();
@@ -1908,7 +1907,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (periodStatus_ != null) {
                   subBuilder = periodStatus_.toBuilder();
                 }
-                periodStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                periodStatus_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(periodStatus_);
                   periodStatus_ = subBuilder.buildPartial();
@@ -1921,7 +1920,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (periodStartDateAndTime_ != null) {
                   subBuilder = periodStartDateAndTime_.toBuilder();
                 }
-                periodStartDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                periodStartDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(periodStartDateAndTime_);
                   periodStartDateAndTime_ = subBuilder.buildPartial();
@@ -1934,7 +1933,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (periodStartDateAndTimeChar_ != null) {
                   subBuilder = periodStartDateAndTimeChar_.toBuilder();
                 }
-                periodStartDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                periodStartDateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(periodStartDateAndTimeChar_);
                   periodStartDateAndTimeChar_ = subBuilder.buildPartial();
@@ -1947,7 +1946,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                active_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -1960,7 +1959,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (campaignDescription_ != null) {
                   subBuilder = campaignDescription_.toBuilder();
                 }
-                campaignDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                campaignDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignDescription_);
                   campaignDescription_ = subBuilder.buildPartial();
@@ -1973,7 +1972,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (campaignTypeId_ != null) {
                   subBuilder = campaignTypeId_.toBuilder();
                 }
-                campaignTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                campaignTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignTypeId_);
                   campaignTypeId_ = subBuilder.buildPartial();
@@ -1986,7 +1985,7 @@ public final class OmGetCampaignPeriodsAd {
                 if (campaignName_ != null) {
                   subBuilder = campaignName_.toBuilder();
                 }
-                campaignName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                campaignName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(campaignName_);
                   campaignName_ = subBuilder.buildPartial();
@@ -2476,9 +2475,8 @@ public final class OmGetCampaignPeriodsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2534,7 +2532,7 @@ public final class OmGetCampaignPeriodsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20007, getCampaignName());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4767,8 +4765,8 @@ public final class OmGetCampaignPeriodsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4936,9 +4934,8 @@ public final class OmGetCampaignPeriodsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4954,7 +4951,7 @@ public final class OmGetCampaignPeriodsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5922,8 +5919,8 @@ public final class OmGetCampaignPeriodsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

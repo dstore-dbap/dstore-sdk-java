@@ -200,7 +200,7 @@ public final class FoModifyMainPostSortCritAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_ModifyMainPostSortCrit_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -245,7 +245,7 @@ public final class FoModifyMainPostSortCritAd {
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -258,7 +258,7 @@ public final class FoModifyMainPostSortCritAd {
               if (sortingCriteriaNo_ != null) {
                 subBuilder = sortingCriteriaNo_.toBuilder();
               }
-              sortingCriteriaNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              sortingCriteriaNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingCriteriaNo_);
                 sortingCriteriaNo_ = subBuilder.buildPartial();
@@ -271,7 +271,7 @@ public final class FoModifyMainPostSortCritAd {
               if (sortingCriteriafirst_ != null) {
                 subBuilder = sortingCriteriafirst_.toBuilder();
               }
-              sortingCriteriafirst_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              sortingCriteriafirst_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingCriteriafirst_);
                 sortingCriteriafirst_ = subBuilder.buildPartial();
@@ -284,7 +284,7 @@ public final class FoModifyMainPostSortCritAd {
               if (sortingOptionsfirst_ != null) {
                 subBuilder = sortingOptionsfirst_.toBuilder();
               }
-              sortingOptionsfirst_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              sortingOptionsfirst_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingOptionsfirst_);
                 sortingOptionsfirst_ = subBuilder.buildPartial();
@@ -297,7 +297,7 @@ public final class FoModifyMainPostSortCritAd {
               if (sortingCriteriasecond_ != null) {
                 subBuilder = sortingCriteriasecond_.toBuilder();
               }
-              sortingCriteriasecond_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              sortingCriteriasecond_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingCriteriasecond_);
                 sortingCriteriasecond_ = subBuilder.buildPartial();
@@ -310,7 +310,7 @@ public final class FoModifyMainPostSortCritAd {
               if (sortingOptionssecond_ != null) {
                 subBuilder = sortingOptionssecond_.toBuilder();
               }
-              sortingOptionssecond_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              sortingOptionssecond_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingOptionssecond_);
                 sortingOptionssecond_ = subBuilder.buildPartial();
@@ -323,7 +323,7 @@ public final class FoModifyMainPostSortCritAd {
               if (sortingCriteriathird_ != null) {
                 subBuilder = sortingCriteriathird_.toBuilder();
               }
-              sortingCriteriathird_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              sortingCriteriathird_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingCriteriathird_);
                 sortingCriteriathird_ = subBuilder.buildPartial();
@@ -336,7 +336,7 @@ public final class FoModifyMainPostSortCritAd {
               if (sortingOptionsthird_ != null) {
                 subBuilder = sortingOptionsthird_.toBuilder();
               }
-              sortingOptionsthird_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              sortingOptionsthird_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortingOptionsthird_);
                 sortingOptionsthird_ = subBuilder.buildPartial();
@@ -349,7 +349,7 @@ public final class FoModifyMainPostSortCritAd {
               if (activateCriteria_ != null) {
                 subBuilder = activateCriteria_.toBuilder();
               }
-              activateCriteria_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              activateCriteria_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(activateCriteria_);
                 activateCriteria_ = subBuilder.buildPartial();
@@ -362,7 +362,7 @@ public final class FoModifyMainPostSortCritAd {
               if (deleteCriteria_ != null) {
                 subBuilder = deleteCriteria_.toBuilder();
               }
-              deleteCriteria_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              deleteCriteria_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteCriteria_);
                 deleteCriteria_ = subBuilder.buildPartial();
@@ -818,9 +818,8 @@ public final class FoModifyMainPostSortCritAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -904,7 +903,7 @@ public final class FoModifyMainPostSortCritAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1010, deleteCriteriaNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2731,8 +2730,8 @@ public final class FoModifyMainPostSortCritAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2858,7 +2857,7 @@ public final class FoModifyMainPostSortCritAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_ModifyMainPostSortCrit_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2895,7 +2894,7 @@ public final class FoModifyMainPostSortCritAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2908,7 +2907,7 @@ public final class FoModifyMainPostSortCritAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2916,7 +2915,7 @@ public final class FoModifyMainPostSortCritAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.FoModifyMainPostSortCritAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.FoModifyMainPostSortCritAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.FoModifyMainPostSortCritAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2966,7 +2965,7 @@ public final class FoModifyMainPostSortCritAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.fo_ModifyMainPostSortCrit_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3052,9 +3051,8 @@ public final class FoModifyMainPostSortCritAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3062,7 +3060,7 @@ public final class FoModifyMainPostSortCritAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3291,8 +3289,8 @@ public final class FoModifyMainPostSortCritAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3460,9 +3458,8 @@ public final class FoModifyMainPostSortCritAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3478,7 +3475,7 @@ public final class FoModifyMainPostSortCritAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -4446,8 +4443,8 @@ public final class FoModifyMainPostSortCritAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

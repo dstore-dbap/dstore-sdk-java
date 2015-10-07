@@ -200,7 +200,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_CustomerWhoBoughtAlsoBought.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -245,7 +245,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
               if (variantOrItemNo_ != null) {
                 subBuilder = variantOrItemNo_.toBuilder();
               }
-              variantOrItemNo_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              variantOrItemNo_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(variantOrItemNo_);
                 variantOrItemNo_ = subBuilder.buildPartial();
@@ -258,7 +258,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
               if (includeSiblingVariants_ != null) {
                 subBuilder = includeSiblingVariants_.toBuilder();
               }
-              includeSiblingVariants_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeSiblingVariants_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeSiblingVariants_);
                 includeSiblingVariants_ = subBuilder.buildPartial();
@@ -271,7 +271,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -284,7 +284,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -297,7 +297,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
               if (onlyActive_ != null) {
                 subBuilder = onlyActive_.toBuilder();
               }
-              onlyActive_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              onlyActive_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyActive_);
                 onlyActive_ = subBuilder.buildPartial();
@@ -310,7 +310,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
               if (getAdditionalInfo_ != null) {
                 subBuilder = getAdditionalInfo_.toBuilder();
               }
-              getAdditionalInfo_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getAdditionalInfo_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getAdditionalInfo_);
                 getAdditionalInfo_ = subBuilder.buildPartial();
@@ -323,7 +323,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
               if (filterByCharacteristicId_ != null) {
                 subBuilder = filterByCharacteristicId_.toBuilder();
               }
-              filterByCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              filterByCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacteristicId_);
                 filterByCharacteristicId_ = subBuilder.buildPartial();
@@ -336,7 +336,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
               if (filterByCharacValue_ != null) {
                 subBuilder = filterByCharacValue_.toBuilder();
               }
-              filterByCharacValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              filterByCharacValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(filterByCharacValue_);
                 filterByCharacValue_ = subBuilder.buildPartial();
@@ -349,7 +349,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
               if (negateFilterByParams_ != null) {
                 subBuilder = negateFilterByParams_.toBuilder();
               }
-              negateFilterByParams_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              negateFilterByParams_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(negateFilterByParams_);
                 negateFilterByParams_ = subBuilder.buildPartial();
@@ -362,7 +362,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
               if (includeVariantOrItemNoNodes_ != null) {
                 subBuilder = includeVariantOrItemNoNodes_.toBuilder();
               }
-              includeVariantOrItemNoNodes_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              includeVariantOrItemNoNodes_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(includeVariantOrItemNoNodes_);
                 includeVariantOrItemNoNodes_ = subBuilder.buildPartial();
@@ -818,9 +818,8 @@ public final class OmCustomerWhoBoughtAlsoBought {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -904,7 +903,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1010, includeVariantOrItemNoNodesNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2731,8 +2730,8 @@ public final class OmCustomerWhoBoughtAlsoBought {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2858,7 +2857,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_CustomerWhoBoughtAlsoBought.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2895,7 +2894,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2908,7 +2907,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2916,7 +2915,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmCustomerWhoBoughtAlsoBought.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmCustomerWhoBoughtAlsoBought.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmCustomerWhoBoughtAlsoBought.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3241,7 +3240,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_CustomerWhoBoughtAlsoBought.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3282,7 +3281,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 if (category_ != null) {
                   subBuilder = category_.toBuilder();
                 }
-                category_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                category_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(category_);
                   category_ = subBuilder.buildPartial();
@@ -3295,7 +3294,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 if (counter_ != null) {
                   subBuilder = counter_.toBuilder();
                 }
-                counter_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                counter_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(counter_);
                   counter_ = subBuilder.buildPartial();
@@ -3308,7 +3307,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -3321,7 +3320,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -3334,7 +3333,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 if (product_ != null) {
                   subBuilder = product_.toBuilder();
                 }
-                product_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                product_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(product_);
                   product_ = subBuilder.buildPartial();
@@ -3347,7 +3346,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 if (domain_ != null) {
                   subBuilder = domain_.toBuilder();
                 }
-                domain_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                domain_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(domain_);
                   domain_ = subBuilder.buildPartial();
@@ -3360,7 +3359,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 if (categoryTreeNodeId_ != null) {
                   subBuilder = categoryTreeNodeId_.toBuilder();
                 }
-                categoryTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                categoryTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(categoryTreeNodeId_);
                   categoryTreeNodeId_ = subBuilder.buildPartial();
@@ -3373,7 +3372,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -3386,7 +3385,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 if (levelNo_ != null) {
                   subBuilder = levelNo_.toBuilder();
                 }
-                levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelNo_);
                   levelNo_ = subBuilder.buildPartial();
@@ -3399,7 +3398,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 if (domainTreeNodeId_ != null) {
                   subBuilder = domainTreeNodeId_.toBuilder();
                 }
-                domainTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                domainTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(domainTreeNodeId_);
                   domainTreeNodeId_ = subBuilder.buildPartial();
@@ -3412,7 +3411,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
                 if (levelId_ != null) {
                   subBuilder = levelId_.toBuilder();
                 }
-                levelId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                levelId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelId_);
                   levelId_ = subBuilder.buildPartial();
@@ -3866,9 +3865,8 @@ public final class OmCustomerWhoBoughtAlsoBought {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3920,7 +3918,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20011, getLevelId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5986,8 +5984,8 @@ public final class OmCustomerWhoBoughtAlsoBought {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -6155,9 +6153,8 @@ public final class OmCustomerWhoBoughtAlsoBought {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -6173,7 +6170,7 @@ public final class OmCustomerWhoBoughtAlsoBought {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -7141,8 +7138,8 @@ public final class OmCustomerWhoBoughtAlsoBought {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

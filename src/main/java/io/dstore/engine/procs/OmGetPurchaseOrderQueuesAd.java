@@ -146,7 +146,7 @@ public final class OmGetPurchaseOrderQueuesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPurchaseOrderQueues_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -188,7 +188,7 @@ public final class OmGetPurchaseOrderQueuesAd {
               if (supplierId_ != null) {
                 subBuilder = supplierId_.toBuilder();
               }
-              supplierId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              supplierId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(supplierId_);
                 supplierId_ = subBuilder.buildPartial();
@@ -201,7 +201,7 @@ public final class OmGetPurchaseOrderQueuesAd {
               if (fromOrderDeadline_ != null) {
                 subBuilder = fromOrderDeadline_.toBuilder();
               }
-              fromOrderDeadline_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromOrderDeadline_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromOrderDeadline_);
                 fromOrderDeadline_ = subBuilder.buildPartial();
@@ -214,7 +214,7 @@ public final class OmGetPurchaseOrderQueuesAd {
               if (toOrderDeadline_ != null) {
                 subBuilder = toOrderDeadline_.toBuilder();
               }
-              toOrderDeadline_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toOrderDeadline_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toOrderDeadline_);
                 toOrderDeadline_ = subBuilder.buildPartial();
@@ -227,7 +227,7 @@ public final class OmGetPurchaseOrderQueuesAd {
               if (orderTypeId_ != null) {
                 subBuilder = orderTypeId_.toBuilder();
               }
-              orderTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              orderTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderTypeId_);
                 orderTypeId_ = subBuilder.buildPartial();
@@ -240,7 +240,7 @@ public final class OmGetPurchaseOrderQueuesAd {
               if (nodeId_ != null) {
                 subBuilder = nodeId_.toBuilder();
               }
-              nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeId_);
                 nodeId_ = subBuilder.buildPartial();
@@ -253,7 +253,7 @@ public final class OmGetPurchaseOrderQueuesAd {
               if (getSummaryOnly_ != null) {
                 subBuilder = getSummaryOnly_.toBuilder();
               }
-              getSummaryOnly_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              getSummaryOnly_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getSummaryOnly_);
                 getSummaryOnly_ = subBuilder.buildPartial();
@@ -266,7 +266,7 @@ public final class OmGetPurchaseOrderQueuesAd {
               if (nodeCharacteristicId_ != null) {
                 subBuilder = nodeCharacteristicId_.toBuilder();
               }
-              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              nodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(nodeCharacteristicId_);
                 nodeCharacteristicId_ = subBuilder.buildPartial();
@@ -599,9 +599,8 @@ public final class OmGetPurchaseOrderQueuesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -661,7 +660,7 @@ public final class OmGetPurchaseOrderQueuesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1007, nodeCharacteristicIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1999,8 +1998,8 @@ public final class OmGetPurchaseOrderQueuesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2126,7 +2125,7 @@ public final class OmGetPurchaseOrderQueuesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPurchaseOrderQueues_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2163,7 +2162,7 @@ public final class OmGetPurchaseOrderQueuesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2176,7 +2175,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2184,7 +2183,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetPurchaseOrderQueuesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetPurchaseOrderQueuesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetPurchaseOrderQueuesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3084,7 +3083,7 @@ public final class OmGetPurchaseOrderQueuesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetPurchaseOrderQueues_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3126,7 +3125,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (supplCharacVal2RestrByPattern_ != null) {
                   subBuilder = supplCharacVal2RestrByPattern_.toBuilder();
                 }
-                supplCharacVal2RestrByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                supplCharacVal2RestrByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(supplCharacVal2RestrByPattern_);
                   supplCharacVal2RestrByPattern_ = subBuilder.buildPartial();
@@ -3139,7 +3138,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (lastEditedByUserId_ != null) {
                   subBuilder = lastEditedByUserId_.toBuilder();
                 }
-                lastEditedByUserId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                lastEditedByUserId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lastEditedByUserId_);
                   lastEditedByUserId_ = subBuilder.buildPartial();
@@ -3152,7 +3151,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (currencySymbol_ != null) {
                   subBuilder = currencySymbol_.toBuilder();
                 }
-                currencySymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                currencySymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencySymbol_);
                   currencySymbol_ = subBuilder.buildPartial();
@@ -3165,7 +3164,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (lastEditedAtDateAndTime_ != null) {
                   subBuilder = lastEditedAtDateAndTime_.toBuilder();
                 }
-                lastEditedAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                lastEditedAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lastEditedAtDateAndTime_);
                   lastEditedAtDateAndTime_ = subBuilder.buildPartial();
@@ -3178,7 +3177,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (supplierId_ != null) {
                   subBuilder = supplierId_.toBuilder();
                 }
-                supplierId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                supplierId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(supplierId_);
                   supplierId_ = subBuilder.buildPartial();
@@ -3191,7 +3190,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (netSum_ != null) {
                   subBuilder = netSum_.toBuilder();
                 }
-                netSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                netSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(netSum_);
                   netSum_ = subBuilder.buildPartial();
@@ -3204,7 +3203,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -3217,7 +3216,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (orderDeadline_ != null) {
                   subBuilder = orderDeadline_.toBuilder();
                 }
-                orderDeadline_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                orderDeadline_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderDeadline_);
                   orderDeadline_ = subBuilder.buildPartial();
@@ -3230,7 +3229,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -3243,7 +3242,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -3256,7 +3255,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (createdByUserName_ != null) {
                   subBuilder = createdByUserName_.toBuilder();
                 }
-                createdByUserName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                createdByUserName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdByUserName_);
                   createdByUserName_ = subBuilder.buildPartial();
@@ -3269,7 +3268,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (comment_ != null) {
                   subBuilder = comment_.toBuilder();
                 }
-                comment_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                comment_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(comment_);
                   comment_ = subBuilder.buildPartial();
@@ -3282,7 +3281,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (supplierCharacteristicValue2_ != null) {
                   subBuilder = supplierCharacteristicValue2_.toBuilder();
                 }
-                supplierCharacteristicValue2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                supplierCharacteristicValue2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(supplierCharacteristicValue2_);
                   supplierCharacteristicValue2_ = subBuilder.buildPartial();
@@ -3295,7 +3294,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (itemProperty_ != null) {
                   subBuilder = itemProperty_.toBuilder();
                 }
-                itemProperty_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                itemProperty_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemProperty_);
                   itemProperty_ = subBuilder.buildPartial();
@@ -3308,7 +3307,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (supplierCharacteristicValue1_ != null) {
                   subBuilder = supplierCharacteristicValue1_.toBuilder();
                 }
-                supplierCharacteristicValue1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                supplierCharacteristicValue1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(supplierCharacteristicValue1_);
                   supplierCharacteristicValue1_ = subBuilder.buildPartial();
@@ -3321,7 +3320,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (quantity_ != null) {
                   subBuilder = quantity_.toBuilder();
                 }
-                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quantity_);
                   quantity_ = subBuilder.buildPartial();
@@ -3334,7 +3333,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (lastEditedByUserName_ != null) {
                   subBuilder = lastEditedByUserName_.toBuilder();
                 }
-                lastEditedByUserName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                lastEditedByUserName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lastEditedByUserName_);
                   lastEditedByUserName_ = subBuilder.buildPartial();
@@ -3347,7 +3346,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (currencyId_ != null) {
                   subBuilder = currencyId_.toBuilder();
                 }
-                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(currencyId_);
                   currencyId_ = subBuilder.buildPartial();
@@ -3360,7 +3359,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (createdAtDateAndTime_ != null) {
                   subBuilder = createdAtDateAndTime_.toBuilder();
                 }
-                createdAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                createdAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdAtDateAndTime_);
                   createdAtDateAndTime_ = subBuilder.buildPartial();
@@ -3373,7 +3372,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (createdByUserId_ != null) {
                   subBuilder = createdByUserId_.toBuilder();
                 }
-                createdByUserId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                createdByUserId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(createdByUserId_);
                   createdByUserId_ = subBuilder.buildPartial();
@@ -3386,7 +3385,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (orderTypeDescription_ != null) {
                   subBuilder = orderTypeDescription_.toBuilder();
                 }
-                orderTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                orderTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderTypeDescription_);
                   orderTypeDescription_ = subBuilder.buildPartial();
@@ -3399,7 +3398,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -3412,7 +3411,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (orderTypeId_ != null) {
                   subBuilder = orderTypeId_.toBuilder();
                 }
-                orderTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                orderTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderTypeId_);
                   orderTypeId_ = subBuilder.buildPartial();
@@ -3425,7 +3424,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (itemNo_ != null) {
                   subBuilder = itemNo_.toBuilder();
                 }
-                itemNo_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                itemNo_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(itemNo_);
                   itemNo_ = subBuilder.buildPartial();
@@ -3438,7 +3437,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (supplCharacVal1RestrByPattern_ != null) {
                   subBuilder = supplCharacVal1RestrByPattern_.toBuilder();
                 }
-                supplCharacVal1RestrByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                supplCharacVal1RestrByPattern_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(supplCharacVal1RestrByPattern_);
                   supplCharacVal1RestrByPattern_ = subBuilder.buildPartial();
@@ -3451,7 +3450,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (numberOfItems_ != null) {
                   subBuilder = numberOfItems_.toBuilder();
                 }
-                numberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                numberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(numberOfItems_);
                   numberOfItems_ = subBuilder.buildPartial();
@@ -3464,7 +3463,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (numberOfExpiredDeadlines_ != null) {
                   subBuilder = numberOfExpiredDeadlines_.toBuilder();
                 }
-                numberOfExpiredDeadlines_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                numberOfExpiredDeadlines_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(numberOfExpiredDeadlines_);
                   numberOfExpiredDeadlines_ = subBuilder.buildPartial();
@@ -3477,7 +3476,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (minOrderDeadline_ != null) {
                   subBuilder = minOrderDeadline_.toBuilder();
                 }
-                minOrderDeadline_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                minOrderDeadline_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(minOrderDeadline_);
                   minOrderDeadline_ = subBuilder.buildPartial();
@@ -3490,7 +3489,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (numberOfQueues_ != null) {
                   subBuilder = numberOfQueues_.toBuilder();
                 }
-                numberOfQueues_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                numberOfQueues_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(numberOfQueues_);
                   numberOfQueues_ = subBuilder.buildPartial();
@@ -3503,7 +3502,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (maxOrderDeadline_ != null) {
                   subBuilder = maxOrderDeadline_.toBuilder();
                 }
-                maxOrderDeadline_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                maxOrderDeadline_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(maxOrderDeadline_);
                   maxOrderDeadline_ = subBuilder.buildPartial();
@@ -3516,7 +3515,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (numberOfSuppliers_ != null) {
                   subBuilder = numberOfSuppliers_.toBuilder();
                 }
-                numberOfSuppliers_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                numberOfSuppliers_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(numberOfSuppliers_);
                   numberOfSuppliers_ = subBuilder.buildPartial();
@@ -3529,7 +3528,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (totalNetSum_ != null) {
                   subBuilder = totalNetSum_.toBuilder();
                 }
-                totalNetSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                totalNetSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalNetSum_);
                   totalNetSum_ = subBuilder.buildPartial();
@@ -3542,7 +3541,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (purchasePriceCharacteristicId_ != null) {
                   subBuilder = purchasePriceCharacteristicId_.toBuilder();
                 }
-                purchasePriceCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                purchasePriceCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(purchasePriceCharacteristicId_);
                   purchasePriceCharacteristicId_ = subBuilder.buildPartial();
@@ -3555,7 +3554,7 @@ public final class OmGetPurchaseOrderQueuesAd {
                 if (totalQuantity_ != null) {
                   subBuilder = totalQuantity_.toBuilder();
                 }
-                totalQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                totalQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalQuantity_);
                   totalQuantity_ = subBuilder.buildPartial();
@@ -4837,9 +4836,8 @@ public final class OmGetPurchaseOrderQueuesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -4983,7 +4981,7 @@ public final class OmGetPurchaseOrderQueuesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(30012, getTotalQuantity());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -10890,8 +10888,8 @@ public final class OmGetPurchaseOrderQueuesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -11059,9 +11057,8 @@ public final class OmGetPurchaseOrderQueuesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -11077,7 +11074,7 @@ public final class OmGetPurchaseOrderQueuesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -12045,8 +12042,8 @@ public final class OmGetPurchaseOrderQueuesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -74,7 +74,7 @@ public final class ImGetLevelsPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetLevels_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -112,7 +112,7 @@ public final class ImGetLevelsPu {
               if (level_ != null) {
                 subBuilder = level_.toBuilder();
               }
-              level_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              level_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(level_);
                 level_ = subBuilder.buildPartial();
@@ -125,7 +125,7 @@ public final class ImGetLevelsPu {
               if (isId_ != null) {
                 subBuilder = isId_.toBuilder();
               }
-              isId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              isId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(isId_);
                 isId_ = subBuilder.buildPartial();
@@ -138,7 +138,7 @@ public final class ImGetLevelsPu {
               if (orderByLevelNo_ != null) {
                 subBuilder = orderByLevelNo_.toBuilder();
               }
-              orderByLevelNo_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              orderByLevelNo_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderByLevelNo_);
                 orderByLevelNo_ = subBuilder.buildPartial();
@@ -307,9 +307,8 @@ public final class ImGetLevelsPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -337,7 +336,7 @@ public final class ImGetLevelsPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, orderByLevelNoNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1023,8 +1022,8 @@ public final class ImGetLevelsPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1150,7 +1149,7 @@ public final class ImGetLevelsPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_GetLevels_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1187,7 +1186,7 @@ public final class ImGetLevelsPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1200,7 +1199,7 @@ public final class ImGetLevelsPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1208,7 +1207,7 @@ public final class ImGetLevelsPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImGetLevelsPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImGetLevelsPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImGetLevelsPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1383,7 +1382,7 @@ public final class ImGetLevelsPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_GetLevels_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1424,7 +1423,7 @@ public final class ImGetLevelsPu {
                 if (levelNo_ != null) {
                   subBuilder = levelNo_.toBuilder();
                 }
-                levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelNo_);
                   levelNo_ = subBuilder.buildPartial();
@@ -1437,7 +1436,7 @@ public final class ImGetLevelsPu {
                 if (levelDescription_ != null) {
                   subBuilder = levelDescription_.toBuilder();
                 }
-                levelDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                levelDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelDescription_);
                   levelDescription_ = subBuilder.buildPartial();
@@ -1450,7 +1449,7 @@ public final class ImGetLevelsPu {
                 if (defaultTemplateId_ != null) {
                   subBuilder = defaultTemplateId_.toBuilder();
                 }
-                defaultTemplateId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                defaultTemplateId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(defaultTemplateId_);
                   defaultTemplateId_ = subBuilder.buildPartial();
@@ -1463,7 +1462,7 @@ public final class ImGetLevelsPu {
                 if (defaultSymbolId_ != null) {
                   subBuilder = defaultSymbolId_.toBuilder();
                 }
-                defaultSymbolId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                defaultSymbolId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(defaultSymbolId_);
                   defaultSymbolId_ = subBuilder.buildPartial();
@@ -1476,7 +1475,7 @@ public final class ImGetLevelsPu {
                 if (levelId_ != null) {
                   subBuilder = levelId_.toBuilder();
                 }
-                levelId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                levelId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelId_);
                   levelId_ = subBuilder.buildPartial();
@@ -1714,9 +1713,8 @@ public final class ImGetLevelsPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1744,7 +1742,7 @@ public final class ImGetLevelsPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10005, getLevelId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2808,8 +2806,8 @@ public final class ImGetLevelsPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2977,9 +2975,8 @@ public final class ImGetLevelsPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2995,7 +2992,7 @@ public final class ImGetLevelsPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3963,8 +3960,8 @@ public final class ImGetLevelsPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -56,7 +56,7 @@ public final class AcGetActionLogsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.ac_GetActionLogs_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -93,7 +93,7 @@ public final class AcGetActionLogsAd {
               if (actionId_ != null) {
                 subBuilder = actionId_.toBuilder();
               }
-              actionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              actionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(actionId_);
                 actionId_ = subBuilder.buildPartial();
@@ -106,7 +106,7 @@ public final class AcGetActionLogsAd {
               if (onlyPartNo_ != null) {
                 subBuilder = onlyPartNo_.toBuilder();
               }
-              onlyPartNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              onlyPartNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyPartNo_);
                 onlyPartNo_ = subBuilder.buildPartial();
@@ -234,9 +234,8 @@ public final class AcGetActionLogsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -256,7 +255,7 @@ public final class AcGetActionLogsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1002, onlyPartNoNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -779,8 +778,8 @@ public final class AcGetActionLogsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -906,7 +905,7 @@ public final class AcGetActionLogsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.ac_GetActionLogs_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -943,7 +942,7 @@ public final class AcGetActionLogsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -956,7 +955,7 @@ public final class AcGetActionLogsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -964,7 +963,7 @@ public final class AcGetActionLogsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.AcGetActionLogsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.AcGetActionLogsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.AcGetActionLogsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1489,7 +1488,7 @@ public final class AcGetActionLogsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.ac_GetActionLogs_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1530,7 +1529,7 @@ public final class AcGetActionLogsAd {
                 if (smallBody_ != null) {
                   subBuilder = smallBody_.toBuilder();
                 }
-                smallBody_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                smallBody_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(smallBody_);
                   smallBody_ = subBuilder.buildPartial();
@@ -1543,7 +1542,7 @@ public final class AcGetActionLogsAd {
                 if (alreadyRead_ != null) {
                   subBuilder = alreadyRead_.toBuilder();
                 }
-                alreadyRead_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                alreadyRead_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(alreadyRead_);
                   alreadyRead_ = subBuilder.buildPartial();
@@ -1556,7 +1555,7 @@ public final class AcGetActionLogsAd {
                 if (postingId_ != null) {
                   subBuilder = postingId_.toBuilder();
                 }
-                postingId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                postingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postingId_);
                   postingId_ = subBuilder.buildPartial();
@@ -1569,7 +1568,7 @@ public final class AcGetActionLogsAd {
                 if (replyToPostingId_ != null) {
                   subBuilder = replyToPostingId_.toBuilder();
                 }
-                replyToPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                replyToPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(replyToPostingId_);
                   replyToPostingId_ = subBuilder.buildPartial();
@@ -1582,7 +1581,7 @@ public final class AcGetActionLogsAd {
                 if (subject_ != null) {
                   subBuilder = subject_.toBuilder();
                 }
-                subject_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                subject_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(subject_);
                   subject_ = subBuilder.buildPartial();
@@ -1595,7 +1594,7 @@ public final class AcGetActionLogsAd {
                 if (eMailOfAuthor_ != null) {
                   subBuilder = eMailOfAuthor_.toBuilder();
                 }
-                eMailOfAuthor_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                eMailOfAuthor_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(eMailOfAuthor_);
                   eMailOfAuthor_ = subBuilder.buildPartial();
@@ -1608,7 +1607,7 @@ public final class AcGetActionLogsAd {
                 if (authorPersonId_ != null) {
                   subBuilder = authorPersonId_.toBuilder();
                 }
-                authorPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                authorPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(authorPersonId_);
                   authorPersonId_ = subBuilder.buildPartial();
@@ -1621,7 +1620,7 @@ public final class AcGetActionLogsAd {
                 if (postDateChar_ != null) {
                   subBuilder = postDateChar_.toBuilder();
                 }
-                postDateChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                postDateChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postDateChar_);
                   postDateChar_ = subBuilder.buildPartial();
@@ -1634,7 +1633,7 @@ public final class AcGetActionLogsAd {
                 if (visible_ != null) {
                   subBuilder = visible_.toBuilder();
                 }
-                visible_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                visible_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visible_);
                   visible_ = subBuilder.buildPartial();
@@ -1647,7 +1646,7 @@ public final class AcGetActionLogsAd {
                 if (hasBinaries_ != null) {
                   subBuilder = hasBinaries_.toBuilder();
                 }
-                hasBinaries_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                hasBinaries_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hasBinaries_);
                   hasBinaries_ = subBuilder.buildPartial();
@@ -1660,7 +1659,7 @@ public final class AcGetActionLogsAd {
                 if (author_ != null) {
                   subBuilder = author_.toBuilder();
                 }
-                author_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                author_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(author_);
                   author_ = subBuilder.buildPartial();
@@ -1673,7 +1672,7 @@ public final class AcGetActionLogsAd {
                 if (postDate_ != null) {
                   subBuilder = postDate_.toBuilder();
                 }
-                postDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                postDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(postDate_);
                   postDate_ = subBuilder.buildPartial();
@@ -1686,7 +1685,7 @@ public final class AcGetActionLogsAd {
                 if (body_ != null) {
                   subBuilder = body_.toBuilder();
                 }
-                body_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                body_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(body_);
                   body_ = subBuilder.buildPartial();
@@ -1699,7 +1698,7 @@ public final class AcGetActionLogsAd {
                 if (forumId_ != null) {
                   subBuilder = forumId_.toBuilder();
                 }
-                forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(forumId_);
                   forumId_ = subBuilder.buildPartial();
@@ -1712,7 +1711,7 @@ public final class AcGetActionLogsAd {
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -1725,7 +1724,7 @@ public final class AcGetActionLogsAd {
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -1738,7 +1737,7 @@ public final class AcGetActionLogsAd {
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -1751,7 +1750,7 @@ public final class AcGetActionLogsAd {
                 if (mainPostingId_ != null) {
                   subBuilder = mainPostingId_.toBuilder();
                 }
-                mainPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                mainPostingId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(mainPostingId_);
                   mainPostingId_ = subBuilder.buildPartial();
@@ -1764,7 +1763,7 @@ public final class AcGetActionLogsAd {
                 if (hasSuccessors_ != null) {
                   subBuilder = hasSuccessors_.toBuilder();
                 }
-                hasSuccessors_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                hasSuccessors_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hasSuccessors_);
                   hasSuccessors_ = subBuilder.buildPartial();
@@ -2506,9 +2505,8 @@ public final class AcGetActionLogsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2592,7 +2590,7 @@ public final class AcGetActionLogsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20014, getHasSuccessors());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5994,8 +5992,8 @@ public final class AcGetActionLogsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -6163,9 +6161,8 @@ public final class AcGetActionLogsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -6181,7 +6178,7 @@ public final class AcGetActionLogsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -7149,8 +7146,8 @@ public final class AcGetActionLogsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

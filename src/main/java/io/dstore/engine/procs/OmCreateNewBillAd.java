@@ -236,7 +236,7 @@ public final class OmCreateNewBillAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_CreateNewBill_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -283,7 +283,7 @@ public final class OmCreateNewBillAd {
               if (incorrectInformationExists_ != null) {
                 subBuilder = incorrectInformationExists_.toBuilder();
               }
-              incorrectInformationExists_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              incorrectInformationExists_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(incorrectInformationExists_);
                 incorrectInformationExists_ = subBuilder.buildPartial();
@@ -296,7 +296,7 @@ public final class OmCreateNewBillAd {
               if (result_ != null) {
                 subBuilder = result_.toBuilder();
               }
-              result_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              result_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(result_);
                 result_ = subBuilder.buildPartial();
@@ -309,7 +309,7 @@ public final class OmCreateNewBillAd {
               if (orderId_ != null) {
                 subBuilder = orderId_.toBuilder();
               }
-              orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderId_);
                 orderId_ = subBuilder.buildPartial();
@@ -322,7 +322,7 @@ public final class OmCreateNewBillAd {
               if (recipientPersonId_ != null) {
                 subBuilder = recipientPersonId_.toBuilder();
               }
-              recipientPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              recipientPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(recipientPersonId_);
                 recipientPersonId_ = subBuilder.buildPartial();
@@ -335,7 +335,7 @@ public final class OmCreateNewBillAd {
               if (drawerPersonId_ != null) {
                 subBuilder = drawerPersonId_.toBuilder();
               }
-              drawerPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              drawerPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(drawerPersonId_);
                 drawerPersonId_ = subBuilder.buildPartial();
@@ -348,7 +348,7 @@ public final class OmCreateNewBillAd {
               if (currencyId_ != null) {
                 subBuilder = currencyId_.toBuilder();
               }
-              currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(currencyId_);
                 currencyId_ = subBuilder.buildPartial();
@@ -361,7 +361,7 @@ public final class OmCreateNewBillAd {
               if (addBillInformation_ != null) {
                 subBuilder = addBillInformation_.toBuilder();
               }
-              addBillInformation_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              addBillInformation_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(addBillInformation_);
                 addBillInformation_ = subBuilder.buildPartial();
@@ -374,7 +374,7 @@ public final class OmCreateNewBillAd {
               if (addBillContentInformation_ != null) {
                 subBuilder = addBillContentInformation_.toBuilder();
               }
-              addBillContentInformation_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              addBillContentInformation_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(addBillContentInformation_);
                 addBillContentInformation_ = subBuilder.buildPartial();
@@ -387,7 +387,7 @@ public final class OmCreateNewBillAd {
               if (otherBillContent_ != null) {
                 subBuilder = otherBillContent_.toBuilder();
               }
-              otherBillContent_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              otherBillContent_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(otherBillContent_);
                 otherBillContent_ = subBuilder.buildPartial();
@@ -400,7 +400,7 @@ public final class OmCreateNewBillAd {
               if (addOtherContentInformation_ != null) {
                 subBuilder = addOtherContentInformation_.toBuilder();
               }
-              addOtherContentInformation_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              addOtherContentInformation_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(addOtherContentInformation_);
                 addOtherContentInformation_ = subBuilder.buildPartial();
@@ -413,7 +413,7 @@ public final class OmCreateNewBillAd {
               if (getIncorrectInformation_ != null) {
                 subBuilder = getIncorrectInformation_.toBuilder();
               }
-              getIncorrectInformation_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getIncorrectInformation_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getIncorrectInformation_);
                 getIncorrectInformation_ = subBuilder.buildPartial();
@@ -426,7 +426,7 @@ public final class OmCreateNewBillAd {
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              country_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -964,9 +964,8 @@ public final class OmCreateNewBillAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1066,7 +1065,7 @@ public final class OmCreateNewBillAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1012, countryNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3219,8 +3218,8 @@ public final class OmCreateNewBillAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3339,7 +3338,7 @@ public final class OmCreateNewBillAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_CreateNewBill_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3376,7 +3375,7 @@ public final class OmCreateNewBillAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3389,7 +3388,7 @@ public final class OmCreateNewBillAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3397,7 +3396,7 @@ public final class OmCreateNewBillAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmCreateNewBillAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmCreateNewBillAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmCreateNewBillAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -3405,7 +3404,7 @@ public final class OmCreateNewBillAd {
               if (generatedBillId_ != null) {
                 subBuilder = generatedBillId_.toBuilder();
               }
-              generatedBillId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              generatedBillId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(generatedBillId_);
                 generatedBillId_ = subBuilder.buildPartial();
@@ -3560,7 +3559,7 @@ public final class OmCreateNewBillAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_CreateNewBill_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3601,7 +3600,7 @@ public final class OmCreateNewBillAd {
                 if (tableId_ != null) {
                   subBuilder = tableId_.toBuilder();
                 }
-                tableId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                tableId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableId_);
                   tableId_ = subBuilder.buildPartial();
@@ -3614,7 +3613,7 @@ public final class OmCreateNewBillAd {
                 if (informationTypeId_ != null) {
                   subBuilder = informationTypeId_.toBuilder();
                 }
-                informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(informationTypeId_);
                   informationTypeId_ = subBuilder.buildPartial();
@@ -3627,7 +3626,7 @@ public final class OmCreateNewBillAd {
                 if (tableKeyId_ != null) {
                   subBuilder = tableKeyId_.toBuilder();
                 }
-                tableKeyId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                tableKeyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableKeyId_);
                   tableKeyId_ = subBuilder.buildPartial();
@@ -3640,7 +3639,7 @@ public final class OmCreateNewBillAd {
                 if (errorCode_ != null) {
                   subBuilder = errorCode_.toBuilder();
                 }
-                errorCode_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                errorCode_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(errorCode_);
                   errorCode_ = subBuilder.buildPartial();
@@ -3842,9 +3841,8 @@ public final class OmCreateNewBillAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3868,7 +3866,7 @@ public final class OmCreateNewBillAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10004, getErrorCode());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4765,8 +4763,8 @@ public final class OmCreateNewBillAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4938,9 +4936,8 @@ public final class OmCreateNewBillAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4960,7 +4957,7 @@ public final class OmCreateNewBillAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getGeneratedBillId());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5987,8 +5984,8 @@ public final class OmCreateNewBillAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

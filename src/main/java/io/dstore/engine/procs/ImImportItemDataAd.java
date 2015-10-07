@@ -254,7 +254,7 @@ public final class ImImportItemDataAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_ImportItemData_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -302,7 +302,7 @@ public final class ImImportItemDataAd {
               if (logErrors_ != null) {
                 subBuilder = logErrors_.toBuilder();
               }
-              logErrors_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              logErrors_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(logErrors_);
                 logErrors_ = subBuilder.buildPartial();
@@ -315,7 +315,7 @@ public final class ImImportItemDataAd {
               if (updateSortNo_ != null) {
                 subBuilder = updateSortNo_.toBuilder();
               }
-              updateSortNo_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              updateSortNo_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(updateSortNo_);
                 updateSortNo_ = subBuilder.buildPartial();
@@ -328,7 +328,7 @@ public final class ImImportItemDataAd {
               if (checkTextAndBitCharacs_ != null) {
                 subBuilder = checkTextAndBitCharacs_.toBuilder();
               }
-              checkTextAndBitCharacs_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              checkTextAndBitCharacs_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkTextAndBitCharacs_);
                 checkTextAndBitCharacs_ = subBuilder.buildPartial();
@@ -341,7 +341,7 @@ public final class ImImportItemDataAd {
               if (checkExceptTextAndBitCharacs_ != null) {
                 subBuilder = checkExceptTextAndBitCharacs_.toBuilder();
               }
-              checkExceptTextAndBitCharacs_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              checkExceptTextAndBitCharacs_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkExceptTextAndBitCharacs_);
                 checkExceptTextAndBitCharacs_ = subBuilder.buildPartial();
@@ -354,7 +354,7 @@ public final class ImImportItemDataAd {
               if (performanceTuning_ != null) {
                 subBuilder = performanceTuning_.toBuilder();
               }
-              performanceTuning_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              performanceTuning_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(performanceTuning_);
                 performanceTuning_ = subBuilder.buildPartial();
@@ -367,7 +367,7 @@ public final class ImImportItemDataAd {
               if (activateImportedItems_ != null) {
                 subBuilder = activateImportedItems_.toBuilder();
               }
-              activateImportedItems_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              activateImportedItems_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(activateImportedItems_);
                 activateImportedItems_ = subBuilder.buildPartial();
@@ -380,7 +380,7 @@ public final class ImImportItemDataAd {
               if (handleExistingItemNotImported_ != null) {
                 subBuilder = handleExistingItemNotImported_.toBuilder();
               }
-              handleExistingItemNotImported_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              handleExistingItemNotImported_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(handleExistingItemNotImported_);
                 handleExistingItemNotImported_ = subBuilder.buildPartial();
@@ -393,7 +393,7 @@ public final class ImImportItemDataAd {
               if (dumpTransaction_ != null) {
                 subBuilder = dumpTransaction_.toBuilder();
               }
-              dumpTransaction_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              dumpTransaction_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(dumpTransaction_);
                 dumpTransaction_ = subBuilder.buildPartial();
@@ -406,7 +406,7 @@ public final class ImImportItemDataAd {
               if (country_ != null) {
                 subBuilder = country_.toBuilder();
               }
-              country_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              country_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(country_);
                 country_ = subBuilder.buildPartial();
@@ -419,7 +419,7 @@ public final class ImImportItemDataAd {
               if (emptyStringToDeleteDetails_ != null) {
                 subBuilder = emptyStringToDeleteDetails_.toBuilder();
               }
-              emptyStringToDeleteDetails_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              emptyStringToDeleteDetails_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(emptyStringToDeleteDetails_);
                 emptyStringToDeleteDetails_ = subBuilder.buildPartial();
@@ -432,7 +432,7 @@ public final class ImImportItemDataAd {
               if (emptyStringToDeleteProperty_ != null) {
                 subBuilder = emptyStringToDeleteProperty_.toBuilder();
               }
-              emptyStringToDeleteProperty_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              emptyStringToDeleteProperty_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(emptyStringToDeleteProperty_);
                 emptyStringToDeleteProperty_ = subBuilder.buildPartial();
@@ -445,7 +445,7 @@ public final class ImImportItemDataAd {
               if (importFromTableName_ != null) {
                 subBuilder = importFromTableName_.toBuilder();
               }
-              importFromTableName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              importFromTableName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(importFromTableName_);
                 importFromTableName_ = subBuilder.buildPartial();
@@ -458,7 +458,7 @@ public final class ImImportItemDataAd {
               if (debugMode_ != null) {
                 subBuilder = debugMode_.toBuilder();
               }
-              debugMode_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              debugMode_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(debugMode_);
                 debugMode_ = subBuilder.buildPartial();
@@ -1037,9 +1037,8 @@ public final class ImImportItemDataAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1147,7 +1146,7 @@ public final class ImImportItemDataAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1013, debugModeNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3463,8 +3462,8 @@ public final class ImImportItemDataAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3583,7 +3582,7 @@ public final class ImImportItemDataAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.im_ImportItemData_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3620,7 +3619,7 @@ public final class ImImportItemDataAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3633,7 +3632,7 @@ public final class ImImportItemDataAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3641,7 +3640,7 @@ public final class ImImportItemDataAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.ImImportItemDataAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.ImImportItemDataAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.ImImportItemDataAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -3649,7 +3648,7 @@ public final class ImImportItemDataAd {
               if (errorDateAndTime_ != null) {
                 subBuilder = errorDateAndTime_.toBuilder();
               }
-              errorDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              errorDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(errorDateAndTime_);
                 errorDateAndTime_ = subBuilder.buildPartial();
@@ -3704,7 +3703,7 @@ public final class ImImportItemDataAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.im_ImportItemData_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3790,9 +3789,8 @@ public final class ImImportItemDataAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3800,7 +3798,7 @@ public final class ImImportItemDataAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4029,8 +4027,8 @@ public final class ImImportItemDataAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4202,9 +4200,8 @@ public final class ImImportItemDataAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4224,7 +4221,7 @@ public final class ImImportItemDataAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getErrorDateAndTime());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5251,8 +5248,8 @@ public final class ImImportItemDataAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

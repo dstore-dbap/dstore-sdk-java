@@ -200,7 +200,7 @@ public final class OmGetTrolleySurchargesPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolleySurcharges_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -245,7 +245,7 @@ public final class OmGetTrolleySurchargesPu {
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -258,7 +258,7 @@ public final class OmGetTrolleySurchargesPu {
               if (grossSum_ != null) {
                 subBuilder = grossSum_.toBuilder();
               }
-              grossSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              grossSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(grossSum_);
                 grossSum_ = subBuilder.buildPartial();
@@ -271,7 +271,7 @@ public final class OmGetTrolleySurchargesPu {
               if (netSum_ != null) {
                 subBuilder = netSum_.toBuilder();
               }
-              netSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              netSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(netSum_);
                 netSum_ = subBuilder.buildPartial();
@@ -284,7 +284,7 @@ public final class OmGetTrolleySurchargesPu {
               if (currencyId_ != null) {
                 subBuilder = currencyId_.toBuilder();
               }
-              currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              currencyId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(currencyId_);
                 currencyId_ = subBuilder.buildPartial();
@@ -297,7 +297,7 @@ public final class OmGetTrolleySurchargesPu {
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -310,7 +310,7 @@ public final class OmGetTrolleySurchargesPu {
               if (deliveryPersonId_ != null) {
                 subBuilder = deliveryPersonId_.toBuilder();
               }
-              deliveryPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              deliveryPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deliveryPersonId_);
                 deliveryPersonId_ = subBuilder.buildPartial();
@@ -323,7 +323,7 @@ public final class OmGetTrolleySurchargesPu {
               if (shippingTypeId_ != null) {
                 subBuilder = shippingTypeId_.toBuilder();
               }
-              shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(shippingTypeId_);
                 shippingTypeId_ = subBuilder.buildPartial();
@@ -336,7 +336,7 @@ public final class OmGetTrolleySurchargesPu {
               if (paymentTypeId_ != null) {
                 subBuilder = paymentTypeId_.toBuilder();
               }
-              paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(paymentTypeId_);
                 paymentTypeId_ = subBuilder.buildPartial();
@@ -349,7 +349,7 @@ public final class OmGetTrolleySurchargesPu {
               if (useCashAccountMaxValue_ != null) {
                 subBuilder = useCashAccountMaxValue_.toBuilder();
               }
-              useCashAccountMaxValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              useCashAccountMaxValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(useCashAccountMaxValue_);
                 useCashAccountMaxValue_ = subBuilder.buildPartial();
@@ -362,7 +362,7 @@ public final class OmGetTrolleySurchargesPu {
               if (splitByTaxes_ != null) {
                 subBuilder = splitByTaxes_.toBuilder();
               }
-              splitByTaxes_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              splitByTaxes_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(splitByTaxes_);
                 splitByTaxes_ = subBuilder.buildPartial();
@@ -818,9 +818,8 @@ public final class OmGetTrolleySurchargesPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -904,7 +903,7 @@ public final class OmGetTrolleySurchargesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1010, splitByTaxesNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2731,8 +2730,8 @@ public final class OmGetTrolleySurchargesPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2858,7 +2857,7 @@ public final class OmGetTrolleySurchargesPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolleySurcharges_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2895,7 +2894,7 @@ public final class OmGetTrolleySurchargesPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2908,7 +2907,7 @@ public final class OmGetTrolleySurchargesPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2916,7 +2915,7 @@ public final class OmGetTrolleySurchargesPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetTrolleySurchargesPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetTrolleySurchargesPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetTrolleySurchargesPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3216,7 +3215,7 @@ public final class OmGetTrolleySurchargesPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolleySurcharges_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3257,7 +3256,7 @@ public final class OmGetTrolleySurchargesPu {
                 if (surchargeGeneratedByCampIds_ != null) {
                   subBuilder = surchargeGeneratedByCampIds_.toBuilder();
                 }
-                surchargeGeneratedByCampIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                surchargeGeneratedByCampIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeGeneratedByCampIds_);
                   surchargeGeneratedByCampIds_ = subBuilder.buildPartial();
@@ -3270,7 +3269,7 @@ public final class OmGetTrolleySurchargesPu {
                 if (appliedSurchargeValue_ != null) {
                   subBuilder = appliedSurchargeValue_.toBuilder();
                 }
-                appliedSurchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                appliedSurchargeValue_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(appliedSurchargeValue_);
                   appliedSurchargeValue_ = subBuilder.buildPartial();
@@ -3283,7 +3282,7 @@ public final class OmGetTrolleySurchargesPu {
                 if (absoluteNetSurcharge_ != null) {
                   subBuilder = absoluteNetSurcharge_.toBuilder();
                 }
-                absoluteNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                absoluteNetSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteNetSurcharge_);
                   absoluteNetSurcharge_ = subBuilder.buildPartial();
@@ -3296,7 +3295,7 @@ public final class OmGetTrolleySurchargesPu {
                 if (surchargeAppliedOnGrossSum_ != null) {
                   subBuilder = surchargeAppliedOnGrossSum_.toBuilder();
                 }
-                surchargeAppliedOnGrossSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                surchargeAppliedOnGrossSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeAppliedOnGrossSum_);
                   surchargeAppliedOnGrossSum_ = subBuilder.buildPartial();
@@ -3309,7 +3308,7 @@ public final class OmGetTrolleySurchargesPu {
                 if (absoluteGrossSurcharge_ != null) {
                   subBuilder = absoluteGrossSurcharge_.toBuilder();
                 }
-                absoluteGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                absoluteGrossSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(absoluteGrossSurcharge_);
                   absoluteGrossSurcharge_ = subBuilder.buildPartial();
@@ -3322,7 +3321,7 @@ public final class OmGetTrolleySurchargesPu {
                 if (positionNo_ != null) {
                   subBuilder = positionNo_.toBuilder();
                 }
-                positionNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                positionNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(positionNo_);
                   positionNo_ = subBuilder.buildPartial();
@@ -3335,7 +3334,7 @@ public final class OmGetTrolleySurchargesPu {
                 if (surchargeTypeDescription_ != null) {
                   subBuilder = surchargeTypeDescription_.toBuilder();
                 }
-                surchargeTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                surchargeTypeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeDescription_);
                   surchargeTypeDescription_ = subBuilder.buildPartial();
@@ -3348,7 +3347,7 @@ public final class OmGetTrolleySurchargesPu {
                 if (surchargeTypeId_ != null) {
                   subBuilder = surchargeTypeId_.toBuilder();
                 }
-                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                surchargeTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeTypeId_);
                   surchargeTypeId_ = subBuilder.buildPartial();
@@ -3361,7 +3360,7 @@ public final class OmGetTrolleySurchargesPu {
                 if (surchargeAppliedOnNetSum_ != null) {
                   subBuilder = surchargeAppliedOnNetSum_.toBuilder();
                 }
-                surchargeAppliedOnNetSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                surchargeAppliedOnNetSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeAppliedOnNetSum_);
                   surchargeAppliedOnNetSum_ = subBuilder.buildPartial();
@@ -3374,7 +3373,7 @@ public final class OmGetTrolleySurchargesPu {
                 if (taxesMultiplier_ != null) {
                   subBuilder = taxesMultiplier_.toBuilder();
                 }
-                taxesMultiplier_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                taxesMultiplier_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(taxesMultiplier_);
                   taxesMultiplier_ = subBuilder.buildPartial();
@@ -3792,9 +3791,8 @@ public final class OmGetTrolleySurchargesPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3842,7 +3840,7 @@ public final class OmGetTrolleySurchargesPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20002, getTaxesMultiplier());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5741,8 +5739,8 @@ public final class OmGetTrolleySurchargesPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -5910,9 +5908,8 @@ public final class OmGetTrolleySurchargesPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -5928,7 +5925,7 @@ public final class OmGetTrolleySurchargesPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -6896,8 +6893,8 @@ public final class OmGetTrolleySurchargesPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

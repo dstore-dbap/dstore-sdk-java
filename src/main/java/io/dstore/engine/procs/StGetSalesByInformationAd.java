@@ -164,7 +164,7 @@ public final class StGetSalesByInformationAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetSales_ByInformation_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -207,7 +207,7 @@ public final class StGetSalesByInformationAd {
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -220,7 +220,7 @@ public final class StGetSalesByInformationAd {
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -233,7 +233,7 @@ public final class StGetSalesByInformationAd {
               if (informationTypeId_ != null) {
                 subBuilder = informationTypeId_.toBuilder();
               }
-              informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              informationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeId_);
                 informationTypeId_ = subBuilder.buildPartial();
@@ -246,7 +246,7 @@ public final class StGetSalesByInformationAd {
               if (informationIsValidInHours_ != null) {
                 subBuilder = informationIsValidInHours_.toBuilder();
               }
-              informationIsValidInHours_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              informationIsValidInHours_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationIsValidInHours_);
                 informationIsValidInHours_ = subBuilder.buildPartial();
@@ -259,7 +259,7 @@ public final class StGetSalesByInformationAd {
               if (selectAffectedOrderIds_ != null) {
                 subBuilder = selectAffectedOrderIds_.toBuilder();
               }
-              selectAffectedOrderIds_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              selectAffectedOrderIds_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(selectAffectedOrderIds_);
                 selectAffectedOrderIds_ = subBuilder.buildPartial();
@@ -272,7 +272,7 @@ public final class StGetSalesByInformationAd {
               if (orderDesc_ != null) {
                 subBuilder = orderDesc_.toBuilder();
               }
-              orderDesc_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              orderDesc_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderDesc_);
                 orderDesc_ = subBuilder.buildPartial();
@@ -285,7 +285,7 @@ public final class StGetSalesByInformationAd {
               if (information_ != null) {
                 subBuilder = information_.toBuilder();
               }
-              information_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              information_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(information_);
                 information_ = subBuilder.buildPartial();
@@ -298,7 +298,7 @@ public final class StGetSalesByInformationAd {
               if (purchaseOrder_ != null) {
                 subBuilder = purchaseOrder_.toBuilder();
               }
-              purchaseOrder_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              purchaseOrder_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(purchaseOrder_);
                 purchaseOrder_ = subBuilder.buildPartial();
@@ -672,9 +672,8 @@ public final class StGetSalesByInformationAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -742,7 +741,7 @@ public final class StGetSalesByInformationAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1008, purchaseOrderNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2243,8 +2242,8 @@ public final class StGetSalesByInformationAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2370,7 +2369,7 @@ public final class StGetSalesByInformationAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetSales_ByInformation_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2407,7 +2406,7 @@ public final class StGetSalesByInformationAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2420,7 +2419,7 @@ public final class StGetSalesByInformationAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2428,7 +2427,7 @@ public final class StGetSalesByInformationAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.StGetSalesByInformationAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.StGetSalesByInformationAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.StGetSalesByInformationAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2578,7 +2577,7 @@ public final class StGetSalesByInformationAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.st_GetSales_ByInformation_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2619,7 +2618,7 @@ public final class StGetSalesByInformationAd {
                 if (information_ != null) {
                   subBuilder = information_.toBuilder();
                 }
-                information_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                information_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(information_);
                   information_ = subBuilder.buildPartial();
@@ -2632,7 +2631,7 @@ public final class StGetSalesByInformationAd {
                 if (orderDateAndTime_ != null) {
                   subBuilder = orderDateAndTime_.toBuilder();
                 }
-                orderDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                orderDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderDateAndTime_);
                   orderDateAndTime_ = subBuilder.buildPartial();
@@ -2645,7 +2644,7 @@ public final class StGetSalesByInformationAd {
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -2658,7 +2657,7 @@ public final class StGetSalesByInformationAd {
                 if (orderId_ != null) {
                   subBuilder = orderId_.toBuilder();
                 }
-                orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(orderId_);
                   orderId_ = subBuilder.buildPartial();
@@ -2860,9 +2859,8 @@ public final class StGetSalesByInformationAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2886,7 +2884,7 @@ public final class StGetSalesByInformationAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20004, getOrderId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3783,8 +3781,8 @@ public final class StGetSalesByInformationAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3952,9 +3950,8 @@ public final class StGetSalesByInformationAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3970,7 +3967,7 @@ public final class StGetSalesByInformationAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -4938,8 +4935,8 @@ public final class StGetSalesByInformationAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

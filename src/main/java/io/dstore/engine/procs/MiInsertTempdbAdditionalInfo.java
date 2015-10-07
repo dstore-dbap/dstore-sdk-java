@@ -146,7 +146,7 @@ public final class MiInsertTempdbAdditionalInfo {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_InsertTempdb_AdditionalInfo.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -188,7 +188,7 @@ public final class MiInsertTempdbAdditionalInfo {
               if (tableIdList_ != null) {
                 subBuilder = tableIdList_.toBuilder();
               }
-              tableIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              tableIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableIdList_);
                 tableIdList_ = subBuilder.buildPartial();
@@ -201,7 +201,7 @@ public final class MiInsertTempdbAdditionalInfo {
               if (tableKeyIdList_ != null) {
                 subBuilder = tableKeyIdList_.toBuilder();
               }
-              tableKeyIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              tableKeyIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableKeyIdList_);
                 tableKeyIdList_ = subBuilder.buildPartial();
@@ -214,7 +214,7 @@ public final class MiInsertTempdbAdditionalInfo {
               if (informationTypeIdList_ != null) {
                 subBuilder = informationTypeIdList_.toBuilder();
               }
-              informationTypeIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              informationTypeIdList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationTypeIdList_);
                 informationTypeIdList_ = subBuilder.buildPartial();
@@ -227,7 +227,7 @@ public final class MiInsertTempdbAdditionalInfo {
               if (informationList_ != null) {
                 subBuilder = informationList_.toBuilder();
               }
-              informationList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              informationList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(informationList_);
                 informationList_ = subBuilder.buildPartial();
@@ -240,7 +240,7 @@ public final class MiInsertTempdbAdditionalInfo {
               if (delete_ != null) {
                 subBuilder = delete_.toBuilder();
               }
-              delete_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              delete_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delete_);
                 delete_ = subBuilder.buildPartial();
@@ -253,7 +253,7 @@ public final class MiInsertTempdbAdditionalInfo {
               if (separator_ != null) {
                 subBuilder = separator_.toBuilder();
               }
-              separator_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              separator_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separator_);
                 separator_ = subBuilder.buildPartial();
@@ -266,7 +266,7 @@ public final class MiInsertTempdbAdditionalInfo {
               if (checkByteLengthForStrings_ != null) {
                 subBuilder = checkByteLengthForStrings_.toBuilder();
               }
-              checkByteLengthForStrings_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              checkByteLengthForStrings_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkByteLengthForStrings_);
                 checkByteLengthForStrings_ = subBuilder.buildPartial();
@@ -599,9 +599,8 @@ public final class MiInsertTempdbAdditionalInfo {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -661,7 +660,7 @@ public final class MiInsertTempdbAdditionalInfo {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1007, checkByteLengthForStringsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1999,8 +1998,8 @@ public final class MiInsertTempdbAdditionalInfo {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2126,7 +2125,7 @@ public final class MiInsertTempdbAdditionalInfo {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_InsertTempdb_AdditionalInfo.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2163,7 +2162,7 @@ public final class MiInsertTempdbAdditionalInfo {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2176,7 +2175,7 @@ public final class MiInsertTempdbAdditionalInfo {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2184,7 +2183,7 @@ public final class MiInsertTempdbAdditionalInfo {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiInsertTempdbAdditionalInfo.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiInsertTempdbAdditionalInfo.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiInsertTempdbAdditionalInfo.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2234,7 +2233,7 @@ public final class MiInsertTempdbAdditionalInfo {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_InsertTempdb_AdditionalInfo.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2320,9 +2319,8 @@ public final class MiInsertTempdbAdditionalInfo {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2330,7 +2328,7 @@ public final class MiInsertTempdbAdditionalInfo {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2559,8 +2557,8 @@ public final class MiInsertTempdbAdditionalInfo {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2728,9 +2726,8 @@ public final class MiInsertTempdbAdditionalInfo {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2746,7 +2743,7 @@ public final class MiInsertTempdbAdditionalInfo {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3714,8 +3711,8 @@ public final class MiInsertTempdbAdditionalInfo {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

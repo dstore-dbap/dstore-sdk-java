@@ -110,7 +110,7 @@ public final class DoGetProcedureNamesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.do_GetProcedureNames_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -150,7 +150,7 @@ public final class DoGetProcedureNamesAd {
               if (procedureCategoryId_ != null) {
                 subBuilder = procedureCategoryId_.toBuilder();
               }
-              procedureCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              procedureCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureCategoryId_);
                 procedureCategoryId_ = subBuilder.buildPartial();
@@ -163,7 +163,7 @@ public final class DoGetProcedureNamesAd {
               if (procedureTypeId_ != null) {
                 subBuilder = procedureTypeId_.toBuilder();
               }
-              procedureTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              procedureTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureTypeId_);
                 procedureTypeId_ = subBuilder.buildPartial();
@@ -176,7 +176,7 @@ public final class DoGetProcedureNamesAd {
               if (actualVersion_ != null) {
                 subBuilder = actualVersion_.toBuilder();
               }
-              actualVersion_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              actualVersion_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(actualVersion_);
                 actualVersion_ = subBuilder.buildPartial();
@@ -189,7 +189,7 @@ public final class DoGetProcedureNamesAd {
               if (procedureName_ != null) {
                 subBuilder = procedureName_.toBuilder();
               }
-              procedureName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              procedureName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureName_);
                 procedureName_ = subBuilder.buildPartial();
@@ -202,7 +202,7 @@ public final class DoGetProcedureNamesAd {
               if (getProcsWithMissingDocu_ != null) {
                 subBuilder = getProcsWithMissingDocu_.toBuilder();
               }
-              getProcsWithMissingDocu_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getProcsWithMissingDocu_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getProcsWithMissingDocu_);
                 getProcsWithMissingDocu_ = subBuilder.buildPartial();
@@ -453,9 +453,8 @@ public final class DoGetProcedureNamesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -499,7 +498,7 @@ public final class DoGetProcedureNamesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, getProcsWithMissingDocuNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1511,8 +1510,8 @@ public final class DoGetProcedureNamesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1638,7 +1637,7 @@ public final class DoGetProcedureNamesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.do_GetProcedureNames_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1675,7 +1674,7 @@ public final class DoGetProcedureNamesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1688,7 +1687,7 @@ public final class DoGetProcedureNamesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1696,7 +1695,7 @@ public final class DoGetProcedureNamesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.DoGetProcedureNamesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.DoGetProcedureNamesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.DoGetProcedureNamesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2121,7 +2120,7 @@ public final class DoGetProcedureNamesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.do_GetProcedureNames_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2162,7 +2161,7 @@ public final class DoGetProcedureNamesAd {
                 if (procedureType_ != null) {
                   subBuilder = procedureType_.toBuilder();
                 }
-                procedureType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                procedureType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureType_);
                   procedureType_ = subBuilder.buildPartial();
@@ -2175,7 +2174,7 @@ public final class DoGetProcedureNamesAd {
                 if (procedureCategoryId_ != null) {
                   subBuilder = procedureCategoryId_.toBuilder();
                 }
-                procedureCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                procedureCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureCategoryId_);
                   procedureCategoryId_ = subBuilder.buildPartial();
@@ -2188,7 +2187,7 @@ public final class DoGetProcedureNamesAd {
                 if (procedureFunction_ != null) {
                   subBuilder = procedureFunction_.toBuilder();
                 }
-                procedureFunction_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                procedureFunction_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureFunction_);
                   procedureFunction_ = subBuilder.buildPartial();
@@ -2201,7 +2200,7 @@ public final class DoGetProcedureNamesAd {
                 if (procedureCategory_ != null) {
                   subBuilder = procedureCategory_.toBuilder();
                 }
-                procedureCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                procedureCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureCategory_);
                   procedureCategory_ = subBuilder.buildPartial();
@@ -2214,7 +2213,7 @@ public final class DoGetProcedureNamesAd {
                 if (actualdstoreVersion_ != null) {
                   subBuilder = actualdstoreVersion_.toBuilder();
                 }
-                actualdstoreVersion_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                actualdstoreVersion_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(actualdstoreVersion_);
                   actualdstoreVersion_ = subBuilder.buildPartial();
@@ -2227,7 +2226,7 @@ public final class DoGetProcedureNamesAd {
                 if (procedureTypeId_ != null) {
                   subBuilder = procedureTypeId_.toBuilder();
                 }
-                procedureTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                procedureTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureTypeId_);
                   procedureTypeId_ = subBuilder.buildPartial();
@@ -2240,7 +2239,7 @@ public final class DoGetProcedureNamesAd {
                 if (lastEditedAtChar_ != null) {
                   subBuilder = lastEditedAtChar_.toBuilder();
                 }
-                lastEditedAtChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                lastEditedAtChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lastEditedAtChar_);
                   lastEditedAtChar_ = subBuilder.buildPartial();
@@ -2253,7 +2252,7 @@ public final class DoGetProcedureNamesAd {
                 if (procedureName_ != null) {
                   subBuilder = procedureName_.toBuilder();
                 }
-                procedureName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                procedureName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(procedureName_);
                   procedureName_ = subBuilder.buildPartial();
@@ -2266,7 +2265,7 @@ public final class DoGetProcedureNamesAd {
                 if (firstdstoreVersion_ != null) {
                   subBuilder = firstdstoreVersion_.toBuilder();
                 }
-                firstdstoreVersion_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                firstdstoreVersion_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(firstdstoreVersion_);
                   firstdstoreVersion_ = subBuilder.buildPartial();
@@ -2279,7 +2278,7 @@ public final class DoGetProcedureNamesAd {
                 if (author_ != null) {
                   subBuilder = author_.toBuilder();
                 }
-                author_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                author_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(author_);
                   author_ = subBuilder.buildPartial();
@@ -2292,7 +2291,7 @@ public final class DoGetProcedureNamesAd {
                 if (firstCreatedAtChar_ != null) {
                   subBuilder = firstCreatedAtChar_.toBuilder();
                 }
-                firstCreatedAtChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                firstCreatedAtChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(firstCreatedAtChar_);
                   firstCreatedAtChar_ = subBuilder.buildPartial();
@@ -2305,7 +2304,7 @@ public final class DoGetProcedureNamesAd {
                 if (aliasProcedureName_ != null) {
                   subBuilder = aliasProcedureName_.toBuilder();
                 }
-                aliasProcedureName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                aliasProcedureName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(aliasProcedureName_);
                   aliasProcedureName_ = subBuilder.buildPartial();
@@ -2318,7 +2317,7 @@ public final class DoGetProcedureNamesAd {
                 if (registeredForDocu_ != null) {
                   subBuilder = registeredForDocu_.toBuilder();
                 }
-                registeredForDocu_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                registeredForDocu_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(registeredForDocu_);
                   registeredForDocu_ = subBuilder.buildPartial();
@@ -2331,7 +2330,7 @@ public final class DoGetProcedureNamesAd {
                 if (lastCreatedAtChar_ != null) {
                   subBuilder = lastCreatedAtChar_.toBuilder();
                 }
-                lastCreatedAtChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                lastCreatedAtChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(lastCreatedAtChar_);
                   lastCreatedAtChar_ = subBuilder.buildPartial();
@@ -2344,7 +2343,7 @@ public final class DoGetProcedureNamesAd {
                 if (docuExists_ != null) {
                   subBuilder = docuExists_.toBuilder();
                 }
-                docuExists_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                docuExists_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(docuExists_);
                   docuExists_ = subBuilder.buildPartial();
@@ -2942,9 +2941,8 @@ public final class DoGetProcedureNamesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3012,7 +3010,7 @@ public final class DoGetProcedureNamesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10015, getDocuExists());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5746,8 +5744,8 @@ public final class DoGetProcedureNamesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -5915,9 +5913,8 @@ public final class DoGetProcedureNamesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -5933,7 +5930,7 @@ public final class DoGetProcedureNamesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -6901,8 +6898,8 @@ public final class DoGetProcedureNamesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

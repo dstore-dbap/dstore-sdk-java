@@ -200,7 +200,7 @@ public final class OmGetTrolleyAsMatrixPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolleyAsMatrix_Pu.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -245,7 +245,7 @@ public final class OmGetTrolleyAsMatrixPu {
               if (uniqueId_ != null) {
                 subBuilder = uniqueId_.toBuilder();
               }
-              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              uniqueId_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(uniqueId_);
                 uniqueId_ = subBuilder.buildPartial();
@@ -258,7 +258,7 @@ public final class OmGetTrolleyAsMatrixPu {
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -271,7 +271,7 @@ public final class OmGetTrolleyAsMatrixPu {
               if (calculatePrices_ != null) {
                 subBuilder = calculatePrices_.toBuilder();
               }
-              calculatePrices_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              calculatePrices_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(calculatePrices_);
                 calculatePrices_ = subBuilder.buildPartial();
@@ -284,7 +284,7 @@ public final class OmGetTrolleyAsMatrixPu {
               if (checkAvailability_ != null) {
                 subBuilder = checkAvailability_.toBuilder();
               }
-              checkAvailability_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              checkAvailability_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkAvailability_);
                 checkAvailability_ = subBuilder.buildPartial();
@@ -297,7 +297,7 @@ public final class OmGetTrolleyAsMatrixPu {
               if (priceNodeCharacteristicId_ != null) {
                 subBuilder = priceNodeCharacteristicId_.toBuilder();
               }
-              priceNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              priceNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(priceNodeCharacteristicId_);
                 priceNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -310,7 +310,7 @@ public final class OmGetTrolleyAsMatrixPu {
               if (repairEntriesWithSameNodeId_ != null) {
                 subBuilder = repairEntriesWithSameNodeId_.toBuilder();
               }
-              repairEntriesWithSameNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              repairEntriesWithSameNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(repairEntriesWithSameNodeId_);
                 repairEntriesWithSameNodeId_ = subBuilder.buildPartial();
@@ -323,7 +323,7 @@ public final class OmGetTrolleyAsMatrixPu {
               if (deliveryPersonId_ != null) {
                 subBuilder = deliveryPersonId_.toBuilder();
               }
-              deliveryPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              deliveryPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deliveryPersonId_);
                 deliveryPersonId_ = subBuilder.buildPartial();
@@ -336,7 +336,7 @@ public final class OmGetTrolleyAsMatrixPu {
               if (outputIntoTrolleySurchInterf_ != null) {
                 subBuilder = outputIntoTrolleySurchInterf_.toBuilder();
               }
-              outputIntoTrolleySurchInterf_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              outputIntoTrolleySurchInterf_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputIntoTrolleySurchInterf_);
                 outputIntoTrolleySurchInterf_ = subBuilder.buildPartial();
@@ -349,7 +349,7 @@ public final class OmGetTrolleyAsMatrixPu {
               if (paymentTypeId_ != null) {
                 subBuilder = paymentTypeId_.toBuilder();
               }
-              paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              paymentTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(paymentTypeId_);
                 paymentTypeId_ = subBuilder.buildPartial();
@@ -362,7 +362,7 @@ public final class OmGetTrolleyAsMatrixPu {
               if (shippingTypeId_ != null) {
                 subBuilder = shippingTypeId_.toBuilder();
               }
-              shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              shippingTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(shippingTypeId_);
                 shippingTypeId_ = subBuilder.buildPartial();
@@ -818,9 +818,8 @@ public final class OmGetTrolleyAsMatrixPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -904,7 +903,7 @@ public final class OmGetTrolleyAsMatrixPu {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1010, shippingTypeIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2731,8 +2730,8 @@ public final class OmGetTrolleyAsMatrixPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2858,7 +2857,7 @@ public final class OmGetTrolleyAsMatrixPu {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolleyAsMatrix_Pu.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2895,7 +2894,7 @@ public final class OmGetTrolleyAsMatrixPu {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2908,7 +2907,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2916,7 +2915,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetTrolleyAsMatrixPu.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetTrolleyAsMatrixPu.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetTrolleyAsMatrixPu.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3341,7 +3340,7 @@ public final class OmGetTrolleyAsMatrixPu {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetTrolleyAsMatrix_Pu.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3382,7 +3381,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (variantTreeNodeId_ != null) {
                   subBuilder = variantTreeNodeId_.toBuilder();
                 }
-                variantTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                variantTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(variantTreeNodeId_);
                   variantTreeNodeId_ = subBuilder.buildPartial();
@@ -3395,7 +3394,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (productTreeNodeId_ != null) {
                   subBuilder = productTreeNodeId_.toBuilder();
                 }
-                productTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                productTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(productTreeNodeId_);
                   productTreeNodeId_ = subBuilder.buildPartial();
@@ -3408,7 +3407,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (priceNodeCharacteristicId_ != null) {
                   subBuilder = priceNodeCharacteristicId_.toBuilder();
                 }
-                priceNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                priceNodeCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(priceNodeCharacteristicId_);
                   priceNodeCharacteristicId_ = subBuilder.buildPartial();
@@ -3421,7 +3420,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (surchargeGeneratedByCampIds_ != null) {
                   subBuilder = surchargeGeneratedByCampIds_.toBuilder();
                 }
-                surchargeGeneratedByCampIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                surchargeGeneratedByCampIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeGeneratedByCampIds_);
                   surchargeGeneratedByCampIds_ = subBuilder.buildPartial();
@@ -3434,7 +3433,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (yAxisValueIds_ != null) {
                   subBuilder = yAxisValueIds_.toBuilder();
                 }
-                yAxisValueIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                yAxisValueIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(yAxisValueIds_);
                   yAxisValueIds_ = subBuilder.buildPartial();
@@ -3447,7 +3446,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (inputDateAndTime_ != null) {
                   subBuilder = inputDateAndTime_.toBuilder();
                 }
-                inputDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                inputDateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(inputDateAndTime_);
                   inputDateAndTime_ = subBuilder.buildPartial();
@@ -3460,7 +3459,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (quantity_ != null) {
                   subBuilder = quantity_.toBuilder();
                 }
-                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                quantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(quantity_);
                   quantity_ = subBuilder.buildPartial();
@@ -3473,7 +3472,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (unitSymbol_ != null) {
                   subBuilder = unitSymbol_.toBuilder();
                 }
-                unitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                unitSymbol_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(unitSymbol_);
                   unitSymbol_ = subBuilder.buildPartial();
@@ -3486,7 +3485,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (removed_ != null) {
                   subBuilder = removed_.toBuilder();
                 }
-                removed_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                removed_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(removed_);
                   removed_ = subBuilder.buildPartial();
@@ -3499,7 +3498,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (yAxisValues_ != null) {
                   subBuilder = yAxisValues_.toBuilder();
                 }
-                yAxisValues_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                yAxisValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(yAxisValues_);
                   yAxisValues_ = subBuilder.buildPartial();
@@ -3512,7 +3511,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (surchargeReason_ != null) {
                   subBuilder = surchargeReason_.toBuilder();
                 }
-                surchargeReason_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                surchargeReason_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(surchargeReason_);
                   surchargeReason_ = subBuilder.buildPartial();
@@ -3525,7 +3524,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (xAxisValue_ != null) {
                   subBuilder = xAxisValue_.toBuilder();
                 }
-                xAxisValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                xAxisValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(xAxisValue_);
                   xAxisValue_ = subBuilder.buildPartial();
@@ -3538,7 +3537,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (productDescription_ != null) {
                   subBuilder = productDescription_.toBuilder();
                 }
-                productDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                productDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(productDescription_);
                   productDescription_ = subBuilder.buildPartial();
@@ -3551,7 +3550,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (xAxisValueId_ != null) {
                   subBuilder = xAxisValueId_.toBuilder();
                 }
-                xAxisValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                xAxisValueId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(xAxisValueId_);
                   xAxisValueId_ = subBuilder.buildPartial();
@@ -3564,7 +3563,7 @@ public final class OmGetTrolleyAsMatrixPu {
                 if (relativeSurcharge_ != null) {
                   subBuilder = relativeSurcharge_.toBuilder();
                 }
-                relativeSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                relativeSurcharge_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relativeSurcharge_);
                   relativeSurcharge_ = subBuilder.buildPartial();
@@ -4162,9 +4161,8 @@ public final class OmGetTrolleyAsMatrixPu {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -4232,7 +4230,7 @@ public final class OmGetTrolleyAsMatrixPu {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10015, getRelativeSurcharge());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -6966,8 +6964,8 @@ public final class OmGetTrolleyAsMatrixPu {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -7135,9 +7133,8 @@ public final class OmGetTrolleyAsMatrixPu {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -7153,7 +7150,7 @@ public final class OmGetTrolleyAsMatrixPu {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -8121,8 +8118,8 @@ public final class OmGetTrolleyAsMatrixPu {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

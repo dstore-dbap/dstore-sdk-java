@@ -272,7 +272,7 @@ public final class MiCheckPerformanceAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_CheckPerformance_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -321,7 +321,7 @@ public final class MiCheckPerformanceAd {
               if (procedureNames_ != null) {
                 subBuilder = procedureNames_.toBuilder();
               }
-              procedureNames_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              procedureNames_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(procedureNames_);
                 procedureNames_ = subBuilder.buildPartial();
@@ -334,7 +334,7 @@ public final class MiCheckPerformanceAd {
               if (onlyProceduresInAnyValues_ != null) {
                 subBuilder = onlyProceduresInAnyValues_.toBuilder();
               }
-              onlyProceduresInAnyValues_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              onlyProceduresInAnyValues_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(onlyProceduresInAnyValues_);
                 onlyProceduresInAnyValues_ = subBuilder.buildPartial();
@@ -347,7 +347,7 @@ public final class MiCheckPerformanceAd {
               if (treeNodeId_ != null) {
                 subBuilder = treeNodeId_.toBuilder();
               }
-              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeId_);
                 treeNodeId_ = subBuilder.buildPartial();
@@ -360,7 +360,7 @@ public final class MiCheckPerformanceAd {
               if (treeNodeIdForVariantMatrix_ != null) {
                 subBuilder = treeNodeIdForVariantMatrix_.toBuilder();
               }
-              treeNodeIdForVariantMatrix_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              treeNodeIdForVariantMatrix_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(treeNodeIdForVariantMatrix_);
                 treeNodeIdForVariantMatrix_ = subBuilder.buildPartial();
@@ -373,7 +373,7 @@ public final class MiCheckPerformanceAd {
               if (yAxisCharacteristicId_ != null) {
                 subBuilder = yAxisCharacteristicId_.toBuilder();
               }
-              yAxisCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              yAxisCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(yAxisCharacteristicId_);
                 yAxisCharacteristicId_ = subBuilder.buildPartial();
@@ -386,7 +386,7 @@ public final class MiCheckPerformanceAd {
               if (xAxisCharacteristicId_ != null) {
                 subBuilder = xAxisCharacteristicId_.toBuilder();
               }
-              xAxisCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              xAxisCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(xAxisCharacteristicId_);
                 xAxisCharacteristicId_ = subBuilder.buildPartial();
@@ -399,7 +399,7 @@ public final class MiCheckPerformanceAd {
               if (valueCharacteristicId_ != null) {
                 subBuilder = valueCharacteristicId_.toBuilder();
               }
-              valueCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              valueCharacteristicId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(valueCharacteristicId_);
                 valueCharacteristicId_ = subBuilder.buildPartial();
@@ -412,7 +412,7 @@ public final class MiCheckPerformanceAd {
               if (searchNodeCharacteristicIds_ != null) {
                 subBuilder = searchNodeCharacteristicIds_.toBuilder();
               }
-              searchNodeCharacteristicIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              searchNodeCharacteristicIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchNodeCharacteristicIds_);
                 searchNodeCharacteristicIds_ = subBuilder.buildPartial();
@@ -425,7 +425,7 @@ public final class MiCheckPerformanceAd {
               if (searchValue_ != null) {
                 subBuilder = searchValue_.toBuilder();
               }
-              searchValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              searchValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchValue_);
                 searchValue_ = subBuilder.buildPartial();
@@ -438,7 +438,7 @@ public final class MiCheckPerformanceAd {
               if (searchPersonTypeId_ != null) {
                 subBuilder = searchPersonTypeId_.toBuilder();
               }
-              searchPersonTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              searchPersonTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(searchPersonTypeId_);
                 searchPersonTypeId_ = subBuilder.buildPartial();
@@ -451,7 +451,7 @@ public final class MiCheckPerformanceAd {
               if (personOutputCharacteristics_ != null) {
                 subBuilder = personOutputCharacteristics_.toBuilder();
               }
-              personOutputCharacteristics_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              personOutputCharacteristics_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personOutputCharacteristics_);
                 personOutputCharacteristics_ = subBuilder.buildPartial();
@@ -464,7 +464,7 @@ public final class MiCheckPerformanceAd {
               if (personCharacteristicIds_ != null) {
                 subBuilder = personCharacteristicIds_.toBuilder();
               }
-              personCharacteristicIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              personCharacteristicIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personCharacteristicIds_);
                 personCharacteristicIds_ = subBuilder.buildPartial();
@@ -477,7 +477,7 @@ public final class MiCheckPerformanceAd {
               if (conditionList_ != null) {
                 subBuilder = conditionList_.toBuilder();
               }
-              conditionList_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              conditionList_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionList_);
                 conditionList_ = subBuilder.buildPartial();
@@ -490,7 +490,7 @@ public final class MiCheckPerformanceAd {
               if (orderPersonId_ != null) {
                 subBuilder = orderPersonId_.toBuilder();
               }
-              orderPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              orderPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderPersonId_);
                 orderPersonId_ = subBuilder.buildPartial();
@@ -1110,9 +1110,8 @@ public final class MiCheckPerformanceAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1228,7 +1227,7 @@ public final class MiCheckPerformanceAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1014, orderPersonIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3707,8 +3706,8 @@ public final class MiCheckPerformanceAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3834,7 +3833,7 @@ public final class MiCheckPerformanceAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_CheckPerformance_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3871,7 +3870,7 @@ public final class MiCheckPerformanceAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3884,7 +3883,7 @@ public final class MiCheckPerformanceAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3892,7 +3891,7 @@ public final class MiCheckPerformanceAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiCheckPerformanceAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiCheckPerformanceAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiCheckPerformanceAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3942,7 +3941,7 @@ public final class MiCheckPerformanceAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_CheckPerformance_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -4028,9 +4027,8 @@ public final class MiCheckPerformanceAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -4038,7 +4036,7 @@ public final class MiCheckPerformanceAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4267,8 +4265,8 @@ public final class MiCheckPerformanceAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4436,9 +4434,8 @@ public final class MiCheckPerformanceAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4454,7 +4451,7 @@ public final class MiCheckPerformanceAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5422,8 +5419,8 @@ public final class MiCheckPerformanceAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

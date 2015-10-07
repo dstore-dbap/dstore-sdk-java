@@ -218,7 +218,7 @@ public final class OmModifyCampaignItemCondsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyCampaignItemConds_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -264,7 +264,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (itemConditionId_ != null) {
                 subBuilder = itemConditionId_.toBuilder();
               }
-              itemConditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              itemConditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(itemConditionId_);
                 itemConditionId_ = subBuilder.buildPartial();
@@ -277,7 +277,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (conditionDescription_ != null) {
                 subBuilder = conditionDescription_.toBuilder();
               }
-              conditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              conditionDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionDescription_);
                 conditionDescription_ = subBuilder.buildPartial();
@@ -290,7 +290,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (minNumberOfItems_ != null) {
                 subBuilder = minNumberOfItems_.toBuilder();
               }
-              minNumberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              minNumberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(minNumberOfItems_);
                 minNumberOfItems_ = subBuilder.buildPartial();
@@ -303,7 +303,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (maxNumberOfItems_ != null) {
                 subBuilder = maxNumberOfItems_.toBuilder();
               }
-              maxNumberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              maxNumberOfItems_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfItems_);
                 maxNumberOfItems_ = subBuilder.buildPartial();
@@ -316,7 +316,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (fromQuantity_ != null) {
                 subBuilder = fromQuantity_.toBuilder();
               }
-              fromQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              fromQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromQuantity_);
                 fromQuantity_ = subBuilder.buildPartial();
@@ -329,7 +329,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (toQuantity_ != null) {
                 subBuilder = toQuantity_.toBuilder();
               }
-              toQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              toQuantity_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toQuantity_);
                 toQuantity_ = subBuilder.buildPartial();
@@ -342,7 +342,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (fromItemBasicPrice_ != null) {
                 subBuilder = fromItemBasicPrice_.toBuilder();
               }
-              fromItemBasicPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              fromItemBasicPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromItemBasicPrice_);
                 fromItemBasicPrice_ = subBuilder.buildPartial();
@@ -355,7 +355,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (toItemBasicPrice_ != null) {
                 subBuilder = toItemBasicPrice_.toBuilder();
               }
-              toItemBasicPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              toItemBasicPrice_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toItemBasicPrice_);
                 toItemBasicPrice_ = subBuilder.buildPartial();
@@ -368,7 +368,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (fromBasicPriceSum_ != null) {
                 subBuilder = fromBasicPriceSum_.toBuilder();
               }
-              fromBasicPriceSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              fromBasicPriceSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromBasicPriceSum_);
                 fromBasicPriceSum_ = subBuilder.buildPartial();
@@ -381,7 +381,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (toBasicPriceSum_ != null) {
                 subBuilder = toBasicPriceSum_.toBuilder();
               }
-              toBasicPriceSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              toBasicPriceSum_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toBasicPriceSum_);
                 toBasicPriceSum_ = subBuilder.buildPartial();
@@ -394,7 +394,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (deleteCondition_ != null) {
                 subBuilder = deleteCondition_.toBuilder();
               }
-              deleteCondition_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              deleteCondition_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteCondition_);
                 deleteCondition_ = subBuilder.buildPartial();
@@ -891,9 +891,8 @@ public final class OmModifyCampaignItemCondsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -985,7 +984,7 @@ public final class OmModifyCampaignItemCondsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1011, deleteConditionNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2975,8 +2974,8 @@ public final class OmModifyCampaignItemCondsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3095,7 +3094,7 @@ public final class OmModifyCampaignItemCondsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyCampaignItemConds_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3132,7 +3131,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3145,7 +3144,7 @@ public final class OmModifyCampaignItemCondsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3153,7 +3152,7 @@ public final class OmModifyCampaignItemCondsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmModifyCampaignItemCondsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmModifyCampaignItemCondsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmModifyCampaignItemCondsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -3161,7 +3160,7 @@ public final class OmModifyCampaignItemCondsAd {
               if (conditionId_ != null) {
                 subBuilder = conditionId_.toBuilder();
               }
-              conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              conditionId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(conditionId_);
                 conditionId_ = subBuilder.buildPartial();
@@ -3216,7 +3215,7 @@ public final class OmModifyCampaignItemCondsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_ModifyCampaignItemConds_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3302,9 +3301,8 @@ public final class OmModifyCampaignItemCondsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3312,7 +3310,7 @@ public final class OmModifyCampaignItemCondsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -3541,8 +3539,8 @@ public final class OmModifyCampaignItemCondsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3714,9 +3712,8 @@ public final class OmModifyCampaignItemCondsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3736,7 +3733,7 @@ public final class OmModifyCampaignItemCondsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getConditionId());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -4763,8 +4760,8 @@ public final class OmModifyCampaignItemCondsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -74,7 +74,7 @@ public final class FoGetForumAccessMatrixAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetForumAccessMatrix_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -112,7 +112,7 @@ public final class FoGetForumAccessMatrixAd {
               if (forumId_ != null) {
                 subBuilder = forumId_.toBuilder();
               }
-              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forumId_);
                 forumId_ = subBuilder.buildPartial();
@@ -125,7 +125,7 @@ public final class FoGetForumAccessMatrixAd {
               if (checkPersonAccess_ != null) {
                 subBuilder = checkPersonAccess_.toBuilder();
               }
-              checkPersonAccess_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              checkPersonAccess_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(checkPersonAccess_);
                 checkPersonAccess_ = subBuilder.buildPartial();
@@ -138,7 +138,7 @@ public final class FoGetForumAccessMatrixAd {
               if (groupOrPersonId_ != null) {
                 subBuilder = groupOrPersonId_.toBuilder();
               }
-              groupOrPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              groupOrPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(groupOrPersonId_);
                 groupOrPersonId_ = subBuilder.buildPartial();
@@ -307,9 +307,8 @@ public final class FoGetForumAccessMatrixAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -337,7 +336,7 @@ public final class FoGetForumAccessMatrixAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1003, groupOrPersonIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1023,8 +1022,8 @@ public final class FoGetForumAccessMatrixAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1150,7 +1149,7 @@ public final class FoGetForumAccessMatrixAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetForumAccessMatrix_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1187,7 +1186,7 @@ public final class FoGetForumAccessMatrixAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1200,7 +1199,7 @@ public final class FoGetForumAccessMatrixAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1208,7 +1207,7 @@ public final class FoGetForumAccessMatrixAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.FoGetForumAccessMatrixAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.FoGetForumAccessMatrixAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.FoGetForumAccessMatrixAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -1508,7 +1507,7 @@ public final class FoGetForumAccessMatrixAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.fo_GetForumAccessMatrix_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1549,7 +1548,7 @@ public final class FoGetForumAccessMatrixAd {
                 if (groupDescription_ != null) {
                   subBuilder = groupDescription_.toBuilder();
                 }
-                groupDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                groupDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(groupDescription_);
                   groupDescription_ = subBuilder.buildPartial();
@@ -1562,7 +1561,7 @@ public final class FoGetForumAccessMatrixAd {
                 if (accessLevelId_ != null) {
                   subBuilder = accessLevelId_.toBuilder();
                 }
-                accessLevelId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                accessLevelId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(accessLevelId_);
                   accessLevelId_ = subBuilder.buildPartial();
@@ -1575,7 +1574,7 @@ public final class FoGetForumAccessMatrixAd {
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -1588,7 +1587,7 @@ public final class FoGetForumAccessMatrixAd {
                 if (forumId_ != null) {
                   subBuilder = forumId_.toBuilder();
                 }
-                forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                forumId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(forumId_);
                   forumId_ = subBuilder.buildPartial();
@@ -1601,7 +1600,7 @@ public final class FoGetForumAccessMatrixAd {
                 if (access_ != null) {
                   subBuilder = access_.toBuilder();
                 }
-                access_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                access_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(access_);
                   access_ = subBuilder.buildPartial();
@@ -1614,7 +1613,7 @@ public final class FoGetForumAccessMatrixAd {
                 if (groupId_ != null) {
                   subBuilder = groupId_.toBuilder();
                 }
-                groupId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                groupId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(groupId_);
                   groupId_ = subBuilder.buildPartial();
@@ -1627,7 +1626,7 @@ public final class FoGetForumAccessMatrixAd {
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -1640,7 +1639,7 @@ public final class FoGetForumAccessMatrixAd {
                 if (anonymousAccess_ != null) {
                   subBuilder = anonymousAccess_.toBuilder();
                 }
-                anonymousAccess_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                anonymousAccess_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(anonymousAccess_);
                   anonymousAccess_ = subBuilder.buildPartial();
@@ -1653,7 +1652,7 @@ public final class FoGetForumAccessMatrixAd {
                 if (groupAccess_ != null) {
                   subBuilder = groupAccess_.toBuilder();
                 }
-                groupAccess_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                groupAccess_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(groupAccess_);
                   groupAccess_ = subBuilder.buildPartial();
@@ -1666,7 +1665,7 @@ public final class FoGetForumAccessMatrixAd {
                 if (accessType_ != null) {
                   subBuilder = accessType_.toBuilder();
                 }
-                accessType_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                accessType_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(accessType_);
                   accessType_ = subBuilder.buildPartial();
@@ -2084,9 +2083,8 @@ public final class FoGetForumAccessMatrixAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2134,7 +2132,7 @@ public final class FoGetForumAccessMatrixAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(20008, getAccessType());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4033,8 +4031,8 @@ public final class FoGetForumAccessMatrixAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4202,9 +4200,8 @@ public final class FoGetForumAccessMatrixAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4220,7 +4217,7 @@ public final class FoGetForumAccessMatrixAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5188,8 +5185,8 @@ public final class FoGetForumAccessMatrixAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

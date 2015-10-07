@@ -110,7 +110,7 @@ public final class MiGetDBObjectsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetDBObjects_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -150,7 +150,7 @@ public final class MiGetDBObjectsAd {
               if (objectType_ != null) {
                 subBuilder = objectType_.toBuilder();
               }
-              objectType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              objectType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(objectType_);
                 objectType_ = subBuilder.buildPartial();
@@ -163,7 +163,7 @@ public final class MiGetDBObjectsAd {
               if (outputIntoOneId_ != null) {
                 subBuilder = outputIntoOneId_.toBuilder();
               }
-              outputIntoOneId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              outputIntoOneId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputIntoOneId_);
                 outputIntoOneId_ = subBuilder.buildPartial();
@@ -176,7 +176,7 @@ public final class MiGetDBObjectsAd {
               if (objectNameLike_ != null) {
                 subBuilder = objectNameLike_.toBuilder();
               }
-              objectNameLike_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              objectNameLike_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(objectNameLike_);
                 objectNameLike_ = subBuilder.buildPartial();
@@ -189,7 +189,7 @@ public final class MiGetDBObjectsAd {
               if (getDependentObjects_ != null) {
                 subBuilder = getDependentObjects_.toBuilder();
               }
-              getDependentObjects_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              getDependentObjects_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(getDependentObjects_);
                 getDependentObjects_ = subBuilder.buildPartial();
@@ -202,7 +202,7 @@ public final class MiGetDBObjectsAd {
               if (databaseName_ != null) {
                 subBuilder = databaseName_.toBuilder();
               }
-              databaseName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              databaseName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(databaseName_);
                 databaseName_ = subBuilder.buildPartial();
@@ -453,9 +453,8 @@ public final class MiGetDBObjectsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -499,7 +498,7 @@ public final class MiGetDBObjectsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, databaseNameNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1511,8 +1510,8 @@ public final class MiGetDBObjectsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1631,7 +1630,7 @@ public final class MiGetDBObjectsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetDBObjects_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1668,7 +1667,7 @@ public final class MiGetDBObjectsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1681,7 +1680,7 @@ public final class MiGetDBObjectsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1689,7 +1688,7 @@ public final class MiGetDBObjectsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiGetDBObjectsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiGetDBObjectsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiGetDBObjectsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -1697,7 +1696,7 @@ public final class MiGetDBObjectsAd {
               if (definedInSystemTable_ != null) {
                 subBuilder = definedInSystemTable_.toBuilder();
               }
-              definedInSystemTable_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              definedInSystemTable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(definedInSystemTable_);
                 definedInSystemTable_ = subBuilder.buildPartial();
@@ -1977,7 +1976,7 @@ public final class MiGetDBObjectsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetDBObjects_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2018,7 +2017,7 @@ public final class MiGetDBObjectsAd {
                 if (dependentObjectType_ != null) {
                   subBuilder = dependentObjectType_.toBuilder();
                 }
-                dependentObjectType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                dependentObjectType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dependentObjectType_);
                   dependentObjectType_ = subBuilder.buildPartial();
@@ -2031,7 +2030,7 @@ public final class MiGetDBObjectsAd {
                 if (objectType_ != null) {
                   subBuilder = objectType_.toBuilder();
                 }
-                objectType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                objectType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectType_);
                   objectType_ = subBuilder.buildPartial();
@@ -2044,7 +2043,7 @@ public final class MiGetDBObjectsAd {
                 if (objectId_ != null) {
                   subBuilder = objectId_.toBuilder();
                 }
-                objectId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                objectId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectId_);
                   objectId_ = subBuilder.buildPartial();
@@ -2057,7 +2056,7 @@ public final class MiGetDBObjectsAd {
                 if (databaseName_ != null) {
                   subBuilder = databaseName_.toBuilder();
                 }
-                databaseName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                databaseName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(databaseName_);
                   databaseName_ = subBuilder.buildPartial();
@@ -2070,7 +2069,7 @@ public final class MiGetDBObjectsAd {
                 if (objectLastCreatedAt_ != null) {
                   subBuilder = objectLastCreatedAt_.toBuilder();
                 }
-                objectLastCreatedAt_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                objectLastCreatedAt_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectLastCreatedAt_);
                   objectLastCreatedAt_ = subBuilder.buildPartial();
@@ -2083,7 +2082,7 @@ public final class MiGetDBObjectsAd {
                 if (definedInSystemTable_ != null) {
                   subBuilder = definedInSystemTable_.toBuilder();
                 }
-                definedInSystemTable_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                definedInSystemTable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(definedInSystemTable_);
                   definedInSystemTable_ = subBuilder.buildPartial();
@@ -2096,7 +2095,7 @@ public final class MiGetDBObjectsAd {
                 if (dependentObjectName_ != null) {
                   subBuilder = dependentObjectName_.toBuilder();
                 }
-                dependentObjectName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                dependentObjectName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dependentObjectName_);
                   dependentObjectName_ = subBuilder.buildPartial();
@@ -2109,7 +2108,7 @@ public final class MiGetDBObjectsAd {
                 if (objectName_ != null) {
                   subBuilder = objectName_.toBuilder();
                 }
-                objectName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                objectName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(objectName_);
                   objectName_ = subBuilder.buildPartial();
@@ -2122,7 +2121,7 @@ public final class MiGetDBObjectsAd {
                 if (dependentObjectId_ != null) {
                   subBuilder = dependentObjectId_.toBuilder();
                 }
-                dependentObjectId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                dependentObjectId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dependentObjectId_);
                   dependentObjectId_ = subBuilder.buildPartial();
@@ -2504,9 +2503,8 @@ public final class MiGetDBObjectsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2550,7 +2548,7 @@ public final class MiGetDBObjectsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10009, getDependentObjectId());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4282,8 +4280,8 @@ public final class MiGetDBObjectsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4455,9 +4453,8 @@ public final class MiGetDBObjectsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4477,7 +4474,7 @@ public final class MiGetDBObjectsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getDefinedInSystemTable());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5504,8 +5501,8 @@ public final class MiGetDBObjectsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -38,7 +38,7 @@ public final class MiGetMetaInformationTypesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetMetaInformationTypes_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -74,7 +74,7 @@ public final class MiGetMetaInformationTypesAd {
               if (tableId_ != null) {
                 subBuilder = tableId_.toBuilder();
               }
-              tableId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              tableId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(tableId_);
                 tableId_ = subBuilder.buildPartial();
@@ -161,9 +161,8 @@ public final class MiGetMetaInformationTypesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -175,7 +174,7 @@ public final class MiGetMetaInformationTypesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, tableIdNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -535,8 +534,8 @@ public final class MiGetMetaInformationTypesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -662,7 +661,7 @@ public final class MiGetMetaInformationTypesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetMetaInformationTypes_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -699,7 +698,7 @@ public final class MiGetMetaInformationTypesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -712,7 +711,7 @@ public final class MiGetMetaInformationTypesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -720,7 +719,7 @@ public final class MiGetMetaInformationTypesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.MiGetMetaInformationTypesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.MiGetMetaInformationTypesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.MiGetMetaInformationTypesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -895,7 +894,7 @@ public final class MiGetMetaInformationTypesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.mi_GetMetaInformationTypes_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -936,7 +935,7 @@ public final class MiGetMetaInformationTypesAd {
                 if (tableId_ != null) {
                   subBuilder = tableId_.toBuilder();
                 }
-                tableId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                tableId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableId_);
                   tableId_ = subBuilder.buildPartial();
@@ -949,7 +948,7 @@ public final class MiGetMetaInformationTypesAd {
                 if (metaInformationTypeId_ != null) {
                   subBuilder = metaInformationTypeId_.toBuilder();
                 }
-                metaInformationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                metaInformationTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(metaInformationTypeId_);
                   metaInformationTypeId_ = subBuilder.buildPartial();
@@ -962,7 +961,7 @@ public final class MiGetMetaInformationTypesAd {
                 if (tableName_ != null) {
                   subBuilder = tableName_.toBuilder();
                 }
-                tableName_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                tableName_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(tableName_);
                   tableName_ = subBuilder.buildPartial();
@@ -975,7 +974,7 @@ public final class MiGetMetaInformationTypesAd {
                 if (description_ != null) {
                   subBuilder = description_.toBuilder();
                 }
-                description_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                description_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(description_);
                   description_ = subBuilder.buildPartial();
@@ -988,7 +987,7 @@ public final class MiGetMetaInformationTypesAd {
                 if (metaInformationType_ != null) {
                   subBuilder = metaInformationType_.toBuilder();
                 }
-                metaInformationType_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                metaInformationType_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(metaInformationType_);
                   metaInformationType_ = subBuilder.buildPartial();
@@ -1226,9 +1225,8 @@ public final class MiGetMetaInformationTypesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1256,7 +1254,7 @@ public final class MiGetMetaInformationTypesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10005, getMetaInformationType());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2320,8 +2318,8 @@ public final class MiGetMetaInformationTypesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2489,9 +2487,8 @@ public final class MiGetMetaInformationTypesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2507,7 +2504,7 @@ public final class MiGetMetaInformationTypesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3475,8 +3472,8 @@ public final class MiGetMetaInformationTypesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -40,7 +40,7 @@ public final class ProcedureMessage {
       // @@protoc_insertion_point(message_implements:dstore.engine.message.Message)
       MessageOrBuilder {
     // Use Message.newBuilder() to construct.
-    private Message(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Message(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Message() {
@@ -84,9 +84,9 @@ public final class ProcedureMessage {
               break;
             }
             case 26: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+              String s = input.readStringRequireUtf8();
 
-              message_ = bs;
+              message_ = s;
               break;
             }
           }
@@ -144,9 +144,7 @@ public final class ProcedureMessage {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          message_ = s;
-        }
+        message_ = s;
         return s;
       }
     }
@@ -186,13 +184,12 @@ public final class ProcedureMessage {
         output.writeInt32(2, code_);
       }
       if (!getMessageBytes().isEmpty()) {
-        output.writeBytes(3, getMessageBytes());
+        com.google.protobuf.GeneratedMessage.writeString(output, 3, message_);
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -205,10 +202,9 @@ public final class ProcedureMessage {
           .computeInt32Size(2, code_);
       }
       if (!getMessageBytes().isEmpty()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(3, getMessageBytes());
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(3, message_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -463,9 +459,7 @@ public final class ProcedureMessage {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            message_ = s;
-          }
+          message_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
@@ -517,7 +511,8 @@ public final class ProcedureMessage {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  checkByteStringIsUtf8(value);
+        
         message_ = value;
         onChanged();
         return this;
@@ -546,8 +541,8 @@ public final class ProcedureMessage {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Message> PARSER =
-        new com.google.protobuf.AbstractParser<Message>() {
+    private static final com.google.protobuf.Parser<Message>
+        PARSER = new com.google.protobuf.AbstractParser<Message>() {
       public Message parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

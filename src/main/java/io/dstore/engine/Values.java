@@ -25,7 +25,7 @@ public final class Values {
       // @@protoc_insertion_point(message_implements:dstore.engine.values.integerValue)
       integerValueOrBuilder {
     // Use integerValue.newBuilder() to construct.
-    private integerValue(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private integerValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private integerValue() {
@@ -111,9 +111,8 @@ public final class Values {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -121,7 +120,7 @@ public final class Values {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(1, value_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -350,8 +349,8 @@ public final class Values {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<integerValue> PARSER =
-        new com.google.protobuf.AbstractParser<integerValue>() {
+    private static final com.google.protobuf.Parser<integerValue>
+        PARSER = new com.google.protobuf.AbstractParser<integerValue>() {
       public integerValue parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -406,7 +405,7 @@ public final class Values {
       // @@protoc_insertion_point(message_implements:dstore.engine.values.stringValue)
       stringValueOrBuilder {
     // Use stringValue.newBuilder() to construct.
-    private stringValue(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private stringValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private stringValue() {
@@ -438,9 +437,9 @@ public final class Values {
               break;
             }
             case 10: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+              String s = input.readStringRequireUtf8();
 
-              value_ = bs;
+              value_ = s;
               break;
             }
           }
@@ -480,9 +479,7 @@ public final class Values {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          value_ = s;
-        }
+        value_ = s;
         return s;
       }
     }
@@ -516,21 +513,19 @@ public final class Values {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!getValueBytes().isEmpty()) {
-        output.writeBytes(1, getValueBytes());
+        com.google.protobuf.GeneratedMessage.writeString(output, 1, value_);
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
       if (!getValueBytes().isEmpty()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(1, getValueBytes());
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, value_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -721,9 +716,7 @@ public final class Values {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            value_ = s;
-          }
+          value_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
@@ -775,7 +768,8 @@ public final class Values {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  checkByteStringIsUtf8(value);
+        
         value_ = value;
         onChanged();
         return this;
@@ -804,8 +798,8 @@ public final class Values {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<stringValue> PARSER =
-        new com.google.protobuf.AbstractParser<stringValue>() {
+    private static final com.google.protobuf.Parser<stringValue>
+        PARSER = new com.google.protobuf.AbstractParser<stringValue>() {
       public stringValue parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -855,7 +849,7 @@ public final class Values {
       // @@protoc_insertion_point(message_implements:dstore.engine.values.byteValue)
       byteValueOrBuilder {
     // Use byteValue.newBuilder() to construct.
-    private byteValue(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private byteValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private byteValue() {
@@ -941,9 +935,8 @@ public final class Values {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -951,7 +944,7 @@ public final class Values {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(1, value_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1183,8 +1176,8 @@ public final class Values {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<byteValue> PARSER =
-        new com.google.protobuf.AbstractParser<byteValue>() {
+    private static final com.google.protobuf.Parser<byteValue>
+        PARSER = new com.google.protobuf.AbstractParser<byteValue>() {
       public byteValue parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1234,7 +1227,7 @@ public final class Values {
       // @@protoc_insertion_point(message_implements:dstore.engine.values.doubleValue)
       doubleValueOrBuilder {
     // Use doubleValue.newBuilder() to construct.
-    private doubleValue(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private doubleValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private doubleValue() {
@@ -1320,9 +1313,8 @@ public final class Values {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1330,7 +1322,7 @@ public final class Values {
         size += com.google.protobuf.CodedOutputStream
           .computeDoubleSize(1, value_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1559,8 +1551,8 @@ public final class Values {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<doubleValue> PARSER =
-        new com.google.protobuf.AbstractParser<doubleValue>() {
+    private static final com.google.protobuf.Parser<doubleValue>
+        PARSER = new com.google.protobuf.AbstractParser<doubleValue>() {
       public doubleValue parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1610,7 +1602,7 @@ public final class Values {
       // @@protoc_insertion_point(message_implements:dstore.engine.values.booleanValue)
       booleanValueOrBuilder {
     // Use booleanValue.newBuilder() to construct.
-    private booleanValue(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private booleanValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private booleanValue() {
@@ -1696,9 +1688,8 @@ public final class Values {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -1706,7 +1697,7 @@ public final class Values {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1, value_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1935,8 +1926,8 @@ public final class Values {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<booleanValue> PARSER =
-        new com.google.protobuf.AbstractParser<booleanValue>() {
+    private static final com.google.protobuf.Parser<booleanValue>
+        PARSER = new com.google.protobuf.AbstractParser<booleanValue>() {
       public booleanValue parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1999,7 +1990,7 @@ public final class Values {
       // @@protoc_insertion_point(message_implements:dstore.engine.values.decimalValue)
       decimalValueOrBuilder {
     // Use decimalValue.newBuilder() to construct.
-    private decimalValue(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private decimalValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private decimalValue() {
@@ -2031,9 +2022,9 @@ public final class Values {
               break;
             }
             case 10: {
-              com.google.protobuf.ByteString bs = input.readBytes();
+              String s = input.readStringRequireUtf8();
 
-              value_ = bs;
+              value_ = s;
               break;
             }
           }
@@ -2077,9 +2068,7 @@ public final class Values {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        if (bs.isValidUtf8()) {
-          value_ = s;
-        }
+        value_ = s;
         return s;
       }
     }
@@ -2117,21 +2106,19 @@ public final class Values {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!getValueBytes().isEmpty()) {
-        output.writeBytes(1, getValueBytes());
+        com.google.protobuf.GeneratedMessage.writeString(output, 1, value_);
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
       if (!getValueBytes().isEmpty()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(1, getValueBytes());
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, value_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2326,9 +2313,7 @@ public final class Values {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          if (bs.isValidUtf8()) {
-            value_ = s;
-          }
+          value_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
@@ -2396,7 +2381,8 @@ public final class Values {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  checkByteStringIsUtf8(value);
+        
         value_ = value;
         onChanged();
         return this;
@@ -2425,8 +2411,8 @@ public final class Values {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<decimalValue> PARSER =
-        new com.google.protobuf.AbstractParser<decimalValue>() {
+    private static final com.google.protobuf.Parser<decimalValue>
+        PARSER = new com.google.protobuf.AbstractParser<decimalValue>() {
       public decimalValue parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2484,7 +2470,7 @@ public final class Values {
       // @@protoc_insertion_point(message_implements:dstore.engine.values.timestampValue)
       timestampValueOrBuilder {
     // Use timestampValue.newBuilder() to construct.
-    private timestampValue(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private timestampValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private timestampValue() {
@@ -2589,9 +2575,8 @@ public final class Values {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2599,7 +2584,7 @@ public final class Values {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getValue());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2927,8 +2912,8 @@ public final class Values {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<timestampValue> PARSER =
-        new com.google.protobuf.AbstractParser<timestampValue>() {
+    private static final com.google.protobuf.Parser<timestampValue>
+        PARSER = new com.google.protobuf.AbstractParser<timestampValue>() {
       public timestampValue parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2978,7 +2963,7 @@ public final class Values {
       // @@protoc_insertion_point(message_implements:dstore.engine.values.longValue)
       longValueOrBuilder {
     // Use longValue.newBuilder() to construct.
-    private longValue(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private longValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private longValue() {
@@ -3064,9 +3049,8 @@ public final class Values {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3074,7 +3058,7 @@ public final class Values {
         size += com.google.protobuf.CodedOutputStream
           .computeInt64Size(1, value_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3303,8 +3287,8 @@ public final class Values {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<longValue> PARSER =
-        new com.google.protobuf.AbstractParser<longValue>() {
+    private static final com.google.protobuf.Parser<longValue>
+        PARSER = new com.google.protobuf.AbstractParser<longValue>() {
       public longValue parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3412,6 +3396,8 @@ public final class Values {
      * <code>optional .dstore.engine.values.longValue long_value = 17;</code>
      */
     io.dstore.engine.Values.longValueOrBuilder getLongValueOrBuilder();
+
+    public io.dstore.engine.Values.Value.ValueCase getValueCase();
   }
   /**
    * Protobuf type {@code dstore.engine.values.Value}
@@ -3421,7 +3407,7 @@ public final class Values {
       // @@protoc_insertion_point(message_implements:dstore.engine.values.Value)
       ValueOrBuilder {
     // Use Value.newBuilder() to construct.
-    private Value(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Value(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Value() {
@@ -3456,7 +3442,8 @@ public final class Values {
               if (valueCase_ == 10) {
                 subBuilder = ((io.dstore.engine.Values.integerValue) value_).toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              value_ =
+                  input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom((io.dstore.engine.Values.integerValue) value_);
                 value_ = subBuilder.buildPartial();
@@ -3469,7 +3456,8 @@ public final class Values {
               if (valueCase_ == 11) {
                 subBuilder = ((io.dstore.engine.Values.stringValue) value_).toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              value_ =
+                  input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom((io.dstore.engine.Values.stringValue) value_);
                 value_ = subBuilder.buildPartial();
@@ -3482,7 +3470,8 @@ public final class Values {
               if (valueCase_ == 12) {
                 subBuilder = ((io.dstore.engine.Values.byteValue) value_).toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.byteValue.PARSER, extensionRegistry);
+              value_ =
+                  input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom((io.dstore.engine.Values.byteValue) value_);
                 value_ = subBuilder.buildPartial();
@@ -3495,7 +3484,8 @@ public final class Values {
               if (valueCase_ == 13) {
                 subBuilder = ((io.dstore.engine.Values.doubleValue) value_).toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.doubleValue.PARSER, extensionRegistry);
+              value_ =
+                  input.readMessage(io.dstore.engine.Values.doubleValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom((io.dstore.engine.Values.doubleValue) value_);
                 value_ = subBuilder.buildPartial();
@@ -3508,7 +3498,8 @@ public final class Values {
               if (valueCase_ == 14) {
                 subBuilder = ((io.dstore.engine.Values.booleanValue) value_).toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              value_ =
+                  input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom((io.dstore.engine.Values.booleanValue) value_);
                 value_ = subBuilder.buildPartial();
@@ -3521,7 +3512,8 @@ public final class Values {
               if (valueCase_ == 15) {
                 subBuilder = ((io.dstore.engine.Values.decimalValue) value_).toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              value_ =
+                  input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom((io.dstore.engine.Values.decimalValue) value_);
                 value_ = subBuilder.buildPartial();
@@ -3534,7 +3526,8 @@ public final class Values {
               if (valueCase_ == 16) {
                 subBuilder = ((io.dstore.engine.Values.timestampValue) value_).toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              value_ =
+                  input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom((io.dstore.engine.Values.timestampValue) value_);
                 value_ = subBuilder.buildPartial();
@@ -3547,7 +3540,8 @@ public final class Values {
               if (valueCase_ == 17) {
                 subBuilder = ((io.dstore.engine.Values.longValue) value_).toBuilder();
               }
-              value_ = input.readMessage(io.dstore.engine.Values.longValue.PARSER, extensionRegistry);
+              value_ =
+                  input.readMessage(io.dstore.engine.Values.longValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom((io.dstore.engine.Values.longValue) value_);
                 value_ = subBuilder.buildPartial();
@@ -3820,9 +3814,8 @@ public final class Values {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -3858,7 +3851,7 @@ public final class Values {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(17, (io.dstore.engine.Values.longValue) value_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5206,8 +5199,8 @@ public final class Values {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Value> PARSER =
-        new com.google.protobuf.AbstractParser<Value>() {
+    private static final com.google.protobuf.Parser<Value>
+        PARSER = new com.google.protobuf.AbstractParser<Value>() {
       public Value parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

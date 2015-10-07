@@ -218,7 +218,7 @@ public final class StGetDirectSuccessorsTreeAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDirectSuccessors_Tree_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -264,7 +264,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (hTreeNodeId_ != null) {
                 subBuilder = hTreeNodeId_.toBuilder();
               }
-              hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(hTreeNodeId_);
                 hTreeNodeId_ = subBuilder.buildPartial();
@@ -277,7 +277,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -290,7 +290,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -303,7 +303,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (basicCharacteristicNo1_ != null) {
                 subBuilder = basicCharacteristicNo1_.toBuilder();
               }
-              basicCharacteristicNo1_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              basicCharacteristicNo1_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(basicCharacteristicNo1_);
                 basicCharacteristicNo1_ = subBuilder.buildPartial();
@@ -316,7 +316,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (weightBasicCharacteristicNo1_ != null) {
                 subBuilder = weightBasicCharacteristicNo1_.toBuilder();
               }
-              weightBasicCharacteristicNo1_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              weightBasicCharacteristicNo1_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(weightBasicCharacteristicNo1_);
                 weightBasicCharacteristicNo1_ = subBuilder.buildPartial();
@@ -329,7 +329,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (basicCharacteristicNo2_ != null) {
                 subBuilder = basicCharacteristicNo2_.toBuilder();
               }
-              basicCharacteristicNo2_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              basicCharacteristicNo2_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(basicCharacteristicNo2_);
                 basicCharacteristicNo2_ = subBuilder.buildPartial();
@@ -342,7 +342,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (weightBasicCharacteristicNo2_ != null) {
                 subBuilder = weightBasicCharacteristicNo2_.toBuilder();
               }
-              weightBasicCharacteristicNo2_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              weightBasicCharacteristicNo2_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(weightBasicCharacteristicNo2_);
                 weightBasicCharacteristicNo2_ = subBuilder.buildPartial();
@@ -355,7 +355,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (basicCharacteristicNo3_ != null) {
                 subBuilder = basicCharacteristicNo3_.toBuilder();
               }
-              basicCharacteristicNo3_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              basicCharacteristicNo3_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(basicCharacteristicNo3_);
                 basicCharacteristicNo3_ = subBuilder.buildPartial();
@@ -368,7 +368,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (weightBasicCharacteristicNo3_ != null) {
                 subBuilder = weightBasicCharacteristicNo3_.toBuilder();
               }
-              weightBasicCharacteristicNo3_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+              weightBasicCharacteristicNo3_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(weightBasicCharacteristicNo3_);
                 weightBasicCharacteristicNo3_ = subBuilder.buildPartial();
@@ -381,7 +381,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (sourceTableForStatistics_ != null) {
                 subBuilder = sourceTableForStatistics_.toBuilder();
               }
-              sourceTableForStatistics_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              sourceTableForStatistics_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sourceTableForStatistics_);
                 sourceTableForStatistics_ = subBuilder.buildPartial();
@@ -394,7 +394,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (displayOnlyActive_ != null) {
                 subBuilder = displayOnlyActive_.toBuilder();
               }
-              displayOnlyActive_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              displayOnlyActive_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(displayOnlyActive_);
                 displayOnlyActive_ = subBuilder.buildPartial();
@@ -891,9 +891,8 @@ public final class StGetDirectSuccessorsTreeAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -985,7 +984,7 @@ public final class StGetDirectSuccessorsTreeAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1011, displayOnlyActiveNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2975,8 +2974,8 @@ public final class StGetDirectSuccessorsTreeAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3102,7 +3101,7 @@ public final class StGetDirectSuccessorsTreeAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDirectSuccessors_Tree_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3139,7 +3138,7 @@ public final class StGetDirectSuccessorsTreeAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3152,7 +3151,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3160,7 +3159,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.StGetDirectSuccessorsTreeAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.StGetDirectSuccessorsTreeAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.StGetDirectSuccessorsTreeAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -3785,7 +3784,7 @@ public final class StGetDirectSuccessorsTreeAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.st_GetDirectSuccessors_Tree_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3826,7 +3825,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (treeLevel_ != null) {
                   subBuilder = treeLevel_.toBuilder();
                 }
-                treeLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeLevel_);
                   treeLevel_ = subBuilder.buildPartial();
@@ -3839,7 +3838,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (predecessor_ != null) {
                   subBuilder = predecessor_.toBuilder();
                 }
-                predecessor_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                predecessor_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(predecessor_);
                   predecessor_ = subBuilder.buildPartial();
@@ -3852,7 +3851,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (levelNo_ != null) {
                   subBuilder = levelNo_.toBuilder();
                 }
-                levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                levelNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(levelNo_);
                   levelNo_ = subBuilder.buildPartial();
@@ -3865,7 +3864,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (relativeValueBasicCharacNo3_ != null) {
                   subBuilder = relativeValueBasicCharacNo3_.toBuilder();
                 }
-                relativeValueBasicCharacNo3_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                relativeValueBasicCharacNo3_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relativeValueBasicCharacNo3_);
                   relativeValueBasicCharacNo3_ = subBuilder.buildPartial();
@@ -3878,7 +3877,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (relativeValueBasicCharacNo2_ != null) {
                   subBuilder = relativeValueBasicCharacNo2_.toBuilder();
                 }
-                relativeValueBasicCharacNo2_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                relativeValueBasicCharacNo2_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relativeValueBasicCharacNo2_);
                   relativeValueBasicCharacNo2_ = subBuilder.buildPartial();
@@ -3891,7 +3890,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (relativeValueBasicCharacNo1_ != null) {
                   subBuilder = relativeValueBasicCharacNo1_.toBuilder();
                 }
-                relativeValueBasicCharacNo1_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                relativeValueBasicCharacNo1_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relativeValueBasicCharacNo1_);
                   relativeValueBasicCharacNo1_ = subBuilder.buildPartial();
@@ -3904,7 +3903,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (totalValueIndex_ != null) {
                   subBuilder = totalValueIndex_.toBuilder();
                 }
-                totalValueIndex_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                totalValueIndex_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalValueIndex_);
                   totalValueIndex_ = subBuilder.buildPartial();
@@ -3917,7 +3916,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (relativeValueIndex_ != null) {
                   subBuilder = relativeValueIndex_.toBuilder();
                 }
-                relativeValueIndex_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                relativeValueIndex_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relativeValueIndex_);
                   relativeValueIndex_ = subBuilder.buildPartial();
@@ -3930,7 +3929,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -3943,7 +3942,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (active_ != null) {
                   subBuilder = active_.toBuilder();
                 }
-                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                active_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(active_);
                   active_ = subBuilder.buildPartial();
@@ -3956,7 +3955,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (hasNextSibling_ != null) {
                   subBuilder = hasNextSibling_.toBuilder();
                 }
-                hasNextSibling_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                hasNextSibling_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hasNextSibling_);
                   hasNextSibling_ = subBuilder.buildPartial();
@@ -3969,7 +3968,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (totalValueBasicCharacNo1_ != null) {
                   subBuilder = totalValueBasicCharacNo1_.toBuilder();
                 }
-                totalValueBasicCharacNo1_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                totalValueBasicCharacNo1_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalValueBasicCharacNo1_);
                   totalValueBasicCharacNo1_ = subBuilder.buildPartial();
@@ -3982,7 +3981,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -3995,7 +3994,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (totalValueBasicCharacNo2_ != null) {
                   subBuilder = totalValueBasicCharacNo2_.toBuilder();
                 }
-                totalValueBasicCharacNo2_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                totalValueBasicCharacNo2_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalValueBasicCharacNo2_);
                   totalValueBasicCharacNo2_ = subBuilder.buildPartial();
@@ -4008,7 +4007,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (totalValueBasicCharacNo3_ != null) {
                   subBuilder = totalValueBasicCharacNo3_.toBuilder();
                 }
-                totalValueBasicCharacNo3_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                totalValueBasicCharacNo3_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(totalValueBasicCharacNo3_);
                   totalValueBasicCharacNo3_ = subBuilder.buildPartial();
@@ -4021,7 +4020,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (maxRelativeValuePerPredecessor_ != null) {
                   subBuilder = maxRelativeValuePerPredecessor_.toBuilder();
                 }
-                maxRelativeValuePerPredecessor_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                maxRelativeValuePerPredecessor_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(maxRelativeValuePerPredecessor_);
                   maxRelativeValuePerPredecessor_ = subBuilder.buildPartial();
@@ -4034,7 +4033,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (treeNodeId_ != null) {
                   subBuilder = treeNodeId_.toBuilder();
                 }
-                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                treeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(treeNodeId_);
                   treeNodeId_ = subBuilder.buildPartial();
@@ -4047,7 +4046,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -4060,7 +4059,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (maxRelativeValueIndexPerPred_ != null) {
                   subBuilder = maxRelativeValueIndexPerPred_.toBuilder();
                 }
-                maxRelativeValueIndexPerPred_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                maxRelativeValueIndexPerPred_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(maxRelativeValueIndexPerPred_);
                   maxRelativeValueIndexPerPred_ = subBuilder.buildPartial();
@@ -4073,7 +4072,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (fromDate_ != null) {
                   subBuilder = fromDate_.toBuilder();
                 }
-                fromDate_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                fromDate_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(fromDate_);
                   fromDate_ = subBuilder.buildPartial();
@@ -4086,7 +4085,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (toDate_ != null) {
                   subBuilder = toDate_.toBuilder();
                 }
-                toDate_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                toDate_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(toDate_);
                   toDate_ = subBuilder.buildPartial();
@@ -4099,7 +4098,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (hasSuccessors_ != null) {
                   subBuilder = hasSuccessors_.toBuilder();
                 }
-                hasSuccessors_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                hasSuccessors_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hasSuccessors_);
                   hasSuccessors_ = subBuilder.buildPartial();
@@ -4112,7 +4111,7 @@ public final class StGetDirectSuccessorsTreeAd {
                 if (deleted_ != null) {
                   subBuilder = deleted_.toBuilder();
                 }
-                deleted_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                deleted_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(deleted_);
                   deleted_ = subBuilder.buildPartial();
@@ -4998,9 +4997,8 @@ public final class StGetDirectSuccessorsTreeAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -5100,7 +5098,7 @@ public final class StGetDirectSuccessorsTreeAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10023, getDeleted());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -9170,8 +9168,8 @@ public final class StGetDirectSuccessorsTreeAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -9339,9 +9337,8 @@ public final class StGetDirectSuccessorsTreeAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -9357,7 +9354,7 @@ public final class StGetDirectSuccessorsTreeAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -10325,8 +10322,8 @@ public final class StGetDirectSuccessorsTreeAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

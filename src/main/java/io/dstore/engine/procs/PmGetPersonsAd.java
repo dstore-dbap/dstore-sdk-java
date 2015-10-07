@@ -218,7 +218,7 @@ public final class PmGetPersonsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_GetPersons_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -264,7 +264,7 @@ public final class PmGetPersonsAd {
               if (sortOrder1_ != null) {
                 subBuilder = sortOrder1_.toBuilder();
               }
-              sortOrder1_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              sortOrder1_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortOrder1_);
                 sortOrder1_ = subBuilder.buildPartial();
@@ -277,7 +277,7 @@ public final class PmGetPersonsAd {
               if (sortOrder2_ != null) {
                 subBuilder = sortOrder2_.toBuilder();
               }
-              sortOrder2_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              sortOrder2_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortOrder2_);
                 sortOrder2_ = subBuilder.buildPartial();
@@ -290,7 +290,7 @@ public final class PmGetPersonsAd {
               if (sortOrder3_ != null) {
                 subBuilder = sortOrder3_.toBuilder();
               }
-              sortOrder3_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              sortOrder3_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortOrder3_);
                 sortOrder3_ = subBuilder.buildPartial();
@@ -303,7 +303,7 @@ public final class PmGetPersonsAd {
               if (outputCharacteristicIds_ != null) {
                 subBuilder = outputCharacteristicIds_.toBuilder();
               }
-              outputCharacteristicIds_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              outputCharacteristicIds_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(outputCharacteristicIds_);
                 outputCharacteristicIds_ = subBuilder.buildPartial();
@@ -316,7 +316,7 @@ public final class PmGetPersonsAd {
               if (lastPersonId_ != null) {
                 subBuilder = lastPersonId_.toBuilder();
               }
-              lastPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              lastPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(lastPersonId_);
                 lastPersonId_ = subBuilder.buildPartial();
@@ -329,7 +329,7 @@ public final class PmGetPersonsAd {
               if (lastValues_ != null) {
                 subBuilder = lastValues_.toBuilder();
               }
-              lastValues_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              lastValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(lastValues_);
                 lastValues_ = subBuilder.buildPartial();
@@ -342,7 +342,7 @@ public final class PmGetPersonsAd {
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -355,7 +355,7 @@ public final class PmGetPersonsAd {
               if (next_ != null) {
                 subBuilder = next_.toBuilder();
               }
-              next_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              next_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(next_);
                 next_ = subBuilder.buildPartial();
@@ -368,7 +368,7 @@ public final class PmGetPersonsAd {
               if (groupId_ != null) {
                 subBuilder = groupId_.toBuilder();
               }
-              groupId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              groupId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(groupId_);
                 groupId_ = subBuilder.buildPartial();
@@ -381,7 +381,7 @@ public final class PmGetPersonsAd {
               if (rowNumber_ != null) {
                 subBuilder = rowNumber_.toBuilder();
               }
-              rowNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              rowNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(rowNumber_);
                 rowNumber_ = subBuilder.buildPartial();
@@ -394,7 +394,7 @@ public final class PmGetPersonsAd {
               if (separatorInLastValues_ != null) {
                 subBuilder = separatorInLastValues_.toBuilder();
               }
-              separatorInLastValues_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              separatorInLastValues_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(separatorInLastValues_);
                 separatorInLastValues_ = subBuilder.buildPartial();
@@ -891,9 +891,8 @@ public final class PmGetPersonsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -985,7 +984,7 @@ public final class PmGetPersonsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1011, separatorInLastValuesNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2975,8 +2974,8 @@ public final class PmGetPersonsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -3095,7 +3094,7 @@ public final class PmGetPersonsAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_GetPersons_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -3132,7 +3131,7 @@ public final class PmGetPersonsAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -3145,7 +3144,7 @@ public final class PmGetPersonsAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -3153,7 +3152,7 @@ public final class PmGetPersonsAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.PmGetPersonsAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.PmGetPersonsAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.PmGetPersonsAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -3161,7 +3160,7 @@ public final class PmGetPersonsAd {
               if (count_ != null) {
                 subBuilder = count_.toBuilder();
               }
-              count_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              count_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(count_);
                 count_ = subBuilder.buildPartial();
@@ -3316,7 +3315,7 @@ public final class PmGetPersonsAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.pm_GetPersons_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -3357,7 +3356,7 @@ public final class PmGetPersonsAd {
                 if (personId_ != null) {
                   subBuilder = personId_.toBuilder();
                 }
-                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(personId_);
                   personId_ = subBuilder.buildPartial();
@@ -3370,7 +3369,7 @@ public final class PmGetPersonsAd {
                 if (value1_ != null) {
                   subBuilder = value1_.toBuilder();
                 }
-                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value1_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value1_);
                   value1_ = subBuilder.buildPartial();
@@ -3383,7 +3382,7 @@ public final class PmGetPersonsAd {
                 if (value2_ != null) {
                   subBuilder = value2_.toBuilder();
                 }
-                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value2_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value2_);
                   value2_ = subBuilder.buildPartial();
@@ -3396,7 +3395,7 @@ public final class PmGetPersonsAd {
                 if (value3_ != null) {
                   subBuilder = value3_.toBuilder();
                 }
-                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                value3_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value3_);
                   value3_ = subBuilder.buildPartial();
@@ -3598,9 +3597,8 @@ public final class PmGetPersonsAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3624,7 +3622,7 @@ public final class PmGetPersonsAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(40002, getValue3());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -4521,8 +4519,8 @@ public final class PmGetPersonsAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -4694,9 +4692,8 @@ public final class PmGetPersonsAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -4716,7 +4713,7 @@ public final class PmGetPersonsAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getCount());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -5743,8 +5740,8 @@ public final class PmGetPersonsAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

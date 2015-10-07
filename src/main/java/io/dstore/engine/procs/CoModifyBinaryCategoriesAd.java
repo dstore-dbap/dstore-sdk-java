@@ -164,7 +164,7 @@ public final class CoModifyBinaryCategoriesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.co_ModifyBinaryCategories_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -207,7 +207,7 @@ public final class CoModifyBinaryCategoriesAd {
               if (communityBinaryCategoryId_ != null) {
                 subBuilder = communityBinaryCategoryId_.toBuilder();
               }
-              communityBinaryCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              communityBinaryCategoryId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityBinaryCategoryId_);
                 communityBinaryCategoryId_ = subBuilder.buildPartial();
@@ -220,7 +220,7 @@ public final class CoModifyBinaryCategoriesAd {
               if (communityId_ != null) {
                 subBuilder = communityId_.toBuilder();
               }
-              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              communityId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityId_);
                 communityId_ = subBuilder.buildPartial();
@@ -233,7 +233,7 @@ public final class CoModifyBinaryCategoriesAd {
               if (communityBinaryCategory_ != null) {
                 subBuilder = communityBinaryCategory_.toBuilder();
               }
-              communityBinaryCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              communityBinaryCategory_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(communityBinaryCategory_);
                 communityBinaryCategory_ = subBuilder.buildPartial();
@@ -246,7 +246,7 @@ public final class CoModifyBinaryCategoriesAd {
               if (sortNo_ != null) {
                 subBuilder = sortNo_.toBuilder();
               }
-              sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              sortNo_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(sortNo_);
                 sortNo_ = subBuilder.buildPartial();
@@ -259,7 +259,7 @@ public final class CoModifyBinaryCategoriesAd {
               if (accessLevel_ != null) {
                 subBuilder = accessLevel_.toBuilder();
               }
-              accessLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              accessLevel_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(accessLevel_);
                 accessLevel_ = subBuilder.buildPartial();
@@ -272,7 +272,7 @@ public final class CoModifyBinaryCategoriesAd {
               if (binaryQuotaInKB_ != null) {
                 subBuilder = binaryQuotaInKB_.toBuilder();
               }
-              binaryQuotaInKB_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              binaryQuotaInKB_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(binaryQuotaInKB_);
                 binaryQuotaInKB_ = subBuilder.buildPartial();
@@ -285,7 +285,7 @@ public final class CoModifyBinaryCategoriesAd {
               if (maxNumberOfBinaries_ != null) {
                 subBuilder = maxNumberOfBinaries_.toBuilder();
               }
-              maxNumberOfBinaries_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              maxNumberOfBinaries_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(maxNumberOfBinaries_);
                 maxNumberOfBinaries_ = subBuilder.buildPartial();
@@ -298,7 +298,7 @@ public final class CoModifyBinaryCategoriesAd {
               if (deleteBinaryCategory_ != null) {
                 subBuilder = deleteBinaryCategory_.toBuilder();
               }
-              deleteBinaryCategory_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              deleteBinaryCategory_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deleteBinaryCategory_);
                 deleteBinaryCategory_ = subBuilder.buildPartial();
@@ -672,9 +672,8 @@ public final class CoModifyBinaryCategoriesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -742,7 +741,7 @@ public final class CoModifyBinaryCategoriesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1008, deleteBinaryCategoryNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2243,8 +2242,8 @@ public final class CoModifyBinaryCategoriesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2370,7 +2369,7 @@ public final class CoModifyBinaryCategoriesAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.co_ModifyBinaryCategories_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2407,7 +2406,7 @@ public final class CoModifyBinaryCategoriesAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2420,7 +2419,7 @@ public final class CoModifyBinaryCategoriesAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2428,7 +2427,7 @@ public final class CoModifyBinaryCategoriesAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.CoModifyBinaryCategoriesAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.CoModifyBinaryCategoriesAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.CoModifyBinaryCategoriesAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2478,7 +2477,7 @@ public final class CoModifyBinaryCategoriesAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.co_ModifyBinaryCategories_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2564,9 +2563,8 @@ public final class CoModifyBinaryCategoriesAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2574,7 +2572,7 @@ public final class CoModifyBinaryCategoriesAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2803,8 +2801,8 @@ public final class CoModifyBinaryCategoriesAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2972,9 +2970,8 @@ public final class CoModifyBinaryCategoriesAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2990,7 +2987,7 @@ public final class CoModifyBinaryCategoriesAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3958,8 +3955,8 @@ public final class CoModifyBinaryCategoriesAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

@@ -146,7 +146,7 @@ public final class StGetClickStreamAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetClickStream_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -188,7 +188,7 @@ public final class StGetClickStreamAd {
               if (personId_ != null) {
                 subBuilder = personId_.toBuilder();
               }
-              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personId_);
                 personId_ = subBuilder.buildPartial();
@@ -201,7 +201,7 @@ public final class StGetClickStreamAd {
               if (fromDate_ != null) {
                 subBuilder = fromDate_.toBuilder();
               }
-              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              fromDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fromDate_);
                 fromDate_ = subBuilder.buildPartial();
@@ -214,7 +214,7 @@ public final class StGetClickStreamAd {
               if (toDate_ != null) {
                 subBuilder = toDate_.toBuilder();
               }
-              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+              toDate_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(toDate_);
                 toDate_ = subBuilder.buildPartial();
@@ -227,7 +227,7 @@ public final class StGetClickStreamAd {
               if (visitorId_ != null) {
                 subBuilder = visitorId_.toBuilder();
               }
-              visitorId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              visitorId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visitorId_);
                 visitorId_ = subBuilder.buildPartial();
@@ -240,7 +240,7 @@ public final class StGetClickStreamAd {
               if (visitorOrPersonIdsInOneId_ != null) {
                 subBuilder = visitorOrPersonIdsInOneId_.toBuilder();
               }
-              visitorOrPersonIdsInOneId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              visitorOrPersonIdsInOneId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(visitorOrPersonIdsInOneId_);
                 visitorOrPersonIdsInOneId_ = subBuilder.buildPartial();
@@ -253,7 +253,7 @@ public final class StGetClickStreamAd {
               if (considerOnlyRelationPeriod_ != null) {
                 subBuilder = considerOnlyRelationPeriod_.toBuilder();
               }
-              considerOnlyRelationPeriod_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              considerOnlyRelationPeriod_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(considerOnlyRelationPeriod_);
                 considerOnlyRelationPeriod_ = subBuilder.buildPartial();
@@ -266,7 +266,7 @@ public final class StGetClickStreamAd {
               if (basicCharacteristicNumbers_ != null) {
                 subBuilder = basicCharacteristicNumbers_.toBuilder();
               }
-              basicCharacteristicNumbers_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              basicCharacteristicNumbers_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(basicCharacteristicNumbers_);
                 basicCharacteristicNumbers_ = subBuilder.buildPartial();
@@ -599,9 +599,8 @@ public final class StGetClickStreamAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -661,7 +660,7 @@ public final class StGetClickStreamAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1007, basicCharacteristicNumbersNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1999,8 +1998,8 @@ public final class StGetClickStreamAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2126,7 +2125,7 @@ public final class StGetClickStreamAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.st_GetClickStream_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2163,7 +2162,7 @@ public final class StGetClickStreamAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2176,7 +2175,7 @@ public final class StGetClickStreamAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2184,7 +2183,7 @@ public final class StGetClickStreamAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.StGetClickStreamAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.StGetClickStreamAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.StGetClickStreamAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2534,7 +2533,7 @@ public final class StGetClickStreamAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.st_GetClickStream_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2575,7 +2574,7 @@ public final class StGetClickStreamAd {
                 if (valueBelongsToRelatedId_ != null) {
                   subBuilder = valueBelongsToRelatedId_.toBuilder();
                 }
-                valueBelongsToRelatedId_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                valueBelongsToRelatedId_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(valueBelongsToRelatedId_);
                   valueBelongsToRelatedId_ = subBuilder.buildPartial();
@@ -2588,7 +2587,7 @@ public final class StGetClickStreamAd {
                 if (nodeDescription_ != null) {
                   subBuilder = nodeDescription_.toBuilder();
                 }
-                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                nodeDescription_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeDescription_);
                   nodeDescription_ = subBuilder.buildPartial();
@@ -2601,7 +2600,7 @@ public final class StGetClickStreamAd {
                 if (visitorOrPersonId_ != null) {
                   subBuilder = visitorOrPersonId_.toBuilder();
                 }
-                visitorOrPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                visitorOrPersonId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(visitorOrPersonId_);
                   visitorOrPersonId_ = subBuilder.buildPartial();
@@ -2614,7 +2613,7 @@ public final class StGetClickStreamAd {
                 if (dateAndTimeChar_ != null) {
                   subBuilder = dateAndTimeChar_.toBuilder();
                 }
-                dateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                dateAndTimeChar_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dateAndTimeChar_);
                   dateAndTimeChar_ = subBuilder.buildPartial();
@@ -2627,7 +2626,7 @@ public final class StGetClickStreamAd {
                 if (basicCharacteristic_ != null) {
                   subBuilder = basicCharacteristic_.toBuilder();
                 }
-                basicCharacteristic_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                basicCharacteristic_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristic_);
                   basicCharacteristic_ = subBuilder.buildPartial();
@@ -2640,7 +2639,7 @@ public final class StGetClickStreamAd {
                 if (relationExistsAtDateAndTime_ != null) {
                   subBuilder = relationExistsAtDateAndTime_.toBuilder();
                 }
-                relationExistsAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+                relationExistsAtDateAndTime_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relationExistsAtDateAndTime_);
                   relationExistsAtDateAndTime_ = subBuilder.buildPartial();
@@ -2653,7 +2652,7 @@ public final class StGetClickStreamAd {
                 if (hTreeNodeId_ != null) {
                   subBuilder = hTreeNodeId_.toBuilder();
                 }
-                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                hTreeNodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(hTreeNodeId_);
                   hTreeNodeId_ = subBuilder.buildPartial();
@@ -2666,7 +2665,7 @@ public final class StGetClickStreamAd {
                 if (nodeId_ != null) {
                   subBuilder = nodeId_.toBuilder();
                 }
-                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                nodeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(nodeId_);
                   nodeId_ = subBuilder.buildPartial();
@@ -2679,7 +2678,7 @@ public final class StGetClickStreamAd {
                 if (value_ != null) {
                   subBuilder = value_.toBuilder();
                 }
-                value_ = input.readMessage(io.dstore.engine.Values.decimalValue.PARSER, extensionRegistry);
+                value_ = input.readMessage(io.dstore.engine.Values.decimalValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(value_);
                   value_ = subBuilder.buildPartial();
@@ -2692,7 +2691,7 @@ public final class StGetClickStreamAd {
                 if (dateAndTime_ != null) {
                   subBuilder = dateAndTime_.toBuilder();
                 }
-                dateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.PARSER, extensionRegistry);
+                dateAndTime_ = input.readMessage(io.dstore.engine.Values.timestampValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(dateAndTime_);
                   dateAndTime_ = subBuilder.buildPartial();
@@ -2705,7 +2704,7 @@ public final class StGetClickStreamAd {
                 if (relatedId_ != null) {
                   subBuilder = relatedId_.toBuilder();
                 }
-                relatedId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                relatedId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(relatedId_);
                   relatedId_ = subBuilder.buildPartial();
@@ -2718,7 +2717,7 @@ public final class StGetClickStreamAd {
                 if (basicCharacteristicNumber_ != null) {
                   subBuilder = basicCharacteristicNumber_.toBuilder();
                 }
-                basicCharacteristicNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+                basicCharacteristicNumber_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(basicCharacteristicNumber_);
                   basicCharacteristicNumber_ = subBuilder.buildPartial();
@@ -3208,9 +3207,8 @@ public final class StGetClickStreamAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -3266,7 +3264,7 @@ public final class StGetClickStreamAd {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10012, getBasicCharacteristicNumber());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -5499,8 +5497,8 @@ public final class StGetClickStreamAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -5668,9 +5666,8 @@ public final class StGetClickStreamAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -5686,7 +5683,7 @@ public final class StGetClickStreamAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -6654,8 +6651,8 @@ public final class StGetClickStreamAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

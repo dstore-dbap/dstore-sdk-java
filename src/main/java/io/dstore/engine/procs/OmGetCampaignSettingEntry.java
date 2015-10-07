@@ -92,7 +92,7 @@ public final class OmGetCampaignSettingEntry {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignSettingEntry.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -131,7 +131,7 @@ public final class OmGetCampaignSettingEntry {
               if (campaignId_ != null) {
                 subBuilder = campaignId_.toBuilder();
               }
-              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              campaignId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(campaignId_);
                 campaignId_ = subBuilder.buildPartial();
@@ -144,7 +144,7 @@ public final class OmGetCampaignSettingEntry {
               if (keyVariable_ != null) {
                 subBuilder = keyVariable_.toBuilder();
               }
-              keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              keyVariable_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(keyVariable_);
                 keyVariable_ = subBuilder.buildPartial();
@@ -157,7 +157,7 @@ public final class OmGetCampaignSettingEntry {
               if (selectResult_ != null) {
                 subBuilder = selectResult_.toBuilder();
               }
-              selectResult_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              selectResult_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(selectResult_);
                 selectResult_ = subBuilder.buildPartial();
@@ -170,7 +170,7 @@ public final class OmGetCampaignSettingEntry {
               if (printErrorMsgIfEntryIsMissing_ != null) {
                 subBuilder = printErrorMsgIfEntryIsMissing_.toBuilder();
               }
-              printErrorMsgIfEntryIsMissing_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              printErrorMsgIfEntryIsMissing_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(printErrorMsgIfEntryIsMissing_);
                 printErrorMsgIfEntryIsMissing_ = subBuilder.buildPartial();
@@ -380,9 +380,8 @@ public final class OmGetCampaignSettingEntry {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -418,7 +417,7 @@ public final class OmGetCampaignSettingEntry {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1004, printErrorMsgIfEntryIsMissingNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1267,8 +1266,8 @@ public final class OmGetCampaignSettingEntry {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1387,7 +1386,7 @@ public final class OmGetCampaignSettingEntry {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignSettingEntry.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1424,7 +1423,7 @@ public final class OmGetCampaignSettingEntry {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1437,7 +1436,7 @@ public final class OmGetCampaignSettingEntry {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1445,7 +1444,7 @@ public final class OmGetCampaignSettingEntry {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetCampaignSettingEntry.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmGetCampaignSettingEntry.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmGetCampaignSettingEntry.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -1453,7 +1452,7 @@ public final class OmGetCampaignSettingEntry {
               if (settingValue_ != null) {
                 subBuilder = settingValue_.toBuilder();
               }
-              settingValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              settingValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(settingValue_);
                 settingValue_ = subBuilder.buildPartial();
@@ -1533,7 +1532,7 @@ public final class OmGetCampaignSettingEntry {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_GetCampaignSettingEntry.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1574,7 +1573,7 @@ public final class OmGetCampaignSettingEntry {
                 if (settingValue_ != null) {
                   subBuilder = settingValue_.toBuilder();
                 }
-                settingValue_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+                settingValue_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(settingValue_);
                   settingValue_ = subBuilder.buildPartial();
@@ -1668,9 +1667,8 @@ public final class OmGetCampaignSettingEntry {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1682,7 +1680,7 @@ public final class OmGetCampaignSettingEntry {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(10001, getSettingValue());
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2078,8 +2076,8 @@ public final class OmGetCampaignSettingEntry {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2251,9 +2249,8 @@ public final class OmGetCampaignSettingEntry {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2273,7 +2270,7 @@ public final class OmGetCampaignSettingEntry {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(101, getSettingValue());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3300,8 +3297,8 @@ public final class OmGetCampaignSettingEntry {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

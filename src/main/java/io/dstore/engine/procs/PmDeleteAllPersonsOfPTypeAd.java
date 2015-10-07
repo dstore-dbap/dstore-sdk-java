@@ -92,7 +92,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_DeleteAllPersonsOfPType_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -131,7 +131,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
               if (personTypeId_ != null) {
                 subBuilder = personTypeId_.toBuilder();
               }
-              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              personTypeId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(personTypeId_);
                 personTypeId_ = subBuilder.buildPartial();
@@ -144,7 +144,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
               if (forceDelete_ != null) {
                 subBuilder = forceDelete_.toBuilder();
               }
-              forceDelete_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              forceDelete_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(forceDelete_);
                 forceDelete_ = subBuilder.buildPartial();
@@ -157,7 +157,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
               if (delayAfterXPersons_ != null) {
                 subBuilder = delayAfterXPersons_.toBuilder();
               }
-              delayAfterXPersons_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              delayAfterXPersons_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delayAfterXPersons_);
                 delayAfterXPersons_ = subBuilder.buildPartial();
@@ -170,7 +170,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
               if (delayTimeInSeconds_ != null) {
                 subBuilder = delayTimeInSeconds_.toBuilder();
               }
-              delayTimeInSeconds_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              delayTimeInSeconds_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(delayTimeInSeconds_);
                 delayTimeInSeconds_ = subBuilder.buildPartial();
@@ -380,9 +380,8 @@ public final class PmDeleteAllPersonsOfPTypeAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -418,7 +417,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1004, delayTimeInSecondsNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -1267,8 +1266,8 @@ public final class PmDeleteAllPersonsOfPTypeAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -1400,7 +1399,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.pm_DeleteAllPersonsOfPType_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -1437,7 +1436,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -1450,7 +1449,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -1458,7 +1457,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.PmDeleteAllPersonsOfPTypeAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.PmDeleteAllPersonsOfPTypeAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.PmDeleteAllPersonsOfPTypeAd.Response.Row.parser(), extensionRegistry));
               break;
             }
             case 810: {
@@ -1466,7 +1465,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
               if (numberOfDeletedPersons_ != null) {
                 subBuilder = numberOfDeletedPersons_.toBuilder();
               }
-              numberOfDeletedPersons_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              numberOfDeletedPersons_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfDeletedPersons_);
                 numberOfDeletedPersons_ = subBuilder.buildPartial();
@@ -1479,7 +1478,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
               if (numberOfNotDeletedPersons_ != null) {
                 subBuilder = numberOfNotDeletedPersons_.toBuilder();
               }
-              numberOfNotDeletedPersons_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              numberOfNotDeletedPersons_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(numberOfNotDeletedPersons_);
                 numberOfNotDeletedPersons_ = subBuilder.buildPartial();
@@ -1534,7 +1533,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.pm_DeleteAllPersonsOfPType_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -1620,9 +1619,8 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -1630,7 +1628,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -1859,8 +1857,8 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2056,9 +2054,8 @@ public final class PmDeleteAllPersonsOfPTypeAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2082,7 +2079,7 @@ public final class PmDeleteAllPersonsOfPTypeAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(102, getNumberOfNotDeletedPersons());
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3240,8 +3237,8 @@ public final class PmDeleteAllPersonsOfPTypeAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)

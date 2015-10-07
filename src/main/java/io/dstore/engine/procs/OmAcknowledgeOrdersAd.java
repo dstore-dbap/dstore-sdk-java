@@ -164,7 +164,7 @@ public final class OmAcknowledgeOrdersAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_AcknowledgeOrders_Ad.Parameters)
       ParametersOrBuilder {
     // Use Parameters.newBuilder() to construct.
-    private Parameters(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Parameters(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Parameters() {
@@ -207,7 +207,7 @@ public final class OmAcknowledgeOrdersAd {
               if (addOrderInformations_ != null) {
                 subBuilder = addOrderInformations_.toBuilder();
               }
-              addOrderInformations_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              addOrderInformations_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(addOrderInformations_);
                 addOrderInformations_ = subBuilder.buildPartial();
@@ -220,7 +220,7 @@ public final class OmAcknowledgeOrdersAd {
               if (orderId_ != null) {
                 subBuilder = orderId_.toBuilder();
               }
-              orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              orderId_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderId_);
                 orderId_ = subBuilder.buildPartial();
@@ -233,7 +233,7 @@ public final class OmAcknowledgeOrdersAd {
               if (orderNo_ != null) {
                 subBuilder = orderNo_.toBuilder();
               }
-              orderNo_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              orderNo_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(orderNo_);
                 orderNo_ = subBuilder.buildPartial();
@@ -246,7 +246,7 @@ public final class OmAcknowledgeOrdersAd {
               if (customerNo_ != null) {
                 subBuilder = customerNo_.toBuilder();
               }
-              customerNo_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              customerNo_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(customerNo_);
                 customerNo_ = subBuilder.buildPartial();
@@ -259,7 +259,7 @@ public final class OmAcknowledgeOrdersAd {
               if (deliveryCustomerNo_ != null) {
                 subBuilder = deliveryCustomerNo_.toBuilder();
               }
-              deliveryCustomerNo_ = input.readMessage(io.dstore.engine.Values.stringValue.PARSER, extensionRegistry);
+              deliveryCustomerNo_ = input.readMessage(io.dstore.engine.Values.stringValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(deliveryCustomerNo_);
                 deliveryCustomerNo_ = subBuilder.buildPartial();
@@ -272,7 +272,7 @@ public final class OmAcknowledgeOrdersAd {
               if (fireacAcknowledgeOrder_ != null) {
                 subBuilder = fireacAcknowledgeOrder_.toBuilder();
               }
-              fireacAcknowledgeOrder_ = input.readMessage(io.dstore.engine.Values.booleanValue.PARSER, extensionRegistry);
+              fireacAcknowledgeOrder_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(fireacAcknowledgeOrder_);
                 fireacAcknowledgeOrder_ = subBuilder.buildPartial();
@@ -285,7 +285,7 @@ public final class OmAcknowledgeOrdersAd {
               if (addOrderInformation_ != null) {
                 subBuilder = addOrderInformation_.toBuilder();
               }
-              addOrderInformation_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              addOrderInformation_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(addOrderInformation_);
                 addOrderInformation_ = subBuilder.buildPartial();
@@ -298,7 +298,7 @@ public final class OmAcknowledgeOrdersAd {
               if (addOrderContentInformation_ != null) {
                 subBuilder = addOrderContentInformation_.toBuilder();
               }
-              addOrderContentInformation_ = input.readMessage(io.dstore.engine.Values.integerValue.PARSER, extensionRegistry);
+              addOrderContentInformation_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(addOrderContentInformation_);
                 addOrderContentInformation_ = subBuilder.buildPartial();
@@ -672,9 +672,8 @@ public final class OmAcknowledgeOrdersAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -742,7 +741,7 @@ public final class OmAcknowledgeOrdersAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1008, addOrderContentInformationNull_);
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -2243,8 +2242,8 @@ public final class OmAcknowledgeOrdersAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Parameters> PARSER =
-        new com.google.protobuf.AbstractParser<Parameters>() {
+    private static final com.google.protobuf.Parser<Parameters>
+        PARSER = new com.google.protobuf.AbstractParser<Parameters>() {
       public Parameters parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2370,7 +2369,7 @@ public final class OmAcknowledgeOrdersAd {
       // @@protoc_insertion_point(message_implements:dstore.engine.om_AcknowledgeOrders_Ad.Response)
       ResponseOrBuilder {
     // Use Response.newBuilder() to construct.
-    private Response(com.google.protobuf.GeneratedMessage.Builder builder) {
+    private Response(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
     private Response() {
@@ -2407,7 +2406,7 @@ public final class OmAcknowledgeOrdersAd {
               if (error_ != null) {
                 subBuilder = error_.toBuilder();
               }
-              error_ = input.readMessage(io.dstore.engine.EngineError.Error.PARSER, extensionRegistry);
+              error_ = input.readMessage(io.dstore.engine.EngineError.Error.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(error_);
                 error_ = subBuilder.buildPartial();
@@ -2420,7 +2419,7 @@ public final class OmAcknowledgeOrdersAd {
                 message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.PARSER, extensionRegistry));
+              message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
@@ -2428,7 +2427,7 @@ public final class OmAcknowledgeOrdersAd {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmAcknowledgeOrdersAd.Response.Row>();
                 mutable_bitField0_ |= 0x00000004;
               }
-              row_.add(input.readMessage(io.dstore.engine.procs.OmAcknowledgeOrdersAd.Response.Row.PARSER, extensionRegistry));
+              row_.add(input.readMessage(io.dstore.engine.procs.OmAcknowledgeOrdersAd.Response.Row.parser(), extensionRegistry));
               break;
             }
           }
@@ -2478,7 +2477,7 @@ public final class OmAcknowledgeOrdersAd {
         // @@protoc_insertion_point(message_implements:dstore.engine.om_AcknowledgeOrders_Ad.Response.Row)
         RowOrBuilder {
       // Use Row.newBuilder() to construct.
-      private Row(com.google.protobuf.GeneratedMessage.Builder builder) {
+      private Row(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
       private Row() {
@@ -2564,9 +2563,8 @@ public final class OmAcknowledgeOrdersAd {
         }
       }
 
-      private int memoizedSerializedSize = -1;
       public int getSerializedSize() {
-        int size = memoizedSerializedSize;
+        int size = memoizedSize;
         if (size != -1) return size;
 
         size = 0;
@@ -2574,7 +2572,7 @@ public final class OmAcknowledgeOrdersAd {
           size += com.google.protobuf.CodedOutputStream
             .computeInt32Size(10000, rowId_);
         }
-        memoizedSerializedSize = size;
+        memoizedSize = size;
         return size;
       }
 
@@ -2803,8 +2801,8 @@ public final class OmAcknowledgeOrdersAd {
         return DEFAULT_INSTANCE;
       }
 
-      public static final com.google.protobuf.Parser<Row> PARSER =
-          new com.google.protobuf.AbstractParser<Row>() {
+      private static final com.google.protobuf.Parser<Row>
+          PARSER = new com.google.protobuf.AbstractParser<Row>() {
         public Row parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
@@ -2972,9 +2970,8 @@ public final class OmAcknowledgeOrdersAd {
       }
     }
 
-    private int memoizedSerializedSize = -1;
     public int getSerializedSize() {
-      int size = memoizedSerializedSize;
+      int size = memoizedSize;
       if (size != -1) return size;
 
       size = 0;
@@ -2990,7 +2987,7 @@ public final class OmAcknowledgeOrdersAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, row_.get(i));
       }
-      memoizedSerializedSize = size;
+      memoizedSize = size;
       return size;
     }
 
@@ -3958,8 +3955,8 @@ public final class OmAcknowledgeOrdersAd {
       return DEFAULT_INSTANCE;
     }
 
-    public static final com.google.protobuf.Parser<Response> PARSER =
-        new com.google.protobuf.AbstractParser<Response>() {
+    private static final com.google.protobuf.Parser<Response>
+        PARSER = new com.google.protobuf.AbstractParser<Response>() {
       public Response parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
