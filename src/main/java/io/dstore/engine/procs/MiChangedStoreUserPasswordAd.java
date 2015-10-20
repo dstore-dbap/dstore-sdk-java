@@ -103,22 +103,22 @@ public final class MiChangedStoreUserPasswordAd {
     boolean getEncryptedPasswordNull();
 
     /**
-     * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
-    boolean hasCreateDstoreUserIfNotExists();
+    boolean hasCreatedstoreUserIfNotExists();
     /**
-     * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
-    io.dstore.engine.Values.booleanValue getCreateDstoreUserIfNotExists();
+    io.dstore.engine.Values.booleanValue getCreatedstoreUserIfNotExists();
     /**
-     * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
-    io.dstore.engine.Values.booleanValueOrBuilder getCreateDstoreUserIfNotExistsOrBuilder();
+    io.dstore.engine.Values.booleanValueOrBuilder getCreatedstoreUserIfNotExistsOrBuilder();
 
     /**
-     * <code>optional bool create_dstore_user_if_not_exists_null = 1006;</code>
+     * <code>optional bool createdstore_user_if_not_exists_null = 1006;</code>
      */
-    boolean getCreateDstoreUserIfNotExistsNull();
+    boolean getCreatedstoreUserIfNotExistsNull();
 
     /**
      * <code>optional .dstore.engine.values.booleanValue ignore_error_new_passwd_same_as_old = 7;</code>
@@ -155,7 +155,7 @@ public final class MiChangedStoreUserPasswordAd {
       callerPasswordNull_ = false;
       newPasswordNull_ = false;
       encryptedPasswordNull_ = false;
-      createDstoreUserIfNotExistsNull_ = false;
+      createdstoreUserIfNotExistsNull_ = false;
       ignoreErrorNewPasswdSameAsOldNull_ = false;
     }
 
@@ -250,13 +250,13 @@ public final class MiChangedStoreUserPasswordAd {
             }
             case 50: {
               io.dstore.engine.Values.booleanValue.Builder subBuilder = null;
-              if (createDstoreUserIfNotExists_ != null) {
-                subBuilder = createDstoreUserIfNotExists_.toBuilder();
+              if (createdstoreUserIfNotExists_ != null) {
+                subBuilder = createdstoreUserIfNotExists_.toBuilder();
               }
-              createDstoreUserIfNotExists_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
+              createdstoreUserIfNotExists_ = input.readMessage(io.dstore.engine.Values.booleanValue.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(createDstoreUserIfNotExists_);
-                createDstoreUserIfNotExists_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(createdstoreUserIfNotExists_);
+                createdstoreUserIfNotExists_ = subBuilder.buildPartial();
               }
 
               break;
@@ -301,7 +301,7 @@ public final class MiChangedStoreUserPasswordAd {
             }
             case 8048: {
 
-              createDstoreUserIfNotExistsNull_ = input.readBool();
+              createdstoreUserIfNotExistsNull_ = input.readBool();
               break;
             }
             case 8056: {
@@ -483,34 +483,34 @@ public final class MiChangedStoreUserPasswordAd {
       return encryptedPasswordNull_;
     }
 
-    public static final int CREATE_DSTORE_USER_IF_NOT_EXISTS_FIELD_NUMBER = 6;
-    private io.dstore.engine.Values.booleanValue createDstoreUserIfNotExists_;
+    public static final int CREATEDSTORE_USER_IF_NOT_EXISTS_FIELD_NUMBER = 6;
+    private io.dstore.engine.Values.booleanValue createdstoreUserIfNotExists_;
     /**
-     * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
-    public boolean hasCreateDstoreUserIfNotExists() {
-      return createDstoreUserIfNotExists_ != null;
+    public boolean hasCreatedstoreUserIfNotExists() {
+      return createdstoreUserIfNotExists_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
-    public io.dstore.engine.Values.booleanValue getCreateDstoreUserIfNotExists() {
-      return createDstoreUserIfNotExists_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : createDstoreUserIfNotExists_;
+    public io.dstore.engine.Values.booleanValue getCreatedstoreUserIfNotExists() {
+      return createdstoreUserIfNotExists_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : createdstoreUserIfNotExists_;
     }
     /**
-     * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+     * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
      */
-    public io.dstore.engine.Values.booleanValueOrBuilder getCreateDstoreUserIfNotExistsOrBuilder() {
-      return getCreateDstoreUserIfNotExists();
+    public io.dstore.engine.Values.booleanValueOrBuilder getCreatedstoreUserIfNotExistsOrBuilder() {
+      return getCreatedstoreUserIfNotExists();
     }
 
-    public static final int CREATE_DSTORE_USER_IF_NOT_EXISTS_NULL_FIELD_NUMBER = 1006;
-    private boolean createDstoreUserIfNotExistsNull_;
+    public static final int CREATEDSTORE_USER_IF_NOT_EXISTS_NULL_FIELD_NUMBER = 1006;
+    private boolean createdstoreUserIfNotExistsNull_;
     /**
-     * <code>optional bool create_dstore_user_if_not_exists_null = 1006;</code>
+     * <code>optional bool createdstore_user_if_not_exists_null = 1006;</code>
      */
-    public boolean getCreateDstoreUserIfNotExistsNull() {
-      return createDstoreUserIfNotExistsNull_;
+    public boolean getCreatedstoreUserIfNotExistsNull() {
+      return createdstoreUserIfNotExistsNull_;
     }
 
     public static final int IGNORE_ERROR_NEW_PASSWD_SAME_AS_OLD_FIELD_NUMBER = 7;
@@ -570,8 +570,8 @@ public final class MiChangedStoreUserPasswordAd {
       if (encryptedPassword_ != null) {
         output.writeMessage(5, getEncryptedPassword());
       }
-      if (createDstoreUserIfNotExists_ != null) {
-        output.writeMessage(6, getCreateDstoreUserIfNotExists());
+      if (createdstoreUserIfNotExists_ != null) {
+        output.writeMessage(6, getCreatedstoreUserIfNotExists());
       }
       if (ignoreErrorNewPasswdSameAsOld_ != null) {
         output.writeMessage(7, getIgnoreErrorNewPasswdSameAsOld());
@@ -591,8 +591,8 @@ public final class MiChangedStoreUserPasswordAd {
       if (encryptedPasswordNull_ != false) {
         output.writeBool(1005, encryptedPasswordNull_);
       }
-      if (createDstoreUserIfNotExistsNull_ != false) {
-        output.writeBool(1006, createDstoreUserIfNotExistsNull_);
+      if (createdstoreUserIfNotExistsNull_ != false) {
+        output.writeBool(1006, createdstoreUserIfNotExistsNull_);
       }
       if (ignoreErrorNewPasswdSameAsOldNull_ != false) {
         output.writeBool(1007, ignoreErrorNewPasswdSameAsOldNull_);
@@ -624,9 +624,9 @@ public final class MiChangedStoreUserPasswordAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, getEncryptedPassword());
       }
-      if (createDstoreUserIfNotExists_ != null) {
+      if (createdstoreUserIfNotExists_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getCreateDstoreUserIfNotExists());
+          .computeMessageSize(6, getCreatedstoreUserIfNotExists());
       }
       if (ignoreErrorNewPasswdSameAsOld_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -652,9 +652,9 @@ public final class MiChangedStoreUserPasswordAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1005, encryptedPasswordNull_);
       }
-      if (createDstoreUserIfNotExistsNull_ != false) {
+      if (createdstoreUserIfNotExistsNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1006, createDstoreUserIfNotExistsNull_);
+          .computeBoolSize(1006, createdstoreUserIfNotExistsNull_);
       }
       if (ignoreErrorNewPasswdSameAsOldNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -811,13 +811,13 @@ public final class MiChangedStoreUserPasswordAd {
         }
         encryptedPasswordNull_ = false;
 
-        if (createDstoreUserIfNotExistsBuilder_ == null) {
-          createDstoreUserIfNotExists_ = null;
+        if (createdstoreUserIfNotExistsBuilder_ == null) {
+          createdstoreUserIfNotExists_ = null;
         } else {
-          createDstoreUserIfNotExists_ = null;
-          createDstoreUserIfNotExistsBuilder_ = null;
+          createdstoreUserIfNotExists_ = null;
+          createdstoreUserIfNotExistsBuilder_ = null;
         }
-        createDstoreUserIfNotExistsNull_ = false;
+        createdstoreUserIfNotExistsNull_ = false;
 
         if (ignoreErrorNewPasswdSameAsOldBuilder_ == null) {
           ignoreErrorNewPasswdSameAsOld_ = null;
@@ -879,12 +879,12 @@ public final class MiChangedStoreUserPasswordAd {
           result.encryptedPassword_ = encryptedPasswordBuilder_.build();
         }
         result.encryptedPasswordNull_ = encryptedPasswordNull_;
-        if (createDstoreUserIfNotExistsBuilder_ == null) {
-          result.createDstoreUserIfNotExists_ = createDstoreUserIfNotExists_;
+        if (createdstoreUserIfNotExistsBuilder_ == null) {
+          result.createdstoreUserIfNotExists_ = createdstoreUserIfNotExists_;
         } else {
-          result.createDstoreUserIfNotExists_ = createDstoreUserIfNotExistsBuilder_.build();
+          result.createdstoreUserIfNotExists_ = createdstoreUserIfNotExistsBuilder_.build();
         }
-        result.createDstoreUserIfNotExistsNull_ = createDstoreUserIfNotExistsNull_;
+        result.createdstoreUserIfNotExistsNull_ = createdstoreUserIfNotExistsNull_;
         if (ignoreErrorNewPasswdSameAsOldBuilder_ == null) {
           result.ignoreErrorNewPasswdSameAsOld_ = ignoreErrorNewPasswdSameAsOld_;
         } else {
@@ -936,11 +936,11 @@ public final class MiChangedStoreUserPasswordAd {
         if (other.getEncryptedPasswordNull() != false) {
           setEncryptedPasswordNull(other.getEncryptedPasswordNull());
         }
-        if (other.hasCreateDstoreUserIfNotExists()) {
-          mergeCreateDstoreUserIfNotExists(other.getCreateDstoreUserIfNotExists());
+        if (other.hasCreatedstoreUserIfNotExists()) {
+          mergeCreatedstoreUserIfNotExists(other.getCreatedstoreUserIfNotExists());
         }
-        if (other.getCreateDstoreUserIfNotExistsNull() != false) {
-          setCreateDstoreUserIfNotExistsNull(other.getCreateDstoreUserIfNotExistsNull());
+        if (other.getCreatedstoreUserIfNotExistsNull() != false) {
+          setCreatedstoreUserIfNotExistsNull(other.getCreatedstoreUserIfNotExistsNull());
         }
         if (other.hasIgnoreErrorNewPasswdSameAsOld()) {
           mergeIgnoreErrorNewPasswdSameAsOld(other.getIgnoreErrorNewPasswdSameAsOld());
@@ -1689,145 +1689,145 @@ public final class MiChangedStoreUserPasswordAd {
         return this;
       }
 
-      private io.dstore.engine.Values.booleanValue createDstoreUserIfNotExists_ = null;
+      private io.dstore.engine.Values.booleanValue createdstoreUserIfNotExists_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> createDstoreUserIfNotExistsBuilder_;
+          io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> createdstoreUserIfNotExistsBuilder_;
       /**
-       * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public boolean hasCreateDstoreUserIfNotExists() {
-        return createDstoreUserIfNotExistsBuilder_ != null || createDstoreUserIfNotExists_ != null;
+      public boolean hasCreatedstoreUserIfNotExists() {
+        return createdstoreUserIfNotExistsBuilder_ != null || createdstoreUserIfNotExists_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValue getCreateDstoreUserIfNotExists() {
-        if (createDstoreUserIfNotExistsBuilder_ == null) {
-          return createDstoreUserIfNotExists_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : createDstoreUserIfNotExists_;
+      public io.dstore.engine.Values.booleanValue getCreatedstoreUserIfNotExists() {
+        if (createdstoreUserIfNotExistsBuilder_ == null) {
+          return createdstoreUserIfNotExists_ == null ? io.dstore.engine.Values.booleanValue.getDefaultInstance() : createdstoreUserIfNotExists_;
         } else {
-          return createDstoreUserIfNotExistsBuilder_.getMessage();
+          return createdstoreUserIfNotExistsBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public Builder setCreateDstoreUserIfNotExists(io.dstore.engine.Values.booleanValue value) {
-        if (createDstoreUserIfNotExistsBuilder_ == null) {
+      public Builder setCreatedstoreUserIfNotExists(io.dstore.engine.Values.booleanValue value) {
+        if (createdstoreUserIfNotExistsBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          createDstoreUserIfNotExists_ = value;
+          createdstoreUserIfNotExists_ = value;
           onChanged();
         } else {
-          createDstoreUserIfNotExistsBuilder_.setMessage(value);
+          createdstoreUserIfNotExistsBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public Builder setCreateDstoreUserIfNotExists(
+      public Builder setCreatedstoreUserIfNotExists(
           io.dstore.engine.Values.booleanValue.Builder builderForValue) {
-        if (createDstoreUserIfNotExistsBuilder_ == null) {
-          createDstoreUserIfNotExists_ = builderForValue.build();
+        if (createdstoreUserIfNotExistsBuilder_ == null) {
+          createdstoreUserIfNotExists_ = builderForValue.build();
           onChanged();
         } else {
-          createDstoreUserIfNotExistsBuilder_.setMessage(builderForValue.build());
+          createdstoreUserIfNotExistsBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public Builder mergeCreateDstoreUserIfNotExists(io.dstore.engine.Values.booleanValue value) {
-        if (createDstoreUserIfNotExistsBuilder_ == null) {
-          if (createDstoreUserIfNotExists_ != null) {
-            createDstoreUserIfNotExists_ =
-              io.dstore.engine.Values.booleanValue.newBuilder(createDstoreUserIfNotExists_).mergeFrom(value).buildPartial();
+      public Builder mergeCreatedstoreUserIfNotExists(io.dstore.engine.Values.booleanValue value) {
+        if (createdstoreUserIfNotExistsBuilder_ == null) {
+          if (createdstoreUserIfNotExists_ != null) {
+            createdstoreUserIfNotExists_ =
+              io.dstore.engine.Values.booleanValue.newBuilder(createdstoreUserIfNotExists_).mergeFrom(value).buildPartial();
           } else {
-            createDstoreUserIfNotExists_ = value;
+            createdstoreUserIfNotExists_ = value;
           }
           onChanged();
         } else {
-          createDstoreUserIfNotExistsBuilder_.mergeFrom(value);
+          createdstoreUserIfNotExistsBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public Builder clearCreateDstoreUserIfNotExists() {
-        if (createDstoreUserIfNotExistsBuilder_ == null) {
-          createDstoreUserIfNotExists_ = null;
+      public Builder clearCreatedstoreUserIfNotExists() {
+        if (createdstoreUserIfNotExistsBuilder_ == null) {
+          createdstoreUserIfNotExists_ = null;
           onChanged();
         } else {
-          createDstoreUserIfNotExists_ = null;
-          createDstoreUserIfNotExistsBuilder_ = null;
+          createdstoreUserIfNotExists_ = null;
+          createdstoreUserIfNotExistsBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValue.Builder getCreateDstoreUserIfNotExistsBuilder() {
+      public io.dstore.engine.Values.booleanValue.Builder getCreatedstoreUserIfNotExistsBuilder() {
         
         onChanged();
-        return getCreateDstoreUserIfNotExistsFieldBuilder().getBuilder();
+        return getCreatedstoreUserIfNotExistsFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
-      public io.dstore.engine.Values.booleanValueOrBuilder getCreateDstoreUserIfNotExistsOrBuilder() {
-        if (createDstoreUserIfNotExistsBuilder_ != null) {
-          return createDstoreUserIfNotExistsBuilder_.getMessageOrBuilder();
+      public io.dstore.engine.Values.booleanValueOrBuilder getCreatedstoreUserIfNotExistsOrBuilder() {
+        if (createdstoreUserIfNotExistsBuilder_ != null) {
+          return createdstoreUserIfNotExistsBuilder_.getMessageOrBuilder();
         } else {
-          return createDstoreUserIfNotExists_ == null ?
-              io.dstore.engine.Values.booleanValue.getDefaultInstance() : createDstoreUserIfNotExists_;
+          return createdstoreUserIfNotExists_ == null ?
+              io.dstore.engine.Values.booleanValue.getDefaultInstance() : createdstoreUserIfNotExists_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.booleanValue create_dstore_user_if_not_exists = 6;</code>
+       * <code>optional .dstore.engine.values.booleanValue createdstore_user_if_not_exists = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder> 
-          getCreateDstoreUserIfNotExistsFieldBuilder() {
-        if (createDstoreUserIfNotExistsBuilder_ == null) {
-          createDstoreUserIfNotExistsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getCreatedstoreUserIfNotExistsFieldBuilder() {
+        if (createdstoreUserIfNotExistsBuilder_ == null) {
+          createdstoreUserIfNotExistsBuilder_ = new com.google.protobuf.SingleFieldBuilder<
               io.dstore.engine.Values.booleanValue, io.dstore.engine.Values.booleanValue.Builder, io.dstore.engine.Values.booleanValueOrBuilder>(
-                  getCreateDstoreUserIfNotExists(),
+                  getCreatedstoreUserIfNotExists(),
                   getParentForChildren(),
                   isClean());
-          createDstoreUserIfNotExists_ = null;
+          createdstoreUserIfNotExists_ = null;
         }
-        return createDstoreUserIfNotExistsBuilder_;
+        return createdstoreUserIfNotExistsBuilder_;
       }
 
-      private boolean createDstoreUserIfNotExistsNull_ ;
+      private boolean createdstoreUserIfNotExistsNull_ ;
       /**
-       * <code>optional bool create_dstore_user_if_not_exists_null = 1006;</code>
+       * <code>optional bool createdstore_user_if_not_exists_null = 1006;</code>
        */
-      public boolean getCreateDstoreUserIfNotExistsNull() {
-        return createDstoreUserIfNotExistsNull_;
+      public boolean getCreatedstoreUserIfNotExistsNull() {
+        return createdstoreUserIfNotExistsNull_;
       }
       /**
-       * <code>optional bool create_dstore_user_if_not_exists_null = 1006;</code>
+       * <code>optional bool createdstore_user_if_not_exists_null = 1006;</code>
        */
-      public Builder setCreateDstoreUserIfNotExistsNull(boolean value) {
+      public Builder setCreatedstoreUserIfNotExistsNull(boolean value) {
         
-        createDstoreUserIfNotExistsNull_ = value;
+        createdstoreUserIfNotExistsNull_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional bool create_dstore_user_if_not_exists_null = 1006;</code>
+       * <code>optional bool createdstore_user_if_not_exists_null = 1006;</code>
        */
-      public Builder clearCreateDstoreUserIfNotExistsNull() {
+      public Builder clearCreatedstoreUserIfNotExistsNull() {
         
-        createDstoreUserIfNotExistsNull_ = false;
+        createdstoreUserIfNotExistsNull_ = false;
         onChanged();
         return this;
       }
@@ -3773,7 +3773,7 @@ public final class MiChangedStoreUserPasswordAd {
       "reUserPassword_Ad.proto\022,dstore.engine.m" +
       "i_ChangedStoreUserPassword_Ad\032\032dstore/en" +
       "gine/values.proto\032\031dstore/engine/error.p" +
-      "roto\032\033dstore/engine/message.proto\"\275\005\n\nPa" +
+      "roto\032\033dstore/engine/message.proto\"\273\005\n\nPa" +
       "rameters\0224\n\tuser_name\030\001 \001(\0132!.dstore.eng" +
       "ine.values.stringValue\022\027\n\016user_name_null" +
       "\030\351\007 \001(\010\0224\n\td_b_login\030\002 \001(\0132!.dstore.engi" +
@@ -3785,19 +3785,19 @@ public final class MiChangedStoreUserPasswordAd {
       "w_password_null\030\354\007 \001(\010\022=\n\022encrypted_pass" +
       "word\030\005 \001(\0132!.dstore.engine.values.string" +
       "Value\022 \n\027encrypted_password_null\030\355\007 \001(\010\022" +
-      "L\n create_dstore_user_if_not_exists\030\006 \001(" +
-      "\0132\".dstore.engine.values.booleanValue\022.\n" +
-      "%create_dstore_user_if_not_exists_null\030\356" +
-      "\007 \001(\010\022O\n#ignore_error_new_passwd_same_as",
-      "_old\030\007 \001(\0132\".dstore.engine.values.boolea" +
-      "nValue\0221\n(ignore_error_new_passwd_same_a" +
-      "s_old_null\030\357\007 \001(\010\"\307\001\n\010Response\022)\n\005error\030" +
-      "\001 \001(\0132\032.dstore.engine.error.Error\022/\n\007mes" +
-      "sage\030\003 \003(\0132\036.dstore.engine.message.Messa" +
-      "ge\022G\n\003row\030\004 \003(\0132:.dstore.engine.mi_Chang" +
-      "edStoreUserPassword_Ad.Response.Row\032\026\n\003R" +
-      "ow\022\017\n\006row_id\030\220N \001(\005B\030\n\026io.dstore.engine." +
-      "procsb\006proto3"
+      "K\n\037createdstore_user_if_not_exists\030\006 \001(\013" +
+      "2\".dstore.engine.values.booleanValue\022-\n$" +
+      "createdstore_user_if_not_exists_null\030\356\007 " +
+      "\001(\010\022O\n#ignore_error_new_passwd_same_as_o",
+      "ld\030\007 \001(\0132\".dstore.engine.values.booleanV" +
+      "alue\0221\n(ignore_error_new_passwd_same_as_" +
+      "old_null\030\357\007 \001(\010\"\307\001\n\010Response\022)\n\005error\030\001 " +
+      "\001(\0132\032.dstore.engine.error.Error\022/\n\007messa" +
+      "ge\030\003 \003(\0132\036.dstore.engine.message.Message" +
+      "\022G\n\003row\030\004 \003(\0132:.dstore.engine.mi_Changed" +
+      "StoreUserPassword_Ad.Response.Row\032\026\n\003Row" +
+      "\022\017\n\006row_id\030\220N \001(\005B\030\n\026io.dstore.engine.pr" +
+      "ocsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3819,7 +3819,7 @@ public final class MiChangedStoreUserPasswordAd {
     internal_static_dstore_engine_mi_ChangedStoreUserPassword_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_ChangedStoreUserPassword_Ad_Parameters_descriptor,
-        new java.lang.String[] { "UserName", "UserNameNull", "DBLogin", "DBLoginNull", "CallerPassword", "CallerPasswordNull", "NewPassword", "NewPasswordNull", "EncryptedPassword", "EncryptedPasswordNull", "CreateDstoreUserIfNotExists", "CreateDstoreUserIfNotExistsNull", "IgnoreErrorNewPasswdSameAsOld", "IgnoreErrorNewPasswdSameAsOldNull", });
+        new java.lang.String[] { "UserName", "UserNameNull", "DBLogin", "DBLoginNull", "CallerPassword", "CallerPasswordNull", "NewPassword", "NewPasswordNull", "EncryptedPassword", "EncryptedPasswordNull", "CreatedstoreUserIfNotExists", "CreatedstoreUserIfNotExistsNull", "IgnoreErrorNewPasswdSameAsOld", "IgnoreErrorNewPasswdSameAsOldNull", });
     internal_static_dstore_engine_mi_ChangedStoreUserPassword_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_ChangedStoreUserPassword_Ad_Response_fieldAccessorTable = new

@@ -1281,7 +1281,7 @@ public final class CoGetLostPasswordQuestionPu {
       io.dstore.engine.Values.stringValueOrBuilder getQuestionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
        *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -1289,7 +1289,7 @@ public final class CoGetLostPasswordQuestionPu {
        */
       boolean hasNicknameCaseSensitive();
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
        *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -1297,7 +1297,7 @@ public final class CoGetLostPasswordQuestionPu {
        */
       io.dstore.engine.Values.stringValue getNicknameCaseSensitive();
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
        *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -1441,10 +1441,10 @@ public final class CoGetLostPasswordQuestionPu {
         return getQuestion();
       }
 
-      public static final int NICKNAME__CASE_SENSITIVE_FIELD_NUMBER = 10002;
+      public static final int NICKNAME_CASE_SENSITIVE_FIELD_NUMBER = 10002;
       private io.dstore.engine.Values.stringValue nicknameCaseSensitive_;
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
        *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -1454,7 +1454,7 @@ public final class CoGetLostPasswordQuestionPu {
         return nicknameCaseSensitive_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
        *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -1464,7 +1464,7 @@ public final class CoGetLostPasswordQuestionPu {
         return nicknameCaseSensitive_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : nicknameCaseSensitive_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
        *
        * <pre>
        * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -1905,7 +1905,7 @@ public final class CoGetLostPasswordQuestionPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> nicknameCaseSensitiveBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
          *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -1915,7 +1915,7 @@ public final class CoGetLostPasswordQuestionPu {
           return nicknameCaseSensitiveBuilder_ != null || nicknameCaseSensitive_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
          *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -1929,7 +1929,7 @@ public final class CoGetLostPasswordQuestionPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
          *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -1949,7 +1949,7 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
          *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -1967,7 +1967,7 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
          *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -1989,7 +1989,7 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
          *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -2007,7 +2007,7 @@ public final class CoGetLostPasswordQuestionPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
          *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -2019,7 +2019,7 @@ public final class CoGetLostPasswordQuestionPu {
           return getNicknameCaseSensitiveFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
          *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -2034,7 +2034,7 @@ public final class CoGetLostPasswordQuestionPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue nickname__case_sensitive = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue nickname_case_sensitive = 10002;</code>
          *
          * <pre>
          * Hier steht der übergebene "&#64;Nickname", falls "&#64;CaseSensitive = 1" übergeben wurde, ansonsten der hinsichtlich Groß- und Kleinschreibung korrigierte "Nickname"
@@ -3367,17 +3367,17 @@ public final class CoGetLostPasswordQuestionPu {
       "engine.values.stringValue\022\026\n\rnickname_nu" +
       "ll\030\352\007 \001(\010\022:\n\016case_sensitive\030\003 \001(\0132\".dsto",
       "re.engine.values.booleanValue\022\034\n\023case_se" +
-      "nsitive_null\030\353\007 \001(\010\"\370\002\n\010Response\022)\n\005erro" +
+      "nsitive_null\030\353\007 \001(\010\"\367\002\n\010Response\022)\n\005erro" +
       "r\030\001 \001(\0132\032.dstore.engine.error.Error\022/\n\007m" +
       "essage\030\003 \003(\0132\036.dstore.engine.message.Mes" +
       "sage\022F\n\003row\030\004 \003(\01329.dstore.engine.co_Get" +
       "LostPasswordQuestion_Pu.Response.Row\0223\n\010" +
       "question\030e \001(\0132!.dstore.engine.values.st" +
-      "ringValue\032\222\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0224\n\010qu" +
+      "ringValue\032\221\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0224\n\010qu" +
       "estion\030\221N \001(\0132!.dstore.engine.values.str" +
-      "ingValue\022D\n\030nickname__case_sensitive\030\222N ",
-      "\001(\0132!.dstore.engine.values.stringValueB\030" +
-      "\n\026io.dstore.engine.procsb\006proto3"
+      "ingValue\022C\n\027nickname_case_sensitive\030\222N \001",
+      "(\0132!.dstore.engine.values.stringValueB\030\n" +
+      "\026io.dstore.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -4009,7 +4009,7 @@ public final class StGetDSSIndexTrendAd {
       io.dstore.engine.Values.decimalValueOrBuilder getVBOIndexOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -4017,7 +4017,7 @@ public final class StGetDSSIndexTrendAd {
        */
       boolean hasTrendOfId();
       /**
-       * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -4025,7 +4025,7 @@ public final class StGetDSSIndexTrendAd {
        */
       io.dstore.engine.Values.integerValue getTrendOfId();
       /**
-       * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -4059,7 +4059,7 @@ public final class StGetDSSIndexTrendAd {
       io.dstore.engine.Values.decimalValueOrBuilder getViewsOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+       * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -4067,7 +4067,7 @@ public final class StGetDSSIndexTrendAd {
        */
       boolean hasTrendOfDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+       * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -4075,7 +4075,7 @@ public final class StGetDSSIndexTrendAd {
        */
       io.dstore.engine.Values.stringValue getTrendOfDescription();
       /**
-       * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+       * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -4413,10 +4413,10 @@ public final class StGetDSSIndexTrendAd {
         return getVBOIndex();
       }
 
-      public static final int TREND_OF__ID_FIELD_NUMBER = 10004;
+      public static final int TREND_OF_ID_FIELD_NUMBER = 10004;
       private io.dstore.engine.Values.integerValue trendOfId_;
       /**
-       * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -4426,7 +4426,7 @@ public final class StGetDSSIndexTrendAd {
         return trendOfId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -4436,7 +4436,7 @@ public final class StGetDSSIndexTrendAd {
         return trendOfId_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : trendOfId_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
        *
        * <pre>
        * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -4479,10 +4479,10 @@ public final class StGetDSSIndexTrendAd {
         return getViews();
       }
 
-      public static final int TREND_OF__DESCRIPTION_FIELD_NUMBER = 10006;
+      public static final int TREND_OF_DESCRIPTION_FIELD_NUMBER = 10006;
       private io.dstore.engine.Values.stringValue trendOfDescription_;
       /**
-       * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+       * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -4492,7 +4492,7 @@ public final class StGetDSSIndexTrendAd {
         return trendOfDescription_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+       * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -4502,7 +4502,7 @@ public final class StGetDSSIndexTrendAd {
         return trendOfDescription_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : trendOfDescription_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+       * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
        *
        * <pre>
        * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -5441,7 +5441,7 @@ public final class StGetDSSIndexTrendAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> trendOfIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -5451,7 +5451,7 @@ public final class StGetDSSIndexTrendAd {
           return trendOfIdBuilder_ != null || trendOfId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -5465,7 +5465,7 @@ public final class StGetDSSIndexTrendAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -5485,7 +5485,7 @@ public final class StGetDSSIndexTrendAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -5503,7 +5503,7 @@ public final class StGetDSSIndexTrendAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -5525,7 +5525,7 @@ public final class StGetDSSIndexTrendAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -5543,7 +5543,7 @@ public final class StGetDSSIndexTrendAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -5555,7 +5555,7 @@ public final class StGetDSSIndexTrendAd {
           return getTrendOfIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -5570,7 +5570,7 @@ public final class StGetDSSIndexTrendAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue trend_of__id = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue trend_of_id = 10004;</code>
          *
          * <pre>
          * ID des Elementes auf das sich die Angaben beziehen, also entweder die ID eines Artikel-Elementes oder die ID einer Eigenschaft (falls eine "&#64;GroupByNodeCharacteristicID" angegeben wurde oder Eigenschaften in "tempdb.dbo.OneID" übergeben wurden)
@@ -5747,7 +5747,7 @@ public final class StGetDSSIndexTrendAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> trendOfDescriptionBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+         * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -5757,7 +5757,7 @@ public final class StGetDSSIndexTrendAd {
           return trendOfDescriptionBuilder_ != null || trendOfDescription_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+         * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -5771,7 +5771,7 @@ public final class StGetDSSIndexTrendAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+         * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -5791,7 +5791,7 @@ public final class StGetDSSIndexTrendAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+         * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -5809,7 +5809,7 @@ public final class StGetDSSIndexTrendAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+         * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -5831,7 +5831,7 @@ public final class StGetDSSIndexTrendAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+         * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -5849,7 +5849,7 @@ public final class StGetDSSIndexTrendAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+         * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -5861,7 +5861,7 @@ public final class StGetDSSIndexTrendAd {
           return getTrendOfDescriptionFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+         * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -5876,7 +5876,7 @@ public final class StGetDSSIndexTrendAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue trend_of__description = 10006;</code>
+         * <code>optional .dstore.engine.values.stringValue trend_of_description = 10006;</code>
          *
          * <pre>
          * Bezeichnung des Elementes "TrendOf_ID" - also entweder eine "NodeDescription" oder ein "Value"
@@ -7478,25 +7478,24 @@ public final class StGetDSSIndexTrendAd {
       "t_tree_node_id_null\030\365\007 \001(\010\022E\n\031order_resu" +
       "lt_by_intervall\030\016 \001(\0132\".dstore.engine.va",
       "lues.integerValue\022\'\n\036order_result_by_int" +
-      "ervall_null\030\366\007 \001(\010\"\232\005\n\010Response\022)\n\005error" +
+      "ervall_null\030\366\007 \001(\010\"\230\005\n\010Response\022)\n\005error" +
       "\030\001 \001(\0132\032.dstore.engine.error.Error\022/\n\007me" +
       "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
       "age\022A\n\003row\030\004 \003(\01324.dstore.engine.st_GetD" +
-      "SS_Index_Trend_Ad.Response.Row\032\356\003\n\003Row\022\017" +
+      "SS_Index_Trend_Ad.Response.Row\032\354\003\n\003Row\022\017" +
       "\n\006row_id\030\220N \001(\005\022>\n\017intervall_start\030\221N \001(" +
       "\0132$.dstore.engine.values.timestampValue\022" +
       "3\n\006orders\030\222N \001(\0132\".dstore.engine.values." +
       "decimalValue\0228\n\013v_b_o_index\030\223N \001(\0132\".dst",
-      "ore.engine.values.decimalValue\0229\n\014trend_" +
-      "of__id\030\224N \001(\0132\".dstore.engine.values.int" +
-      "egerValue\0222\n\005views\030\225N \001(\0132\".dstore.engin" +
-      "e.values.decimalValue\022A\n\025trend_of__descr" +
-      "iption\030\226N \001(\0132!.dstore.engine.values.str" +
-      "ingValue\0226\n\tintervall\030\227N \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022=\n\020buying_inter" +
-      "ests\030\230N \001(\0132\".dstore.engine.values.decim" +
-      "alValueB\030\n\026io.dstore.engine.procsb\006proto" +
-      "3"
+      "ore.engine.values.decimalValue\0228\n\013trend_" +
+      "of_id\030\224N \001(\0132\".dstore.engine.values.inte" +
+      "gerValue\0222\n\005views\030\225N \001(\0132\".dstore.engine" +
+      ".values.decimalValue\022@\n\024trend_of_descrip" +
+      "tion\030\226N \001(\0132!.dstore.engine.values.strin" +
+      "gValue\0226\n\tintervall\030\227N \001(\0132\".dstore.engi" +
+      "ne.values.integerValue\022=\n\020buying_interes" +
+      "ts\030\230N \001(\0132\".dstore.engine.values.decimal" +
+      "ValueB\030\n\026io.dstore.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

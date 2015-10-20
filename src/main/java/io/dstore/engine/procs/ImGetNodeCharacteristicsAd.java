@@ -2232,7 +2232,7 @@ public final class ImGetNodeCharacteristicsAd {
       io.dstore.engine.Values.integerValueOrBuilder getNodeCharacCategoryIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+       * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
        *
        * <pre>
        * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -2240,7 +2240,7 @@ public final class ImGetNodeCharacteristicsAd {
        */
       boolean hasHasCurrencyUnitValsAreNetVals();
       /**
-       * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+       * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
        *
        * <pre>
        * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -2248,7 +2248,7 @@ public final class ImGetNodeCharacteristicsAd {
        */
       io.dstore.engine.Values.integerValue getHasCurrencyUnitValsAreNetVals();
       /**
-       * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+       * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
        *
        * <pre>
        * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -3034,10 +3034,10 @@ public final class ImGetNodeCharacteristicsAd {
         return getNodeCharacCategoryId();
       }
 
-      public static final int HAS_CURRENCY_UNIT__VALS_ARE_NET_VALS_FIELD_NUMBER = 10011;
+      public static final int HAS_CURRENCY_UNIT_VALS_ARE_NET_VALS_FIELD_NUMBER = 10011;
       private io.dstore.engine.Values.integerValue hasCurrencyUnitValsAreNetVals_;
       /**
-       * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+       * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
        *
        * <pre>
        * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -3047,7 +3047,7 @@ public final class ImGetNodeCharacteristicsAd {
         return hasCurrencyUnitValsAreNetVals_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+       * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
        *
        * <pre>
        * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -3057,7 +3057,7 @@ public final class ImGetNodeCharacteristicsAd {
         return hasCurrencyUnitValsAreNetVals_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : hasCurrencyUnitValsAreNetVals_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+       * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
        *
        * <pre>
        * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -5388,7 +5388,7 @@ public final class ImGetNodeCharacteristicsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> hasCurrencyUnitValsAreNetValsBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+         * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
          *
          * <pre>
          * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -5398,7 +5398,7 @@ public final class ImGetNodeCharacteristicsAd {
           return hasCurrencyUnitValsAreNetValsBuilder_ != null || hasCurrencyUnitValsAreNetVals_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+         * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
          *
          * <pre>
          * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -5412,7 +5412,7 @@ public final class ImGetNodeCharacteristicsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+         * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
          *
          * <pre>
          * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -5432,7 +5432,7 @@ public final class ImGetNodeCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+         * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
          *
          * <pre>
          * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -5450,7 +5450,7 @@ public final class ImGetNodeCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+         * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
          *
          * <pre>
          * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -5472,7 +5472,7 @@ public final class ImGetNodeCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+         * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
          *
          * <pre>
          * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -5490,7 +5490,7 @@ public final class ImGetNodeCharacteristicsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+         * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
          *
          * <pre>
          * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -5502,7 +5502,7 @@ public final class ImGetNodeCharacteristicsAd {
           return getHasCurrencyUnitValsAreNetValsFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+         * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
          *
          * <pre>
          * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -5517,7 +5517,7 @@ public final class ImGetNodeCharacteristicsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue has_currency_unit__vals_are_net_vals = 10011;</code>
+         * <code>optional .dstore.engine.values.integerValue has_currency_unit_vals_are_net_vals = 10011;</code>
          *
          * <pre>
          * Handelt es sich um ein "Preis-Merkmal" (d.h. ist die "UnitID" aus der Kategorie "Währung") und falls ja, sind alle Werte Netto-Preise ?"0" : Werte sind Brutto-Preise"1" : Werte sind Netto-Preise"2" : Werte sind KEINE Preis-Angaben
@@ -7711,11 +7711,11 @@ public final class ImGetNodeCharacteristicsAd {
       "sort_order_null\030\355\007 \001(\010\022D\n\030get_category_i" +
       "nformation\030\006 \001(\0132\".dstore.engine.values.",
       "booleanValue\022&\n\035get_category_information" +
-      "_null\030\356\007 \001(\010\"\217\n\n\010Response\022)\n\005error\030\001 \001(\013" +
+      "_null\030\356\007 \001(\010\"\216\n\n\010Response\022)\n\005error\030\001 \001(\013" +
       "2\032.dstore.engine.error.Error\022/\n\007message\030" +
       "\003 \003(\0132\036.dstore.engine.message.Message\022E\n" +
       "\003row\030\004 \003(\01328.dstore.engine.im_GetNodeCha" +
-      "racteristics_Ad.Response.Row\032\337\010\n\003Row\022\017\n\006" +
+      "racteristics_Ad.Response.Row\032\336\010\n\003Row\022\017\n\006" +
       "row_id\030\220N \001(\005\0227\n\ndeleteable\030\221N \001(\0132\".dst" +
       "ore.engine.values.booleanValue\022D\n\027predec" +
       "essor_category_id\030\222N \001(\0132\".dstore.engine" +
@@ -7732,19 +7732,19 @@ public final class ImGetNodeCharacteristicsAd {
       "s.integerValue\022>\n\021predefined_values\030\231N \001",
       "(\0132\".dstore.engine.values.booleanValue\022D" +
       "\n\027node_charac_category_id\030\232N \001(\0132\".dstor" +
-      "e.engine.values.integerValue\022Q\n$has_curr" +
-      "ency_unit__vals_are_net_vals\030\233N \001(\0132\".ds" +
-      "tore.engine.values.integerValue\022=\n\020categ" +
-      "ory_sort_no\030\234N \001(\0132\".dstore.engine.value" +
-      "s.integerValue\0224\n\007unit_id\030\235N \001(\0132\".dstor" +
-      "e.engine.values.integerValue\0226\n\tis_uniqu" +
-      "e\030\236N \001(\0132\".dstore.engine.values.booleanV" +
-      "alue\022>\n\021value_language_id\030\237N \001(\0132\".dstor",
-      "e.engine.values.integerValue\022@\n\024category" +
-      "_description\030\240N \001(\0132!.dstore.engine.valu" +
-      "es.stringValue\0226\n\trecursive\030\241N \001(\0132\".dst" +
-      "ore.engine.values.booleanValueB\030\n\026io.dst" +
-      "ore.engine.procsb\006proto3"
+      "e.engine.values.integerValue\022P\n#has_curr" +
+      "ency_unit_vals_are_net_vals\030\233N \001(\0132\".dst" +
+      "ore.engine.values.integerValue\022=\n\020catego" +
+      "ry_sort_no\030\234N \001(\0132\".dstore.engine.values" +
+      ".integerValue\0224\n\007unit_id\030\235N \001(\0132\".dstore" +
+      ".engine.values.integerValue\0226\n\tis_unique" +
+      "\030\236N \001(\0132\".dstore.engine.values.booleanVa" +
+      "lue\022>\n\021value_language_id\030\237N \001(\0132\".dstore",
+      ".engine.values.integerValue\022@\n\024category_" +
+      "description\030\240N \001(\0132!.dstore.engine.value" +
+      "s.stringValue\0226\n\trecursive\030\241N \001(\0132\".dsto" +
+      "re.engine.values.booleanValueB\030\n\026io.dsto" +
+      "re.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

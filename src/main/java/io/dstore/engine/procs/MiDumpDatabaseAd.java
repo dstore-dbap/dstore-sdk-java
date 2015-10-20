@@ -31,22 +31,22 @@ public final class MiDumpDatabaseAd {
     boolean getDatabaseNameNull();
 
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
-    boolean hasMaxSizePerDumpFileMB();
+    boolean hasMaxSizePerDumpFileMb();
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
-    io.dstore.engine.Values.integerValue getMaxSizePerDumpFileMB();
+    io.dstore.engine.Values.integerValue getMaxSizePerDumpFileMb();
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
-    io.dstore.engine.Values.integerValueOrBuilder getMaxSizePerDumpFileMBOrBuilder();
+    io.dstore.engine.Values.integerValueOrBuilder getMaxSizePerDumpFileMbOrBuilder();
 
     /**
-     * <code>optional bool max_size_per_dump_file_m_b_null = 1002;</code>
+     * <code>optional bool max_size_per_dump_file_mb_null = 1002;</code>
      */
-    boolean getMaxSizePerDumpFileMBNull();
+    boolean getMaxSizePerDumpFileMbNull();
 
     /**
      * <code>optional .dstore.engine.values.stringValue use_predefined_devices_pattern = 3;</code>
@@ -133,7 +133,7 @@ public final class MiDumpDatabaseAd {
     }
     private Parameters() {
       databaseNameNull_ = false;
-      maxSizePerDumpFileMBNull_ = false;
+      maxSizePerDumpFileMbNull_ = false;
       usePredefinedDevicesPatternNull_ = false;
       truncateTransactionLogNull_ = false;
       compressLevelNull_ = false;
@@ -179,13 +179,13 @@ public final class MiDumpDatabaseAd {
             }
             case 18: {
               io.dstore.engine.Values.integerValue.Builder subBuilder = null;
-              if (maxSizePerDumpFileMB_ != null) {
-                subBuilder = maxSizePerDumpFileMB_.toBuilder();
+              if (maxSizePerDumpFileMb_ != null) {
+                subBuilder = maxSizePerDumpFileMb_.toBuilder();
               }
-              maxSizePerDumpFileMB_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
+              maxSizePerDumpFileMb_ = input.readMessage(io.dstore.engine.Values.integerValue.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(maxSizePerDumpFileMB_);
-                maxSizePerDumpFileMB_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(maxSizePerDumpFileMb_);
+                maxSizePerDumpFileMb_ = subBuilder.buildPartial();
               }
 
               break;
@@ -249,7 +249,7 @@ public final class MiDumpDatabaseAd {
             }
             case 8016: {
 
-              maxSizePerDumpFileMBNull_ = input.readBool();
+              maxSizePerDumpFileMbNull_ = input.readBool();
               break;
             }
             case 8024: {
@@ -326,34 +326,34 @@ public final class MiDumpDatabaseAd {
       return databaseNameNull_;
     }
 
-    public static final int MAX_SIZE_PER_DUMP_FILE_M_B_FIELD_NUMBER = 2;
-    private io.dstore.engine.Values.integerValue maxSizePerDumpFileMB_;
+    public static final int MAX_SIZE_PER_DUMP_FILE_MB_FIELD_NUMBER = 2;
+    private io.dstore.engine.Values.integerValue maxSizePerDumpFileMb_;
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
-    public boolean hasMaxSizePerDumpFileMB() {
-      return maxSizePerDumpFileMB_ != null;
+    public boolean hasMaxSizePerDumpFileMb() {
+      return maxSizePerDumpFileMb_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
-    public io.dstore.engine.Values.integerValue getMaxSizePerDumpFileMB() {
-      return maxSizePerDumpFileMB_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMB_;
+    public io.dstore.engine.Values.integerValue getMaxSizePerDumpFileMb() {
+      return maxSizePerDumpFileMb_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMb_;
     }
     /**
-     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+     * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
      */
-    public io.dstore.engine.Values.integerValueOrBuilder getMaxSizePerDumpFileMBOrBuilder() {
-      return getMaxSizePerDumpFileMB();
+    public io.dstore.engine.Values.integerValueOrBuilder getMaxSizePerDumpFileMbOrBuilder() {
+      return getMaxSizePerDumpFileMb();
     }
 
-    public static final int MAX_SIZE_PER_DUMP_FILE_M_B_NULL_FIELD_NUMBER = 1002;
-    private boolean maxSizePerDumpFileMBNull_;
+    public static final int MAX_SIZE_PER_DUMP_FILE_MB_NULL_FIELD_NUMBER = 1002;
+    private boolean maxSizePerDumpFileMbNull_;
     /**
-     * <code>optional bool max_size_per_dump_file_m_b_null = 1002;</code>
+     * <code>optional bool max_size_per_dump_file_mb_null = 1002;</code>
      */
-    public boolean getMaxSizePerDumpFileMBNull() {
-      return maxSizePerDumpFileMBNull_;
+    public boolean getMaxSizePerDumpFileMbNull() {
+      return maxSizePerDumpFileMbNull_;
     }
 
     public static final int USE_PREDEFINED_DEVICES_PATTERN_FIELD_NUMBER = 3;
@@ -491,8 +491,8 @@ public final class MiDumpDatabaseAd {
       if (databaseName_ != null) {
         output.writeMessage(1, getDatabaseName());
       }
-      if (maxSizePerDumpFileMB_ != null) {
-        output.writeMessage(2, getMaxSizePerDumpFileMB());
+      if (maxSizePerDumpFileMb_ != null) {
+        output.writeMessage(2, getMaxSizePerDumpFileMb());
       }
       if (usePredefinedDevicesPattern_ != null) {
         output.writeMessage(3, getUsePredefinedDevicesPattern());
@@ -509,8 +509,8 @@ public final class MiDumpDatabaseAd {
       if (databaseNameNull_ != false) {
         output.writeBool(1001, databaseNameNull_);
       }
-      if (maxSizePerDumpFileMBNull_ != false) {
-        output.writeBool(1002, maxSizePerDumpFileMBNull_);
+      if (maxSizePerDumpFileMbNull_ != false) {
+        output.writeBool(1002, maxSizePerDumpFileMbNull_);
       }
       if (usePredefinedDevicesPatternNull_ != false) {
         output.writeBool(1003, usePredefinedDevicesPatternNull_);
@@ -535,9 +535,9 @@ public final class MiDumpDatabaseAd {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getDatabaseName());
       }
-      if (maxSizePerDumpFileMB_ != null) {
+      if (maxSizePerDumpFileMb_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getMaxSizePerDumpFileMB());
+          .computeMessageSize(2, getMaxSizePerDumpFileMb());
       }
       if (usePredefinedDevicesPattern_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -559,9 +559,9 @@ public final class MiDumpDatabaseAd {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1001, databaseNameNull_);
       }
-      if (maxSizePerDumpFileMBNull_ != false) {
+      if (maxSizePerDumpFileMbNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1002, maxSizePerDumpFileMBNull_);
+          .computeBoolSize(1002, maxSizePerDumpFileMbNull_);
       }
       if (usePredefinedDevicesPatternNull_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -698,13 +698,13 @@ public final class MiDumpDatabaseAd {
         }
         databaseNameNull_ = false;
 
-        if (maxSizePerDumpFileMBBuilder_ == null) {
-          maxSizePerDumpFileMB_ = null;
+        if (maxSizePerDumpFileMbBuilder_ == null) {
+          maxSizePerDumpFileMb_ = null;
         } else {
-          maxSizePerDumpFileMB_ = null;
-          maxSizePerDumpFileMBBuilder_ = null;
+          maxSizePerDumpFileMb_ = null;
+          maxSizePerDumpFileMbBuilder_ = null;
         }
-        maxSizePerDumpFileMBNull_ = false;
+        maxSizePerDumpFileMbNull_ = false;
 
         if (usePredefinedDevicesPatternBuilder_ == null) {
           usePredefinedDevicesPattern_ = null;
@@ -766,12 +766,12 @@ public final class MiDumpDatabaseAd {
           result.databaseName_ = databaseNameBuilder_.build();
         }
         result.databaseNameNull_ = databaseNameNull_;
-        if (maxSizePerDumpFileMBBuilder_ == null) {
-          result.maxSizePerDumpFileMB_ = maxSizePerDumpFileMB_;
+        if (maxSizePerDumpFileMbBuilder_ == null) {
+          result.maxSizePerDumpFileMb_ = maxSizePerDumpFileMb_;
         } else {
-          result.maxSizePerDumpFileMB_ = maxSizePerDumpFileMBBuilder_.build();
+          result.maxSizePerDumpFileMb_ = maxSizePerDumpFileMbBuilder_.build();
         }
-        result.maxSizePerDumpFileMBNull_ = maxSizePerDumpFileMBNull_;
+        result.maxSizePerDumpFileMbNull_ = maxSizePerDumpFileMbNull_;
         if (usePredefinedDevicesPatternBuilder_ == null) {
           result.usePredefinedDevicesPattern_ = usePredefinedDevicesPattern_;
         } else {
@@ -817,11 +817,11 @@ public final class MiDumpDatabaseAd {
         if (other.getDatabaseNameNull() != false) {
           setDatabaseNameNull(other.getDatabaseNameNull());
         }
-        if (other.hasMaxSizePerDumpFileMB()) {
-          mergeMaxSizePerDumpFileMB(other.getMaxSizePerDumpFileMB());
+        if (other.hasMaxSizePerDumpFileMb()) {
+          mergeMaxSizePerDumpFileMb(other.getMaxSizePerDumpFileMb());
         }
-        if (other.getMaxSizePerDumpFileMBNull() != false) {
-          setMaxSizePerDumpFileMBNull(other.getMaxSizePerDumpFileMBNull());
+        if (other.getMaxSizePerDumpFileMbNull() != false) {
+          setMaxSizePerDumpFileMbNull(other.getMaxSizePerDumpFileMbNull());
         }
         if (other.hasUsePredefinedDevicesPattern()) {
           mergeUsePredefinedDevicesPattern(other.getUsePredefinedDevicesPattern());
@@ -1016,145 +1016,145 @@ public final class MiDumpDatabaseAd {
         return this;
       }
 
-      private io.dstore.engine.Values.integerValue maxSizePerDumpFileMB_ = null;
+      private io.dstore.engine.Values.integerValue maxSizePerDumpFileMb_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> maxSizePerDumpFileMBBuilder_;
+          io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> maxSizePerDumpFileMbBuilder_;
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public boolean hasMaxSizePerDumpFileMB() {
-        return maxSizePerDumpFileMBBuilder_ != null || maxSizePerDumpFileMB_ != null;
+      public boolean hasMaxSizePerDumpFileMb() {
+        return maxSizePerDumpFileMbBuilder_ != null || maxSizePerDumpFileMb_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue getMaxSizePerDumpFileMB() {
-        if (maxSizePerDumpFileMBBuilder_ == null) {
-          return maxSizePerDumpFileMB_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMB_;
+      public io.dstore.engine.Values.integerValue getMaxSizePerDumpFileMb() {
+        if (maxSizePerDumpFileMbBuilder_ == null) {
+          return maxSizePerDumpFileMb_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMb_;
         } else {
-          return maxSizePerDumpFileMBBuilder_.getMessage();
+          return maxSizePerDumpFileMbBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public Builder setMaxSizePerDumpFileMB(io.dstore.engine.Values.integerValue value) {
-        if (maxSizePerDumpFileMBBuilder_ == null) {
+      public Builder setMaxSizePerDumpFileMb(io.dstore.engine.Values.integerValue value) {
+        if (maxSizePerDumpFileMbBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          maxSizePerDumpFileMB_ = value;
+          maxSizePerDumpFileMb_ = value;
           onChanged();
         } else {
-          maxSizePerDumpFileMBBuilder_.setMessage(value);
+          maxSizePerDumpFileMbBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public Builder setMaxSizePerDumpFileMB(
+      public Builder setMaxSizePerDumpFileMb(
           io.dstore.engine.Values.integerValue.Builder builderForValue) {
-        if (maxSizePerDumpFileMBBuilder_ == null) {
-          maxSizePerDumpFileMB_ = builderForValue.build();
+        if (maxSizePerDumpFileMbBuilder_ == null) {
+          maxSizePerDumpFileMb_ = builderForValue.build();
           onChanged();
         } else {
-          maxSizePerDumpFileMBBuilder_.setMessage(builderForValue.build());
+          maxSizePerDumpFileMbBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public Builder mergeMaxSizePerDumpFileMB(io.dstore.engine.Values.integerValue value) {
-        if (maxSizePerDumpFileMBBuilder_ == null) {
-          if (maxSizePerDumpFileMB_ != null) {
-            maxSizePerDumpFileMB_ =
-              io.dstore.engine.Values.integerValue.newBuilder(maxSizePerDumpFileMB_).mergeFrom(value).buildPartial();
+      public Builder mergeMaxSizePerDumpFileMb(io.dstore.engine.Values.integerValue value) {
+        if (maxSizePerDumpFileMbBuilder_ == null) {
+          if (maxSizePerDumpFileMb_ != null) {
+            maxSizePerDumpFileMb_ =
+              io.dstore.engine.Values.integerValue.newBuilder(maxSizePerDumpFileMb_).mergeFrom(value).buildPartial();
           } else {
-            maxSizePerDumpFileMB_ = value;
+            maxSizePerDumpFileMb_ = value;
           }
           onChanged();
         } else {
-          maxSizePerDumpFileMBBuilder_.mergeFrom(value);
+          maxSizePerDumpFileMbBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public Builder clearMaxSizePerDumpFileMB() {
-        if (maxSizePerDumpFileMBBuilder_ == null) {
-          maxSizePerDumpFileMB_ = null;
+      public Builder clearMaxSizePerDumpFileMb() {
+        if (maxSizePerDumpFileMbBuilder_ == null) {
+          maxSizePerDumpFileMb_ = null;
           onChanged();
         } else {
-          maxSizePerDumpFileMB_ = null;
-          maxSizePerDumpFileMBBuilder_ = null;
+          maxSizePerDumpFileMb_ = null;
+          maxSizePerDumpFileMbBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public io.dstore.engine.Values.integerValue.Builder getMaxSizePerDumpFileMBBuilder() {
+      public io.dstore.engine.Values.integerValue.Builder getMaxSizePerDumpFileMbBuilder() {
         
         onChanged();
-        return getMaxSizePerDumpFileMBFieldBuilder().getBuilder();
+        return getMaxSizePerDumpFileMbFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
-      public io.dstore.engine.Values.integerValueOrBuilder getMaxSizePerDumpFileMBOrBuilder() {
-        if (maxSizePerDumpFileMBBuilder_ != null) {
-          return maxSizePerDumpFileMBBuilder_.getMessageOrBuilder();
+      public io.dstore.engine.Values.integerValueOrBuilder getMaxSizePerDumpFileMbOrBuilder() {
+        if (maxSizePerDumpFileMbBuilder_ != null) {
+          return maxSizePerDumpFileMbBuilder_.getMessageOrBuilder();
         } else {
-          return maxSizePerDumpFileMB_ == null ?
-              io.dstore.engine.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMB_;
+          return maxSizePerDumpFileMb_ == null ?
+              io.dstore.engine.Values.integerValue.getDefaultInstance() : maxSizePerDumpFileMb_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_m_b = 2;</code>
+       * <code>optional .dstore.engine.values.integerValue max_size_per_dump_file_mb = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> 
-          getMaxSizePerDumpFileMBFieldBuilder() {
-        if (maxSizePerDumpFileMBBuilder_ == null) {
-          maxSizePerDumpFileMBBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+          getMaxSizePerDumpFileMbFieldBuilder() {
+        if (maxSizePerDumpFileMbBuilder_ == null) {
+          maxSizePerDumpFileMbBuilder_ = new com.google.protobuf.SingleFieldBuilder<
               io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder>(
-                  getMaxSizePerDumpFileMB(),
+                  getMaxSizePerDumpFileMb(),
                   getParentForChildren(),
                   isClean());
-          maxSizePerDumpFileMB_ = null;
+          maxSizePerDumpFileMb_ = null;
         }
-        return maxSizePerDumpFileMBBuilder_;
+        return maxSizePerDumpFileMbBuilder_;
       }
 
-      private boolean maxSizePerDumpFileMBNull_ ;
+      private boolean maxSizePerDumpFileMbNull_ ;
       /**
-       * <code>optional bool max_size_per_dump_file_m_b_null = 1002;</code>
+       * <code>optional bool max_size_per_dump_file_mb_null = 1002;</code>
        */
-      public boolean getMaxSizePerDumpFileMBNull() {
-        return maxSizePerDumpFileMBNull_;
+      public boolean getMaxSizePerDumpFileMbNull() {
+        return maxSizePerDumpFileMbNull_;
       }
       /**
-       * <code>optional bool max_size_per_dump_file_m_b_null = 1002;</code>
+       * <code>optional bool max_size_per_dump_file_mb_null = 1002;</code>
        */
-      public Builder setMaxSizePerDumpFileMBNull(boolean value) {
+      public Builder setMaxSizePerDumpFileMbNull(boolean value) {
         
-        maxSizePerDumpFileMBNull_ = value;
+        maxSizePerDumpFileMbNull_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional bool max_size_per_dump_file_m_b_null = 1002;</code>
+       * <code>optional bool max_size_per_dump_file_mb_null = 1002;</code>
        */
-      public Builder clearMaxSizePerDumpFileMBNull() {
+      public Builder clearMaxSizePerDumpFileMbNull() {
         
-        maxSizePerDumpFileMBNull_ = false;
+        maxSizePerDumpFileMbNull_ = false;
         onChanged();
         return this;
       }
@@ -3529,28 +3529,28 @@ public final class MiDumpDatabaseAd {
       "se_Ad.proto\022 dstore.engine.mi_DumpDataba" +
       "se_Ad\032\032dstore/engine/values.proto\032\031dstor" +
       "e/engine/error.proto\032\033dstore/engine/mess" +
-      "age.proto\"\366\004\n\nParameters\0228\n\rdatabase_nam" +
+      "age.proto\"\364\004\n\nParameters\0228\n\rdatabase_nam" +
       "e\030\001 \001(\0132!.dstore.engine.values.stringVal" +
-      "ue\022\033\n\022database_name_null\030\351\007 \001(\010\022F\n\032max_s" +
-      "ize_per_dump_file_m_b\030\002 \001(\0132\".dstore.eng" +
-      "ine.values.integerValue\022(\n\037max_size_per_" +
-      "dump_file_m_b_null\030\352\007 \001(\010\022I\n\036use_predefi",
-      "ned_devices_pattern\030\003 \001(\0132!.dstore.engin" +
-      "e.values.stringValue\022,\n#use_predefined_d" +
-      "evices_pattern_null\030\353\007 \001(\010\022D\n\030truncate_t" +
-      "ransaction_log\030\004 \001(\0132\".dstore.engine.val" +
-      "ues.booleanValue\022&\n\035truncate_transaction" +
-      "_log_null\030\354\007 \001(\010\022:\n\016compress_level\030\005 \001(\013" +
-      "2\".dstore.engine.values.integerValue\022\034\n\023" +
-      "compress_level_null\030\355\007 \001(\010\022=\n\021number_of_" +
-      "devices\030\006 \001(\0132\".dstore.engine.values.int" +
-      "egerValue\022\037\n\026number_of_devices_null\030\356\007 \001",
-      "(\010\"\273\001\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore." +
-      "engine.error.Error\022/\n\007message\030\003 \003(\0132\036.ds" +
-      "tore.engine.message.Message\022;\n\003row\030\004 \003(\013" +
-      "2..dstore.engine.mi_DumpDatabase_Ad.Resp" +
-      "onse.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\030\n\026io.d" +
-      "store.engine.procsb\006proto3"
+      "ue\022\033\n\022database_name_null\030\351\007 \001(\010\022E\n\031max_s" +
+      "ize_per_dump_file_mb\030\002 \001(\0132\".dstore.engi" +
+      "ne.values.integerValue\022\'\n\036max_size_per_d" +
+      "ump_file_mb_null\030\352\007 \001(\010\022I\n\036use_predefine",
+      "d_devices_pattern\030\003 \001(\0132!.dstore.engine." +
+      "values.stringValue\022,\n#use_predefined_dev" +
+      "ices_pattern_null\030\353\007 \001(\010\022D\n\030truncate_tra" +
+      "nsaction_log\030\004 \001(\0132\".dstore.engine.value" +
+      "s.booleanValue\022&\n\035truncate_transaction_l" +
+      "og_null\030\354\007 \001(\010\022:\n\016compress_level\030\005 \001(\0132\"" +
+      ".dstore.engine.values.integerValue\022\034\n\023co" +
+      "mpress_level_null\030\355\007 \001(\010\022=\n\021number_of_de" +
+      "vices\030\006 \001(\0132\".dstore.engine.values.integ" +
+      "erValue\022\037\n\026number_of_devices_null\030\356\007 \001(\010",
+      "\"\273\001\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.en" +
+      "gine.error.Error\022/\n\007message\030\003 \003(\0132\036.dsto" +
+      "re.engine.message.Message\022;\n\003row\030\004 \003(\0132." +
+      ".dstore.engine.mi_DumpDatabase_Ad.Respon" +
+      "se.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\030\n\026io.dst" +
+      "ore.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3572,7 +3572,7 @@ public final class MiDumpDatabaseAd {
     internal_static_dstore_engine_mi_DumpDatabase_Ad_Parameters_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_mi_DumpDatabase_Ad_Parameters_descriptor,
-        new java.lang.String[] { "DatabaseName", "DatabaseNameNull", "MaxSizePerDumpFileMB", "MaxSizePerDumpFileMBNull", "UsePredefinedDevicesPattern", "UsePredefinedDevicesPatternNull", "TruncateTransactionLog", "TruncateTransactionLogNull", "CompressLevel", "CompressLevelNull", "NumberOfDevices", "NumberOfDevicesNull", });
+        new java.lang.String[] { "DatabaseName", "DatabaseNameNull", "MaxSizePerDumpFileMb", "MaxSizePerDumpFileMbNull", "UsePredefinedDevicesPattern", "UsePredefinedDevicesPatternNull", "TruncateTransactionLog", "TruncateTransactionLogNull", "CompressLevel", "CompressLevelNull", "NumberOfDevices", "NumberOfDevicesNull", });
     internal_static_dstore_engine_mi_DumpDatabase_Ad_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_engine_mi_DumpDatabase_Ad_Response_fieldAccessorTable = new

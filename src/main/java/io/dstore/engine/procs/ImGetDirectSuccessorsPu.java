@@ -4209,7 +4209,7 @@ public final class ImGetDirectSuccessorsPu {
       io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -4217,7 +4217,7 @@ public final class ImGetDirectSuccessorsPu {
        */
       boolean hasValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -4225,7 +4225,7 @@ public final class ImGetDirectSuccessorsPu {
        */
       io.dstore.engine.Values.stringValue getValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -4234,7 +4234,7 @@ public final class ImGetDirectSuccessorsPu {
       io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -4242,7 +4242,7 @@ public final class ImGetDirectSuccessorsPu {
        */
       boolean hasValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -4250,7 +4250,7 @@ public final class ImGetDirectSuccessorsPu {
        */
       io.dstore.engine.Values.stringValue getValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -4259,7 +4259,7 @@ public final class ImGetDirectSuccessorsPu {
       io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -4267,7 +4267,7 @@ public final class ImGetDirectSuccessorsPu {
        */
       boolean hasValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -4275,7 +4275,7 @@ public final class ImGetDirectSuccessorsPu {
        */
       io.dstore.engine.Values.stringValue getValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -4749,10 +4749,10 @@ public final class ImGetDirectSuccessorsPu {
         return getNodeDescription();
       }
 
-      public static final int VALUE_2_FIELD_NUMBER = 10002;
+      public static final int VALUE2_FIELD_NUMBER = 10002;
       private io.dstore.engine.Values.stringValue value2_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -4762,7 +4762,7 @@ public final class ImGetDirectSuccessorsPu {
         return value2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -4772,7 +4772,7 @@ public final class ImGetDirectSuccessorsPu {
         return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -4782,10 +4782,10 @@ public final class ImGetDirectSuccessorsPu {
         return getValue2();
       }
 
-      public static final int VALUE_3_FIELD_NUMBER = 10003;
+      public static final int VALUE3_FIELD_NUMBER = 10003;
       private io.dstore.engine.Values.stringValue value3_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -4795,7 +4795,7 @@ public final class ImGetDirectSuccessorsPu {
         return value3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -4805,7 +4805,7 @@ public final class ImGetDirectSuccessorsPu {
         return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -4815,10 +4815,10 @@ public final class ImGetDirectSuccessorsPu {
         return getValue3();
       }
 
-      public static final int VALUE_1_FIELD_NUMBER = 10004;
+      public static final int VALUE1_FIELD_NUMBER = 10004;
       private io.dstore.engine.Values.stringValue value1_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -4828,7 +4828,7 @@ public final class ImGetDirectSuccessorsPu {
         return value1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -4838,7 +4838,7 @@ public final class ImGetDirectSuccessorsPu {
         return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -5753,7 +5753,7 @@ public final class ImGetDirectSuccessorsPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -5763,7 +5763,7 @@ public final class ImGetDirectSuccessorsPu {
           return value2Builder_ != null || value2_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -5777,7 +5777,7 @@ public final class ImGetDirectSuccessorsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -5797,7 +5797,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -5815,7 +5815,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -5837,7 +5837,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -5855,7 +5855,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -5867,7 +5867,7 @@ public final class ImGetDirectSuccessorsPu {
           return getValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -5882,7 +5882,7 @@ public final class ImGetDirectSuccessorsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -5906,7 +5906,7 @@ public final class ImGetDirectSuccessorsPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -5916,7 +5916,7 @@ public final class ImGetDirectSuccessorsPu {
           return value3Builder_ != null || value3_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -5930,7 +5930,7 @@ public final class ImGetDirectSuccessorsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -5950,7 +5950,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -5968,7 +5968,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -5990,7 +5990,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -6008,7 +6008,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -6020,7 +6020,7 @@ public final class ImGetDirectSuccessorsPu {
           return getValue3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -6035,7 +6035,7 @@ public final class ImGetDirectSuccessorsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -6059,7 +6059,7 @@ public final class ImGetDirectSuccessorsPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -6069,7 +6069,7 @@ public final class ImGetDirectSuccessorsPu {
           return value1Builder_ != null || value1_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -6083,7 +6083,7 @@ public final class ImGetDirectSuccessorsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -6103,7 +6103,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -6121,7 +6121,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -6143,7 +6143,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -6161,7 +6161,7 @@ public final class ImGetDirectSuccessorsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -6173,7 +6173,7 @@ public final class ImGetDirectSuccessorsPu {
           return getValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -6188,7 +6188,7 @@ public final class ImGetDirectSuccessorsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -8778,31 +8778,31 @@ public final class ImGetDirectSuccessorsPu {
       "gine.values.integerValue\022\035\n\024from_row_num" +
       "ber_null\030\366\007 \001(\010\022?\n\023max_number_of_nodes\030\017" +
       " \001(\0132\".dstore.engine.values.integerValue" +
-      "\022!\n\030max_number_of_nodes_null\030\367\007 \001(\010\"\227\007\n\010" +
+      "\022!\n\030max_number_of_nodes_null\030\367\007 \001(\010\"\224\007\n\010" +
       "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
       "error.Error\022/\n\007message\030\003 \003(\0132\036.dstore.en" +
       "gine.message.Message\022B\n\003row\030\004 \003(\01325.dsto" +
       "re.engine.im_GetDirectSuccessors_Pu.Resp" +
       "onse.Row\0221\n\005count\030e \001(\0132\".dstore.engine.",
-      "values.integerValue\032\267\005\n\003Row\022\017\n\006row_id\030\220N" +
+      "values.integerValue\032\264\005\n\003Row\022\017\n\006row_id\030\220N" +
       " \001(\005\022<\n\020node_description\030\221N \001(\0132!.dstore" +
-      ".engine.values.stringValue\0223\n\007value_2\030\222N" +
-      " \001(\0132!.dstore.engine.values.stringValue\022" +
-      "3\n\007value_3\030\223N \001(\0132!.dstore.engine.values" +
-      ".stringValue\0223\n\007value_1\030\224N \001(\0132!.dstore." +
-      "engine.values.stringValue\022;\n\016binary_code" +
-      "_id\030\225N \001(\0132\".dstore.engine.values.intege" +
-      "rValue\0224\n\007node_id\030\226N \001(\0132\".dstore.engine" +
-      ".values.integerValue\0229\n\014tree_node_id\030\227N ",
-      "\001(\0132\".dstore.engine.values.integerValue\022" +
-      "4\n\007sort_no\030\230N \001(\0132\".dstore.engine.values" +
-      ".integerValue\0225\n\010level_id\030\231N \001(\0132\".dstor" +
-      "e.engine.values.integerValue\0222\n\005value\030\245\234" +
-      "\001 \001(\0132!.dstore.engine.values.stringValue" +
-      "\022;\n\rvalue_sort_no\030\246\234\001 \001(\0132\".dstore.engin" +
-      "e.values.integerValue\0226\n\010value_id\030\247\234\001 \001(" +
-      "\0132\".dstore.engine.values.integerValueB\030\n" +
-      "\026io.dstore.engine.procsb\006proto3"
+      ".engine.values.stringValue\0222\n\006value2\030\222N " +
+      "\001(\0132!.dstore.engine.values.stringValue\0222" +
+      "\n\006value3\030\223N \001(\0132!.dstore.engine.values.s" +
+      "tringValue\0222\n\006value1\030\224N \001(\0132!.dstore.eng" +
+      "ine.values.stringValue\022;\n\016binary_code_id" +
+      "\030\225N \001(\0132\".dstore.engine.values.integerVa" +
+      "lue\0224\n\007node_id\030\226N \001(\0132\".dstore.engine.va" +
+      "lues.integerValue\0229\n\014tree_node_id\030\227N \001(\013",
+      "2\".dstore.engine.values.integerValue\0224\n\007" +
+      "sort_no\030\230N \001(\0132\".dstore.engine.values.in" +
+      "tegerValue\0225\n\010level_id\030\231N \001(\0132\".dstore.e" +
+      "ngine.values.integerValue\0222\n\005value\030\245\234\001 \001" +
+      "(\0132!.dstore.engine.values.stringValue\022;\n" +
+      "\rvalue_sort_no\030\246\234\001 \001(\0132\".dstore.engine.v" +
+      "alues.integerValue\0226\n\010value_id\030\247\234\001 \001(\0132\"" +
+      ".dstore.engine.values.integerValueB\030\n\026io" +
+      ".dstore.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

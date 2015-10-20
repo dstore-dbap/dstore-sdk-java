@@ -1081,7 +1081,7 @@ public final class FoGetPostingVisibilities {
       io.dstore.engine.Values.stringValueOrBuilder getVisibilityOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -1089,7 +1089,7 @@ public final class FoGetPostingVisibilities {
        */
       boolean hasVisibleGet();
       /**
-       * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -1097,7 +1097,7 @@ public final class FoGetPostingVisibilities {
        */
       io.dstore.engine.Values.integerValue getVisibleGet();
       /**
-       * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -1333,10 +1333,10 @@ public final class FoGetPostingVisibilities {
         return getVisibility();
       }
 
-      public static final int VISIBLE__GET_FIELD_NUMBER = 10004;
+      public static final int VISIBLE_GET_FIELD_NUMBER = 10004;
       private io.dstore.engine.Values.integerValue visibleGet_;
       /**
-       * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -1346,7 +1346,7 @@ public final class FoGetPostingVisibilities {
         return visibleGet_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -1356,7 +1356,7 @@ public final class FoGetPostingVisibilities {
         return visibleGet_ == null ? io.dstore.engine.Values.integerValue.getDefaultInstance() : visibleGet_;
       }
       /**
-       * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+       * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
        *
        * <pre>
        * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -2145,7 +2145,7 @@ public final class FoGetPostingVisibilities {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.integerValue, io.dstore.engine.Values.integerValue.Builder, io.dstore.engine.Values.integerValueOrBuilder> visibleGetBuilder_;
         /**
-         * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -2155,7 +2155,7 @@ public final class FoGetPostingVisibilities {
           return visibleGetBuilder_ != null || visibleGet_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -2169,7 +2169,7 @@ public final class FoGetPostingVisibilities {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -2189,7 +2189,7 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -2207,7 +2207,7 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -2229,7 +2229,7 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -2247,7 +2247,7 @@ public final class FoGetPostingVisibilities {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -2259,7 +2259,7 @@ public final class FoGetPostingVisibilities {
           return getVisibleGetFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -2274,7 +2274,7 @@ public final class FoGetPostingVisibilities {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.integerValue visible__get = 10004;</code>
+         * <code>optional .dstore.engine.values.integerValue visible_get = 10004;</code>
          *
          * <pre>
          * ID eines "Sichtbarkeits-Status" für "Postings", der für den Parameter "&#64;Visibility" diverser "Get"-Prozeduren (z.B. "fo_GetPostingThread_Pu") benötigt wird. (Hintergrund : Der Status "gelöscht" hat die interne ID "0".)
@@ -3537,19 +3537,19 @@ public final class FoGetPostingVisibilities {
       "\n\007visible\030\001 \001(\0132\".dstore.engine.values.i" +
       "ntegerValue\022\025\n\014visible_null\030\351\007 \001(\010\0227\n\013vi" +
       "sible_get\030\002 \001(\0132\".dstore.engine.values.i" +
-      "ntegerValue\022\031\n\020visible_get_null\030\352\007 \001(\010\"\245" +
+      "ntegerValue\022\031\n\020visible_get_null\030\352\007 \001(\010\"\244" +
       "\003\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engi",
       "ne.error.Error\022/\n\007message\030\003 \003(\0132\036.dstore" +
       ".engine.message.Message\022B\n\003row\030\004 \003(\01325.d" +
       "store.engine.fo_GetPostingVisibilities.R" +
-      "esponse.Row\032\370\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0227\n\013" +
+      "esponse.Row\032\367\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0227\n\013" +
       "description\030\221N \001(\0132!.dstore.engine.value" +
       "s.stringValue\0224\n\007visible\030\222N \001(\0132\".dstore" +
       ".engine.values.integerValue\0226\n\nvisibilit" +
       "y\030\223N \001(\0132!.dstore.engine.values.stringVa" +
-      "lue\0229\n\014visible__get\030\224N \001(\0132\".dstore.engi" +
-      "ne.values.integerValueB\030\n\026io.dstore.engi",
-      "ne.procsb\006proto3"
+      "lue\0228\n\013visible_get\030\224N \001(\0132\".dstore.engin" +
+      "e.values.integerValueB\030\n\026io.dstore.engin",
+      "e.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

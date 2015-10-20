@@ -2082,7 +2082,7 @@ public final class StGetHTreeNodeStatisticsAd {
       io.dstore.engine.Values.decimalValueOrBuilder getPercentageOfItemTreeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -2090,7 +2090,7 @@ public final class StGetHTreeNodeStatisticsAd {
        */
       boolean hasTotalValueHTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -2098,7 +2098,7 @@ public final class StGetHTreeNodeStatisticsAd {
        */
       io.dstore.engine.Values.decimalValue getTotalValueHTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -2107,7 +2107,7 @@ public final class StGetHTreeNodeStatisticsAd {
       io.dstore.engine.Values.decimalValueOrBuilder getTotalValueHTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2115,7 +2115,7 @@ public final class StGetHTreeNodeStatisticsAd {
        */
       boolean hasDirectValueSimilarNodes();
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2123,7 +2123,7 @@ public final class StGetHTreeNodeStatisticsAd {
        */
       io.dstore.engine.Values.decimalValue getDirectValueSimilarNodes();
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2132,7 +2132,7 @@ public final class StGetHTreeNodeStatisticsAd {
       io.dstore.engine.Values.decimalValueOrBuilder getDirectValueSimilarNodesOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2140,7 +2140,7 @@ public final class StGetHTreeNodeStatisticsAd {
        */
       boolean hasTotalValueSimilarNodes();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2148,7 +2148,7 @@ public final class StGetHTreeNodeStatisticsAd {
        */
       io.dstore.engine.Values.decimalValue getTotalValueSimilarNodes();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2207,7 +2207,7 @@ public final class StGetHTreeNodeStatisticsAd {
       io.dstore.engine.Values.decimalValueOrBuilder getPercentageOfPredecessorOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -2215,7 +2215,7 @@ public final class StGetHTreeNodeStatisticsAd {
        */
       boolean hasDirectValueHTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -2223,7 +2223,7 @@ public final class StGetHTreeNodeStatisticsAd {
        */
       io.dstore.engine.Values.decimalValue getDirectValueHTreeNodeId();
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -2570,10 +2570,10 @@ public final class StGetHTreeNodeStatisticsAd {
         return getPercentageOfItemTree();
       }
 
-      public static final int TOTAL_VALUE__H_TREE_NODE_ID_FIELD_NUMBER = 10005;
+      public static final int TOTAL_VALUE_H_TREE_NODE_ID_FIELD_NUMBER = 10005;
       private io.dstore.engine.Values.decimalValue totalValueHTreeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -2583,7 +2583,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return totalValueHTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -2593,7 +2593,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return totalValueHTreeNodeId_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalValueHTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -2603,10 +2603,10 @@ public final class StGetHTreeNodeStatisticsAd {
         return getTotalValueHTreeNodeId();
       }
 
-      public static final int DIRECT_VALUE__SIMILAR_NODES_FIELD_NUMBER = 10006;
+      public static final int DIRECT_VALUE_SIMILAR_NODES_FIELD_NUMBER = 10006;
       private io.dstore.engine.Values.decimalValue directValueSimilarNodes_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2616,7 +2616,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return directValueSimilarNodes_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2626,7 +2626,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return directValueSimilarNodes_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : directValueSimilarNodes_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2636,10 +2636,10 @@ public final class StGetHTreeNodeStatisticsAd {
         return getDirectValueSimilarNodes();
       }
 
-      public static final int TOTAL_VALUE__SIMILAR_NODES_FIELD_NUMBER = 10007;
+      public static final int TOTAL_VALUE_SIMILAR_NODES_FIELD_NUMBER = 10007;
       private io.dstore.engine.Values.decimalValue totalValueSimilarNodes_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2649,7 +2649,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return totalValueSimilarNodes_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2659,7 +2659,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return totalValueSimilarNodes_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalValueSimilarNodes_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
        *
        * <pre>
        * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -2735,10 +2735,10 @@ public final class StGetHTreeNodeStatisticsAd {
         return getPercentageOfPredecessor();
       }
 
-      public static final int DIRECT_VALUE__H_TREE_NODE_ID_FIELD_NUMBER = 10010;
+      public static final int DIRECT_VALUE_H_TREE_NODE_ID_FIELD_NUMBER = 10010;
       private io.dstore.engine.Values.decimalValue directValueHTreeNodeId_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -2748,7 +2748,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return directValueHTreeNodeId_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -2758,7 +2758,7 @@ public final class StGetHTreeNodeStatisticsAd {
         return directValueHTreeNodeId_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : directValueHTreeNodeId_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+       * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
        *
        * <pre>
        * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -3826,7 +3826,7 @@ public final class StGetHTreeNodeStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> totalValueHTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -3836,7 +3836,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return totalValueHTreeNodeIdBuilder_ != null || totalValueHTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -3850,7 +3850,7 @@ public final class StGetHTreeNodeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -3870,7 +3870,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -3888,7 +3888,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -3910,7 +3910,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -3928,7 +3928,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -3940,7 +3940,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return getTotalValueHTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -3955,7 +3955,7 @@ public final class StGetHTreeNodeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__h_tree_node_id = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_h_tree_node_id = 10005;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -3979,7 +3979,7 @@ public final class StGetHTreeNodeStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> directValueSimilarNodesBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -3989,7 +3989,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return directValueSimilarNodesBuilder_ != null || directValueSimilarNodes_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4003,7 +4003,7 @@ public final class StGetHTreeNodeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4023,7 +4023,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4041,7 +4041,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4063,7 +4063,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4081,7 +4081,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4093,7 +4093,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return getDirectValueSimilarNodesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4108,7 +4108,7 @@ public final class StGetHTreeNodeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__similar_nodes = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_similar_nodes = 10006;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4132,7 +4132,7 @@ public final class StGetHTreeNodeStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> totalValueSimilarNodesBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4142,7 +4142,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return totalValueSimilarNodesBuilder_ != null || totalValueSimilarNodes_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4156,7 +4156,7 @@ public final class StGetHTreeNodeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4176,7 +4176,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4194,7 +4194,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4216,7 +4216,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4234,7 +4234,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4246,7 +4246,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return getTotalValueSimilarNodesFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4261,7 +4261,7 @@ public final class StGetHTreeNodeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__similar_nodes = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_similar_nodes = 10007;</code>
          *
          * <pre>
          * Summe der GESAMTEN Einträge, also inkl. indirekter Einträge, (zur "BasicCharacteristicNumber") für alle Elemente, die die gleiche "NodeID" wie "&#64;HTreeNodeID" besitzen bzw. die gleiche Eigenschaft zum Merkmal "&#64;NodeCharacteristicID" haben
@@ -4591,7 +4591,7 @@ public final class StGetHTreeNodeStatisticsAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> directValueHTreeNodeIdBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -4601,7 +4601,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return directValueHTreeNodeIdBuilder_ != null || directValueHTreeNodeId_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -4615,7 +4615,7 @@ public final class StGetHTreeNodeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -4635,7 +4635,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -4653,7 +4653,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -4675,7 +4675,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -4693,7 +4693,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -4705,7 +4705,7 @@ public final class StGetHTreeNodeStatisticsAd {
           return getDirectValueHTreeNodeIdFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -4720,7 +4720,7 @@ public final class StGetHTreeNodeStatisticsAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue direct_value__h_tree_node_id = 10010;</code>
+         * <code>optional .dstore.engine.values.decimalValue direct_value_h_tree_node_id = 10010;</code>
          *
          * <pre>
          * Summe der DIREKTEN Einträge für "&#64;HTreeNodeID" zur "BasicCharacteristicNumber"
@@ -5994,30 +5994,30 @@ public final class StGetHTreeNodeStatisticsAd {
       "mbers_null\030\355\007 \001(\010\022B\n\026node_characteristic" +
       "_id\030\006 \001(\0132\".dstore.engine.values.integer" +
       "Value\022$\n\033node_characteristic_id_null\030\356\007 " +
-      "\001(\010\"\207\007\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore",
+      "\001(\010\"\203\007\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore",
       ".engine.error.Error\022/\n\007message\030\003 \003(\0132\036.d" +
       "store.engine.message.Message\022E\n\003row\030\004 \003(" +
       "\01328.dstore.engine.st_GetHTreeNodeStatist" +
-      "ics_Ad.Response.Row\032\327\005\n\003Row\022\017\n\006row_id\030\220N" +
+      "ics_Ad.Response.Row\032\323\005\n\003Row\022\017\n\006row_id\030\220N" +
       " \001(\005\022D\n\027percentage_of_all_items\030\221N \001(\0132\"" +
       ".dstore.engine.values.decimalValue\0227\n\013de" +
       "scription\030\222N \001(\0132!.dstore.engine.values." +
       "stringValue\022@\n\024basic_characteristic\030\223N \001" +
       "(\0132!.dstore.engine.values.stringValue\022D\n" +
       "\027percentage_of_item_tree\030\224N \001(\0132\".dstore",
-      ".engine.values.decimalValue\022H\n\033total_val" +
-      "ue__h_tree_node_id\030\225N \001(\0132\".dstore.engin" +
-      "e.values.decimalValue\022H\n\033direct_value__s" +
-      "imilar_nodes\030\226N \001(\0132\".dstore.engine.valu" +
-      "es.decimalValue\022G\n\032total_value__similar_" +
-      "nodes\030\227N \001(\0132\".dstore.engine.values.deci" +
-      "malValue\022H\n\033basic_characteristic_number\030" +
-      "\230N \001(\0132\".dstore.engine.values.integerVal" +
-      "ue\022F\n\031percentage_of_predecessor\030\231N \001(\0132\"" +
-      ".dstore.engine.values.decimalValue\022I\n\034di",
-      "rect_value__h_tree_node_id\030\232N \001(\0132\".dsto" +
-      "re.engine.values.decimalValueB\030\n\026io.dsto" +
-      "re.engine.procsb\006proto3"
+      ".engine.values.decimalValue\022G\n\032total_val" +
+      "ue_h_tree_node_id\030\225N \001(\0132\".dstore.engine" +
+      ".values.decimalValue\022G\n\032direct_value_sim" +
+      "ilar_nodes\030\226N \001(\0132\".dstore.engine.values" +
+      ".decimalValue\022F\n\031total_value_similar_nod" +
+      "es\030\227N \001(\0132\".dstore.engine.values.decimal" +
+      "Value\022H\n\033basic_characteristic_number\030\230N " +
+      "\001(\0132\".dstore.engine.values.integerValue\022" +
+      "F\n\031percentage_of_predecessor\030\231N \001(\0132\".ds" +
+      "tore.engine.values.decimalValue\022H\n\033direc",
+      "t_value_h_tree_node_id\030\232N \001(\0132\".dstore.e" +
+      "ngine.values.decimalValueB\030\n\026io.dstore.e" +
+      "ngine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

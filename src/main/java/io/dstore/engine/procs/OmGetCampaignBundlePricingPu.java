@@ -3170,7 +3170,7 @@ public final class OmGetCampaignBundlePricingPu {
       io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -3178,7 +3178,7 @@ public final class OmGetCampaignBundlePricingPu {
        */
       boolean hasValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -3186,7 +3186,7 @@ public final class OmGetCampaignBundlePricingPu {
        */
       io.dstore.engine.Values.stringValue getValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -3195,7 +3195,7 @@ public final class OmGetCampaignBundlePricingPu {
       io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -3203,7 +3203,7 @@ public final class OmGetCampaignBundlePricingPu {
        */
       boolean hasValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -3211,7 +3211,7 @@ public final class OmGetCampaignBundlePricingPu {
        */
       io.dstore.engine.Values.stringValue getValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -3220,7 +3220,7 @@ public final class OmGetCampaignBundlePricingPu {
       io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -3228,7 +3228,7 @@ public final class OmGetCampaignBundlePricingPu {
        */
       boolean hasValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -3236,7 +3236,7 @@ public final class OmGetCampaignBundlePricingPu {
        */
       io.dstore.engine.Values.stringValue getValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -4725,10 +4725,10 @@ public final class OmGetCampaignBundlePricingPu {
         return getNodeDescription();
       }
 
-      public static final int VALUE_2_FIELD_NUMBER = 30002;
+      public static final int VALUE2_FIELD_NUMBER = 30002;
       private io.dstore.engine.Values.stringValue value2_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -4738,7 +4738,7 @@ public final class OmGetCampaignBundlePricingPu {
         return value2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -4748,7 +4748,7 @@ public final class OmGetCampaignBundlePricingPu {
         return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -4758,10 +4758,10 @@ public final class OmGetCampaignBundlePricingPu {
         return getValue2();
       }
 
-      public static final int VALUE_3_FIELD_NUMBER = 30003;
+      public static final int VALUE3_FIELD_NUMBER = 30003;
       private io.dstore.engine.Values.stringValue value3_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -4771,7 +4771,7 @@ public final class OmGetCampaignBundlePricingPu {
         return value3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -4781,7 +4781,7 @@ public final class OmGetCampaignBundlePricingPu {
         return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -4791,10 +4791,10 @@ public final class OmGetCampaignBundlePricingPu {
         return getValue3();
       }
 
-      public static final int VALUE_1_FIELD_NUMBER = 30004;
+      public static final int VALUE1_FIELD_NUMBER = 30004;
       private io.dstore.engine.Values.stringValue value1_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -4804,7 +4804,7 @@ public final class OmGetCampaignBundlePricingPu {
         return value1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -4814,7 +4814,7 @@ public final class OmGetCampaignBundlePricingPu {
         return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
        *
        * <pre>
        * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -10103,7 +10103,7 @@ public final class OmGetCampaignBundlePricingPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -10113,7 +10113,7 @@ public final class OmGetCampaignBundlePricingPu {
           return value2Builder_ != null || value2_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -10127,7 +10127,7 @@ public final class OmGetCampaignBundlePricingPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -10147,7 +10147,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -10165,7 +10165,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -10187,7 +10187,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -10205,7 +10205,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -10217,7 +10217,7 @@ public final class OmGetCampaignBundlePricingPu {
           return getValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -10232,7 +10232,7 @@ public final class OmGetCampaignBundlePricingPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 30002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 30002;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum zweiten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur ein Merkmal in "&#64;SortByCharacteristicIDList" angegeben wurde !
@@ -10256,7 +10256,7 @@ public final class OmGetCampaignBundlePricingPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -10266,7 +10266,7 @@ public final class OmGetCampaignBundlePricingPu {
           return value3Builder_ != null || value3_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -10280,7 +10280,7 @@ public final class OmGetCampaignBundlePricingPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -10300,7 +10300,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -10318,7 +10318,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -10340,7 +10340,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -10358,7 +10358,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -10370,7 +10370,7 @@ public final class OmGetCampaignBundlePricingPu {
           return getValue3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -10385,7 +10385,7 @@ public final class OmGetCampaignBundlePricingPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 30003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 30003;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum dritten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" ist oder wenn nur zwei Merkmale in "&#64;SortByCharacteristicIDList" angegeben wurden !
@@ -10409,7 +10409,7 @@ public final class OmGetCampaignBundlePricingPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -10419,7 +10419,7 @@ public final class OmGetCampaignBundlePricingPu {
           return value1Builder_ != null || value1_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -10433,7 +10433,7 @@ public final class OmGetCampaignBundlePricingPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -10453,7 +10453,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -10471,7 +10471,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -10493,7 +10493,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -10511,7 +10511,7 @@ public final class OmGetCampaignBundlePricingPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -10523,7 +10523,7 @@ public final class OmGetCampaignBundlePricingPu {
           return getValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -10538,7 +10538,7 @@ public final class OmGetCampaignBundlePricingPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 30004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 30004;</code>
          *
          * <pre>
          * Eigenschaft der "NodeID" zum ersten in "&#64;SortByCharacteristicIDList" angegeben Merkmal. Immer "NULL", wenn "&#64;GetValuesForSortByCharacs = 0" !
@@ -12125,11 +12125,11 @@ public final class OmGetCampaignBundlePricingPu {
       "list_null\030\357\007 \001(\010\022J\n\036get_values_for_sort_" +
       "by_characs\030\010 \001(\0132\".dstore.engine.values." +
       "booleanValue\022,\n#get_values_for_sort_by_c" +
-      "haracs_null\030\360\007 \001(\010\"\216\022\n\010Response\022)\n\005error" +
+      "haracs_null\030\360\007 \001(\010\"\213\022\n\010Response\022)\n\005error" +
       "\030\001 \001(\0132\032.dstore.engine.error.Error\022/\n\007me" +
       "ssage\030\003 \003(\0132\036.dstore.engine.message.Mess" +
       "age\022G\n\003row\030\004 \003(\0132:.dstore.engine.om_GetC",
-      "ampaignBundlePricing_Pu.Response.Row\032\334\020\n" +
+      "ampaignBundlePricing_Pu.Response.Row\032\331\020\n" +
       "\003Row\022\017\n\006row_id\030\220N \001(\005\022>\n\021net_based_prici" +
       "ng\030\221N \001(\0132\".dstore.engine.values.boolean" +
       "Value\022>\n\021item_condition_id\030\222N \001(\0132\".dsto" +
@@ -12176,15 +12176,15 @@ public final class OmGetCampaignBundlePricingPu {
       "alues.integerValue\022;\n\rinherit_depth\030\273\234\001 " +
       "\001(\0132\".dstore.engine.values.integerValue\022" +
       "=\n\020node_description\030\261\352\001 \001(\0132!.dstore.eng" +
-      "ine.values.stringValue\0224\n\007value_2\030\262\352\001 \001(" +
-      "\0132!.dstore.engine.values.stringValue\0224\n\007" +
-      "value_3\030\263\352\001 \001(\0132!.dstore.engine.values.s",
-      "tringValue\0224\n\007value_1\030\264\352\001 \001(\0132!.dstore.e" +
-      "ngine.values.stringValue\022:\n\014tree_node_id" +
-      "\030\266\352\001 \001(\0132\".dstore.engine.values.integerV" +
-      "alue\0225\n\007node_id\030\267\352\001 \001(\0132\".dstore.engine." +
-      "values.integerValueB\030\n\026io.dstore.engine." +
-      "procsb\006proto3"
+      "ine.values.stringValue\0223\n\006value2\030\262\352\001 \001(\013" +
+      "2!.dstore.engine.values.stringValue\0223\n\006v" +
+      "alue3\030\263\352\001 \001(\0132!.dstore.engine.values.str",
+      "ingValue\0223\n\006value1\030\264\352\001 \001(\0132!.dstore.engi" +
+      "ne.values.stringValue\022:\n\014tree_node_id\030\266\352" +
+      "\001 \001(\0132\".dstore.engine.values.integerValu" +
+      "e\0225\n\007node_id\030\267\352\001 \001(\0132\".dstore.engine.val" +
+      "ues.integerValueB\030\n\026io.dstore.engine.pro" +
+      "csb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

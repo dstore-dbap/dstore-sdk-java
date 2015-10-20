@@ -3277,7 +3277,7 @@ public final class StGetDirectSuccessorsTreeAd {
       io.dstore.engine.Values.integerValueOrBuilder getLevelNoOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -3285,7 +3285,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       boolean hasRelativeValueBasicCharacNo3();
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -3293,7 +3293,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       io.dstore.engine.Values.decimalValue getRelativeValueBasicCharacNo3();
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -3302,7 +3302,7 @@ public final class StGetDirectSuccessorsTreeAd {
       io.dstore.engine.Values.decimalValueOrBuilder getRelativeValueBasicCharacNo3OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -3310,7 +3310,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       boolean hasRelativeValueBasicCharacNo2();
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -3318,7 +3318,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       io.dstore.engine.Values.decimalValue getRelativeValueBasicCharacNo2();
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -3327,7 +3327,7 @@ public final class StGetDirectSuccessorsTreeAd {
       io.dstore.engine.Values.decimalValueOrBuilder getRelativeValueBasicCharacNo2OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -3335,7 +3335,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       boolean hasRelativeValueBasicCharacNo1();
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -3343,7 +3343,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       io.dstore.engine.Values.decimalValue getRelativeValueBasicCharacNo1();
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -3352,7 +3352,7 @@ public final class StGetDirectSuccessorsTreeAd {
       io.dstore.engine.Values.decimalValueOrBuilder getRelativeValueBasicCharacNo1OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -3360,7 +3360,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       boolean hasTotalValueIndex();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -3368,7 +3368,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       io.dstore.engine.Values.decimalValue getTotalValueIndex();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -3377,7 +3377,7 @@ public final class StGetDirectSuccessorsTreeAd {
       io.dstore.engine.Values.decimalValueOrBuilder getTotalValueIndexOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -3385,7 +3385,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       boolean hasRelativeValueIndex();
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -3393,7 +3393,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       io.dstore.engine.Values.decimalValue getRelativeValueIndex();
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -3477,7 +3477,7 @@ public final class StGetDirectSuccessorsTreeAd {
       io.dstore.engine.Values.booleanValueOrBuilder getHasNextSiblingOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -3485,7 +3485,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       boolean hasTotalValueBasicCharacNo1();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -3493,7 +3493,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       io.dstore.engine.Values.decimalValue getTotalValueBasicCharacNo1();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -3527,7 +3527,7 @@ public final class StGetDirectSuccessorsTreeAd {
       io.dstore.engine.Values.integerValueOrBuilder getHTreeNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -3535,7 +3535,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       boolean hasTotalValueBasicCharacNo2();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -3543,7 +3543,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       io.dstore.engine.Values.decimalValue getTotalValueBasicCharacNo2();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -3552,7 +3552,7 @@ public final class StGetDirectSuccessorsTreeAd {
       io.dstore.engine.Values.decimalValueOrBuilder getTotalValueBasicCharacNo2OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -3560,7 +3560,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       boolean hasTotalValueBasicCharacNo3();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -3568,7 +3568,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       io.dstore.engine.Values.decimalValue getTotalValueBasicCharacNo3();
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -3652,7 +3652,7 @@ public final class StGetDirectSuccessorsTreeAd {
       io.dstore.engine.Values.integerValueOrBuilder getNodeIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+       * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
        *
        * <pre>
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -3660,7 +3660,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       boolean hasMaxRelativeValueIndexPerPred();
       /**
-       * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+       * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
        *
        * <pre>
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -3668,7 +3668,7 @@ public final class StGetDirectSuccessorsTreeAd {
        */
       io.dstore.engine.Values.decimalValue getMaxRelativeValueIndexPerPred();
       /**
-       * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+       * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
        *
        * <pre>
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -4251,10 +4251,10 @@ public final class StGetDirectSuccessorsTreeAd {
         return getLevelNo();
       }
 
-      public static final int RELATIVE_VALUE__BASIC_CHARAC_NO3_FIELD_NUMBER = 10004;
+      public static final int RELATIVE_VALUE_BASIC_CHARAC_NO3_FIELD_NUMBER = 10004;
       private io.dstore.engine.Values.decimalValue relativeValueBasicCharacNo3_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -4264,7 +4264,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return relativeValueBasicCharacNo3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -4274,7 +4274,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return relativeValueBasicCharacNo3_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : relativeValueBasicCharacNo3_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -4284,10 +4284,10 @@ public final class StGetDirectSuccessorsTreeAd {
         return getRelativeValueBasicCharacNo3();
       }
 
-      public static final int RELATIVE_VALUE__BASIC_CHARAC_NO2_FIELD_NUMBER = 10005;
+      public static final int RELATIVE_VALUE_BASIC_CHARAC_NO2_FIELD_NUMBER = 10005;
       private io.dstore.engine.Values.decimalValue relativeValueBasicCharacNo2_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -4297,7 +4297,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return relativeValueBasicCharacNo2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -4307,7 +4307,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return relativeValueBasicCharacNo2_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : relativeValueBasicCharacNo2_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -4317,10 +4317,10 @@ public final class StGetDirectSuccessorsTreeAd {
         return getRelativeValueBasicCharacNo2();
       }
 
-      public static final int RELATIVE_VALUE__BASIC_CHARAC_NO1_FIELD_NUMBER = 10006;
+      public static final int RELATIVE_VALUE_BASIC_CHARAC_NO1_FIELD_NUMBER = 10006;
       private io.dstore.engine.Values.decimalValue relativeValueBasicCharacNo1_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -4330,7 +4330,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return relativeValueBasicCharacNo1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -4340,7 +4340,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return relativeValueBasicCharacNo1_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : relativeValueBasicCharacNo1_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -4350,10 +4350,10 @@ public final class StGetDirectSuccessorsTreeAd {
         return getRelativeValueBasicCharacNo1();
       }
 
-      public static final int TOTAL_VALUE__INDEX_FIELD_NUMBER = 10007;
+      public static final int TOTAL_VALUE_INDEX_FIELD_NUMBER = 10007;
       private io.dstore.engine.Values.decimalValue totalValueIndex_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -4363,7 +4363,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return totalValueIndex_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -4373,7 +4373,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return totalValueIndex_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalValueIndex_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
        *
        * <pre>
        * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -4383,10 +4383,10 @@ public final class StGetDirectSuccessorsTreeAd {
         return getTotalValueIndex();
       }
 
-      public static final int RELATIVE_VALUE__INDEX_FIELD_NUMBER = 10008;
+      public static final int RELATIVE_VALUE_INDEX_FIELD_NUMBER = 10008;
       private io.dstore.engine.Values.decimalValue relativeValueIndex_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -4396,7 +4396,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return relativeValueIndex_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -4406,7 +4406,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return relativeValueIndex_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : relativeValueIndex_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+       * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
        *
        * <pre>
        * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -4515,10 +4515,10 @@ public final class StGetDirectSuccessorsTreeAd {
         return getHasNextSibling();
       }
 
-      public static final int TOTAL_VALUE__BASIC_CHARAC_NO1_FIELD_NUMBER = 10012;
+      public static final int TOTAL_VALUE_BASIC_CHARAC_NO1_FIELD_NUMBER = 10012;
       private io.dstore.engine.Values.decimalValue totalValueBasicCharacNo1_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -4528,7 +4528,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return totalValueBasicCharacNo1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -4538,7 +4538,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return totalValueBasicCharacNo1_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalValueBasicCharacNo1_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -4581,10 +4581,10 @@ public final class StGetDirectSuccessorsTreeAd {
         return getHTreeNodeId();
       }
 
-      public static final int TOTAL_VALUE__BASIC_CHARAC_NO2_FIELD_NUMBER = 10014;
+      public static final int TOTAL_VALUE_BASIC_CHARAC_NO2_FIELD_NUMBER = 10014;
       private io.dstore.engine.Values.decimalValue totalValueBasicCharacNo2_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -4594,7 +4594,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return totalValueBasicCharacNo2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -4604,7 +4604,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return totalValueBasicCharacNo2_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalValueBasicCharacNo2_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -4614,10 +4614,10 @@ public final class StGetDirectSuccessorsTreeAd {
         return getTotalValueBasicCharacNo2();
       }
 
-      public static final int TOTAL_VALUE__BASIC_CHARAC_NO3_FIELD_NUMBER = 10015;
+      public static final int TOTAL_VALUE_BASIC_CHARAC_NO3_FIELD_NUMBER = 10015;
       private io.dstore.engine.Values.decimalValue totalValueBasicCharacNo3_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -4627,7 +4627,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return totalValueBasicCharacNo3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -4637,7 +4637,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return totalValueBasicCharacNo3_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : totalValueBasicCharacNo3_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+       * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
        *
        * <pre>
        * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -4746,10 +4746,10 @@ public final class StGetDirectSuccessorsTreeAd {
         return getNodeId();
       }
 
-      public static final int MAX_RELATIVE_VALUE__INDEX_PER_PRED_FIELD_NUMBER = 10019;
+      public static final int MAX_RELATIVE_VALUE_INDEX_PER_PRED_FIELD_NUMBER = 10019;
       private io.dstore.engine.Values.decimalValue maxRelativeValueIndexPerPred_;
       /**
-       * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+       * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
        *
        * <pre>
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -4759,7 +4759,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return maxRelativeValueIndexPerPred_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+       * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
        *
        * <pre>
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -4769,7 +4769,7 @@ public final class StGetDirectSuccessorsTreeAd {
         return maxRelativeValueIndexPerPred_ == null ? io.dstore.engine.Values.decimalValue.getDefaultInstance() : maxRelativeValueIndexPerPred_;
       }
       /**
-       * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+       * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
        *
        * <pre>
        * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -6089,7 +6089,7 @@ public final class StGetDirectSuccessorsTreeAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> relativeValueBasicCharacNo3Builder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -6099,7 +6099,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return relativeValueBasicCharacNo3Builder_ != null || relativeValueBasicCharacNo3_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -6113,7 +6113,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -6133,7 +6133,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -6151,7 +6151,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -6173,7 +6173,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -6191,7 +6191,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -6203,7 +6203,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return getRelativeValueBasicCharacNo3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -6218,7 +6218,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no3 = 10004;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no3 = 10004;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo3" zur Summe von "TotalValue_BasicCharacNo3" aller Elemente mit dem Vorgänger "Predesessor". Wurde für "&#64;BasicCharacteristicNo2" oder "&#64;BasicCharacteristicNo3" "NULL" angegeben, steht hier immer "0.00".
@@ -6242,7 +6242,7 @@ public final class StGetDirectSuccessorsTreeAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> relativeValueBasicCharacNo2Builder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -6252,7 +6252,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return relativeValueBasicCharacNo2Builder_ != null || relativeValueBasicCharacNo2_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -6266,7 +6266,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -6286,7 +6286,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -6304,7 +6304,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -6326,7 +6326,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -6344,7 +6344,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -6356,7 +6356,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return getRelativeValueBasicCharacNo2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -6371,7 +6371,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no2 = 10005;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no2 = 10005;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo2" (der "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo2" aller Elemente mit dem Vorgänger-Element "Predesessor". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -6395,7 +6395,7 @@ public final class StGetDirectSuccessorsTreeAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> relativeValueBasicCharacNo1Builder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -6405,7 +6405,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return relativeValueBasicCharacNo1Builder_ != null || relativeValueBasicCharacNo1_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -6419,7 +6419,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -6439,7 +6439,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -6457,7 +6457,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -6479,7 +6479,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -6497,7 +6497,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -6509,7 +6509,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return getRelativeValueBasicCharacNo1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -6524,7 +6524,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__basic_charac_no1 = 10006;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_basic_charac_no1 = 10006;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_BasicCharacNo1" (des Elementes "HTreeNodeID") zur Summe von "TotalValue_BasicCharacNo1" aller Elemente mit dem Vorgänger-Element "Predesessor"
@@ -6548,7 +6548,7 @@ public final class StGetDirectSuccessorsTreeAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> totalValueIndexBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -6558,7 +6558,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return totalValueIndexBuilder_ != null || totalValueIndex_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -6572,7 +6572,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -6592,7 +6592,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -6610,7 +6610,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -6632,7 +6632,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -6650,7 +6650,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -6662,7 +6662,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return getTotalValueIndexFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -6677,7 +6677,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__index = 10007;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_index = 10007;</code>
          *
          * <pre>
          * Zusammengesetzte Kennzahl nach der Formel :(TotalValue_BasicCharacNo1 * &#64;Weight_BasicCharacteristicNo1) + (TotalValue_BasicCharacNo2 * &#64;Weight_BasicCharacteristicNo2) + (TotalValue_BasicCharacNo3 * &#64;Weight_BasicCharacteristicNo3)
@@ -6701,7 +6701,7 @@ public final class StGetDirectSuccessorsTreeAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> relativeValueIndexBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -6711,7 +6711,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return relativeValueIndexBuilder_ != null || relativeValueIndex_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -6725,7 +6725,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -6745,7 +6745,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -6763,7 +6763,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -6785,7 +6785,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -6803,7 +6803,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -6815,7 +6815,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return getRelativeValueIndexFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -6830,7 +6830,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue relative_value__index = 10008;</code>
+         * <code>optional .dstore.engine.values.decimalValue relative_value_index = 10008;</code>
          *
          * <pre>
          * Prozentualer Anteil von "TotalValue_Index" zur Summe von "TotalValue_Index" aller Elemente mit dem Vorgänger "Predesessor".
@@ -7313,7 +7313,7 @@ public final class StGetDirectSuccessorsTreeAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> totalValueBasicCharacNo1Builder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -7323,7 +7323,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return totalValueBasicCharacNo1Builder_ != null || totalValueBasicCharacNo1_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -7337,7 +7337,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -7357,7 +7357,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -7375,7 +7375,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -7397,7 +7397,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -7415,7 +7415,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -7427,7 +7427,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return getTotalValueBasicCharacNo1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -7442,7 +7442,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no1 = 10012;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no1 = 10012;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo1" zum Element "HTreeNodeID"
@@ -7619,7 +7619,7 @@ public final class StGetDirectSuccessorsTreeAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> totalValueBasicCharacNo2Builder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7629,7 +7629,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return totalValueBasicCharacNo2Builder_ != null || totalValueBasicCharacNo2_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7643,7 +7643,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7663,7 +7663,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7681,7 +7681,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7703,7 +7703,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7721,7 +7721,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7733,7 +7733,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return getTotalValueBasicCharacNo2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7748,7 +7748,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no2 = 10014;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no2 = 10014;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo2" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7772,7 +7772,7 @@ public final class StGetDirectSuccessorsTreeAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> totalValueBasicCharacNo3Builder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7782,7 +7782,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return totalValueBasicCharacNo3Builder_ != null || totalValueBasicCharacNo3_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7796,7 +7796,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7816,7 +7816,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7834,7 +7834,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7856,7 +7856,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7874,7 +7874,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7886,7 +7886,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return getTotalValueBasicCharacNo3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -7901,7 +7901,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue total_value__basic_charac_no3 = 10015;</code>
+         * <code>optional .dstore.engine.values.decimalValue total_value_basic_charac_no3 = 10015;</code>
          *
          * <pre>
          * Wert zur Basis-Kenzahl "&#64;BasicCharacteristicNo3" zum Element "HTreeNodeID". Falls "&#64;BasicCharacteristicNo2 = NULL" oder "&#64;BasciCharacteristicNo3 = NULL" angegeben wurde, steht hier immer "0.00".
@@ -8384,7 +8384,7 @@ public final class StGetDirectSuccessorsTreeAd {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.decimalValue, io.dstore.engine.Values.decimalValue.Builder, io.dstore.engine.Values.decimalValueOrBuilder> maxRelativeValueIndexPerPredBuilder_;
         /**
-         * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+         * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
          *
          * <pre>
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -8394,7 +8394,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return maxRelativeValueIndexPerPredBuilder_ != null || maxRelativeValueIndexPerPred_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+         * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
          *
          * <pre>
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -8408,7 +8408,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+         * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
          *
          * <pre>
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -8428,7 +8428,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+         * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
          *
          * <pre>
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -8446,7 +8446,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+         * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
          *
          * <pre>
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -8468,7 +8468,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+         * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
          *
          * <pre>
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -8486,7 +8486,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+         * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
          *
          * <pre>
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -8498,7 +8498,7 @@ public final class StGetDirectSuccessorsTreeAd {
           return getMaxRelativeValueIndexPerPredFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+         * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
          *
          * <pre>
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -8513,7 +8513,7 @@ public final class StGetDirectSuccessorsTreeAd {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.decimalValue max_relative_value__index_per_pred = 10019;</code>
+         * <code>optional .dstore.engine.values.decimalValue max_relative_value_index_per_pred = 10019;</code>
          *
          * <pre>
          * Das Maximum aller Werte für "RelativeValue_Index" von Elementen, die als Vorgänger ebenfalls "Predecessor" besitzen (siehe Beschreibung)
@@ -10414,50 +10414,50 @@ public final class StGetDirectSuccessorsTreeAd {
       "rce_table_for_statistics_null\030\362\007 \001(\010\022?\n\023" +
       "display_only_active\030\013 \001(\0132\".dstore.engin" +
       "e.values.booleanValue\022!\n\030display_only_ac" +
-      "tive_null\030\363\007 \001(\010\"\251\r\n\010Response\022)\n\005error\030\001" +
+      "tive_null\030\363\007 \001(\010\"\240\r\n\010Response\022)\n\005error\030\001" +
       " \001(\0132\032.dstore.engine.error.Error\022/\n\007mess" +
       "age\030\003 \003(\0132\036.dstore.engine.message.Messag" +
       "e\022G\n\003row\030\004 \003(\0132:.dstore.engine.st_GetDir" +
-      "ectSuccessors_Tree_Ad.Response.Row\032\367\013\n\003R" +
+      "ectSuccessors_Tree_Ad.Response.Row\032\356\013\n\003R" +
       "ow\022\017\n\006row_id\030\220N \001(\005\0227\n\ntree_level\030\221N \001(\013",
       "2\".dstore.engine.values.integerValue\0228\n\013" +
       "predecessor\030\222N \001(\0132\".dstore.engine.value" +
       "s.integerValue\0225\n\010level_no\030\223N \001(\0132\".dsto" +
-      "re.engine.values.integerValue\022M\n relativ" +
-      "e_value__basic_charac_no3\030\224N \001(\0132\".dstor" +
-      "e.engine.values.decimalValue\022M\n relative" +
-      "_value__basic_charac_no2\030\225N \001(\0132\".dstore" +
-      ".engine.values.decimalValue\022M\n relative_" +
-      "value__basic_charac_no1\030\226N \001(\0132\".dstore." +
-      "engine.values.decimalValue\022?\n\022total_valu",
-      "e__index\030\227N \001(\0132\".dstore.engine.values.d" +
-      "ecimalValue\022B\n\025relative_value__index\030\230N " +
-      "\001(\0132\".dstore.engine.values.decimalValue\022" +
-      "<\n\020node_description\030\231N \001(\0132!.dstore.engi" +
-      "ne.values.stringValue\0223\n\006active\030\232N \001(\0132\"" +
-      ".dstore.engine.values.booleanValue\022=\n\020ha" +
-      "s_next_sibling\030\233N \001(\0132\".dstore.engine.va" +
-      "lues.booleanValue\022J\n\035total_value__basic_" +
-      "charac_no1\030\234N \001(\0132\".dstore.engine.values" +
-      ".decimalValue\022;\n\016h_tree_node_id\030\235N \001(\0132\"",
-      ".dstore.engine.values.integerValue\022J\n\035to" +
-      "tal_value__basic_charac_no2\030\236N \001(\0132\".dst" +
-      "ore.engine.values.decimalValue\022J\n\035total_" +
-      "value__basic_charac_no3\030\237N \001(\0132\".dstore." +
-      "engine.values.decimalValue\022O\n\"max_relati" +
-      "ve_value_per_predecessor\030\240N \001(\0132\".dstore" +
-      ".engine.values.decimalValue\0229\n\014tree_node" +
-      "_id\030\241N \001(\0132\".dstore.engine.values.intege" +
-      "rValue\0224\n\007node_id\030\242N \001(\0132\".dstore.engine" +
-      ".values.integerValue\022O\n\"max_relative_val",
-      "ue__index_per_pred\030\243N \001(\0132\".dstore.engin" +
-      "e.values.decimalValue\0225\n\tfrom_date\030\244N \001(" +
-      "\0132!.dstore.engine.values.stringValue\0223\n\007" +
-      "to_date\030\245N \001(\0132!.dstore.engine.values.st" +
-      "ringValue\022;\n\016has_successors\030\246N \001(\0132\".dst" +
-      "ore.engine.values.booleanValue\0224\n\007delete" +
-      "d\030\247N \001(\0132\".dstore.engine.values.booleanV" +
-      "alueB\030\n\026io.dstore.engine.procsb\006proto3"
+      "re.engine.values.integerValue\022L\n\037relativ" +
+      "e_value_basic_charac_no3\030\224N \001(\0132\".dstore" +
+      ".engine.values.decimalValue\022L\n\037relative_" +
+      "value_basic_charac_no2\030\225N \001(\0132\".dstore.e" +
+      "ngine.values.decimalValue\022L\n\037relative_va" +
+      "lue_basic_charac_no1\030\226N \001(\0132\".dstore.eng" +
+      "ine.values.decimalValue\022>\n\021total_value_i",
+      "ndex\030\227N \001(\0132\".dstore.engine.values.decim" +
+      "alValue\022A\n\024relative_value_index\030\230N \001(\0132\"" +
+      ".dstore.engine.values.decimalValue\022<\n\020no" +
+      "de_description\030\231N \001(\0132!.dstore.engine.va" +
+      "lues.stringValue\0223\n\006active\030\232N \001(\0132\".dsto" +
+      "re.engine.values.booleanValue\022=\n\020has_nex" +
+      "t_sibling\030\233N \001(\0132\".dstore.engine.values." +
+      "booleanValue\022I\n\034total_value_basic_charac" +
+      "_no1\030\234N \001(\0132\".dstore.engine.values.decim" +
+      "alValue\022;\n\016h_tree_node_id\030\235N \001(\0132\".dstor",
+      "e.engine.values.integerValue\022I\n\034total_va" +
+      "lue_basic_charac_no2\030\236N \001(\0132\".dstore.eng" +
+      "ine.values.decimalValue\022I\n\034total_value_b" +
+      "asic_charac_no3\030\237N \001(\0132\".dstore.engine.v" +
+      "alues.decimalValue\022O\n\"max_relative_value" +
+      "_per_predecessor\030\240N \001(\0132\".dstore.engine." +
+      "values.decimalValue\0229\n\014tree_node_id\030\241N \001" +
+      "(\0132\".dstore.engine.values.integerValue\0224" +
+      "\n\007node_id\030\242N \001(\0132\".dstore.engine.values." +
+      "integerValue\022N\n!max_relative_value_index",
+      "_per_pred\030\243N \001(\0132\".dstore.engine.values." +
+      "decimalValue\0225\n\tfrom_date\030\244N \001(\0132!.dstor" +
+      "e.engine.values.stringValue\0223\n\007to_date\030\245" +
+      "N \001(\0132!.dstore.engine.values.stringValue" +
+      "\022;\n\016has_successors\030\246N \001(\0132\".dstore.engin" +
+      "e.values.booleanValue\0224\n\007deleted\030\247N \001(\0132" +
+      "\".dstore.engine.values.booleanValueB\030\n\026i" +
+      "o.dstore.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

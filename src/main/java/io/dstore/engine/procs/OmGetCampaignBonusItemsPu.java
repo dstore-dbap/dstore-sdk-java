@@ -2251,7 +2251,7 @@ public final class OmGetCampaignBonusItemsPu {
       io.dstore.engine.Values.stringValueOrBuilder getNodeDescriptionOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -2259,7 +2259,7 @@ public final class OmGetCampaignBonusItemsPu {
        */
       boolean hasValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -2267,7 +2267,7 @@ public final class OmGetCampaignBonusItemsPu {
        */
       io.dstore.engine.Values.stringValue getValue2();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -2276,7 +2276,7 @@ public final class OmGetCampaignBonusItemsPu {
       io.dstore.engine.Values.stringValueOrBuilder getValue2OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -2284,7 +2284,7 @@ public final class OmGetCampaignBonusItemsPu {
        */
       boolean hasValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -2292,7 +2292,7 @@ public final class OmGetCampaignBonusItemsPu {
        */
       io.dstore.engine.Values.stringValue getValue3();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -2301,7 +2301,7 @@ public final class OmGetCampaignBonusItemsPu {
       io.dstore.engine.Values.stringValueOrBuilder getValue3OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -2309,7 +2309,7 @@ public final class OmGetCampaignBonusItemsPu {
        */
       boolean hasValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -2317,7 +2317,7 @@ public final class OmGetCampaignBonusItemsPu {
        */
       io.dstore.engine.Values.stringValue getValue1();
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -3437,10 +3437,10 @@ public final class OmGetCampaignBonusItemsPu {
         return getNodeDescription();
       }
 
-      public static final int VALUE_2_FIELD_NUMBER = 10002;
+      public static final int VALUE2_FIELD_NUMBER = 10002;
       private io.dstore.engine.Values.stringValue value2_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -3450,7 +3450,7 @@ public final class OmGetCampaignBonusItemsPu {
         return value2_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -3460,7 +3460,7 @@ public final class OmGetCampaignBonusItemsPu {
         return value2_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value2_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+       * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -3470,10 +3470,10 @@ public final class OmGetCampaignBonusItemsPu {
         return getValue2();
       }
 
-      public static final int VALUE_3_FIELD_NUMBER = 10003;
+      public static final int VALUE3_FIELD_NUMBER = 10003;
       private io.dstore.engine.Values.stringValue value3_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -3483,7 +3483,7 @@ public final class OmGetCampaignBonusItemsPu {
         return value3_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -3493,7 +3493,7 @@ public final class OmGetCampaignBonusItemsPu {
         return value3_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value3_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+       * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -3503,10 +3503,10 @@ public final class OmGetCampaignBonusItemsPu {
         return getValue3();
       }
 
-      public static final int VALUE_1_FIELD_NUMBER = 10004;
+      public static final int VALUE1_FIELD_NUMBER = 10004;
       private io.dstore.engine.Values.stringValue value1_;
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -3516,7 +3516,7 @@ public final class OmGetCampaignBonusItemsPu {
         return value1_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -3526,7 +3526,7 @@ public final class OmGetCampaignBonusItemsPu {
         return value1_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : value1_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+       * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
        *
        * <pre>
        * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5359,7 +5359,7 @@ public final class OmGetCampaignBonusItemsPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value2Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5369,7 +5369,7 @@ public final class OmGetCampaignBonusItemsPu {
           return value2Builder_ != null || value2_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5383,7 +5383,7 @@ public final class OmGetCampaignBonusItemsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5403,7 +5403,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5421,7 +5421,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5443,7 +5443,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5461,7 +5461,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5473,7 +5473,7 @@ public final class OmGetCampaignBonusItemsPu {
           return getValue2FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5488,7 +5488,7 @@ public final class OmGetCampaignBonusItemsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_2 = 10002;</code>
+         * <code>optional .dstore.engine.values.stringValue value2 = 10002;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 2. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5512,7 +5512,7 @@ public final class OmGetCampaignBonusItemsPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value3Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5522,7 +5522,7 @@ public final class OmGetCampaignBonusItemsPu {
           return value3Builder_ != null || value3_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5536,7 +5536,7 @@ public final class OmGetCampaignBonusItemsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5556,7 +5556,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5574,7 +5574,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5596,7 +5596,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5614,7 +5614,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5626,7 +5626,7 @@ public final class OmGetCampaignBonusItemsPu {
           return getValue3FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5641,7 +5641,7 @@ public final class OmGetCampaignBonusItemsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_3 = 10003;</code>
+         * <code>optional .dstore.engine.values.stringValue value3 = 10003;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 3. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5665,7 +5665,7 @@ public final class OmGetCampaignBonusItemsPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> value1Builder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5675,7 +5675,7 @@ public final class OmGetCampaignBonusItemsPu {
           return value1Builder_ != null || value1_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5689,7 +5689,7 @@ public final class OmGetCampaignBonusItemsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5709,7 +5709,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5727,7 +5727,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5749,7 +5749,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5767,7 +5767,7 @@ public final class OmGetCampaignBonusItemsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5779,7 +5779,7 @@ public final class OmGetCampaignBonusItemsPu {
           return getValue1FieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -5794,7 +5794,7 @@ public final class OmGetCampaignBonusItemsPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue value_1 = 10004;</code>
+         * <code>optional .dstore.engine.values.stringValue value1 = 10004;</code>
          *
          * <pre>
          * Eigenschaften der "NodeID" zum 1. Merkmal in  "&#64;SortByCharacteristicIDList"
@@ -10897,59 +10897,59 @@ public final class OmGetCampaignBonusItemsPu {
       "on_option_list_null\030\356\007 \001(\010\022J\n\036get_values" +
       "_for_sort_by_characs\030\007 \001(\0132\".dstore.engi" +
       "ne.values.booleanValue\022,\n#get_values_for" +
-      "_sort_by_characs_null\030\357\007 \001(\010\"\203\020\n\010Respons" +
+      "_sort_by_characs_null\030\357\007 \001(\010\"\200\020\n\010Respons" +
       "e\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.E" +
       "rror\022/\n\007message\030\003 \003(\0132\036.dstore.engine.me" +
       "ssage.Message\022D\n\003row\030\004 \003(\01327.dstore.engi" +
       "ne.om_GetCampaignBonusItems_Pu.Response." +
-      "Row\032\324\016\n\003Row\022\017\n\006row_id\030\220N \001(\005\022<\n\020node_des" +
+      "Row\032\321\016\n\003Row\022\017\n\006row_id\030\220N \001(\005\022<\n\020node_des" +
       "cription\030\221N \001(\0132!.dstore.engine.values.s",
-      "tringValue\0223\n\007value_2\030\222N \001(\0132!.dstore.en" +
-      "gine.values.stringValue\0223\n\007value_3\030\223N \001(" +
-      "\0132!.dstore.engine.values.stringValue\0223\n\007" +
-      "value_1\030\224N \001(\0132!.dstore.engine.values.st" +
-      "ringValue\0228\n\013item_set_id\030\225N \001(\0132\".dstore" +
-      ".engine.values.integerValue\0224\n\007node_id\030\226" +
-      "N \001(\0132\".dstore.engine.values.integerValu" +
-      "e\0229\n\014tree_node_id\030\227N \001(\0132\".dstore.engine" +
-      ".values.integerValue\022D\n\027bonus_from_one_s" +
-      "et_only\030\230N \001(\0132\".dstore.engine.values.bo",
-      "oleanValue\0229\n\014max_quantity\030\231N \001(\0132\".dsto" +
-      "re.engine.values.integerValue\022?\n\021item_co" +
-      "ndition_id\030\241\234\001 \001(\0132\".dstore.engine.value" +
-      "s.integerValue\022G\n\032item_condition_descrip" +
-      "tion\030\245\234\001 \001(\0132!.dstore.engine.values.stri" +
-      "ngValue\0225\n\007sort_no\030\246\234\001 \001(\0132\".dstore.engi" +
-      "ne.values.integerValue\022@\n\022item_group_sor" +
-      "t_no\030\261\352\001 \001(\0132\".dstore.engine.values.inte" +
-      "gerValue\0226\n\toperator1\030\262\352\001 \001(\0132!.dstore.e" +
-      "ngine.values.stringValue\0227\n\ncondition1\030\263",
-      "\352\001 \001(\0132!.dstore.engine.values.stringValu" +
-      "e\0227\n\ncondition2\030\264\352\001 \001(\0132!.dstore.engine." +
-      "values.stringValue\0226\n\toperator2\030\265\352\001 \001(\0132" +
-      "!.dstore.engine.values.stringValue\022M\n it" +
-      "em_condition_group_description\030\266\352\001 \001(\0132!" +
-      ".dstore.engine.values.stringValue\022O\n!com" +
-      "bine_parts_with_a_n_d_operator\030\267\352\001 \001(\0132\"" +
-      ".dstore.engine.values.booleanValue\022B\n\024re" +
-      "cursive_evaluation\030\270\352\001 \001(\0132\".dstore.engi" +
-      "ne.values.integerValue\022?\n\021item_part_sort",
-      "_no\030\271\352\001 \001(\0132\".dstore.engine.values.integ" +
-      "erValue\022A\n\024domain_tree_node_ids\030\273\352\001 \001(\0132" +
-      "!.dstore.engine.values.stringValue\022D\n\026no" +
-      "de_characteristic_id\030\274\352\001 \001(\0132\".dstore.en" +
-      "gine.values.integerValue\022D\n\026item_conditi" +
-      "on_part_id\030\275\352\001 \001(\0132\".dstore.engine.value" +
-      "s.integerValue\022P\n\"combine_groups_with_a_" +
-      "n_d_operator\030\301\352\001 \001(\0132\".dstore.engine.val" +
-      "ues.booleanValue\022L\n\037item_condition_part_" +
-      "description\030\302\352\001 \001(\0132!.dstore.engine.valu",
-      "es.stringValue\0226\n\tlevel_ids\030\303\352\001 \001(\0132!.ds" +
-      "tore.engine.values.stringValue\022E\n\027item_c" +
-      "ondition_group_id\030\304\352\001 \001(\0132\".dstore.engin" +
-      "e.values.integerValue\022;\n\rinherit_depth\030\307" +
-      "\352\001 \001(\0132\".dstore.engine.values.integerVal" +
-      "ueB\030\n\026io.dstore.engine.procsb\006proto3"
+      "tringValue\0222\n\006value2\030\222N \001(\0132!.dstore.eng" +
+      "ine.values.stringValue\0222\n\006value3\030\223N \001(\0132" +
+      "!.dstore.engine.values.stringValue\0222\n\006va" +
+      "lue1\030\224N \001(\0132!.dstore.engine.values.strin" +
+      "gValue\0228\n\013item_set_id\030\225N \001(\0132\".dstore.en" +
+      "gine.values.integerValue\0224\n\007node_id\030\226N \001" +
+      "(\0132\".dstore.engine.values.integerValue\0229" +
+      "\n\014tree_node_id\030\227N \001(\0132\".dstore.engine.va" +
+      "lues.integerValue\022D\n\027bonus_from_one_set_" +
+      "only\030\230N \001(\0132\".dstore.engine.values.boole",
+      "anValue\0229\n\014max_quantity\030\231N \001(\0132\".dstore." +
+      "engine.values.integerValue\022?\n\021item_condi" +
+      "tion_id\030\241\234\001 \001(\0132\".dstore.engine.values.i" +
+      "ntegerValue\022G\n\032item_condition_descriptio" +
+      "n\030\245\234\001 \001(\0132!.dstore.engine.values.stringV" +
+      "alue\0225\n\007sort_no\030\246\234\001 \001(\0132\".dstore.engine." +
+      "values.integerValue\022@\n\022item_group_sort_n" +
+      "o\030\261\352\001 \001(\0132\".dstore.engine.values.integer" +
+      "Value\0226\n\toperator1\030\262\352\001 \001(\0132!.dstore.engi" +
+      "ne.values.stringValue\0227\n\ncondition1\030\263\352\001 ",
+      "\001(\0132!.dstore.engine.values.stringValue\0227" +
+      "\n\ncondition2\030\264\352\001 \001(\0132!.dstore.engine.val" +
+      "ues.stringValue\0226\n\toperator2\030\265\352\001 \001(\0132!.d" +
+      "store.engine.values.stringValue\022M\n item_" +
+      "condition_group_description\030\266\352\001 \001(\0132!.ds" +
+      "tore.engine.values.stringValue\022O\n!combin" +
+      "e_parts_with_a_n_d_operator\030\267\352\001 \001(\0132\".ds" +
+      "tore.engine.values.booleanValue\022B\n\024recur" +
+      "sive_evaluation\030\270\352\001 \001(\0132\".dstore.engine." +
+      "values.integerValue\022?\n\021item_part_sort_no",
+      "\030\271\352\001 \001(\0132\".dstore.engine.values.integerV" +
+      "alue\022A\n\024domain_tree_node_ids\030\273\352\001 \001(\0132!.d" +
+      "store.engine.values.stringValue\022D\n\026node_" +
+      "characteristic_id\030\274\352\001 \001(\0132\".dstore.engin" +
+      "e.values.integerValue\022D\n\026item_condition_" +
+      "part_id\030\275\352\001 \001(\0132\".dstore.engine.values.i" +
+      "ntegerValue\022P\n\"combine_groups_with_a_n_d" +
+      "_operator\030\301\352\001 \001(\0132\".dstore.engine.values" +
+      ".booleanValue\022L\n\037item_condition_part_des" +
+      "cription\030\302\352\001 \001(\0132!.dstore.engine.values.",
+      "stringValue\0226\n\tlevel_ids\030\303\352\001 \001(\0132!.dstor" +
+      "e.engine.values.stringValue\022E\n\027item_cond" +
+      "ition_group_id\030\304\352\001 \001(\0132\".dstore.engine.v" +
+      "alues.integerValue\022;\n\rinherit_depth\030\307\352\001 " +
+      "\001(\0132\".dstore.engine.values.integerValueB" +
+      "\030\n\026io.dstore.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

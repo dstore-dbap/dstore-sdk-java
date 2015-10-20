@@ -2470,7 +2470,7 @@ public final class CoGetMessagesPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+       * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -2478,7 +2478,7 @@ public final class CoGetMessagesPu {
        */
       boolean hasFromCommunityMemberNickname();
       /**
-       * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+       * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -2486,7 +2486,7 @@ public final class CoGetMessagesPu {
        */
       io.dstore.engine.Values.stringValue getFromCommunityMemberNickname();
       /**
-       * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+       * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -2774,10 +2774,10 @@ public final class CoGetMessagesPu {
         return rowId_;
       }
 
-      public static final int FROM_COMMUNITY_MEMBER__NICKNAME_FIELD_NUMBER = 10001;
+      public static final int FROM_COMMUNITY_MEMBER_NICKNAME_FIELD_NUMBER = 10001;
       private io.dstore.engine.Values.stringValue fromCommunityMemberNickname_;
       /**
-       * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+       * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -2787,7 +2787,7 @@ public final class CoGetMessagesPu {
         return fromCommunityMemberNickname_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+       * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -2797,7 +2797,7 @@ public final class CoGetMessagesPu {
         return fromCommunityMemberNickname_ == null ? io.dstore.engine.Values.stringValue.getDefaultInstance() : fromCommunityMemberNickname_;
       }
       /**
-       * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+       * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
        *
        * <pre>
        * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -3334,7 +3334,7 @@ public final class CoGetMessagesPu {
         private com.google.protobuf.SingleFieldBuilder<
             io.dstore.engine.Values.stringValue, io.dstore.engine.Values.stringValue.Builder, io.dstore.engine.Values.stringValueOrBuilder> fromCommunityMemberNicknameBuilder_;
         /**
-         * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+         * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -3344,7 +3344,7 @@ public final class CoGetMessagesPu {
           return fromCommunityMemberNicknameBuilder_ != null || fromCommunityMemberNickname_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+         * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -3358,7 +3358,7 @@ public final class CoGetMessagesPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+         * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -3378,7 +3378,7 @@ public final class CoGetMessagesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+         * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -3396,7 +3396,7 @@ public final class CoGetMessagesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+         * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -3418,7 +3418,7 @@ public final class CoGetMessagesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+         * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -3436,7 +3436,7 @@ public final class CoGetMessagesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+         * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -3448,7 +3448,7 @@ public final class CoGetMessagesPu {
           return getFromCommunityMemberNicknameFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+         * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -3463,7 +3463,7 @@ public final class CoGetMessagesPu {
           }
         }
         /**
-         * <code>optional .dstore.engine.values.stringValue from_community_member__nickname = 10001;</code>
+         * <code>optional .dstore.engine.values.stringValue from_community_member_nickname = 10001;</code>
          *
          * <pre>
          * Eigenschaft des Mitglieds "FromCommunityMemberID" zu dem Merkmal, anhand dessen die Communitymitglieder sich untereinander unterscheiden bzw. erkennen können. (Eintrag in "CommunitySettings" zum Schlüssel "IdentifyingCharacteristicID")
@@ -5506,22 +5506,22 @@ public final class CoGetMessagesPu {
       "rValue\022 \n\027max_number_of_rows_null\030\357\007 \001(\010" +
       "\022B\n\027separator_in_ident_vals\030\010 \001(\0132!.dsto" +
       "re.engine.values.stringValue\022%\n\034separato" +
-      "r_in_ident_vals_null\030\360\007 \001(\010\"\300\004\n\010Response" +
+      "r_in_ident_vals_null\030\360\007 \001(\010\"\277\004\n\010Response" +
       "\022)\n\005error\030\001 \001(\0132\032.dstore.engine.error.Er" +
       "ror\022/\n\007message\030\003 \003(\0132\036.dstore.engine.mes" +
       "sage.Message\022:\n\003row\030\004 \003(\0132-.dstore.engin" +
-      "e.co_GetMessages_Pu.Response.Row\032\233\003\n\003Row" +
-      "\022\017\n\006row_id\030\220N \001(\005\022K\n\037from_community_memb" +
-      "er__nickname\030\221N \001(\0132!.dstore.engine.valu",
-      "es.stringValue\022;\n\016message_status\030\222N \001(\0132" +
-      "\".dstore.engine.values.integerValue\0223\n\007m" +
-      "essage\030\223N \001(\0132!.dstore.engine.values.str" +
-      "ingValue\0227\n\nmessage_no\030\224N \001(\0132\".dstore.e" +
-      "ngine.values.integerValue\022D\n\025message_dat" +
-      "e_and_time\030\225N \001(\0132$.dstore.engine.values" +
-      ".timestampValue\022E\n\030from_community_member" +
-      "_id\030\226N \001(\0132\".dstore.engine.values.intege" +
-      "rValueB\030\n\026io.dstore.engine.procsb\006proto3"
+      "e.co_GetMessages_Pu.Response.Row\032\232\003\n\003Row" +
+      "\022\017\n\006row_id\030\220N \001(\005\022J\n\036from_community_memb" +
+      "er_nickname\030\221N \001(\0132!.dstore.engine.value",
+      "s.stringValue\022;\n\016message_status\030\222N \001(\0132\"" +
+      ".dstore.engine.values.integerValue\0223\n\007me" +
+      "ssage\030\223N \001(\0132!.dstore.engine.values.stri" +
+      "ngValue\0227\n\nmessage_no\030\224N \001(\0132\".dstore.en" +
+      "gine.values.integerValue\022D\n\025message_date" +
+      "_and_time\030\225N \001(\0132$.dstore.engine.values." +
+      "timestampValue\022E\n\030from_community_member_" +
+      "id\030\226N \001(\0132\".dstore.engine.values.integer" +
+      "ValueB\030\n\026io.dstore.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
