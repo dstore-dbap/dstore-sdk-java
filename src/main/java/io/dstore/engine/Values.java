@@ -832,8 +832,8 @@ public final class Values {
 
   }
 
-  public interface byteValueOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:dstore.engine.values.byteValue)
+  public interface bytesValueOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dstore.engine.values.bytesValue)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -842,17 +842,17 @@ public final class Values {
     com.google.protobuf.ByteString getValue();
   }
   /**
-   * Protobuf type {@code dstore.engine.values.byteValue}
+   * Protobuf type {@code dstore.engine.values.bytesValue}
    */
-  public  static final class byteValue extends
+  public  static final class bytesValue extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:dstore.engine.values.byteValue)
-      byteValueOrBuilder {
-    // Use byteValue.newBuilder() to construct.
-    private byteValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      // @@protoc_insertion_point(message_implements:dstore.engine.values.bytesValue)
+      bytesValueOrBuilder {
+    // Use bytesValue.newBuilder() to construct.
+    private bytesValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
-    private byteValue() {
+    private bytesValue() {
       value_ = com.google.protobuf.ByteString.EMPTY;
     }
 
@@ -861,7 +861,7 @@ public final class Values {
     getUnknownFields() {
       return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
     }
-    private byteValue(
+    private bytesValue(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
       this();
@@ -899,14 +899,14 @@ public final class Values {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.engine.Values.internal_static_dstore_engine_values_byteValue_descriptor;
+      return io.dstore.engine.Values.internal_static_dstore_engine_values_bytesValue_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.engine.Values.internal_static_dstore_engine_values_byteValue_fieldAccessorTable
+      return io.dstore.engine.Values.internal_static_dstore_engine_values_bytesValue_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              io.dstore.engine.Values.byteValue.class, io.dstore.engine.Values.byteValue.Builder.class);
+              io.dstore.engine.Values.bytesValue.class, io.dstore.engine.Values.bytesValue.Builder.class);
     }
 
     public static final int VALUE_FIELD_NUMBER = 1;
@@ -949,53 +949,53 @@ public final class Values {
     }
 
     private static final long serialVersionUID = 0L;
-    public static io.dstore.engine.Values.byteValue parseFrom(
+    public static io.dstore.engine.Values.bytesValue parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.dstore.engine.Values.byteValue parseFrom(
+    public static io.dstore.engine.Values.bytesValue parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.dstore.engine.Values.byteValue parseFrom(byte[] data)
+    public static io.dstore.engine.Values.bytesValue parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.dstore.engine.Values.byteValue parseFrom(
+    public static io.dstore.engine.Values.bytesValue parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.dstore.engine.Values.byteValue parseFrom(java.io.InputStream input)
+    public static io.dstore.engine.Values.bytesValue parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.dstore.engine.Values.byteValue parseFrom(
+    public static io.dstore.engine.Values.bytesValue parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseFrom(input, extensionRegistry);
     }
-    public static io.dstore.engine.Values.byteValue parseDelimitedFrom(java.io.InputStream input)
+    public static io.dstore.engine.Values.bytesValue parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input);
     }
-    public static io.dstore.engine.Values.byteValue parseDelimitedFrom(
+    public static io.dstore.engine.Values.bytesValue parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input, extensionRegistry);
     }
-    public static io.dstore.engine.Values.byteValue parseFrom(
+    public static io.dstore.engine.Values.bytesValue parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.dstore.engine.Values.byteValue parseFrom(
+    public static io.dstore.engine.Values.bytesValue parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1006,7 +1006,7 @@ public final class Values {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(io.dstore.engine.Values.byteValue prototype) {
+    public static Builder newBuilder(io.dstore.engine.Values.bytesValue prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() {
@@ -1021,25 +1021,25 @@ public final class Values {
       return builder;
     }
     /**
-     * Protobuf type {@code dstore.engine.values.byteValue}
+     * Protobuf type {@code dstore.engine.values.bytesValue}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:dstore.engine.values.byteValue)
-        io.dstore.engine.Values.byteValueOrBuilder {
+        // @@protoc_insertion_point(builder_implements:dstore.engine.values.bytesValue)
+        io.dstore.engine.Values.bytesValueOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.engine.Values.internal_static_dstore_engine_values_byteValue_descriptor;
+        return io.dstore.engine.Values.internal_static_dstore_engine_values_bytesValue_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.engine.Values.internal_static_dstore_engine_values_byteValue_fieldAccessorTable
+        return io.dstore.engine.Values.internal_static_dstore_engine_values_bytesValue_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                io.dstore.engine.Values.byteValue.class, io.dstore.engine.Values.byteValue.Builder.class);
+                io.dstore.engine.Values.bytesValue.class, io.dstore.engine.Values.bytesValue.Builder.class);
       }
 
-      // Construct using io.dstore.engine.Values.byteValue.newBuilder()
+      // Construct using io.dstore.engine.Values.bytesValue.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1062,39 +1062,39 @@ public final class Values {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.dstore.engine.Values.internal_static_dstore_engine_values_byteValue_descriptor;
+        return io.dstore.engine.Values.internal_static_dstore_engine_values_bytesValue_descriptor;
       }
 
-      public io.dstore.engine.Values.byteValue getDefaultInstanceForType() {
-        return io.dstore.engine.Values.byteValue.getDefaultInstance();
+      public io.dstore.engine.Values.bytesValue getDefaultInstanceForType() {
+        return io.dstore.engine.Values.bytesValue.getDefaultInstance();
       }
 
-      public io.dstore.engine.Values.byteValue build() {
-        io.dstore.engine.Values.byteValue result = buildPartial();
+      public io.dstore.engine.Values.bytesValue build() {
+        io.dstore.engine.Values.bytesValue result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public io.dstore.engine.Values.byteValue buildPartial() {
-        io.dstore.engine.Values.byteValue result = new io.dstore.engine.Values.byteValue(this);
+      public io.dstore.engine.Values.bytesValue buildPartial() {
+        io.dstore.engine.Values.bytesValue result = new io.dstore.engine.Values.bytesValue(this);
         result.value_ = value_;
         onBuilt();
         return result;
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof io.dstore.engine.Values.byteValue) {
-          return mergeFrom((io.dstore.engine.Values.byteValue)other);
+        if (other instanceof io.dstore.engine.Values.bytesValue) {
+          return mergeFrom((io.dstore.engine.Values.bytesValue)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(io.dstore.engine.Values.byteValue other) {
-        if (other == io.dstore.engine.Values.byteValue.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.dstore.engine.Values.bytesValue other) {
+        if (other == io.dstore.engine.Values.bytesValue.getDefaultInstance()) return this;
         if (other.getValue() != com.google.protobuf.ByteString.EMPTY) {
           setValue(other.getValue());
         }
@@ -1110,11 +1110,11 @@ public final class Values {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        io.dstore.engine.Values.byteValue parsedMessage = null;
+        io.dstore.engine.Values.bytesValue parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (io.dstore.engine.Values.byteValue) e.getUnfinishedMessage();
+          parsedMessage = (io.dstore.engine.Values.bytesValue) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -1163,27 +1163,27 @@ public final class Values {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:dstore.engine.values.byteValue)
+      // @@protoc_insertion_point(builder_scope:dstore.engine.values.bytesValue)
     }
 
-    // @@protoc_insertion_point(class_scope:dstore.engine.values.byteValue)
-    private static final io.dstore.engine.Values.byteValue DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:dstore.engine.values.bytesValue)
+    private static final io.dstore.engine.Values.bytesValue DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new io.dstore.engine.Values.byteValue();
+      DEFAULT_INSTANCE = new io.dstore.engine.Values.bytesValue();
     }
 
-    public static io.dstore.engine.Values.byteValue getDefaultInstance() {
+    public static io.dstore.engine.Values.bytesValue getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
-    private static final com.google.protobuf.Parser<byteValue>
-        PARSER = new com.google.protobuf.AbstractParser<byteValue>() {
-      public byteValue parsePartialFrom(
+    private static final com.google.protobuf.Parser<bytesValue>
+        PARSER = new com.google.protobuf.AbstractParser<bytesValue>() {
+      public bytesValue parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         try {
-          return new byteValue(input, extensionRegistry);
+          return new bytesValue(input, extensionRegistry);
         } catch (RuntimeException e) {
           if (e.getCause() instanceof
               com.google.protobuf.InvalidProtocolBufferException) {
@@ -1195,16 +1195,16 @@ public final class Values {
       }
     };
 
-    public static com.google.protobuf.Parser<byteValue> parser() {
+    public static com.google.protobuf.Parser<bytesValue> parser() {
       return PARSER;
     }
 
     @java.lang.Override
-    public com.google.protobuf.Parser<byteValue> getParserForType() {
+    public com.google.protobuf.Parser<bytesValue> getParserForType() {
       return PARSER;
     }
 
-    public io.dstore.engine.Values.byteValue getDefaultInstanceForType() {
+    public io.dstore.engine.Values.bytesValue getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3344,13 +3344,13 @@ public final class Values {
     io.dstore.engine.Values.stringValueOrBuilder getStringValueOrBuilder();
 
     /**
-     * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+     * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
      */
-    io.dstore.engine.Values.byteValue getByteValue();
+    io.dstore.engine.Values.bytesValue getByteValue();
     /**
-     * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+     * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
      */
-    io.dstore.engine.Values.byteValueOrBuilder getByteValueOrBuilder();
+    io.dstore.engine.Values.bytesValueOrBuilder getByteValueOrBuilder();
 
     /**
      * <code>optional .dstore.engine.values.doubleValue double_value = 13;</code>
@@ -3466,14 +3466,14 @@ public final class Values {
               break;
             }
             case 98: {
-              io.dstore.engine.Values.byteValue.Builder subBuilder = null;
+              io.dstore.engine.Values.bytesValue.Builder subBuilder = null;
               if (valueCase_ == 12) {
-                subBuilder = ((io.dstore.engine.Values.byteValue) value_).toBuilder();
+                subBuilder = ((io.dstore.engine.Values.bytesValue) value_).toBuilder();
               }
               value_ =
-                  input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
+                  input.readMessage(io.dstore.engine.Values.bytesValue.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((io.dstore.engine.Values.byteValue) value_);
+                subBuilder.mergeFrom((io.dstore.engine.Values.bytesValue) value_);
                 value_ = subBuilder.buildPartial();
               }
               valueCase_ = 12;
@@ -3658,22 +3658,22 @@ public final class Values {
 
     public static final int BYTE_VALUE_FIELD_NUMBER = 12;
     /**
-     * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+     * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
      */
-    public io.dstore.engine.Values.byteValue getByteValue() {
+    public io.dstore.engine.Values.bytesValue getByteValue() {
       if (valueCase_ == 12) {
-         return (io.dstore.engine.Values.byteValue) value_;
+         return (io.dstore.engine.Values.bytesValue) value_;
       }
-      return io.dstore.engine.Values.byteValue.getDefaultInstance();
+      return io.dstore.engine.Values.bytesValue.getDefaultInstance();
     }
     /**
-     * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+     * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
      */
-    public io.dstore.engine.Values.byteValueOrBuilder getByteValueOrBuilder() {
+    public io.dstore.engine.Values.bytesValueOrBuilder getByteValueOrBuilder() {
       if (valueCase_ == 12) {
-         return (io.dstore.engine.Values.byteValue) value_;
+         return (io.dstore.engine.Values.bytesValue) value_;
       }
-      return io.dstore.engine.Values.byteValue.getDefaultInstance();
+      return io.dstore.engine.Values.bytesValue.getDefaultInstance();
     }
 
     public static final int DOUBLE_VALUE_FIELD_NUMBER = 13;
@@ -3795,7 +3795,7 @@ public final class Values {
         output.writeMessage(11, (io.dstore.engine.Values.stringValue) value_);
       }
       if (valueCase_ == 12) {
-        output.writeMessage(12, (io.dstore.engine.Values.byteValue) value_);
+        output.writeMessage(12, (io.dstore.engine.Values.bytesValue) value_);
       }
       if (valueCase_ == 13) {
         output.writeMessage(13, (io.dstore.engine.Values.doubleValue) value_);
@@ -3829,7 +3829,7 @@ public final class Values {
       }
       if (valueCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (io.dstore.engine.Values.byteValue) value_);
+          .computeMessageSize(12, (io.dstore.engine.Values.bytesValue) value_);
       }
       if (valueCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
@@ -4397,27 +4397,27 @@ public final class Values {
       }
 
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> byteValueBuilder_;
+          io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> byteValueBuilder_;
       /**
-       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
        */
-      public io.dstore.engine.Values.byteValue getByteValue() {
+      public io.dstore.engine.Values.bytesValue getByteValue() {
         if (byteValueBuilder_ == null) {
           if (valueCase_ == 12) {
-            return (io.dstore.engine.Values.byteValue) value_;
+            return (io.dstore.engine.Values.bytesValue) value_;
           }
-          return io.dstore.engine.Values.byteValue.getDefaultInstance();
+          return io.dstore.engine.Values.bytesValue.getDefaultInstance();
         } else {
           if (valueCase_ == 12) {
             return byteValueBuilder_.getMessage();
           }
-          return io.dstore.engine.Values.byteValue.getDefaultInstance();
+          return io.dstore.engine.Values.bytesValue.getDefaultInstance();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
        */
-      public Builder setByteValue(io.dstore.engine.Values.byteValue value) {
+      public Builder setByteValue(io.dstore.engine.Values.bytesValue value) {
         if (byteValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4431,10 +4431,10 @@ public final class Values {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
        */
       public Builder setByteValue(
-          io.dstore.engine.Values.byteValue.Builder builderForValue) {
+          io.dstore.engine.Values.bytesValue.Builder builderForValue) {
         if (byteValueBuilder_ == null) {
           value_ = builderForValue.build();
           onChanged();
@@ -4445,13 +4445,13 @@ public final class Values {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
        */
-      public Builder mergeByteValue(io.dstore.engine.Values.byteValue value) {
+      public Builder mergeByteValue(io.dstore.engine.Values.bytesValue value) {
         if (byteValueBuilder_ == null) {
           if (valueCase_ == 12 &&
-              value_ != io.dstore.engine.Values.byteValue.getDefaultInstance()) {
-            value_ = io.dstore.engine.Values.byteValue.newBuilder((io.dstore.engine.Values.byteValue) value_)
+              value_ != io.dstore.engine.Values.bytesValue.getDefaultInstance()) {
+            value_ = io.dstore.engine.Values.bytesValue.newBuilder((io.dstore.engine.Values.bytesValue) value_)
                 .mergeFrom(value).buildPartial();
           } else {
             value_ = value;
@@ -4467,7 +4467,7 @@ public final class Values {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
        */
       public Builder clearByteValue() {
         if (byteValueBuilder_ == null) {
@@ -4486,37 +4486,37 @@ public final class Values {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
        */
-      public io.dstore.engine.Values.byteValue.Builder getByteValueBuilder() {
+      public io.dstore.engine.Values.bytesValue.Builder getByteValueBuilder() {
         return getByteValueFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
        */
-      public io.dstore.engine.Values.byteValueOrBuilder getByteValueOrBuilder() {
+      public io.dstore.engine.Values.bytesValueOrBuilder getByteValueOrBuilder() {
         if ((valueCase_ == 12) && (byteValueBuilder_ != null)) {
           return byteValueBuilder_.getMessageOrBuilder();
         } else {
           if (valueCase_ == 12) {
-            return (io.dstore.engine.Values.byteValue) value_;
+            return (io.dstore.engine.Values.bytesValue) value_;
           }
-          return io.dstore.engine.Values.byteValue.getDefaultInstance();
+          return io.dstore.engine.Values.bytesValue.getDefaultInstance();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue byte_value = 12;</code>
+       * <code>optional .dstore.engine.values.bytesValue byte_value = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> 
+          io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> 
           getByteValueFieldBuilder() {
         if (byteValueBuilder_ == null) {
           if (!(valueCase_ == 12)) {
-            value_ = io.dstore.engine.Values.byteValue.getDefaultInstance();
+            value_ = io.dstore.engine.Values.bytesValue.getDefaultInstance();
           }
           byteValueBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder>(
-                  (io.dstore.engine.Values.byteValue) value_,
+              io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder>(
+                  (io.dstore.engine.Values.bytesValue) value_,
                   getParentForChildren(),
                   isClean());
           value_ = null;
@@ -5244,10 +5244,10 @@ public final class Values {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_values_stringValue_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
-    internal_static_dstore_engine_values_byteValue_descriptor;
+    internal_static_dstore_engine_values_bytesValue_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_dstore_engine_values_byteValue_fieldAccessorTable;
+      internal_static_dstore_engine_values_bytesValue_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_values_doubleValue_descriptor;
   private static
@@ -5290,25 +5290,25 @@ public final class Values {
       "\n\032dstore/engine/values.proto\022\024dstore.eng" +
       "ine.values\032\037google/protobuf/timestamp.pr" +
       "oto\"\035\n\014integerValue\022\r\n\005value\030\001 \001(\005\"\034\n\013st" +
-      "ringValue\022\r\n\005value\030\001 \001(\t\"\032\n\tbyteValue\022\r\n" +
-      "\005value\030\001 \001(\014\"\034\n\013doubleValue\022\r\n\005value\030\001 \001" +
-      "(\001\"\035\n\014booleanValue\022\r\n\005value\030\001 \001(\010\"\035\n\014dec" +
-      "imalValue\022\r\n\005value\030\001 \001(\t\";\n\016timestampVal" +
-      "ue\022)\n\005value\030\001 \001(\0132\032.google.protobuf.Time" +
-      "stamp\"\032\n\tlongValue\022\r\n\005value\030\001 \001(\003\"\354\003\n\005Va" +
-      "lue\022;\n\rinteger_value\030\n \001(\0132\".dstore.engi",
-      "ne.values.integerValueH\000\0229\n\014string_value" +
-      "\030\013 \001(\0132!.dstore.engine.values.stringValu" +
-      "eH\000\0225\n\nbyte_value\030\014 \001(\0132\037.dstore.engine." +
-      "values.byteValueH\000\0229\n\014double_value\030\r \001(\013" +
-      "2!.dstore.engine.values.doubleValueH\000\022;\n" +
-      "\rboolean_value\030\016 \001(\0132\".dstore.engine.val" +
-      "ues.booleanValueH\000\022;\n\rdecimal_value\030\017 \001(" +
-      "\0132\".dstore.engine.values.decimalValueH\000\022" +
-      "?\n\017timestamp_value\030\020 \001(\0132$.dstore.engine" +
-      ".values.timestampValueH\000\0225\n\nlong_value\030\021",
-      " \001(\0132\037.dstore.engine.values.longValueH\000B" +
-      "\007\n\005valueB\022\n\020io.dstore.engineb\006proto3"
+      "ringValue\022\r\n\005value\030\001 \001(\t\"\033\n\nbytesValue\022\r" +
+      "\n\005value\030\001 \001(\014\"\034\n\013doubleValue\022\r\n\005value\030\001 " +
+      "\001(\001\"\035\n\014booleanValue\022\r\n\005value\030\001 \001(\010\"\035\n\014de" +
+      "cimalValue\022\r\n\005value\030\001 \001(\t\";\n\016timestampVa" +
+      "lue\022)\n\005value\030\001 \001(\0132\032.google.protobuf.Tim" +
+      "estamp\"\032\n\tlongValue\022\r\n\005value\030\001 \001(\003\"\355\003\n\005V" +
+      "alue\022;\n\rinteger_value\030\n \001(\0132\".dstore.eng",
+      "ine.values.integerValueH\000\0229\n\014string_valu" +
+      "e\030\013 \001(\0132!.dstore.engine.values.stringVal" +
+      "ueH\000\0226\n\nbyte_value\030\014 \001(\0132 .dstore.engine" +
+      ".values.bytesValueH\000\0229\n\014double_value\030\r \001" +
+      "(\0132!.dstore.engine.values.doubleValueH\000\022" +
+      ";\n\rboolean_value\030\016 \001(\0132\".dstore.engine.v" +
+      "alues.booleanValueH\000\022;\n\rdecimal_value\030\017 " +
+      "\001(\0132\".dstore.engine.values.decimalValueH" +
+      "\000\022?\n\017timestamp_value\030\020 \001(\0132$.dstore.engi" +
+      "ne.values.timestampValueH\000\0225\n\nlong_value",
+      "\030\021 \001(\0132\037.dstore.engine.values.longValueH" +
+      "\000B\007\n\005valueB\022\n\020io.dstore.engineb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5335,11 +5335,11 @@ public final class Values {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_values_stringValue_descriptor,
         new java.lang.String[] { "Value", });
-    internal_static_dstore_engine_values_byteValue_descriptor =
+    internal_static_dstore_engine_values_bytesValue_descriptor =
       getDescriptor().getMessageTypes().get(2);
-    internal_static_dstore_engine_values_byteValue_fieldAccessorTable = new
+    internal_static_dstore_engine_values_bytesValue_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_dstore_engine_values_byteValue_descriptor,
+        internal_static_dstore_engine_values_bytesValue_descriptor,
         new java.lang.String[] { "Value", });
     internal_static_dstore_engine_values_doubleValue_descriptor =
       getDescriptor().getMessageTypes().get(3);

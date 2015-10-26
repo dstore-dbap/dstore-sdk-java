@@ -1644,6 +1644,12 @@ public final class Procedure {
      */
     io.dstore.engine.Procedure.Response.RowOrBuilder getRowOrBuilder(
         int index);
+
+    /**
+     * <code>map&lt;string, .dstore.engine.values.Value&gt; output_parameters = 6;</code>
+     */
+    java.util.Map<java.lang.String, io.dstore.engine.Values.Value>
+    getOutputParameters();
   }
   /**
    * Protobuf type {@code dstore.engine.procedure.Response}
@@ -1733,6 +1739,18 @@ public final class Procedure {
               row_.add(input.readMessage(io.dstore.engine.Procedure.Response.Row.parser(), extensionRegistry));
               break;
             }
+            case 50: {
+              if (!((mutable_bitField0_ & 0x00000020) == 0x00000020)) {
+                outputParameters_ = com.google.protobuf.MapField.newMapField(
+                    OutputParametersDefaultEntryHolder.defaultEntry);
+                mutable_bitField0_ |= 0x00000020;
+              }
+              com.google.protobuf.MapEntry<java.lang.String, io.dstore.engine.Values.Value>
+              outputParameters = input.readMessage(
+                  OutputParametersDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              outputParameters_.getMutableMap().put(outputParameters.getKey(), outputParameters.getValue());
+              break;
+            }
           }
         }
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
@@ -1756,6 +1774,17 @@ public final class Procedure {
       return io.dstore.engine.Procedure.internal_static_dstore_engine_procedure_Response_descriptor;
     }
 
+    @SuppressWarnings({"rawtypes"})
+    protected com.google.protobuf.MapField internalGetMapField(
+        int number) {
+      switch (number) {
+        case 6:
+          return internalGetOutputParameters();
+        default:
+          throw new RuntimeException(
+              "Invalid map field number: " + number);
+      }
+    }
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.engine.Procedure.internal_static_dstore_engine_procedure_Response_fieldAccessorTable
@@ -2434,6 +2463,36 @@ public final class Procedure {
       return row_.get(index);
     }
 
+    public static final int OUTPUT_PARAMETERS_FIELD_NUMBER = 6;
+    private static final class OutputParametersDefaultEntryHolder {
+      static final com.google.protobuf.MapEntry<
+          java.lang.String, io.dstore.engine.Values.Value> defaultEntry =
+              com.google.protobuf.MapEntry
+              .<java.lang.String, io.dstore.engine.Values.Value>newDefaultInstance(
+                  io.dstore.engine.Procedure.internal_static_dstore_engine_procedure_Response_OutputParametersEntry_descriptor, 
+                  com.google.protobuf.WireFormat.FieldType.STRING,
+                  "",
+                  com.google.protobuf.WireFormat.FieldType.MESSAGE,
+                  io.dstore.engine.Values.Value.getDefaultInstance());
+    }
+    private com.google.protobuf.MapField<
+        java.lang.String, io.dstore.engine.Values.Value> outputParameters_;
+    private com.google.protobuf.MapField<java.lang.String, io.dstore.engine.Values.Value>
+    internalGetOutputParameters() {
+      if (outputParameters_ == null) {
+        return com.google.protobuf.MapField.emptyMapField(
+            OutputParametersDefaultEntryHolder.defaultEntry);
+     }
+      return outputParameters_;
+    }
+    /**
+     * <code>map&lt;string, .dstore.engine.values.Value&gt; output_parameters = 6;</code>
+     */
+
+    public java.util.Map<java.lang.String, io.dstore.engine.Values.Value> getOutputParameters() {
+      return internalGetOutputParameters().getMap();
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -2461,6 +2520,15 @@ public final class Procedure {
       for (int i = 0; i < row_.size(); i++) {
         output.writeMessage(5, row_.get(i));
       }
+      for (java.util.Map.Entry<java.lang.String, io.dstore.engine.Values.Value> entry
+           : internalGetOutputParameters().getMap().entrySet()) {
+        com.google.protobuf.MapEntry<java.lang.String, io.dstore.engine.Values.Value>
+        outputParameters = OutputParametersDefaultEntryHolder.defaultEntry.newBuilderForType()
+            .setKey(entry.getKey())
+            .setValue(entry.getValue())
+            .build();
+        output.writeMessage(6, outputParameters);
+      }
     }
 
     public int getSerializedSize() {
@@ -2487,6 +2555,16 @@ public final class Procedure {
       for (int i = 0; i < row_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, row_.get(i));
+      }
+      for (java.util.Map.Entry<java.lang.String, io.dstore.engine.Values.Value> entry
+           : internalGetOutputParameters().getMap().entrySet()) {
+        com.google.protobuf.MapEntry<java.lang.String, io.dstore.engine.Values.Value>
+        outputParameters = OutputParametersDefaultEntryHolder.defaultEntry.newBuilderForType()
+            .setKey(entry.getKey())
+            .setValue(entry.getValue())
+            .build();
+        size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(6, outputParameters);
       }
       memoizedSize = size;
       return size;
@@ -2576,6 +2654,28 @@ public final class Procedure {
         return io.dstore.engine.Procedure.internal_static_dstore_engine_procedure_Response_descriptor;
       }
 
+      @SuppressWarnings({"rawtypes"})
+      protected com.google.protobuf.MapField internalGetMapField(
+          int number) {
+        switch (number) {
+          case 6:
+            return internalGetOutputParameters();
+          default:
+            throw new RuntimeException(
+                "Invalid map field number: " + number);
+        }
+      }
+      @SuppressWarnings({"rawtypes"})
+      protected com.google.protobuf.MapField internalGetMutableMapField(
+          int number) {
+        switch (number) {
+          case 6:
+            return internalGetMutableOutputParameters();
+          default:
+            throw new RuntimeException(
+                "Invalid map field number: " + number);
+        }
+      }
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.engine.Procedure.internal_static_dstore_engine_procedure_Response_fieldAccessorTable
@@ -2627,6 +2727,7 @@ public final class Procedure {
         } else {
           rowBuilder_.clear();
         }
+        internalGetMutableOutputParameters().clear();
         return this;
       }
 
@@ -2680,6 +2781,8 @@ public final class Procedure {
         } else {
           result.row_ = rowBuilder_.build();
         }
+        result.outputParameters_ = internalGetOutputParameters();
+        result.outputParameters_.makeImmutable();
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -2757,6 +2860,8 @@ public final class Procedure {
             }
           }
         }
+        internalGetMutableOutputParameters().mergeFrom(
+            other.internalGetOutputParameters());
         onChanged();
         return this;
       }
@@ -3523,6 +3628,50 @@ public final class Procedure {
         }
         return rowBuilder_;
       }
+
+      private com.google.protobuf.MapField<
+          java.lang.String, io.dstore.engine.Values.Value> outputParameters_;
+      private com.google.protobuf.MapField<java.lang.String, io.dstore.engine.Values.Value>
+      internalGetOutputParameters() {
+        if (outputParameters_ == null) {
+          return com.google.protobuf.MapField.emptyMapField(
+              OutputParametersDefaultEntryHolder.defaultEntry);
+       }
+        return outputParameters_;
+      }
+      private com.google.protobuf.MapField<java.lang.String, io.dstore.engine.Values.Value>
+      internalGetMutableOutputParameters() {
+        onChanged();;
+        if (outputParameters_ == null) {
+          outputParameters_ = com.google.protobuf.MapField.newMapField(
+              OutputParametersDefaultEntryHolder.defaultEntry);
+        }
+        if (!outputParameters_.isMutable()) {
+          outputParameters_ = outputParameters_.copy();
+        }
+        return outputParameters_;
+      }
+      /**
+       * <code>map&lt;string, .dstore.engine.values.Value&gt; output_parameters = 6;</code>
+       */
+      public java.util.Map<java.lang.String, io.dstore.engine.Values.Value> getOutputParameters() {
+        return internalGetOutputParameters().getMap();
+      }
+      /**
+       * <code>map&lt;string, .dstore.engine.values.Value&gt; output_parameters = 6;</code>
+       */
+      public java.util.Map<java.lang.String, io.dstore.engine.Values.Value>
+      getMutableOutputParameters() {
+        return internalGetMutableOutputParameters().getMutableMap();
+      }
+      /**
+       * <code>map&lt;string, .dstore.engine.values.Value&gt; output_parameters = 6;</code>
+       */
+      public Builder putAllOutputParameters(
+          java.util.Map<java.lang.String, io.dstore.engine.Values.Value> values) {
+        getMutableOutputParameters().putAll(values);
+        return this;
+      }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return this;
@@ -3597,6 +3746,11 @@ public final class Procedure {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_engine_procedure_Response_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_dstore_engine_procedure_Response_OutputParametersEntry_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dstore_engine_procedure_Response_OutputParametersEntry_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_engine_procedure_Response_Row_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
@@ -3622,18 +3776,22 @@ public final class Procedure {
       "e_name\030\001 \001(\t\0225\n\tparameter\030\002 \003(\0132\".dstore" +
       ".engine.procedure.Parameter\022\017\n\007call_id\030\003" +
       " \001(\005\"9\n\tParameter\022\014\n\004name\030\001 \001(\t\022\r\n\005value" +
-      "\030\002 \001(\t\022\017\n\007is_null\030\003 \001(\010\"\220\003\n\010Response\022)\n\005" +
+      "\030\002 \001(\t\022\017\n\007is_null\030\003 \001(\010\"\272\004\n\010Response\022)\n\005" +
       "error\030\001 \001(\0132\032.dstore.engine.error.Error\022" +
       "9\n\rreturn_status\030\002 \001(\0132\".dstore.engine.v",
       "alues.integerValue\022/\n\007message\030\003 \003(\0132\036.ds" +
       "tore.engine.message.Message\022\017\n\007call_id\030\004" +
       " \001(\005\0222\n\003row\030\005 \003(\0132%.dstore.engine.proced" +
-      "ure.Response.Row\032\247\001\n\003Row\022\016\n\006row_id\030\001 \001(\005" +
-      "\022C\n\007columns\030\002 \003(\01322.dstore.engine.proced" +
-      "ure.Response.Row.ColumnsEntry\032K\n\014Columns" +
+      "ure.Response.Row\022R\n\021output_parameters\030\006 " +
+      "\003(\01327.dstore.engine.procedure.Response.O" +
+      "utputParametersEntry\032T\n\025OutputParameters" +
       "Entry\022\013\n\003key\030\001 \001(\t\022*\n\005value\030\002 \001(\0132\033.dsto" +
-      "re.engine.values.Value:\0028\001B\022\n\020io.dstore." +
-      "engineb\006proto3"
+      "re.engine.values.Value:\0028\001\032\247\001\n\003Row\022\016\n\006ro" +
+      "w_id\030\001 \001(\005\022C\n\007columns\030\002 \003(\01322.dstore.eng" +
+      "ine.procedure.Response.Row.ColumnsEntry\032",
+      "K\n\014ColumnsEntry\022\013\n\003key\030\001 \001(\t\022*\n\005value\030\002 " +
+      "\001(\0132\033.dstore.engine.values.Value:\0028\001B\022\n\020" +
+      "io.dstore.engineb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3667,9 +3825,15 @@ public final class Procedure {
     internal_static_dstore_engine_procedure_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_procedure_Response_descriptor,
-        new java.lang.String[] { "Error", "ReturnStatus", "Message", "CallId", "Row", });
-    internal_static_dstore_engine_procedure_Response_Row_descriptor =
+        new java.lang.String[] { "Error", "ReturnStatus", "Message", "CallId", "Row", "OutputParameters", });
+    internal_static_dstore_engine_procedure_Response_OutputParametersEntry_descriptor =
       internal_static_dstore_engine_procedure_Response_descriptor.getNestedTypes().get(0);
+    internal_static_dstore_engine_procedure_Response_OutputParametersEntry_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dstore_engine_procedure_Response_OutputParametersEntry_descriptor,
+        new java.lang.String[] { "Key", "Value", });
+    internal_static_dstore_engine_procedure_Response_Row_descriptor =
+      internal_static_dstore_engine_procedure_Response_descriptor.getNestedTypes().get(1);
     internal_static_dstore_engine_procedure_Response_Row_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_procedure_Response_Row_descriptor,

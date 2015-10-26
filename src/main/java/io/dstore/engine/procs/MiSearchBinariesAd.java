@@ -2795,7 +2795,7 @@ public final class MiSearchBinariesAd {
       io.dstore.engine.Values.stringValueOrBuilder getBinaryValue3OrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
        *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
@@ -2803,21 +2803,21 @@ public final class MiSearchBinariesAd {
        */
       boolean hasThumbnailCode();
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
        *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
        */
-      io.dstore.engine.Values.byteValue getThumbnailCode();
+      io.dstore.engine.Values.bytesValue getThumbnailCode();
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
        *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
        */
-      io.dstore.engine.Values.byteValueOrBuilder getThumbnailCodeOrBuilder();
+      io.dstore.engine.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder();
 
       /**
        * <code>optional .dstore.engine.values.stringValue binary_value2 = 10005;</code>
@@ -2870,7 +2870,7 @@ public final class MiSearchBinariesAd {
       io.dstore.engine.Values.integerValueOrBuilder getUsedInTableBitmapOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
        *
        * <pre>
        * Die Binärdaten selbst
@@ -2878,21 +2878,21 @@ public final class MiSearchBinariesAd {
        */
       boolean hasBinaryCode();
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
        *
        * <pre>
        * Die Binärdaten selbst
        * </pre>
        */
-      io.dstore.engine.Values.byteValue getBinaryCode();
+      io.dstore.engine.Values.bytesValue getBinaryCode();
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
        *
        * <pre>
        * Die Binärdaten selbst
        * </pre>
        */
-      io.dstore.engine.Values.byteValueOrBuilder getBinaryCodeOrBuilder();
+      io.dstore.engine.Values.bytesValueOrBuilder getBinaryCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.mi_SearchBinaries_Ad.Response.Row}
@@ -2978,11 +2978,11 @@ public final class MiSearchBinariesAd {
                 break;
               }
               case 80034: {
-                io.dstore.engine.Values.byteValue.Builder subBuilder = null;
+                io.dstore.engine.Values.bytesValue.Builder subBuilder = null;
                 if (thumbnailCode_ != null) {
                   subBuilder = thumbnailCode_.toBuilder();
                 }
-                thumbnailCode_ = input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
+                thumbnailCode_ = input.readMessage(io.dstore.engine.Values.bytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(thumbnailCode_);
                   thumbnailCode_ = subBuilder.buildPartial();
@@ -3017,11 +3017,11 @@ public final class MiSearchBinariesAd {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.byteValue.Builder subBuilder = null;
+                io.dstore.engine.Values.bytesValue.Builder subBuilder = null;
                 if (binaryCode_ != null) {
                   subBuilder = binaryCode_.toBuilder();
                 }
-                binaryCode_ = input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
+                binaryCode_ = input.readMessage(io.dstore.engine.Values.bytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCode_);
                   binaryCode_ = subBuilder.buildPartial();
@@ -3162,9 +3162,9 @@ public final class MiSearchBinariesAd {
       }
 
       public static final int THUMBNAIL_CODE_FIELD_NUMBER = 10004;
-      private io.dstore.engine.Values.byteValue thumbnailCode_;
+      private io.dstore.engine.Values.bytesValue thumbnailCode_;
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
        *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
@@ -3174,23 +3174,23 @@ public final class MiSearchBinariesAd {
         return thumbnailCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
        *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.byteValue getThumbnailCode() {
-        return thumbnailCode_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : thumbnailCode_;
+      public io.dstore.engine.Values.bytesValue getThumbnailCode() {
+        return thumbnailCode_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
        *
        * <pre>
        * Das sogenannte "Thumbnail" zur "BinaryCodeID"
        * </pre>
        */
-      public io.dstore.engine.Values.byteValueOrBuilder getThumbnailCodeOrBuilder() {
+      public io.dstore.engine.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
         return getThumbnailCode();
       }
 
@@ -3261,9 +3261,9 @@ public final class MiSearchBinariesAd {
       }
 
       public static final int BINARY_CODE_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.byteValue binaryCode_;
+      private io.dstore.engine.Values.bytesValue binaryCode_;
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
        *
        * <pre>
        * Die Binärdaten selbst
@@ -3273,23 +3273,23 @@ public final class MiSearchBinariesAd {
         return binaryCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
        *
        * <pre>
        * Die Binärdaten selbst
        * </pre>
        */
-      public io.dstore.engine.Values.byteValue getBinaryCode() {
-        return binaryCode_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : binaryCode_;
+      public io.dstore.engine.Values.bytesValue getBinaryCode() {
+        return binaryCode_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : binaryCode_;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
        *
        * <pre>
        * Die Binärdaten selbst
        * </pre>
        */
-      public io.dstore.engine.Values.byteValueOrBuilder getBinaryCodeOrBuilder() {
+      public io.dstore.engine.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
         return getBinaryCode();
       }
 
@@ -4131,11 +4131,11 @@ public final class MiSearchBinariesAd {
           return binaryValue3Builder_;
         }
 
-        private io.dstore.engine.Values.byteValue thumbnailCode_ = null;
+        private io.dstore.engine.Values.bytesValue thumbnailCode_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> thumbnailCodeBuilder_;
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> thumbnailCodeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
          *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
@@ -4145,27 +4145,27 @@ public final class MiSearchBinariesAd {
           return thumbnailCodeBuilder_ != null || thumbnailCode_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
          *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue getThumbnailCode() {
+        public io.dstore.engine.Values.bytesValue getThumbnailCode() {
           if (thumbnailCodeBuilder_ == null) {
-            return thumbnailCode_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : thumbnailCode_;
+            return thumbnailCode_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
           } else {
             return thumbnailCodeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
          *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          */
-        public Builder setThumbnailCode(io.dstore.engine.Values.byteValue value) {
+        public Builder setThumbnailCode(io.dstore.engine.Values.bytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4179,14 +4179,14 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
          *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          */
         public Builder setThumbnailCode(
-            io.dstore.engine.Values.byteValue.Builder builderForValue) {
+            io.dstore.engine.Values.bytesValue.Builder builderForValue) {
           if (thumbnailCodeBuilder_ == null) {
             thumbnailCode_ = builderForValue.build();
             onChanged();
@@ -4197,17 +4197,17 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
          *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          */
-        public Builder mergeThumbnailCode(io.dstore.engine.Values.byteValue value) {
+        public Builder mergeThumbnailCode(io.dstore.engine.Values.bytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
             if (thumbnailCode_ != null) {
               thumbnailCode_ =
-                io.dstore.engine.Values.byteValue.newBuilder(thumbnailCode_).mergeFrom(value).buildPartial();
+                io.dstore.engine.Values.bytesValue.newBuilder(thumbnailCode_).mergeFrom(value).buildPartial();
             } else {
               thumbnailCode_ = value;
             }
@@ -4219,7 +4219,7 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
          *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
@@ -4237,45 +4237,45 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
          *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue.Builder getThumbnailCodeBuilder() {
+        public io.dstore.engine.Values.bytesValue.Builder getThumbnailCodeBuilder() {
           
           onChanged();
           return getThumbnailCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
          *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          */
-        public io.dstore.engine.Values.byteValueOrBuilder getThumbnailCodeOrBuilder() {
+        public io.dstore.engine.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
           if (thumbnailCodeBuilder_ != null) {
             return thumbnailCodeBuilder_.getMessageOrBuilder();
           } else {
             return thumbnailCode_ == null ?
-                io.dstore.engine.Values.byteValue.getDefaultInstance() : thumbnailCode_;
+                io.dstore.engine.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10004;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10004;</code>
          *
          * <pre>
          * Das sogenannte "Thumbnail" zur "BinaryCodeID"
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> 
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> 
             getThumbnailCodeFieldBuilder() {
           if (thumbnailCodeBuilder_ == null) {
             thumbnailCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder>(
+                io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder>(
                     getThumbnailCode(),
                     getParentForChildren(),
                     isClean());
@@ -4590,11 +4590,11 @@ public final class MiSearchBinariesAd {
           return usedInTableBitmapBuilder_;
         }
 
-        private io.dstore.engine.Values.byteValue binaryCode_ = null;
+        private io.dstore.engine.Values.bytesValue binaryCode_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> binaryCodeBuilder_;
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> binaryCodeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
          *
          * <pre>
          * Die Binärdaten selbst
@@ -4604,27 +4604,27 @@ public final class MiSearchBinariesAd {
           return binaryCodeBuilder_ != null || binaryCode_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
          *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue getBinaryCode() {
+        public io.dstore.engine.Values.bytesValue getBinaryCode() {
           if (binaryCodeBuilder_ == null) {
-            return binaryCode_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : binaryCode_;
+            return binaryCode_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : binaryCode_;
           } else {
             return binaryCodeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
          *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
          */
-        public Builder setBinaryCode(io.dstore.engine.Values.byteValue value) {
+        public Builder setBinaryCode(io.dstore.engine.Values.bytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4638,14 +4638,14 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
          *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
          */
         public Builder setBinaryCode(
-            io.dstore.engine.Values.byteValue.Builder builderForValue) {
+            io.dstore.engine.Values.bytesValue.Builder builderForValue) {
           if (binaryCodeBuilder_ == null) {
             binaryCode_ = builderForValue.build();
             onChanged();
@@ -4656,17 +4656,17 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
          *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
          */
-        public Builder mergeBinaryCode(io.dstore.engine.Values.byteValue value) {
+        public Builder mergeBinaryCode(io.dstore.engine.Values.bytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (binaryCode_ != null) {
               binaryCode_ =
-                io.dstore.engine.Values.byteValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
+                io.dstore.engine.Values.bytesValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
             } else {
               binaryCode_ = value;
             }
@@ -4678,7 +4678,7 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
          *
          * <pre>
          * Die Binärdaten selbst
@@ -4696,45 +4696,45 @@ public final class MiSearchBinariesAd {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
          *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue.Builder getBinaryCodeBuilder() {
+        public io.dstore.engine.Values.bytesValue.Builder getBinaryCodeBuilder() {
           
           onChanged();
           return getBinaryCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
          *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
          */
-        public io.dstore.engine.Values.byteValueOrBuilder getBinaryCodeOrBuilder() {
+        public io.dstore.engine.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
           if (binaryCodeBuilder_ != null) {
             return binaryCodeBuilder_.getMessageOrBuilder();
           } else {
             return binaryCode_ == null ?
-                io.dstore.engine.Values.byteValue.getDefaultInstance() : binaryCode_;
+                io.dstore.engine.Values.bytesValue.getDefaultInstance() : binaryCode_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10007;</code>
          *
          * <pre>
          * Die Binärdaten selbst
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> 
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> 
             getBinaryCodeFieldBuilder() {
           if (binaryCodeBuilder_ == null) {
             binaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder>(
+                io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder>(
                     getBinaryCode(),
                     getParentForChildren(),
                     isClean());
@@ -6073,25 +6073,25 @@ public final class MiSearchBinariesAd {
       "id2_null\030\360\007 \001(\010\022D\n\030output_binary_charac_" +
       "id3\030\t \001(\0132\".dstore.engine.values.integer" +
       "Value\022&\n\035output_binary_charac_id3_null\030\361" +
-      "\007 \001(\010\"\252\005\n\010Response\022)\n\005error\030\001 \001(\0132\032.dsto" +
+      "\007 \001(\010\"\254\005\n\010Response\022)\n\005error\030\001 \001(\0132\032.dsto" +
       "re.engine.error.Error\022/\n\007message\030\003 \003(\0132\036",
       ".dstore.engine.message.Message\022=\n\003row\030\004 " +
       "\003(\01320.dstore.engine.mi_SearchBinaries_Ad" +
       ".Response.Row\022H\n\034number_of_elements_in_r" +
       "esult\030e \001(\0132\".dstore.engine.values.integ" +
-      "erValue\032\270\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\022;\n\016bina" +
+      "erValue\032\272\003\n\003Row\022\017\n\006row_id\030\220N \001(\005\022;\n\016bina" +
       "ry_code_id\030\221N \001(\0132\".dstore.engine.values" +
       ".integerValue\0229\n\rbinary_value1\030\222N \001(\0132!." +
       "dstore.engine.values.stringValue\0229\n\rbina" +
       "ry_value3\030\223N \001(\0132!.dstore.engine.values." +
-      "stringValue\0228\n\016thumbnail_code\030\224N \001(\0132\037.d",
-      "store.engine.values.byteValue\0229\n\rbinary_" +
-      "value2\030\225N \001(\0132!.dstore.engine.values.str" +
-      "ingValue\022A\n\024used_in_table_bitmap\030\226N \001(\0132" +
-      "\".dstore.engine.values.integerValue\0225\n\013b" +
-      "inary_code\030\227N \001(\0132\037.dstore.engine.values" +
-      ".byteValueB\030\n\026io.dstore.engine.procsb\006pr" +
-      "oto3"
+      "stringValue\0229\n\016thumbnail_code\030\224N \001(\0132 .d",
+      "store.engine.values.bytesValue\0229\n\rbinary" +
+      "_value2\030\225N \001(\0132!.dstore.engine.values.st" +
+      "ringValue\022A\n\024used_in_table_bitmap\030\226N \001(\013" +
+      "2\".dstore.engine.values.integerValue\0226\n\013" +
+      "binary_code\030\227N \001(\0132 .dstore.engine.value" +
+      "s.bytesValueB\030\n\026io.dstore.engine.procsb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

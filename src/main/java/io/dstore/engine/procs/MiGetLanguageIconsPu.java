@@ -762,7 +762,7 @@ public final class MiGetLanguageIconsPu {
       int getRowId();
 
       /**
-       * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+       * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
        *
        * <pre>
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
@@ -770,21 +770,21 @@ public final class MiGetLanguageIconsPu {
        */
       boolean hasLanguageIcon();
       /**
-       * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+       * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
        *
        * <pre>
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
        * </pre>
        */
-      io.dstore.engine.Values.byteValue getLanguageIcon();
+      io.dstore.engine.Values.bytesValue getLanguageIcon();
       /**
-       * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+       * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
        *
        * <pre>
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
        * </pre>
        */
-      io.dstore.engine.Values.byteValueOrBuilder getLanguageIconOrBuilder();
+      io.dstore.engine.Values.bytesValueOrBuilder getLanguageIconOrBuilder();
 
       /**
        * <code>optional .dstore.engine.values.integerValue language_id = 10002;</code>
@@ -856,11 +856,11 @@ public final class MiGetLanguageIconsPu {
                 break;
               }
               case 80010: {
-                io.dstore.engine.Values.byteValue.Builder subBuilder = null;
+                io.dstore.engine.Values.bytesValue.Builder subBuilder = null;
                 if (languageIcon_ != null) {
                   subBuilder = languageIcon_.toBuilder();
                 }
-                languageIcon_ = input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
+                languageIcon_ = input.readMessage(io.dstore.engine.Values.bytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(languageIcon_);
                   languageIcon_ = subBuilder.buildPartial();
@@ -915,9 +915,9 @@ public final class MiGetLanguageIconsPu {
       }
 
       public static final int LANGUAGE_ICON_FIELD_NUMBER = 10001;
-      private io.dstore.engine.Values.byteValue languageIcon_;
+      private io.dstore.engine.Values.bytesValue languageIcon_;
       /**
-       * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+       * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
        *
        * <pre>
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
@@ -927,23 +927,23 @@ public final class MiGetLanguageIconsPu {
         return languageIcon_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+       * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
        *
        * <pre>
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
        * </pre>
        */
-      public io.dstore.engine.Values.byteValue getLanguageIcon() {
-        return languageIcon_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : languageIcon_;
+      public io.dstore.engine.Values.bytesValue getLanguageIcon() {
+        return languageIcon_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : languageIcon_;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+       * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
        *
        * <pre>
        * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
        * </pre>
        */
-      public io.dstore.engine.Values.byteValueOrBuilder getLanguageIconOrBuilder() {
+      public io.dstore.engine.Values.bytesValueOrBuilder getLanguageIconOrBuilder() {
         return getLanguageIcon();
       }
 
@@ -1254,11 +1254,11 @@ public final class MiGetLanguageIconsPu {
           return this;
         }
 
-        private io.dstore.engine.Values.byteValue languageIcon_ = null;
+        private io.dstore.engine.Values.bytesValue languageIcon_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> languageIconBuilder_;
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> languageIconBuilder_;
         /**
-         * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+         * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
          *
          * <pre>
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
@@ -1268,27 +1268,27 @@ public final class MiGetLanguageIconsPu {
           return languageIconBuilder_ != null || languageIcon_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+         * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
          *
          * <pre>
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue getLanguageIcon() {
+        public io.dstore.engine.Values.bytesValue getLanguageIcon() {
           if (languageIconBuilder_ == null) {
-            return languageIcon_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : languageIcon_;
+            return languageIcon_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : languageIcon_;
           } else {
             return languageIconBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+         * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
          *
          * <pre>
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          */
-        public Builder setLanguageIcon(io.dstore.engine.Values.byteValue value) {
+        public Builder setLanguageIcon(io.dstore.engine.Values.bytesValue value) {
           if (languageIconBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -1302,14 +1302,14 @@ public final class MiGetLanguageIconsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+         * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
          *
          * <pre>
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          */
         public Builder setLanguageIcon(
-            io.dstore.engine.Values.byteValue.Builder builderForValue) {
+            io.dstore.engine.Values.bytesValue.Builder builderForValue) {
           if (languageIconBuilder_ == null) {
             languageIcon_ = builderForValue.build();
             onChanged();
@@ -1320,17 +1320,17 @@ public final class MiGetLanguageIconsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+         * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
          *
          * <pre>
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          */
-        public Builder mergeLanguageIcon(io.dstore.engine.Values.byteValue value) {
+        public Builder mergeLanguageIcon(io.dstore.engine.Values.bytesValue value) {
           if (languageIconBuilder_ == null) {
             if (languageIcon_ != null) {
               languageIcon_ =
-                io.dstore.engine.Values.byteValue.newBuilder(languageIcon_).mergeFrom(value).buildPartial();
+                io.dstore.engine.Values.bytesValue.newBuilder(languageIcon_).mergeFrom(value).buildPartial();
             } else {
               languageIcon_ = value;
             }
@@ -1342,7 +1342,7 @@ public final class MiGetLanguageIconsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+         * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
          *
          * <pre>
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
@@ -1360,45 +1360,45 @@ public final class MiGetLanguageIconsPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+         * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
          *
          * <pre>
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue.Builder getLanguageIconBuilder() {
+        public io.dstore.engine.Values.bytesValue.Builder getLanguageIconBuilder() {
           
           onChanged();
           return getLanguageIconFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+         * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
          *
          * <pre>
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          */
-        public io.dstore.engine.Values.byteValueOrBuilder getLanguageIconOrBuilder() {
+        public io.dstore.engine.Values.bytesValueOrBuilder getLanguageIconOrBuilder() {
           if (languageIconBuilder_ != null) {
             return languageIconBuilder_.getMessageOrBuilder();
           } else {
             return languageIcon_ == null ?
-                io.dstore.engine.Values.byteValue.getDefaultInstance() : languageIcon_;
+                io.dstore.engine.Values.bytesValue.getDefaultInstance() : languageIcon_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue language_icon = 10001;</code>
+         * <code>optional .dstore.engine.values.bytesValue language_icon = 10001;</code>
          *
          * <pre>
          * Das "Icon" (also der Code einer Binärdatei), das die Sprache "LanguageID" symbolisieren soll
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> 
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> 
             getLanguageIconFieldBuilder() {
           if (languageIconBuilder_ == null) {
             languageIconBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder>(
+                io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder>(
                     getLanguageIcon(),
                     getParentForChildren(),
                     isClean());
@@ -2801,16 +2801,16 @@ public final class MiGetLanguageIconsPu {
       "o\032\031dstore/engine/error.proto\032\033dstore/eng" +
       "ine/message.proto\"`\n\nParameters\0227\n\013langu" +
       "age_id\030\001 \001(\0132\".dstore.engine.values.inte" +
-      "gerValue\022\031\n\020language_id_null\030\351\007 \001(\010\"\263\002\n\010" +
+      "gerValue\022\031\n\020language_id_null\030\351\007 \001(\010\"\264\002\n\010" +
       "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
       "error.Error\022/\n\007message\030\003 \003(\0132\036.dstore.en" +
       "gine.message.Message\022?\n\003row\030\004 \003(\01322.dsto",
       "re.engine.mi_GetLanguageIcons_Pu.Respons" +
-      "e.Row\032\211\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0227\n\rlangua" +
-      "ge_icon\030\221N \001(\0132\037.dstore.engine.values.by" +
-      "teValue\0228\n\013language_id\030\222N \001(\0132\".dstore.e" +
-      "ngine.values.integerValueB\030\n\026io.dstore.e" +
-      "ngine.procsb\006proto3"
+      "e.Row\032\212\001\n\003Row\022\017\n\006row_id\030\220N \001(\005\0228\n\rlangua" +
+      "ge_icon\030\221N \001(\0132 .dstore.engine.values.by" +
+      "tesValue\0228\n\013language_id\030\222N \001(\0132\".dstore." +
+      "engine.values.integerValueB\030\n\026io.dstore." +
+      "engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

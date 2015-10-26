@@ -2376,7 +2376,7 @@ public final class ImGetBinariesForValues {
       io.dstore.engine.Values.integerValueOrBuilder getValueIdOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
@@ -2384,24 +2384,24 @@ public final class ImGetBinariesForValues {
        */
       boolean hasThumbnailCode();
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
        * </pre>
        */
-      io.dstore.engine.Values.byteValue getThumbnailCode();
+      io.dstore.engine.Values.bytesValue getThumbnailCode();
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
        * </pre>
        */
-      io.dstore.engine.Values.byteValueOrBuilder getThumbnailCodeOrBuilder();
+      io.dstore.engine.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
@@ -2409,21 +2409,21 @@ public final class ImGetBinariesForValues {
        */
       boolean hasBinaryCode();
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
        * </pre>
        */
-      io.dstore.engine.Values.byteValue getBinaryCode();
+      io.dstore.engine.Values.bytesValue getBinaryCode();
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
        * </pre>
        */
-      io.dstore.engine.Values.byteValueOrBuilder getBinaryCodeOrBuilder();
+      io.dstore.engine.Values.bytesValueOrBuilder getBinaryCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.im_GetBinariesForValues.Response.Row}
@@ -2548,11 +2548,11 @@ public final class ImGetBinariesForValues {
                 break;
               }
               case 80058: {
-                io.dstore.engine.Values.byteValue.Builder subBuilder = null;
+                io.dstore.engine.Values.bytesValue.Builder subBuilder = null;
                 if (thumbnailCode_ != null) {
                   subBuilder = thumbnailCode_.toBuilder();
                 }
-                thumbnailCode_ = input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
+                thumbnailCode_ = input.readMessage(io.dstore.engine.Values.bytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(thumbnailCode_);
                   thumbnailCode_ = subBuilder.buildPartial();
@@ -2561,11 +2561,11 @@ public final class ImGetBinariesForValues {
                 break;
               }
               case 80066: {
-                io.dstore.engine.Values.byteValue.Builder subBuilder = null;
+                io.dstore.engine.Values.bytesValue.Builder subBuilder = null;
                 if (binaryCode_ != null) {
                   subBuilder = binaryCode_.toBuilder();
                 }
-                binaryCode_ = input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
+                binaryCode_ = input.readMessage(io.dstore.engine.Values.bytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCode_);
                   binaryCode_ = subBuilder.buildPartial();
@@ -2805,9 +2805,9 @@ public final class ImGetBinariesForValues {
       }
 
       public static final int THUMBNAIL_CODE_FIELD_NUMBER = 10007;
-      private io.dstore.engine.Values.byteValue thumbnailCode_;
+      private io.dstore.engine.Values.bytesValue thumbnailCode_;
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
@@ -2817,30 +2817,30 @@ public final class ImGetBinariesForValues {
         return thumbnailCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
        * </pre>
        */
-      public io.dstore.engine.Values.byteValue getThumbnailCode() {
-        return thumbnailCode_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : thumbnailCode_;
+      public io.dstore.engine.Values.bytesValue getThumbnailCode() {
+        return thumbnailCode_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+       * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
        * </pre>
        */
-      public io.dstore.engine.Values.byteValueOrBuilder getThumbnailCodeOrBuilder() {
+      public io.dstore.engine.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
         return getThumbnailCode();
       }
 
       public static final int BINARY_CODE_FIELD_NUMBER = 10008;
-      private io.dstore.engine.Values.byteValue binaryCode_;
+      private io.dstore.engine.Values.bytesValue binaryCode_;
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
@@ -2850,23 +2850,23 @@ public final class ImGetBinariesForValues {
         return binaryCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
        * </pre>
        */
-      public io.dstore.engine.Values.byteValue getBinaryCode() {
-        return binaryCode_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : binaryCode_;
+      public io.dstore.engine.Values.bytesValue getBinaryCode() {
+        return binaryCode_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : binaryCode_;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
        *
        * <pre>
        * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
        * </pre>
        */
-      public io.dstore.engine.Values.byteValueOrBuilder getBinaryCodeOrBuilder() {
+      public io.dstore.engine.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
         return getBinaryCode();
       }
 
@@ -4188,11 +4188,11 @@ public final class ImGetBinariesForValues {
           return valueIdBuilder_;
         }
 
-        private io.dstore.engine.Values.byteValue thumbnailCode_ = null;
+        private io.dstore.engine.Values.bytesValue thumbnailCode_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> thumbnailCodeBuilder_;
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> thumbnailCodeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
@@ -4202,27 +4202,27 @@ public final class ImGetBinariesForValues {
           return thumbnailCodeBuilder_ != null || thumbnailCode_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue getThumbnailCode() {
+        public io.dstore.engine.Values.bytesValue getThumbnailCode() {
           if (thumbnailCodeBuilder_ == null) {
-            return thumbnailCode_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : thumbnailCode_;
+            return thumbnailCode_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
           } else {
             return thumbnailCodeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
          * </pre>
          */
-        public Builder setThumbnailCode(io.dstore.engine.Values.byteValue value) {
+        public Builder setThumbnailCode(io.dstore.engine.Values.bytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4236,14 +4236,14 @@ public final class ImGetBinariesForValues {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
          * </pre>
          */
         public Builder setThumbnailCode(
-            io.dstore.engine.Values.byteValue.Builder builderForValue) {
+            io.dstore.engine.Values.bytesValue.Builder builderForValue) {
           if (thumbnailCodeBuilder_ == null) {
             thumbnailCode_ = builderForValue.build();
             onChanged();
@@ -4254,17 +4254,17 @@ public final class ImGetBinariesForValues {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
          * </pre>
          */
-        public Builder mergeThumbnailCode(io.dstore.engine.Values.byteValue value) {
+        public Builder mergeThumbnailCode(io.dstore.engine.Values.bytesValue value) {
           if (thumbnailCodeBuilder_ == null) {
             if (thumbnailCode_ != null) {
               thumbnailCode_ =
-                io.dstore.engine.Values.byteValue.newBuilder(thumbnailCode_).mergeFrom(value).buildPartial();
+                io.dstore.engine.Values.bytesValue.newBuilder(thumbnailCode_).mergeFrom(value).buildPartial();
             } else {
               thumbnailCode_ = value;
             }
@@ -4276,7 +4276,7 @@ public final class ImGetBinariesForValues {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
@@ -4294,45 +4294,45 @@ public final class ImGetBinariesForValues {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue.Builder getThumbnailCodeBuilder() {
+        public io.dstore.engine.Values.bytesValue.Builder getThumbnailCodeBuilder() {
           
           onChanged();
           return getThumbnailCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
          * </pre>
          */
-        public io.dstore.engine.Values.byteValueOrBuilder getThumbnailCodeOrBuilder() {
+        public io.dstore.engine.Values.bytesValueOrBuilder getThumbnailCodeOrBuilder() {
           if (thumbnailCodeBuilder_ != null) {
             return thumbnailCodeBuilder_.getMessageOrBuilder();
           } else {
             return thumbnailCode_ == null ?
-                io.dstore.engine.Values.byteValue.getDefaultInstance() : thumbnailCode_;
+                io.dstore.engine.Values.bytesValue.getDefaultInstance() : thumbnailCode_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue thumbnail_code = 10007;</code>
+         * <code>optional .dstore.engine.values.bytesValue thumbnail_code = 10007;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code des "Thumbnails" (ein kleines Bild, das das eigentliche Binärobjekt symbolisieren soll). Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "2" oder "3" hat.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> 
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> 
             getThumbnailCodeFieldBuilder() {
           if (thumbnailCodeBuilder_ == null) {
             thumbnailCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder>(
+                io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder>(
                     getThumbnailCode(),
                     getParentForChildren(),
                     isClean());
@@ -4341,11 +4341,11 @@ public final class ImGetBinariesForValues {
           return thumbnailCodeBuilder_;
         }
 
-        private io.dstore.engine.Values.byteValue binaryCode_ = null;
+        private io.dstore.engine.Values.bytesValue binaryCode_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> binaryCodeBuilder_;
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> binaryCodeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
@@ -4355,27 +4355,27 @@ public final class ImGetBinariesForValues {
           return binaryCodeBuilder_ != null || binaryCode_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue getBinaryCode() {
+        public io.dstore.engine.Values.bytesValue getBinaryCode() {
           if (binaryCodeBuilder_ == null) {
-            return binaryCode_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : binaryCode_;
+            return binaryCode_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : binaryCode_;
           } else {
             return binaryCodeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
          * </pre>
          */
-        public Builder setBinaryCode(io.dstore.engine.Values.byteValue value) {
+        public Builder setBinaryCode(io.dstore.engine.Values.bytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4389,14 +4389,14 @@ public final class ImGetBinariesForValues {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
          * </pre>
          */
         public Builder setBinaryCode(
-            io.dstore.engine.Values.byteValue.Builder builderForValue) {
+            io.dstore.engine.Values.bytesValue.Builder builderForValue) {
           if (binaryCodeBuilder_ == null) {
             binaryCode_ = builderForValue.build();
             onChanged();
@@ -4407,17 +4407,17 @@ public final class ImGetBinariesForValues {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
          * </pre>
          */
-        public Builder mergeBinaryCode(io.dstore.engine.Values.byteValue value) {
+        public Builder mergeBinaryCode(io.dstore.engine.Values.bytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (binaryCode_ != null) {
               binaryCode_ =
-                io.dstore.engine.Values.byteValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
+                io.dstore.engine.Values.bytesValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
             } else {
               binaryCode_ = value;
             }
@@ -4429,7 +4429,7 @@ public final class ImGetBinariesForValues {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
@@ -4447,45 +4447,45 @@ public final class ImGetBinariesForValues {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue.Builder getBinaryCodeBuilder() {
+        public io.dstore.engine.Values.bytesValue.Builder getBinaryCodeBuilder() {
           
           onChanged();
           return getBinaryCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
          * </pre>
          */
-        public io.dstore.engine.Values.byteValueOrBuilder getBinaryCodeOrBuilder() {
+        public io.dstore.engine.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
           if (binaryCodeBuilder_ != null) {
             return binaryCodeBuilder_.getMessageOrBuilder();
           } else {
             return binaryCode_ == null ?
-                io.dstore.engine.Values.byteValue.getDefaultInstance() : binaryCode_;
+                io.dstore.engine.Values.bytesValue.getDefaultInstance() : binaryCode_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 10008;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 10008;</code>
          *
          * <pre>
          * Der zur "BinaryCodeID" zugehörige Code, also quasi das Binärobjekt selbst. Standardmäßig "NULL", es wird hier nur etwas zurückgegeben, wenn "&#64;IncludeBinaryCode" den Wert "1" oder "3" hat.
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> 
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> 
             getBinaryCodeFieldBuilder() {
           if (binaryCodeBuilder_ == null) {
             binaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder>(
+                io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder>(
                     getBinaryCode(),
                     getParentForChildren(),
                     isClean());
@@ -5751,11 +5751,11 @@ public final class ImGetBinariesForValues {
       "ue_id_null\030\356\007 \001(\010\022D\n\030binary_characterist",
       "ic_id\030\007 \001(\0132\".dstore.engine.values.integ" +
       "erValue\022&\n\035binary_characteristic_id_null" +
-      "\030\357\007 \001(\010\"\235\005\n\010Response\022)\n\005error\030\001 \001(\0132\032.ds" +
+      "\030\357\007 \001(\010\"\237\005\n\010Response\022)\n\005error\030\001 \001(\0132\032.ds" +
       "tore.engine.error.Error\022/\n\007message\030\003 \003(\013" +
       "2\036.dstore.engine.message.Message\022@\n\003row\030" +
       "\004 \003(\01323.dstore.engine.im_GetBinariesForV" +
-      "alues.Response.Row\032\362\003\n\003Row\022\017\n\006row_id\030\220N " +
+      "alues.Response.Row\032\364\003\n\003Row\022\017\n\006row_id\030\220N " +
       "\001(\005\022<\n\017binary_value_id\030\221N \001(\0132\".dstore.e" +
       "ngine.values.integerValue\022?\n\023binary_char" +
       "ac_value\030\222N \001(\0132!.dstore.engine.values.s",
@@ -5765,10 +5765,10 @@ public final class ImGetBinariesForValues {
       ".values.integerValue\0221\n\005value\030\225N \001(\0132!.d" +
       "store.engine.values.stringValue\0225\n\010value" +
       "_id\030\226N \001(\0132\".dstore.engine.values.intege" +
-      "rValue\0228\n\016thumbnail_code\030\227N \001(\0132\037.dstore" +
-      ".engine.values.byteValue\0225\n\013binary_code\030" +
-      "\230N \001(\0132\037.dstore.engine.values.byteValueB" +
-      "\030\n\026io.dstore.engine.procsb\006proto3"
+      "rValue\0229\n\016thumbnail_code\030\227N \001(\0132 .dstore" +
+      ".engine.values.bytesValue\0226\n\013binary_code" +
+      "\030\230N \001(\0132 .dstore.engine.values.bytesValu" +
+      "eB\030\n\026io.dstore.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

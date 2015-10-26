@@ -2670,7 +2670,7 @@ public final class FoGetPostingBinariesPu {
       io.dstore.engine.Values.timestampValueOrBuilder getLastModifiedAtDateAndTimeOrBuilder();
 
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
        *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
@@ -2678,21 +2678,21 @@ public final class FoGetPostingBinariesPu {
        */
       boolean hasBinaryCode();
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
        *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        */
-      io.dstore.engine.Values.byteValue getBinaryCode();
+      io.dstore.engine.Values.bytesValue getBinaryCode();
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
        *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        */
-      io.dstore.engine.Values.byteValueOrBuilder getBinaryCodeOrBuilder();
+      io.dstore.engine.Values.bytesValueOrBuilder getBinaryCodeOrBuilder();
     }
     /**
      * Protobuf type {@code dstore.engine.fo_GetPostingBinaries_Pu.Response.Row}
@@ -2843,11 +2843,11 @@ public final class FoGetPostingBinariesPu {
                 break;
               }
               case 160074: {
-                io.dstore.engine.Values.byteValue.Builder subBuilder = null;
+                io.dstore.engine.Values.bytesValue.Builder subBuilder = null;
                 if (binaryCode_ != null) {
                   subBuilder = binaryCode_.toBuilder();
                 }
-                binaryCode_ = input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
+                binaryCode_ = input.readMessage(io.dstore.engine.Values.bytesValue.parser(), extensionRegistry);
                 if (subBuilder != null) {
                   subBuilder.mergeFrom(binaryCode_);
                   binaryCode_ = subBuilder.buildPartial();
@@ -3153,9 +3153,9 @@ public final class FoGetPostingBinariesPu {
       }
 
       public static final int BINARY_CODE_FIELD_NUMBER = 20009;
-      private io.dstore.engine.Values.byteValue binaryCode_;
+      private io.dstore.engine.Values.bytesValue binaryCode_;
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
        *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
@@ -3165,23 +3165,23 @@ public final class FoGetPostingBinariesPu {
         return binaryCode_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
        *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        */
-      public io.dstore.engine.Values.byteValue getBinaryCode() {
-        return binaryCode_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : binaryCode_;
+      public io.dstore.engine.Values.bytesValue getBinaryCode() {
+        return binaryCode_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : binaryCode_;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+       * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
        *
        * <pre>
        * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
        * </pre>
        */
-      public io.dstore.engine.Values.byteValueOrBuilder getBinaryCodeOrBuilder() {
+      public io.dstore.engine.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
         return getBinaryCode();
       }
 
@@ -4830,11 +4830,11 @@ public final class FoGetPostingBinariesPu {
           return lastModifiedAtDateAndTimeBuilder_;
         }
 
-        private io.dstore.engine.Values.byteValue binaryCode_ = null;
+        private io.dstore.engine.Values.bytesValue binaryCode_ = null;
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> binaryCodeBuilder_;
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> binaryCodeBuilder_;
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
          *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
@@ -4844,27 +4844,27 @@ public final class FoGetPostingBinariesPu {
           return binaryCodeBuilder_ != null || binaryCode_ != null;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
          *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue getBinaryCode() {
+        public io.dstore.engine.Values.bytesValue getBinaryCode() {
           if (binaryCodeBuilder_ == null) {
-            return binaryCode_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : binaryCode_;
+            return binaryCode_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : binaryCode_;
           } else {
             return binaryCodeBuilder_.getMessage();
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
          *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          */
-        public Builder setBinaryCode(io.dstore.engine.Values.byteValue value) {
+        public Builder setBinaryCode(io.dstore.engine.Values.bytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (value == null) {
               throw new NullPointerException();
@@ -4878,14 +4878,14 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
          *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          */
         public Builder setBinaryCode(
-            io.dstore.engine.Values.byteValue.Builder builderForValue) {
+            io.dstore.engine.Values.bytesValue.Builder builderForValue) {
           if (binaryCodeBuilder_ == null) {
             binaryCode_ = builderForValue.build();
             onChanged();
@@ -4896,17 +4896,17 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
          *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          */
-        public Builder mergeBinaryCode(io.dstore.engine.Values.byteValue value) {
+        public Builder mergeBinaryCode(io.dstore.engine.Values.bytesValue value) {
           if (binaryCodeBuilder_ == null) {
             if (binaryCode_ != null) {
               binaryCode_ =
-                io.dstore.engine.Values.byteValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
+                io.dstore.engine.Values.bytesValue.newBuilder(binaryCode_).mergeFrom(value).buildPartial();
             } else {
               binaryCode_ = value;
             }
@@ -4918,7 +4918,7 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
          *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
@@ -4936,45 +4936,45 @@ public final class FoGetPostingBinariesPu {
           return this;
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
          *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          */
-        public io.dstore.engine.Values.byteValue.Builder getBinaryCodeBuilder() {
+        public io.dstore.engine.Values.bytesValue.Builder getBinaryCodeBuilder() {
           
           onChanged();
           return getBinaryCodeFieldBuilder().getBuilder();
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
          *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          */
-        public io.dstore.engine.Values.byteValueOrBuilder getBinaryCodeOrBuilder() {
+        public io.dstore.engine.Values.bytesValueOrBuilder getBinaryCodeOrBuilder() {
           if (binaryCodeBuilder_ != null) {
             return binaryCodeBuilder_.getMessageOrBuilder();
           } else {
             return binaryCode_ == null ?
-                io.dstore.engine.Values.byteValue.getDefaultInstance() : binaryCode_;
+                io.dstore.engine.Values.bytesValue.getDefaultInstance() : binaryCode_;
           }
         }
         /**
-         * <code>optional .dstore.engine.values.byteValue binary_code = 20009;</code>
+         * <code>optional .dstore.engine.values.bytesValue binary_code = 20009;</code>
          *
          * <pre>
          * Der zum "SortNo"ten Binärobjekt zugehörige Code, also quasi das Binärobjekt selbst
          * </pre>
          */
         private com.google.protobuf.SingleFieldBuilder<
-            io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> 
+            io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> 
             getBinaryCodeFieldBuilder() {
           if (binaryCodeBuilder_ == null) {
             binaryCodeBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-                io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder>(
+                io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder>(
                     getBinaryCode(),
                     getParentForChildren(),
                     isClean());
@@ -6241,12 +6241,12 @@ public final class FoGetPostingBinariesPu {
       "tringValue\022\'\n\036posting_binary_identifier_" +
       "null\030\357\007 \001(\010\022B\n\027separator_in_ident_vals\030\010" +
       " \001(\0132!.dstore.engine.values.stringValue\022" +
-      "%\n\034separator_in_ident_vals_null\030\360\007 \001(\010\"\376" +
+      "%\n\034separator_in_ident_vals_null\030\360\007 \001(\010\"\377" +
       "\005\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engi" +
       "ne.error.Error\022/\n\007message\030\003 \003(\0132\036.dstore" +
       ".engine.message.Message\022A\n\003row\030\004 \003(\01324.d" +
       "store.engine.fo_GetPostingBinaries_Pu.Re" +
-      "sponse.Row\032\322\004\n\003Row\022\017\n\006row_id\030\220N \001(\005\0227\n\013d" +
+      "sponse.Row\032\323\004\n\003Row\022\017\n\006row_id\030\220N \001(\005\0227\n\013d" +
       "escription\030\221N \001(\0132!.dstore.engine.values",
       ".stringValue\0228\n\014content_type\030\222N \001(\0132!.ds" +
       "tore.engine.values.stringValue\022E\n\031postin" +
@@ -6259,10 +6259,10 @@ public final class FoGetPostingBinariesPu {
       "values.stringValue\0224\n\007sort_no\030\227N \001(\0132\".d" +
       "store.engine.values.integerValue\022M\n\036last",
       "_modified_at_date_and_time\030\230N \001(\0132$.dsto" +
-      "re.engine.values.timestampValue\0226\n\013binar" +
-      "y_code\030\251\234\001 \001(\0132\037.dstore.engine.values.by" +
-      "teValueB\030\n\026io.dstore.engine.procsb\006proto" +
-      "3"
+      "re.engine.values.timestampValue\0227\n\013binar" +
+      "y_code\030\251\234\001 \001(\0132 .dstore.engine.values.by" +
+      "tesValueB\030\n\026io.dstore.engine.procsb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

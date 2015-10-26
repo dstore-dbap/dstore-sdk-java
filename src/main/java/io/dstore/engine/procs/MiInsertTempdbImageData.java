@@ -13,17 +13,17 @@ public final class MiInsertTempdbImageData {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+     * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
      */
     boolean hasData();
     /**
-     * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+     * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
      */
-    io.dstore.engine.Values.byteValue getData();
+    io.dstore.engine.Values.bytesValue getData();
     /**
-     * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+     * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
      */
-    io.dstore.engine.Values.byteValueOrBuilder getDataOrBuilder();
+    io.dstore.engine.Values.bytesValueOrBuilder getDataOrBuilder();
 
     /**
      * <code>optional bool data_null = 1001;</code>
@@ -127,11 +127,11 @@ public final class MiInsertTempdbImageData {
               break;
             }
             case 10: {
-              io.dstore.engine.Values.byteValue.Builder subBuilder = null;
+              io.dstore.engine.Values.bytesValue.Builder subBuilder = null;
               if (data_ != null) {
                 subBuilder = data_.toBuilder();
               }
-              data_ = input.readMessage(io.dstore.engine.Values.byteValue.parser(), extensionRegistry);
+              data_ = input.readMessage(io.dstore.engine.Values.bytesValue.parser(), extensionRegistry);
               if (subBuilder != null) {
                 subBuilder.mergeFrom(data_);
                 data_ = subBuilder.buildPartial();
@@ -223,23 +223,23 @@ public final class MiInsertTempdbImageData {
     }
 
     public static final int DATA_FIELD_NUMBER = 1;
-    private io.dstore.engine.Values.byteValue data_;
+    private io.dstore.engine.Values.bytesValue data_;
     /**
-     * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+     * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
      */
     public boolean hasData() {
       return data_ != null;
     }
     /**
-     * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+     * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
      */
-    public io.dstore.engine.Values.byteValue getData() {
-      return data_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : data_;
+    public io.dstore.engine.Values.bytesValue getData() {
+      return data_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : data_;
     }
     /**
-     * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+     * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
      */
-    public io.dstore.engine.Values.byteValueOrBuilder getDataOrBuilder() {
+    public io.dstore.engine.Values.bytesValueOrBuilder getDataOrBuilder() {
       return getData();
     }
 
@@ -671,29 +671,29 @@ public final class MiInsertTempdbImageData {
         return this;
       }
 
-      private io.dstore.engine.Values.byteValue data_ = null;
+      private io.dstore.engine.Values.bytesValue data_ = null;
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> dataBuilder_;
+          io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> dataBuilder_;
       /**
-       * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+       * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
        */
       public boolean hasData() {
         return dataBuilder_ != null || data_ != null;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+       * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
        */
-      public io.dstore.engine.Values.byteValue getData() {
+      public io.dstore.engine.Values.bytesValue getData() {
         if (dataBuilder_ == null) {
-          return data_ == null ? io.dstore.engine.Values.byteValue.getDefaultInstance() : data_;
+          return data_ == null ? io.dstore.engine.Values.bytesValue.getDefaultInstance() : data_;
         } else {
           return dataBuilder_.getMessage();
         }
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+       * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
        */
-      public Builder setData(io.dstore.engine.Values.byteValue value) {
+      public Builder setData(io.dstore.engine.Values.bytesValue value) {
         if (dataBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -707,10 +707,10 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+       * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
        */
       public Builder setData(
-          io.dstore.engine.Values.byteValue.Builder builderForValue) {
+          io.dstore.engine.Values.bytesValue.Builder builderForValue) {
         if (dataBuilder_ == null) {
           data_ = builderForValue.build();
           onChanged();
@@ -721,13 +721,13 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+       * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
        */
-      public Builder mergeData(io.dstore.engine.Values.byteValue value) {
+      public Builder mergeData(io.dstore.engine.Values.bytesValue value) {
         if (dataBuilder_ == null) {
           if (data_ != null) {
             data_ =
-              io.dstore.engine.Values.byteValue.newBuilder(data_).mergeFrom(value).buildPartial();
+              io.dstore.engine.Values.bytesValue.newBuilder(data_).mergeFrom(value).buildPartial();
           } else {
             data_ = value;
           }
@@ -739,7 +739,7 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+       * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
        */
       public Builder clearData() {
         if (dataBuilder_ == null) {
@@ -753,33 +753,33 @@ public final class MiInsertTempdbImageData {
         return this;
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+       * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
        */
-      public io.dstore.engine.Values.byteValue.Builder getDataBuilder() {
+      public io.dstore.engine.Values.bytesValue.Builder getDataBuilder() {
         
         onChanged();
         return getDataFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+       * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
        */
-      public io.dstore.engine.Values.byteValueOrBuilder getDataOrBuilder() {
+      public io.dstore.engine.Values.bytesValueOrBuilder getDataOrBuilder() {
         if (dataBuilder_ != null) {
           return dataBuilder_.getMessageOrBuilder();
         } else {
           return data_ == null ?
-              io.dstore.engine.Values.byteValue.getDefaultInstance() : data_;
+              io.dstore.engine.Values.bytesValue.getDefaultInstance() : data_;
         }
       }
       /**
-       * <code>optional .dstore.engine.values.byteValue data = 1;</code>
+       * <code>optional .dstore.engine.values.bytesValue data = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder> 
+          io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder> 
           getDataFieldBuilder() {
         if (dataBuilder_ == null) {
           dataBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.engine.Values.byteValue, io.dstore.engine.Values.byteValue.Builder, io.dstore.engine.Values.byteValueOrBuilder>(
+              io.dstore.engine.Values.bytesValue, io.dstore.engine.Values.bytesValue.Builder, io.dstore.engine.Values.bytesValueOrBuilder>(
                   getData(),
                   getParentForChildren(),
                   isClean());
@@ -3041,20 +3041,20 @@ public final class MiInsertTempdbImageData {
       "db_ImageData.proto\022\'dstore.engine.mi_Ins" +
       "ertTempdb_ImageData\032\032dstore/engine/value" +
       "s.proto\032\031dstore/engine/error.proto\032\033dsto" +
-      "re/engine/message.proto\"\256\002\n\nParameters\022-" +
-      "\n\004data\030\001 \001(\0132\037.dstore.engine.values.byte" +
-      "Value\022\022\n\tdata_null\030\351\007 \001(\010\0223\n\007sort_no\030\002 \001" +
-      "(\0132\".dstore.engine.values.integerValue\022\025" +
-      "\n\014sort_no_null\030\352\007 \001(\010\0221\n\006format\030\003 \001(\0132!." +
-      "dstore.engine.values.stringValue\022\024\n\013form",
-      "at_null\030\353\007 \001(\010\0222\n\006delete\030\004 \001(\0132\".dstore." +
-      "engine.values.booleanValue\022\024\n\013delete_nul" +
-      "l\030\354\007 \001(\010\"\302\001\n\010Response\022)\n\005error\030\001 \001(\0132\032.d" +
-      "store.engine.error.Error\022/\n\007message\030\003 \003(" +
-      "\0132\036.dstore.engine.message.Message\022B\n\003row" +
-      "\030\004 \003(\01325.dstore.engine.mi_InsertTempdb_I" +
-      "mageData.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220" +
-      "N \001(\005B\030\n\026io.dstore.engine.procsb\006proto3"
+      "re/engine/message.proto\"\257\002\n\nParameters\022." +
+      "\n\004data\030\001 \001(\0132 .dstore.engine.values.byte" +
+      "sValue\022\022\n\tdata_null\030\351\007 \001(\010\0223\n\007sort_no\030\002 " +
+      "\001(\0132\".dstore.engine.values.integerValue\022" +
+      "\025\n\014sort_no_null\030\352\007 \001(\010\0221\n\006format\030\003 \001(\0132!" +
+      ".dstore.engine.values.stringValue\022\024\n\013for",
+      "mat_null\030\353\007 \001(\010\0222\n\006delete\030\004 \001(\0132\".dstore" +
+      ".engine.values.booleanValue\022\024\n\013delete_nu" +
+      "ll\030\354\007 \001(\010\"\302\001\n\010Response\022)\n\005error\030\001 \001(\0132\032." +
+      "dstore.engine.error.Error\022/\n\007message\030\003 \003" +
+      "(\0132\036.dstore.engine.message.Message\022B\n\003ro" +
+      "w\030\004 \003(\01325.dstore.engine.mi_InsertTempdb_" +
+      "ImageData.Response.Row\032\026\n\003Row\022\017\n\006row_id\030" +
+      "\220N \001(\005B\030\n\026io.dstore.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -21,6 +21,10 @@ public final class EngineError {
      * <code>RETURN_STATUS_NOT_ZERO = 1;</code>
      */
     RETURN_STATUS_NOT_ZERO(1, 1),
+    /**
+     * <code>SQL_EXCEPTION = 2;</code>
+     */
+    SQL_EXCEPTION(2, 2),
     UNRECOGNIZED(-1, -1),
     ;
 
@@ -32,6 +36,10 @@ public final class EngineError {
      * <code>RETURN_STATUS_NOT_ZERO = 1;</code>
      */
     public static final int RETURN_STATUS_NOT_ZERO_VALUE = 1;
+    /**
+     * <code>SQL_EXCEPTION = 2;</code>
+     */
+    public static final int SQL_EXCEPTION_VALUE = 2;
 
 
     public final int getNumber() {
@@ -46,6 +54,7 @@ public final class EngineError {
       switch (value) {
         case 0: return UNKOWN;
         case 1: return RETURN_STATUS_NOT_ZERO;
+        case 2: return SQL_EXCEPTION;
         default: return null;
       }
     }
@@ -847,9 +856,10 @@ public final class EngineError {
       "\n\031dstore/engine/error.proto\022\023dstore.engi" +
       "ne.error\"a\n\005Error\022(\n\004type\030\001 \001(\0162\032.dstore" +
       ".engine.error.Types\022\014\n\004code\030\002 \001(\005\022\017\n\007mes" +
-      "sage\030\003 \001(\t\022\017\n\007details\030\004 \001(\t*/\n\005Types\022\n\n\006" +
-      "UNKOWN\020\000\022\032\n\026RETURN_STATUS_NOT_ZERO\020\001B\037\n\020" +
-      "io.dstore.engineB\013EngineErrorb\006proto3"
+      "sage\030\003 \001(\t\022\017\n\007details\030\004 \001(\t*B\n\005Types\022\n\n\006" +
+      "UNKOWN\020\000\022\032\n\026RETURN_STATUS_NOT_ZERO\020\001\022\021\n\r" +
+      "SQL_EXCEPTION\020\002B\037\n\020io.dstore.engineB\013Eng" +
+      "ineErrorb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

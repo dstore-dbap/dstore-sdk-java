@@ -1,8 +1,11 @@
 package io.dstore.helper;
 
+import com.google.protobuf.ByteString;
 import com.google.protobuf.util.TimeUtil;
 import io.dstore.engine.Values;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -39,6 +42,73 @@ public class ValuesHelper {
         return Values.timestampValue.newBuilder().setValue(TimeUtil.createTimestampFromMillis(value.getTime())).build();
     }
 
-    //TODO ByteValues
+    public static Values.bytesValue value(byte[] value) {
+        return Values.bytesValue.newBuilder().setValue(ByteString.copyFrom((byte[])value)).build();
+    }
+
+    public static Date toDate (Values.timestampValue value) {
+        return new Date(TimeUtil.toMillis(value.getValue()));
+    }
+
+    public static BigDecimal toBigDecimal (Values.decimalValue value) {
+        return new BigDecimal(value.getValue());
+    }
+
+    public static byte[] toByteArray (Values.bytesValue value) {
+        return value.getValue().toByteArray();
+    }
+
+    public static Object convertToObject (Values.Value value) {
+
+        switch (value.getValueCase()) {
+            case BOOLEAN_VALUE:
+                return(value.getBooleanValue().getValue());
+            case STRING_VALUE:
+                return(value.getStringValue().getValue());
+            case TIMESTAMP_VALUE:
+                return(ValuesHelper.toDate(value.getTimestampValue()));
+            case LONG_VALUE:
+                return(value.getLongValue().getValue());
+            case INTEGER_VALUE:
+                return(value.getIntegerValue().getValue());
+            case DECIMAL_VALUE:
+                return(ValuesHelper.toBigDecimal(value.getDecimalValue()));
+            case BYTE_VALUE:
+                return(ValuesHelper.toByteArray(value.getByteValue()));
+            case DOUBLE_VALUE:
+                return(value.getDoubleValue().getValue());
+            case VALUE_NOT_SET:
+                return null;
+            default:
+                throw new IllegalStateException("Unkown value case " + value.getValueCase().toString());
+        }
+    }
+
+    public static Values.Value convertToValue ( Object value ) throws IOException {
+
+        Values.Value.Builder valueBuilder = Values.Value.newBuilder();
+
+        if (value instanceof String)
+            valueBuilder.setStringValue(ValuesHelper.value((String) value));
+        else if (value instanceof Integer)
+            valueBuilder.setIntegerValue(ValuesHelper.value((Integer) value));
+        else if (value instanceof Date)
+            valueBuilder.setTimestampValue(ValuesHelper.value((Date) value));
+        else if (value instanceof BigDecimal)
+            valueBuilder.setDecimalValue(ValuesHelper.value((BigDecimal) value));
+        else if (value instanceof Boolean)
+            valueBuilder.setBooleanValue(ValuesHelper.value((Boolean) value));
+        else if (value instanceof Double)
+            valueBuilder.setDoubleValue(ValuesHelper.value((Double) value));
+        else if (value instanceof Long)
+            valueBuilder.setLongValue(ValuesHelper.value((Long) value));
+        else if (value instanceof InputStream)
+                valueBuilder.setByteValue(Values.bytesValue.newBuilder().setValue(ByteString.readFrom((InputStream) value)));
+        else if (value == null) {}
+        else
+            throw new RuntimeException("Datatype for  unimplemented");
+
+        return valueBuilder.build();
+    }
 
 }
