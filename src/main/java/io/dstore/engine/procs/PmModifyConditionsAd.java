@@ -1806,6 +1806,30 @@ public final class PmModifyConditionsAd {
     io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
 
     /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
+        getMetaInformationList();
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index);
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    int getMetaInformationCount();
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+        getMetaInformationOrBuilderList();
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+        int index);
+
+    /**
      * <code>repeated .dstore.engine.message.Message message = 3;</code>
      */
     java.util.List<io.dstore.engine.ProcedureMessage.Message> 
@@ -1885,6 +1909,7 @@ public final class PmModifyConditionsAd {
       super(builder);
     }
     private Response() {
+      metaInformation_ = java.util.Collections.emptyList();
       message_ = java.util.Collections.emptyList();
       row_ = java.util.Collections.emptyList();
     }
@@ -1926,18 +1951,26 @@ public final class PmModifyConditionsAd {
 
               break;
             }
-            case 26: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
+                metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000002;
+              }
+              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              break;
+            }
+            case 26: {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+                message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
+                mutable_bitField0_ |= 0x00000004;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.PmModifyConditionsAd.Response.Row>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000008;
               }
               row_.add(input.readMessage(io.dstore.engine.procs.PmModifyConditionsAd.Response.Row.parser(), extensionRegistry));
               break;
@@ -1952,9 +1985,12 @@ public final class PmModifyConditionsAd {
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
         if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-          message_ = java.util.Collections.unmodifiableList(message_);
+          metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
         if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+          message_ = java.util.Collections.unmodifiableList(message_);
+        }
+        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
         makeExtensionsImmutable();
@@ -2369,6 +2405,41 @@ public final class PmModifyConditionsAd {
       return getError();
     }
 
+    public static final int META_INFORMATION_FIELD_NUMBER = 2;
+    private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+      return metaInformation_;
+    }
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+        getMetaInformationOrBuilderList() {
+      return metaInformation_;
+    }
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    public int getMetaInformationCount() {
+      return metaInformation_.size();
+    }
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+      return metaInformation_.get(index);
+    }
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+        int index) {
+      return metaInformation_.get(index);
+    }
+
     public static final int MESSAGE_FIELD_NUMBER = 3;
     private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_;
     /**
@@ -2474,6 +2545,9 @@ public final class PmModifyConditionsAd {
       if (error_ != null) {
         output.writeMessage(1, getError());
       }
+      for (int i = 0; i < metaInformation_.size(); i++) {
+        output.writeMessage(2, metaInformation_.get(i));
+      }
       for (int i = 0; i < message_.size(); i++) {
         output.writeMessage(3, message_.get(i));
       }
@@ -2490,6 +2564,10 @@ public final class PmModifyConditionsAd {
       if (error_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getError());
+      }
+      for (int i = 0; i < metaInformation_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, metaInformation_.get(i));
       }
       for (int i = 0; i < message_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -2606,6 +2684,7 @@ public final class PmModifyConditionsAd {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
         }
@@ -2618,15 +2697,21 @@ public final class PmModifyConditionsAd {
           error_ = null;
           errorBuilder_ = null;
         }
+        if (metaInformationBuilder_ == null) {
+          metaInformation_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        } else {
+          metaInformationBuilder_.clear();
+        }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           messageBuilder_.clear();
         }
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000008);
         } else {
           rowBuilder_.clear();
         }
@@ -2659,19 +2744,28 @@ public final class PmModifyConditionsAd {
         } else {
           result.error_ = errorBuilder_.build();
         }
-        if (messageBuilder_ == null) {
+        if (metaInformationBuilder_ == null) {
           if (((bitField0_ & 0x00000002) == 0x00000002)) {
-            message_ = java.util.Collections.unmodifiableList(message_);
+            metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
             bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.metaInformation_ = metaInformation_;
+        } else {
+          result.metaInformation_ = metaInformationBuilder_.build();
+        }
+        if (messageBuilder_ == null) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+            message_ = java.util.Collections.unmodifiableList(message_);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.message_ = message_;
         } else {
           result.message_ = messageBuilder_.build();
         }
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000008) == 0x00000008)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000008);
           }
           result.row_ = row_;
         } else {
@@ -2696,11 +2790,37 @@ public final class PmModifyConditionsAd {
         if (other.hasError()) {
           mergeError(other.getError());
         }
+        if (metaInformationBuilder_ == null) {
+          if (!other.metaInformation_.isEmpty()) {
+            if (metaInformation_.isEmpty()) {
+              metaInformation_ = other.metaInformation_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+            } else {
+              ensureMetaInformationIsMutable();
+              metaInformation_.addAll(other.metaInformation_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.metaInformation_.isEmpty()) {
+            if (metaInformationBuilder_.isEmpty()) {
+              metaInformationBuilder_.dispose();
+              metaInformationBuilder_ = null;
+              metaInformation_ = other.metaInformation_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+              metaInformationBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getMetaInformationFieldBuilder() : null;
+            } else {
+              metaInformationBuilder_.addAllMessages(other.metaInformation_);
+            }
+          }
+        }
         if (messageBuilder_ == null) {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -2713,7 +2833,7 @@ public final class PmModifyConditionsAd {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000004);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -2726,7 +2846,7 @@ public final class PmModifyConditionsAd {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000008);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -2739,7 +2859,7 @@ public final class PmModifyConditionsAd {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000008);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -2892,12 +3012,252 @@ public final class PmModifyConditionsAd {
         return errorBuilder_;
       }
 
+      private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
+        java.util.Collections.emptyList();
+      private void ensureMetaInformationIsMutable() {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+          metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
+
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+        if (metaInformationBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(metaInformation_);
+        } else {
+          return metaInformationBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public int getMetaInformationCount() {
+        if (metaInformationBuilder_ == null) {
+          return metaInformation_.size();
+        } else {
+          return metaInformationBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+        if (metaInformationBuilder_ == null) {
+          return metaInformation_.get(index);
+        } else {
+          return metaInformationBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder setMetaInformation(
+          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+        if (metaInformationBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMetaInformationIsMutable();
+          metaInformation_.set(index, value);
+          onChanged();
+        } else {
+          metaInformationBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder setMetaInformation(
+          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+        if (metaInformationBuilder_ == null) {
+          ensureMetaInformationIsMutable();
+          metaInformation_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          metaInformationBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder addMetaInformation(io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+        if (metaInformationBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMetaInformationIsMutable();
+          metaInformation_.add(value);
+          onChanged();
+        } else {
+          metaInformationBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder addMetaInformation(
+          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+        if (metaInformationBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMetaInformationIsMutable();
+          metaInformation_.add(index, value);
+          onChanged();
+        } else {
+          metaInformationBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder addMetaInformation(
+          io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+        if (metaInformationBuilder_ == null) {
+          ensureMetaInformationIsMutable();
+          metaInformation_.add(builderForValue.build());
+          onChanged();
+        } else {
+          metaInformationBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder addMetaInformation(
+          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+        if (metaInformationBuilder_ == null) {
+          ensureMetaInformationIsMutable();
+          metaInformation_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          metaInformationBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder addAllMetaInformation(
+          java.lang.Iterable<? extends io.dstore.engine.EngineMetaInformation.MetaInformation> values) {
+        if (metaInformationBuilder_ == null) {
+          ensureMetaInformationIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, metaInformation_);
+          onChanged();
+        } else {
+          metaInformationBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder clearMetaInformation() {
+        if (metaInformationBuilder_ == null) {
+          metaInformation_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+        } else {
+          metaInformationBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder removeMetaInformation(int index) {
+        if (metaInformationBuilder_ == null) {
+          ensureMetaInformationIsMutable();
+          metaInformation_.remove(index);
+          onChanged();
+        } else {
+          metaInformationBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder getMetaInformationBuilder(
+          int index) {
+        return getMetaInformationFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+          int index) {
+        if (metaInformationBuilder_ == null) {
+          return metaInformation_.get(index);  } else {
+          return metaInformationBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+           getMetaInformationOrBuilderList() {
+        if (metaInformationBuilder_ != null) {
+          return metaInformationBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(metaInformation_);
+        }
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder() {
+        return getMetaInformationFieldBuilder().addBuilder(
+            io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder(
+          int index) {
+        return getMetaInformationFieldBuilder().addBuilder(
+            index, io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation.Builder> 
+           getMetaInformationBuilderList() {
+        return getMetaInformationFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+          getMetaInformationFieldBuilder() {
+        if (metaInformationBuilder_ == null) {
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
+                  metaInformation_,
+                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  getParentForChildren(),
+                  isClean());
+          metaInformation_ = null;
+        }
+        return metaInformationBuilder_;
+      }
+
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -3047,7 +3407,7 @@ public final class PmModifyConditionsAd {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -3124,7 +3484,7 @@ public final class PmModifyConditionsAd {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -3135,9 +3495,9 @@ public final class PmModifyConditionsAd {
       private java.util.List<io.dstore.engine.procs.PmModifyConditionsAd.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
           row_ = new java.util.ArrayList<io.dstore.engine.procs.PmModifyConditionsAd.Response.Row>(row_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000008;
          }
       }
 
@@ -3331,7 +3691,7 @@ public final class PmModifyConditionsAd {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000008);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -3436,7 +3796,7 @@ public final class PmModifyConditionsAd {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.procs.PmModifyConditionsAd.Response.Row, io.dstore.engine.procs.PmModifyConditionsAd.Response.Row.Builder, io.dstore.engine.procs.PmModifyConditionsAd.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000008) == 0x00000008),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -3529,27 +3889,30 @@ public final class PmModifyConditionsAd {
       "itions_Ad.proto\022$dstore.engine.pm_Modify" +
       "Conditions_Ad\032\032dstore/engine/values.prot" +
       "o\032\031dstore/engine/error.proto\032\033dstore/eng" +
-      "ine/message.proto\"\310\004\n\nParameters\0228\n\014cond" +
-      "ition_id\030\001 \001(\0132\".dstore.engine.values.in" +
-      "tegerValue\022\032\n\021condition_id_null\030\351\007 \001(\010\022A" +
-      "\n\025condition_position_id\030\002 \001(\0132\".dstore.e" +
-      "ngine.values.integerValue\022#\n\032condition_p" +
-      "osition_id_null\030\352\007 \001(\010\022D\n\030person_charact",
-      "eristic_id\030\003 \001(\0132\".dstore.engine.values." +
-      "integerValue\022&\n\035person_characteristic_id" +
-      "_null\030\353\007 \001(\010\0224\n\tcondition\030\004 \001(\0132!.dstore" +
-      ".engine.values.stringValue\022\027\n\016condition_" +
-      "null\030\354\007 \001(\010\0222\n\007country\030\005 \001(\0132!.dstore.en" +
-      "gine.values.stringValue\022\025\n\014country_null\030" +
-      "\355\007 \001(\010\022H\n\034delete_condition_position_id\030\006" +
-      " \001(\0132\".dstore.engine.values.booleanValue" +
-      "\022*\n!delete_condition_position_id_null\030\356\007" +
-      " \001(\010\"\277\001\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstor",
-      "e.engine.error.Error\022/\n\007message\030\003 \003(\0132\036." +
-      "dstore.engine.message.Message\022?\n\003row\030\004 \003" +
-      "(\01322.dstore.engine.pm_ModifyConditions_A" +
-      "d.Response.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\030" +
-      "\n\026io.dstore.engine.procsb\006proto3"
+      "ine/message.proto\032#dstore/engine/metainf" +
+      "ormation.proto\"\310\004\n\nParameters\0228\n\014conditi" +
+      "on_id\030\001 \001(\0132\".dstore.engine.values.integ" +
+      "erValue\022\032\n\021condition_id_null\030\351\007 \001(\010\022A\n\025c" +
+      "ondition_position_id\030\002 \001(\0132\".dstore.engi" +
+      "ne.values.integerValue\022#\n\032condition_posi",
+      "tion_id_null\030\352\007 \001(\010\022D\n\030person_characteri" +
+      "stic_id\030\003 \001(\0132\".dstore.engine.values.int" +
+      "egerValue\022&\n\035person_characteristic_id_nu" +
+      "ll\030\353\007 \001(\010\0224\n\tcondition\030\004 \001(\0132!.dstore.en" +
+      "gine.values.stringValue\022\027\n\016condition_nul" +
+      "l\030\354\007 \001(\010\0222\n\007country\030\005 \001(\0132!.dstore.engin" +
+      "e.values.stringValue\022\025\n\014country_null\030\355\007 " +
+      "\001(\010\022H\n\034delete_condition_position_id\030\006 \001(" +
+      "\0132\".dstore.engine.values.booleanValue\022*\n" +
+      "!delete_condition_position_id_null\030\356\007 \001(",
+      "\010\"\211\002\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.e" +
+      "ngine.error.Error\022H\n\020meta_information\030\002 " +
+      "\003(\0132..dstore.engine.metainformation.Meta" +
+      "Information\022/\n\007message\030\003 \003(\0132\036.dstore.en" +
+      "gine.message.Message\022?\n\003row\030\004 \003(\01322.dsto" +
+      "re.engine.pm_ModifyConditions_Ad.Respons" +
+      "e.Row\032\026\n\003Row\022\017\n\006row_id\030\220N \001(\005B\030\n\026io.dsto" +
+      "re.engine.procsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3565,6 +3928,7 @@ public final class PmModifyConditionsAd {
           io.dstore.engine.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
+          io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_pm_ModifyConditions_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3577,7 +3941,7 @@ public final class PmModifyConditionsAd {
     internal_static_dstore_engine_pm_ModifyConditions_Ad_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_pm_ModifyConditions_Ad_Response_descriptor,
-        new java.lang.String[] { "Error", "Message", "Row", });
+        new java.lang.String[] { "Error", "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_pm_ModifyConditions_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_pm_ModifyConditions_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_pm_ModifyConditions_Ad_Response_Row_fieldAccessorTable = new
@@ -3587,6 +3951,7 @@ public final class PmModifyConditionsAd {
     io.dstore.engine.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
+    io.dstore.engine.EngineMetaInformation.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

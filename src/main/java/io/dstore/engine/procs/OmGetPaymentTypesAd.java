@@ -1318,6 +1318,30 @@ public final class OmGetPaymentTypesAd {
     io.dstore.engine.EngineError.ErrorOrBuilder getErrorOrBuilder();
 
     /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> 
+        getMetaInformationList();
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index);
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    int getMetaInformationCount();
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+        getMetaInformationOrBuilderList();
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+        int index);
+
+    /**
      * <code>repeated .dstore.engine.message.Message message = 3;</code>
      */
     java.util.List<io.dstore.engine.ProcedureMessage.Message> 
@@ -1397,6 +1421,7 @@ public final class OmGetPaymentTypesAd {
       super(builder);
     }
     private Response() {
+      metaInformation_ = java.util.Collections.emptyList();
       message_ = java.util.Collections.emptyList();
       row_ = java.util.Collections.emptyList();
     }
@@ -1438,18 +1463,26 @@ public final class OmGetPaymentTypesAd {
 
               break;
             }
-            case 26: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
+                metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>();
                 mutable_bitField0_ |= 0x00000002;
+              }
+              metaInformation_.add(input.readMessage(io.dstore.engine.EngineMetaInformation.MetaInformation.parser(), extensionRegistry));
+              break;
+            }
+            case 26: {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+                message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>();
+                mutable_bitField0_ |= 0x00000004;
               }
               message_.add(input.readMessage(io.dstore.engine.ProcedureMessage.Message.parser(), extensionRegistry));
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
                 row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetPaymentTypesAd.Response.Row>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000008;
               }
               row_.add(input.readMessage(io.dstore.engine.procs.OmGetPaymentTypesAd.Response.Row.parser(), extensionRegistry));
               break;
@@ -1464,9 +1497,12 @@ public final class OmGetPaymentTypesAd {
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
         if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-          message_ = java.util.Collections.unmodifiableList(message_);
+          metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
         }
         if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+          message_ = java.util.Collections.unmodifiableList(message_);
+        }
+        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
           row_ = java.util.Collections.unmodifiableList(row_);
         }
         makeExtensionsImmutable();
@@ -7026,6 +7062,41 @@ public final class OmGetPaymentTypesAd {
       return getError();
     }
 
+    public static final int META_INFORMATION_FIELD_NUMBER = 2;
+    private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_;
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+      return metaInformation_;
+    }
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+        getMetaInformationOrBuilderList() {
+      return metaInformation_;
+    }
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    public int getMetaInformationCount() {
+      return metaInformation_.size();
+    }
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+      return metaInformation_.get(index);
+    }
+    /**
+     * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+     */
+    public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+        int index) {
+      return metaInformation_.get(index);
+    }
+
     public static final int MESSAGE_FIELD_NUMBER = 3;
     private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_;
     /**
@@ -7131,6 +7202,9 @@ public final class OmGetPaymentTypesAd {
       if (error_ != null) {
         output.writeMessage(1, getError());
       }
+      for (int i = 0; i < metaInformation_.size(); i++) {
+        output.writeMessage(2, metaInformation_.get(i));
+      }
       for (int i = 0; i < message_.size(); i++) {
         output.writeMessage(3, message_.get(i));
       }
@@ -7147,6 +7221,10 @@ public final class OmGetPaymentTypesAd {
       if (error_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(1, getError());
+      }
+      for (int i = 0; i < metaInformation_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, metaInformation_.get(i));
       }
       for (int i = 0; i < message_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -7263,6 +7341,7 @@ public final class OmGetPaymentTypesAd {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getMetaInformationFieldBuilder();
           getMessageFieldBuilder();
           getRowFieldBuilder();
         }
@@ -7275,15 +7354,21 @@ public final class OmGetPaymentTypesAd {
           error_ = null;
           errorBuilder_ = null;
         }
+        if (metaInformationBuilder_ == null) {
+          metaInformation_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        } else {
+          metaInformationBuilder_.clear();
+        }
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           messageBuilder_.clear();
         }
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000008);
         } else {
           rowBuilder_.clear();
         }
@@ -7316,19 +7401,28 @@ public final class OmGetPaymentTypesAd {
         } else {
           result.error_ = errorBuilder_.build();
         }
-        if (messageBuilder_ == null) {
+        if (metaInformationBuilder_ == null) {
           if (((bitField0_ & 0x00000002) == 0x00000002)) {
-            message_ = java.util.Collections.unmodifiableList(message_);
+            metaInformation_ = java.util.Collections.unmodifiableList(metaInformation_);
             bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.metaInformation_ = metaInformation_;
+        } else {
+          result.metaInformation_ = metaInformationBuilder_.build();
+        }
+        if (messageBuilder_ == null) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+            message_ = java.util.Collections.unmodifiableList(message_);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.message_ = message_;
         } else {
           result.message_ = messageBuilder_.build();
         }
         if (rowBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000008) == 0x00000008)) {
             row_ = java.util.Collections.unmodifiableList(row_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000008);
           }
           result.row_ = row_;
         } else {
@@ -7353,11 +7447,37 @@ public final class OmGetPaymentTypesAd {
         if (other.hasError()) {
           mergeError(other.getError());
         }
+        if (metaInformationBuilder_ == null) {
+          if (!other.metaInformation_.isEmpty()) {
+            if (metaInformation_.isEmpty()) {
+              metaInformation_ = other.metaInformation_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+            } else {
+              ensureMetaInformationIsMutable();
+              metaInformation_.addAll(other.metaInformation_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.metaInformation_.isEmpty()) {
+            if (metaInformationBuilder_.isEmpty()) {
+              metaInformationBuilder_.dispose();
+              metaInformationBuilder_ = null;
+              metaInformation_ = other.metaInformation_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+              metaInformationBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getMetaInformationFieldBuilder() : null;
+            } else {
+              metaInformationBuilder_.addAllMessages(other.metaInformation_);
+            }
+          }
+        }
         if (messageBuilder_ == null) {
           if (!other.message_.isEmpty()) {
             if (message_.isEmpty()) {
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureMessageIsMutable();
               message_.addAll(other.message_);
@@ -7370,7 +7490,7 @@ public final class OmGetPaymentTypesAd {
               messageBuilder_.dispose();
               messageBuilder_ = null;
               message_ = other.message_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000004);
               messageBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getMessageFieldBuilder() : null;
@@ -7383,7 +7503,7 @@ public final class OmGetPaymentTypesAd {
           if (!other.row_.isEmpty()) {
             if (row_.isEmpty()) {
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000008);
             } else {
               ensureRowIsMutable();
               row_.addAll(other.row_);
@@ -7396,7 +7516,7 @@ public final class OmGetPaymentTypesAd {
               rowBuilder_.dispose();
               rowBuilder_ = null;
               row_ = other.row_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000008);
               rowBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getRowFieldBuilder() : null;
@@ -7549,12 +7669,252 @@ public final class OmGetPaymentTypesAd {
         return errorBuilder_;
       }
 
+      private java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> metaInformation_ =
+        java.util.Collections.emptyList();
+      private void ensureMetaInformationIsMutable() {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+          metaInformation_ = new java.util.ArrayList<io.dstore.engine.EngineMetaInformation.MetaInformation>(metaInformation_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> metaInformationBuilder_;
+
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation> getMetaInformationList() {
+        if (metaInformationBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(metaInformation_);
+        } else {
+          return metaInformationBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public int getMetaInformationCount() {
+        if (metaInformationBuilder_ == null) {
+          return metaInformation_.size();
+        } else {
+          return metaInformationBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public io.dstore.engine.EngineMetaInformation.MetaInformation getMetaInformation(int index) {
+        if (metaInformationBuilder_ == null) {
+          return metaInformation_.get(index);
+        } else {
+          return metaInformationBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder setMetaInformation(
+          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+        if (metaInformationBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMetaInformationIsMutable();
+          metaInformation_.set(index, value);
+          onChanged();
+        } else {
+          metaInformationBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder setMetaInformation(
+          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+        if (metaInformationBuilder_ == null) {
+          ensureMetaInformationIsMutable();
+          metaInformation_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          metaInformationBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder addMetaInformation(io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+        if (metaInformationBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMetaInformationIsMutable();
+          metaInformation_.add(value);
+          onChanged();
+        } else {
+          metaInformationBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder addMetaInformation(
+          int index, io.dstore.engine.EngineMetaInformation.MetaInformation value) {
+        if (metaInformationBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMetaInformationIsMutable();
+          metaInformation_.add(index, value);
+          onChanged();
+        } else {
+          metaInformationBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder addMetaInformation(
+          io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+        if (metaInformationBuilder_ == null) {
+          ensureMetaInformationIsMutable();
+          metaInformation_.add(builderForValue.build());
+          onChanged();
+        } else {
+          metaInformationBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder addMetaInformation(
+          int index, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder builderForValue) {
+        if (metaInformationBuilder_ == null) {
+          ensureMetaInformationIsMutable();
+          metaInformation_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          metaInformationBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder addAllMetaInformation(
+          java.lang.Iterable<? extends io.dstore.engine.EngineMetaInformation.MetaInformation> values) {
+        if (metaInformationBuilder_ == null) {
+          ensureMetaInformationIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, metaInformation_);
+          onChanged();
+        } else {
+          metaInformationBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder clearMetaInformation() {
+        if (metaInformationBuilder_ == null) {
+          metaInformation_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+        } else {
+          metaInformationBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public Builder removeMetaInformation(int index) {
+        if (metaInformationBuilder_ == null) {
+          ensureMetaInformationIsMutable();
+          metaInformation_.remove(index);
+          onChanged();
+        } else {
+          metaInformationBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder getMetaInformationBuilder(
+          int index) {
+        return getMetaInformationFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder getMetaInformationOrBuilder(
+          int index) {
+        if (metaInformationBuilder_ == null) {
+          return metaInformation_.get(index);  } else {
+          return metaInformationBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public java.util.List<? extends io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+           getMetaInformationOrBuilderList() {
+        if (metaInformationBuilder_ != null) {
+          return metaInformationBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(metaInformation_);
+        }
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder() {
+        return getMetaInformationFieldBuilder().addBuilder(
+            io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public io.dstore.engine.EngineMetaInformation.MetaInformation.Builder addMetaInformationBuilder(
+          int index) {
+        return getMetaInformationFieldBuilder().addBuilder(
+            index, io.dstore.engine.EngineMetaInformation.MetaInformation.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.engine.metainformation.MetaInformation meta_information = 2;</code>
+       */
+      public java.util.List<io.dstore.engine.EngineMetaInformation.MetaInformation.Builder> 
+           getMetaInformationBuilderList() {
+        return getMetaInformationFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder> 
+          getMetaInformationFieldBuilder() {
+        if (metaInformationBuilder_ == null) {
+          metaInformationBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              io.dstore.engine.EngineMetaInformation.MetaInformation, io.dstore.engine.EngineMetaInformation.MetaInformation.Builder, io.dstore.engine.EngineMetaInformation.MetaInformationOrBuilder>(
+                  metaInformation_,
+                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  getParentForChildren(),
+                  isClean());
+          metaInformation_ = null;
+        }
+        return metaInformationBuilder_;
+      }
+
       private java.util.List<io.dstore.engine.ProcedureMessage.Message> message_ =
         java.util.Collections.emptyList();
       private void ensureMessageIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           message_ = new java.util.ArrayList<io.dstore.engine.ProcedureMessage.Message>(message_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -7704,7 +8064,7 @@ public final class OmGetPaymentTypesAd {
       public Builder clearMessage() {
         if (messageBuilder_ == null) {
           message_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           messageBuilder_.clear();
@@ -7781,7 +8141,7 @@ public final class OmGetPaymentTypesAd {
           messageBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.ProcedureMessage.Message, io.dstore.engine.ProcedureMessage.Message.Builder, io.dstore.engine.ProcedureMessage.MessageOrBuilder>(
                   message_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           message_ = null;
@@ -7792,9 +8152,9 @@ public final class OmGetPaymentTypesAd {
       private java.util.List<io.dstore.engine.procs.OmGetPaymentTypesAd.Response.Row> row_ =
         java.util.Collections.emptyList();
       private void ensureRowIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
           row_ = new java.util.ArrayList<io.dstore.engine.procs.OmGetPaymentTypesAd.Response.Row>(row_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000008;
          }
       }
 
@@ -7988,7 +8348,7 @@ public final class OmGetPaymentTypesAd {
       public Builder clearRow() {
         if (rowBuilder_ == null) {
           row_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000008);
           onChanged();
         } else {
           rowBuilder_.clear();
@@ -8093,7 +8453,7 @@ public final class OmGetPaymentTypesAd {
           rowBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.engine.procs.OmGetPaymentTypesAd.Response.Row, io.dstore.engine.procs.OmGetPaymentTypesAd.Response.Row.Builder, io.dstore.engine.procs.OmGetPaymentTypesAd.Response.RowOrBuilder>(
                   row_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000008) == 0x00000008),
                   getParentForChildren(),
                   isClean());
           row_ = null;
@@ -8186,55 +8546,58 @@ public final class OmGetPaymentTypesAd {
       "Types_Ad.proto\022#dstore.engine.om_GetPaym" +
       "entTypes_Ad\032\032dstore/engine/values.proto\032" +
       "\031dstore/engine/error.proto\032\033dstore/engin" +
-      "e/message.proto\"\374\002\n\nParameters\0227\n\013langua" +
-      "ge_id\030\001 \001(\0132\".dstore.engine.values.integ" +
-      "erValue\022\031\n\020language_id_null\030\351\007 \001(\010\022;\n\017pa" +
-      "yment_type_id\030\002 \001(\0132\".dstore.engine.valu" +
-      "es.integerValue\022\035\n\024payment_type_id_null\030" +
-      "\352\007 \001(\010\0227\n\013only_active\030\003 \001(\0132\".dstore.eng",
-      "ine.values.booleanValue\022\031\n\020only_active_n" +
-      "ull\030\353\007 \001(\010\022D\n\026valid_at_date_and_time\030\004 \001" +
-      "(\0132$.dstore.engine.values.timestampValue" +
-      "\022$\n\033valid_at_date_and_time_null\030\354\007 \001(\010\"\341" +
-      "\013\n\010Response\022)\n\005error\030\001 \001(\0132\032.dstore.engi" +
-      "ne.error.Error\022/\n\007message\030\003 \003(\0132\036.dstore" +
-      ".engine.message.Message\022>\n\003row\030\004 \003(\01321.d" +
-      "store.engine.om_GetPaymentTypes_Ad.Respo" +
-      "nse.Row\032\270\n\n\003Row\022\017\n\006row_id\030\220N \001(\005\0228\n\013prio" +
-      "rity_no\030\221N \001(\0132\".dstore.engine.values.in",
-      "tegerValue\022A\n\025surcharge_unit_symbol\030\222N \001" +
-      "(\0132!.dstore.engine.values.stringValue\022<\n" +
-      "\017surcharge_value\030\223N \001(\0132\".dstore.engine." +
-      "values.decimalValue\0221\n\004cost\030\224N \001(\0132\".dst" +
-      "ore.engine.values.decimalValue\0229\n\014gross_" +
-      "sum_to\030\225N \001(\0132\".dstore.engine.values.dec" +
-      "imalValue\0228\n\013currency_id\030\226N \001(\0132\".dstore" +
-      ".engine.values.integerValue\022;\n\017currency_" +
-      "symbol\030\227N \001(\0132!.dstore.engine.values.str" +
-      "ingValue\022G\n\030created_at_date_and_time\030\230N ",
-      "\001(\0132$.dstore.engine.values.timestampValu" +
-      "e\0223\n\006active\030\231N \001(\0132\".dstore.engine.value" +
-      "s.booleanValue\022=\n\020cost_currency_id\030\232N \001(" +
-      "\0132\".dstore.engine.values.integerValue\022D\n" +
-      "\030payment_type_description\030\233N \001(\0132!.dstor" +
-      "e.engine.values.stringValue\022B\n\026translate" +
-      "d_description\030\234N \001(\0132!.dstore.engine.val" +
-      "ues.stringValue\022;\n\016gross_sum_from\030\235N \001(\013" +
-      "2\".dstore.engine.values.decimalValue\0222\n\006" +
-      "region\030\236N \001(\0132!.dstore.engine.values.str",
-      "ingValue\022H\n\033surcharge_is_absolute_value\030" +
-      "\237N \001(\0132\".dstore.engine.values.integerVal" +
-      "ue\022@\n\024cost_currency_symbol\030\240N \001(\0132!.dsto" +
-      "re.engine.values.stringValue\0226\n\tregion_i" +
-      "d\030\241N \001(\0132\".dstore.engine.values.integerV" +
-      "alue\022F\n\032surcharge_type_description\030\242N \001(" +
-      "\0132!.dstore.engine.values.stringValue\022<\n\017" +
-      "payment_type_id\030\243N \001(\0132\".dstore.engine.v" +
-      "alues.integerValue\022>\n\021surcharge_type_id\030" +
-      "\244N \001(\0132\".dstore.engine.values.integerVal",
-      "ue\022>\n\021surcharge_unit_id\030\245N \001(\0132\".dstore." +
-      "engine.values.integerValueB\030\n\026io.dstore." +
-      "engine.procsb\006proto3"
+      "e/message.proto\032#dstore/engine/metainfor" +
+      "mation.proto\"\374\002\n\nParameters\0227\n\013language_" +
+      "id\030\001 \001(\0132\".dstore.engine.values.integerV" +
+      "alue\022\031\n\020language_id_null\030\351\007 \001(\010\022;\n\017payme" +
+      "nt_type_id\030\002 \001(\0132\".dstore.engine.values." +
+      "integerValue\022\035\n\024payment_type_id_null\030\352\007 ",
+      "\001(\010\0227\n\013only_active\030\003 \001(\0132\".dstore.engine" +
+      ".values.booleanValue\022\031\n\020only_active_null" +
+      "\030\353\007 \001(\010\022D\n\026valid_at_date_and_time\030\004 \001(\0132" +
+      "$.dstore.engine.values.timestampValue\022$\n" +
+      "\033valid_at_date_and_time_null\030\354\007 \001(\010\"\253\014\n\010" +
+      "Response\022)\n\005error\030\001 \001(\0132\032.dstore.engine." +
+      "error.Error\022H\n\020meta_information\030\002 \003(\0132.." +
+      "dstore.engine.metainformation.MetaInform" +
+      "ation\022/\n\007message\030\003 \003(\0132\036.dstore.engine.m" +
+      "essage.Message\022>\n\003row\030\004 \003(\01321.dstore.eng",
+      "ine.om_GetPaymentTypes_Ad.Response.Row\032\270" +
+      "\n\n\003Row\022\017\n\006row_id\030\220N \001(\005\0228\n\013priority_no\030\221" +
+      "N \001(\0132\".dstore.engine.values.integerValu" +
+      "e\022A\n\025surcharge_unit_symbol\030\222N \001(\0132!.dsto" +
+      "re.engine.values.stringValue\022<\n\017surcharg" +
+      "e_value\030\223N \001(\0132\".dstore.engine.values.de" +
+      "cimalValue\0221\n\004cost\030\224N \001(\0132\".dstore.engin" +
+      "e.values.decimalValue\0229\n\014gross_sum_to\030\225N" +
+      " \001(\0132\".dstore.engine.values.decimalValue" +
+      "\0228\n\013currency_id\030\226N \001(\0132\".dstore.engine.v",
+      "alues.integerValue\022;\n\017currency_symbol\030\227N" +
+      " \001(\0132!.dstore.engine.values.stringValue\022" +
+      "G\n\030created_at_date_and_time\030\230N \001(\0132$.dst" +
+      "ore.engine.values.timestampValue\0223\n\006acti" +
+      "ve\030\231N \001(\0132\".dstore.engine.values.boolean" +
+      "Value\022=\n\020cost_currency_id\030\232N \001(\0132\".dstor" +
+      "e.engine.values.integerValue\022D\n\030payment_" +
+      "type_description\030\233N \001(\0132!.dstore.engine." +
+      "values.stringValue\022B\n\026translated_descrip" +
+      "tion\030\234N \001(\0132!.dstore.engine.values.strin",
+      "gValue\022;\n\016gross_sum_from\030\235N \001(\0132\".dstore" +
+      ".engine.values.decimalValue\0222\n\006region\030\236N" +
+      " \001(\0132!.dstore.engine.values.stringValue\022" +
+      "H\n\033surcharge_is_absolute_value\030\237N \001(\0132\"." +
+      "dstore.engine.values.integerValue\022@\n\024cos" +
+      "t_currency_symbol\030\240N \001(\0132!.dstore.engine" +
+      ".values.stringValue\0226\n\tregion_id\030\241N \001(\0132" +
+      "\".dstore.engine.values.integerValue\022F\n\032s" +
+      "urcharge_type_description\030\242N \001(\0132!.dstor" +
+      "e.engine.values.stringValue\022<\n\017payment_t",
+      "ype_id\030\243N \001(\0132\".dstore.engine.values.int" +
+      "egerValue\022>\n\021surcharge_type_id\030\244N \001(\0132\"." +
+      "dstore.engine.values.integerValue\022>\n\021sur" +
+      "charge_unit_id\030\245N \001(\0132\".dstore.engine.va" +
+      "lues.integerValueB\030\n\026io.dstore.engine.pr" +
+      "ocsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8250,6 +8613,7 @@ public final class OmGetPaymentTypesAd {
           io.dstore.engine.Values.getDescriptor(),
           io.dstore.engine.EngineError.getDescriptor(),
           io.dstore.engine.ProcedureMessage.getDescriptor(),
+          io.dstore.engine.EngineMetaInformation.getDescriptor(),
         }, assigner);
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Parameters_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -8262,7 +8626,7 @@ public final class OmGetPaymentTypesAd {
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_descriptor,
-        new java.lang.String[] { "Error", "Message", "Row", });
+        new java.lang.String[] { "Error", "MetaInformation", "Message", "Row", });
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_Row_descriptor =
       internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_descriptor.getNestedTypes().get(0);
     internal_static_dstore_engine_om_GetPaymentTypes_Ad_Response_Row_fieldAccessorTable = new
@@ -8272,6 +8636,7 @@ public final class OmGetPaymentTypesAd {
     io.dstore.engine.Values.getDescriptor();
     io.dstore.engine.EngineError.getDescriptor();
     io.dstore.engine.ProcedureMessage.getDescriptor();
+    io.dstore.engine.EngineMetaInformation.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)
