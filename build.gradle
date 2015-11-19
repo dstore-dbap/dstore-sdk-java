@@ -18,22 +18,37 @@ exec {
 }
 project.setProperty('version', stdout.toString().trim())
 
+jar {
+    manifest {
+        attributes 'Implementation-Title': name, 'Implementation-Version': version
+    }
+}
 
 task sourcesJar(type: Jar, dependsOn: classes) {
     classifier = 'sources'
     from sourceSets.main.allSource
 }
 
-tasks.javadoc.excludes = ['**/procs/**']
+tasks.javadoc.excludes = ['**/procedures/**']
 
 task javadocJar(type: Jar, dependsOn: javadoc) {
     classifier = 'javadoc'
     from tasks.javadoc.destinationDir
 }
 
+// custom tasks for creating a "minimal" jar, which only contains the very basic package
+task minimalJar(type: Jar, dependsOn: classes) {
+    classifier = 'minimal'
+    from sourceSets.main.output
+    include 'io/dstore/engine/**'
+    exclude 'io/dstore/engine/procedures/**'
+    include 'io/dstore/helper/**'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+}
+
 artifacts {
     archives jar
-
+    archives minimalJar
     archives javadocJar
     archives sourcesJar
 }
