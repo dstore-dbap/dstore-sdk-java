@@ -13,64 +13,24 @@ public final class ElasticQuery {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.elastic.query.Query.Types type = 1;</code>
+     * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
      */
-    int getTypeValue();
+    io.dstore.elastic.ElasticQuery.Query.Term getTermQuery();
     /**
-     * <code>optional .dstore.elastic.query.Query.Types type = 1;</code>
+     * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
      */
-    io.dstore.elastic.ElasticQuery.Query.Types getType();
+    io.dstore.elastic.ElasticQuery.Query.TermOrBuilder getTermQueryOrBuilder();
 
     /**
-     * <code>optional string search = 2;</code>
+     * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
      */
-    java.lang.String getSearch();
+    io.dstore.elastic.ElasticQuery.Query.Type getTypeQuery();
     /**
-     * <code>optional string search = 2;</code>
+     * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
      */
-    com.google.protobuf.ByteString
-        getSearchBytes();
+    io.dstore.elastic.ElasticQuery.Query.TypeOrBuilder getTypeQueryOrBuilder();
 
-    /**
-     * <code>repeated string fields = 3;</code>
-     *
-     * <pre>
-     * In welchen Feldern soll gesucht werden
-     * </pre>
-     */
-    com.google.protobuf.ProtocolStringList
-        getFieldsList();
-    /**
-     * <code>repeated string fields = 3;</code>
-     *
-     * <pre>
-     * In welchen Feldern soll gesucht werden
-     * </pre>
-     */
-    int getFieldsCount();
-    /**
-     * <code>repeated string fields = 3;</code>
-     *
-     * <pre>
-     * In welchen Feldern soll gesucht werden
-     * </pre>
-     */
-    java.lang.String getFields(int index);
-    /**
-     * <code>repeated string fields = 3;</code>
-     *
-     * <pre>
-     * In welchen Feldern soll gesucht werden
-     * </pre>
-     */
-    com.google.protobuf.ByteString
-        getFieldsBytes(int index);
-
-    /**
-     * <code>map&lt;string, string&gt; search_options = 4;</code>
-     */
-    java.util.Map<java.lang.String, java.lang.String>
-    getSearchOptions();
+    public io.dstore.elastic.ElasticQuery.Query.QueryCase getQueryCase();
   }
   /**
    * Protobuf type {@code dstore.elastic.query.Query}
@@ -84,9 +44,6 @@ public final class ElasticQuery {
       super(builder);
     }
     private Query() {
-      type_ = 0;
-      search_ = "";
-      fields_ = com.google.protobuf.LazyStringArrayList.EMPTY;
     }
 
     @java.lang.Override
@@ -113,37 +70,32 @@ public final class ElasticQuery {
               }
               break;
             }
-            case 8: {
-              int rawValue = input.readEnum();
-
-              type_ = rawValue;
+            case 10: {
+              io.dstore.elastic.ElasticQuery.Query.Term.Builder subBuilder = null;
+              if (queryCase_ == 1) {
+                subBuilder = ((io.dstore.elastic.ElasticQuery.Query.Term) query_).toBuilder();
+              }
+              query_ =
+                  input.readMessage(io.dstore.elastic.ElasticQuery.Query.Term.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.elastic.ElasticQuery.Query.Term) query_);
+                query_ = subBuilder.buildPartial();
+              }
+              queryCase_ = 1;
               break;
             }
             case 18: {
-              String s = input.readStringRequireUtf8();
-
-              search_ = s;
-              break;
-            }
-            case 26: {
-              String s = input.readStringRequireUtf8();
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
-                fields_ = new com.google.protobuf.LazyStringArrayList();
-                mutable_bitField0_ |= 0x00000004;
+              io.dstore.elastic.ElasticQuery.Query.Type.Builder subBuilder = null;
+              if (queryCase_ == 2) {
+                subBuilder = ((io.dstore.elastic.ElasticQuery.Query.Type) query_).toBuilder();
               }
-              fields_.add(s);
-              break;
-            }
-            case 34: {
-              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
-                searchOptions_ = com.google.protobuf.MapField.newMapField(
-                    SearchOptionsDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000008;
+              query_ =
+                  input.readMessage(io.dstore.elastic.ElasticQuery.Query.Type.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.elastic.ElasticQuery.Query.Type) query_);
+                query_ = subBuilder.buildPartial();
               }
-              com.google.protobuf.MapEntry<java.lang.String, java.lang.String>
-              searchOptions = input.readMessage(
-                  SearchOptionsDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              searchOptions_.getMutableMap().put(searchOptions.getKey(), searchOptions.getValue());
+              queryCase_ = 2;
               break;
             }
           }
@@ -155,9 +107,6 @@ public final class ElasticQuery {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
-          fields_ = fields_.getUnmodifiableView();
-        }
         makeExtensionsImmutable();
       }
     }
@@ -166,17 +115,6 @@ public final class ElasticQuery {
       return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_descriptor;
     }
 
-    @SuppressWarnings({"rawtypes"})
-    protected com.google.protobuf.MapField internalGetMapField(
-        int number) {
-      switch (number) {
-        case 4:
-          return internalGetSearchOptions();
-        default:
-          throw new RuntimeException(
-              "Invalid map field number: " + number);
-      }
-    }
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
       return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_fieldAccessorTable
@@ -184,230 +122,1161 @@ public final class ElasticQuery {
               io.dstore.elastic.ElasticQuery.Query.class, io.dstore.elastic.ElasticQuery.Query.Builder.class);
     }
 
+    public interface TermOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:dstore.elastic.query.Query.Term)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>optional string fieldName = 1;</code>
+       */
+      java.lang.String getFieldName();
+      /**
+       * <code>optional string fieldName = 1;</code>
+       */
+      com.google.protobuf.ByteString
+          getFieldNameBytes();
+
+      /**
+       * <code>repeated string value = 2;</code>
+       */
+      com.google.protobuf.ProtocolStringList
+          getValueList();
+      /**
+       * <code>repeated string value = 2;</code>
+       */
+      int getValueCount();
+      /**
+       * <code>repeated string value = 2;</code>
+       */
+      java.lang.String getValue(int index);
+      /**
+       * <code>repeated string value = 2;</code>
+       */
+      com.google.protobuf.ByteString
+          getValueBytes(int index);
+    }
     /**
-     * Protobuf enum {@code dstore.elastic.query.Query.Types}
+     * Protobuf type {@code dstore.elastic.query.Query.Term}
      */
-    public enum Types
-        implements com.google.protobuf.ProtocolMessageEnum {
-      /**
-       * <code>MATCH = 0;</code>
-       */
-      MATCH(0, 0),
-      /**
-       * <code>SIMPLE = 1;</code>
-       *
-       * <pre>
-       * https://www.elastic.co/guide/en/elasticsearch/reference/2.0/query-dsl-simple-query-string-query.html
-       * </pre>
-       */
-      SIMPLE(1, 1),
-      UNRECOGNIZED(-1, -1),
-      ;
-
-      /**
-       * <code>MATCH = 0;</code>
-       */
-      public static final int MATCH_VALUE = 0;
-      /**
-       * <code>SIMPLE = 1;</code>
-       *
-       * <pre>
-       * https://www.elastic.co/guide/en/elasticsearch/reference/2.0/query-dsl-simple-query-string-query.html
-       * </pre>
-       */
-      public static final int SIMPLE_VALUE = 1;
-
-
-      public final int getNumber() {
-        if (index == -1) {
-          throw new java.lang.IllegalArgumentException(
-              "Can't get the number of an unknown enum value.");
-        }
-        return value;
+    public  static final class Term extends
+        com.google.protobuf.GeneratedMessage implements
+        // @@protoc_insertion_point(message_implements:dstore.elastic.query.Query.Term)
+        TermOrBuilder {
+      // Use Term.newBuilder() to construct.
+      private Term(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+        super(builder);
+      }
+      private Term() {
+        fieldName_ = "";
+        value_ = com.google.protobuf.LazyStringArrayList.EMPTY;
       }
 
-      public static Types valueOf(int value) {
-        switch (value) {
-          case 0: return MATCH;
-          case 1: return SIMPLE;
-          default: return null;
-        }
+      @java.lang.Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
       }
-
-      public static com.google.protobuf.Internal.EnumLiteMap<Types>
-          internalGetValueMap() {
-        return internalValueMap;
-      }
-      private static final com.google.protobuf.Internal.EnumLiteMap<
-          Types> internalValueMap =
-            new com.google.protobuf.Internal.EnumLiteMap<Types>() {
-              public Types findValueByNumber(int number) {
-                return Types.valueOf(number);
+      private Term(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        this();
+        int mutable_bitField0_ = 0;
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              default: {
+                if (!input.skipField(tag)) {
+                  done = true;
+                }
+                break;
               }
-            };
+              case 10: {
+                String s = input.readStringRequireUtf8();
 
-      public final com.google.protobuf.Descriptors.EnumValueDescriptor
-          getValueDescriptor() {
-        return getDescriptor().getValues().get(index);
+                fieldName_ = s;
+                break;
+              }
+              case 18: {
+                String s = input.readStringRequireUtf8();
+                if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+                  value_ = new com.google.protobuf.LazyStringArrayList();
+                  mutable_bitField0_ |= 0x00000002;
+                }
+                value_.add(s);
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw new RuntimeException(e.setUnfinishedMessage(this));
+        } catch (java.io.IOException e) {
+          throw new RuntimeException(
+              new com.google.protobuf.InvalidProtocolBufferException(
+                  e.getMessage()).setUnfinishedMessage(this));
+        } finally {
+          if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+            value_ = value_.getUnmodifiableView();
+          }
+          makeExtensionsImmutable();
+        }
       }
-      public final com.google.protobuf.Descriptors.EnumDescriptor
-          getDescriptorForType() {
-        return getDescriptor();
-      }
-      public static final com.google.protobuf.Descriptors.EnumDescriptor
+      public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.ElasticQuery.Query.getDescriptor().getEnumTypes().get(0);
+        return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Term_descriptor;
       }
 
-      private static final Types[] VALUES = values();
-
-      public static Types valueOf(
-          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
-        if (desc.getType() != getDescriptor()) {
-          throw new java.lang.IllegalArgumentException(
-            "EnumValueDescriptor is not for this type.");
-        }
-        if (desc.getIndex() == -1) {
-          return UNRECOGNIZED;
-        }
-        return VALUES[desc.getIndex()];
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Term_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                io.dstore.elastic.ElasticQuery.Query.Term.class, io.dstore.elastic.ElasticQuery.Query.Term.Builder.class);
       }
 
-      private final int index;
-      private final int value;
+      private int bitField0_;
+      public static final int FIELDNAME_FIELD_NUMBER = 1;
+      private volatile java.lang.Object fieldName_;
+      /**
+       * <code>optional string fieldName = 1;</code>
+       */
+      public java.lang.String getFieldName() {
+        java.lang.Object ref = fieldName_;
+        if (ref instanceof java.lang.String) {
+          return (java.lang.String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          fieldName_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>optional string fieldName = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getFieldNameBytes() {
+        java.lang.Object ref = fieldName_;
+        if (ref instanceof java.lang.String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          fieldName_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
 
-      private Types(int index, int value) {
-        this.index = index;
+      public static final int VALUE_FIELD_NUMBER = 2;
+      private com.google.protobuf.LazyStringList value_;
+      /**
+       * <code>repeated string value = 2;</code>
+       */
+      public com.google.protobuf.ProtocolStringList
+          getValueList() {
+        return value_;
+      }
+      /**
+       * <code>repeated string value = 2;</code>
+       */
+      public int getValueCount() {
+        return value_.size();
+      }
+      /**
+       * <code>repeated string value = 2;</code>
+       */
+      public java.lang.String getValue(int index) {
+        return value_.get(index);
+      }
+      /**
+       * <code>repeated string value = 2;</code>
+       */
+      public com.google.protobuf.ByteString
+          getValueBytes(int index) {
+        return value_.getByteString(index);
+      }
+
+      private byte memoizedIsInitialized = -1;
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        if (!getFieldNameBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessage.writeString(output, 1, fieldName_);
+        }
+        for (int i = 0; i < value_.size(); i++) {
+          com.google.protobuf.GeneratedMessage.writeString(output, 2, value_.getRaw(i));
+        }
+      }
+
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getFieldNameBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessage.computeStringSize(1, fieldName_);
+        }
+        {
+          int dataSize = 0;
+          for (int i = 0; i < value_.size(); i++) {
+            dataSize += computeStringSizeNoTag(value_.getRaw(i));
+          }
+          size += dataSize;
+          size += 1 * getValueList().size();
+        }
+        memoizedSize = size;
+        return size;
+      }
+
+      private static final long serialVersionUID = 0L;
+      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Term parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Term parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(io.dstore.elastic.ElasticQuery.Query.Term prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @java.lang.Override
+      protected Builder newBuilderForType(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code dstore.elastic.query.Query.Term}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:dstore.elastic.query.Query.Term)
+          io.dstore.elastic.ElasticQuery.Query.TermOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Term_descriptor;
+        }
+
+        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Term_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  io.dstore.elastic.ElasticQuery.Query.Term.class, io.dstore.elastic.ElasticQuery.Query.Term.Builder.class);
+        }
+
+        // Construct using io.dstore.elastic.ElasticQuery.Query.Term.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          }
+        }
+        public Builder clear() {
+          super.clear();
+          fieldName_ = "";
+
+          value_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+          bitField0_ = (bitField0_ & ~0x00000002);
+          return this;
+        }
+
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Term_descriptor;
+        }
+
+        public io.dstore.elastic.ElasticQuery.Query.Term getDefaultInstanceForType() {
+          return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
+        }
+
+        public io.dstore.elastic.ElasticQuery.Query.Term build() {
+          io.dstore.elastic.ElasticQuery.Query.Term result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        public io.dstore.elastic.ElasticQuery.Query.Term buildPartial() {
+          io.dstore.elastic.ElasticQuery.Query.Term result = new io.dstore.elastic.ElasticQuery.Query.Term(this);
+          int from_bitField0_ = bitField0_;
+          int to_bitField0_ = 0;
+          result.fieldName_ = fieldName_;
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+            value_ = value_.getUnmodifiableView();
+            bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.value_ = value_;
+          result.bitField0_ = to_bitField0_;
+          onBuilt();
+          return result;
+        }
+
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof io.dstore.elastic.ElasticQuery.Query.Term) {
+            return mergeFrom((io.dstore.elastic.ElasticQuery.Query.Term)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(io.dstore.elastic.ElasticQuery.Query.Term other) {
+          if (other == io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance()) return this;
+          if (!other.getFieldName().isEmpty()) {
+            fieldName_ = other.fieldName_;
+            onChanged();
+          }
+          if (!other.value_.isEmpty()) {
+            if (value_.isEmpty()) {
+              value_ = other.value_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+            } else {
+              ensureValueIsMutable();
+              value_.addAll(other.value_);
+            }
+            onChanged();
+          }
+          onChanged();
+          return this;
+        }
+
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          io.dstore.elastic.ElasticQuery.Query.Term parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (io.dstore.elastic.ElasticQuery.Query.Term) e.getUnfinishedMessage();
+            throw e;
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+        private int bitField0_;
+
+        private java.lang.Object fieldName_ = "";
+        /**
+         * <code>optional string fieldName = 1;</code>
+         */
+        public java.lang.String getFieldName() {
+          java.lang.Object ref = fieldName_;
+          if (!(ref instanceof java.lang.String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            fieldName_ = s;
+            return s;
+          } else {
+            return (java.lang.String) ref;
+          }
+        }
+        /**
+         * <code>optional string fieldName = 1;</code>
+         */
+        public com.google.protobuf.ByteString
+            getFieldNameBytes() {
+          java.lang.Object ref = fieldName_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (java.lang.String) ref);
+            fieldName_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>optional string fieldName = 1;</code>
+         */
+        public Builder setFieldName(
+            java.lang.String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          fieldName_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string fieldName = 1;</code>
+         */
+        public Builder clearFieldName() {
+          
+          fieldName_ = getDefaultInstance().getFieldName();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string fieldName = 1;</code>
+         */
+        public Builder setFieldNameBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          fieldName_ = value;
+          onChanged();
+          return this;
+        }
+
+        private com.google.protobuf.LazyStringList value_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        private void ensureValueIsMutable() {
+          if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+            value_ = new com.google.protobuf.LazyStringArrayList(value_);
+            bitField0_ |= 0x00000002;
+           }
+        }
+        /**
+         * <code>repeated string value = 2;</code>
+         */
+        public com.google.protobuf.ProtocolStringList
+            getValueList() {
+          return value_.getUnmodifiableView();
+        }
+        /**
+         * <code>repeated string value = 2;</code>
+         */
+        public int getValueCount() {
+          return value_.size();
+        }
+        /**
+         * <code>repeated string value = 2;</code>
+         */
+        public java.lang.String getValue(int index) {
+          return value_.get(index);
+        }
+        /**
+         * <code>repeated string value = 2;</code>
+         */
+        public com.google.protobuf.ByteString
+            getValueBytes(int index) {
+          return value_.getByteString(index);
+        }
+        /**
+         * <code>repeated string value = 2;</code>
+         */
+        public Builder setValue(
+            int index, java.lang.String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  ensureValueIsMutable();
+          value_.set(index, value);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string value = 2;</code>
+         */
+        public Builder addValue(
+            java.lang.String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  ensureValueIsMutable();
+          value_.add(value);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string value = 2;</code>
+         */
+        public Builder addAllValue(
+            java.lang.Iterable<java.lang.String> values) {
+          ensureValueIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, value_);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string value = 2;</code>
+         */
+        public Builder clearValue() {
+          value_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string value = 2;</code>
+         */
+        public Builder addValueBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          ensureValueIsMutable();
+          value_.add(value);
+          onChanged();
+          return this;
+        }
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:dstore.elastic.query.Query.Term)
+      }
+
+      // @@protoc_insertion_point(class_scope:dstore.elastic.query.Query.Term)
+      private static final io.dstore.elastic.ElasticQuery.Query.Term DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new io.dstore.elastic.ElasticQuery.Query.Term();
+      }
+
+      public static io.dstore.elastic.ElasticQuery.Query.Term getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<Term>
+          PARSER = new com.google.protobuf.AbstractParser<Term>() {
+        public Term parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          try {
+            return new Term(input, extensionRegistry);
+          } catch (RuntimeException e) {
+            if (e.getCause() instanceof
+                com.google.protobuf.InvalidProtocolBufferException) {
+              throw (com.google.protobuf.InvalidProtocolBufferException)
+                  e.getCause();
+            }
+            throw e;
+          }
+        }
+      };
+
+      public static com.google.protobuf.Parser<Term> parser() {
+        return PARSER;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Parser<Term> getParserForType() {
+        return PARSER;
+      }
+
+      public io.dstore.elastic.ElasticQuery.Query.Term getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
+    public interface TypeOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:dstore.elastic.query.Query.Type)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>optional string type = 1;</code>
+       */
+      java.lang.String getType();
+      /**
+       * <code>optional string type = 1;</code>
+       */
+      com.google.protobuf.ByteString
+          getTypeBytes();
+    }
+    /**
+     * Protobuf type {@code dstore.elastic.query.Query.Type}
+     */
+    public  static final class Type extends
+        com.google.protobuf.GeneratedMessage implements
+        // @@protoc_insertion_point(message_implements:dstore.elastic.query.Query.Type)
+        TypeOrBuilder {
+      // Use Type.newBuilder() to construct.
+      private Type(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+        super(builder);
+      }
+      private Type() {
+        type_ = "";
+      }
+
+      @java.lang.Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+      }
+      private Type(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        this();
+        int mutable_bitField0_ = 0;
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              default: {
+                if (!input.skipField(tag)) {
+                  done = true;
+                }
+                break;
+              }
+              case 10: {
+                String s = input.readStringRequireUtf8();
+
+                type_ = s;
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw new RuntimeException(e.setUnfinishedMessage(this));
+        } catch (java.io.IOException e) {
+          throw new RuntimeException(
+              new com.google.protobuf.InvalidProtocolBufferException(
+                  e.getMessage()).setUnfinishedMessage(this));
+        } finally {
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Type_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Type_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                io.dstore.elastic.ElasticQuery.Query.Type.class, io.dstore.elastic.ElasticQuery.Query.Type.Builder.class);
+      }
+
+      public static final int TYPE_FIELD_NUMBER = 1;
+      private volatile java.lang.Object type_;
+      /**
+       * <code>optional string type = 1;</code>
+       */
+      public java.lang.String getType() {
+        java.lang.Object ref = type_;
+        if (ref instanceof java.lang.String) {
+          return (java.lang.String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          type_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>optional string type = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getTypeBytes() {
+        java.lang.Object ref = type_;
+        if (ref instanceof java.lang.String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          type_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      private byte memoizedIsInitialized = -1;
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        if (!getTypeBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessage.writeString(output, 1, type_);
+        }
+      }
+
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getTypeBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessage.computeStringSize(1, type_);
+        }
+        memoizedSize = size;
+        return size;
+      }
+
+      private static final long serialVersionUID = 0L;
+      public static io.dstore.elastic.ElasticQuery.Query.Type parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Type parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Type parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Type parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Type parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Type parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Type parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Type parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Type parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.ElasticQuery.Query.Type parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(io.dstore.elastic.ElasticQuery.Query.Type prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @java.lang.Override
+      protected Builder newBuilderForType(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code dstore.elastic.query.Query.Type}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:dstore.elastic.query.Query.Type)
+          io.dstore.elastic.ElasticQuery.Query.TypeOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Type_descriptor;
+        }
+
+        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Type_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  io.dstore.elastic.ElasticQuery.Query.Type.class, io.dstore.elastic.ElasticQuery.Query.Type.Builder.class);
+        }
+
+        // Construct using io.dstore.elastic.ElasticQuery.Query.Type.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          }
+        }
+        public Builder clear() {
+          super.clear();
+          type_ = "";
+
+          return this;
+        }
+
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Type_descriptor;
+        }
+
+        public io.dstore.elastic.ElasticQuery.Query.Type getDefaultInstanceForType() {
+          return io.dstore.elastic.ElasticQuery.Query.Type.getDefaultInstance();
+        }
+
+        public io.dstore.elastic.ElasticQuery.Query.Type build() {
+          io.dstore.elastic.ElasticQuery.Query.Type result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        public io.dstore.elastic.ElasticQuery.Query.Type buildPartial() {
+          io.dstore.elastic.ElasticQuery.Query.Type result = new io.dstore.elastic.ElasticQuery.Query.Type(this);
+          result.type_ = type_;
+          onBuilt();
+          return result;
+        }
+
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof io.dstore.elastic.ElasticQuery.Query.Type) {
+            return mergeFrom((io.dstore.elastic.ElasticQuery.Query.Type)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(io.dstore.elastic.ElasticQuery.Query.Type other) {
+          if (other == io.dstore.elastic.ElasticQuery.Query.Type.getDefaultInstance()) return this;
+          if (!other.getType().isEmpty()) {
+            type_ = other.type_;
+            onChanged();
+          }
+          onChanged();
+          return this;
+        }
+
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          io.dstore.elastic.ElasticQuery.Query.Type parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (io.dstore.elastic.ElasticQuery.Query.Type) e.getUnfinishedMessage();
+            throw e;
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+
+        private java.lang.Object type_ = "";
+        /**
+         * <code>optional string type = 1;</code>
+         */
+        public java.lang.String getType() {
+          java.lang.Object ref = type_;
+          if (!(ref instanceof java.lang.String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            type_ = s;
+            return s;
+          } else {
+            return (java.lang.String) ref;
+          }
+        }
+        /**
+         * <code>optional string type = 1;</code>
+         */
+        public com.google.protobuf.ByteString
+            getTypeBytes() {
+          java.lang.Object ref = type_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (java.lang.String) ref);
+            type_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>optional string type = 1;</code>
+         */
+        public Builder setType(
+            java.lang.String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          type_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string type = 1;</code>
+         */
+        public Builder clearType() {
+          
+          type_ = getDefaultInstance().getType();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string type = 1;</code>
+         */
+        public Builder setTypeBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          type_ = value;
+          onChanged();
+          return this;
+        }
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:dstore.elastic.query.Query.Type)
+      }
+
+      // @@protoc_insertion_point(class_scope:dstore.elastic.query.Query.Type)
+      private static final io.dstore.elastic.ElasticQuery.Query.Type DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new io.dstore.elastic.ElasticQuery.Query.Type();
+      }
+
+      public static io.dstore.elastic.ElasticQuery.Query.Type getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<Type>
+          PARSER = new com.google.protobuf.AbstractParser<Type>() {
+        public Type parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          try {
+            return new Type(input, extensionRegistry);
+          } catch (RuntimeException e) {
+            if (e.getCause() instanceof
+                com.google.protobuf.InvalidProtocolBufferException) {
+              throw (com.google.protobuf.InvalidProtocolBufferException)
+                  e.getCause();
+            }
+            throw e;
+          }
+        }
+      };
+
+      public static com.google.protobuf.Parser<Type> parser() {
+        return PARSER;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Parser<Type> getParserForType() {
+        return PARSER;
+      }
+
+      public io.dstore.elastic.ElasticQuery.Query.Type getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
+    private int queryCase_ = 0;
+    private java.lang.Object query_;
+    public enum QueryCase
+        implements com.google.protobuf.Internal.EnumLite {
+      TERM_QUERY(1),
+      TYPE_QUERY(2),
+      QUERY_NOT_SET(0);
+      private int value = 0;
+      private QueryCase(int value) {
         this.value = value;
       }
-
-      // @@protoc_insertion_point(enum_scope:dstore.elastic.query.Query.Types)
-    }
-
-    private int bitField0_;
-    public static final int TYPE_FIELD_NUMBER = 1;
-    private int type_;
-    /**
-     * <code>optional .dstore.elastic.query.Query.Types type = 1;</code>
-     */
-    public int getTypeValue() {
-      return type_;
-    }
-    /**
-     * <code>optional .dstore.elastic.query.Query.Types type = 1;</code>
-     */
-    public io.dstore.elastic.ElasticQuery.Query.Types getType() {
-      io.dstore.elastic.ElasticQuery.Query.Types result = io.dstore.elastic.ElasticQuery.Query.Types.valueOf(type_);
-      return result == null ? io.dstore.elastic.ElasticQuery.Query.Types.UNRECOGNIZED : result;
-    }
-
-    public static final int SEARCH_FIELD_NUMBER = 2;
-    private volatile java.lang.Object search_;
-    /**
-     * <code>optional string search = 2;</code>
-     */
-    public java.lang.String getSearch() {
-      java.lang.Object ref = search_;
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        search_ = s;
-        return s;
+      public static QueryCase valueOf(int value) {
+        switch (value) {
+          case 1: return TERM_QUERY;
+          case 2: return TYPE_QUERY;
+          case 0: return QUERY_NOT_SET;
+          default: throw new java.lang.IllegalArgumentException(
+            "Value is undefined for this oneof enum.");
+        }
       }
-    }
-    /**
-     * <code>optional string search = 2;</code>
-     */
-    public com.google.protobuf.ByteString
-        getSearchBytes() {
-      java.lang.Object ref = search_;
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        search_ = b;
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
+      public int getNumber() {
+        return this.value;
       }
+    };
+
+    public QueryCase
+    getQueryCase() {
+      return QueryCase.valueOf(
+          queryCase_);
     }
 
-    public static final int FIELDS_FIELD_NUMBER = 3;
-    private com.google.protobuf.LazyStringList fields_;
+    public static final int TERM_QUERY_FIELD_NUMBER = 1;
     /**
-     * <code>repeated string fields = 3;</code>
-     *
-     * <pre>
-     * In welchen Feldern soll gesucht werden
-     * </pre>
+     * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
      */
-    public com.google.protobuf.ProtocolStringList
-        getFieldsList() {
-      return fields_;
+    public io.dstore.elastic.ElasticQuery.Query.Term getTermQuery() {
+      if (queryCase_ == 1) {
+         return (io.dstore.elastic.ElasticQuery.Query.Term) query_;
+      }
+      return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
     }
     /**
-     * <code>repeated string fields = 3;</code>
-     *
-     * <pre>
-     * In welchen Feldern soll gesucht werden
-     * </pre>
+     * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
      */
-    public int getFieldsCount() {
-      return fields_.size();
-    }
-    /**
-     * <code>repeated string fields = 3;</code>
-     *
-     * <pre>
-     * In welchen Feldern soll gesucht werden
-     * </pre>
-     */
-    public java.lang.String getFields(int index) {
-      return fields_.get(index);
-    }
-    /**
-     * <code>repeated string fields = 3;</code>
-     *
-     * <pre>
-     * In welchen Feldern soll gesucht werden
-     * </pre>
-     */
-    public com.google.protobuf.ByteString
-        getFieldsBytes(int index) {
-      return fields_.getByteString(index);
+    public io.dstore.elastic.ElasticQuery.Query.TermOrBuilder getTermQueryOrBuilder() {
+      if (queryCase_ == 1) {
+         return (io.dstore.elastic.ElasticQuery.Query.Term) query_;
+      }
+      return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
     }
 
-    public static final int SEARCH_OPTIONS_FIELD_NUMBER = 4;
-    private static final class SearchOptionsDefaultEntryHolder {
-      static final com.google.protobuf.MapEntry<
-          java.lang.String, java.lang.String> defaultEntry =
-              com.google.protobuf.MapEntry
-              .<java.lang.String, java.lang.String>newDefaultInstance(
-                  io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_SearchOptionsEntry_descriptor, 
-                  com.google.protobuf.WireFormat.FieldType.STRING,
-                  "",
-                  com.google.protobuf.WireFormat.FieldType.STRING,
-                  "");
-    }
-    private com.google.protobuf.MapField<
-        java.lang.String, java.lang.String> searchOptions_;
-    private com.google.protobuf.MapField<java.lang.String, java.lang.String>
-    internalGetSearchOptions() {
-      if (searchOptions_ == null) {
-        return com.google.protobuf.MapField.emptyMapField(
-            SearchOptionsDefaultEntryHolder.defaultEntry);
-     }
-      return searchOptions_;
+    public static final int TYPE_QUERY_FIELD_NUMBER = 2;
+    /**
+     * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
+     */
+    public io.dstore.elastic.ElasticQuery.Query.Type getTypeQuery() {
+      if (queryCase_ == 2) {
+         return (io.dstore.elastic.ElasticQuery.Query.Type) query_;
+      }
+      return io.dstore.elastic.ElasticQuery.Query.Type.getDefaultInstance();
     }
     /**
-     * <code>map&lt;string, string&gt; search_options = 4;</code>
+     * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
      */
-
-    public java.util.Map<java.lang.String, java.lang.String> getSearchOptions() {
-      return internalGetSearchOptions().getMap();
+    public io.dstore.elastic.ElasticQuery.Query.TypeOrBuilder getTypeQueryOrBuilder() {
+      if (queryCase_ == 2) {
+         return (io.dstore.elastic.ElasticQuery.Query.Type) query_;
+      }
+      return io.dstore.elastic.ElasticQuery.Query.Type.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -422,23 +1291,11 @@ public final class ElasticQuery {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (type_ != io.dstore.elastic.ElasticQuery.Query.Types.MATCH.getNumber()) {
-        output.writeEnum(1, type_);
+      if (queryCase_ == 1) {
+        output.writeMessage(1, (io.dstore.elastic.ElasticQuery.Query.Term) query_);
       }
-      if (!getSearchBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 2, search_);
-      }
-      for (int i = 0; i < fields_.size(); i++) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 3, fields_.getRaw(i));
-      }
-      for (java.util.Map.Entry<java.lang.String, java.lang.String> entry
-           : internalGetSearchOptions().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, java.lang.String>
-        searchOptions = SearchOptionsDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
-        output.writeMessage(4, searchOptions);
+      if (queryCase_ == 2) {
+        output.writeMessage(2, (io.dstore.elastic.ElasticQuery.Query.Type) query_);
       }
     }
 
@@ -447,30 +1304,13 @@ public final class ElasticQuery {
       if (size != -1) return size;
 
       size = 0;
-      if (type_ != io.dstore.elastic.ElasticQuery.Query.Types.MATCH.getNumber()) {
+      if (queryCase_ == 1) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(1, type_);
+          .computeMessageSize(1, (io.dstore.elastic.ElasticQuery.Query.Term) query_);
       }
-      if (!getSearchBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(2, search_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < fields_.size(); i++) {
-          dataSize += computeStringSizeNoTag(fields_.getRaw(i));
-        }
-        size += dataSize;
-        size += 1 * getFieldsList().size();
-      }
-      for (java.util.Map.Entry<java.lang.String, java.lang.String> entry
-           : internalGetSearchOptions().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, java.lang.String>
-        searchOptions = SearchOptionsDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
+      if (queryCase_ == 2) {
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(4, searchOptions);
+          .computeMessageSize(2, (io.dstore.elastic.ElasticQuery.Query.Type) query_);
       }
       memoizedSize = size;
       return size;
@@ -560,28 +1400,6 @@ public final class ElasticQuery {
         return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_descriptor;
       }
 
-      @SuppressWarnings({"rawtypes"})
-      protected com.google.protobuf.MapField internalGetMapField(
-          int number) {
-        switch (number) {
-          case 4:
-            return internalGetSearchOptions();
-          default:
-            throw new RuntimeException(
-                "Invalid map field number: " + number);
-        }
-      }
-      @SuppressWarnings({"rawtypes"})
-      protected com.google.protobuf.MapField internalGetMutableMapField(
-          int number) {
-        switch (number) {
-          case 4:
-            return internalGetMutableSearchOptions();
-          default:
-            throw new RuntimeException(
-                "Invalid map field number: " + number);
-        }
-      }
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
         return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_fieldAccessorTable
@@ -605,13 +1423,8 @@ public final class ElasticQuery {
       }
       public Builder clear() {
         super.clear();
-        type_ = 0;
-
-        search_ = "";
-
-        fields_ = com.google.protobuf.LazyStringArrayList.EMPTY;
-        bitField0_ = (bitField0_ & ~0x00000004);
-        internalGetMutableSearchOptions().clear();
+        queryCase_ = 0;
+        query_ = null;
         return this;
       }
 
@@ -634,18 +1447,21 @@ public final class ElasticQuery {
 
       public io.dstore.elastic.ElasticQuery.Query buildPartial() {
         io.dstore.elastic.ElasticQuery.Query result = new io.dstore.elastic.ElasticQuery.Query(this);
-        int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
-        result.type_ = type_;
-        result.search_ = search_;
-        if (((bitField0_ & 0x00000004) == 0x00000004)) {
-          fields_ = fields_.getUnmodifiableView();
-          bitField0_ = (bitField0_ & ~0x00000004);
+        if (queryCase_ == 1) {
+          if (termQueryBuilder_ == null) {
+            result.query_ = query_;
+          } else {
+            result.query_ = termQueryBuilder_.build();
+          }
         }
-        result.fields_ = fields_;
-        result.searchOptions_ = internalGetSearchOptions();
-        result.searchOptions_.makeImmutable();
-        result.bitField0_ = to_bitField0_;
+        if (queryCase_ == 2) {
+          if (typeQueryBuilder_ == null) {
+            result.query_ = query_;
+          } else {
+            result.query_ = typeQueryBuilder_.build();
+          }
+        }
+        result.queryCase_ = queryCase_;
         onBuilt();
         return result;
       }
@@ -661,25 +1477,19 @@ public final class ElasticQuery {
 
       public Builder mergeFrom(io.dstore.elastic.ElasticQuery.Query other) {
         if (other == io.dstore.elastic.ElasticQuery.Query.getDefaultInstance()) return this;
-        if (other.type_ != 0) {
-          setTypeValue(other.getTypeValue());
-        }
-        if (!other.getSearch().isEmpty()) {
-          search_ = other.search_;
-          onChanged();
-        }
-        if (!other.fields_.isEmpty()) {
-          if (fields_.isEmpty()) {
-            fields_ = other.fields_;
-            bitField0_ = (bitField0_ & ~0x00000004);
-          } else {
-            ensureFieldsIsMutable();
-            fields_.addAll(other.fields_);
+        switch (other.getQueryCase()) {
+          case TERM_QUERY: {
+            mergeTermQuery(other.getTermQuery());
+            break;
           }
-          onChanged();
+          case TYPE_QUERY: {
+            mergeTypeQuery(other.getTypeQuery());
+            break;
+          }
+          case QUERY_NOT_SET: {
+            break;
+          }
         }
-        internalGetMutableSearchOptions().mergeFrom(
-            other.internalGetSearchOptions());
         onChanged();
         return this;
       }
@@ -705,293 +1515,280 @@ public final class ElasticQuery {
         }
         return this;
       }
-      private int bitField0_;
+      private int queryCase_ = 0;
+      private java.lang.Object query_;
+      public QueryCase
+          getQueryCase() {
+        return QueryCase.valueOf(
+            queryCase_);
+      }
 
-      private int type_ = 0;
-      /**
-       * <code>optional .dstore.elastic.query.Query.Types type = 1;</code>
-       */
-      public int getTypeValue() {
-        return type_;
-      }
-      /**
-       * <code>optional .dstore.elastic.query.Query.Types type = 1;</code>
-       */
-      public Builder setTypeValue(int value) {
-        type_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.query.Query.Types type = 1;</code>
-       */
-      public io.dstore.elastic.ElasticQuery.Query.Types getType() {
-        io.dstore.elastic.ElasticQuery.Query.Types result = io.dstore.elastic.ElasticQuery.Query.Types.valueOf(type_);
-        return result == null ? io.dstore.elastic.ElasticQuery.Query.Types.UNRECOGNIZED : result;
-      }
-      /**
-       * <code>optional .dstore.elastic.query.Query.Types type = 1;</code>
-       */
-      public Builder setType(io.dstore.elastic.ElasticQuery.Query.Types value) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        
-        type_ = value.getNumber();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.query.Query.Types type = 1;</code>
-       */
-      public Builder clearType() {
-        
-        type_ = 0;
+      public Builder clearQuery() {
+        queryCase_ = 0;
+        query_ = null;
         onChanged();
         return this;
       }
 
-      private java.lang.Object search_ = "";
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.ElasticQuery.Query.Term, io.dstore.elastic.ElasticQuery.Query.Term.Builder, io.dstore.elastic.ElasticQuery.Query.TermOrBuilder> termQueryBuilder_;
       /**
-       * <code>optional string search = 2;</code>
+       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
        */
-      public java.lang.String getSearch() {
-        java.lang.Object ref = search_;
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
-          search_ = s;
-          return s;
+      public io.dstore.elastic.ElasticQuery.Query.Term getTermQuery() {
+        if (termQueryBuilder_ == null) {
+          if (queryCase_ == 1) {
+            return (io.dstore.elastic.ElasticQuery.Query.Term) query_;
+          }
+          return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
         } else {
-          return (java.lang.String) ref;
+          if (queryCase_ == 1) {
+            return termQueryBuilder_.getMessage();
+          }
+          return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
         }
       }
       /**
-       * <code>optional string search = 2;</code>
+       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
        */
-      public com.google.protobuf.ByteString
-          getSearchBytes() {
-        java.lang.Object ref = search_;
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
-          search_ = b;
-          return b;
+      public Builder setTermQuery(io.dstore.elastic.ElasticQuery.Query.Term value) {
+        if (termQueryBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          query_ = value;
+          onChanged();
         } else {
-          return (com.google.protobuf.ByteString) ref;
+          termQueryBuilder_.setMessage(value);
+        }
+        queryCase_ = 1;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       */
+      public Builder setTermQuery(
+          io.dstore.elastic.ElasticQuery.Query.Term.Builder builderForValue) {
+        if (termQueryBuilder_ == null) {
+          query_ = builderForValue.build();
+          onChanged();
+        } else {
+          termQueryBuilder_.setMessage(builderForValue.build());
+        }
+        queryCase_ = 1;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       */
+      public Builder mergeTermQuery(io.dstore.elastic.ElasticQuery.Query.Term value) {
+        if (termQueryBuilder_ == null) {
+          if (queryCase_ == 1 &&
+              query_ != io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance()) {
+            query_ = io.dstore.elastic.ElasticQuery.Query.Term.newBuilder((io.dstore.elastic.ElasticQuery.Query.Term) query_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            query_ = value;
+          }
+          onChanged();
+        } else {
+          if (queryCase_ == 1) {
+            termQueryBuilder_.mergeFrom(value);
+          }
+          termQueryBuilder_.setMessage(value);
+        }
+        queryCase_ = 1;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       */
+      public Builder clearTermQuery() {
+        if (termQueryBuilder_ == null) {
+          if (queryCase_ == 1) {
+            queryCase_ = 0;
+            query_ = null;
+            onChanged();
+          }
+        } else {
+          if (queryCase_ == 1) {
+            queryCase_ = 0;
+            query_ = null;
+          }
+          termQueryBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       */
+      public io.dstore.elastic.ElasticQuery.Query.Term.Builder getTermQueryBuilder() {
+        return getTermQueryFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       */
+      public io.dstore.elastic.ElasticQuery.Query.TermOrBuilder getTermQueryOrBuilder() {
+        if ((queryCase_ == 1) && (termQueryBuilder_ != null)) {
+          return termQueryBuilder_.getMessageOrBuilder();
+        } else {
+          if (queryCase_ == 1) {
+            return (io.dstore.elastic.ElasticQuery.Query.Term) query_;
+          }
+          return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
         }
       }
       /**
-       * <code>optional string search = 2;</code>
+       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
        */
-      public Builder setSearch(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        search_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string search = 2;</code>
-       */
-      public Builder clearSearch() {
-        
-        search_ = getDefaultInstance().getSearch();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string search = 2;</code>
-       */
-      public Builder setSearchBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        
-        search_ = value;
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.LazyStringList fields_ = com.google.protobuf.LazyStringArrayList.EMPTY;
-      private void ensureFieldsIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
-          fields_ = new com.google.protobuf.LazyStringArrayList(fields_);
-          bitField0_ |= 0x00000004;
-         }
-      }
-      /**
-       * <code>repeated string fields = 3;</code>
-       *
-       * <pre>
-       * In welchen Feldern soll gesucht werden
-       * </pre>
-       */
-      public com.google.protobuf.ProtocolStringList
-          getFieldsList() {
-        return fields_.getUnmodifiableView();
-      }
-      /**
-       * <code>repeated string fields = 3;</code>
-       *
-       * <pre>
-       * In welchen Feldern soll gesucht werden
-       * </pre>
-       */
-      public int getFieldsCount() {
-        return fields_.size();
-      }
-      /**
-       * <code>repeated string fields = 3;</code>
-       *
-       * <pre>
-       * In welchen Feldern soll gesucht werden
-       * </pre>
-       */
-      public java.lang.String getFields(int index) {
-        return fields_.get(index);
-      }
-      /**
-       * <code>repeated string fields = 3;</code>
-       *
-       * <pre>
-       * In welchen Feldern soll gesucht werden
-       * </pre>
-       */
-      public com.google.protobuf.ByteString
-          getFieldsBytes(int index) {
-        return fields_.getByteString(index);
-      }
-      /**
-       * <code>repeated string fields = 3;</code>
-       *
-       * <pre>
-       * In welchen Feldern soll gesucht werden
-       * </pre>
-       */
-      public Builder setFields(
-          int index, java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  ensureFieldsIsMutable();
-        fields_.set(index, value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated string fields = 3;</code>
-       *
-       * <pre>
-       * In welchen Feldern soll gesucht werden
-       * </pre>
-       */
-      public Builder addFields(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  ensureFieldsIsMutable();
-        fields_.add(value);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated string fields = 3;</code>
-       *
-       * <pre>
-       * In welchen Feldern soll gesucht werden
-       * </pre>
-       */
-      public Builder addAllFields(
-          java.lang.Iterable<java.lang.String> values) {
-        ensureFieldsIsMutable();
-        com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, fields_);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated string fields = 3;</code>
-       *
-       * <pre>
-       * In welchen Feldern soll gesucht werden
-       * </pre>
-       */
-      public Builder clearFields() {
-        fields_ = com.google.protobuf.LazyStringArrayList.EMPTY;
-        bitField0_ = (bitField0_ & ~0x00000004);
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>repeated string fields = 3;</code>
-       *
-       * <pre>
-       * In welchen Feldern soll gesucht werden
-       * </pre>
-       */
-      public Builder addFieldsBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-        ensureFieldsIsMutable();
-        fields_.add(value);
-        onChanged();
-        return this;
-      }
-
-      private com.google.protobuf.MapField<
-          java.lang.String, java.lang.String> searchOptions_;
-      private com.google.protobuf.MapField<java.lang.String, java.lang.String>
-      internalGetSearchOptions() {
-        if (searchOptions_ == null) {
-          return com.google.protobuf.MapField.emptyMapField(
-              SearchOptionsDefaultEntryHolder.defaultEntry);
-       }
-        return searchOptions_;
-      }
-      private com.google.protobuf.MapField<java.lang.String, java.lang.String>
-      internalGetMutableSearchOptions() {
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.ElasticQuery.Query.Term, io.dstore.elastic.ElasticQuery.Query.Term.Builder, io.dstore.elastic.ElasticQuery.Query.TermOrBuilder> 
+          getTermQueryFieldBuilder() {
+        if (termQueryBuilder_ == null) {
+          if (!(queryCase_ == 1)) {
+            query_ = io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
+          }
+          termQueryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.elastic.ElasticQuery.Query.Term, io.dstore.elastic.ElasticQuery.Query.Term.Builder, io.dstore.elastic.ElasticQuery.Query.TermOrBuilder>(
+                  (io.dstore.elastic.ElasticQuery.Query.Term) query_,
+                  getParentForChildren(),
+                  isClean());
+          query_ = null;
+        }
+        queryCase_ = 1;
         onChanged();;
-        if (searchOptions_ == null) {
-          searchOptions_ = com.google.protobuf.MapField.newMapField(
-              SearchOptionsDefaultEntryHolder.defaultEntry);
+        return termQueryBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.ElasticQuery.Query.Type, io.dstore.elastic.ElasticQuery.Query.Type.Builder, io.dstore.elastic.ElasticQuery.Query.TypeOrBuilder> typeQueryBuilder_;
+      /**
+       * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
+       */
+      public io.dstore.elastic.ElasticQuery.Query.Type getTypeQuery() {
+        if (typeQueryBuilder_ == null) {
+          if (queryCase_ == 2) {
+            return (io.dstore.elastic.ElasticQuery.Query.Type) query_;
+          }
+          return io.dstore.elastic.ElasticQuery.Query.Type.getDefaultInstance();
+        } else {
+          if (queryCase_ == 2) {
+            return typeQueryBuilder_.getMessage();
+          }
+          return io.dstore.elastic.ElasticQuery.Query.Type.getDefaultInstance();
         }
-        if (!searchOptions_.isMutable()) {
-          searchOptions_ = searchOptions_.copy();
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
+       */
+      public Builder setTypeQuery(io.dstore.elastic.ElasticQuery.Query.Type value) {
+        if (typeQueryBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          query_ = value;
+          onChanged();
+        } else {
+          typeQueryBuilder_.setMessage(value);
         }
-        return searchOptions_;
-      }
-      /**
-       * <code>map&lt;string, string&gt; search_options = 4;</code>
-       */
-      public java.util.Map<java.lang.String, java.lang.String> getSearchOptions() {
-        return internalGetSearchOptions().getMap();
-      }
-      /**
-       * <code>map&lt;string, string&gt; search_options = 4;</code>
-       */
-      public java.util.Map<java.lang.String, java.lang.String>
-      getMutableSearchOptions() {
-        return internalGetMutableSearchOptions().getMutableMap();
-      }
-      /**
-       * <code>map&lt;string, string&gt; search_options = 4;</code>
-       */
-      public Builder putAllSearchOptions(
-          java.util.Map<java.lang.String, java.lang.String> values) {
-        getMutableSearchOptions().putAll(values);
+        queryCase_ = 2;
         return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
+       */
+      public Builder setTypeQuery(
+          io.dstore.elastic.ElasticQuery.Query.Type.Builder builderForValue) {
+        if (typeQueryBuilder_ == null) {
+          query_ = builderForValue.build();
+          onChanged();
+        } else {
+          typeQueryBuilder_.setMessage(builderForValue.build());
+        }
+        queryCase_ = 2;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
+       */
+      public Builder mergeTypeQuery(io.dstore.elastic.ElasticQuery.Query.Type value) {
+        if (typeQueryBuilder_ == null) {
+          if (queryCase_ == 2 &&
+              query_ != io.dstore.elastic.ElasticQuery.Query.Type.getDefaultInstance()) {
+            query_ = io.dstore.elastic.ElasticQuery.Query.Type.newBuilder((io.dstore.elastic.ElasticQuery.Query.Type) query_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            query_ = value;
+          }
+          onChanged();
+        } else {
+          if (queryCase_ == 2) {
+            typeQueryBuilder_.mergeFrom(value);
+          }
+          typeQueryBuilder_.setMessage(value);
+        }
+        queryCase_ = 2;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
+       */
+      public Builder clearTypeQuery() {
+        if (typeQueryBuilder_ == null) {
+          if (queryCase_ == 2) {
+            queryCase_ = 0;
+            query_ = null;
+            onChanged();
+          }
+        } else {
+          if (queryCase_ == 2) {
+            queryCase_ = 0;
+            query_ = null;
+          }
+          typeQueryBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
+       */
+      public io.dstore.elastic.ElasticQuery.Query.Type.Builder getTypeQueryBuilder() {
+        return getTypeQueryFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
+       */
+      public io.dstore.elastic.ElasticQuery.Query.TypeOrBuilder getTypeQueryOrBuilder() {
+        if ((queryCase_ == 2) && (typeQueryBuilder_ != null)) {
+          return typeQueryBuilder_.getMessageOrBuilder();
+        } else {
+          if (queryCase_ == 2) {
+            return (io.dstore.elastic.ElasticQuery.Query.Type) query_;
+          }
+          return io.dstore.elastic.ElasticQuery.Query.Type.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.ElasticQuery.Query.Type, io.dstore.elastic.ElasticQuery.Query.Type.Builder, io.dstore.elastic.ElasticQuery.Query.TypeOrBuilder> 
+          getTypeQueryFieldBuilder() {
+        if (typeQueryBuilder_ == null) {
+          if (!(queryCase_ == 2)) {
+            query_ = io.dstore.elastic.ElasticQuery.Query.Type.getDefaultInstance();
+          }
+          typeQueryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.elastic.ElasticQuery.Query.Type, io.dstore.elastic.ElasticQuery.Query.Type.Builder, io.dstore.elastic.ElasticQuery.Query.TypeOrBuilder>(
+                  (io.dstore.elastic.ElasticQuery.Query.Type) query_,
+                  getParentForChildren(),
+                  isClean());
+          query_ = null;
+        }
+        queryCase_ = 2;
+        onChanged();;
+        return typeQueryBuilder_;
       }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -1057,10 +1854,15 @@ public final class ElasticQuery {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_query_Query_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
-    internal_static_dstore_elastic_query_Query_SearchOptionsEntry_descriptor;
+    internal_static_dstore_elastic_query_Query_Term_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_dstore_elastic_query_Query_SearchOptionsEntry_fieldAccessorTable;
+      internal_static_dstore_elastic_query_Query_Term_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_dstore_elastic_query_Query_Type_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dstore_elastic_query_Query_Type_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -1071,14 +1873,13 @@ public final class ElasticQuery {
   static {
     java.lang.String[] descriptorData = {
       "\n\032dstore/elastic/query.proto\022\024dstore.ela" +
-      "stic.query\"\366\001\n\005Query\022/\n\004type\030\001 \001(\0162!.dst" +
-      "ore.elastic.query.Query.Types\022\016\n\006search\030" +
-      "\002 \001(\t\022\016\n\006fields\030\003 \003(\t\022F\n\016search_options\030" +
-      "\004 \003(\0132..dstore.elastic.query.Query.Searc" +
-      "hOptionsEntry\0324\n\022SearchOptionsEntry\022\013\n\003k" +
-      "ey\030\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001\"\036\n\005Types\022\t\n\005" +
-      "MATCH\020\000\022\n\n\006SIMPLE\020\001B!\n\021io.dstore.elastic" +
-      "B\014ElasticQueryb\006proto3"
+      "stic.query\"\300\001\n\005Query\0226\n\nterm_query\030\001 \001(\013" +
+      "2 .dstore.elastic.query.Query.TermH\000\0226\n\n" +
+      "type_query\030\002 \001(\0132 .dstore.elastic.query." +
+      "Query.TypeH\000\032(\n\004Term\022\021\n\tfieldName\030\001 \001(\t\022" +
+      "\r\n\005value\030\002 \003(\t\032\024\n\004Type\022\014\n\004type\030\001 \001(\tB\007\n\005" +
+      "queryB!\n\021io.dstore.elasticB\014ElasticQuery" +
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -1097,13 +1898,19 @@ public final class ElasticQuery {
     internal_static_dstore_elastic_query_Query_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_query_Query_descriptor,
-        new java.lang.String[] { "Type", "Search", "Fields", "SearchOptions", });
-    internal_static_dstore_elastic_query_Query_SearchOptionsEntry_descriptor =
+        new java.lang.String[] { "TermQuery", "TypeQuery", "Query", });
+    internal_static_dstore_elastic_query_Query_Term_descriptor =
       internal_static_dstore_elastic_query_Query_descriptor.getNestedTypes().get(0);
-    internal_static_dstore_elastic_query_Query_SearchOptionsEntry_fieldAccessorTable = new
+    internal_static_dstore_elastic_query_Query_Term_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_dstore_elastic_query_Query_SearchOptionsEntry_descriptor,
-        new java.lang.String[] { "Key", "Value", });
+        internal_static_dstore_elastic_query_Query_Term_descriptor,
+        new java.lang.String[] { "FieldName", "Value", });
+    internal_static_dstore_elastic_query_Query_Type_descriptor =
+      internal_static_dstore_elastic_query_Query_descriptor.getNestedTypes().get(1);
+    internal_static_dstore_elastic_query_Query_Type_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dstore_elastic_query_Query_Type_descriptor,
+        new java.lang.String[] { "Type", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

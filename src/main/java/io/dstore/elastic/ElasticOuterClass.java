@@ -36,9 +36,9 @@ public final class ElasticOuterClass {
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          io.dstore.elastic.Facetednavigation.getDescriptor(),
+          io.dstore.elastic.FacetedNavigation.getDescriptor(),
         }, assigner);
-    io.dstore.elastic.Facetednavigation.getDescriptor();
+    io.dstore.elastic.FacetedNavigation.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)
