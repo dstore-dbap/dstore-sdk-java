@@ -13,13 +13,13 @@ public final class ElasticQuery {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+     * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
      */
-    io.dstore.elastic.ElasticQuery.Query.Term getTermQuery();
+    io.dstore.elastic.ElasticQuery.Query.Terms getTermsQuery();
     /**
-     * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+     * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
      */
-    io.dstore.elastic.ElasticQuery.Query.TermOrBuilder getTermQueryOrBuilder();
+    io.dstore.elastic.ElasticQuery.Query.TermsOrBuilder getTermsQueryOrBuilder();
 
     /**
      * <code>optional .dstore.elastic.query.Query.Type type_query = 2;</code>
@@ -71,14 +71,14 @@ public final class ElasticQuery {
               break;
             }
             case 10: {
-              io.dstore.elastic.ElasticQuery.Query.Term.Builder subBuilder = null;
+              io.dstore.elastic.ElasticQuery.Query.Terms.Builder subBuilder = null;
               if (queryCase_ == 1) {
-                subBuilder = ((io.dstore.elastic.ElasticQuery.Query.Term) query_).toBuilder();
+                subBuilder = ((io.dstore.elastic.ElasticQuery.Query.Terms) query_).toBuilder();
               }
               query_ =
-                  input.readMessage(io.dstore.elastic.ElasticQuery.Query.Term.parser(), extensionRegistry);
+                  input.readMessage(io.dstore.elastic.ElasticQuery.Query.Terms.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((io.dstore.elastic.ElasticQuery.Query.Term) query_);
+                subBuilder.mergeFrom((io.dstore.elastic.ElasticQuery.Query.Terms) query_);
                 query_ = subBuilder.buildPartial();
               }
               queryCase_ = 1;
@@ -122,8 +122,8 @@ public final class ElasticQuery {
               io.dstore.elastic.ElasticQuery.Query.class, io.dstore.elastic.ElasticQuery.Query.Builder.class);
     }
 
-    public interface TermOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:dstore.elastic.query.Query.Term)
+    public interface TermsOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:dstore.elastic.query.Query.Terms)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -156,17 +156,17 @@ public final class ElasticQuery {
           getValueBytes(int index);
     }
     /**
-     * Protobuf type {@code dstore.elastic.query.Query.Term}
+     * Protobuf type {@code dstore.elastic.query.Query.Terms}
      */
-    public  static final class Term extends
+    public  static final class Terms extends
         com.google.protobuf.GeneratedMessage implements
-        // @@protoc_insertion_point(message_implements:dstore.elastic.query.Query.Term)
-        TermOrBuilder {
-      // Use Term.newBuilder() to construct.
-      private Term(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+        // @@protoc_insertion_point(message_implements:dstore.elastic.query.Query.Terms)
+        TermsOrBuilder {
+      // Use Terms.newBuilder() to construct.
+      private Terms(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
-      private Term() {
+      private Terms() {
         fieldName_ = "";
         value_ = com.google.protobuf.LazyStringArrayList.EMPTY;
       }
@@ -176,7 +176,7 @@ public final class ElasticQuery {
       getUnknownFields() {
         return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
       }
-      private Term(
+      private Terms(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
         this();
@@ -227,14 +227,14 @@ public final class ElasticQuery {
       }
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Term_descriptor;
+        return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Terms_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Term_fieldAccessorTable
+        return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Terms_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                io.dstore.elastic.ElasticQuery.Query.Term.class, io.dstore.elastic.ElasticQuery.Query.Term.Builder.class);
+                io.dstore.elastic.ElasticQuery.Query.Terms.class, io.dstore.elastic.ElasticQuery.Query.Terms.Builder.class);
       }
 
       private int bitField0_;
@@ -342,53 +342,53 @@ public final class ElasticQuery {
       }
 
       private static final long serialVersionUID = 0L;
-      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+      public static io.dstore.elastic.ElasticQuery.Query.Terms parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+      public static io.dstore.elastic.ElasticQuery.Query.Terms parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(byte[] data)
+      public static io.dstore.elastic.ElasticQuery.Query.Terms parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+      public static io.dstore.elastic.ElasticQuery.Query.Terms parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(java.io.InputStream input)
+      public static io.dstore.elastic.ElasticQuery.Query.Terms parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return PARSER.parseFrom(input);
       }
-      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+      public static io.dstore.elastic.ElasticQuery.Query.Terms parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return PARSER.parseFrom(input, extensionRegistry);
       }
-      public static io.dstore.elastic.ElasticQuery.Query.Term parseDelimitedFrom(java.io.InputStream input)
+      public static io.dstore.elastic.ElasticQuery.Query.Terms parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return PARSER.parseDelimitedFrom(input);
       }
-      public static io.dstore.elastic.ElasticQuery.Query.Term parseDelimitedFrom(
+      public static io.dstore.elastic.ElasticQuery.Query.Terms parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return PARSER.parseDelimitedFrom(input, extensionRegistry);
       }
-      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+      public static io.dstore.elastic.ElasticQuery.Query.Terms parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return PARSER.parseFrom(input);
       }
-      public static io.dstore.elastic.ElasticQuery.Query.Term parseFrom(
+      public static io.dstore.elastic.ElasticQuery.Query.Terms parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -399,7 +399,7 @@ public final class ElasticQuery {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(io.dstore.elastic.ElasticQuery.Query.Term prototype) {
+      public static Builder newBuilder(io.dstore.elastic.ElasticQuery.Query.Terms prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       public Builder toBuilder() {
@@ -414,25 +414,25 @@ public final class ElasticQuery {
         return builder;
       }
       /**
-       * Protobuf type {@code dstore.elastic.query.Query.Term}
+       * Protobuf type {@code dstore.elastic.query.Query.Terms}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:dstore.elastic.query.Query.Term)
-          io.dstore.elastic.ElasticQuery.Query.TermOrBuilder {
+          // @@protoc_insertion_point(builder_implements:dstore.elastic.query.Query.Terms)
+          io.dstore.elastic.ElasticQuery.Query.TermsOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Term_descriptor;
+          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Terms_descriptor;
         }
 
         protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Term_fieldAccessorTable
+          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Terms_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  io.dstore.elastic.ElasticQuery.Query.Term.class, io.dstore.elastic.ElasticQuery.Query.Term.Builder.class);
+                  io.dstore.elastic.ElasticQuery.Query.Terms.class, io.dstore.elastic.ElasticQuery.Query.Terms.Builder.class);
         }
 
-        // Construct using io.dstore.elastic.ElasticQuery.Query.Term.newBuilder()
+        // Construct using io.dstore.elastic.ElasticQuery.Query.Terms.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -457,23 +457,23 @@ public final class ElasticQuery {
 
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Term_descriptor;
+          return io.dstore.elastic.ElasticQuery.internal_static_dstore_elastic_query_Query_Terms_descriptor;
         }
 
-        public io.dstore.elastic.ElasticQuery.Query.Term getDefaultInstanceForType() {
-          return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
+        public io.dstore.elastic.ElasticQuery.Query.Terms getDefaultInstanceForType() {
+          return io.dstore.elastic.ElasticQuery.Query.Terms.getDefaultInstance();
         }
 
-        public io.dstore.elastic.ElasticQuery.Query.Term build() {
-          io.dstore.elastic.ElasticQuery.Query.Term result = buildPartial();
+        public io.dstore.elastic.ElasticQuery.Query.Terms build() {
+          io.dstore.elastic.ElasticQuery.Query.Terms result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
           return result;
         }
 
-        public io.dstore.elastic.ElasticQuery.Query.Term buildPartial() {
-          io.dstore.elastic.ElasticQuery.Query.Term result = new io.dstore.elastic.ElasticQuery.Query.Term(this);
+        public io.dstore.elastic.ElasticQuery.Query.Terms buildPartial() {
+          io.dstore.elastic.ElasticQuery.Query.Terms result = new io.dstore.elastic.ElasticQuery.Query.Terms(this);
           int from_bitField0_ = bitField0_;
           int to_bitField0_ = 0;
           result.fieldName_ = fieldName_;
@@ -488,16 +488,16 @@ public final class ElasticQuery {
         }
 
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof io.dstore.elastic.ElasticQuery.Query.Term) {
-            return mergeFrom((io.dstore.elastic.ElasticQuery.Query.Term)other);
+          if (other instanceof io.dstore.elastic.ElasticQuery.Query.Terms) {
+            return mergeFrom((io.dstore.elastic.ElasticQuery.Query.Terms)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(io.dstore.elastic.ElasticQuery.Query.Term other) {
-          if (other == io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance()) return this;
+        public Builder mergeFrom(io.dstore.elastic.ElasticQuery.Query.Terms other) {
+          if (other == io.dstore.elastic.ElasticQuery.Query.Terms.getDefaultInstance()) return this;
           if (!other.getFieldName().isEmpty()) {
             fieldName_ = other.fieldName_;
             onChanged();
@@ -524,11 +524,11 @@ public final class ElasticQuery {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          io.dstore.elastic.ElasticQuery.Query.Term parsedMessage = null;
+          io.dstore.elastic.ElasticQuery.Query.Terms parsedMessage = null;
           try {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-            parsedMessage = (io.dstore.elastic.ElasticQuery.Query.Term) e.getUnfinishedMessage();
+            parsedMessage = (io.dstore.elastic.ElasticQuery.Query.Terms) e.getUnfinishedMessage();
             throw e;
           } finally {
             if (parsedMessage != null) {
@@ -712,27 +712,27 @@ public final class ElasticQuery {
         }
 
 
-        // @@protoc_insertion_point(builder_scope:dstore.elastic.query.Query.Term)
+        // @@protoc_insertion_point(builder_scope:dstore.elastic.query.Query.Terms)
       }
 
-      // @@protoc_insertion_point(class_scope:dstore.elastic.query.Query.Term)
-      private static final io.dstore.elastic.ElasticQuery.Query.Term DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:dstore.elastic.query.Query.Terms)
+      private static final io.dstore.elastic.ElasticQuery.Query.Terms DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new io.dstore.elastic.ElasticQuery.Query.Term();
+        DEFAULT_INSTANCE = new io.dstore.elastic.ElasticQuery.Query.Terms();
       }
 
-      public static io.dstore.elastic.ElasticQuery.Query.Term getDefaultInstance() {
+      public static io.dstore.elastic.ElasticQuery.Query.Terms getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
-      private static final com.google.protobuf.Parser<Term>
-          PARSER = new com.google.protobuf.AbstractParser<Term>() {
-        public Term parsePartialFrom(
+      private static final com.google.protobuf.Parser<Terms>
+          PARSER = new com.google.protobuf.AbstractParser<Terms>() {
+        public Terms parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
           try {
-            return new Term(input, extensionRegistry);
+            return new Terms(input, extensionRegistry);
           } catch (RuntimeException e) {
             if (e.getCause() instanceof
                 com.google.protobuf.InvalidProtocolBufferException) {
@@ -744,16 +744,16 @@ public final class ElasticQuery {
         }
       };
 
-      public static com.google.protobuf.Parser<Term> parser() {
+      public static com.google.protobuf.Parser<Terms> parser() {
         return PARSER;
       }
 
       @java.lang.Override
-      public com.google.protobuf.Parser<Term> getParserForType() {
+      public com.google.protobuf.Parser<Terms> getParserForType() {
         return PARSER;
       }
 
-      public io.dstore.elastic.ElasticQuery.Query.Term getDefaultInstanceForType() {
+      public io.dstore.elastic.ElasticQuery.Query.Terms getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
@@ -1212,7 +1212,7 @@ public final class ElasticQuery {
     private java.lang.Object query_;
     public enum QueryCase
         implements com.google.protobuf.Internal.EnumLite {
-      TERM_QUERY(1),
+      TERMS_QUERY(1),
       TYPE_QUERY(2),
       QUERY_NOT_SET(0);
       private int value = 0;
@@ -1221,7 +1221,7 @@ public final class ElasticQuery {
       }
       public static QueryCase valueOf(int value) {
         switch (value) {
-          case 1: return TERM_QUERY;
+          case 1: return TERMS_QUERY;
           case 2: return TYPE_QUERY;
           case 0: return QUERY_NOT_SET;
           default: throw new java.lang.IllegalArgumentException(
@@ -1239,24 +1239,24 @@ public final class ElasticQuery {
           queryCase_);
     }
 
-    public static final int TERM_QUERY_FIELD_NUMBER = 1;
+    public static final int TERMS_QUERY_FIELD_NUMBER = 1;
     /**
-     * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+     * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
      */
-    public io.dstore.elastic.ElasticQuery.Query.Term getTermQuery() {
+    public io.dstore.elastic.ElasticQuery.Query.Terms getTermsQuery() {
       if (queryCase_ == 1) {
-         return (io.dstore.elastic.ElasticQuery.Query.Term) query_;
+         return (io.dstore.elastic.ElasticQuery.Query.Terms) query_;
       }
-      return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
+      return io.dstore.elastic.ElasticQuery.Query.Terms.getDefaultInstance();
     }
     /**
-     * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+     * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
      */
-    public io.dstore.elastic.ElasticQuery.Query.TermOrBuilder getTermQueryOrBuilder() {
+    public io.dstore.elastic.ElasticQuery.Query.TermsOrBuilder getTermsQueryOrBuilder() {
       if (queryCase_ == 1) {
-         return (io.dstore.elastic.ElasticQuery.Query.Term) query_;
+         return (io.dstore.elastic.ElasticQuery.Query.Terms) query_;
       }
-      return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
+      return io.dstore.elastic.ElasticQuery.Query.Terms.getDefaultInstance();
     }
 
     public static final int TYPE_QUERY_FIELD_NUMBER = 2;
@@ -1292,7 +1292,7 @@ public final class ElasticQuery {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (queryCase_ == 1) {
-        output.writeMessage(1, (io.dstore.elastic.ElasticQuery.Query.Term) query_);
+        output.writeMessage(1, (io.dstore.elastic.ElasticQuery.Query.Terms) query_);
       }
       if (queryCase_ == 2) {
         output.writeMessage(2, (io.dstore.elastic.ElasticQuery.Query.Type) query_);
@@ -1306,7 +1306,7 @@ public final class ElasticQuery {
       size = 0;
       if (queryCase_ == 1) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, (io.dstore.elastic.ElasticQuery.Query.Term) query_);
+          .computeMessageSize(1, (io.dstore.elastic.ElasticQuery.Query.Terms) query_);
       }
       if (queryCase_ == 2) {
         size += com.google.protobuf.CodedOutputStream
@@ -1448,10 +1448,10 @@ public final class ElasticQuery {
       public io.dstore.elastic.ElasticQuery.Query buildPartial() {
         io.dstore.elastic.ElasticQuery.Query result = new io.dstore.elastic.ElasticQuery.Query(this);
         if (queryCase_ == 1) {
-          if (termQueryBuilder_ == null) {
+          if (termsQueryBuilder_ == null) {
             result.query_ = query_;
           } else {
-            result.query_ = termQueryBuilder_.build();
+            result.query_ = termsQueryBuilder_.build();
           }
         }
         if (queryCase_ == 2) {
@@ -1478,8 +1478,8 @@ public final class ElasticQuery {
       public Builder mergeFrom(io.dstore.elastic.ElasticQuery.Query other) {
         if (other == io.dstore.elastic.ElasticQuery.Query.getDefaultInstance()) return this;
         switch (other.getQueryCase()) {
-          case TERM_QUERY: {
-            mergeTermQuery(other.getTermQuery());
+          case TERMS_QUERY: {
+            mergeTermsQuery(other.getTermsQuery());
             break;
           }
           case TYPE_QUERY: {
@@ -1532,61 +1532,61 @@ public final class ElasticQuery {
 
 
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.elastic.ElasticQuery.Query.Term, io.dstore.elastic.ElasticQuery.Query.Term.Builder, io.dstore.elastic.ElasticQuery.Query.TermOrBuilder> termQueryBuilder_;
+          io.dstore.elastic.ElasticQuery.Query.Terms, io.dstore.elastic.ElasticQuery.Query.Terms.Builder, io.dstore.elastic.ElasticQuery.Query.TermsOrBuilder> termsQueryBuilder_;
       /**
-       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
        */
-      public io.dstore.elastic.ElasticQuery.Query.Term getTermQuery() {
-        if (termQueryBuilder_ == null) {
+      public io.dstore.elastic.ElasticQuery.Query.Terms getTermsQuery() {
+        if (termsQueryBuilder_ == null) {
           if (queryCase_ == 1) {
-            return (io.dstore.elastic.ElasticQuery.Query.Term) query_;
+            return (io.dstore.elastic.ElasticQuery.Query.Terms) query_;
           }
-          return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
+          return io.dstore.elastic.ElasticQuery.Query.Terms.getDefaultInstance();
         } else {
           if (queryCase_ == 1) {
-            return termQueryBuilder_.getMessage();
+            return termsQueryBuilder_.getMessage();
           }
-          return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
+          return io.dstore.elastic.ElasticQuery.Query.Terms.getDefaultInstance();
         }
       }
       /**
-       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
        */
-      public Builder setTermQuery(io.dstore.elastic.ElasticQuery.Query.Term value) {
-        if (termQueryBuilder_ == null) {
+      public Builder setTermsQuery(io.dstore.elastic.ElasticQuery.Query.Terms value) {
+        if (termsQueryBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
           query_ = value;
           onChanged();
         } else {
-          termQueryBuilder_.setMessage(value);
+          termsQueryBuilder_.setMessage(value);
         }
         queryCase_ = 1;
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
        */
-      public Builder setTermQuery(
-          io.dstore.elastic.ElasticQuery.Query.Term.Builder builderForValue) {
-        if (termQueryBuilder_ == null) {
+      public Builder setTermsQuery(
+          io.dstore.elastic.ElasticQuery.Query.Terms.Builder builderForValue) {
+        if (termsQueryBuilder_ == null) {
           query_ = builderForValue.build();
           onChanged();
         } else {
-          termQueryBuilder_.setMessage(builderForValue.build());
+          termsQueryBuilder_.setMessage(builderForValue.build());
         }
         queryCase_ = 1;
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
        */
-      public Builder mergeTermQuery(io.dstore.elastic.ElasticQuery.Query.Term value) {
-        if (termQueryBuilder_ == null) {
+      public Builder mergeTermsQuery(io.dstore.elastic.ElasticQuery.Query.Terms value) {
+        if (termsQueryBuilder_ == null) {
           if (queryCase_ == 1 &&
-              query_ != io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance()) {
-            query_ = io.dstore.elastic.ElasticQuery.Query.Term.newBuilder((io.dstore.elastic.ElasticQuery.Query.Term) query_)
+              query_ != io.dstore.elastic.ElasticQuery.Query.Terms.getDefaultInstance()) {
+            query_ = io.dstore.elastic.ElasticQuery.Query.Terms.newBuilder((io.dstore.elastic.ElasticQuery.Query.Terms) query_)
                 .mergeFrom(value).buildPartial();
           } else {
             query_ = value;
@@ -1594,18 +1594,18 @@ public final class ElasticQuery {
           onChanged();
         } else {
           if (queryCase_ == 1) {
-            termQueryBuilder_.mergeFrom(value);
+            termsQueryBuilder_.mergeFrom(value);
           }
-          termQueryBuilder_.setMessage(value);
+          termsQueryBuilder_.setMessage(value);
         }
         queryCase_ = 1;
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
        */
-      public Builder clearTermQuery() {
-        if (termQueryBuilder_ == null) {
+      public Builder clearTermsQuery() {
+        if (termsQueryBuilder_ == null) {
           if (queryCase_ == 1) {
             queryCase_ = 0;
             query_ = null;
@@ -1616,49 +1616,49 @@ public final class ElasticQuery {
             queryCase_ = 0;
             query_ = null;
           }
-          termQueryBuilder_.clear();
+          termsQueryBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
        */
-      public io.dstore.elastic.ElasticQuery.Query.Term.Builder getTermQueryBuilder() {
-        return getTermQueryFieldBuilder().getBuilder();
+      public io.dstore.elastic.ElasticQuery.Query.Terms.Builder getTermsQueryBuilder() {
+        return getTermsQueryFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
        */
-      public io.dstore.elastic.ElasticQuery.Query.TermOrBuilder getTermQueryOrBuilder() {
-        if ((queryCase_ == 1) && (termQueryBuilder_ != null)) {
-          return termQueryBuilder_.getMessageOrBuilder();
+      public io.dstore.elastic.ElasticQuery.Query.TermsOrBuilder getTermsQueryOrBuilder() {
+        if ((queryCase_ == 1) && (termsQueryBuilder_ != null)) {
+          return termsQueryBuilder_.getMessageOrBuilder();
         } else {
           if (queryCase_ == 1) {
-            return (io.dstore.elastic.ElasticQuery.Query.Term) query_;
+            return (io.dstore.elastic.ElasticQuery.Query.Terms) query_;
           }
-          return io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
+          return io.dstore.elastic.ElasticQuery.Query.Terms.getDefaultInstance();
         }
       }
       /**
-       * <code>optional .dstore.elastic.query.Query.Term term_query = 1;</code>
+       * <code>optional .dstore.elastic.query.Query.Terms terms_query = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilder<
-          io.dstore.elastic.ElasticQuery.Query.Term, io.dstore.elastic.ElasticQuery.Query.Term.Builder, io.dstore.elastic.ElasticQuery.Query.TermOrBuilder> 
-          getTermQueryFieldBuilder() {
-        if (termQueryBuilder_ == null) {
+          io.dstore.elastic.ElasticQuery.Query.Terms, io.dstore.elastic.ElasticQuery.Query.Terms.Builder, io.dstore.elastic.ElasticQuery.Query.TermsOrBuilder> 
+          getTermsQueryFieldBuilder() {
+        if (termsQueryBuilder_ == null) {
           if (!(queryCase_ == 1)) {
-            query_ = io.dstore.elastic.ElasticQuery.Query.Term.getDefaultInstance();
+            query_ = io.dstore.elastic.ElasticQuery.Query.Terms.getDefaultInstance();
           }
-          termQueryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
-              io.dstore.elastic.ElasticQuery.Query.Term, io.dstore.elastic.ElasticQuery.Query.Term.Builder, io.dstore.elastic.ElasticQuery.Query.TermOrBuilder>(
-                  (io.dstore.elastic.ElasticQuery.Query.Term) query_,
+          termsQueryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.elastic.ElasticQuery.Query.Terms, io.dstore.elastic.ElasticQuery.Query.Terms.Builder, io.dstore.elastic.ElasticQuery.Query.TermsOrBuilder>(
+                  (io.dstore.elastic.ElasticQuery.Query.Terms) query_,
                   getParentForChildren(),
                   isClean());
           query_ = null;
         }
         queryCase_ = 1;
         onChanged();;
-        return termQueryBuilder_;
+        return termsQueryBuilder_;
       }
 
       private com.google.protobuf.SingleFieldBuilder<
@@ -1854,10 +1854,10 @@ public final class ElasticQuery {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_query_Query_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
-    internal_static_dstore_elastic_query_Query_Term_descriptor;
+    internal_static_dstore_elastic_query_Query_Terms_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_dstore_elastic_query_Query_Term_fieldAccessorTable;
+      internal_static_dstore_elastic_query_Query_Terms_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_query_Query_Type_descriptor;
   private static
@@ -1873,13 +1873,13 @@ public final class ElasticQuery {
   static {
     java.lang.String[] descriptorData = {
       "\n\032dstore/elastic/query.proto\022\024dstore.ela" +
-      "stic.query\"\300\001\n\005Query\0226\n\nterm_query\030\001 \001(\013" +
-      "2 .dstore.elastic.query.Query.TermH\000\0226\n\n" +
-      "type_query\030\002 \001(\0132 .dstore.elastic.query." +
-      "Query.TypeH\000\032(\n\004Term\022\021\n\tfieldName\030\001 \001(\t\022" +
-      "\r\n\005value\030\002 \003(\t\032\024\n\004Type\022\014\n\004type\030\001 \001(\tB\007\n\005" +
-      "queryB!\n\021io.dstore.elasticB\014ElasticQuery" +
-      "b\006proto3"
+      "stic.query\"\303\001\n\005Query\0228\n\013terms_query\030\001 \001(" +
+      "\0132!.dstore.elastic.query.Query.TermsH\000\0226" +
+      "\n\ntype_query\030\002 \001(\0132 .dstore.elastic.quer" +
+      "y.Query.TypeH\000\032)\n\005Terms\022\021\n\tfieldName\030\001 \001" +
+      "(\t\022\r\n\005value\030\002 \003(\t\032\024\n\004Type\022\014\n\004type\030\001 \001(\tB" +
+      "\007\n\005queryB!\n\021io.dstore.elasticB\014ElasticQu" +
+      "eryb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -1898,12 +1898,12 @@ public final class ElasticQuery {
     internal_static_dstore_elastic_query_Query_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_query_Query_descriptor,
-        new java.lang.String[] { "TermQuery", "TypeQuery", "Query", });
-    internal_static_dstore_elastic_query_Query_Term_descriptor =
+        new java.lang.String[] { "TermsQuery", "TypeQuery", "Query", });
+    internal_static_dstore_elastic_query_Query_Terms_descriptor =
       internal_static_dstore_elastic_query_Query_descriptor.getNestedTypes().get(0);
-    internal_static_dstore_elastic_query_Query_Term_fieldAccessorTable = new
+    internal_static_dstore_elastic_query_Query_Terms_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_dstore_elastic_query_Query_Term_descriptor,
+        internal_static_dstore_elastic_query_Query_Terms_descriptor,
         new java.lang.String[] { "FieldName", "Value", });
     internal_static_dstore_elastic_query_Query_Type_descriptor =
       internal_static_dstore_elastic_query_Query_descriptor.getNestedTypes().get(1);
