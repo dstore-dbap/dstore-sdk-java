@@ -22,14 +22,14 @@ public class ElasticGrpc {
 
   // Static method descriptors that strictly reflect the proto.
   @io.grpc.ExperimentalApi
-  public static final io.grpc.MethodDescriptor<io.dstore.elastic.FacetedNavigation.Parameters,
-      io.dstore.elastic.FacetedNavigation.Response> METHOD_FACETED_NAVIGATION =
+  public static final io.grpc.MethodDescriptor<io.dstore.elastic.item.FacetedNavigation.Request,
+      io.dstore.elastic.item.FacetedNavigation.Response> METHOD_FACETED_NAVIGATION =
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
               "dstore.elastic.Elastic", "facetedNavigation"),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.FacetedNavigation.Parameters.getDefaultInstance()),
-          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.FacetedNavigation.Response.getDefaultInstance()));
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.FacetedNavigation.Request.getDefaultInstance()),
+          io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.FacetedNavigation.Response.getDefaultInstance()));
 
   public static ElasticStub newStub(io.grpc.Channel channel) {
     return new ElasticStub(channel);
@@ -47,14 +47,14 @@ public class ElasticGrpc {
 
   public static interface Elastic {
 
-    public void facetedNavigation(io.dstore.elastic.FacetedNavigation.Parameters request,
-        io.grpc.stub.StreamObserver<io.dstore.elastic.FacetedNavigation.Response> responseObserver);
+    public void facetedNavigation(io.dstore.elastic.item.FacetedNavigation.Request request,
+        io.grpc.stub.StreamObserver<io.dstore.elastic.item.FacetedNavigation.Response> responseObserver);
   }
 
   public static interface ElasticBlockingClient {
 
-    public java.util.Iterator<io.dstore.elastic.FacetedNavigation.Response> facetedNavigation(
-        io.dstore.elastic.FacetedNavigation.Parameters request);
+    public java.util.Iterator<io.dstore.elastic.item.FacetedNavigation.Response> facetedNavigation(
+        io.dstore.elastic.item.FacetedNavigation.Request request);
   }
 
   public static interface ElasticFutureClient {
@@ -78,8 +78,8 @@ public class ElasticGrpc {
     }
 
     @java.lang.Override
-    public void facetedNavigation(io.dstore.elastic.FacetedNavigation.Parameters request,
-        io.grpc.stub.StreamObserver<io.dstore.elastic.FacetedNavigation.Response> responseObserver) {
+    public void facetedNavigation(io.dstore.elastic.item.FacetedNavigation.Request request,
+        io.grpc.stub.StreamObserver<io.dstore.elastic.item.FacetedNavigation.Response> responseObserver) {
       asyncServerStreamingCall(
           getChannel().newCall(METHOD_FACETED_NAVIGATION, getCallOptions()), request, responseObserver);
     }
@@ -103,8 +103,8 @@ public class ElasticGrpc {
     }
 
     @java.lang.Override
-    public java.util.Iterator<io.dstore.elastic.FacetedNavigation.Response> facetedNavigation(
-        io.dstore.elastic.FacetedNavigation.Parameters request) {
+    public java.util.Iterator<io.dstore.elastic.item.FacetedNavigation.Response> facetedNavigation(
+        io.dstore.elastic.item.FacetedNavigation.Request request) {
       return blockingServerStreamingCall(
           getChannel().newCall(METHOD_FACETED_NAVIGATION, getCallOptions()), request);
     }
@@ -135,12 +135,12 @@ public class ElasticGrpc {
         METHOD_FACETED_NAVIGATION,
         asyncServerStreamingCall(
           new io.grpc.stub.ServerCalls.ServerStreamingMethod<
-              io.dstore.elastic.FacetedNavigation.Parameters,
-              io.dstore.elastic.FacetedNavigation.Response>() {
+              io.dstore.elastic.item.FacetedNavigation.Request,
+              io.dstore.elastic.item.FacetedNavigation.Response>() {
             @java.lang.Override
             public void invoke(
-                io.dstore.elastic.FacetedNavigation.Parameters request,
-                io.grpc.stub.StreamObserver<io.dstore.elastic.FacetedNavigation.Response> responseObserver) {
+                io.dstore.elastic.item.FacetedNavigation.Request request,
+                io.grpc.stub.StreamObserver<io.dstore.elastic.item.FacetedNavigation.Response> responseObserver) {
               serviceImpl.facetedNavigation(request, responseObserver);
             }
           })).build();
