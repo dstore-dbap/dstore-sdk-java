@@ -101,23 +101,23 @@ public final class FacetedNavigation {
         int index);
 
     /**
-     * <code>repeated string facets = 3;</code>
+     * <code>repeated string facet = 3;</code>
      */
     com.google.protobuf.ProtocolStringList
-        getFacetsList();
+        getFacetList();
     /**
-     * <code>repeated string facets = 3;</code>
+     * <code>repeated string facet = 3;</code>
      */
-    int getFacetsCount();
+    int getFacetCount();
     /**
-     * <code>repeated string facets = 3;</code>
+     * <code>repeated string facet = 3;</code>
      */
-    java.lang.String getFacets(int index);
+    java.lang.String getFacet(int index);
     /**
-     * <code>repeated string facets = 3;</code>
+     * <code>repeated string facet = 3;</code>
      */
     com.google.protobuf.ByteString
-        getFacetsBytes(int index);
+        getFacetBytes(int index);
 
     /**
      * <code>repeated .dstore.elastic.sort.Sort sort = 4;</code>
@@ -171,7 +171,7 @@ public final class FacetedNavigation {
     private Request() {
       baseFilter_ = java.util.Collections.emptyList();
       postFilter_ = java.util.Collections.emptyList();
-      facets_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      facet_ = com.google.protobuf.LazyStringArrayList.EMPTY;
       sort_ = java.util.Collections.emptyList();
       from_ = 0;
       size_ = 0;
@@ -220,10 +220,10 @@ public final class FacetedNavigation {
             case 26: {
               String s = input.readStringRequireUtf8();
               if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
-                facets_ = new com.google.protobuf.LazyStringArrayList();
+                facet_ = new com.google.protobuf.LazyStringArrayList();
                 mutable_bitField0_ |= 0x00000004;
               }
-              facets_.add(s);
+              facet_.add(s);
               break;
             }
             case 34: {
@@ -260,7 +260,7 @@ public final class FacetedNavigation {
           postFilter_ = java.util.Collections.unmodifiableList(postFilter_);
         }
         if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
-          facets_ = facets_.getUnmodifiableView();
+          facet_ = facet_.getUnmodifiableView();
         }
         if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
           sort_ = java.util.Collections.unmodifiableList(sort_);
@@ -391,33 +391,33 @@ public final class FacetedNavigation {
       return postFilter_.get(index);
     }
 
-    public static final int FACETS_FIELD_NUMBER = 3;
-    private com.google.protobuf.LazyStringList facets_;
+    public static final int FACET_FIELD_NUMBER = 3;
+    private com.google.protobuf.LazyStringList facet_;
     /**
-     * <code>repeated string facets = 3;</code>
+     * <code>repeated string facet = 3;</code>
      */
     public com.google.protobuf.ProtocolStringList
-        getFacetsList() {
-      return facets_;
+        getFacetList() {
+      return facet_;
     }
     /**
-     * <code>repeated string facets = 3;</code>
+     * <code>repeated string facet = 3;</code>
      */
-    public int getFacetsCount() {
-      return facets_.size();
+    public int getFacetCount() {
+      return facet_.size();
     }
     /**
-     * <code>repeated string facets = 3;</code>
+     * <code>repeated string facet = 3;</code>
      */
-    public java.lang.String getFacets(int index) {
-      return facets_.get(index);
+    public java.lang.String getFacet(int index) {
+      return facet_.get(index);
     }
     /**
-     * <code>repeated string facets = 3;</code>
+     * <code>repeated string facet = 3;</code>
      */
     public com.google.protobuf.ByteString
-        getFacetsBytes(int index) {
-      return facets_.getByteString(index);
+        getFacetBytes(int index) {
+      return facet_.getByteString(index);
     }
 
     public static final int SORT_FIELD_NUMBER = 4;
@@ -495,8 +495,8 @@ public final class FacetedNavigation {
       for (int i = 0; i < postFilter_.size(); i++) {
         output.writeMessage(2, postFilter_.get(i));
       }
-      for (int i = 0; i < facets_.size(); i++) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 3, facets_.getRaw(i));
+      for (int i = 0; i < facet_.size(); i++) {
+        com.google.protobuf.GeneratedMessage.writeString(output, 3, facet_.getRaw(i));
       }
       for (int i = 0; i < sort_.size(); i++) {
         output.writeMessage(4, sort_.get(i));
@@ -524,11 +524,11 @@ public final class FacetedNavigation {
       }
       {
         int dataSize = 0;
-        for (int i = 0; i < facets_.size(); i++) {
-          dataSize += computeStringSizeNoTag(facets_.getRaw(i));
+        for (int i = 0; i < facet_.size(); i++) {
+          dataSize += computeStringSizeNoTag(facet_.getRaw(i));
         }
         size += dataSize;
-        size += 1 * getFacetsList().size();
+        size += 1 * getFacetList().size();
       }
       for (int i = 0; i < sort_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -668,7 +668,7 @@ public final class FacetedNavigation {
         } else {
           postFilterBuilder_.clear();
         }
-        facets_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        facet_ = com.google.protobuf.LazyStringArrayList.EMPTY;
         bitField0_ = (bitField0_ & ~0x00000004);
         if (sortBuilder_ == null) {
           sort_ = java.util.Collections.emptyList();
@@ -723,10 +723,10 @@ public final class FacetedNavigation {
           result.postFilter_ = postFilterBuilder_.build();
         }
         if (((bitField0_ & 0x00000004) == 0x00000004)) {
-          facets_ = facets_.getUnmodifiableView();
+          facet_ = facet_.getUnmodifiableView();
           bitField0_ = (bitField0_ & ~0x00000004);
         }
-        result.facets_ = facets_;
+        result.facet_ = facet_;
         if (sortBuilder_ == null) {
           if (((bitField0_ & 0x00000008) == 0x00000008)) {
             sort_ = java.util.Collections.unmodifiableList(sort_);
@@ -806,13 +806,13 @@ public final class FacetedNavigation {
             }
           }
         }
-        if (!other.facets_.isEmpty()) {
-          if (facets_.isEmpty()) {
-            facets_ = other.facets_;
+        if (!other.facet_.isEmpty()) {
+          if (facet_.isEmpty()) {
+            facet_ = other.facet_;
             bitField0_ = (bitField0_ & ~0x00000004);
           } else {
-            ensureFacetsIsMutable();
-            facets_.addAll(other.facets_);
+            ensureFacetIsMutable();
+            facet_.addAll(other.facet_);
           }
           onChanged();
         }
@@ -1499,96 +1499,96 @@ public final class FacetedNavigation {
         return postFilterBuilder_;
       }
 
-      private com.google.protobuf.LazyStringList facets_ = com.google.protobuf.LazyStringArrayList.EMPTY;
-      private void ensureFacetsIsMutable() {
+      private com.google.protobuf.LazyStringList facet_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      private void ensureFacetIsMutable() {
         if (!((bitField0_ & 0x00000004) == 0x00000004)) {
-          facets_ = new com.google.protobuf.LazyStringArrayList(facets_);
+          facet_ = new com.google.protobuf.LazyStringArrayList(facet_);
           bitField0_ |= 0x00000004;
          }
       }
       /**
-       * <code>repeated string facets = 3;</code>
+       * <code>repeated string facet = 3;</code>
        */
       public com.google.protobuf.ProtocolStringList
-          getFacetsList() {
-        return facets_.getUnmodifiableView();
+          getFacetList() {
+        return facet_.getUnmodifiableView();
       }
       /**
-       * <code>repeated string facets = 3;</code>
+       * <code>repeated string facet = 3;</code>
        */
-      public int getFacetsCount() {
-        return facets_.size();
+      public int getFacetCount() {
+        return facet_.size();
       }
       /**
-       * <code>repeated string facets = 3;</code>
+       * <code>repeated string facet = 3;</code>
        */
-      public java.lang.String getFacets(int index) {
-        return facets_.get(index);
+      public java.lang.String getFacet(int index) {
+        return facet_.get(index);
       }
       /**
-       * <code>repeated string facets = 3;</code>
+       * <code>repeated string facet = 3;</code>
        */
       public com.google.protobuf.ByteString
-          getFacetsBytes(int index) {
-        return facets_.getByteString(index);
+          getFacetBytes(int index) {
+        return facet_.getByteString(index);
       }
       /**
-       * <code>repeated string facets = 3;</code>
+       * <code>repeated string facet = 3;</code>
        */
-      public Builder setFacets(
+      public Builder setFacet(
           int index, java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  ensureFacetsIsMutable();
-        facets_.set(index, value);
+  ensureFacetIsMutable();
+        facet_.set(index, value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated string facets = 3;</code>
+       * <code>repeated string facet = 3;</code>
        */
-      public Builder addFacets(
+      public Builder addFacet(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  ensureFacetsIsMutable();
-        facets_.add(value);
+  ensureFacetIsMutable();
+        facet_.add(value);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated string facets = 3;</code>
+       * <code>repeated string facet = 3;</code>
        */
-      public Builder addAllFacets(
+      public Builder addAllFacet(
           java.lang.Iterable<java.lang.String> values) {
-        ensureFacetsIsMutable();
+        ensureFacetIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
-            values, facets_);
+            values, facet_);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated string facets = 3;</code>
+       * <code>repeated string facet = 3;</code>
        */
-      public Builder clearFacets() {
-        facets_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+      public Builder clearFacet() {
+        facet_ = com.google.protobuf.LazyStringArrayList.EMPTY;
         bitField0_ = (bitField0_ & ~0x00000004);
         onChanged();
         return this;
       }
       /**
-       * <code>repeated string facets = 3;</code>
+       * <code>repeated string facet = 3;</code>
        */
-      public Builder addFacetsBytes(
+      public Builder addFacetBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        ensureFacetsIsMutable();
-        facets_.add(value);
+        ensureFacetIsMutable();
+        facet_.add(value);
         onChanged();
         return this;
       }
@@ -4639,22 +4639,22 @@ public final class FacetedNavigation {
       "proto\022 dstore.elastic.facetednavigation\032" +
       "\032dstore/elastic/query.proto\032\031dstore/elas" +
       "tic/sort.proto\032\033dstore/elastic/values.pr" +
-      "oto\032\036dstore/elastic/item/item.proto\"\302\001\n\007" +
+      "oto\032\036dstore/elastic/item/item.proto\"\301\001\n\007" +
       "Request\0220\n\013base_filter\030\001 \003(\0132\033.dstore.el" +
       "astic.query.Query\0220\n\013post_filter\030\002 \003(\0132\033" +
-      ".dstore.elastic.query.Query\022\016\n\006facets\030\003 " +
-      "\003(\t\022\'\n\004sort\030\004 \003(\0132\031.dstore.elastic.sort." +
-      "Sort\022\014\n\004from\030\n \001(\005\022\014\n\004size\030\013 \001(\005\"\200\001\n\010Res",
-      "ponse\022\022\n\ntotal_hits\030\001 \001(\005\022\'\n\004item\030\002 \003(\0132" +
-      "\031.dstore.elastic.item.Item\0227\n\005facet\030\003 \003(" +
-      "\0132(.dstore.elastic.facetednavigation.Fac" +
-      "ets\"\314\001\n\006Facets\022\022\n\nfield_name\030\001 \001(\t\022=\n\005fa" +
-      "cet\030\002 \003(\0132..dstore.elastic.facetednaviga" +
-      "tion.Facets.Facet\032o\n\005Facet\022+\n\005value\030\001 \001(" +
-      "\0132\034.dstore.elastic.values.Value\022\026\n\016docum" +
-      "ent_count\030\002 \001(\003\022\021\n\tavailable\030\003 \001(\010\022\016\n\006ac" +
-      "tive\030\004 \001(\010B+\n\026io.dstore.elastic.itemB\021Fa" +
-      "cetedNavigationb\006proto3"
+      ".dstore.elastic.query.Query\022\r\n\005facet\030\003 \003" +
+      "(\t\022\'\n\004sort\030\004 \003(\0132\031.dstore.elastic.sort.S" +
+      "ort\022\014\n\004from\030\n \001(\005\022\014\n\004size\030\013 \001(\005\"\200\001\n\010Resp",
+      "onse\022\022\n\ntotal_hits\030\001 \001(\005\022\'\n\004item\030\002 \003(\0132\031" +
+      ".dstore.elastic.item.Item\0227\n\005facet\030\003 \003(\013" +
+      "2(.dstore.elastic.facetednavigation.Face" +
+      "ts\"\314\001\n\006Facets\022\022\n\nfield_name\030\001 \001(\t\022=\n\005fac" +
+      "et\030\002 \003(\0132..dstore.elastic.facetednavigat" +
+      "ion.Facets.Facet\032o\n\005Facet\022+\n\005value\030\001 \001(\013" +
+      "2\034.dstore.elastic.values.Value\022\026\n\016docume" +
+      "nt_count\030\002 \001(\003\022\021\n\tavailable\030\003 \001(\010\022\016\n\006act" +
+      "ive\030\004 \001(\010B+\n\026io.dstore.elastic.itemB\021Fac" +
+      "etedNavigationb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -4677,7 +4677,7 @@ public final class FacetedNavigation {
     internal_static_dstore_elastic_facetednavigation_Request_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Request_descriptor,
-        new java.lang.String[] { "BaseFilter", "PostFilter", "Facets", "Sort", "From", "Size", });
+        new java.lang.String[] { "BaseFilter", "PostFilter", "Facet", "Sort", "From", "Size", });
     internal_static_dstore_elastic_facetednavigation_Response_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_dstore_elastic_facetednavigation_Response_fieldAccessorTable = new
