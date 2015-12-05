@@ -14,11 +14,11 @@ import static io.grpc.stub.ServerCalls.asyncClientStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncBidiStreamingCall;
 
 @javax.annotation.Generated("by gRPC proto compiler")
-public class ElasticGrpc {
+public class ElasticServiceGrpc {
 
-  private ElasticGrpc() {}
+  private ElasticServiceGrpc() {}
 
-  public static final String SERVICE_NAME = "dstore.elastic.Elastic";
+  public static final String SERVICE_NAME = "dstore.elastic.ElasticService";
 
   // Static method descriptors that strictly reflect the proto.
   @io.grpc.ExperimentalApi
@@ -27,54 +27,54 @@ public class ElasticGrpc {
       io.grpc.MethodDescriptor.create(
           io.grpc.MethodDescriptor.MethodType.SERVER_STREAMING,
           generateFullMethodName(
-              "dstore.elastic.Elastic", "facetedNavigation"),
+              "dstore.elastic.ElasticService", "facetedNavigation"),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.FacetedNavigation.Request.getDefaultInstance()),
           io.grpc.protobuf.ProtoUtils.marshaller(io.dstore.elastic.item.FacetedNavigation.Response.getDefaultInstance()));
 
-  public static ElasticStub newStub(io.grpc.Channel channel) {
-    return new ElasticStub(channel);
+  public static ElasticServiceStub newStub(io.grpc.Channel channel) {
+    return new ElasticServiceStub(channel);
   }
 
-  public static ElasticBlockingStub newBlockingStub(
+  public static ElasticServiceBlockingStub newBlockingStub(
       io.grpc.Channel channel) {
-    return new ElasticBlockingStub(channel);
+    return new ElasticServiceBlockingStub(channel);
   }
 
-  public static ElasticFutureStub newFutureStub(
+  public static ElasticServiceFutureStub newFutureStub(
       io.grpc.Channel channel) {
-    return new ElasticFutureStub(channel);
+    return new ElasticServiceFutureStub(channel);
   }
 
-  public static interface Elastic {
+  public static interface ElasticService {
 
     public void facetedNavigation(io.dstore.elastic.item.FacetedNavigation.Request request,
         io.grpc.stub.StreamObserver<io.dstore.elastic.item.FacetedNavigation.Response> responseObserver);
   }
 
-  public static interface ElasticBlockingClient {
+  public static interface ElasticServiceBlockingClient {
 
     public java.util.Iterator<io.dstore.elastic.item.FacetedNavigation.Response> facetedNavigation(
         io.dstore.elastic.item.FacetedNavigation.Request request);
   }
 
-  public static interface ElasticFutureClient {
+  public static interface ElasticServiceFutureClient {
   }
 
-  public static class ElasticStub extends io.grpc.stub.AbstractStub<ElasticStub>
-      implements Elastic {
-    private ElasticStub(io.grpc.Channel channel) {
+  public static class ElasticServiceStub extends io.grpc.stub.AbstractStub<ElasticServiceStub>
+      implements ElasticService {
+    private ElasticServiceStub(io.grpc.Channel channel) {
       super(channel);
     }
 
-    private ElasticStub(io.grpc.Channel channel,
+    private ElasticServiceStub(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected ElasticStub build(io.grpc.Channel channel,
+    protected ElasticServiceStub build(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
-      return new ElasticStub(channel, callOptions);
+      return new ElasticServiceStub(channel, callOptions);
     }
 
     @java.lang.Override
@@ -85,21 +85,21 @@ public class ElasticGrpc {
     }
   }
 
-  public static class ElasticBlockingStub extends io.grpc.stub.AbstractStub<ElasticBlockingStub>
-      implements ElasticBlockingClient {
-    private ElasticBlockingStub(io.grpc.Channel channel) {
+  public static class ElasticServiceBlockingStub extends io.grpc.stub.AbstractStub<ElasticServiceBlockingStub>
+      implements ElasticServiceBlockingClient {
+    private ElasticServiceBlockingStub(io.grpc.Channel channel) {
       super(channel);
     }
 
-    private ElasticBlockingStub(io.grpc.Channel channel,
+    private ElasticServiceBlockingStub(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected ElasticBlockingStub build(io.grpc.Channel channel,
+    protected ElasticServiceBlockingStub build(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
-      return new ElasticBlockingStub(channel, callOptions);
+      return new ElasticServiceBlockingStub(channel, callOptions);
     }
 
     @java.lang.Override
@@ -110,26 +110,26 @@ public class ElasticGrpc {
     }
   }
 
-  public static class ElasticFutureStub extends io.grpc.stub.AbstractStub<ElasticFutureStub>
-      implements ElasticFutureClient {
-    private ElasticFutureStub(io.grpc.Channel channel) {
+  public static class ElasticServiceFutureStub extends io.grpc.stub.AbstractStub<ElasticServiceFutureStub>
+      implements ElasticServiceFutureClient {
+    private ElasticServiceFutureStub(io.grpc.Channel channel) {
       super(channel);
     }
 
-    private ElasticFutureStub(io.grpc.Channel channel,
+    private ElasticServiceFutureStub(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected ElasticFutureStub build(io.grpc.Channel channel,
+    protected ElasticServiceFutureStub build(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
-      return new ElasticFutureStub(channel, callOptions);
+      return new ElasticServiceFutureStub(channel, callOptions);
     }
   }
 
   public static io.grpc.ServerServiceDefinition bindService(
-      final Elastic serviceImpl) {
+      final ElasticService serviceImpl) {
     return io.grpc.ServerServiceDefinition.builder(SERVICE_NAME)
       .addMethod(
         METHOD_FACETED_NAVIGATION,
