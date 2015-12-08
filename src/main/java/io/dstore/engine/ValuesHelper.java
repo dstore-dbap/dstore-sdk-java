@@ -1,8 +1,7 @@
-package io.dstore.helper;
+package io.dstore.engine;
 
 import com.google.protobuf.ByteString;
 import com.google.protobuf.util.TimeUtil;
-import io.dstore.engine.Values;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -33,6 +32,7 @@ public class ValuesHelper {
     public static Values.longValue value(long value) {
         return Values.longValue.newBuilder().setValue(value).build();
     }
+
 
     public static Values.decimalValue value(BigDecimal value) {
         return Values.decimalValue.newBuilder().setValue(value.toString()).build();

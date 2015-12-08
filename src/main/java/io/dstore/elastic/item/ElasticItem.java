@@ -19,7 +19,31 @@ public final class ElasticItem {
     getFields();
 
     /**
-     * <code>optional double score = 2;</code>
+     * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+     */
+    java.util.List<io.dstore.elastic.item.ElasticItem.Item.Variant> 
+        getVariantList();
+    /**
+     * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+     */
+    io.dstore.elastic.item.ElasticItem.Item.Variant getVariant(int index);
+    /**
+     * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+     */
+    int getVariantCount();
+    /**
+     * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+     */
+    java.util.List<? extends io.dstore.elastic.item.ElasticItem.Item.VariantOrBuilder> 
+        getVariantOrBuilderList();
+    /**
+     * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+     */
+    io.dstore.elastic.item.ElasticItem.Item.VariantOrBuilder getVariantOrBuilder(
+        int index);
+
+    /**
+     * <code>optional double score = 3;</code>
      */
     double getScore();
   }
@@ -35,6 +59,7 @@ public final class ElasticItem {
       super(builder);
     }
     private Item() {
+      variant_ = java.util.Collections.emptyList();
       score_ = 0D;
     }
 
@@ -74,7 +99,15 @@ public final class ElasticItem {
               fields_.getMutableMap().put(fields.getKey(), fields.getValue());
               break;
             }
-            case 17: {
+            case 18: {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+                variant_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item.Variant>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              variant_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Item.Variant.parser(), extensionRegistry));
+              break;
+            }
+            case 25: {
 
               score_ = input.readDouble();
               break;
@@ -88,6 +121,9 @@ public final class ElasticItem {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+          variant_ = java.util.Collections.unmodifiableList(variant_);
+        }
         makeExtensionsImmutable();
       }
     }
@@ -612,10 +648,45 @@ public final class ElasticItem {
       return internalGetFields().getMap();
     }
 
-    public static final int SCORE_FIELD_NUMBER = 2;
+    public static final int VARIANT_FIELD_NUMBER = 2;
+    private java.util.List<io.dstore.elastic.item.ElasticItem.Item.Variant> variant_;
+    /**
+     * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+     */
+    public java.util.List<io.dstore.elastic.item.ElasticItem.Item.Variant> getVariantList() {
+      return variant_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+     */
+    public java.util.List<? extends io.dstore.elastic.item.ElasticItem.Item.VariantOrBuilder> 
+        getVariantOrBuilderList() {
+      return variant_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+     */
+    public int getVariantCount() {
+      return variant_.size();
+    }
+    /**
+     * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+     */
+    public io.dstore.elastic.item.ElasticItem.Item.Variant getVariant(int index) {
+      return variant_.get(index);
+    }
+    /**
+     * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+     */
+    public io.dstore.elastic.item.ElasticItem.Item.VariantOrBuilder getVariantOrBuilder(
+        int index) {
+      return variant_.get(index);
+    }
+
+    public static final int SCORE_FIELD_NUMBER = 3;
     private double score_;
     /**
-     * <code>optional double score = 2;</code>
+     * <code>optional double score = 3;</code>
      */
     public double getScore() {
       return score_;
@@ -642,8 +713,11 @@ public final class ElasticItem {
             .build();
         output.writeMessage(1, fields);
       }
+      for (int i = 0; i < variant_.size(); i++) {
+        output.writeMessage(2, variant_.get(i));
+      }
       if (score_ != 0D) {
-        output.writeDouble(2, score_);
+        output.writeDouble(3, score_);
       }
     }
 
@@ -662,9 +736,13 @@ public final class ElasticItem {
         size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(1, fields);
       }
+      for (int i = 0; i < variant_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, variant_.get(i));
+      }
       if (score_ != 0D) {
         size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(2, score_);
+          .computeDoubleSize(3, score_);
       }
       memoizedSize = size;
       return size;
@@ -795,11 +873,18 @@ public final class ElasticItem {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getVariantFieldBuilder();
         }
       }
       public Builder clear() {
         super.clear();
         internalGetMutableFields().clear();
+        if (variantBuilder_ == null) {
+          variant_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        } else {
+          variantBuilder_.clear();
+        }
         score_ = 0D;
 
         return this;
@@ -828,6 +913,15 @@ public final class ElasticItem {
         int to_bitField0_ = 0;
         result.fields_ = internalGetFields();
         result.fields_.makeImmutable();
+        if (variantBuilder_ == null) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+            variant_ = java.util.Collections.unmodifiableList(variant_);
+            bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.variant_ = variant_;
+        } else {
+          result.variant_ = variantBuilder_.build();
+        }
         result.score_ = score_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
@@ -847,6 +941,32 @@ public final class ElasticItem {
         if (other == io.dstore.elastic.item.ElasticItem.Item.getDefaultInstance()) return this;
         internalGetMutableFields().mergeFrom(
             other.internalGetFields());
+        if (variantBuilder_ == null) {
+          if (!other.variant_.isEmpty()) {
+            if (variant_.isEmpty()) {
+              variant_ = other.variant_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+            } else {
+              ensureVariantIsMutable();
+              variant_.addAll(other.variant_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.variant_.isEmpty()) {
+            if (variantBuilder_.isEmpty()) {
+              variantBuilder_.dispose();
+              variantBuilder_ = null;
+              variant_ = other.variant_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+              variantBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getVariantFieldBuilder() : null;
+            } else {
+              variantBuilder_.addAllMessages(other.variant_);
+            }
+          }
+        }
         if (other.getScore() != 0D) {
           setScore(other.getScore());
         }
@@ -921,15 +1041,255 @@ public final class ElasticItem {
         return this;
       }
 
+      private java.util.List<io.dstore.elastic.item.ElasticItem.Item.Variant> variant_ =
+        java.util.Collections.emptyList();
+      private void ensureVariantIsMutable() {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+          variant_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item.Variant>(variant_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.item.ElasticItem.Item.Variant, io.dstore.elastic.item.ElasticItem.Item.Variant.Builder, io.dstore.elastic.item.ElasticItem.Item.VariantOrBuilder> variantBuilder_;
+
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public java.util.List<io.dstore.elastic.item.ElasticItem.Item.Variant> getVariantList() {
+        if (variantBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(variant_);
+        } else {
+          return variantBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public int getVariantCount() {
+        if (variantBuilder_ == null) {
+          return variant_.size();
+        } else {
+          return variantBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public io.dstore.elastic.item.ElasticItem.Item.Variant getVariant(int index) {
+        if (variantBuilder_ == null) {
+          return variant_.get(index);
+        } else {
+          return variantBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public Builder setVariant(
+          int index, io.dstore.elastic.item.ElasticItem.Item.Variant value) {
+        if (variantBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureVariantIsMutable();
+          variant_.set(index, value);
+          onChanged();
+        } else {
+          variantBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public Builder setVariant(
+          int index, io.dstore.elastic.item.ElasticItem.Item.Variant.Builder builderForValue) {
+        if (variantBuilder_ == null) {
+          ensureVariantIsMutable();
+          variant_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          variantBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public Builder addVariant(io.dstore.elastic.item.ElasticItem.Item.Variant value) {
+        if (variantBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureVariantIsMutable();
+          variant_.add(value);
+          onChanged();
+        } else {
+          variantBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public Builder addVariant(
+          int index, io.dstore.elastic.item.ElasticItem.Item.Variant value) {
+        if (variantBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureVariantIsMutable();
+          variant_.add(index, value);
+          onChanged();
+        } else {
+          variantBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public Builder addVariant(
+          io.dstore.elastic.item.ElasticItem.Item.Variant.Builder builderForValue) {
+        if (variantBuilder_ == null) {
+          ensureVariantIsMutable();
+          variant_.add(builderForValue.build());
+          onChanged();
+        } else {
+          variantBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public Builder addVariant(
+          int index, io.dstore.elastic.item.ElasticItem.Item.Variant.Builder builderForValue) {
+        if (variantBuilder_ == null) {
+          ensureVariantIsMutable();
+          variant_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          variantBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public Builder addAllVariant(
+          java.lang.Iterable<? extends io.dstore.elastic.item.ElasticItem.Item.Variant> values) {
+        if (variantBuilder_ == null) {
+          ensureVariantIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, variant_);
+          onChanged();
+        } else {
+          variantBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public Builder clearVariant() {
+        if (variantBuilder_ == null) {
+          variant_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+        } else {
+          variantBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public Builder removeVariant(int index) {
+        if (variantBuilder_ == null) {
+          ensureVariantIsMutable();
+          variant_.remove(index);
+          onChanged();
+        } else {
+          variantBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public io.dstore.elastic.item.ElasticItem.Item.Variant.Builder getVariantBuilder(
+          int index) {
+        return getVariantFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public io.dstore.elastic.item.ElasticItem.Item.VariantOrBuilder getVariantOrBuilder(
+          int index) {
+        if (variantBuilder_ == null) {
+          return variant_.get(index);  } else {
+          return variantBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public java.util.List<? extends io.dstore.elastic.item.ElasticItem.Item.VariantOrBuilder> 
+           getVariantOrBuilderList() {
+        if (variantBuilder_ != null) {
+          return variantBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(variant_);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public io.dstore.elastic.item.ElasticItem.Item.Variant.Builder addVariantBuilder() {
+        return getVariantFieldBuilder().addBuilder(
+            io.dstore.elastic.item.ElasticItem.Item.Variant.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public io.dstore.elastic.item.ElasticItem.Item.Variant.Builder addVariantBuilder(
+          int index) {
+        return getVariantFieldBuilder().addBuilder(
+            index, io.dstore.elastic.item.ElasticItem.Item.Variant.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.item.Item.Variant variant = 2;</code>
+       */
+      public java.util.List<io.dstore.elastic.item.ElasticItem.Item.Variant.Builder> 
+           getVariantBuilderList() {
+        return getVariantFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.item.ElasticItem.Item.Variant, io.dstore.elastic.item.ElasticItem.Item.Variant.Builder, io.dstore.elastic.item.ElasticItem.Item.VariantOrBuilder> 
+          getVariantFieldBuilder() {
+        if (variantBuilder_ == null) {
+          variantBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              io.dstore.elastic.item.ElasticItem.Item.Variant, io.dstore.elastic.item.ElasticItem.Item.Variant.Builder, io.dstore.elastic.item.ElasticItem.Item.VariantOrBuilder>(
+                  variant_,
+                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  getParentForChildren(),
+                  isClean());
+          variant_ = null;
+        }
+        return variantBuilder_;
+      }
+
       private double score_ ;
       /**
-       * <code>optional double score = 2;</code>
+       * <code>optional double score = 3;</code>
        */
       public double getScore() {
         return score_;
       }
       /**
-       * <code>optional double score = 2;</code>
+       * <code>optional double score = 3;</code>
        */
       public Builder setScore(double value) {
         
@@ -938,7 +1298,7 @@ public final class ElasticItem {
         return this;
       }
       /**
-       * <code>optional double score = 2;</code>
+       * <code>optional double score = 3;</code>
        */
       public Builder clearScore() {
         
@@ -1004,8 +1364,8 @@ public final class ElasticItem {
 
   }
 
-  public interface FacetsOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:dstore.elastic.item.Facets)
+  public interface FacetOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dstore.elastic.item.Facet)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -1019,43 +1379,43 @@ public final class ElasticItem {
         getFieldNameBytes();
 
     /**
-     * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+     * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
      */
-    java.util.List<io.dstore.elastic.item.ElasticItem.Facets.Facet> 
-        getFacetList();
+    java.util.List<io.dstore.elastic.item.ElasticItem.Facet.FacetValue> 
+        getFacetValueList();
     /**
-     * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+     * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
      */
-    io.dstore.elastic.item.ElasticItem.Facets.Facet getFacet(int index);
+    io.dstore.elastic.item.ElasticItem.Facet.FacetValue getFacetValue(int index);
     /**
-     * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+     * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
      */
-    int getFacetCount();
+    int getFacetValueCount();
     /**
-     * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+     * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
      */
-    java.util.List<? extends io.dstore.elastic.item.ElasticItem.Facets.FacetOrBuilder> 
-        getFacetOrBuilderList();
+    java.util.List<? extends io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder> 
+        getFacetValueOrBuilderList();
     /**
-     * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+     * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
      */
-    io.dstore.elastic.item.ElasticItem.Facets.FacetOrBuilder getFacetOrBuilder(
+    io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder getFacetValueOrBuilder(
         int index);
   }
   /**
-   * Protobuf type {@code dstore.elastic.item.Facets}
+   * Protobuf type {@code dstore.elastic.item.Facet}
    */
-  public  static final class Facets extends
+  public  static final class Facet extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:dstore.elastic.item.Facets)
-      FacetsOrBuilder {
-    // Use Facets.newBuilder() to construct.
-    private Facets(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      // @@protoc_insertion_point(message_implements:dstore.elastic.item.Facet)
+      FacetOrBuilder {
+    // Use Facet.newBuilder() to construct.
+    private Facet(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
     }
-    private Facets() {
+    private Facet() {
       fieldName_ = "";
-      facet_ = java.util.Collections.emptyList();
+      facetValue_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -1063,7 +1423,7 @@ public final class ElasticItem {
     getUnknownFields() {
       return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
     }
-    private Facets(
+    private Facet(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
       this();
@@ -1090,10 +1450,10 @@ public final class ElasticItem {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-                facet_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facets.Facet>();
+                facetValue_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facet.FacetValue>();
                 mutable_bitField0_ |= 0x00000002;
               }
-              facet_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Facets.Facet.parser(), extensionRegistry));
+              facetValue_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Facet.FacetValue.parser(), extensionRegistry));
               break;
             }
           }
@@ -1106,25 +1466,25 @@ public final class ElasticItem {
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
         if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
-          facet_ = java.util.Collections.unmodifiableList(facet_);
+          facetValue_ = java.util.Collections.unmodifiableList(facetValue_);
         }
         makeExtensionsImmutable();
       }
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facets_descriptor;
+      return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facets_fieldAccessorTable
+      return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              io.dstore.elastic.item.ElasticItem.Facets.class, io.dstore.elastic.item.ElasticItem.Facets.Builder.class);
+              io.dstore.elastic.item.ElasticItem.Facet.class, io.dstore.elastic.item.ElasticItem.Facet.Builder.class);
     }
 
-    public interface FacetOrBuilder extends
-        // @@protoc_insertion_point(interface_extends:dstore.elastic.item.Facets.Facet)
+    public interface FacetValueOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:dstore.elastic.item.Facet.FacetValue)
         com.google.protobuf.MessageOrBuilder {
 
       /**
@@ -1141,46 +1501,38 @@ public final class ElasticItem {
       io.dstore.elastic.Elastic.ValueOrBuilder getValueOrBuilder();
 
       /**
-       * <code>optional int64 document_count = 2;</code>
+       * <code>optional int32 total_item_count = 2;</code>
        *
        * <pre>
        * When using a nested aggregation this may show the number of nested documents
        * </pre>
        */
-      long getDocumentCount();
+      int getTotalItemCount();
 
       /**
-       * <code>optional bool available = 3;</code>
-       *
-       * <pre>
-       * When the value is applied via a term filter, would it return results? (so it can be displayed as selectable)
-       * </pre>
+       * <code>optional int32 matching_item_count = 3;</code>
        */
-      boolean getAvailable();
+      int getMatchingItemCount();
 
       /**
        * <code>optional bool active = 4;</code>
-       *
-       * <pre>
-       * Is this value currently applied via a term filer
-       * </pre>
        */
       boolean getActive();
     }
     /**
-     * Protobuf type {@code dstore.elastic.item.Facets.Facet}
+     * Protobuf type {@code dstore.elastic.item.Facet.FacetValue}
      */
-    public  static final class Facet extends
+    public  static final class FacetValue extends
         com.google.protobuf.GeneratedMessage implements
-        // @@protoc_insertion_point(message_implements:dstore.elastic.item.Facets.Facet)
-        FacetOrBuilder {
-      // Use Facet.newBuilder() to construct.
-      private Facet(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+        // @@protoc_insertion_point(message_implements:dstore.elastic.item.Facet.FacetValue)
+        FacetValueOrBuilder {
+      // Use FacetValue.newBuilder() to construct.
+      private FacetValue(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
         super(builder);
       }
-      private Facet() {
-        documentCount_ = 0L;
-        available_ = false;
+      private FacetValue() {
+        totalItemCount_ = 0;
+        matchingItemCount_ = 0;
         active_ = false;
       }
 
@@ -1189,7 +1541,7 @@ public final class ElasticItem {
       getUnknownFields() {
         return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
       }
-      private Facet(
+      private FacetValue(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
         this();
@@ -1223,12 +1575,12 @@ public final class ElasticItem {
               }
               case 16: {
 
-                documentCount_ = input.readInt64();
+                totalItemCount_ = input.readInt32();
                 break;
               }
               case 24: {
 
-                available_ = input.readBool();
+                matchingItemCount_ = input.readInt32();
                 break;
               }
               case 32: {
@@ -1250,14 +1602,14 @@ public final class ElasticItem {
       }
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facets_Facet_descriptor;
+        return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_FacetValue_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facets_Facet_fieldAccessorTable
+        return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_FacetValue_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                io.dstore.elastic.item.ElasticItem.Facets.Facet.class, io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder.class);
+                io.dstore.elastic.item.ElasticItem.Facet.FacetValue.class, io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder.class);
       }
 
       public static final int VALUE_FIELD_NUMBER = 1;
@@ -1281,40 +1633,32 @@ public final class ElasticItem {
         return getValue();
       }
 
-      public static final int DOCUMENT_COUNT_FIELD_NUMBER = 2;
-      private long documentCount_;
+      public static final int TOTAL_ITEM_COUNT_FIELD_NUMBER = 2;
+      private int totalItemCount_;
       /**
-       * <code>optional int64 document_count = 2;</code>
+       * <code>optional int32 total_item_count = 2;</code>
        *
        * <pre>
        * When using a nested aggregation this may show the number of nested documents
        * </pre>
        */
-      public long getDocumentCount() {
-        return documentCount_;
+      public int getTotalItemCount() {
+        return totalItemCount_;
       }
 
-      public static final int AVAILABLE_FIELD_NUMBER = 3;
-      private boolean available_;
+      public static final int MATCHING_ITEM_COUNT_FIELD_NUMBER = 3;
+      private int matchingItemCount_;
       /**
-       * <code>optional bool available = 3;</code>
-       *
-       * <pre>
-       * When the value is applied via a term filter, would it return results? (so it can be displayed as selectable)
-       * </pre>
+       * <code>optional int32 matching_item_count = 3;</code>
        */
-      public boolean getAvailable() {
-        return available_;
+      public int getMatchingItemCount() {
+        return matchingItemCount_;
       }
 
       public static final int ACTIVE_FIELD_NUMBER = 4;
       private boolean active_;
       /**
        * <code>optional bool active = 4;</code>
-       *
-       * <pre>
-       * Is this value currently applied via a term filer
-       * </pre>
        */
       public boolean getActive() {
         return active_;
@@ -1335,11 +1679,11 @@ public final class ElasticItem {
         if (value_ != null) {
           output.writeMessage(1, getValue());
         }
-        if (documentCount_ != 0L) {
-          output.writeInt64(2, documentCount_);
+        if (totalItemCount_ != 0) {
+          output.writeInt32(2, totalItemCount_);
         }
-        if (available_ != false) {
-          output.writeBool(3, available_);
+        if (matchingItemCount_ != 0) {
+          output.writeInt32(3, matchingItemCount_);
         }
         if (active_ != false) {
           output.writeBool(4, active_);
@@ -1355,13 +1699,13 @@ public final class ElasticItem {
           size += com.google.protobuf.CodedOutputStream
             .computeMessageSize(1, getValue());
         }
-        if (documentCount_ != 0L) {
+        if (totalItemCount_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeInt64Size(2, documentCount_);
+            .computeInt32Size(2, totalItemCount_);
         }
-        if (available_ != false) {
+        if (matchingItemCount_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeBoolSize(3, available_);
+            .computeInt32Size(3, matchingItemCount_);
         }
         if (active_ != false) {
           size += com.google.protobuf.CodedOutputStream
@@ -1372,53 +1716,53 @@ public final class ElasticItem {
       }
 
       private static final long serialVersionUID = 0L;
-      public static io.dstore.elastic.item.ElasticItem.Facets.Facet parseFrom(
+      public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static io.dstore.elastic.item.ElasticItem.Facets.Facet parseFrom(
+      public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static io.dstore.elastic.item.ElasticItem.Facets.Facet parseFrom(byte[] data)
+      public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static io.dstore.elastic.item.ElasticItem.Facets.Facet parseFrom(
+      public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static io.dstore.elastic.item.ElasticItem.Facets.Facet parseFrom(java.io.InputStream input)
+      public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return PARSER.parseFrom(input);
       }
-      public static io.dstore.elastic.item.ElasticItem.Facets.Facet parseFrom(
+      public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return PARSER.parseFrom(input, extensionRegistry);
       }
-      public static io.dstore.elastic.item.ElasticItem.Facets.Facet parseDelimitedFrom(java.io.InputStream input)
+      public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return PARSER.parseDelimitedFrom(input);
       }
-      public static io.dstore.elastic.item.ElasticItem.Facets.Facet parseDelimitedFrom(
+      public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return PARSER.parseDelimitedFrom(input, extensionRegistry);
       }
-      public static io.dstore.elastic.item.ElasticItem.Facets.Facet parseFrom(
+      public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return PARSER.parseFrom(input);
       }
-      public static io.dstore.elastic.item.ElasticItem.Facets.Facet parseFrom(
+      public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -1429,7 +1773,7 @@ public final class ElasticItem {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(io.dstore.elastic.item.ElasticItem.Facets.Facet prototype) {
+      public static Builder newBuilder(io.dstore.elastic.item.ElasticItem.Facet.FacetValue prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       public Builder toBuilder() {
@@ -1444,25 +1788,25 @@ public final class ElasticItem {
         return builder;
       }
       /**
-       * Protobuf type {@code dstore.elastic.item.Facets.Facet}
+       * Protobuf type {@code dstore.elastic.item.Facet.FacetValue}
        */
       public static final class Builder extends
           com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-          // @@protoc_insertion_point(builder_implements:dstore.elastic.item.Facets.Facet)
-          io.dstore.elastic.item.ElasticItem.Facets.FacetOrBuilder {
+          // @@protoc_insertion_point(builder_implements:dstore.elastic.item.Facet.FacetValue)
+          io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facets_Facet_descriptor;
+          return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_FacetValue_descriptor;
         }
 
         protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facets_Facet_fieldAccessorTable
+          return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_FacetValue_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  io.dstore.elastic.item.ElasticItem.Facets.Facet.class, io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder.class);
+                  io.dstore.elastic.item.ElasticItem.Facet.FacetValue.class, io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder.class);
         }
 
-        // Construct using io.dstore.elastic.item.ElasticItem.Facets.Facet.newBuilder()
+        // Construct using io.dstore.elastic.item.ElasticItem.Facet.FacetValue.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -1484,9 +1828,9 @@ public final class ElasticItem {
             value_ = null;
             valueBuilder_ = null;
           }
-          documentCount_ = 0L;
+          totalItemCount_ = 0;
 
-          available_ = false;
+          matchingItemCount_ = 0;
 
           active_ = false;
 
@@ -1495,54 +1839,54 @@ public final class ElasticItem {
 
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facets_Facet_descriptor;
+          return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_FacetValue_descriptor;
         }
 
-        public io.dstore.elastic.item.ElasticItem.Facets.Facet getDefaultInstanceForType() {
-          return io.dstore.elastic.item.ElasticItem.Facets.Facet.getDefaultInstance();
+        public io.dstore.elastic.item.ElasticItem.Facet.FacetValue getDefaultInstanceForType() {
+          return io.dstore.elastic.item.ElasticItem.Facet.FacetValue.getDefaultInstance();
         }
 
-        public io.dstore.elastic.item.ElasticItem.Facets.Facet build() {
-          io.dstore.elastic.item.ElasticItem.Facets.Facet result = buildPartial();
+        public io.dstore.elastic.item.ElasticItem.Facet.FacetValue build() {
+          io.dstore.elastic.item.ElasticItem.Facet.FacetValue result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
           return result;
         }
 
-        public io.dstore.elastic.item.ElasticItem.Facets.Facet buildPartial() {
-          io.dstore.elastic.item.ElasticItem.Facets.Facet result = new io.dstore.elastic.item.ElasticItem.Facets.Facet(this);
+        public io.dstore.elastic.item.ElasticItem.Facet.FacetValue buildPartial() {
+          io.dstore.elastic.item.ElasticItem.Facet.FacetValue result = new io.dstore.elastic.item.ElasticItem.Facet.FacetValue(this);
           if (valueBuilder_ == null) {
             result.value_ = value_;
           } else {
             result.value_ = valueBuilder_.build();
           }
-          result.documentCount_ = documentCount_;
-          result.available_ = available_;
+          result.totalItemCount_ = totalItemCount_;
+          result.matchingItemCount_ = matchingItemCount_;
           result.active_ = active_;
           onBuilt();
           return result;
         }
 
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof io.dstore.elastic.item.ElasticItem.Facets.Facet) {
-            return mergeFrom((io.dstore.elastic.item.ElasticItem.Facets.Facet)other);
+          if (other instanceof io.dstore.elastic.item.ElasticItem.Facet.FacetValue) {
+            return mergeFrom((io.dstore.elastic.item.ElasticItem.Facet.FacetValue)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(io.dstore.elastic.item.ElasticItem.Facets.Facet other) {
-          if (other == io.dstore.elastic.item.ElasticItem.Facets.Facet.getDefaultInstance()) return this;
+        public Builder mergeFrom(io.dstore.elastic.item.ElasticItem.Facet.FacetValue other) {
+          if (other == io.dstore.elastic.item.ElasticItem.Facet.FacetValue.getDefaultInstance()) return this;
           if (other.hasValue()) {
             mergeValue(other.getValue());
           }
-          if (other.getDocumentCount() != 0L) {
-            setDocumentCount(other.getDocumentCount());
+          if (other.getTotalItemCount() != 0) {
+            setTotalItemCount(other.getTotalItemCount());
           }
-          if (other.getAvailable() != false) {
-            setAvailable(other.getAvailable());
+          if (other.getMatchingItemCount() != 0) {
+            setMatchingItemCount(other.getMatchingItemCount());
           }
           if (other.getActive() != false) {
             setActive(other.getActive());
@@ -1559,11 +1903,11 @@ public final class ElasticItem {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          io.dstore.elastic.item.ElasticItem.Facets.Facet parsedMessage = null;
+          io.dstore.elastic.item.ElasticItem.Facet.FacetValue parsedMessage = null;
           try {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-            parsedMessage = (io.dstore.elastic.item.ElasticItem.Facets.Facet) e.getUnfinishedMessage();
+            parsedMessage = (io.dstore.elastic.item.ElasticItem.Facet.FacetValue) e.getUnfinishedMessage();
             throw e;
           } finally {
             if (parsedMessage != null) {
@@ -1690,78 +2034,66 @@ public final class ElasticItem {
           return valueBuilder_;
         }
 
-        private long documentCount_ ;
+        private int totalItemCount_ ;
         /**
-         * <code>optional int64 document_count = 2;</code>
+         * <code>optional int32 total_item_count = 2;</code>
          *
          * <pre>
          * When using a nested aggregation this may show the number of nested documents
          * </pre>
          */
-        public long getDocumentCount() {
-          return documentCount_;
+        public int getTotalItemCount() {
+          return totalItemCount_;
         }
         /**
-         * <code>optional int64 document_count = 2;</code>
+         * <code>optional int32 total_item_count = 2;</code>
          *
          * <pre>
          * When using a nested aggregation this may show the number of nested documents
          * </pre>
          */
-        public Builder setDocumentCount(long value) {
+        public Builder setTotalItemCount(int value) {
           
-          documentCount_ = value;
+          totalItemCount_ = value;
           onChanged();
           return this;
         }
         /**
-         * <code>optional int64 document_count = 2;</code>
+         * <code>optional int32 total_item_count = 2;</code>
          *
          * <pre>
          * When using a nested aggregation this may show the number of nested documents
          * </pre>
          */
-        public Builder clearDocumentCount() {
+        public Builder clearTotalItemCount() {
           
-          documentCount_ = 0L;
+          totalItemCount_ = 0;
           onChanged();
           return this;
         }
 
-        private boolean available_ ;
+        private int matchingItemCount_ ;
         /**
-         * <code>optional bool available = 3;</code>
-         *
-         * <pre>
-         * When the value is applied via a term filter, would it return results? (so it can be displayed as selectable)
-         * </pre>
+         * <code>optional int32 matching_item_count = 3;</code>
          */
-        public boolean getAvailable() {
-          return available_;
+        public int getMatchingItemCount() {
+          return matchingItemCount_;
         }
         /**
-         * <code>optional bool available = 3;</code>
-         *
-         * <pre>
-         * When the value is applied via a term filter, would it return results? (so it can be displayed as selectable)
-         * </pre>
+         * <code>optional int32 matching_item_count = 3;</code>
          */
-        public Builder setAvailable(boolean value) {
+        public Builder setMatchingItemCount(int value) {
           
-          available_ = value;
+          matchingItemCount_ = value;
           onChanged();
           return this;
         }
         /**
-         * <code>optional bool available = 3;</code>
-         *
-         * <pre>
-         * When the value is applied via a term filter, would it return results? (so it can be displayed as selectable)
-         * </pre>
+         * <code>optional int32 matching_item_count = 3;</code>
          */
-        public Builder clearAvailable() {
+        public Builder clearMatchingItemCount() {
           
-          available_ = false;
+          matchingItemCount_ = 0;
           onChanged();
           return this;
         }
@@ -1769,20 +2101,12 @@ public final class ElasticItem {
         private boolean active_ ;
         /**
          * <code>optional bool active = 4;</code>
-         *
-         * <pre>
-         * Is this value currently applied via a term filer
-         * </pre>
          */
         public boolean getActive() {
           return active_;
         }
         /**
          * <code>optional bool active = 4;</code>
-         *
-         * <pre>
-         * Is this value currently applied via a term filer
-         * </pre>
          */
         public Builder setActive(boolean value) {
           
@@ -1792,10 +2116,6 @@ public final class ElasticItem {
         }
         /**
          * <code>optional bool active = 4;</code>
-         *
-         * <pre>
-         * Is this value currently applied via a term filer
-         * </pre>
          */
         public Builder clearActive() {
           
@@ -1814,27 +2134,27 @@ public final class ElasticItem {
         }
 
 
-        // @@protoc_insertion_point(builder_scope:dstore.elastic.item.Facets.Facet)
+        // @@protoc_insertion_point(builder_scope:dstore.elastic.item.Facet.FacetValue)
       }
 
-      // @@protoc_insertion_point(class_scope:dstore.elastic.item.Facets.Facet)
-      private static final io.dstore.elastic.item.ElasticItem.Facets.Facet DEFAULT_INSTANCE;
+      // @@protoc_insertion_point(class_scope:dstore.elastic.item.Facet.FacetValue)
+      private static final io.dstore.elastic.item.ElasticItem.Facet.FacetValue DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new io.dstore.elastic.item.ElasticItem.Facets.Facet();
+        DEFAULT_INSTANCE = new io.dstore.elastic.item.ElasticItem.Facet.FacetValue();
       }
 
-      public static io.dstore.elastic.item.ElasticItem.Facets.Facet getDefaultInstance() {
+      public static io.dstore.elastic.item.ElasticItem.Facet.FacetValue getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
-      private static final com.google.protobuf.Parser<Facet>
-          PARSER = new com.google.protobuf.AbstractParser<Facet>() {
-        public Facet parsePartialFrom(
+      private static final com.google.protobuf.Parser<FacetValue>
+          PARSER = new com.google.protobuf.AbstractParser<FacetValue>() {
+        public FacetValue parsePartialFrom(
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws com.google.protobuf.InvalidProtocolBufferException {
           try {
-            return new Facet(input, extensionRegistry);
+            return new FacetValue(input, extensionRegistry);
           } catch (RuntimeException e) {
             if (e.getCause() instanceof
                 com.google.protobuf.InvalidProtocolBufferException) {
@@ -1846,16 +2166,16 @@ public final class ElasticItem {
         }
       };
 
-      public static com.google.protobuf.Parser<Facet> parser() {
+      public static com.google.protobuf.Parser<FacetValue> parser() {
         return PARSER;
       }
 
       @java.lang.Override
-      public com.google.protobuf.Parser<Facet> getParserForType() {
+      public com.google.protobuf.Parser<FacetValue> getParserForType() {
         return PARSER;
       }
 
-      public io.dstore.elastic.item.ElasticItem.Facets.Facet getDefaultInstanceForType() {
+      public io.dstore.elastic.item.ElasticItem.Facet.FacetValue getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
@@ -1896,39 +2216,39 @@ public final class ElasticItem {
       }
     }
 
-    public static final int FACET_FIELD_NUMBER = 2;
-    private java.util.List<io.dstore.elastic.item.ElasticItem.Facets.Facet> facet_;
+    public static final int FACET_VALUE_FIELD_NUMBER = 2;
+    private java.util.List<io.dstore.elastic.item.ElasticItem.Facet.FacetValue> facetValue_;
     /**
-     * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+     * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
      */
-    public java.util.List<io.dstore.elastic.item.ElasticItem.Facets.Facet> getFacetList() {
-      return facet_;
+    public java.util.List<io.dstore.elastic.item.ElasticItem.Facet.FacetValue> getFacetValueList() {
+      return facetValue_;
     }
     /**
-     * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+     * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
      */
-    public java.util.List<? extends io.dstore.elastic.item.ElasticItem.Facets.FacetOrBuilder> 
-        getFacetOrBuilderList() {
-      return facet_;
+    public java.util.List<? extends io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder> 
+        getFacetValueOrBuilderList() {
+      return facetValue_;
     }
     /**
-     * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+     * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
      */
-    public int getFacetCount() {
-      return facet_.size();
+    public int getFacetValueCount() {
+      return facetValue_.size();
     }
     /**
-     * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+     * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
      */
-    public io.dstore.elastic.item.ElasticItem.Facets.Facet getFacet(int index) {
-      return facet_.get(index);
+    public io.dstore.elastic.item.ElasticItem.Facet.FacetValue getFacetValue(int index) {
+      return facetValue_.get(index);
     }
     /**
-     * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+     * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
      */
-    public io.dstore.elastic.item.ElasticItem.Facets.FacetOrBuilder getFacetOrBuilder(
+    public io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder getFacetValueOrBuilder(
         int index) {
-      return facet_.get(index);
+      return facetValue_.get(index);
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1946,8 +2266,8 @@ public final class ElasticItem {
       if (!getFieldNameBytes().isEmpty()) {
         com.google.protobuf.GeneratedMessage.writeString(output, 1, fieldName_);
       }
-      for (int i = 0; i < facet_.size(); i++) {
-        output.writeMessage(2, facet_.get(i));
+      for (int i = 0; i < facetValue_.size(); i++) {
+        output.writeMessage(2, facetValue_.get(i));
       }
     }
 
@@ -1959,62 +2279,62 @@ public final class ElasticItem {
       if (!getFieldNameBytes().isEmpty()) {
         size += com.google.protobuf.GeneratedMessage.computeStringSize(1, fieldName_);
       }
-      for (int i = 0; i < facet_.size(); i++) {
+      for (int i = 0; i < facetValue_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, facet_.get(i));
+          .computeMessageSize(2, facetValue_.get(i));
       }
       memoizedSize = size;
       return size;
     }
 
     private static final long serialVersionUID = 0L;
-    public static io.dstore.elastic.item.ElasticItem.Facets parseFrom(
+    public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.dstore.elastic.item.ElasticItem.Facets parseFrom(
+    public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.dstore.elastic.item.ElasticItem.Facets parseFrom(byte[] data)
+    public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static io.dstore.elastic.item.ElasticItem.Facets parseFrom(
+    public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static io.dstore.elastic.item.ElasticItem.Facets parseFrom(java.io.InputStream input)
+    public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.dstore.elastic.item.ElasticItem.Facets parseFrom(
+    public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseFrom(input, extensionRegistry);
     }
-    public static io.dstore.elastic.item.ElasticItem.Facets parseDelimitedFrom(java.io.InputStream input)
+    public static io.dstore.elastic.item.ElasticItem.Facet parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input);
     }
-    public static io.dstore.elastic.item.ElasticItem.Facets parseDelimitedFrom(
+    public static io.dstore.elastic.item.ElasticItem.Facet parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input, extensionRegistry);
     }
-    public static io.dstore.elastic.item.ElasticItem.Facets parseFrom(
+    public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static io.dstore.elastic.item.ElasticItem.Facets parseFrom(
+    public static io.dstore.elastic.item.ElasticItem.Facet parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2025,7 +2345,7 @@ public final class ElasticItem {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(io.dstore.elastic.item.ElasticItem.Facets prototype) {
+    public static Builder newBuilder(io.dstore.elastic.item.ElasticItem.Facet prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() {
@@ -2040,25 +2360,25 @@ public final class ElasticItem {
       return builder;
     }
     /**
-     * Protobuf type {@code dstore.elastic.item.Facets}
+     * Protobuf type {@code dstore.elastic.item.Facet}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:dstore.elastic.item.Facets)
-        io.dstore.elastic.item.ElasticItem.FacetsOrBuilder {
+        // @@protoc_insertion_point(builder_implements:dstore.elastic.item.Facet)
+        io.dstore.elastic.item.ElasticItem.FacetOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facets_descriptor;
+        return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facets_fieldAccessorTable
+        return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                io.dstore.elastic.item.ElasticItem.Facets.class, io.dstore.elastic.item.ElasticItem.Facets.Builder.class);
+                io.dstore.elastic.item.ElasticItem.Facet.class, io.dstore.elastic.item.ElasticItem.Facet.Builder.class);
       }
 
-      // Construct using io.dstore.elastic.item.ElasticItem.Facets.newBuilder()
+      // Construct using io.dstore.elastic.item.ElasticItem.Facet.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -2070,52 +2390,52 @@ public final class ElasticItem {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-          getFacetFieldBuilder();
+          getFacetValueFieldBuilder();
         }
       }
       public Builder clear() {
         super.clear();
         fieldName_ = "";
 
-        if (facetBuilder_ == null) {
-          facet_ = java.util.Collections.emptyList();
+        if (facetValueBuilder_ == null) {
+          facetValue_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000002);
         } else {
-          facetBuilder_.clear();
+          facetValueBuilder_.clear();
         }
         return this;
       }
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facets_descriptor;
+        return io.dstore.elastic.item.ElasticItem.internal_static_dstore_elastic_item_Facet_descriptor;
       }
 
-      public io.dstore.elastic.item.ElasticItem.Facets getDefaultInstanceForType() {
-        return io.dstore.elastic.item.ElasticItem.Facets.getDefaultInstance();
+      public io.dstore.elastic.item.ElasticItem.Facet getDefaultInstanceForType() {
+        return io.dstore.elastic.item.ElasticItem.Facet.getDefaultInstance();
       }
 
-      public io.dstore.elastic.item.ElasticItem.Facets build() {
-        io.dstore.elastic.item.ElasticItem.Facets result = buildPartial();
+      public io.dstore.elastic.item.ElasticItem.Facet build() {
+        io.dstore.elastic.item.ElasticItem.Facet result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public io.dstore.elastic.item.ElasticItem.Facets buildPartial() {
-        io.dstore.elastic.item.ElasticItem.Facets result = new io.dstore.elastic.item.ElasticItem.Facets(this);
+      public io.dstore.elastic.item.ElasticItem.Facet buildPartial() {
+        io.dstore.elastic.item.ElasticItem.Facet result = new io.dstore.elastic.item.ElasticItem.Facet(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         result.fieldName_ = fieldName_;
-        if (facetBuilder_ == null) {
+        if (facetValueBuilder_ == null) {
           if (((bitField0_ & 0x00000002) == 0x00000002)) {
-            facet_ = java.util.Collections.unmodifiableList(facet_);
+            facetValue_ = java.util.Collections.unmodifiableList(facetValue_);
             bitField0_ = (bitField0_ & ~0x00000002);
           }
-          result.facet_ = facet_;
+          result.facetValue_ = facetValue_;
         } else {
-          result.facet_ = facetBuilder_.build();
+          result.facetValue_ = facetValueBuilder_.build();
         }
         result.bitField0_ = to_bitField0_;
         onBuilt();
@@ -2123,43 +2443,43 @@ public final class ElasticItem {
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof io.dstore.elastic.item.ElasticItem.Facets) {
-          return mergeFrom((io.dstore.elastic.item.ElasticItem.Facets)other);
+        if (other instanceof io.dstore.elastic.item.ElasticItem.Facet) {
+          return mergeFrom((io.dstore.elastic.item.ElasticItem.Facet)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(io.dstore.elastic.item.ElasticItem.Facets other) {
-        if (other == io.dstore.elastic.item.ElasticItem.Facets.getDefaultInstance()) return this;
+      public Builder mergeFrom(io.dstore.elastic.item.ElasticItem.Facet other) {
+        if (other == io.dstore.elastic.item.ElasticItem.Facet.getDefaultInstance()) return this;
         if (!other.getFieldName().isEmpty()) {
           fieldName_ = other.fieldName_;
           onChanged();
         }
-        if (facetBuilder_ == null) {
-          if (!other.facet_.isEmpty()) {
-            if (facet_.isEmpty()) {
-              facet_ = other.facet_;
+        if (facetValueBuilder_ == null) {
+          if (!other.facetValue_.isEmpty()) {
+            if (facetValue_.isEmpty()) {
+              facetValue_ = other.facetValue_;
               bitField0_ = (bitField0_ & ~0x00000002);
             } else {
-              ensureFacetIsMutable();
-              facet_.addAll(other.facet_);
+              ensureFacetValueIsMutable();
+              facetValue_.addAll(other.facetValue_);
             }
             onChanged();
           }
         } else {
-          if (!other.facet_.isEmpty()) {
-            if (facetBuilder_.isEmpty()) {
-              facetBuilder_.dispose();
-              facetBuilder_ = null;
-              facet_ = other.facet_;
+          if (!other.facetValue_.isEmpty()) {
+            if (facetValueBuilder_.isEmpty()) {
+              facetValueBuilder_.dispose();
+              facetValueBuilder_ = null;
+              facetValue_ = other.facetValue_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              facetBuilder_ = 
+              facetValueBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
-                   getFacetFieldBuilder() : null;
+                   getFacetValueFieldBuilder() : null;
             } else {
-              facetBuilder_.addAllMessages(other.facet_);
+              facetValueBuilder_.addAllMessages(other.facetValue_);
             }
           }
         }
@@ -2175,11 +2495,11 @@ public final class ElasticItem {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        io.dstore.elastic.item.ElasticItem.Facets parsedMessage = null;
+        io.dstore.elastic.item.ElasticItem.Facet parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (io.dstore.elastic.item.ElasticItem.Facets) e.getUnfinishedMessage();
+          parsedMessage = (io.dstore.elastic.item.ElasticItem.Facet) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -2259,244 +2579,244 @@ public final class ElasticItem {
         return this;
       }
 
-      private java.util.List<io.dstore.elastic.item.ElasticItem.Facets.Facet> facet_ =
+      private java.util.List<io.dstore.elastic.item.ElasticItem.Facet.FacetValue> facetValue_ =
         java.util.Collections.emptyList();
-      private void ensureFacetIsMutable() {
+      private void ensureFacetValueIsMutable() {
         if (!((bitField0_ & 0x00000002) == 0x00000002)) {
-          facet_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facets.Facet>(facet_);
+          facetValue_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facet.FacetValue>(facetValue_);
           bitField0_ |= 0x00000002;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.dstore.elastic.item.ElasticItem.Facets.Facet, io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder, io.dstore.elastic.item.ElasticItem.Facets.FacetOrBuilder> facetBuilder_;
+          io.dstore.elastic.item.ElasticItem.Facet.FacetValue, io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder, io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder> facetValueBuilder_;
 
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public java.util.List<io.dstore.elastic.item.ElasticItem.Facets.Facet> getFacetList() {
-        if (facetBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(facet_);
+      public java.util.List<io.dstore.elastic.item.ElasticItem.Facet.FacetValue> getFacetValueList() {
+        if (facetValueBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(facetValue_);
         } else {
-          return facetBuilder_.getMessageList();
+          return facetValueBuilder_.getMessageList();
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public int getFacetCount() {
-        if (facetBuilder_ == null) {
-          return facet_.size();
+      public int getFacetValueCount() {
+        if (facetValueBuilder_ == null) {
+          return facetValue_.size();
         } else {
-          return facetBuilder_.getCount();
+          return facetValueBuilder_.getCount();
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Facets.Facet getFacet(int index) {
-        if (facetBuilder_ == null) {
-          return facet_.get(index);
+      public io.dstore.elastic.item.ElasticItem.Facet.FacetValue getFacetValue(int index) {
+        if (facetValueBuilder_ == null) {
+          return facetValue_.get(index);
         } else {
-          return facetBuilder_.getMessage(index);
+          return facetValueBuilder_.getMessage(index);
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public Builder setFacet(
-          int index, io.dstore.elastic.item.ElasticItem.Facets.Facet value) {
-        if (facetBuilder_ == null) {
+      public Builder setFacetValue(
+          int index, io.dstore.elastic.item.ElasticItem.Facet.FacetValue value) {
+        if (facetValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureFacetIsMutable();
-          facet_.set(index, value);
+          ensureFacetValueIsMutable();
+          facetValue_.set(index, value);
           onChanged();
         } else {
-          facetBuilder_.setMessage(index, value);
+          facetValueBuilder_.setMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public Builder setFacet(
-          int index, io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder builderForValue) {
-        if (facetBuilder_ == null) {
-          ensureFacetIsMutable();
-          facet_.set(index, builderForValue.build());
+      public Builder setFacetValue(
+          int index, io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder builderForValue) {
+        if (facetValueBuilder_ == null) {
+          ensureFacetValueIsMutable();
+          facetValue_.set(index, builderForValue.build());
           onChanged();
         } else {
-          facetBuilder_.setMessage(index, builderForValue.build());
+          facetValueBuilder_.setMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public Builder addFacet(io.dstore.elastic.item.ElasticItem.Facets.Facet value) {
-        if (facetBuilder_ == null) {
+      public Builder addFacetValue(io.dstore.elastic.item.ElasticItem.Facet.FacetValue value) {
+        if (facetValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureFacetIsMutable();
-          facet_.add(value);
+          ensureFacetValueIsMutable();
+          facetValue_.add(value);
           onChanged();
         } else {
-          facetBuilder_.addMessage(value);
+          facetValueBuilder_.addMessage(value);
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public Builder addFacet(
-          int index, io.dstore.elastic.item.ElasticItem.Facets.Facet value) {
-        if (facetBuilder_ == null) {
+      public Builder addFacetValue(
+          int index, io.dstore.elastic.item.ElasticItem.Facet.FacetValue value) {
+        if (facetValueBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          ensureFacetIsMutable();
-          facet_.add(index, value);
+          ensureFacetValueIsMutable();
+          facetValue_.add(index, value);
           onChanged();
         } else {
-          facetBuilder_.addMessage(index, value);
+          facetValueBuilder_.addMessage(index, value);
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public Builder addFacet(
-          io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder builderForValue) {
-        if (facetBuilder_ == null) {
-          ensureFacetIsMutable();
-          facet_.add(builderForValue.build());
+      public Builder addFacetValue(
+          io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder builderForValue) {
+        if (facetValueBuilder_ == null) {
+          ensureFacetValueIsMutable();
+          facetValue_.add(builderForValue.build());
           onChanged();
         } else {
-          facetBuilder_.addMessage(builderForValue.build());
+          facetValueBuilder_.addMessage(builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public Builder addFacet(
-          int index, io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder builderForValue) {
-        if (facetBuilder_ == null) {
-          ensureFacetIsMutable();
-          facet_.add(index, builderForValue.build());
+      public Builder addFacetValue(
+          int index, io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder builderForValue) {
+        if (facetValueBuilder_ == null) {
+          ensureFacetValueIsMutable();
+          facetValue_.add(index, builderForValue.build());
           onChanged();
         } else {
-          facetBuilder_.addMessage(index, builderForValue.build());
+          facetValueBuilder_.addMessage(index, builderForValue.build());
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public Builder addAllFacet(
-          java.lang.Iterable<? extends io.dstore.elastic.item.ElasticItem.Facets.Facet> values) {
-        if (facetBuilder_ == null) {
-          ensureFacetIsMutable();
+      public Builder addAllFacetValue(
+          java.lang.Iterable<? extends io.dstore.elastic.item.ElasticItem.Facet.FacetValue> values) {
+        if (facetValueBuilder_ == null) {
+          ensureFacetValueIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, facet_);
+              values, facetValue_);
           onChanged();
         } else {
-          facetBuilder_.addAllMessages(values);
+          facetValueBuilder_.addAllMessages(values);
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public Builder clearFacet() {
-        if (facetBuilder_ == null) {
-          facet_ = java.util.Collections.emptyList();
+      public Builder clearFacetValue() {
+        if (facetValueBuilder_ == null) {
+          facetValue_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000002);
           onChanged();
         } else {
-          facetBuilder_.clear();
+          facetValueBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public Builder removeFacet(int index) {
-        if (facetBuilder_ == null) {
-          ensureFacetIsMutable();
-          facet_.remove(index);
+      public Builder removeFacetValue(int index) {
+        if (facetValueBuilder_ == null) {
+          ensureFacetValueIsMutable();
+          facetValue_.remove(index);
           onChanged();
         } else {
-          facetBuilder_.remove(index);
+          facetValueBuilder_.remove(index);
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder getFacetBuilder(
+      public io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder getFacetValueBuilder(
           int index) {
-        return getFacetFieldBuilder().getBuilder(index);
+        return getFacetValueFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Facets.FacetOrBuilder getFacetOrBuilder(
+      public io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder getFacetValueOrBuilder(
           int index) {
-        if (facetBuilder_ == null) {
-          return facet_.get(index);  } else {
-          return facetBuilder_.getMessageOrBuilder(index);
+        if (facetValueBuilder_ == null) {
+          return facetValue_.get(index);  } else {
+          return facetValueBuilder_.getMessageOrBuilder(index);
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public java.util.List<? extends io.dstore.elastic.item.ElasticItem.Facets.FacetOrBuilder> 
-           getFacetOrBuilderList() {
-        if (facetBuilder_ != null) {
-          return facetBuilder_.getMessageOrBuilderList();
+      public java.util.List<? extends io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder> 
+           getFacetValueOrBuilderList() {
+        if (facetValueBuilder_ != null) {
+          return facetValueBuilder_.getMessageOrBuilderList();
         } else {
-          return java.util.Collections.unmodifiableList(facet_);
+          return java.util.Collections.unmodifiableList(facetValue_);
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder addFacetBuilder() {
-        return getFacetFieldBuilder().addBuilder(
-            io.dstore.elastic.item.ElasticItem.Facets.Facet.getDefaultInstance());
+      public io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder addFacetValueBuilder() {
+        return getFacetValueFieldBuilder().addBuilder(
+            io.dstore.elastic.item.ElasticItem.Facet.FacetValue.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder addFacetBuilder(
+      public io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder addFacetValueBuilder(
           int index) {
-        return getFacetFieldBuilder().addBuilder(
-            index, io.dstore.elastic.item.ElasticItem.Facets.Facet.getDefaultInstance());
+        return getFacetValueFieldBuilder().addBuilder(
+            index, io.dstore.elastic.item.ElasticItem.Facet.FacetValue.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets.Facet facet = 2;</code>
+       * <code>repeated .dstore.elastic.item.Facet.FacetValue facet_value = 2;</code>
        */
-      public java.util.List<io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder> 
-           getFacetBuilderList() {
-        return getFacetFieldBuilder().getBuilderList();
+      public java.util.List<io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder> 
+           getFacetValueBuilderList() {
+        return getFacetValueFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.dstore.elastic.item.ElasticItem.Facets.Facet, io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder, io.dstore.elastic.item.ElasticItem.Facets.FacetOrBuilder> 
-          getFacetFieldBuilder() {
-        if (facetBuilder_ == null) {
-          facetBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-              io.dstore.elastic.item.ElasticItem.Facets.Facet, io.dstore.elastic.item.ElasticItem.Facets.Facet.Builder, io.dstore.elastic.item.ElasticItem.Facets.FacetOrBuilder>(
-                  facet_,
+          io.dstore.elastic.item.ElasticItem.Facet.FacetValue, io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder, io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder> 
+          getFacetValueFieldBuilder() {
+        if (facetValueBuilder_ == null) {
+          facetValueBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              io.dstore.elastic.item.ElasticItem.Facet.FacetValue, io.dstore.elastic.item.ElasticItem.Facet.FacetValue.Builder, io.dstore.elastic.item.ElasticItem.Facet.FacetValueOrBuilder>(
+                  facetValue_,
                   ((bitField0_ & 0x00000002) == 0x00000002),
                   getParentForChildren(),
                   isClean());
-          facet_ = null;
+          facetValue_ = null;
         }
-        return facetBuilder_;
+        return facetValueBuilder_;
       }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -2509,27 +2829,27 @@ public final class ElasticItem {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:dstore.elastic.item.Facets)
+      // @@protoc_insertion_point(builder_scope:dstore.elastic.item.Facet)
     }
 
-    // @@protoc_insertion_point(class_scope:dstore.elastic.item.Facets)
-    private static final io.dstore.elastic.item.ElasticItem.Facets DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:dstore.elastic.item.Facet)
+    private static final io.dstore.elastic.item.ElasticItem.Facet DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new io.dstore.elastic.item.ElasticItem.Facets();
+      DEFAULT_INSTANCE = new io.dstore.elastic.item.ElasticItem.Facet();
     }
 
-    public static io.dstore.elastic.item.ElasticItem.Facets getDefaultInstance() {
+    public static io.dstore.elastic.item.ElasticItem.Facet getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
-    private static final com.google.protobuf.Parser<Facets>
-        PARSER = new com.google.protobuf.AbstractParser<Facets>() {
-      public Facets parsePartialFrom(
+    private static final com.google.protobuf.Parser<Facet>
+        PARSER = new com.google.protobuf.AbstractParser<Facet>() {
+      public Facet parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         try {
-          return new Facets(input, extensionRegistry);
+          return new Facet(input, extensionRegistry);
         } catch (RuntimeException e) {
           if (e.getCause() instanceof
               com.google.protobuf.InvalidProtocolBufferException) {
@@ -2541,16 +2861,16 @@ public final class ElasticItem {
       }
     };
 
-    public static com.google.protobuf.Parser<Facets> parser() {
+    public static com.google.protobuf.Parser<Facet> parser() {
       return PARSER;
     }
 
     @java.lang.Override
-    public com.google.protobuf.Parser<Facets> getParserForType() {
+    public com.google.protobuf.Parser<Facet> getParserForType() {
       return PARSER;
     }
 
-    public io.dstore.elastic.item.ElasticItem.Facets getDefaultInstanceForType() {
+    public io.dstore.elastic.item.ElasticItem.Facet getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -2577,15 +2897,15 @@ public final class ElasticItem {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_item_Item_Variant_FieldsEntry_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
-    internal_static_dstore_elastic_item_Facets_descriptor;
+    internal_static_dstore_elastic_item_Facet_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_dstore_elastic_item_Facets_fieldAccessorTable;
+      internal_static_dstore_elastic_item_Facet_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
-    internal_static_dstore_elastic_item_Facets_Facet_descriptor;
+    internal_static_dstore_elastic_item_Facet_FacetValue_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
-      internal_static_dstore_elastic_item_Facets_Facet_fieldAccessorTable;
+      internal_static_dstore_elastic_item_Facet_FacetValue_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -2597,20 +2917,22 @@ public final class ElasticItem {
     java.lang.String[] descriptorData = {
       "\n\036dstore/elastic/item/item.proto\022\023dstore" +
       ".elastic.item\032\034dstore/elastic/elastic.pr" +
-      "oto\"\243\002\n\004Item\0225\n\006fields\030\001 \003(\0132%.dstore.el" +
-      "astic.item.Item.FieldsEntry\022\r\n\005score\030\002 \001" +
-      "(\001\032D\n\013FieldsEntry\022\013\n\003key\030\001 \001(\t\022$\n\005value\030" +
-      "\002 \001(\0132\025.dstore.elastic.Field:\0028\001\032\216\001\n\007Var" +
-      "iant\022=\n\006fields\030\001 \003(\0132-.dstore.elastic.it" +
-      "em.Item.Variant.FieldsEntry\032D\n\013FieldsEnt" +
-      "ry\022\013\n\003key\030\001 \001(\t\022$\n\005value\030\002 \001(\0132\025.dstore." +
-      "elastic.Field:\0028\001\"\270\001\n\006Facets\022\022\n\nfield_na",
-      "me\030\001 \001(\t\0220\n\005facet\030\002 \003(\0132!.dstore.elastic" +
-      ".item.Facets.Facet\032h\n\005Facet\022$\n\005value\030\001 \001" +
-      "(\0132\025.dstore.elastic.Value\022\026\n\016document_co" +
-      "unt\030\002 \001(\003\022\021\n\tavailable\030\003 \001(\010\022\016\n\006active\030\004" +
-      " \001(\010B%\n\026io.dstore.elastic.itemB\013ElasticI" +
-      "temb\006proto3"
+      "oto\"\327\002\n\004Item\0225\n\006fields\030\001 \003(\0132%.dstore.el" +
+      "astic.item.Item.FieldsEntry\0222\n\007variant\030\002" +
+      " \003(\0132!.dstore.elastic.item.Item.Variant\022" +
+      "\r\n\005score\030\003 \001(\001\032D\n\013FieldsEntry\022\013\n\003key\030\001 \001" +
+      "(\t\022$\n\005value\030\002 \001(\0132\025.dstore.elastic.Field" +
+      ":\0028\001\032\216\001\n\007Variant\022=\n\006fields\030\001 \003(\0132-.dstor" +
+      "e.elastic.item.Item.Variant.FieldsEntry\032" +
+      "D\n\013FieldsEntry\022\013\n\003key\030\001 \001(\t\022$\n\005value\030\002 \001",
+      "(\0132\025.dstore.elastic.Field:\0028\001\"\322\001\n\005Facet\022" +
+      "\022\n\nfield_name\030\001 \001(\t\022:\n\013facet_value\030\002 \003(\013" +
+      "2%.dstore.elastic.item.Facet.FacetValue\032" +
+      "y\n\nFacetValue\022$\n\005value\030\001 \001(\0132\025.dstore.el" +
+      "astic.Value\022\030\n\020total_item_count\030\002 \001(\005\022\033\n" +
+      "\023matching_item_count\030\003 \001(\005\022\016\n\006active\030\004 \001" +
+      "(\010B%\n\026io.dstore.elastic.itemB\013ElasticIte" +
+      "mb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -2630,7 +2952,7 @@ public final class ElasticItem {
     internal_static_dstore_elastic_item_Item_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_item_Item_descriptor,
-        new java.lang.String[] { "Fields", "Score", });
+        new java.lang.String[] { "Fields", "Variant", "Score", });
     internal_static_dstore_elastic_item_Item_FieldsEntry_descriptor =
       internal_static_dstore_elastic_item_Item_descriptor.getNestedTypes().get(0);
     internal_static_dstore_elastic_item_Item_FieldsEntry_fieldAccessorTable = new
@@ -2649,18 +2971,18 @@ public final class ElasticItem {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_item_Item_Variant_FieldsEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
-    internal_static_dstore_elastic_item_Facets_descriptor =
+    internal_static_dstore_elastic_item_Facet_descriptor =
       getDescriptor().getMessageTypes().get(1);
-    internal_static_dstore_elastic_item_Facets_fieldAccessorTable = new
+    internal_static_dstore_elastic_item_Facet_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_dstore_elastic_item_Facets_descriptor,
-        new java.lang.String[] { "FieldName", "Facet", });
-    internal_static_dstore_elastic_item_Facets_Facet_descriptor =
-      internal_static_dstore_elastic_item_Facets_descriptor.getNestedTypes().get(0);
-    internal_static_dstore_elastic_item_Facets_Facet_fieldAccessorTable = new
+        internal_static_dstore_elastic_item_Facet_descriptor,
+        new java.lang.String[] { "FieldName", "FacetValue", });
+    internal_static_dstore_elastic_item_Facet_FacetValue_descriptor =
+      internal_static_dstore_elastic_item_Facet_descriptor.getNestedTypes().get(0);
+    internal_static_dstore_elastic_item_Facet_FacetValue_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
-        internal_static_dstore_elastic_item_Facets_Facet_descriptor,
-        new java.lang.String[] { "Value", "DocumentCount", "Available", "Active", });
+        internal_static_dstore_elastic_item_Facet_FacetValue_descriptor,
+        new java.lang.String[] { "Value", "TotalItemCount", "MatchingItemCount", "Active", });
     io.dstore.elastic.Elastic.getDescriptor();
   }
 

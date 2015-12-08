@@ -1959,56 +1959,69 @@ public final class FacetedNavigation {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional int32 total_hits = 1;</code>
+     * <code>optional .dstore.elastic.error.Error error = 1;</code>
+     */
+    boolean hasError();
+    /**
+     * <code>optional .dstore.elastic.error.Error error = 1;</code>
+     */
+    io.dstore.elastic.ElasticError.Error getError();
+    /**
+     * <code>optional .dstore.elastic.error.Error error = 1;</code>
+     */
+    io.dstore.elastic.ElasticError.ErrorOrBuilder getErrorOrBuilder();
+
+    /**
+     * <code>optional int32 total_hits = 2;</code>
      */
     int getTotalHits();
 
     /**
-     * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+     * <code>repeated .dstore.elastic.item.Item item = 3;</code>
      */
     java.util.List<io.dstore.elastic.item.ElasticItem.Item> 
         getItemList();
     /**
-     * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+     * <code>repeated .dstore.elastic.item.Item item = 3;</code>
      */
     io.dstore.elastic.item.ElasticItem.Item getItem(int index);
     /**
-     * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+     * <code>repeated .dstore.elastic.item.Item item = 3;</code>
      */
     int getItemCount();
     /**
-     * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+     * <code>repeated .dstore.elastic.item.Item item = 3;</code>
      */
     java.util.List<? extends io.dstore.elastic.item.ElasticItem.ItemOrBuilder> 
         getItemOrBuilderList();
     /**
-     * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+     * <code>repeated .dstore.elastic.item.Item item = 3;</code>
      */
     io.dstore.elastic.item.ElasticItem.ItemOrBuilder getItemOrBuilder(
         int index);
 
     /**
-     * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+     * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
      */
-    java.util.List<io.dstore.elastic.item.ElasticItem.Facets> 
+    java.util.List<io.dstore.elastic.item.ElasticItem.Facet> 
         getFacetList();
     /**
-     * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+     * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
      */
-    io.dstore.elastic.item.ElasticItem.Facets getFacet(int index);
+    io.dstore.elastic.item.ElasticItem.Facet getFacet(int index);
     /**
-     * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+     * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
      */
     int getFacetCount();
     /**
-     * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+     * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
      */
-    java.util.List<? extends io.dstore.elastic.item.ElasticItem.FacetsOrBuilder> 
+    java.util.List<? extends io.dstore.elastic.item.ElasticItem.FacetOrBuilder> 
         getFacetOrBuilderList();
     /**
-     * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+     * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
      */
-    io.dstore.elastic.item.ElasticItem.FacetsOrBuilder getFacetOrBuilder(
+    io.dstore.elastic.item.ElasticItem.FacetOrBuilder getFacetOrBuilder(
         int index);
   }
   /**
@@ -2052,25 +2065,38 @@ public final class FacetedNavigation {
               }
               break;
             }
-            case 8: {
+            case 10: {
+              io.dstore.elastic.ElasticError.Error.Builder subBuilder = null;
+              if (error_ != null) {
+                subBuilder = error_.toBuilder();
+              }
+              error_ = input.readMessage(io.dstore.elastic.ElasticError.Error.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(error_);
+                error_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 16: {
 
               totalHits_ = input.readInt32();
               break;
             }
-            case 18: {
-              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+            case 26: {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
                 item_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item>();
-                mutable_bitField0_ |= 0x00000002;
+                mutable_bitField0_ |= 0x00000004;
               }
               item_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Item.parser(), extensionRegistry));
               break;
             }
-            case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
-                facet_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facets>();
-                mutable_bitField0_ |= 0x00000004;
+            case 34: {
+              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+                facet_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facet>();
+                mutable_bitField0_ |= 0x00000008;
               }
-              facet_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Facets.parser(), extensionRegistry));
+              facet_.add(input.readMessage(io.dstore.elastic.item.ElasticItem.Facet.parser(), extensionRegistry));
               break;
             }
           }
@@ -2082,10 +2108,10 @@ public final class FacetedNavigation {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
           item_ = java.util.Collections.unmodifiableList(item_);
         }
-        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
           facet_ = java.util.Collections.unmodifiableList(facet_);
         }
         makeExtensionsImmutable();
@@ -2104,81 +2130,102 @@ public final class FacetedNavigation {
     }
 
     private int bitField0_;
-    public static final int TOTAL_HITS_FIELD_NUMBER = 1;
+    public static final int ERROR_FIELD_NUMBER = 1;
+    private io.dstore.elastic.ElasticError.Error error_;
+    /**
+     * <code>optional .dstore.elastic.error.Error error = 1;</code>
+     */
+    public boolean hasError() {
+      return error_ != null;
+    }
+    /**
+     * <code>optional .dstore.elastic.error.Error error = 1;</code>
+     */
+    public io.dstore.elastic.ElasticError.Error getError() {
+      return error_ == null ? io.dstore.elastic.ElasticError.Error.getDefaultInstance() : error_;
+    }
+    /**
+     * <code>optional .dstore.elastic.error.Error error = 1;</code>
+     */
+    public io.dstore.elastic.ElasticError.ErrorOrBuilder getErrorOrBuilder() {
+      return getError();
+    }
+
+    public static final int TOTAL_HITS_FIELD_NUMBER = 2;
     private int totalHits_;
     /**
-     * <code>optional int32 total_hits = 1;</code>
+     * <code>optional int32 total_hits = 2;</code>
      */
     public int getTotalHits() {
       return totalHits_;
     }
 
-    public static final int ITEM_FIELD_NUMBER = 2;
+    public static final int ITEM_FIELD_NUMBER = 3;
     private java.util.List<io.dstore.elastic.item.ElasticItem.Item> item_;
     /**
-     * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+     * <code>repeated .dstore.elastic.item.Item item = 3;</code>
      */
     public java.util.List<io.dstore.elastic.item.ElasticItem.Item> getItemList() {
       return item_;
     }
     /**
-     * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+     * <code>repeated .dstore.elastic.item.Item item = 3;</code>
      */
     public java.util.List<? extends io.dstore.elastic.item.ElasticItem.ItemOrBuilder> 
         getItemOrBuilderList() {
       return item_;
     }
     /**
-     * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+     * <code>repeated .dstore.elastic.item.Item item = 3;</code>
      */
     public int getItemCount() {
       return item_.size();
     }
     /**
-     * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+     * <code>repeated .dstore.elastic.item.Item item = 3;</code>
      */
     public io.dstore.elastic.item.ElasticItem.Item getItem(int index) {
       return item_.get(index);
     }
     /**
-     * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+     * <code>repeated .dstore.elastic.item.Item item = 3;</code>
      */
     public io.dstore.elastic.item.ElasticItem.ItemOrBuilder getItemOrBuilder(
         int index) {
       return item_.get(index);
     }
 
-    public static final int FACET_FIELD_NUMBER = 3;
-    private java.util.List<io.dstore.elastic.item.ElasticItem.Facets> facet_;
+    public static final int FACET_FIELD_NUMBER = 4;
+    private java.util.List<io.dstore.elastic.item.ElasticItem.Facet> facet_;
     /**
-     * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+     * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
      */
-    public java.util.List<io.dstore.elastic.item.ElasticItem.Facets> getFacetList() {
+    public java.util.List<io.dstore.elastic.item.ElasticItem.Facet> getFacetList() {
       return facet_;
     }
     /**
-     * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+     * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
      */
-    public java.util.List<? extends io.dstore.elastic.item.ElasticItem.FacetsOrBuilder> 
+    public java.util.List<? extends io.dstore.elastic.item.ElasticItem.FacetOrBuilder> 
         getFacetOrBuilderList() {
       return facet_;
     }
     /**
-     * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+     * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
      */
     public int getFacetCount() {
       return facet_.size();
     }
     /**
-     * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+     * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
      */
-    public io.dstore.elastic.item.ElasticItem.Facets getFacet(int index) {
+    public io.dstore.elastic.item.ElasticItem.Facet getFacet(int index) {
       return facet_.get(index);
     }
     /**
-     * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+     * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
      */
-    public io.dstore.elastic.item.ElasticItem.FacetsOrBuilder getFacetOrBuilder(
+    public io.dstore.elastic.item.ElasticItem.FacetOrBuilder getFacetOrBuilder(
         int index) {
       return facet_.get(index);
     }
@@ -2195,14 +2242,17 @@ public final class FacetedNavigation {
 
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (error_ != null) {
+        output.writeMessage(1, getError());
+      }
       if (totalHits_ != 0) {
-        output.writeInt32(1, totalHits_);
+        output.writeInt32(2, totalHits_);
       }
       for (int i = 0; i < item_.size(); i++) {
-        output.writeMessage(2, item_.get(i));
+        output.writeMessage(3, item_.get(i));
       }
       for (int i = 0; i < facet_.size(); i++) {
-        output.writeMessage(3, facet_.get(i));
+        output.writeMessage(4, facet_.get(i));
       }
     }
 
@@ -2211,17 +2261,21 @@ public final class FacetedNavigation {
       if (size != -1) return size;
 
       size = 0;
+      if (error_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, getError());
+      }
       if (totalHits_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(1, totalHits_);
+          .computeInt32Size(2, totalHits_);
       }
       for (int i = 0; i < item_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, item_.get(i));
+          .computeMessageSize(3, item_.get(i));
       }
       for (int i = 0; i < facet_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, facet_.get(i));
+          .computeMessageSize(4, facet_.get(i));
       }
       memoizedSize = size;
       return size;
@@ -2336,17 +2390,23 @@ public final class FacetedNavigation {
       }
       public Builder clear() {
         super.clear();
+        if (errorBuilder_ == null) {
+          error_ = null;
+        } else {
+          error_ = null;
+          errorBuilder_ = null;
+        }
         totalHits_ = 0;
 
         if (itemBuilder_ == null) {
           item_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000004);
         } else {
           itemBuilder_.clear();
         }
         if (facetBuilder_ == null) {
           facet_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000008);
         } else {
           facetBuilder_.clear();
         }
@@ -2374,20 +2434,25 @@ public final class FacetedNavigation {
         io.dstore.elastic.item.FacetedNavigation.Response result = new io.dstore.elastic.item.FacetedNavigation.Response(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
+        if (errorBuilder_ == null) {
+          result.error_ = error_;
+        } else {
+          result.error_ = errorBuilder_.build();
+        }
         result.totalHits_ = totalHits_;
         if (itemBuilder_ == null) {
-          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
             item_ = java.util.Collections.unmodifiableList(item_);
-            bitField0_ = (bitField0_ & ~0x00000002);
+            bitField0_ = (bitField0_ & ~0x00000004);
           }
           result.item_ = item_;
         } else {
           result.item_ = itemBuilder_.build();
         }
         if (facetBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+          if (((bitField0_ & 0x00000008) == 0x00000008)) {
             facet_ = java.util.Collections.unmodifiableList(facet_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000008);
           }
           result.facet_ = facet_;
         } else {
@@ -2409,6 +2474,9 @@ public final class FacetedNavigation {
 
       public Builder mergeFrom(io.dstore.elastic.item.FacetedNavigation.Response other) {
         if (other == io.dstore.elastic.item.FacetedNavigation.Response.getDefaultInstance()) return this;
+        if (other.hasError()) {
+          mergeError(other.getError());
+        }
         if (other.getTotalHits() != 0) {
           setTotalHits(other.getTotalHits());
         }
@@ -2416,7 +2484,7 @@ public final class FacetedNavigation {
           if (!other.item_.isEmpty()) {
             if (item_.isEmpty()) {
               item_ = other.item_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000004);
             } else {
               ensureItemIsMutable();
               item_.addAll(other.item_);
@@ -2429,7 +2497,7 @@ public final class FacetedNavigation {
               itemBuilder_.dispose();
               itemBuilder_ = null;
               item_ = other.item_;
-              bitField0_ = (bitField0_ & ~0x00000002);
+              bitField0_ = (bitField0_ & ~0x00000004);
               itemBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getItemFieldBuilder() : null;
@@ -2442,7 +2510,7 @@ public final class FacetedNavigation {
           if (!other.facet_.isEmpty()) {
             if (facet_.isEmpty()) {
               facet_ = other.facet_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000008);
             } else {
               ensureFacetIsMutable();
               facet_.addAll(other.facet_);
@@ -2455,7 +2523,7 @@ public final class FacetedNavigation {
               facetBuilder_.dispose();
               facetBuilder_ = null;
               facet_ = other.facet_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000008);
               facetBuilder_ = 
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getFacetFieldBuilder() : null;
@@ -2491,15 +2559,132 @@ public final class FacetedNavigation {
       }
       private int bitField0_;
 
+      private io.dstore.elastic.ElasticError.Error error_ = null;
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.ElasticError.Error, io.dstore.elastic.ElasticError.Error.Builder, io.dstore.elastic.ElasticError.ErrorOrBuilder> errorBuilder_;
+      /**
+       * <code>optional .dstore.elastic.error.Error error = 1;</code>
+       */
+      public boolean hasError() {
+        return errorBuilder_ != null || error_ != null;
+      }
+      /**
+       * <code>optional .dstore.elastic.error.Error error = 1;</code>
+       */
+      public io.dstore.elastic.ElasticError.Error getError() {
+        if (errorBuilder_ == null) {
+          return error_ == null ? io.dstore.elastic.ElasticError.Error.getDefaultInstance() : error_;
+        } else {
+          return errorBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>optional .dstore.elastic.error.Error error = 1;</code>
+       */
+      public Builder setError(io.dstore.elastic.ElasticError.Error value) {
+        if (errorBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          error_ = value;
+          onChanged();
+        } else {
+          errorBuilder_.setMessage(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.error.Error error = 1;</code>
+       */
+      public Builder setError(
+          io.dstore.elastic.ElasticError.Error.Builder builderForValue) {
+        if (errorBuilder_ == null) {
+          error_ = builderForValue.build();
+          onChanged();
+        } else {
+          errorBuilder_.setMessage(builderForValue.build());
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.error.Error error = 1;</code>
+       */
+      public Builder mergeError(io.dstore.elastic.ElasticError.Error value) {
+        if (errorBuilder_ == null) {
+          if (error_ != null) {
+            error_ =
+              io.dstore.elastic.ElasticError.Error.newBuilder(error_).mergeFrom(value).buildPartial();
+          } else {
+            error_ = value;
+          }
+          onChanged();
+        } else {
+          errorBuilder_.mergeFrom(value);
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.error.Error error = 1;</code>
+       */
+      public Builder clearError() {
+        if (errorBuilder_ == null) {
+          error_ = null;
+          onChanged();
+        } else {
+          error_ = null;
+          errorBuilder_ = null;
+        }
+
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.error.Error error = 1;</code>
+       */
+      public io.dstore.elastic.ElasticError.Error.Builder getErrorBuilder() {
+        
+        onChanged();
+        return getErrorFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.elastic.error.Error error = 1;</code>
+       */
+      public io.dstore.elastic.ElasticError.ErrorOrBuilder getErrorOrBuilder() {
+        if (errorBuilder_ != null) {
+          return errorBuilder_.getMessageOrBuilder();
+        } else {
+          return error_ == null ?
+              io.dstore.elastic.ElasticError.Error.getDefaultInstance() : error_;
+        }
+      }
+      /**
+       * <code>optional .dstore.elastic.error.Error error = 1;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.ElasticError.Error, io.dstore.elastic.ElasticError.Error.Builder, io.dstore.elastic.ElasticError.ErrorOrBuilder> 
+          getErrorFieldBuilder() {
+        if (errorBuilder_ == null) {
+          errorBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.elastic.ElasticError.Error, io.dstore.elastic.ElasticError.Error.Builder, io.dstore.elastic.ElasticError.ErrorOrBuilder>(
+                  getError(),
+                  getParentForChildren(),
+                  isClean());
+          error_ = null;
+        }
+        return errorBuilder_;
+      }
+
       private int totalHits_ ;
       /**
-       * <code>optional int32 total_hits = 1;</code>
+       * <code>optional int32 total_hits = 2;</code>
        */
       public int getTotalHits() {
         return totalHits_;
       }
       /**
-       * <code>optional int32 total_hits = 1;</code>
+       * <code>optional int32 total_hits = 2;</code>
        */
       public Builder setTotalHits(int value) {
         
@@ -2508,7 +2693,7 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>optional int32 total_hits = 1;</code>
+       * <code>optional int32 total_hits = 2;</code>
        */
       public Builder clearTotalHits() {
         
@@ -2520,9 +2705,9 @@ public final class FacetedNavigation {
       private java.util.List<io.dstore.elastic.item.ElasticItem.Item> item_ =
         java.util.Collections.emptyList();
       private void ensureItemIsMutable() {
-        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
           item_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Item>(item_);
-          bitField0_ |= 0x00000002;
+          bitField0_ |= 0x00000004;
          }
       }
 
@@ -2530,7 +2715,7 @@ public final class FacetedNavigation {
           io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder> itemBuilder_;
 
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public java.util.List<io.dstore.elastic.item.ElasticItem.Item> getItemList() {
         if (itemBuilder_ == null) {
@@ -2540,7 +2725,7 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public int getItemCount() {
         if (itemBuilder_ == null) {
@@ -2550,7 +2735,7 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public io.dstore.elastic.item.ElasticItem.Item getItem(int index) {
         if (itemBuilder_ == null) {
@@ -2560,7 +2745,7 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public Builder setItem(
           int index, io.dstore.elastic.item.ElasticItem.Item value) {
@@ -2577,7 +2762,7 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public Builder setItem(
           int index, io.dstore.elastic.item.ElasticItem.Item.Builder builderForValue) {
@@ -2591,7 +2776,7 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public Builder addItem(io.dstore.elastic.item.ElasticItem.Item value) {
         if (itemBuilder_ == null) {
@@ -2607,7 +2792,7 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public Builder addItem(
           int index, io.dstore.elastic.item.ElasticItem.Item value) {
@@ -2624,7 +2809,7 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public Builder addItem(
           io.dstore.elastic.item.ElasticItem.Item.Builder builderForValue) {
@@ -2638,7 +2823,7 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public Builder addItem(
           int index, io.dstore.elastic.item.ElasticItem.Item.Builder builderForValue) {
@@ -2652,7 +2837,7 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public Builder addAllItem(
           java.lang.Iterable<? extends io.dstore.elastic.item.ElasticItem.Item> values) {
@@ -2667,12 +2852,12 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public Builder clearItem() {
         if (itemBuilder_ == null) {
           item_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000002);
+          bitField0_ = (bitField0_ & ~0x00000004);
           onChanged();
         } else {
           itemBuilder_.clear();
@@ -2680,7 +2865,7 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public Builder removeItem(int index) {
         if (itemBuilder_ == null) {
@@ -2693,14 +2878,14 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public io.dstore.elastic.item.ElasticItem.Item.Builder getItemBuilder(
           int index) {
         return getItemFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public io.dstore.elastic.item.ElasticItem.ItemOrBuilder getItemOrBuilder(
           int index) {
@@ -2710,7 +2895,7 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public java.util.List<? extends io.dstore.elastic.item.ElasticItem.ItemOrBuilder> 
            getItemOrBuilderList() {
@@ -2721,14 +2906,14 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public io.dstore.elastic.item.ElasticItem.Item.Builder addItemBuilder() {
         return getItemFieldBuilder().addBuilder(
             io.dstore.elastic.item.ElasticItem.Item.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public io.dstore.elastic.item.ElasticItem.Item.Builder addItemBuilder(
           int index) {
@@ -2736,7 +2921,7 @@ public final class FacetedNavigation {
             index, io.dstore.elastic.item.ElasticItem.Item.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.item.Item item = 2;</code>
+       * <code>repeated .dstore.elastic.item.Item item = 3;</code>
        */
       public java.util.List<io.dstore.elastic.item.ElasticItem.Item.Builder> 
            getItemBuilderList() {
@@ -2749,7 +2934,7 @@ public final class FacetedNavigation {
           itemBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
               io.dstore.elastic.item.ElasticItem.Item, io.dstore.elastic.item.ElasticItem.Item.Builder, io.dstore.elastic.item.ElasticItem.ItemOrBuilder>(
                   item_,
-                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  ((bitField0_ & 0x00000004) == 0x00000004),
                   getParentForChildren(),
                   isClean());
           item_ = null;
@@ -2757,22 +2942,22 @@ public final class FacetedNavigation {
         return itemBuilder_;
       }
 
-      private java.util.List<io.dstore.elastic.item.ElasticItem.Facets> facet_ =
+      private java.util.List<io.dstore.elastic.item.ElasticItem.Facet> facet_ =
         java.util.Collections.emptyList();
       private void ensureFacetIsMutable() {
-        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
-          facet_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facets>(facet_);
-          bitField0_ |= 0x00000004;
+        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+          facet_ = new java.util.ArrayList<io.dstore.elastic.item.ElasticItem.Facet>(facet_);
+          bitField0_ |= 0x00000008;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.dstore.elastic.item.ElasticItem.Facets, io.dstore.elastic.item.ElasticItem.Facets.Builder, io.dstore.elastic.item.ElasticItem.FacetsOrBuilder> facetBuilder_;
+          io.dstore.elastic.item.ElasticItem.Facet, io.dstore.elastic.item.ElasticItem.Facet.Builder, io.dstore.elastic.item.ElasticItem.FacetOrBuilder> facetBuilder_;
 
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
-      public java.util.List<io.dstore.elastic.item.ElasticItem.Facets> getFacetList() {
+      public java.util.List<io.dstore.elastic.item.ElasticItem.Facet> getFacetList() {
         if (facetBuilder_ == null) {
           return java.util.Collections.unmodifiableList(facet_);
         } else {
@@ -2780,7 +2965,7 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
       public int getFacetCount() {
         if (facetBuilder_ == null) {
@@ -2790,9 +2975,9 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Facets getFacet(int index) {
+      public io.dstore.elastic.item.ElasticItem.Facet getFacet(int index) {
         if (facetBuilder_ == null) {
           return facet_.get(index);
         } else {
@@ -2800,10 +2985,10 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
       public Builder setFacet(
-          int index, io.dstore.elastic.item.ElasticItem.Facets value) {
+          int index, io.dstore.elastic.item.ElasticItem.Facet value) {
         if (facetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2817,10 +3002,10 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
       public Builder setFacet(
-          int index, io.dstore.elastic.item.ElasticItem.Facets.Builder builderForValue) {
+          int index, io.dstore.elastic.item.ElasticItem.Facet.Builder builderForValue) {
         if (facetBuilder_ == null) {
           ensureFacetIsMutable();
           facet_.set(index, builderForValue.build());
@@ -2831,9 +3016,9 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
-      public Builder addFacet(io.dstore.elastic.item.ElasticItem.Facets value) {
+      public Builder addFacet(io.dstore.elastic.item.ElasticItem.Facet value) {
         if (facetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2847,10 +3032,10 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
       public Builder addFacet(
-          int index, io.dstore.elastic.item.ElasticItem.Facets value) {
+          int index, io.dstore.elastic.item.ElasticItem.Facet value) {
         if (facetBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2864,10 +3049,10 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
       public Builder addFacet(
-          io.dstore.elastic.item.ElasticItem.Facets.Builder builderForValue) {
+          io.dstore.elastic.item.ElasticItem.Facet.Builder builderForValue) {
         if (facetBuilder_ == null) {
           ensureFacetIsMutable();
           facet_.add(builderForValue.build());
@@ -2878,10 +3063,10 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
       public Builder addFacet(
-          int index, io.dstore.elastic.item.ElasticItem.Facets.Builder builderForValue) {
+          int index, io.dstore.elastic.item.ElasticItem.Facet.Builder builderForValue) {
         if (facetBuilder_ == null) {
           ensureFacetIsMutable();
           facet_.add(index, builderForValue.build());
@@ -2892,10 +3077,10 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
       public Builder addAllFacet(
-          java.lang.Iterable<? extends io.dstore.elastic.item.ElasticItem.Facets> values) {
+          java.lang.Iterable<? extends io.dstore.elastic.item.ElasticItem.Facet> values) {
         if (facetBuilder_ == null) {
           ensureFacetIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -2907,12 +3092,12 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
       public Builder clearFacet() {
         if (facetBuilder_ == null) {
           facet_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000008);
           onChanged();
         } else {
           facetBuilder_.clear();
@@ -2920,7 +3105,7 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
       public Builder removeFacet(int index) {
         if (facetBuilder_ == null) {
@@ -2933,16 +3118,16 @@ public final class FacetedNavigation {
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Facets.Builder getFacetBuilder(
+      public io.dstore.elastic.item.ElasticItem.Facet.Builder getFacetBuilder(
           int index) {
         return getFacetFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.FacetsOrBuilder getFacetOrBuilder(
+      public io.dstore.elastic.item.ElasticItem.FacetOrBuilder getFacetOrBuilder(
           int index) {
         if (facetBuilder_ == null) {
           return facet_.get(index);  } else {
@@ -2950,9 +3135,9 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
-      public java.util.List<? extends io.dstore.elastic.item.ElasticItem.FacetsOrBuilder> 
+      public java.util.List<? extends io.dstore.elastic.item.ElasticItem.FacetOrBuilder> 
            getFacetOrBuilderList() {
         if (facetBuilder_ != null) {
           return facetBuilder_.getMessageOrBuilderList();
@@ -2961,35 +3146,35 @@ public final class FacetedNavigation {
         }
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Facets.Builder addFacetBuilder() {
+      public io.dstore.elastic.item.ElasticItem.Facet.Builder addFacetBuilder() {
         return getFacetFieldBuilder().addBuilder(
-            io.dstore.elastic.item.ElasticItem.Facets.getDefaultInstance());
+            io.dstore.elastic.item.ElasticItem.Facet.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
-      public io.dstore.elastic.item.ElasticItem.Facets.Builder addFacetBuilder(
+      public io.dstore.elastic.item.ElasticItem.Facet.Builder addFacetBuilder(
           int index) {
         return getFacetFieldBuilder().addBuilder(
-            index, io.dstore.elastic.item.ElasticItem.Facets.getDefaultInstance());
+            index, io.dstore.elastic.item.ElasticItem.Facet.getDefaultInstance());
       }
       /**
-       * <code>repeated .dstore.elastic.item.Facets facet = 3;</code>
+       * <code>repeated .dstore.elastic.item.Facet facet = 4;</code>
        */
-      public java.util.List<io.dstore.elastic.item.ElasticItem.Facets.Builder> 
+      public java.util.List<io.dstore.elastic.item.ElasticItem.Facet.Builder> 
            getFacetBuilderList() {
         return getFacetFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilder<
-          io.dstore.elastic.item.ElasticItem.Facets, io.dstore.elastic.item.ElasticItem.Facets.Builder, io.dstore.elastic.item.ElasticItem.FacetsOrBuilder> 
+          io.dstore.elastic.item.ElasticItem.Facet, io.dstore.elastic.item.ElasticItem.Facet.Builder, io.dstore.elastic.item.ElasticItem.FacetOrBuilder> 
           getFacetFieldBuilder() {
         if (facetBuilder_ == null) {
           facetBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-              io.dstore.elastic.item.ElasticItem.Facets, io.dstore.elastic.item.ElasticItem.Facets.Builder, io.dstore.elastic.item.ElasticItem.FacetsOrBuilder>(
+              io.dstore.elastic.item.ElasticItem.Facet, io.dstore.elastic.item.ElasticItem.Facet.Builder, io.dstore.elastic.item.ElasticItem.FacetOrBuilder>(
                   facet_,
-                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  ((bitField0_ & 0x00000008) == 0x00000008),
                   getParentForChildren(),
                   isClean());
           facet_ = null;
@@ -3076,16 +3261,18 @@ public final class FacetedNavigation {
       "\n+dstore/elastic/item/facetednavigation." +
       "proto\022 dstore.elastic.facetednavigation\032" +
       "\034dstore/elastic/elastic.proto\032\036dstore/el" +
-      "astic/item/item.proto\"\260\001\n\007Request\022*\n\013bas" +
-      "e_filter\030\001 \003(\0132\025.dstore.elastic.Query\022*\n" +
-      "\013post_filter\030\002 \003(\0132\025.dstore.elastic.Quer" +
-      "y\022\r\n\005facet\030\003 \003(\t\022\"\n\004sort\030\004 \003(\0132\024.dstore." +
-      "elastic.Sort\022\014\n\004from\030\n \001(\005\022\014\n\004size\030\013 \001(\005" +
-      "\"s\n\010Response\022\022\n\ntotal_hits\030\001 \001(\005\022\'\n\004item" +
-      "\030\002 \003(\0132\031.dstore.elastic.item.Item\022*\n\005fac",
-      "et\030\003 \003(\0132\033.dstore.elastic.item.FacetsB+\n" +
-      "\026io.dstore.elastic.itemB\021FacetedNavigati" +
-      "onb\006proto3"
+      "astic/item/item.proto\032\032dstore/elastic/er" +
+      "ror.proto\"\260\001\n\007Request\022*\n\013base_filter\030\001 \003" +
+      "(\0132\025.dstore.elastic.Query\022*\n\013post_filter" +
+      "\030\002 \003(\0132\025.dstore.elastic.Query\022\r\n\005facet\030\003" +
+      " \003(\t\022\"\n\004sort\030\004 \003(\0132\024.dstore.elastic.Sort" +
+      "\022\014\n\004from\030\n \001(\005\022\014\n\004size\030\013 \001(\005\"\236\001\n\010Respons" +
+      "e\022*\n\005error\030\001 \001(\0132\033.dstore.elastic.error.",
+      "Error\022\022\n\ntotal_hits\030\002 \001(\005\022\'\n\004item\030\003 \003(\0132" +
+      "\031.dstore.elastic.item.Item\022)\n\005facet\030\004 \003(" +
+      "\0132\032.dstore.elastic.item.FacetB+\n\026io.dsto" +
+      "re.elastic.itemB\021FacetedNavigationb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -3100,6 +3287,7 @@ public final class FacetedNavigation {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           io.dstore.elastic.Elastic.getDescriptor(),
           io.dstore.elastic.item.ElasticItem.getDescriptor(),
+          io.dstore.elastic.ElasticError.getDescriptor(),
         }, assigner);
     internal_static_dstore_elastic_facetednavigation_Request_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -3112,9 +3300,10 @@ public final class FacetedNavigation {
     internal_static_dstore_elastic_facetednavigation_Response_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_facetednavigation_Response_descriptor,
-        new java.lang.String[] { "TotalHits", "Item", "Facet", });
+        new java.lang.String[] { "Error", "TotalHits", "Item", "Facet", });
     io.dstore.elastic.Elastic.getDescriptor();
     io.dstore.elastic.item.ElasticItem.getDescriptor();
+    io.dstore.elastic.ElasticError.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)
