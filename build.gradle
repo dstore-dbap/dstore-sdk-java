@@ -40,9 +40,8 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
 task minimalJar(type: Jar, dependsOn: classes) {
     classifier = 'minimal'
     from sourceSets.main.output
-    include 'io/dstore/engine/**'
+    include 'io/dstore/**'
     exclude 'io/dstore/engine/procedures/**'
-    include 'io/dstore/helper/**'
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
 
