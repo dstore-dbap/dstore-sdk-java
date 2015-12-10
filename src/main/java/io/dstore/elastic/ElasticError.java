@@ -132,6 +132,16 @@ public final class ElasticError {
      */
     com.google.protobuf.ByteString
         getDetailsBytes();
+
+    /**
+     * <code>optional string request = 4;</code>
+     */
+    java.lang.String getRequest();
+    /**
+     * <code>optional string request = 4;</code>
+     */
+    com.google.protobuf.ByteString
+        getRequestBytes();
   }
   /**
    * Protobuf type {@code dstore.elastic.error.Error}
@@ -148,6 +158,7 @@ public final class ElasticError {
       type_ = 0;
       message_ = "";
       details_ = "";
+      request_ = "";
     }
 
     @java.lang.Override
@@ -190,6 +201,12 @@ public final class ElasticError {
               String s = input.readStringRequireUtf8();
 
               details_ = s;
+              break;
+            }
+            case 34: {
+              String s = input.readStringRequireUtf8();
+
+              request_ = s;
               break;
             }
           }
@@ -300,6 +317,40 @@ public final class ElasticError {
       }
     }
 
+    public static final int REQUEST_FIELD_NUMBER = 4;
+    private volatile java.lang.Object request_;
+    /**
+     * <code>optional string request = 4;</code>
+     */
+    public java.lang.String getRequest() {
+      java.lang.Object ref = request_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        request_ = s;
+        return s;
+      }
+    }
+    /**
+     * <code>optional string request = 4;</code>
+     */
+    public com.google.protobuf.ByteString
+        getRequestBytes() {
+      java.lang.Object ref = request_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        request_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
       byte isInitialized = memoizedIsInitialized;
@@ -321,6 +372,9 @@ public final class ElasticError {
       if (!getDetailsBytes().isEmpty()) {
         com.google.protobuf.GeneratedMessage.writeString(output, 3, details_);
       }
+      if (!getRequestBytes().isEmpty()) {
+        com.google.protobuf.GeneratedMessage.writeString(output, 4, request_);
+      }
     }
 
     public int getSerializedSize() {
@@ -337,6 +391,9 @@ public final class ElasticError {
       }
       if (!getDetailsBytes().isEmpty()) {
         size += com.google.protobuf.GeneratedMessage.computeStringSize(3, details_);
+      }
+      if (!getRequestBytes().isEmpty()) {
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(4, request_);
       }
       memoizedSize = size;
       return size;
@@ -455,6 +512,8 @@ public final class ElasticError {
 
         details_ = "";
 
+        request_ = "";
+
         return this;
       }
 
@@ -480,6 +539,7 @@ public final class ElasticError {
         result.type_ = type_;
         result.message_ = message_;
         result.details_ = details_;
+        result.request_ = request_;
         onBuilt();
         return result;
       }
@@ -504,6 +564,10 @@ public final class ElasticError {
         }
         if (!other.getDetails().isEmpty()) {
           details_ = other.details_;
+          onChanged();
+        }
+        if (!other.getRequest().isEmpty()) {
+          request_ = other.request_;
           onChanged();
         }
         onChanged();
@@ -713,6 +777,75 @@ public final class ElasticError {
         onChanged();
         return this;
       }
+
+      private java.lang.Object request_ = "";
+      /**
+       * <code>optional string request = 4;</code>
+       */
+      public java.lang.String getRequest() {
+        java.lang.Object ref = request_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          request_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string request = 4;</code>
+       */
+      public com.google.protobuf.ByteString
+          getRequestBytes() {
+        java.lang.Object ref = request_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          request_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string request = 4;</code>
+       */
+      public Builder setRequest(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        request_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string request = 4;</code>
+       */
+      public Builder clearRequest() {
+        
+        request_ = getDefaultInstance().getRequest();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string request = 4;</code>
+       */
+      public Builder setRequestBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        request_ = value;
+        onChanged();
+        return this;
+      }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return this;
@@ -786,11 +919,11 @@ public final class ElasticError {
   static {
     java.lang.String[] descriptorData = {
       "\n\032dstore/elastic/error.proto\022\024dstore.ela" +
-      "stic.error\"T\n\005Error\022)\n\004type\030\001 \001(\0162\033.dsto" +
+      "stic.error\"e\n\005Error\022)\n\004type\030\001 \001(\0162\033.dsto" +
       "re.elastic.error.Types\022\017\n\007message\030\002 \001(\t\022" +
-      "\017\n\007details\030\003 \001(\t*%\n\005Types\022\n\n\006UNKOWN\020\000\022\020\n" +
-      "\014IO_EXCEPTION\020\001B!\n\021io.dstore.elasticB\014El" +
-      "asticErrorb\006proto3"
+      "\017\n\007details\030\003 \001(\t\022\017\n\007request\030\004 \001(\t*%\n\005Typ" +
+      "es\022\n\n\006UNKOWN\020\000\022\020\n\014IO_EXCEPTION\020\001B!\n\021io.d" +
+      "store.elasticB\014ElasticErrorb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -809,7 +942,7 @@ public final class ElasticError {
     internal_static_dstore_elastic_error_Error_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_error_Error_descriptor,
-        new java.lang.String[] { "Type", "Message", "Details", });
+        new java.lang.String[] { "Type", "Message", "Details", "Request", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -1805,27 +1805,2030 @@ public final class Elastic {
 
   }
 
+  public interface BoolQueryOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:dstore.elastic.BoolQuery)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>repeated .dstore.elastic.Query filter = 1;</code>
+     */
+    java.util.List<io.dstore.elastic.Elastic.Query> 
+        getFilterList();
+    /**
+     * <code>repeated .dstore.elastic.Query filter = 1;</code>
+     */
+    io.dstore.elastic.Elastic.Query getFilter(int index);
+    /**
+     * <code>repeated .dstore.elastic.Query filter = 1;</code>
+     */
+    int getFilterCount();
+    /**
+     * <code>repeated .dstore.elastic.Query filter = 1;</code>
+     */
+    java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+        getFilterOrBuilderList();
+    /**
+     * <code>repeated .dstore.elastic.Query filter = 1;</code>
+     */
+    io.dstore.elastic.Elastic.QueryOrBuilder getFilterOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .dstore.elastic.Query must = 2;</code>
+     */
+    java.util.List<io.dstore.elastic.Elastic.Query> 
+        getMustList();
+    /**
+     * <code>repeated .dstore.elastic.Query must = 2;</code>
+     */
+    io.dstore.elastic.Elastic.Query getMust(int index);
+    /**
+     * <code>repeated .dstore.elastic.Query must = 2;</code>
+     */
+    int getMustCount();
+    /**
+     * <code>repeated .dstore.elastic.Query must = 2;</code>
+     */
+    java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+        getMustOrBuilderList();
+    /**
+     * <code>repeated .dstore.elastic.Query must = 2;</code>
+     */
+    io.dstore.elastic.Elastic.QueryOrBuilder getMustOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .dstore.elastic.Query should = 3;</code>
+     */
+    java.util.List<io.dstore.elastic.Elastic.Query> 
+        getShouldList();
+    /**
+     * <code>repeated .dstore.elastic.Query should = 3;</code>
+     */
+    io.dstore.elastic.Elastic.Query getShould(int index);
+    /**
+     * <code>repeated .dstore.elastic.Query should = 3;</code>
+     */
+    int getShouldCount();
+    /**
+     * <code>repeated .dstore.elastic.Query should = 3;</code>
+     */
+    java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+        getShouldOrBuilderList();
+    /**
+     * <code>repeated .dstore.elastic.Query should = 3;</code>
+     */
+    io.dstore.elastic.Elastic.QueryOrBuilder getShouldOrBuilder(
+        int index);
+
+    /**
+     * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+     */
+    java.util.List<io.dstore.elastic.Elastic.Query> 
+        getMustNotList();
+    /**
+     * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+     */
+    io.dstore.elastic.Elastic.Query getMustNot(int index);
+    /**
+     * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+     */
+    int getMustNotCount();
+    /**
+     * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+     */
+    java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+        getMustNotOrBuilderList();
+    /**
+     * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+     */
+    io.dstore.elastic.Elastic.QueryOrBuilder getMustNotOrBuilder(
+        int index);
+
+    /**
+     * <code>optional string minimum_should_match = 5;</code>
+     */
+    java.lang.String getMinimumShouldMatch();
+    /**
+     * <code>optional string minimum_should_match = 5;</code>
+     */
+    com.google.protobuf.ByteString
+        getMinimumShouldMatchBytes();
+
+    /**
+     * <code>optional double boost = 6;</code>
+     */
+    double getBoost();
+  }
+  /**
+   * Protobuf type {@code dstore.elastic.BoolQuery}
+   */
+  public  static final class BoolQuery extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:dstore.elastic.BoolQuery)
+      BoolQueryOrBuilder {
+    // Use BoolQuery.newBuilder() to construct.
+    private BoolQuery(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+    }
+    private BoolQuery() {
+      filter_ = java.util.Collections.emptyList();
+      must_ = java.util.Collections.emptyList();
+      should_ = java.util.Collections.emptyList();
+      mustNot_ = java.util.Collections.emptyList();
+      minimumShouldMatch_ = "";
+      boost_ = 0D;
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+    }
+    private BoolQuery(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+      this();
+      int mutable_bitField0_ = 0;
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!input.skipField(tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              if (!((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
+                filter_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              filter_.add(input.readMessage(io.dstore.elastic.Elastic.Query.parser(), extensionRegistry));
+              break;
+            }
+            case 18: {
+              if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+                must_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              must_.add(input.readMessage(io.dstore.elastic.Elastic.Query.parser(), extensionRegistry));
+              break;
+            }
+            case 26: {
+              if (!((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+                should_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              should_.add(input.readMessage(io.dstore.elastic.Elastic.Query.parser(), extensionRegistry));
+              break;
+            }
+            case 34: {
+              if (!((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+                mustNot_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>();
+                mutable_bitField0_ |= 0x00000008;
+              }
+              mustNot_.add(input.readMessage(io.dstore.elastic.Elastic.Query.parser(), extensionRegistry));
+              break;
+            }
+            case 42: {
+              String s = input.readStringRequireUtf8();
+
+              minimumShouldMatch_ = s;
+              break;
+            }
+            case 49: {
+
+              boost_ = input.readDouble();
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw new RuntimeException(e.setUnfinishedMessage(this));
+      } catch (java.io.IOException e) {
+        throw new RuntimeException(
+            new com.google.protobuf.InvalidProtocolBufferException(
+                e.getMessage()).setUnfinishedMessage(this));
+      } finally {
+        if (((mutable_bitField0_ & 0x00000001) == 0x00000001)) {
+          filter_ = java.util.Collections.unmodifiableList(filter_);
+        }
+        if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+          must_ = java.util.Collections.unmodifiableList(must_);
+        }
+        if (((mutable_bitField0_ & 0x00000004) == 0x00000004)) {
+          should_ = java.util.Collections.unmodifiableList(should_);
+        }
+        if (((mutable_bitField0_ & 0x00000008) == 0x00000008)) {
+          mustNot_ = java.util.Collections.unmodifiableList(mustNot_);
+        }
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_BoolQuery_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return io.dstore.elastic.Elastic.internal_static_dstore_elastic_BoolQuery_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              io.dstore.elastic.Elastic.BoolQuery.class, io.dstore.elastic.Elastic.BoolQuery.Builder.class);
+    }
+
+    private int bitField0_;
+    public static final int FILTER_FIELD_NUMBER = 1;
+    private java.util.List<io.dstore.elastic.Elastic.Query> filter_;
+    /**
+     * <code>repeated .dstore.elastic.Query filter = 1;</code>
+     */
+    public java.util.List<io.dstore.elastic.Elastic.Query> getFilterList() {
+      return filter_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query filter = 1;</code>
+     */
+    public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+        getFilterOrBuilderList() {
+      return filter_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query filter = 1;</code>
+     */
+    public int getFilterCount() {
+      return filter_.size();
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query filter = 1;</code>
+     */
+    public io.dstore.elastic.Elastic.Query getFilter(int index) {
+      return filter_.get(index);
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query filter = 1;</code>
+     */
+    public io.dstore.elastic.Elastic.QueryOrBuilder getFilterOrBuilder(
+        int index) {
+      return filter_.get(index);
+    }
+
+    public static final int MUST_FIELD_NUMBER = 2;
+    private java.util.List<io.dstore.elastic.Elastic.Query> must_;
+    /**
+     * <code>repeated .dstore.elastic.Query must = 2;</code>
+     */
+    public java.util.List<io.dstore.elastic.Elastic.Query> getMustList() {
+      return must_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query must = 2;</code>
+     */
+    public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+        getMustOrBuilderList() {
+      return must_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query must = 2;</code>
+     */
+    public int getMustCount() {
+      return must_.size();
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query must = 2;</code>
+     */
+    public io.dstore.elastic.Elastic.Query getMust(int index) {
+      return must_.get(index);
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query must = 2;</code>
+     */
+    public io.dstore.elastic.Elastic.QueryOrBuilder getMustOrBuilder(
+        int index) {
+      return must_.get(index);
+    }
+
+    public static final int SHOULD_FIELD_NUMBER = 3;
+    private java.util.List<io.dstore.elastic.Elastic.Query> should_;
+    /**
+     * <code>repeated .dstore.elastic.Query should = 3;</code>
+     */
+    public java.util.List<io.dstore.elastic.Elastic.Query> getShouldList() {
+      return should_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query should = 3;</code>
+     */
+    public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+        getShouldOrBuilderList() {
+      return should_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query should = 3;</code>
+     */
+    public int getShouldCount() {
+      return should_.size();
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query should = 3;</code>
+     */
+    public io.dstore.elastic.Elastic.Query getShould(int index) {
+      return should_.get(index);
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query should = 3;</code>
+     */
+    public io.dstore.elastic.Elastic.QueryOrBuilder getShouldOrBuilder(
+        int index) {
+      return should_.get(index);
+    }
+
+    public static final int MUST_NOT_FIELD_NUMBER = 4;
+    private java.util.List<io.dstore.elastic.Elastic.Query> mustNot_;
+    /**
+     * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+     */
+    public java.util.List<io.dstore.elastic.Elastic.Query> getMustNotList() {
+      return mustNot_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+     */
+    public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+        getMustNotOrBuilderList() {
+      return mustNot_;
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+     */
+    public int getMustNotCount() {
+      return mustNot_.size();
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+     */
+    public io.dstore.elastic.Elastic.Query getMustNot(int index) {
+      return mustNot_.get(index);
+    }
+    /**
+     * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+     */
+    public io.dstore.elastic.Elastic.QueryOrBuilder getMustNotOrBuilder(
+        int index) {
+      return mustNot_.get(index);
+    }
+
+    public static final int MINIMUM_SHOULD_MATCH_FIELD_NUMBER = 5;
+    private volatile java.lang.Object minimumShouldMatch_;
+    /**
+     * <code>optional string minimum_should_match = 5;</code>
+     */
+    public java.lang.String getMinimumShouldMatch() {
+      java.lang.Object ref = minimumShouldMatch_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        minimumShouldMatch_ = s;
+        return s;
+      }
+    }
+    /**
+     * <code>optional string minimum_should_match = 5;</code>
+     */
+    public com.google.protobuf.ByteString
+        getMinimumShouldMatchBytes() {
+      java.lang.Object ref = minimumShouldMatch_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        minimumShouldMatch_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int BOOST_FIELD_NUMBER = 6;
+    private double boost_;
+    /**
+     * <code>optional double boost = 6;</code>
+     */
+    public double getBoost() {
+      return boost_;
+    }
+
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      for (int i = 0; i < filter_.size(); i++) {
+        output.writeMessage(1, filter_.get(i));
+      }
+      for (int i = 0; i < must_.size(); i++) {
+        output.writeMessage(2, must_.get(i));
+      }
+      for (int i = 0; i < should_.size(); i++) {
+        output.writeMessage(3, should_.get(i));
+      }
+      for (int i = 0; i < mustNot_.size(); i++) {
+        output.writeMessage(4, mustNot_.get(i));
+      }
+      if (!getMinimumShouldMatchBytes().isEmpty()) {
+        com.google.protobuf.GeneratedMessage.writeString(output, 5, minimumShouldMatch_);
+      }
+      if (boost_ != 0D) {
+        output.writeDouble(6, boost_);
+      }
+    }
+
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      for (int i = 0; i < filter_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, filter_.get(i));
+      }
+      for (int i = 0; i < must_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, must_.get(i));
+      }
+      for (int i = 0; i < should_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, should_.get(i));
+      }
+      for (int i = 0; i < mustNot_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, mustNot_.get(i));
+      }
+      if (!getMinimumShouldMatchBytes().isEmpty()) {
+        size += com.google.protobuf.GeneratedMessage.computeStringSize(5, minimumShouldMatch_);
+      }
+      if (boost_ != 0D) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeDoubleSize(6, boost_);
+      }
+      memoizedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    public static io.dstore.elastic.Elastic.BoolQuery parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static io.dstore.elastic.Elastic.BoolQuery parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static io.dstore.elastic.Elastic.BoolQuery parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static io.dstore.elastic.Elastic.BoolQuery parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static io.dstore.elastic.Elastic.BoolQuery parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static io.dstore.elastic.Elastic.BoolQuery parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static io.dstore.elastic.Elastic.BoolQuery parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static io.dstore.elastic.Elastic.BoolQuery parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static io.dstore.elastic.Elastic.BoolQuery parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static io.dstore.elastic.Elastic.BoolQuery parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(io.dstore.elastic.Elastic.BoolQuery prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code dstore.elastic.BoolQuery}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:dstore.elastic.BoolQuery)
+        io.dstore.elastic.Elastic.BoolQueryOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_BoolQuery_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_BoolQuery_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                io.dstore.elastic.Elastic.BoolQuery.class, io.dstore.elastic.Elastic.BoolQuery.Builder.class);
+      }
+
+      // Construct using io.dstore.elastic.Elastic.BoolQuery.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getFilterFieldBuilder();
+          getMustFieldBuilder();
+          getShouldFieldBuilder();
+          getMustNotFieldBuilder();
+        }
+      }
+      public Builder clear() {
+        super.clear();
+        if (filterBuilder_ == null) {
+          filter_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+        } else {
+          filterBuilder_.clear();
+        }
+        if (mustBuilder_ == null) {
+          must_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+        } else {
+          mustBuilder_.clear();
+        }
+        if (shouldBuilder_ == null) {
+          should_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+        } else {
+          shouldBuilder_.clear();
+        }
+        if (mustNotBuilder_ == null) {
+          mustNot_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000008);
+        } else {
+          mustNotBuilder_.clear();
+        }
+        minimumShouldMatch_ = "";
+
+        boost_ = 0D;
+
+        return this;
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_BoolQuery_descriptor;
+      }
+
+      public io.dstore.elastic.Elastic.BoolQuery getDefaultInstanceForType() {
+        return io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance();
+      }
+
+      public io.dstore.elastic.Elastic.BoolQuery build() {
+        io.dstore.elastic.Elastic.BoolQuery result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public io.dstore.elastic.Elastic.BoolQuery buildPartial() {
+        io.dstore.elastic.Elastic.BoolQuery result = new io.dstore.elastic.Elastic.BoolQuery(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (filterBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) == 0x00000001)) {
+            filter_ = java.util.Collections.unmodifiableList(filter_);
+            bitField0_ = (bitField0_ & ~0x00000001);
+          }
+          result.filter_ = filter_;
+        } else {
+          result.filter_ = filterBuilder_.build();
+        }
+        if (mustBuilder_ == null) {
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+            must_ = java.util.Collections.unmodifiableList(must_);
+            bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.must_ = must_;
+        } else {
+          result.must_ = mustBuilder_.build();
+        }
+        if (shouldBuilder_ == null) {
+          if (((bitField0_ & 0x00000004) == 0x00000004)) {
+            should_ = java.util.Collections.unmodifiableList(should_);
+            bitField0_ = (bitField0_ & ~0x00000004);
+          }
+          result.should_ = should_;
+        } else {
+          result.should_ = shouldBuilder_.build();
+        }
+        if (mustNotBuilder_ == null) {
+          if (((bitField0_ & 0x00000008) == 0x00000008)) {
+            mustNot_ = java.util.Collections.unmodifiableList(mustNot_);
+            bitField0_ = (bitField0_ & ~0x00000008);
+          }
+          result.mustNot_ = mustNot_;
+        } else {
+          result.mustNot_ = mustNotBuilder_.build();
+        }
+        result.minimumShouldMatch_ = minimumShouldMatch_;
+        result.boost_ = boost_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof io.dstore.elastic.Elastic.BoolQuery) {
+          return mergeFrom((io.dstore.elastic.Elastic.BoolQuery)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(io.dstore.elastic.Elastic.BoolQuery other) {
+        if (other == io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance()) return this;
+        if (filterBuilder_ == null) {
+          if (!other.filter_.isEmpty()) {
+            if (filter_.isEmpty()) {
+              filter_ = other.filter_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+            } else {
+              ensureFilterIsMutable();
+              filter_.addAll(other.filter_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.filter_.isEmpty()) {
+            if (filterBuilder_.isEmpty()) {
+              filterBuilder_.dispose();
+              filterBuilder_ = null;
+              filter_ = other.filter_;
+              bitField0_ = (bitField0_ & ~0x00000001);
+              filterBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getFilterFieldBuilder() : null;
+            } else {
+              filterBuilder_.addAllMessages(other.filter_);
+            }
+          }
+        }
+        if (mustBuilder_ == null) {
+          if (!other.must_.isEmpty()) {
+            if (must_.isEmpty()) {
+              must_ = other.must_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+            } else {
+              ensureMustIsMutable();
+              must_.addAll(other.must_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.must_.isEmpty()) {
+            if (mustBuilder_.isEmpty()) {
+              mustBuilder_.dispose();
+              mustBuilder_ = null;
+              must_ = other.must_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+              mustBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getMustFieldBuilder() : null;
+            } else {
+              mustBuilder_.addAllMessages(other.must_);
+            }
+          }
+        }
+        if (shouldBuilder_ == null) {
+          if (!other.should_.isEmpty()) {
+            if (should_.isEmpty()) {
+              should_ = other.should_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+            } else {
+              ensureShouldIsMutable();
+              should_.addAll(other.should_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.should_.isEmpty()) {
+            if (shouldBuilder_.isEmpty()) {
+              shouldBuilder_.dispose();
+              shouldBuilder_ = null;
+              should_ = other.should_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+              shouldBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getShouldFieldBuilder() : null;
+            } else {
+              shouldBuilder_.addAllMessages(other.should_);
+            }
+          }
+        }
+        if (mustNotBuilder_ == null) {
+          if (!other.mustNot_.isEmpty()) {
+            if (mustNot_.isEmpty()) {
+              mustNot_ = other.mustNot_;
+              bitField0_ = (bitField0_ & ~0x00000008);
+            } else {
+              ensureMustNotIsMutable();
+              mustNot_.addAll(other.mustNot_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.mustNot_.isEmpty()) {
+            if (mustNotBuilder_.isEmpty()) {
+              mustNotBuilder_.dispose();
+              mustNotBuilder_ = null;
+              mustNot_ = other.mustNot_;
+              bitField0_ = (bitField0_ & ~0x00000008);
+              mustNotBuilder_ = 
+                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                   getMustNotFieldBuilder() : null;
+            } else {
+              mustNotBuilder_.addAllMessages(other.mustNot_);
+            }
+          }
+        }
+        if (!other.getMinimumShouldMatch().isEmpty()) {
+          minimumShouldMatch_ = other.minimumShouldMatch_;
+          onChanged();
+        }
+        if (other.getBoost() != 0D) {
+          setBoost(other.getBoost());
+        }
+        onChanged();
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        io.dstore.elastic.Elastic.BoolQuery parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (io.dstore.elastic.Elastic.BoolQuery) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private java.util.List<io.dstore.elastic.Elastic.Query> filter_ =
+        java.util.Collections.emptyList();
+      private void ensureFilterIsMutable() {
+        if (!((bitField0_ & 0x00000001) == 0x00000001)) {
+          filter_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>(filter_);
+          bitField0_ |= 0x00000001;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> filterBuilder_;
+
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Query> getFilterList() {
+        if (filterBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(filter_);
+        } else {
+          return filterBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public int getFilterCount() {
+        if (filterBuilder_ == null) {
+          return filter_.size();
+        } else {
+          return filterBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public io.dstore.elastic.Elastic.Query getFilter(int index) {
+        if (filterBuilder_ == null) {
+          return filter_.get(index);
+        } else {
+          return filterBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public Builder setFilter(
+          int index, io.dstore.elastic.Elastic.Query value) {
+        if (filterBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureFilterIsMutable();
+          filter_.set(index, value);
+          onChanged();
+        } else {
+          filterBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public Builder setFilter(
+          int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (filterBuilder_ == null) {
+          ensureFilterIsMutable();
+          filter_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          filterBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public Builder addFilter(io.dstore.elastic.Elastic.Query value) {
+        if (filterBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureFilterIsMutable();
+          filter_.add(value);
+          onChanged();
+        } else {
+          filterBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public Builder addFilter(
+          int index, io.dstore.elastic.Elastic.Query value) {
+        if (filterBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureFilterIsMutable();
+          filter_.add(index, value);
+          onChanged();
+        } else {
+          filterBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public Builder addFilter(
+          io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (filterBuilder_ == null) {
+          ensureFilterIsMutable();
+          filter_.add(builderForValue.build());
+          onChanged();
+        } else {
+          filterBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public Builder addFilter(
+          int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (filterBuilder_ == null) {
+          ensureFilterIsMutable();
+          filter_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          filterBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public Builder addAllFilter(
+          java.lang.Iterable<? extends io.dstore.elastic.Elastic.Query> values) {
+        if (filterBuilder_ == null) {
+          ensureFilterIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, filter_);
+          onChanged();
+        } else {
+          filterBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public Builder clearFilter() {
+        if (filterBuilder_ == null) {
+          filter_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000001);
+          onChanged();
+        } else {
+          filterBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public Builder removeFilter(int index) {
+        if (filterBuilder_ == null) {
+          ensureFilterIsMutable();
+          filter_.remove(index);
+          onChanged();
+        } else {
+          filterBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder getFilterBuilder(
+          int index) {
+        return getFilterFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public io.dstore.elastic.Elastic.QueryOrBuilder getFilterOrBuilder(
+          int index) {
+        if (filterBuilder_ == null) {
+          return filter_.get(index);  } else {
+          return filterBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+           getFilterOrBuilderList() {
+        if (filterBuilder_ != null) {
+          return filterBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(filter_);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder addFilterBuilder() {
+        return getFilterFieldBuilder().addBuilder(
+            io.dstore.elastic.Elastic.Query.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder addFilterBuilder(
+          int index) {
+        return getFilterFieldBuilder().addBuilder(
+            index, io.dstore.elastic.Elastic.Query.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query filter = 1;</code>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Query.Builder> 
+           getFilterBuilderList() {
+        return getFilterFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> 
+          getFilterFieldBuilder() {
+        if (filterBuilder_ == null) {
+          filterBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder>(
+                  filter_,
+                  ((bitField0_ & 0x00000001) == 0x00000001),
+                  getParentForChildren(),
+                  isClean());
+          filter_ = null;
+        }
+        return filterBuilder_;
+      }
+
+      private java.util.List<io.dstore.elastic.Elastic.Query> must_ =
+        java.util.Collections.emptyList();
+      private void ensureMustIsMutable() {
+        if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+          must_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>(must_);
+          bitField0_ |= 0x00000002;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> mustBuilder_;
+
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Query> getMustList() {
+        if (mustBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(must_);
+        } else {
+          return mustBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public int getMustCount() {
+        if (mustBuilder_ == null) {
+          return must_.size();
+        } else {
+          return mustBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public io.dstore.elastic.Elastic.Query getMust(int index) {
+        if (mustBuilder_ == null) {
+          return must_.get(index);
+        } else {
+          return mustBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public Builder setMust(
+          int index, io.dstore.elastic.Elastic.Query value) {
+        if (mustBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMustIsMutable();
+          must_.set(index, value);
+          onChanged();
+        } else {
+          mustBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public Builder setMust(
+          int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (mustBuilder_ == null) {
+          ensureMustIsMutable();
+          must_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          mustBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public Builder addMust(io.dstore.elastic.Elastic.Query value) {
+        if (mustBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMustIsMutable();
+          must_.add(value);
+          onChanged();
+        } else {
+          mustBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public Builder addMust(
+          int index, io.dstore.elastic.Elastic.Query value) {
+        if (mustBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMustIsMutable();
+          must_.add(index, value);
+          onChanged();
+        } else {
+          mustBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public Builder addMust(
+          io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (mustBuilder_ == null) {
+          ensureMustIsMutable();
+          must_.add(builderForValue.build());
+          onChanged();
+        } else {
+          mustBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public Builder addMust(
+          int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (mustBuilder_ == null) {
+          ensureMustIsMutable();
+          must_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          mustBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public Builder addAllMust(
+          java.lang.Iterable<? extends io.dstore.elastic.Elastic.Query> values) {
+        if (mustBuilder_ == null) {
+          ensureMustIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, must_);
+          onChanged();
+        } else {
+          mustBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public Builder clearMust() {
+        if (mustBuilder_ == null) {
+          must_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+        } else {
+          mustBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public Builder removeMust(int index) {
+        if (mustBuilder_ == null) {
+          ensureMustIsMutable();
+          must_.remove(index);
+          onChanged();
+        } else {
+          mustBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder getMustBuilder(
+          int index) {
+        return getMustFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public io.dstore.elastic.Elastic.QueryOrBuilder getMustOrBuilder(
+          int index) {
+        if (mustBuilder_ == null) {
+          return must_.get(index);  } else {
+          return mustBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+           getMustOrBuilderList() {
+        if (mustBuilder_ != null) {
+          return mustBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(must_);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder addMustBuilder() {
+        return getMustFieldBuilder().addBuilder(
+            io.dstore.elastic.Elastic.Query.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder addMustBuilder(
+          int index) {
+        return getMustFieldBuilder().addBuilder(
+            index, io.dstore.elastic.Elastic.Query.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must = 2;</code>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Query.Builder> 
+           getMustBuilderList() {
+        return getMustFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> 
+          getMustFieldBuilder() {
+        if (mustBuilder_ == null) {
+          mustBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder>(
+                  must_,
+                  ((bitField0_ & 0x00000002) == 0x00000002),
+                  getParentForChildren(),
+                  isClean());
+          must_ = null;
+        }
+        return mustBuilder_;
+      }
+
+      private java.util.List<io.dstore.elastic.Elastic.Query> should_ =
+        java.util.Collections.emptyList();
+      private void ensureShouldIsMutable() {
+        if (!((bitField0_ & 0x00000004) == 0x00000004)) {
+          should_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>(should_);
+          bitField0_ |= 0x00000004;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> shouldBuilder_;
+
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Query> getShouldList() {
+        if (shouldBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(should_);
+        } else {
+          return shouldBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public int getShouldCount() {
+        if (shouldBuilder_ == null) {
+          return should_.size();
+        } else {
+          return shouldBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public io.dstore.elastic.Elastic.Query getShould(int index) {
+        if (shouldBuilder_ == null) {
+          return should_.get(index);
+        } else {
+          return shouldBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public Builder setShould(
+          int index, io.dstore.elastic.Elastic.Query value) {
+        if (shouldBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureShouldIsMutable();
+          should_.set(index, value);
+          onChanged();
+        } else {
+          shouldBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public Builder setShould(
+          int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (shouldBuilder_ == null) {
+          ensureShouldIsMutable();
+          should_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          shouldBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public Builder addShould(io.dstore.elastic.Elastic.Query value) {
+        if (shouldBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureShouldIsMutable();
+          should_.add(value);
+          onChanged();
+        } else {
+          shouldBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public Builder addShould(
+          int index, io.dstore.elastic.Elastic.Query value) {
+        if (shouldBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureShouldIsMutable();
+          should_.add(index, value);
+          onChanged();
+        } else {
+          shouldBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public Builder addShould(
+          io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (shouldBuilder_ == null) {
+          ensureShouldIsMutable();
+          should_.add(builderForValue.build());
+          onChanged();
+        } else {
+          shouldBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public Builder addShould(
+          int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (shouldBuilder_ == null) {
+          ensureShouldIsMutable();
+          should_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          shouldBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public Builder addAllShould(
+          java.lang.Iterable<? extends io.dstore.elastic.Elastic.Query> values) {
+        if (shouldBuilder_ == null) {
+          ensureShouldIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, should_);
+          onChanged();
+        } else {
+          shouldBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public Builder clearShould() {
+        if (shouldBuilder_ == null) {
+          should_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+          onChanged();
+        } else {
+          shouldBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public Builder removeShould(int index) {
+        if (shouldBuilder_ == null) {
+          ensureShouldIsMutable();
+          should_.remove(index);
+          onChanged();
+        } else {
+          shouldBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder getShouldBuilder(
+          int index) {
+        return getShouldFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public io.dstore.elastic.Elastic.QueryOrBuilder getShouldOrBuilder(
+          int index) {
+        if (shouldBuilder_ == null) {
+          return should_.get(index);  } else {
+          return shouldBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+           getShouldOrBuilderList() {
+        if (shouldBuilder_ != null) {
+          return shouldBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(should_);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder addShouldBuilder() {
+        return getShouldFieldBuilder().addBuilder(
+            io.dstore.elastic.Elastic.Query.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder addShouldBuilder(
+          int index) {
+        return getShouldFieldBuilder().addBuilder(
+            index, io.dstore.elastic.Elastic.Query.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query should = 3;</code>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Query.Builder> 
+           getShouldBuilderList() {
+        return getShouldFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> 
+          getShouldFieldBuilder() {
+        if (shouldBuilder_ == null) {
+          shouldBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder>(
+                  should_,
+                  ((bitField0_ & 0x00000004) == 0x00000004),
+                  getParentForChildren(),
+                  isClean());
+          should_ = null;
+        }
+        return shouldBuilder_;
+      }
+
+      private java.util.List<io.dstore.elastic.Elastic.Query> mustNot_ =
+        java.util.Collections.emptyList();
+      private void ensureMustNotIsMutable() {
+        if (!((bitField0_ & 0x00000008) == 0x00000008)) {
+          mustNot_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>(mustNot_);
+          bitField0_ |= 0x00000008;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> mustNotBuilder_;
+
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Query> getMustNotList() {
+        if (mustNotBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(mustNot_);
+        } else {
+          return mustNotBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public int getMustNotCount() {
+        if (mustNotBuilder_ == null) {
+          return mustNot_.size();
+        } else {
+          return mustNotBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public io.dstore.elastic.Elastic.Query getMustNot(int index) {
+        if (mustNotBuilder_ == null) {
+          return mustNot_.get(index);
+        } else {
+          return mustNotBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public Builder setMustNot(
+          int index, io.dstore.elastic.Elastic.Query value) {
+        if (mustNotBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMustNotIsMutable();
+          mustNot_.set(index, value);
+          onChanged();
+        } else {
+          mustNotBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public Builder setMustNot(
+          int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (mustNotBuilder_ == null) {
+          ensureMustNotIsMutable();
+          mustNot_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          mustNotBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public Builder addMustNot(io.dstore.elastic.Elastic.Query value) {
+        if (mustNotBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMustNotIsMutable();
+          mustNot_.add(value);
+          onChanged();
+        } else {
+          mustNotBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public Builder addMustNot(
+          int index, io.dstore.elastic.Elastic.Query value) {
+        if (mustNotBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureMustNotIsMutable();
+          mustNot_.add(index, value);
+          onChanged();
+        } else {
+          mustNotBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public Builder addMustNot(
+          io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (mustNotBuilder_ == null) {
+          ensureMustNotIsMutable();
+          mustNot_.add(builderForValue.build());
+          onChanged();
+        } else {
+          mustNotBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public Builder addMustNot(
+          int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+        if (mustNotBuilder_ == null) {
+          ensureMustNotIsMutable();
+          mustNot_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          mustNotBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public Builder addAllMustNot(
+          java.lang.Iterable<? extends io.dstore.elastic.Elastic.Query> values) {
+        if (mustNotBuilder_ == null) {
+          ensureMustNotIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, mustNot_);
+          onChanged();
+        } else {
+          mustNotBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public Builder clearMustNot() {
+        if (mustNotBuilder_ == null) {
+          mustNot_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000008);
+          onChanged();
+        } else {
+          mustNotBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public Builder removeMustNot(int index) {
+        if (mustNotBuilder_ == null) {
+          ensureMustNotIsMutable();
+          mustNot_.remove(index);
+          onChanged();
+        } else {
+          mustNotBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder getMustNotBuilder(
+          int index) {
+        return getMustNotFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public io.dstore.elastic.Elastic.QueryOrBuilder getMustNotOrBuilder(
+          int index) {
+        if (mustNotBuilder_ == null) {
+          return mustNot_.get(index);  } else {
+          return mustNotBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+           getMustNotOrBuilderList() {
+        if (mustNotBuilder_ != null) {
+          return mustNotBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(mustNot_);
+        }
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder addMustNotBuilder() {
+        return getMustNotFieldBuilder().addBuilder(
+            io.dstore.elastic.Elastic.Query.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public io.dstore.elastic.Elastic.Query.Builder addMustNotBuilder(
+          int index) {
+        return getMustNotFieldBuilder().addBuilder(
+            index, io.dstore.elastic.Elastic.Query.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query must_not = 4;</code>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Query.Builder> 
+           getMustNotBuilderList() {
+        return getMustNotFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilder<
+          io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> 
+          getMustNotFieldBuilder() {
+        if (mustNotBuilder_ == null) {
+          mustNotBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+              io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder>(
+                  mustNot_,
+                  ((bitField0_ & 0x00000008) == 0x00000008),
+                  getParentForChildren(),
+                  isClean());
+          mustNot_ = null;
+        }
+        return mustNotBuilder_;
+      }
+
+      private java.lang.Object minimumShouldMatch_ = "";
+      /**
+       * <code>optional string minimum_should_match = 5;</code>
+       */
+      public java.lang.String getMinimumShouldMatch() {
+        java.lang.Object ref = minimumShouldMatch_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          minimumShouldMatch_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string minimum_should_match = 5;</code>
+       */
+      public com.google.protobuf.ByteString
+          getMinimumShouldMatchBytes() {
+        java.lang.Object ref = minimumShouldMatch_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          minimumShouldMatch_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string minimum_should_match = 5;</code>
+       */
+      public Builder setMinimumShouldMatch(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        minimumShouldMatch_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string minimum_should_match = 5;</code>
+       */
+      public Builder clearMinimumShouldMatch() {
+        
+        minimumShouldMatch_ = getDefaultInstance().getMinimumShouldMatch();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string minimum_should_match = 5;</code>
+       */
+      public Builder setMinimumShouldMatchBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+        
+        minimumShouldMatch_ = value;
+        onChanged();
+        return this;
+      }
+
+      private double boost_ ;
+      /**
+       * <code>optional double boost = 6;</code>
+       */
+      public double getBoost() {
+        return boost_;
+      }
+      /**
+       * <code>optional double boost = 6;</code>
+       */
+      public Builder setBoost(double value) {
+        
+        boost_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional double boost = 6;</code>
+       */
+      public Builder clearBoost() {
+        
+        boost_ = 0D;
+        onChanged();
+        return this;
+      }
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return this;
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:dstore.elastic.BoolQuery)
+    }
+
+    // @@protoc_insertion_point(class_scope:dstore.elastic.BoolQuery)
+    private static final io.dstore.elastic.Elastic.BoolQuery DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new io.dstore.elastic.Elastic.BoolQuery();
+    }
+
+    public static io.dstore.elastic.Elastic.BoolQuery getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    private static final com.google.protobuf.Parser<BoolQuery>
+        PARSER = new com.google.protobuf.AbstractParser<BoolQuery>() {
+      public BoolQuery parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        try {
+          return new BoolQuery(input, extensionRegistry);
+        } catch (RuntimeException e) {
+          if (e.getCause() instanceof
+              com.google.protobuf.InvalidProtocolBufferException) {
+            throw (com.google.protobuf.InvalidProtocolBufferException)
+                e.getCause();
+          }
+          throw e;
+        }
+      }
+    };
+
+    public static com.google.protobuf.Parser<BoolQuery> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<BoolQuery> getParserForType() {
+      return PARSER;
+    }
+
+    public io.dstore.elastic.Elastic.BoolQuery getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
   public interface QueryOrBuilder extends
       // @@protoc_insertion_point(interface_extends:dstore.elastic.Query)
       com.google.protobuf.MessageOrBuilder {
 
     /**
      * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+     * </pre>
      */
     io.dstore.elastic.Elastic.Query.Terms getTermsQuery();
     /**
      * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+     * </pre>
      */
     io.dstore.elastic.Elastic.Query.TermsOrBuilder getTermsQueryOrBuilder();
 
     /**
      * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+     * </pre>
      */
     io.dstore.elastic.Elastic.Query.Type getTypeQuery();
     /**
      * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+     * </pre>
      */
     io.dstore.elastic.Elastic.Query.TypeOrBuilder getTypeQueryOrBuilder();
+
+    /**
+     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+     * </pre>
+     */
+    io.dstore.elastic.Elastic.Query.SimpleQueryString getSimpleQueryStringQuery();
+    /**
+     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+     * </pre>
+     */
+    io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder getSimpleQueryStringQueryOrBuilder();
+
+    /**
+     * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+     *
+     * <pre>
+     * not yet supported in FacetedNavigation
+     * </pre>
+     */
+    io.dstore.elastic.Elastic.BoolQuery getBoolQuery();
+    /**
+     * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+     *
+     * <pre>
+     * not yet supported in FacetedNavigation
+     * </pre>
+     */
+    io.dstore.elastic.Elastic.BoolQueryOrBuilder getBoolQueryOrBuilder();
 
     public io.dstore.elastic.Elastic.Query.QueryCase getQueryCase();
   }
@@ -1893,6 +3896,34 @@ public final class Elastic {
                 query_ = subBuilder.buildPartial();
               }
               queryCase_ = 2;
+              break;
+            }
+            case 26: {
+              io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder subBuilder = null;
+              if (queryCase_ == 3) {
+                subBuilder = ((io.dstore.elastic.Elastic.Query.SimpleQueryString) query_).toBuilder();
+              }
+              query_ =
+                  input.readMessage(io.dstore.elastic.Elastic.Query.SimpleQueryString.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.elastic.Elastic.Query.SimpleQueryString) query_);
+                query_ = subBuilder.buildPartial();
+              }
+              queryCase_ = 3;
+              break;
+            }
+            case 34: {
+              io.dstore.elastic.Elastic.BoolQuery.Builder subBuilder = null;
+              if (queryCase_ == 4) {
+                subBuilder = ((io.dstore.elastic.Elastic.BoolQuery) query_).toBuilder();
+              }
+              query_ =
+                  input.readMessage(io.dstore.elastic.Elastic.BoolQuery.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.elastic.Elastic.BoolQuery) query_);
+                query_ = subBuilder.buildPartial();
+              }
+              queryCase_ = 4;
               break;
             }
           }
@@ -3005,12 +5036,879 @@ public final class Elastic {
 
     }
 
+    public interface SimpleQueryStringOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:dstore.elastic.Query.SimpleQueryString)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>optional string query = 1;</code>
+       */
+      java.lang.String getQuery();
+      /**
+       * <code>optional string query = 1;</code>
+       */
+      com.google.protobuf.ByteString
+          getQueryBytes();
+
+      /**
+       * <code>repeated string field = 2;</code>
+       */
+      com.google.protobuf.ProtocolStringList
+          getFieldList();
+      /**
+       * <code>repeated string field = 2;</code>
+       */
+      int getFieldCount();
+      /**
+       * <code>repeated string field = 2;</code>
+       */
+      java.lang.String getField(int index);
+      /**
+       * <code>repeated string field = 2;</code>
+       */
+      com.google.protobuf.ByteString
+          getFieldBytes(int index);
+
+      /**
+       * <code>optional bool use_and_as_default_operator = 3;</code>
+       */
+      boolean getUseAndAsDefaultOperator();
+
+      /**
+       * <code>optional string minimum_should_match = 4;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
+       * </pre>
+       */
+      java.lang.String getMinimumShouldMatch();
+      /**
+       * <code>optional string minimum_should_match = 4;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
+       * </pre>
+       */
+      com.google.protobuf.ByteString
+          getMinimumShouldMatchBytes();
+    }
+    /**
+     * Protobuf type {@code dstore.elastic.Query.SimpleQueryString}
+     */
+    public  static final class SimpleQueryString extends
+        com.google.protobuf.GeneratedMessage implements
+        // @@protoc_insertion_point(message_implements:dstore.elastic.Query.SimpleQueryString)
+        SimpleQueryStringOrBuilder {
+      // Use SimpleQueryString.newBuilder() to construct.
+      private SimpleQueryString(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+        super(builder);
+      }
+      private SimpleQueryString() {
+        query_ = "";
+        field_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        useAndAsDefaultOperator_ = false;
+        minimumShouldMatch_ = "";
+      }
+
+      @java.lang.Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+      }
+      private SimpleQueryString(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        this();
+        int mutable_bitField0_ = 0;
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              default: {
+                if (!input.skipField(tag)) {
+                  done = true;
+                }
+                break;
+              }
+              case 10: {
+                String s = input.readStringRequireUtf8();
+
+                query_ = s;
+                break;
+              }
+              case 18: {
+                String s = input.readStringRequireUtf8();
+                if (!((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+                  field_ = new com.google.protobuf.LazyStringArrayList();
+                  mutable_bitField0_ |= 0x00000002;
+                }
+                field_.add(s);
+                break;
+              }
+              case 24: {
+
+                useAndAsDefaultOperator_ = input.readBool();
+                break;
+              }
+              case 34: {
+                String s = input.readStringRequireUtf8();
+
+                minimumShouldMatch_ = s;
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw new RuntimeException(e.setUnfinishedMessage(this));
+        } catch (java.io.IOException e) {
+          throw new RuntimeException(
+              new com.google.protobuf.InvalidProtocolBufferException(
+                  e.getMessage()).setUnfinishedMessage(this));
+        } finally {
+          if (((mutable_bitField0_ & 0x00000002) == 0x00000002)) {
+            field_ = field_.getUnmodifiableView();
+          }
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_SimpleQueryString_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_SimpleQueryString_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                io.dstore.elastic.Elastic.Query.SimpleQueryString.class, io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder.class);
+      }
+
+      private int bitField0_;
+      public static final int QUERY_FIELD_NUMBER = 1;
+      private volatile java.lang.Object query_;
+      /**
+       * <code>optional string query = 1;</code>
+       */
+      public java.lang.String getQuery() {
+        java.lang.Object ref = query_;
+        if (ref instanceof java.lang.String) {
+          return (java.lang.String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          query_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>optional string query = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getQueryBytes() {
+        java.lang.Object ref = query_;
+        if (ref instanceof java.lang.String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          query_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      public static final int FIELD_FIELD_NUMBER = 2;
+      private com.google.protobuf.LazyStringList field_;
+      /**
+       * <code>repeated string field = 2;</code>
+       */
+      public com.google.protobuf.ProtocolStringList
+          getFieldList() {
+        return field_;
+      }
+      /**
+       * <code>repeated string field = 2;</code>
+       */
+      public int getFieldCount() {
+        return field_.size();
+      }
+      /**
+       * <code>repeated string field = 2;</code>
+       */
+      public java.lang.String getField(int index) {
+        return field_.get(index);
+      }
+      /**
+       * <code>repeated string field = 2;</code>
+       */
+      public com.google.protobuf.ByteString
+          getFieldBytes(int index) {
+        return field_.getByteString(index);
+      }
+
+      public static final int USE_AND_AS_DEFAULT_OPERATOR_FIELD_NUMBER = 3;
+      private boolean useAndAsDefaultOperator_;
+      /**
+       * <code>optional bool use_and_as_default_operator = 3;</code>
+       */
+      public boolean getUseAndAsDefaultOperator() {
+        return useAndAsDefaultOperator_;
+      }
+
+      public static final int MINIMUM_SHOULD_MATCH_FIELD_NUMBER = 4;
+      private volatile java.lang.Object minimumShouldMatch_;
+      /**
+       * <code>optional string minimum_should_match = 4;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
+       * </pre>
+       */
+      public java.lang.String getMinimumShouldMatch() {
+        java.lang.Object ref = minimumShouldMatch_;
+        if (ref instanceof java.lang.String) {
+          return (java.lang.String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          minimumShouldMatch_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>optional string minimum_should_match = 4;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
+       * </pre>
+       */
+      public com.google.protobuf.ByteString
+          getMinimumShouldMatchBytes() {
+        java.lang.Object ref = minimumShouldMatch_;
+        if (ref instanceof java.lang.String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          minimumShouldMatch_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      private byte memoizedIsInitialized = -1;
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        if (!getQueryBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessage.writeString(output, 1, query_);
+        }
+        for (int i = 0; i < field_.size(); i++) {
+          com.google.protobuf.GeneratedMessage.writeString(output, 2, field_.getRaw(i));
+        }
+        if (useAndAsDefaultOperator_ != false) {
+          output.writeBool(3, useAndAsDefaultOperator_);
+        }
+        if (!getMinimumShouldMatchBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessage.writeString(output, 4, minimumShouldMatch_);
+        }
+      }
+
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getQueryBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessage.computeStringSize(1, query_);
+        }
+        {
+          int dataSize = 0;
+          for (int i = 0; i < field_.size(); i++) {
+            dataSize += computeStringSizeNoTag(field_.getRaw(i));
+          }
+          size += dataSize;
+          size += 1 * getFieldList().size();
+        }
+        if (useAndAsDefaultOperator_ != false) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeBoolSize(3, useAndAsDefaultOperator_);
+        }
+        if (!getMinimumShouldMatchBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessage.computeStringSize(4, minimumShouldMatch_);
+        }
+        memoizedSize = size;
+        return size;
+      }
+
+      private static final long serialVersionUID = 0L;
+      public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input);
+      }
+      public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.Elastic.Query.SimpleQueryString parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(io.dstore.elastic.Elastic.Query.SimpleQueryString prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @java.lang.Override
+      protected Builder newBuilderForType(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code dstore.elastic.Query.SimpleQueryString}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:dstore.elastic.Query.SimpleQueryString)
+          io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_SimpleQueryString_descriptor;
+        }
+
+        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_SimpleQueryString_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  io.dstore.elastic.Elastic.Query.SimpleQueryString.class, io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder.class);
+        }
+
+        // Construct using io.dstore.elastic.Elastic.Query.SimpleQueryString.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          }
+        }
+        public Builder clear() {
+          super.clear();
+          query_ = "";
+
+          field_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+          bitField0_ = (bitField0_ & ~0x00000002);
+          useAndAsDefaultOperator_ = false;
+
+          minimumShouldMatch_ = "";
+
+          return this;
+        }
+
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Query_SimpleQueryString_descriptor;
+        }
+
+        public io.dstore.elastic.Elastic.Query.SimpleQueryString getDefaultInstanceForType() {
+          return io.dstore.elastic.Elastic.Query.SimpleQueryString.getDefaultInstance();
+        }
+
+        public io.dstore.elastic.Elastic.Query.SimpleQueryString build() {
+          io.dstore.elastic.Elastic.Query.SimpleQueryString result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        public io.dstore.elastic.Elastic.Query.SimpleQueryString buildPartial() {
+          io.dstore.elastic.Elastic.Query.SimpleQueryString result = new io.dstore.elastic.Elastic.Query.SimpleQueryString(this);
+          int from_bitField0_ = bitField0_;
+          int to_bitField0_ = 0;
+          result.query_ = query_;
+          if (((bitField0_ & 0x00000002) == 0x00000002)) {
+            field_ = field_.getUnmodifiableView();
+            bitField0_ = (bitField0_ & ~0x00000002);
+          }
+          result.field_ = field_;
+          result.useAndAsDefaultOperator_ = useAndAsDefaultOperator_;
+          result.minimumShouldMatch_ = minimumShouldMatch_;
+          result.bitField0_ = to_bitField0_;
+          onBuilt();
+          return result;
+        }
+
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof io.dstore.elastic.Elastic.Query.SimpleQueryString) {
+            return mergeFrom((io.dstore.elastic.Elastic.Query.SimpleQueryString)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(io.dstore.elastic.Elastic.Query.SimpleQueryString other) {
+          if (other == io.dstore.elastic.Elastic.Query.SimpleQueryString.getDefaultInstance()) return this;
+          if (!other.getQuery().isEmpty()) {
+            query_ = other.query_;
+            onChanged();
+          }
+          if (!other.field_.isEmpty()) {
+            if (field_.isEmpty()) {
+              field_ = other.field_;
+              bitField0_ = (bitField0_ & ~0x00000002);
+            } else {
+              ensureFieldIsMutable();
+              field_.addAll(other.field_);
+            }
+            onChanged();
+          }
+          if (other.getUseAndAsDefaultOperator() != false) {
+            setUseAndAsDefaultOperator(other.getUseAndAsDefaultOperator());
+          }
+          if (!other.getMinimumShouldMatch().isEmpty()) {
+            minimumShouldMatch_ = other.minimumShouldMatch_;
+            onChanged();
+          }
+          onChanged();
+          return this;
+        }
+
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          io.dstore.elastic.Elastic.Query.SimpleQueryString parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (io.dstore.elastic.Elastic.Query.SimpleQueryString) e.getUnfinishedMessage();
+            throw e;
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+        private int bitField0_;
+
+        private java.lang.Object query_ = "";
+        /**
+         * <code>optional string query = 1;</code>
+         */
+        public java.lang.String getQuery() {
+          java.lang.Object ref = query_;
+          if (!(ref instanceof java.lang.String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            query_ = s;
+            return s;
+          } else {
+            return (java.lang.String) ref;
+          }
+        }
+        /**
+         * <code>optional string query = 1;</code>
+         */
+        public com.google.protobuf.ByteString
+            getQueryBytes() {
+          java.lang.Object ref = query_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (java.lang.String) ref);
+            query_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>optional string query = 1;</code>
+         */
+        public Builder setQuery(
+            java.lang.String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          query_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string query = 1;</code>
+         */
+        public Builder clearQuery() {
+          
+          query_ = getDefaultInstance().getQuery();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string query = 1;</code>
+         */
+        public Builder setQueryBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          query_ = value;
+          onChanged();
+          return this;
+        }
+
+        private com.google.protobuf.LazyStringList field_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+        private void ensureFieldIsMutable() {
+          if (!((bitField0_ & 0x00000002) == 0x00000002)) {
+            field_ = new com.google.protobuf.LazyStringArrayList(field_);
+            bitField0_ |= 0x00000002;
+           }
+        }
+        /**
+         * <code>repeated string field = 2;</code>
+         */
+        public com.google.protobuf.ProtocolStringList
+            getFieldList() {
+          return field_.getUnmodifiableView();
+        }
+        /**
+         * <code>repeated string field = 2;</code>
+         */
+        public int getFieldCount() {
+          return field_.size();
+        }
+        /**
+         * <code>repeated string field = 2;</code>
+         */
+        public java.lang.String getField(int index) {
+          return field_.get(index);
+        }
+        /**
+         * <code>repeated string field = 2;</code>
+         */
+        public com.google.protobuf.ByteString
+            getFieldBytes(int index) {
+          return field_.getByteString(index);
+        }
+        /**
+         * <code>repeated string field = 2;</code>
+         */
+        public Builder setField(
+            int index, java.lang.String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  ensureFieldIsMutable();
+          field_.set(index, value);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string field = 2;</code>
+         */
+        public Builder addField(
+            java.lang.String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  ensureFieldIsMutable();
+          field_.add(value);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string field = 2;</code>
+         */
+        public Builder addAllField(
+            java.lang.Iterable<java.lang.String> values) {
+          ensureFieldIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, field_);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string field = 2;</code>
+         */
+        public Builder clearField() {
+          field_ = com.google.protobuf.LazyStringArrayList.EMPTY;
+          bitField0_ = (bitField0_ & ~0x00000002);
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>repeated string field = 2;</code>
+         */
+        public Builder addFieldBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          ensureFieldIsMutable();
+          field_.add(value);
+          onChanged();
+          return this;
+        }
+
+        private boolean useAndAsDefaultOperator_ ;
+        /**
+         * <code>optional bool use_and_as_default_operator = 3;</code>
+         */
+        public boolean getUseAndAsDefaultOperator() {
+          return useAndAsDefaultOperator_;
+        }
+        /**
+         * <code>optional bool use_and_as_default_operator = 3;</code>
+         */
+        public Builder setUseAndAsDefaultOperator(boolean value) {
+          
+          useAndAsDefaultOperator_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional bool use_and_as_default_operator = 3;</code>
+         */
+        public Builder clearUseAndAsDefaultOperator() {
+          
+          useAndAsDefaultOperator_ = false;
+          onChanged();
+          return this;
+        }
+
+        private java.lang.Object minimumShouldMatch_ = "";
+        /**
+         * <code>optional string minimum_should_match = 4;</code>
+         *
+         * <pre>
+         * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
+         * </pre>
+         */
+        public java.lang.String getMinimumShouldMatch() {
+          java.lang.Object ref = minimumShouldMatch_;
+          if (!(ref instanceof java.lang.String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            minimumShouldMatch_ = s;
+            return s;
+          } else {
+            return (java.lang.String) ref;
+          }
+        }
+        /**
+         * <code>optional string minimum_should_match = 4;</code>
+         *
+         * <pre>
+         * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
+         * </pre>
+         */
+        public com.google.protobuf.ByteString
+            getMinimumShouldMatchBytes() {
+          java.lang.Object ref = minimumShouldMatch_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (java.lang.String) ref);
+            minimumShouldMatch_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>optional string minimum_should_match = 4;</code>
+         *
+         * <pre>
+         * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
+         * </pre>
+         */
+        public Builder setMinimumShouldMatch(
+            java.lang.String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          minimumShouldMatch_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string minimum_should_match = 4;</code>
+         *
+         * <pre>
+         * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
+         * </pre>
+         */
+        public Builder clearMinimumShouldMatch() {
+          
+          minimumShouldMatch_ = getDefaultInstance().getMinimumShouldMatch();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string minimum_should_match = 4;</code>
+         *
+         * <pre>
+         * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html
+         * </pre>
+         */
+        public Builder setMinimumShouldMatchBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          minimumShouldMatch_ = value;
+          onChanged();
+          return this;
+        }
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:dstore.elastic.Query.SimpleQueryString)
+      }
+
+      // @@protoc_insertion_point(class_scope:dstore.elastic.Query.SimpleQueryString)
+      private static final io.dstore.elastic.Elastic.Query.SimpleQueryString DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new io.dstore.elastic.Elastic.Query.SimpleQueryString();
+      }
+
+      public static io.dstore.elastic.Elastic.Query.SimpleQueryString getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<SimpleQueryString>
+          PARSER = new com.google.protobuf.AbstractParser<SimpleQueryString>() {
+        public SimpleQueryString parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          try {
+            return new SimpleQueryString(input, extensionRegistry);
+          } catch (RuntimeException e) {
+            if (e.getCause() instanceof
+                com.google.protobuf.InvalidProtocolBufferException) {
+              throw (com.google.protobuf.InvalidProtocolBufferException)
+                  e.getCause();
+            }
+            throw e;
+          }
+        }
+      };
+
+      public static com.google.protobuf.Parser<SimpleQueryString> parser() {
+        return PARSER;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Parser<SimpleQueryString> getParserForType() {
+        return PARSER;
+      }
+
+      public io.dstore.elastic.Elastic.Query.SimpleQueryString getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
     private int queryCase_ = 0;
     private java.lang.Object query_;
     public enum QueryCase
         implements com.google.protobuf.Internal.EnumLite {
       TERMS_QUERY(1),
       TYPE_QUERY(2),
+      SIMPLE_QUERY_STRING_QUERY(3),
+      BOOL_QUERY(4),
       QUERY_NOT_SET(0);
       private int value = 0;
       private QueryCase(int value) {
@@ -3020,6 +5918,8 @@ public final class Elastic {
         switch (value) {
           case 1: return TERMS_QUERY;
           case 2: return TYPE_QUERY;
+          case 3: return SIMPLE_QUERY_STRING_QUERY;
+          case 4: return BOOL_QUERY;
           case 0: return QUERY_NOT_SET;
           default: throw new java.lang.IllegalArgumentException(
             "Value is undefined for this oneof enum.");
@@ -3039,6 +5939,10 @@ public final class Elastic {
     public static final int TERMS_QUERY_FIELD_NUMBER = 1;
     /**
      * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+     * </pre>
      */
     public io.dstore.elastic.Elastic.Query.Terms getTermsQuery() {
       if (queryCase_ == 1) {
@@ -3048,6 +5952,10 @@ public final class Elastic {
     }
     /**
      * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+     * </pre>
      */
     public io.dstore.elastic.Elastic.Query.TermsOrBuilder getTermsQueryOrBuilder() {
       if (queryCase_ == 1) {
@@ -3059,6 +5967,10 @@ public final class Elastic {
     public static final int TYPE_QUERY_FIELD_NUMBER = 2;
     /**
      * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+     * </pre>
      */
     public io.dstore.elastic.Elastic.Query.Type getTypeQuery() {
       if (queryCase_ == 2) {
@@ -3068,12 +5980,72 @@ public final class Elastic {
     }
     /**
      * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+     * </pre>
      */
     public io.dstore.elastic.Elastic.Query.TypeOrBuilder getTypeQueryOrBuilder() {
       if (queryCase_ == 2) {
          return (io.dstore.elastic.Elastic.Query.Type) query_;
       }
       return io.dstore.elastic.Elastic.Query.Type.getDefaultInstance();
+    }
+
+    public static final int SIMPLE_QUERY_STRING_QUERY_FIELD_NUMBER = 3;
+    /**
+     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+     * </pre>
+     */
+    public io.dstore.elastic.Elastic.Query.SimpleQueryString getSimpleQueryStringQuery() {
+      if (queryCase_ == 3) {
+         return (io.dstore.elastic.Elastic.Query.SimpleQueryString) query_;
+      }
+      return io.dstore.elastic.Elastic.Query.SimpleQueryString.getDefaultInstance();
+    }
+    /**
+     * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+     * </pre>
+     */
+    public io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder getSimpleQueryStringQueryOrBuilder() {
+      if (queryCase_ == 3) {
+         return (io.dstore.elastic.Elastic.Query.SimpleQueryString) query_;
+      }
+      return io.dstore.elastic.Elastic.Query.SimpleQueryString.getDefaultInstance();
+    }
+
+    public static final int BOOL_QUERY_FIELD_NUMBER = 4;
+    /**
+     * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+     *
+     * <pre>
+     * not yet supported in FacetedNavigation
+     * </pre>
+     */
+    public io.dstore.elastic.Elastic.BoolQuery getBoolQuery() {
+      if (queryCase_ == 4) {
+         return (io.dstore.elastic.Elastic.BoolQuery) query_;
+      }
+      return io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance();
+    }
+    /**
+     * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+     *
+     * <pre>
+     * not yet supported in FacetedNavigation
+     * </pre>
+     */
+    public io.dstore.elastic.Elastic.BoolQueryOrBuilder getBoolQueryOrBuilder() {
+      if (queryCase_ == 4) {
+         return (io.dstore.elastic.Elastic.BoolQuery) query_;
+      }
+      return io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -3094,6 +6066,12 @@ public final class Elastic {
       if (queryCase_ == 2) {
         output.writeMessage(2, (io.dstore.elastic.Elastic.Query.Type) query_);
       }
+      if (queryCase_ == 3) {
+        output.writeMessage(3, (io.dstore.elastic.Elastic.Query.SimpleQueryString) query_);
+      }
+      if (queryCase_ == 4) {
+        output.writeMessage(4, (io.dstore.elastic.Elastic.BoolQuery) query_);
+      }
     }
 
     public int getSerializedSize() {
@@ -3108,6 +6086,14 @@ public final class Elastic {
       if (queryCase_ == 2) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(2, (io.dstore.elastic.Elastic.Query.Type) query_);
+      }
+      if (queryCase_ == 3) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, (io.dstore.elastic.Elastic.Query.SimpleQueryString) query_);
+      }
+      if (queryCase_ == 4) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, (io.dstore.elastic.Elastic.BoolQuery) query_);
       }
       memoizedSize = size;
       return size;
@@ -3258,6 +6244,20 @@ public final class Elastic {
             result.query_ = typeQueryBuilder_.build();
           }
         }
+        if (queryCase_ == 3) {
+          if (simpleQueryStringQueryBuilder_ == null) {
+            result.query_ = query_;
+          } else {
+            result.query_ = simpleQueryStringQueryBuilder_.build();
+          }
+        }
+        if (queryCase_ == 4) {
+          if (boolQueryBuilder_ == null) {
+            result.query_ = query_;
+          } else {
+            result.query_ = boolQueryBuilder_.build();
+          }
+        }
         result.queryCase_ = queryCase_;
         onBuilt();
         return result;
@@ -3281,6 +6281,14 @@ public final class Elastic {
           }
           case TYPE_QUERY: {
             mergeTypeQuery(other.getTypeQuery());
+            break;
+          }
+          case SIMPLE_QUERY_STRING_QUERY: {
+            mergeSimpleQueryStringQuery(other.getSimpleQueryStringQuery());
+            break;
+          }
+          case BOOL_QUERY: {
+            mergeBoolQuery(other.getBoolQuery());
             break;
           }
           case QUERY_NOT_SET: {
@@ -3332,6 +6340,10 @@ public final class Elastic {
           io.dstore.elastic.Elastic.Query.Terms, io.dstore.elastic.Elastic.Query.Terms.Builder, io.dstore.elastic.Elastic.Query.TermsOrBuilder> termsQueryBuilder_;
       /**
        * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+       * </pre>
        */
       public io.dstore.elastic.Elastic.Query.Terms getTermsQuery() {
         if (termsQueryBuilder_ == null) {
@@ -3348,6 +6360,10 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+       * </pre>
        */
       public Builder setTermsQuery(io.dstore.elastic.Elastic.Query.Terms value) {
         if (termsQueryBuilder_ == null) {
@@ -3364,6 +6380,10 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+       * </pre>
        */
       public Builder setTermsQuery(
           io.dstore.elastic.Elastic.Query.Terms.Builder builderForValue) {
@@ -3378,6 +6398,10 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+       * </pre>
        */
       public Builder mergeTermsQuery(io.dstore.elastic.Elastic.Query.Terms value) {
         if (termsQueryBuilder_ == null) {
@@ -3400,6 +6424,10 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+       * </pre>
        */
       public Builder clearTermsQuery() {
         if (termsQueryBuilder_ == null) {
@@ -3419,12 +6447,20 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+       * </pre>
        */
       public io.dstore.elastic.Elastic.Query.Terms.Builder getTermsQueryBuilder() {
         return getTermsQueryFieldBuilder().getBuilder();
       }
       /**
        * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+       * </pre>
        */
       public io.dstore.elastic.Elastic.Query.TermsOrBuilder getTermsQueryOrBuilder() {
         if ((queryCase_ == 1) && (termsQueryBuilder_ != null)) {
@@ -3438,6 +6474,10 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Terms terms_query = 1;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-terms-query.html
+       * </pre>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.Query.Terms, io.dstore.elastic.Elastic.Query.Terms.Builder, io.dstore.elastic.Elastic.Query.TermsOrBuilder> 
@@ -3462,6 +6502,10 @@ public final class Elastic {
           io.dstore.elastic.Elastic.Query.Type, io.dstore.elastic.Elastic.Query.Type.Builder, io.dstore.elastic.Elastic.Query.TypeOrBuilder> typeQueryBuilder_;
       /**
        * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+       * </pre>
        */
       public io.dstore.elastic.Elastic.Query.Type getTypeQuery() {
         if (typeQueryBuilder_ == null) {
@@ -3478,6 +6522,10 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+       * </pre>
        */
       public Builder setTypeQuery(io.dstore.elastic.Elastic.Query.Type value) {
         if (typeQueryBuilder_ == null) {
@@ -3494,6 +6542,10 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+       * </pre>
        */
       public Builder setTypeQuery(
           io.dstore.elastic.Elastic.Query.Type.Builder builderForValue) {
@@ -3508,6 +6560,10 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+       * </pre>
        */
       public Builder mergeTypeQuery(io.dstore.elastic.Elastic.Query.Type value) {
         if (typeQueryBuilder_ == null) {
@@ -3530,6 +6586,10 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+       * </pre>
        */
       public Builder clearTypeQuery() {
         if (typeQueryBuilder_ == null) {
@@ -3549,12 +6609,20 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+       * </pre>
        */
       public io.dstore.elastic.Elastic.Query.Type.Builder getTypeQueryBuilder() {
         return getTypeQueryFieldBuilder().getBuilder();
       }
       /**
        * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+       * </pre>
        */
       public io.dstore.elastic.Elastic.Query.TypeOrBuilder getTypeQueryOrBuilder() {
         if ((queryCase_ == 2) && (typeQueryBuilder_ != null)) {
@@ -3568,6 +6636,10 @@ public final class Elastic {
       }
       /**
        * <code>optional .dstore.elastic.Query.Type type_query = 2;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-type-query.html
+       * </pre>
        */
       private com.google.protobuf.SingleFieldBuilder<
           io.dstore.elastic.Elastic.Query.Type, io.dstore.elastic.Elastic.Query.Type.Builder, io.dstore.elastic.Elastic.Query.TypeOrBuilder> 
@@ -3586,6 +6658,330 @@ public final class Elastic {
         queryCase_ = 2;
         onChanged();;
         return typeQueryBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.Elastic.Query.SimpleQueryString, io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder, io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder> simpleQueryStringQueryBuilder_;
+      /**
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+       * </pre>
+       */
+      public io.dstore.elastic.Elastic.Query.SimpleQueryString getSimpleQueryStringQuery() {
+        if (simpleQueryStringQueryBuilder_ == null) {
+          if (queryCase_ == 3) {
+            return (io.dstore.elastic.Elastic.Query.SimpleQueryString) query_;
+          }
+          return io.dstore.elastic.Elastic.Query.SimpleQueryString.getDefaultInstance();
+        } else {
+          if (queryCase_ == 3) {
+            return simpleQueryStringQueryBuilder_.getMessage();
+          }
+          return io.dstore.elastic.Elastic.Query.SimpleQueryString.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+       * </pre>
+       */
+      public Builder setSimpleQueryStringQuery(io.dstore.elastic.Elastic.Query.SimpleQueryString value) {
+        if (simpleQueryStringQueryBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          query_ = value;
+          onChanged();
+        } else {
+          simpleQueryStringQueryBuilder_.setMessage(value);
+        }
+        queryCase_ = 3;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+       * </pre>
+       */
+      public Builder setSimpleQueryStringQuery(
+          io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder builderForValue) {
+        if (simpleQueryStringQueryBuilder_ == null) {
+          query_ = builderForValue.build();
+          onChanged();
+        } else {
+          simpleQueryStringQueryBuilder_.setMessage(builderForValue.build());
+        }
+        queryCase_ = 3;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+       * </pre>
+       */
+      public Builder mergeSimpleQueryStringQuery(io.dstore.elastic.Elastic.Query.SimpleQueryString value) {
+        if (simpleQueryStringQueryBuilder_ == null) {
+          if (queryCase_ == 3 &&
+              query_ != io.dstore.elastic.Elastic.Query.SimpleQueryString.getDefaultInstance()) {
+            query_ = io.dstore.elastic.Elastic.Query.SimpleQueryString.newBuilder((io.dstore.elastic.Elastic.Query.SimpleQueryString) query_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            query_ = value;
+          }
+          onChanged();
+        } else {
+          if (queryCase_ == 3) {
+            simpleQueryStringQueryBuilder_.mergeFrom(value);
+          }
+          simpleQueryStringQueryBuilder_.setMessage(value);
+        }
+        queryCase_ = 3;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+       * </pre>
+       */
+      public Builder clearSimpleQueryStringQuery() {
+        if (simpleQueryStringQueryBuilder_ == null) {
+          if (queryCase_ == 3) {
+            queryCase_ = 0;
+            query_ = null;
+            onChanged();
+          }
+        } else {
+          if (queryCase_ == 3) {
+            queryCase_ = 0;
+            query_ = null;
+          }
+          simpleQueryStringQueryBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+       * </pre>
+       */
+      public io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder getSimpleQueryStringQueryBuilder() {
+        return getSimpleQueryStringQueryFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+       * </pre>
+       */
+      public io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder getSimpleQueryStringQueryOrBuilder() {
+        if ((queryCase_ == 3) && (simpleQueryStringQueryBuilder_ != null)) {
+          return simpleQueryStringQueryBuilder_.getMessageOrBuilder();
+        } else {
+          if (queryCase_ == 3) {
+            return (io.dstore.elastic.Elastic.Query.SimpleQueryString) query_;
+          }
+          return io.dstore.elastic.Elastic.Query.SimpleQueryString.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.elastic.Query.SimpleQueryString simple_query_string_query = 3;</code>
+       *
+       * <pre>
+       * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
+       * </pre>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.Elastic.Query.SimpleQueryString, io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder, io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder> 
+          getSimpleQueryStringQueryFieldBuilder() {
+        if (simpleQueryStringQueryBuilder_ == null) {
+          if (!(queryCase_ == 3)) {
+            query_ = io.dstore.elastic.Elastic.Query.SimpleQueryString.getDefaultInstance();
+          }
+          simpleQueryStringQueryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.elastic.Elastic.Query.SimpleQueryString, io.dstore.elastic.Elastic.Query.SimpleQueryString.Builder, io.dstore.elastic.Elastic.Query.SimpleQueryStringOrBuilder>(
+                  (io.dstore.elastic.Elastic.Query.SimpleQueryString) query_,
+                  getParentForChildren(),
+                  isClean());
+          query_ = null;
+        }
+        queryCase_ = 3;
+        onChanged();;
+        return simpleQueryStringQueryBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> boolQueryBuilder_;
+      /**
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+       *
+       * <pre>
+       * not yet supported in FacetedNavigation
+       * </pre>
+       */
+      public io.dstore.elastic.Elastic.BoolQuery getBoolQuery() {
+        if (boolQueryBuilder_ == null) {
+          if (queryCase_ == 4) {
+            return (io.dstore.elastic.Elastic.BoolQuery) query_;
+          }
+          return io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance();
+        } else {
+          if (queryCase_ == 4) {
+            return boolQueryBuilder_.getMessage();
+          }
+          return io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+       *
+       * <pre>
+       * not yet supported in FacetedNavigation
+       * </pre>
+       */
+      public Builder setBoolQuery(io.dstore.elastic.Elastic.BoolQuery value) {
+        if (boolQueryBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          query_ = value;
+          onChanged();
+        } else {
+          boolQueryBuilder_.setMessage(value);
+        }
+        queryCase_ = 4;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+       *
+       * <pre>
+       * not yet supported in FacetedNavigation
+       * </pre>
+       */
+      public Builder setBoolQuery(
+          io.dstore.elastic.Elastic.BoolQuery.Builder builderForValue) {
+        if (boolQueryBuilder_ == null) {
+          query_ = builderForValue.build();
+          onChanged();
+        } else {
+          boolQueryBuilder_.setMessage(builderForValue.build());
+        }
+        queryCase_ = 4;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+       *
+       * <pre>
+       * not yet supported in FacetedNavigation
+       * </pre>
+       */
+      public Builder mergeBoolQuery(io.dstore.elastic.Elastic.BoolQuery value) {
+        if (boolQueryBuilder_ == null) {
+          if (queryCase_ == 4 &&
+              query_ != io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance()) {
+            query_ = io.dstore.elastic.Elastic.BoolQuery.newBuilder((io.dstore.elastic.Elastic.BoolQuery) query_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            query_ = value;
+          }
+          onChanged();
+        } else {
+          if (queryCase_ == 4) {
+            boolQueryBuilder_.mergeFrom(value);
+          }
+          boolQueryBuilder_.setMessage(value);
+        }
+        queryCase_ = 4;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+       *
+       * <pre>
+       * not yet supported in FacetedNavigation
+       * </pre>
+       */
+      public Builder clearBoolQuery() {
+        if (boolQueryBuilder_ == null) {
+          if (queryCase_ == 4) {
+            queryCase_ = 0;
+            query_ = null;
+            onChanged();
+          }
+        } else {
+          if (queryCase_ == 4) {
+            queryCase_ = 0;
+            query_ = null;
+          }
+          boolQueryBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+       *
+       * <pre>
+       * not yet supported in FacetedNavigation
+       * </pre>
+       */
+      public io.dstore.elastic.Elastic.BoolQuery.Builder getBoolQueryBuilder() {
+        return getBoolQueryFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+       *
+       * <pre>
+       * not yet supported in FacetedNavigation
+       * </pre>
+       */
+      public io.dstore.elastic.Elastic.BoolQueryOrBuilder getBoolQueryOrBuilder() {
+        if ((queryCase_ == 4) && (boolQueryBuilder_ != null)) {
+          return boolQueryBuilder_.getMessageOrBuilder();
+        } else {
+          if (queryCase_ == 4) {
+            return (io.dstore.elastic.Elastic.BoolQuery) query_;
+          }
+          return io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.elastic.BoolQuery bool_query = 4;</code>
+       *
+       * <pre>
+       * not yet supported in FacetedNavigation
+       * </pre>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder> 
+          getBoolQueryFieldBuilder() {
+        if (boolQueryBuilder_ == null) {
+          if (!(queryCase_ == 4)) {
+            query_ = io.dstore.elastic.Elastic.BoolQuery.getDefaultInstance();
+          }
+          boolQueryBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.elastic.Elastic.BoolQuery, io.dstore.elastic.Elastic.BoolQuery.Builder, io.dstore.elastic.Elastic.BoolQueryOrBuilder>(
+                  (io.dstore.elastic.Elastic.BoolQuery) query_,
+                  getParentForChildren(),
+                  isClean());
+          query_ = null;
+        }
+        queryCase_ = 4;
+        onChanged();;
+        return boolQueryBuilder_;
       }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -3650,99 +7046,31 @@ public final class Elastic {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
-    java.lang.String getFieldName();
+    io.dstore.elastic.Elastic.Sort.FieldSort getFieldSort();
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
-    com.google.protobuf.ByteString
-        getFieldNameBytes();
+    io.dstore.elastic.Elastic.Sort.FieldSortOrBuilder getFieldSortOrBuilder();
 
     /**
-     * <code>optional bool score = 2;</code>
-     *
-     * <pre>
-     * When sorting by score all other parameters are ignored
-     * </pre>
+     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
-    boolean getScore();
-
+    io.dstore.elastic.Elastic.Sort.ScoreSort getScoreSort();
     /**
-     * <code>optional .dstore.elastic.Sort.Order sort_order = 5;</code>
+     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
-    int getSortOrderValue();
-    /**
-     * <code>optional .dstore.elastic.Sort.Order sort_order = 5;</code>
-     */
-    io.dstore.elastic.Elastic.Sort.Order getSortOrder();
-
-    /**
-     * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 6;</code>
-     */
-    int getMissingTreatmentValue();
-    /**
-     * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 6;</code>
-     */
-    io.dstore.elastic.Elastic.Sort.Missing getMissingTreatment();
-
-    /**
-     * <code>optional .dstore.elastic.Sort.Mode sort_mode = 7;</code>
-     */
-    int getSortModeValue();
-    /**
-     * <code>optional .dstore.elastic.Sort.Mode sort_mode = 7;</code>
-     */
-    io.dstore.elastic.Elastic.Sort.Mode getSortMode();
-
-    /**
-     * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-     *
-     * <pre>
-     * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-     * </pre>
-     */
-    java.util.List<io.dstore.elastic.Elastic.Query> 
-        getNestedFilterList();
-    /**
-     * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-     *
-     * <pre>
-     * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-     * </pre>
-     */
-    io.dstore.elastic.Elastic.Query getNestedFilter(int index);
-    /**
-     * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-     *
-     * <pre>
-     * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-     * </pre>
-     */
-    int getNestedFilterCount();
-    /**
-     * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-     *
-     * <pre>
-     * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-     * </pre>
-     */
-    java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
-        getNestedFilterOrBuilderList();
-    /**
-     * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-     *
-     * <pre>
-     * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-     * </pre>
-     */
-    io.dstore.elastic.Elastic.QueryOrBuilder getNestedFilterOrBuilder(
-        int index);
+    io.dstore.elastic.Elastic.Sort.ScoreSortOrBuilder getScoreSortOrBuilder();
 
     public io.dstore.elastic.Elastic.Sort.SortByCase getSortByCase();
   }
   /**
    * Protobuf type {@code dstore.elastic.Sort}
+   *
+   * <pre>
+   * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-sort.html
+   * </pre>
    */
   public  static final class Sort extends
       com.google.protobuf.GeneratedMessage implements
@@ -3753,10 +7081,6 @@ public final class Elastic {
       super(builder);
     }
     private Sort() {
-      sortOrder_ = 0;
-      missingTreatment_ = 0;
-      sortMode_ = 0;
-      nestedFilter_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -3784,40 +7108,31 @@ public final class Elastic {
               break;
             }
             case 10: {
-              String s = input.readStringRequireUtf8();
-              sortByCase_ = 1;
-              sortBy_ = s;
-              break;
-            }
-            case 16: {
-              sortByCase_ = 2;
-              sortBy_ = input.readBool();
-              break;
-            }
-            case 40: {
-              int rawValue = input.readEnum();
-
-              sortOrder_ = rawValue;
-              break;
-            }
-            case 48: {
-              int rawValue = input.readEnum();
-
-              missingTreatment_ = rawValue;
-              break;
-            }
-            case 56: {
-              int rawValue = input.readEnum();
-
-              sortMode_ = rawValue;
-              break;
-            }
-            case 66: {
-              if (!((mutable_bitField0_ & 0x00000020) == 0x00000020)) {
-                nestedFilter_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>();
-                mutable_bitField0_ |= 0x00000020;
+              io.dstore.elastic.Elastic.Sort.FieldSort.Builder subBuilder = null;
+              if (sortByCase_ == 1) {
+                subBuilder = ((io.dstore.elastic.Elastic.Sort.FieldSort) sortBy_).toBuilder();
               }
-              nestedFilter_.add(input.readMessage(io.dstore.elastic.Elastic.Query.parser(), extensionRegistry));
+              sortBy_ =
+                  input.readMessage(io.dstore.elastic.Elastic.Sort.FieldSort.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.elastic.Elastic.Sort.FieldSort) sortBy_);
+                sortBy_ = subBuilder.buildPartial();
+              }
+              sortByCase_ = 1;
+              break;
+            }
+            case 18: {
+              io.dstore.elastic.Elastic.Sort.ScoreSort.Builder subBuilder = null;
+              if (sortByCase_ == 2) {
+                subBuilder = ((io.dstore.elastic.Elastic.Sort.ScoreSort) sortBy_).toBuilder();
+              }
+              sortBy_ =
+                  input.readMessage(io.dstore.elastic.Elastic.Sort.ScoreSort.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((io.dstore.elastic.Elastic.Sort.ScoreSort) sortBy_);
+                sortBy_ = subBuilder.buildPartial();
+              }
+              sortByCase_ = 2;
               break;
             }
           }
@@ -3829,9 +7144,6 @@ public final class Elastic {
             new com.google.protobuf.InvalidProtocolBufferException(
                 e.getMessage()).setUnfinishedMessage(this));
       } finally {
-        if (((mutable_bitField0_ & 0x00000020) == 0x00000020)) {
-          nestedFilter_ = java.util.Collections.unmodifiableList(nestedFilter_);
-        }
         makeExtensionsImmutable();
       }
     }
@@ -4037,48 +7349,56 @@ public final class Elastic {
     public enum Mode
         implements com.google.protobuf.ProtocolMessageEnum {
       /**
-       * <code>MIN = 0;</code>
+       * <code>UNDEFINED = 0;</code>
        */
-      MIN(0, 0),
+      UNDEFINED(0, 0),
       /**
-       * <code>MAX = 1;</code>
+       * <code>MIN = 1;</code>
        */
-      MAX(1, 1),
+      MIN(1, 1),
       /**
-       * <code>SUM = 2;</code>
+       * <code>MAX = 2;</code>
        */
-      SUM(2, 2),
+      MAX(2, 2),
       /**
-       * <code>AVG = 3;</code>
+       * <code>SUM = 3;</code>
        */
-      AVG(3, 3),
+      SUM(3, 3),
       /**
-       * <code>MEDIAN = 4;</code>
+       * <code>AVG = 4;</code>
        */
-      MEDIAN(4, 4),
+      AVG(4, 4),
+      /**
+       * <code>MEDIAN = 5;</code>
+       */
+      MEDIAN(5, 5),
       UNRECOGNIZED(-1, -1),
       ;
 
       /**
-       * <code>MIN = 0;</code>
+       * <code>UNDEFINED = 0;</code>
        */
-      public static final int MIN_VALUE = 0;
+      public static final int UNDEFINED_VALUE = 0;
       /**
-       * <code>MAX = 1;</code>
+       * <code>MIN = 1;</code>
        */
-      public static final int MAX_VALUE = 1;
+      public static final int MIN_VALUE = 1;
       /**
-       * <code>SUM = 2;</code>
+       * <code>MAX = 2;</code>
        */
-      public static final int SUM_VALUE = 2;
+      public static final int MAX_VALUE = 2;
       /**
-       * <code>AVG = 3;</code>
+       * <code>SUM = 3;</code>
        */
-      public static final int AVG_VALUE = 3;
+      public static final int SUM_VALUE = 3;
       /**
-       * <code>MEDIAN = 4;</code>
+       * <code>AVG = 4;</code>
        */
-      public static final int MEDIAN_VALUE = 4;
+      public static final int AVG_VALUE = 4;
+      /**
+       * <code>MEDIAN = 5;</code>
+       */
+      public static final int MEDIAN_VALUE = 5;
 
 
       public final int getNumber() {
@@ -4091,11 +7411,12 @@ public final class Elastic {
 
       public static Mode valueOf(int value) {
         switch (value) {
-          case 0: return MIN;
-          case 1: return MAX;
-          case 2: return SUM;
-          case 3: return AVG;
-          case 4: return MEDIAN;
+          case 0: return UNDEFINED;
+          case 1: return MIN;
+          case 2: return MAX;
+          case 3: return SUM;
+          case 4: return AVG;
+          case 5: return MEDIAN;
           default: return null;
         }
       }
@@ -4150,13 +7471,1520 @@ public final class Elastic {
       // @@protoc_insertion_point(enum_scope:dstore.elastic.Sort.Mode)
     }
 
-    private int bitField0_;
+    public interface ScoreSortOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:dstore.elastic.Sort.ScoreSort)
+        com.google.protobuf.MessageOrBuilder {
+    }
+    /**
+     * Protobuf type {@code dstore.elastic.Sort.ScoreSort}
+     */
+    public  static final class ScoreSort extends
+        com.google.protobuf.GeneratedMessage implements
+        // @@protoc_insertion_point(message_implements:dstore.elastic.Sort.ScoreSort)
+        ScoreSortOrBuilder {
+      // Use ScoreSort.newBuilder() to construct.
+      private ScoreSort(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+        super(builder);
+      }
+      private ScoreSort() {
+      }
+
+      @java.lang.Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+      }
+      private ScoreSort(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        this();
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              default: {
+                if (!input.skipField(tag)) {
+                  done = true;
+                }
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw new RuntimeException(e.setUnfinishedMessage(this));
+        } catch (java.io.IOException e) {
+          throw new RuntimeException(
+              new com.google.protobuf.InvalidProtocolBufferException(
+                  e.getMessage()).setUnfinishedMessage(this));
+        } finally {
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_ScoreSort_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_ScoreSort_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                io.dstore.elastic.Elastic.Sort.ScoreSort.class, io.dstore.elastic.Elastic.Sort.ScoreSort.Builder.class);
+      }
+
+      private byte memoizedIsInitialized = -1;
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+      }
+
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        memoizedSize = size;
+        return size;
+      }
+
+      private static final long serialVersionUID = 0L;
+      public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Sort.ScoreSort parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input);
+      }
+      public static io.dstore.elastic.Elastic.Sort.ScoreSort parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.Elastic.Sort.ScoreSort parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(io.dstore.elastic.Elastic.Sort.ScoreSort prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @java.lang.Override
+      protected Builder newBuilderForType(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code dstore.elastic.Sort.ScoreSort}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:dstore.elastic.Sort.ScoreSort)
+          io.dstore.elastic.Elastic.Sort.ScoreSortOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_ScoreSort_descriptor;
+        }
+
+        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_ScoreSort_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  io.dstore.elastic.Elastic.Sort.ScoreSort.class, io.dstore.elastic.Elastic.Sort.ScoreSort.Builder.class);
+        }
+
+        // Construct using io.dstore.elastic.Elastic.Sort.ScoreSort.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          }
+        }
+        public Builder clear() {
+          super.clear();
+          return this;
+        }
+
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_ScoreSort_descriptor;
+        }
+
+        public io.dstore.elastic.Elastic.Sort.ScoreSort getDefaultInstanceForType() {
+          return io.dstore.elastic.Elastic.Sort.ScoreSort.getDefaultInstance();
+        }
+
+        public io.dstore.elastic.Elastic.Sort.ScoreSort build() {
+          io.dstore.elastic.Elastic.Sort.ScoreSort result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        public io.dstore.elastic.Elastic.Sort.ScoreSort buildPartial() {
+          io.dstore.elastic.Elastic.Sort.ScoreSort result = new io.dstore.elastic.Elastic.Sort.ScoreSort(this);
+          onBuilt();
+          return result;
+        }
+
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof io.dstore.elastic.Elastic.Sort.ScoreSort) {
+            return mergeFrom((io.dstore.elastic.Elastic.Sort.ScoreSort)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(io.dstore.elastic.Elastic.Sort.ScoreSort other) {
+          if (other == io.dstore.elastic.Elastic.Sort.ScoreSort.getDefaultInstance()) return this;
+          onChanged();
+          return this;
+        }
+
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          io.dstore.elastic.Elastic.Sort.ScoreSort parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (io.dstore.elastic.Elastic.Sort.ScoreSort) e.getUnfinishedMessage();
+            throw e;
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:dstore.elastic.Sort.ScoreSort)
+      }
+
+      // @@protoc_insertion_point(class_scope:dstore.elastic.Sort.ScoreSort)
+      private static final io.dstore.elastic.Elastic.Sort.ScoreSort DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new io.dstore.elastic.Elastic.Sort.ScoreSort();
+      }
+
+      public static io.dstore.elastic.Elastic.Sort.ScoreSort getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<ScoreSort>
+          PARSER = new com.google.protobuf.AbstractParser<ScoreSort>() {
+        public ScoreSort parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          try {
+            return new ScoreSort(input, extensionRegistry);
+          } catch (RuntimeException e) {
+            if (e.getCause() instanceof
+                com.google.protobuf.InvalidProtocolBufferException) {
+              throw (com.google.protobuf.InvalidProtocolBufferException)
+                  e.getCause();
+            }
+            throw e;
+          }
+        }
+      };
+
+      public static com.google.protobuf.Parser<ScoreSort> parser() {
+        return PARSER;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Parser<ScoreSort> getParserForType() {
+        return PARSER;
+      }
+
+      public io.dstore.elastic.Elastic.Sort.ScoreSort getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
+    public interface FieldSortOrBuilder extends
+        // @@protoc_insertion_point(interface_extends:dstore.elastic.Sort.FieldSort)
+        com.google.protobuf.MessageOrBuilder {
+
+      /**
+       * <code>optional string field_name = 1;</code>
+       */
+      java.lang.String getFieldName();
+      /**
+       * <code>optional string field_name = 1;</code>
+       */
+      com.google.protobuf.ByteString
+          getFieldNameBytes();
+
+      /**
+       * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+       */
+      int getSortOrderValue();
+      /**
+       * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+       */
+      io.dstore.elastic.Elastic.Sort.Order getSortOrder();
+
+      /**
+       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+       */
+      int getMissingTreatmentValue();
+      /**
+       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+       */
+      io.dstore.elastic.Elastic.Sort.Missing getMissingTreatment();
+
+      /**
+       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+       */
+      int getSortModeValue();
+      /**
+       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+       */
+      io.dstore.elastic.Elastic.Sort.Mode getSortMode();
+
+      /**
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+       *
+       * <pre>
+       * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+       * </pre>
+       */
+      java.util.List<io.dstore.elastic.Elastic.Query> 
+          getNestedFilterList();
+      /**
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+       *
+       * <pre>
+       * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+       * </pre>
+       */
+      io.dstore.elastic.Elastic.Query getNestedFilter(int index);
+      /**
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+       *
+       * <pre>
+       * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+       * </pre>
+       */
+      int getNestedFilterCount();
+      /**
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+       *
+       * <pre>
+       * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+       * </pre>
+       */
+      java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+          getNestedFilterOrBuilderList();
+      /**
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+       *
+       * <pre>
+       * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+       * </pre>
+       */
+      io.dstore.elastic.Elastic.QueryOrBuilder getNestedFilterOrBuilder(
+          int index);
+    }
+    /**
+     * Protobuf type {@code dstore.elastic.Sort.FieldSort}
+     */
+    public  static final class FieldSort extends
+        com.google.protobuf.GeneratedMessage implements
+        // @@protoc_insertion_point(message_implements:dstore.elastic.Sort.FieldSort)
+        FieldSortOrBuilder {
+      // Use FieldSort.newBuilder() to construct.
+      private FieldSort(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+        super(builder);
+      }
+      private FieldSort() {
+        fieldName_ = "";
+        sortOrder_ = 0;
+        missingTreatment_ = 0;
+        sortMode_ = 0;
+        nestedFilter_ = java.util.Collections.emptyList();
+      }
+
+      @java.lang.Override
+      public final com.google.protobuf.UnknownFieldSet
+      getUnknownFields() {
+        return com.google.protobuf.UnknownFieldSet.getDefaultInstance();
+      }
+      private FieldSort(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry) {
+        this();
+        int mutable_bitField0_ = 0;
+        try {
+          boolean done = false;
+          while (!done) {
+            int tag = input.readTag();
+            switch (tag) {
+              case 0:
+                done = true;
+                break;
+              default: {
+                if (!input.skipField(tag)) {
+                  done = true;
+                }
+                break;
+              }
+              case 10: {
+                String s = input.readStringRequireUtf8();
+
+                fieldName_ = s;
+                break;
+              }
+              case 16: {
+                int rawValue = input.readEnum();
+
+                sortOrder_ = rawValue;
+                break;
+              }
+              case 24: {
+                int rawValue = input.readEnum();
+
+                missingTreatment_ = rawValue;
+                break;
+              }
+              case 32: {
+                int rawValue = input.readEnum();
+
+                sortMode_ = rawValue;
+                break;
+              }
+              case 42: {
+                if (!((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
+                  nestedFilter_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>();
+                  mutable_bitField0_ |= 0x00000010;
+                }
+                nestedFilter_.add(input.readMessage(io.dstore.elastic.Elastic.Query.parser(), extensionRegistry));
+                break;
+              }
+            }
+          }
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          throw new RuntimeException(e.setUnfinishedMessage(this));
+        } catch (java.io.IOException e) {
+          throw new RuntimeException(
+              new com.google.protobuf.InvalidProtocolBufferException(
+                  e.getMessage()).setUnfinishedMessage(this));
+        } finally {
+          if (((mutable_bitField0_ & 0x00000010) == 0x00000010)) {
+            nestedFilter_ = java.util.Collections.unmodifiableList(nestedFilter_);
+          }
+          makeExtensionsImmutable();
+        }
+      }
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_FieldSort_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_FieldSort_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                io.dstore.elastic.Elastic.Sort.FieldSort.class, io.dstore.elastic.Elastic.Sort.FieldSort.Builder.class);
+      }
+
+      private int bitField0_;
+      public static final int FIELD_NAME_FIELD_NUMBER = 1;
+      private volatile java.lang.Object fieldName_;
+      /**
+       * <code>optional string field_name = 1;</code>
+       */
+      public java.lang.String getFieldName() {
+        java.lang.Object ref = fieldName_;
+        if (ref instanceof java.lang.String) {
+          return (java.lang.String) ref;
+        } else {
+          com.google.protobuf.ByteString bs = 
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          fieldName_ = s;
+          return s;
+        }
+      }
+      /**
+       * <code>optional string field_name = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getFieldNameBytes() {
+        java.lang.Object ref = fieldName_;
+        if (ref instanceof java.lang.String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          fieldName_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+
+      public static final int SORT_ORDER_FIELD_NUMBER = 2;
+      private int sortOrder_;
+      /**
+       * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+       */
+      public int getSortOrderValue() {
+        return sortOrder_;
+      }
+      /**
+       * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+       */
+      public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
+        io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
+        return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
+      }
+
+      public static final int MISSING_TREATMENT_FIELD_NUMBER = 3;
+      private int missingTreatment_;
+      /**
+       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+       */
+      public int getMissingTreatmentValue() {
+        return missingTreatment_;
+      }
+      /**
+       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+       */
+      public io.dstore.elastic.Elastic.Sort.Missing getMissingTreatment() {
+        io.dstore.elastic.Elastic.Sort.Missing result = io.dstore.elastic.Elastic.Sort.Missing.valueOf(missingTreatment_);
+        return result == null ? io.dstore.elastic.Elastic.Sort.Missing.UNRECOGNIZED : result;
+      }
+
+      public static final int SORT_MODE_FIELD_NUMBER = 4;
+      private int sortMode_;
+      /**
+       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+       */
+      public int getSortModeValue() {
+        return sortMode_;
+      }
+      /**
+       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+       */
+      public io.dstore.elastic.Elastic.Sort.Mode getSortMode() {
+        io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.valueOf(sortMode_);
+        return result == null ? io.dstore.elastic.Elastic.Sort.Mode.UNRECOGNIZED : result;
+      }
+
+      public static final int NESTED_FILTER_FIELD_NUMBER = 5;
+      private java.util.List<io.dstore.elastic.Elastic.Query> nestedFilter_;
+      /**
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+       *
+       * <pre>
+       * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+       * </pre>
+       */
+      public java.util.List<io.dstore.elastic.Elastic.Query> getNestedFilterList() {
+        return nestedFilter_;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+       *
+       * <pre>
+       * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+       * </pre>
+       */
+      public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+          getNestedFilterOrBuilderList() {
+        return nestedFilter_;
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+       *
+       * <pre>
+       * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+       * </pre>
+       */
+      public int getNestedFilterCount() {
+        return nestedFilter_.size();
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+       *
+       * <pre>
+       * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+       * </pre>
+       */
+      public io.dstore.elastic.Elastic.Query getNestedFilter(int index) {
+        return nestedFilter_.get(index);
+      }
+      /**
+       * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+       *
+       * <pre>
+       * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+       * </pre>
+       */
+      public io.dstore.elastic.Elastic.QueryOrBuilder getNestedFilterOrBuilder(
+          int index) {
+        return nestedFilter_.get(index);
+      }
+
+      private byte memoizedIsInitialized = -1;
+      public final boolean isInitialized() {
+        byte isInitialized = memoizedIsInitialized;
+        if (isInitialized == 1) return true;
+        if (isInitialized == 0) return false;
+
+        memoizedIsInitialized = 1;
+        return true;
+      }
+
+      public void writeTo(com.google.protobuf.CodedOutputStream output)
+                          throws java.io.IOException {
+        if (!getFieldNameBytes().isEmpty()) {
+          com.google.protobuf.GeneratedMessage.writeString(output, 1, fieldName_);
+        }
+        if (sortOrder_ != io.dstore.elastic.Elastic.Sort.Order.ASCENDING.getNumber()) {
+          output.writeEnum(2, sortOrder_);
+        }
+        if (missingTreatment_ != io.dstore.elastic.Elastic.Sort.Missing.LAST.getNumber()) {
+          output.writeEnum(3, missingTreatment_);
+        }
+        if (sortMode_ != io.dstore.elastic.Elastic.Sort.Mode.UNDEFINED.getNumber()) {
+          output.writeEnum(4, sortMode_);
+        }
+        for (int i = 0; i < nestedFilter_.size(); i++) {
+          output.writeMessage(5, nestedFilter_.get(i));
+        }
+      }
+
+      public int getSerializedSize() {
+        int size = memoizedSize;
+        if (size != -1) return size;
+
+        size = 0;
+        if (!getFieldNameBytes().isEmpty()) {
+          size += com.google.protobuf.GeneratedMessage.computeStringSize(1, fieldName_);
+        }
+        if (sortOrder_ != io.dstore.elastic.Elastic.Sort.Order.ASCENDING.getNumber()) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeEnumSize(2, sortOrder_);
+        }
+        if (missingTreatment_ != io.dstore.elastic.Elastic.Sort.Missing.LAST.getNumber()) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeEnumSize(3, missingTreatment_);
+        }
+        if (sortMode_ != io.dstore.elastic.Elastic.Sort.Mode.UNDEFINED.getNumber()) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeEnumSize(4, sortMode_);
+        }
+        for (int i = 0; i < nestedFilter_.size(); i++) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(5, nestedFilter_.get(i));
+        }
+        memoizedSize = size;
+        return size;
+      }
+
+      private static final long serialVersionUID = 0L;
+      public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(
+          com.google.protobuf.ByteString data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(
+          com.google.protobuf.ByteString data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(byte[] data)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data);
+      }
+      public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(
+          byte[] data,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return PARSER.parseFrom(data, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Sort.FieldSort parseDelimitedFrom(java.io.InputStream input)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input);
+      }
+      public static io.dstore.elastic.Elastic.Sort.FieldSort parseDelimitedFrom(
+          java.io.InputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseDelimitedFrom(input, extensionRegistry);
+      }
+      public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(
+          com.google.protobuf.CodedInputStream input)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input);
+      }
+      public static io.dstore.elastic.Elastic.Sort.FieldSort parseFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        return PARSER.parseFrom(input, extensionRegistry);
+      }
+
+      public Builder newBuilderForType() { return newBuilder(); }
+      public static Builder newBuilder() {
+        return DEFAULT_INSTANCE.toBuilder();
+      }
+      public static Builder newBuilder(io.dstore.elastic.Elastic.Sort.FieldSort prototype) {
+        return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+      }
+      public Builder toBuilder() {
+        return this == DEFAULT_INSTANCE
+            ? new Builder() : new Builder().mergeFrom(this);
+      }
+
+      @java.lang.Override
+      protected Builder newBuilderForType(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        Builder builder = new Builder(parent);
+        return builder;
+      }
+      /**
+       * Protobuf type {@code dstore.elastic.Sort.FieldSort}
+       */
+      public static final class Builder extends
+          com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+          // @@protoc_insertion_point(builder_implements:dstore.elastic.Sort.FieldSort)
+          io.dstore.elastic.Elastic.Sort.FieldSortOrBuilder {
+        public static final com.google.protobuf.Descriptors.Descriptor
+            getDescriptor() {
+          return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_FieldSort_descriptor;
+        }
+
+        protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+            internalGetFieldAccessorTable() {
+          return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_FieldSort_fieldAccessorTable
+              .ensureFieldAccessorsInitialized(
+                  io.dstore.elastic.Elastic.Sort.FieldSort.class, io.dstore.elastic.Elastic.Sort.FieldSort.Builder.class);
+        }
+
+        // Construct using io.dstore.elastic.Elastic.Sort.FieldSort.newBuilder()
+        private Builder() {
+          maybeForceBuilderInitialization();
+        }
+
+        private Builder(
+            com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+          super(parent);
+          maybeForceBuilderInitialization();
+        }
+        private void maybeForceBuilderInitialization() {
+          if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+            getNestedFilterFieldBuilder();
+          }
+        }
+        public Builder clear() {
+          super.clear();
+          fieldName_ = "";
+
+          sortOrder_ = 0;
+
+          missingTreatment_ = 0;
+
+          sortMode_ = 0;
+
+          if (nestedFilterBuilder_ == null) {
+            nestedFilter_ = java.util.Collections.emptyList();
+            bitField0_ = (bitField0_ & ~0x00000010);
+          } else {
+            nestedFilterBuilder_.clear();
+          }
+          return this;
+        }
+
+        public com.google.protobuf.Descriptors.Descriptor
+            getDescriptorForType() {
+          return io.dstore.elastic.Elastic.internal_static_dstore_elastic_Sort_FieldSort_descriptor;
+        }
+
+        public io.dstore.elastic.Elastic.Sort.FieldSort getDefaultInstanceForType() {
+          return io.dstore.elastic.Elastic.Sort.FieldSort.getDefaultInstance();
+        }
+
+        public io.dstore.elastic.Elastic.Sort.FieldSort build() {
+          io.dstore.elastic.Elastic.Sort.FieldSort result = buildPartial();
+          if (!result.isInitialized()) {
+            throw newUninitializedMessageException(result);
+          }
+          return result;
+        }
+
+        public io.dstore.elastic.Elastic.Sort.FieldSort buildPartial() {
+          io.dstore.elastic.Elastic.Sort.FieldSort result = new io.dstore.elastic.Elastic.Sort.FieldSort(this);
+          int from_bitField0_ = bitField0_;
+          int to_bitField0_ = 0;
+          result.fieldName_ = fieldName_;
+          result.sortOrder_ = sortOrder_;
+          result.missingTreatment_ = missingTreatment_;
+          result.sortMode_ = sortMode_;
+          if (nestedFilterBuilder_ == null) {
+            if (((bitField0_ & 0x00000010) == 0x00000010)) {
+              nestedFilter_ = java.util.Collections.unmodifiableList(nestedFilter_);
+              bitField0_ = (bitField0_ & ~0x00000010);
+            }
+            result.nestedFilter_ = nestedFilter_;
+          } else {
+            result.nestedFilter_ = nestedFilterBuilder_.build();
+          }
+          result.bitField0_ = to_bitField0_;
+          onBuilt();
+          return result;
+        }
+
+        public Builder mergeFrom(com.google.protobuf.Message other) {
+          if (other instanceof io.dstore.elastic.Elastic.Sort.FieldSort) {
+            return mergeFrom((io.dstore.elastic.Elastic.Sort.FieldSort)other);
+          } else {
+            super.mergeFrom(other);
+            return this;
+          }
+        }
+
+        public Builder mergeFrom(io.dstore.elastic.Elastic.Sort.FieldSort other) {
+          if (other == io.dstore.elastic.Elastic.Sort.FieldSort.getDefaultInstance()) return this;
+          if (!other.getFieldName().isEmpty()) {
+            fieldName_ = other.fieldName_;
+            onChanged();
+          }
+          if (other.sortOrder_ != 0) {
+            setSortOrderValue(other.getSortOrderValue());
+          }
+          if (other.missingTreatment_ != 0) {
+            setMissingTreatmentValue(other.getMissingTreatmentValue());
+          }
+          if (other.sortMode_ != 0) {
+            setSortModeValue(other.getSortModeValue());
+          }
+          if (nestedFilterBuilder_ == null) {
+            if (!other.nestedFilter_.isEmpty()) {
+              if (nestedFilter_.isEmpty()) {
+                nestedFilter_ = other.nestedFilter_;
+                bitField0_ = (bitField0_ & ~0x00000010);
+              } else {
+                ensureNestedFilterIsMutable();
+                nestedFilter_.addAll(other.nestedFilter_);
+              }
+              onChanged();
+            }
+          } else {
+            if (!other.nestedFilter_.isEmpty()) {
+              if (nestedFilterBuilder_.isEmpty()) {
+                nestedFilterBuilder_.dispose();
+                nestedFilterBuilder_ = null;
+                nestedFilter_ = other.nestedFilter_;
+                bitField0_ = (bitField0_ & ~0x00000010);
+                nestedFilterBuilder_ = 
+                  com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
+                     getNestedFilterFieldBuilder() : null;
+              } else {
+                nestedFilterBuilder_.addAllMessages(other.nestedFilter_);
+              }
+            }
+          }
+          onChanged();
+          return this;
+        }
+
+        public final boolean isInitialized() {
+          return true;
+        }
+
+        public Builder mergeFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws java.io.IOException {
+          io.dstore.elastic.Elastic.Sort.FieldSort parsedMessage = null;
+          try {
+            parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+          } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+            parsedMessage = (io.dstore.elastic.Elastic.Sort.FieldSort) e.getUnfinishedMessage();
+            throw e;
+          } finally {
+            if (parsedMessage != null) {
+              mergeFrom(parsedMessage);
+            }
+          }
+          return this;
+        }
+        private int bitField0_;
+
+        private java.lang.Object fieldName_ = "";
+        /**
+         * <code>optional string field_name = 1;</code>
+         */
+        public java.lang.String getFieldName() {
+          java.lang.Object ref = fieldName_;
+          if (!(ref instanceof java.lang.String)) {
+            com.google.protobuf.ByteString bs =
+                (com.google.protobuf.ByteString) ref;
+            java.lang.String s = bs.toStringUtf8();
+            fieldName_ = s;
+            return s;
+          } else {
+            return (java.lang.String) ref;
+          }
+        }
+        /**
+         * <code>optional string field_name = 1;</code>
+         */
+        public com.google.protobuf.ByteString
+            getFieldNameBytes() {
+          java.lang.Object ref = fieldName_;
+          if (ref instanceof String) {
+            com.google.protobuf.ByteString b = 
+                com.google.protobuf.ByteString.copyFromUtf8(
+                    (java.lang.String) ref);
+            fieldName_ = b;
+            return b;
+          } else {
+            return (com.google.protobuf.ByteString) ref;
+          }
+        }
+        /**
+         * <code>optional string field_name = 1;</code>
+         */
+        public Builder setFieldName(
+            java.lang.String value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  
+          fieldName_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string field_name = 1;</code>
+         */
+        public Builder clearFieldName() {
+          
+          fieldName_ = getDefaultInstance().getFieldName();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional string field_name = 1;</code>
+         */
+        public Builder setFieldNameBytes(
+            com.google.protobuf.ByteString value) {
+          if (value == null) {
+    throw new NullPointerException();
+  }
+  checkByteStringIsUtf8(value);
+          
+          fieldName_ = value;
+          onChanged();
+          return this;
+        }
+
+        private int sortOrder_ = 0;
+        /**
+         * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+         */
+        public int getSortOrderValue() {
+          return sortOrder_;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+         */
+        public Builder setSortOrderValue(int value) {
+          sortOrder_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+         */
+        public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
+          io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
+          return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+         */
+        public Builder setSortOrder(io.dstore.elastic.Elastic.Sort.Order value) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          
+          sortOrder_ = value.getNumber();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Order sort_order = 2;</code>
+         */
+        public Builder clearSortOrder() {
+          
+          sortOrder_ = 0;
+          onChanged();
+          return this;
+        }
+
+        private int missingTreatment_ = 0;
+        /**
+         * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+         */
+        public int getMissingTreatmentValue() {
+          return missingTreatment_;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+         */
+        public Builder setMissingTreatmentValue(int value) {
+          missingTreatment_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+         */
+        public io.dstore.elastic.Elastic.Sort.Missing getMissingTreatment() {
+          io.dstore.elastic.Elastic.Sort.Missing result = io.dstore.elastic.Elastic.Sort.Missing.valueOf(missingTreatment_);
+          return result == null ? io.dstore.elastic.Elastic.Sort.Missing.UNRECOGNIZED : result;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+         */
+        public Builder setMissingTreatment(io.dstore.elastic.Elastic.Sort.Missing value) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          
+          missingTreatment_ = value.getNumber();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 3;</code>
+         */
+        public Builder clearMissingTreatment() {
+          
+          missingTreatment_ = 0;
+          onChanged();
+          return this;
+        }
+
+        private int sortMode_ = 0;
+        /**
+         * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+         */
+        public int getSortModeValue() {
+          return sortMode_;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+         */
+        public Builder setSortModeValue(int value) {
+          sortMode_ = value;
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+         */
+        public io.dstore.elastic.Elastic.Sort.Mode getSortMode() {
+          io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.valueOf(sortMode_);
+          return result == null ? io.dstore.elastic.Elastic.Sort.Mode.UNRECOGNIZED : result;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+         */
+        public Builder setSortMode(io.dstore.elastic.Elastic.Sort.Mode value) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          
+          sortMode_ = value.getNumber();
+          onChanged();
+          return this;
+        }
+        /**
+         * <code>optional .dstore.elastic.Sort.Mode sort_mode = 4;</code>
+         */
+        public Builder clearSortMode() {
+          
+          sortMode_ = 0;
+          onChanged();
+          return this;
+        }
+
+        private java.util.List<io.dstore.elastic.Elastic.Query> nestedFilter_ =
+          java.util.Collections.emptyList();
+        private void ensureNestedFilterIsMutable() {
+          if (!((bitField0_ & 0x00000010) == 0x00000010)) {
+            nestedFilter_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>(nestedFilter_);
+            bitField0_ |= 0x00000010;
+           }
+        }
+
+        private com.google.protobuf.RepeatedFieldBuilder<
+            io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> nestedFilterBuilder_;
+
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public java.util.List<io.dstore.elastic.Elastic.Query> getNestedFilterList() {
+          if (nestedFilterBuilder_ == null) {
+            return java.util.Collections.unmodifiableList(nestedFilter_);
+          } else {
+            return nestedFilterBuilder_.getMessageList();
+          }
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public int getNestedFilterCount() {
+          if (nestedFilterBuilder_ == null) {
+            return nestedFilter_.size();
+          } else {
+            return nestedFilterBuilder_.getCount();
+          }
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public io.dstore.elastic.Elastic.Query getNestedFilter(int index) {
+          if (nestedFilterBuilder_ == null) {
+            return nestedFilter_.get(index);
+          } else {
+            return nestedFilterBuilder_.getMessage(index);
+          }
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public Builder setNestedFilter(
+            int index, io.dstore.elastic.Elastic.Query value) {
+          if (nestedFilterBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            ensureNestedFilterIsMutable();
+            nestedFilter_.set(index, value);
+            onChanged();
+          } else {
+            nestedFilterBuilder_.setMessage(index, value);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public Builder setNestedFilter(
+            int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+          if (nestedFilterBuilder_ == null) {
+            ensureNestedFilterIsMutable();
+            nestedFilter_.set(index, builderForValue.build());
+            onChanged();
+          } else {
+            nestedFilterBuilder_.setMessage(index, builderForValue.build());
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public Builder addNestedFilter(io.dstore.elastic.Elastic.Query value) {
+          if (nestedFilterBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            ensureNestedFilterIsMutable();
+            nestedFilter_.add(value);
+            onChanged();
+          } else {
+            nestedFilterBuilder_.addMessage(value);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public Builder addNestedFilter(
+            int index, io.dstore.elastic.Elastic.Query value) {
+          if (nestedFilterBuilder_ == null) {
+            if (value == null) {
+              throw new NullPointerException();
+            }
+            ensureNestedFilterIsMutable();
+            nestedFilter_.add(index, value);
+            onChanged();
+          } else {
+            nestedFilterBuilder_.addMessage(index, value);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public Builder addNestedFilter(
+            io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+          if (nestedFilterBuilder_ == null) {
+            ensureNestedFilterIsMutable();
+            nestedFilter_.add(builderForValue.build());
+            onChanged();
+          } else {
+            nestedFilterBuilder_.addMessage(builderForValue.build());
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public Builder addNestedFilter(
+            int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
+          if (nestedFilterBuilder_ == null) {
+            ensureNestedFilterIsMutable();
+            nestedFilter_.add(index, builderForValue.build());
+            onChanged();
+          } else {
+            nestedFilterBuilder_.addMessage(index, builderForValue.build());
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public Builder addAllNestedFilter(
+            java.lang.Iterable<? extends io.dstore.elastic.Elastic.Query> values) {
+          if (nestedFilterBuilder_ == null) {
+            ensureNestedFilterIsMutable();
+            com.google.protobuf.AbstractMessageLite.Builder.addAll(
+                values, nestedFilter_);
+            onChanged();
+          } else {
+            nestedFilterBuilder_.addAllMessages(values);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public Builder clearNestedFilter() {
+          if (nestedFilterBuilder_ == null) {
+            nestedFilter_ = java.util.Collections.emptyList();
+            bitField0_ = (bitField0_ & ~0x00000010);
+            onChanged();
+          } else {
+            nestedFilterBuilder_.clear();
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public Builder removeNestedFilter(int index) {
+          if (nestedFilterBuilder_ == null) {
+            ensureNestedFilterIsMutable();
+            nestedFilter_.remove(index);
+            onChanged();
+          } else {
+            nestedFilterBuilder_.remove(index);
+          }
+          return this;
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public io.dstore.elastic.Elastic.Query.Builder getNestedFilterBuilder(
+            int index) {
+          return getNestedFilterFieldBuilder().getBuilder(index);
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public io.dstore.elastic.Elastic.QueryOrBuilder getNestedFilterOrBuilder(
+            int index) {
+          if (nestedFilterBuilder_ == null) {
+            return nestedFilter_.get(index);  } else {
+            return nestedFilterBuilder_.getMessageOrBuilder(index);
+          }
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
+             getNestedFilterOrBuilderList() {
+          if (nestedFilterBuilder_ != null) {
+            return nestedFilterBuilder_.getMessageOrBuilderList();
+          } else {
+            return java.util.Collections.unmodifiableList(nestedFilter_);
+          }
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public io.dstore.elastic.Elastic.Query.Builder addNestedFilterBuilder() {
+          return getNestedFilterFieldBuilder().addBuilder(
+              io.dstore.elastic.Elastic.Query.getDefaultInstance());
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public io.dstore.elastic.Elastic.Query.Builder addNestedFilterBuilder(
+            int index) {
+          return getNestedFilterFieldBuilder().addBuilder(
+              index, io.dstore.elastic.Elastic.Query.getDefaultInstance());
+        }
+        /**
+         * <code>repeated .dstore.elastic.Query nested_filter = 5;</code>
+         *
+         * <pre>
+         * Not yet supported: A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
+         * </pre>
+         */
+        public java.util.List<io.dstore.elastic.Elastic.Query.Builder> 
+             getNestedFilterBuilderList() {
+          return getNestedFilterFieldBuilder().getBuilderList();
+        }
+        private com.google.protobuf.RepeatedFieldBuilder<
+            io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> 
+            getNestedFilterFieldBuilder() {
+          if (nestedFilterBuilder_ == null) {
+            nestedFilterBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
+                io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder>(
+                    nestedFilter_,
+                    ((bitField0_ & 0x00000010) == 0x00000010),
+                    getParentForChildren(),
+                    isClean());
+            nestedFilter_ = null;
+          }
+          return nestedFilterBuilder_;
+        }
+        public final Builder setUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+        public final Builder mergeUnknownFields(
+            final com.google.protobuf.UnknownFieldSet unknownFields) {
+          return this;
+        }
+
+
+        // @@protoc_insertion_point(builder_scope:dstore.elastic.Sort.FieldSort)
+      }
+
+      // @@protoc_insertion_point(class_scope:dstore.elastic.Sort.FieldSort)
+      private static final io.dstore.elastic.Elastic.Sort.FieldSort DEFAULT_INSTANCE;
+      static {
+        DEFAULT_INSTANCE = new io.dstore.elastic.Elastic.Sort.FieldSort();
+      }
+
+      public static io.dstore.elastic.Elastic.Sort.FieldSort getDefaultInstance() {
+        return DEFAULT_INSTANCE;
+      }
+
+      private static final com.google.protobuf.Parser<FieldSort>
+          PARSER = new com.google.protobuf.AbstractParser<FieldSort>() {
+        public FieldSort parsePartialFrom(
+            com.google.protobuf.CodedInputStream input,
+            com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+            throws com.google.protobuf.InvalidProtocolBufferException {
+          try {
+            return new FieldSort(input, extensionRegistry);
+          } catch (RuntimeException e) {
+            if (e.getCause() instanceof
+                com.google.protobuf.InvalidProtocolBufferException) {
+              throw (com.google.protobuf.InvalidProtocolBufferException)
+                  e.getCause();
+            }
+            throw e;
+          }
+        }
+      };
+
+      public static com.google.protobuf.Parser<FieldSort> parser() {
+        return PARSER;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Parser<FieldSort> getParserForType() {
+        return PARSER;
+      }
+
+      public io.dstore.elastic.Elastic.Sort.FieldSort getDefaultInstanceForType() {
+        return DEFAULT_INSTANCE;
+      }
+
+    }
+
     private int sortByCase_ = 0;
     private java.lang.Object sortBy_;
     public enum SortByCase
         implements com.google.protobuf.Internal.EnumLite {
-      FIELD_NAME(1),
-      SCORE(2),
+      FIELD_SORT(1),
+      SCORE_SORT(2),
       SORTBY_NOT_SET(0);
       private int value = 0;
       private SortByCase(int value) {
@@ -4164,8 +8992,8 @@ public final class Elastic {
       }
       public static SortByCase valueOf(int value) {
         switch (value) {
-          case 1: return FIELD_NAME;
-          case 2: return SCORE;
+          case 1: return FIELD_SORT;
+          case 2: return SCORE_SORT;
           case 0: return SORTBY_NOT_SET;
           default: throw new java.lang.IllegalArgumentException(
             "Value is undefined for this oneof enum.");
@@ -4182,165 +9010,44 @@ public final class Elastic {
           sortByCase_);
     }
 
-    public static final int FIELD_NAME_FIELD_NUMBER = 1;
+    public static final int FIELD_SORT_FIELD_NUMBER = 1;
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
-    public java.lang.String getFieldName() {
-      java.lang.Object ref = "";
+    public io.dstore.elastic.Elastic.Sort.FieldSort getFieldSort() {
       if (sortByCase_ == 1) {
-        ref = sortBy_;
+         return (io.dstore.elastic.Elastic.Sort.FieldSort) sortBy_;
       }
-      if (ref instanceof java.lang.String) {
-        return (java.lang.String) ref;
-      } else {
-        com.google.protobuf.ByteString bs = 
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        if (sortByCase_ == 1) {
-          sortBy_ = s;
-        }
-        return s;
-      }
+      return io.dstore.elastic.Elastic.Sort.FieldSort.getDefaultInstance();
     }
     /**
-     * <code>optional string field_name = 1;</code>
+     * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
      */
-    public com.google.protobuf.ByteString
-        getFieldNameBytes() {
-      java.lang.Object ref = "";
+    public io.dstore.elastic.Elastic.Sort.FieldSortOrBuilder getFieldSortOrBuilder() {
       if (sortByCase_ == 1) {
-        ref = sortBy_;
+         return (io.dstore.elastic.Elastic.Sort.FieldSort) sortBy_;
       }
-      if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        if (sortByCase_ == 1) {
-          sortBy_ = b;
-        }
-        return b;
-      } else {
-        return (com.google.protobuf.ByteString) ref;
-      }
+      return io.dstore.elastic.Elastic.Sort.FieldSort.getDefaultInstance();
     }
 
-    public static final int SCORE_FIELD_NUMBER = 2;
+    public static final int SCORE_SORT_FIELD_NUMBER = 2;
     /**
-     * <code>optional bool score = 2;</code>
-     *
-     * <pre>
-     * When sorting by score all other parameters are ignored
-     * </pre>
+     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
-    public boolean getScore() {
+    public io.dstore.elastic.Elastic.Sort.ScoreSort getScoreSort() {
       if (sortByCase_ == 2) {
-        return (java.lang.Boolean) sortBy_;
+         return (io.dstore.elastic.Elastic.Sort.ScoreSort) sortBy_;
       }
-      return false;
-    }
-
-    public static final int SORT_ORDER_FIELD_NUMBER = 5;
-    private int sortOrder_;
-    /**
-     * <code>optional .dstore.elastic.Sort.Order sort_order = 5;</code>
-     */
-    public int getSortOrderValue() {
-      return sortOrder_;
+      return io.dstore.elastic.Elastic.Sort.ScoreSort.getDefaultInstance();
     }
     /**
-     * <code>optional .dstore.elastic.Sort.Order sort_order = 5;</code>
+     * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
      */
-    public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-      io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
-      return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
-    }
-
-    public static final int MISSING_TREATMENT_FIELD_NUMBER = 6;
-    private int missingTreatment_;
-    /**
-     * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 6;</code>
-     */
-    public int getMissingTreatmentValue() {
-      return missingTreatment_;
-    }
-    /**
-     * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 6;</code>
-     */
-    public io.dstore.elastic.Elastic.Sort.Missing getMissingTreatment() {
-      io.dstore.elastic.Elastic.Sort.Missing result = io.dstore.elastic.Elastic.Sort.Missing.valueOf(missingTreatment_);
-      return result == null ? io.dstore.elastic.Elastic.Sort.Missing.UNRECOGNIZED : result;
-    }
-
-    public static final int SORT_MODE_FIELD_NUMBER = 7;
-    private int sortMode_;
-    /**
-     * <code>optional .dstore.elastic.Sort.Mode sort_mode = 7;</code>
-     */
-    public int getSortModeValue() {
-      return sortMode_;
-    }
-    /**
-     * <code>optional .dstore.elastic.Sort.Mode sort_mode = 7;</code>
-     */
-    public io.dstore.elastic.Elastic.Sort.Mode getSortMode() {
-      io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.valueOf(sortMode_);
-      return result == null ? io.dstore.elastic.Elastic.Sort.Mode.UNRECOGNIZED : result;
-    }
-
-    public static final int NESTED_FILTER_FIELD_NUMBER = 8;
-    private java.util.List<io.dstore.elastic.Elastic.Query> nestedFilter_;
-    /**
-     * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-     *
-     * <pre>
-     * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-     * </pre>
-     */
-    public java.util.List<io.dstore.elastic.Elastic.Query> getNestedFilterList() {
-      return nestedFilter_;
-    }
-    /**
-     * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-     *
-     * <pre>
-     * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-     * </pre>
-     */
-    public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
-        getNestedFilterOrBuilderList() {
-      return nestedFilter_;
-    }
-    /**
-     * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-     *
-     * <pre>
-     * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-     * </pre>
-     */
-    public int getNestedFilterCount() {
-      return nestedFilter_.size();
-    }
-    /**
-     * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-     *
-     * <pre>
-     * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-     * </pre>
-     */
-    public io.dstore.elastic.Elastic.Query getNestedFilter(int index) {
-      return nestedFilter_.get(index);
-    }
-    /**
-     * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-     *
-     * <pre>
-     * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-     * </pre>
-     */
-    public io.dstore.elastic.Elastic.QueryOrBuilder getNestedFilterOrBuilder(
-        int index) {
-      return nestedFilter_.get(index);
+    public io.dstore.elastic.Elastic.Sort.ScoreSortOrBuilder getScoreSortOrBuilder() {
+      if (sortByCase_ == 2) {
+         return (io.dstore.elastic.Elastic.Sort.ScoreSort) sortBy_;
+      }
+      return io.dstore.elastic.Elastic.Sort.ScoreSort.getDefaultInstance();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -4356,23 +9063,10 @@ public final class Elastic {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sortByCase_ == 1) {
-        com.google.protobuf.GeneratedMessage.writeString(output, 1, sortBy_);
+        output.writeMessage(1, (io.dstore.elastic.Elastic.Sort.FieldSort) sortBy_);
       }
       if (sortByCase_ == 2) {
-        output.writeBool(
-            2, (boolean)((java.lang.Boolean) sortBy_));
-      }
-      if (sortOrder_ != io.dstore.elastic.Elastic.Sort.Order.ASCENDING.getNumber()) {
-        output.writeEnum(5, sortOrder_);
-      }
-      if (missingTreatment_ != io.dstore.elastic.Elastic.Sort.Missing.LAST.getNumber()) {
-        output.writeEnum(6, missingTreatment_);
-      }
-      if (sortMode_ != io.dstore.elastic.Elastic.Sort.Mode.MIN.getNumber()) {
-        output.writeEnum(7, sortMode_);
-      }
-      for (int i = 0; i < nestedFilter_.size(); i++) {
-        output.writeMessage(8, nestedFilter_.get(i));
+        output.writeMessage(2, (io.dstore.elastic.Elastic.Sort.ScoreSort) sortBy_);
       }
     }
 
@@ -4382,28 +9076,12 @@ public final class Elastic {
 
       size = 0;
       if (sortByCase_ == 1) {
-        size += com.google.protobuf.GeneratedMessage.computeStringSize(1, sortBy_);
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, (io.dstore.elastic.Elastic.Sort.FieldSort) sortBy_);
       }
       if (sortByCase_ == 2) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(
-              2, (boolean)((java.lang.Boolean) sortBy_));
-      }
-      if (sortOrder_ != io.dstore.elastic.Elastic.Sort.Order.ASCENDING.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(5, sortOrder_);
-      }
-      if (missingTreatment_ != io.dstore.elastic.Elastic.Sort.Missing.LAST.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(6, missingTreatment_);
-      }
-      if (sortMode_ != io.dstore.elastic.Elastic.Sort.Mode.MIN.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(7, sortMode_);
-      }
-      for (int i = 0; i < nestedFilter_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, nestedFilter_.get(i));
+          .computeMessageSize(2, (io.dstore.elastic.Elastic.Sort.ScoreSort) sortBy_);
       }
       memoizedSize = size;
       return size;
@@ -4483,6 +9161,10 @@ public final class Elastic {
     }
     /**
      * Protobuf type {@code dstore.elastic.Sort}
+     *
+     * <pre>
+     * see: https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-sort.html
+     * </pre>
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
@@ -4512,23 +9194,10 @@ public final class Elastic {
       }
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
-          getNestedFilterFieldBuilder();
         }
       }
       public Builder clear() {
         super.clear();
-        sortOrder_ = 0;
-
-        missingTreatment_ = 0;
-
-        sortMode_ = 0;
-
-        if (nestedFilterBuilder_ == null) {
-          nestedFilter_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000020);
-        } else {
-          nestedFilterBuilder_.clear();
-        }
         sortByCase_ = 0;
         sortBy_ = null;
         return this;
@@ -4553,27 +9222,20 @@ public final class Elastic {
 
       public io.dstore.elastic.Elastic.Sort buildPartial() {
         io.dstore.elastic.Elastic.Sort result = new io.dstore.elastic.Elastic.Sort(this);
-        int from_bitField0_ = bitField0_;
-        int to_bitField0_ = 0;
         if (sortByCase_ == 1) {
-          result.sortBy_ = sortBy_;
+          if (fieldSortBuilder_ == null) {
+            result.sortBy_ = sortBy_;
+          } else {
+            result.sortBy_ = fieldSortBuilder_.build();
+          }
         }
         if (sortByCase_ == 2) {
-          result.sortBy_ = sortBy_;
-        }
-        result.sortOrder_ = sortOrder_;
-        result.missingTreatment_ = missingTreatment_;
-        result.sortMode_ = sortMode_;
-        if (nestedFilterBuilder_ == null) {
-          if (((bitField0_ & 0x00000020) == 0x00000020)) {
-            nestedFilter_ = java.util.Collections.unmodifiableList(nestedFilter_);
-            bitField0_ = (bitField0_ & ~0x00000020);
+          if (scoreSortBuilder_ == null) {
+            result.sortBy_ = sortBy_;
+          } else {
+            result.sortBy_ = scoreSortBuilder_.build();
           }
-          result.nestedFilter_ = nestedFilter_;
-        } else {
-          result.nestedFilter_ = nestedFilterBuilder_.build();
         }
-        result.bitField0_ = to_bitField0_;
         result.sortByCase_ = sortByCase_;
         onBuilt();
         return result;
@@ -4590,50 +9252,13 @@ public final class Elastic {
 
       public Builder mergeFrom(io.dstore.elastic.Elastic.Sort other) {
         if (other == io.dstore.elastic.Elastic.Sort.getDefaultInstance()) return this;
-        if (other.sortOrder_ != 0) {
-          setSortOrderValue(other.getSortOrderValue());
-        }
-        if (other.missingTreatment_ != 0) {
-          setMissingTreatmentValue(other.getMissingTreatmentValue());
-        }
-        if (other.sortMode_ != 0) {
-          setSortModeValue(other.getSortModeValue());
-        }
-        if (nestedFilterBuilder_ == null) {
-          if (!other.nestedFilter_.isEmpty()) {
-            if (nestedFilter_.isEmpty()) {
-              nestedFilter_ = other.nestedFilter_;
-              bitField0_ = (bitField0_ & ~0x00000020);
-            } else {
-              ensureNestedFilterIsMutable();
-              nestedFilter_.addAll(other.nestedFilter_);
-            }
-            onChanged();
-          }
-        } else {
-          if (!other.nestedFilter_.isEmpty()) {
-            if (nestedFilterBuilder_.isEmpty()) {
-              nestedFilterBuilder_.dispose();
-              nestedFilterBuilder_ = null;
-              nestedFilter_ = other.nestedFilter_;
-              bitField0_ = (bitField0_ & ~0x00000020);
-              nestedFilterBuilder_ = 
-                com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
-                   getNestedFilterFieldBuilder() : null;
-            } else {
-              nestedFilterBuilder_.addAllMessages(other.nestedFilter_);
-            }
-          }
-        }
         switch (other.getSortByCase()) {
-          case FIELD_NAME: {
-            sortByCase_ = 1;
-            sortBy_ = other.sortBy_;
-            onChanged();
+          case FIELD_SORT: {
+            mergeFieldSort(other.getFieldSort());
             break;
           }
-          case SCORE: {
-            setScore(other.getScore());
+          case SCORE_SORT: {
+            mergeScoreSort(other.getScoreSort());
             break;
           }
           case SORTBY_NOT_SET: {
@@ -4680,572 +9305,265 @@ public final class Elastic {
         return this;
       }
 
-      private int bitField0_;
 
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.Elastic.Sort.FieldSort, io.dstore.elastic.Elastic.Sort.FieldSort.Builder, io.dstore.elastic.Elastic.Sort.FieldSortOrBuilder> fieldSortBuilder_;
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
        */
-      public java.lang.String getFieldName() {
-        java.lang.Object ref = "";
-        if (sortByCase_ == 1) {
-          ref = sortBy_;
-        }
-        if (!(ref instanceof java.lang.String)) {
-          com.google.protobuf.ByteString bs =
-              (com.google.protobuf.ByteString) ref;
-          java.lang.String s = bs.toStringUtf8();
+      public io.dstore.elastic.Elastic.Sort.FieldSort getFieldSort() {
+        if (fieldSortBuilder_ == null) {
           if (sortByCase_ == 1) {
-            sortBy_ = s;
+            return (io.dstore.elastic.Elastic.Sort.FieldSort) sortBy_;
           }
-          return s;
+          return io.dstore.elastic.Elastic.Sort.FieldSort.getDefaultInstance();
         } else {
-          return (java.lang.String) ref;
-        }
-      }
-      /**
-       * <code>optional string field_name = 1;</code>
-       */
-      public com.google.protobuf.ByteString
-          getFieldNameBytes() {
-        java.lang.Object ref = "";
-        if (sortByCase_ == 1) {
-          ref = sortBy_;
-        }
-        if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
-              com.google.protobuf.ByteString.copyFromUtf8(
-                  (java.lang.String) ref);
           if (sortByCase_ == 1) {
-            sortBy_ = b;
+            return fieldSortBuilder_.getMessage();
           }
-          return b;
-        } else {
-          return (com.google.protobuf.ByteString) ref;
+          return io.dstore.elastic.Elastic.Sort.FieldSort.getDefaultInstance();
         }
       }
       /**
-       * <code>optional string field_name = 1;</code>
+       * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
        */
-      public Builder setFieldName(
-          java.lang.String value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  sortByCase_ = 1;
-        sortBy_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional string field_name = 1;</code>
-       */
-      public Builder clearFieldName() {
-        if (sortByCase_ == 1) {
-          sortByCase_ = 0;
-          sortBy_ = null;
+      public Builder setFieldSort(io.dstore.elastic.Elastic.Sort.FieldSort value) {
+        if (fieldSortBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          sortBy_ = value;
           onChanged();
+        } else {
+          fieldSortBuilder_.setMessage(value);
         }
-        return this;
-      }
-      /**
-       * <code>optional string field_name = 1;</code>
-       */
-      public Builder setFieldNameBytes(
-          com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
         sortByCase_ = 1;
-        sortBy_ = value;
-        onChanged();
-        return this;
-      }
-
-      /**
-       * <code>optional bool score = 2;</code>
-       *
-       * <pre>
-       * When sorting by score all other parameters are ignored
-       * </pre>
-       */
-      public boolean getScore() {
-        if (sortByCase_ == 2) {
-          return (java.lang.Boolean) sortBy_;
-        }
-        return false;
-      }
-      /**
-       * <code>optional bool score = 2;</code>
-       *
-       * <pre>
-       * When sorting by score all other parameters are ignored
-       * </pre>
-       */
-      public Builder setScore(boolean value) {
-        sortByCase_ = 2;
-        sortBy_ = value;
-        onChanged();
         return this;
       }
       /**
-       * <code>optional bool score = 2;</code>
-       *
-       * <pre>
-       * When sorting by score all other parameters are ignored
-       * </pre>
+       * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
        */
-      public Builder clearScore() {
-        if (sortByCase_ == 2) {
-          sortByCase_ = 0;
-          sortBy_ = null;
+      public Builder setFieldSort(
+          io.dstore.elastic.Elastic.Sort.FieldSort.Builder builderForValue) {
+        if (fieldSortBuilder_ == null) {
+          sortBy_ = builderForValue.build();
           onChanged();
-        }
-        return this;
-      }
-
-      private int sortOrder_ = 0;
-      /**
-       * <code>optional .dstore.elastic.Sort.Order sort_order = 5;</code>
-       */
-      public int getSortOrderValue() {
-        return sortOrder_;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Order sort_order = 5;</code>
-       */
-      public Builder setSortOrderValue(int value) {
-        sortOrder_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Order sort_order = 5;</code>
-       */
-      public io.dstore.elastic.Elastic.Sort.Order getSortOrder() {
-        io.dstore.elastic.Elastic.Sort.Order result = io.dstore.elastic.Elastic.Sort.Order.valueOf(sortOrder_);
-        return result == null ? io.dstore.elastic.Elastic.Sort.Order.UNRECOGNIZED : result;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Order sort_order = 5;</code>
-       */
-      public Builder setSortOrder(io.dstore.elastic.Elastic.Sort.Order value) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        
-        sortOrder_ = value.getNumber();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Order sort_order = 5;</code>
-       */
-      public Builder clearSortOrder() {
-        
-        sortOrder_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int missingTreatment_ = 0;
-      /**
-       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 6;</code>
-       */
-      public int getMissingTreatmentValue() {
-        return missingTreatment_;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 6;</code>
-       */
-      public Builder setMissingTreatmentValue(int value) {
-        missingTreatment_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 6;</code>
-       */
-      public io.dstore.elastic.Elastic.Sort.Missing getMissingTreatment() {
-        io.dstore.elastic.Elastic.Sort.Missing result = io.dstore.elastic.Elastic.Sort.Missing.valueOf(missingTreatment_);
-        return result == null ? io.dstore.elastic.Elastic.Sort.Missing.UNRECOGNIZED : result;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 6;</code>
-       */
-      public Builder setMissingTreatment(io.dstore.elastic.Elastic.Sort.Missing value) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        
-        missingTreatment_ = value.getNumber();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Missing missing_treatment = 6;</code>
-       */
-      public Builder clearMissingTreatment() {
-        
-        missingTreatment_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int sortMode_ = 0;
-      /**
-       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 7;</code>
-       */
-      public int getSortModeValue() {
-        return sortMode_;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 7;</code>
-       */
-      public Builder setSortModeValue(int value) {
-        sortMode_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 7;</code>
-       */
-      public io.dstore.elastic.Elastic.Sort.Mode getSortMode() {
-        io.dstore.elastic.Elastic.Sort.Mode result = io.dstore.elastic.Elastic.Sort.Mode.valueOf(sortMode_);
-        return result == null ? io.dstore.elastic.Elastic.Sort.Mode.UNRECOGNIZED : result;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 7;</code>
-       */
-      public Builder setSortMode(io.dstore.elastic.Elastic.Sort.Mode value) {
-        if (value == null) {
-          throw new NullPointerException();
-        }
-        
-        sortMode_ = value.getNumber();
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional .dstore.elastic.Sort.Mode sort_mode = 7;</code>
-       */
-      public Builder clearSortMode() {
-        
-        sortMode_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private java.util.List<io.dstore.elastic.Elastic.Query> nestedFilter_ =
-        java.util.Collections.emptyList();
-      private void ensureNestedFilterIsMutable() {
-        if (!((bitField0_ & 0x00000020) == 0x00000020)) {
-          nestedFilter_ = new java.util.ArrayList<io.dstore.elastic.Elastic.Query>(nestedFilter_);
-          bitField0_ |= 0x00000020;
-         }
-      }
-
-      private com.google.protobuf.RepeatedFieldBuilder<
-          io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> nestedFilterBuilder_;
-
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public java.util.List<io.dstore.elastic.Elastic.Query> getNestedFilterList() {
-        if (nestedFilterBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(nestedFilter_);
         } else {
-          return nestedFilterBuilder_.getMessageList();
+          fieldSortBuilder_.setMessage(builderForValue.build());
         }
+        sortByCase_ = 1;
+        return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
+       * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
        */
-      public int getNestedFilterCount() {
-        if (nestedFilterBuilder_ == null) {
-          return nestedFilter_.size();
-        } else {
-          return nestedFilterBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public io.dstore.elastic.Elastic.Query getNestedFilter(int index) {
-        if (nestedFilterBuilder_ == null) {
-          return nestedFilter_.get(index);
-        } else {
-          return nestedFilterBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public Builder setNestedFilter(
-          int index, io.dstore.elastic.Elastic.Query value) {
-        if (nestedFilterBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
+      public Builder mergeFieldSort(io.dstore.elastic.Elastic.Sort.FieldSort value) {
+        if (fieldSortBuilder_ == null) {
+          if (sortByCase_ == 1 &&
+              sortBy_ != io.dstore.elastic.Elastic.Sort.FieldSort.getDefaultInstance()) {
+            sortBy_ = io.dstore.elastic.Elastic.Sort.FieldSort.newBuilder((io.dstore.elastic.Elastic.Sort.FieldSort) sortBy_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            sortBy_ = value;
           }
-          ensureNestedFilterIsMutable();
-          nestedFilter_.set(index, value);
           onChanged();
         } else {
-          nestedFilterBuilder_.setMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public Builder setNestedFilter(
-          int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
-        if (nestedFilterBuilder_ == null) {
-          ensureNestedFilterIsMutable();
-          nestedFilter_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          nestedFilterBuilder_.setMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public Builder addNestedFilter(io.dstore.elastic.Elastic.Query value) {
-        if (nestedFilterBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
+          if (sortByCase_ == 1) {
+            fieldSortBuilder_.mergeFrom(value);
           }
-          ensureNestedFilterIsMutable();
-          nestedFilter_.add(value);
-          onChanged();
-        } else {
-          nestedFilterBuilder_.addMessage(value);
+          fieldSortBuilder_.setMessage(value);
         }
+        sortByCase_ = 1;
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
+       * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
        */
-      public Builder addNestedFilter(
-          int index, io.dstore.elastic.Elastic.Query value) {
-        if (nestedFilterBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
+      public Builder clearFieldSort() {
+        if (fieldSortBuilder_ == null) {
+          if (sortByCase_ == 1) {
+            sortByCase_ = 0;
+            sortBy_ = null;
+            onChanged();
           }
-          ensureNestedFilterIsMutable();
-          nestedFilter_.add(index, value);
-          onChanged();
         } else {
-          nestedFilterBuilder_.addMessage(index, value);
+          if (sortByCase_ == 1) {
+            sortByCase_ = 0;
+            sortBy_ = null;
+          }
+          fieldSortBuilder_.clear();
         }
         return this;
       }
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
+       * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
        */
-      public Builder addNestedFilter(
-          io.dstore.elastic.Elastic.Query.Builder builderForValue) {
-        if (nestedFilterBuilder_ == null) {
-          ensureNestedFilterIsMutable();
-          nestedFilter_.add(builderForValue.build());
-          onChanged();
+      public io.dstore.elastic.Elastic.Sort.FieldSort.Builder getFieldSortBuilder() {
+        return getFieldSortFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
+       */
+      public io.dstore.elastic.Elastic.Sort.FieldSortOrBuilder getFieldSortOrBuilder() {
+        if ((sortByCase_ == 1) && (fieldSortBuilder_ != null)) {
+          return fieldSortBuilder_.getMessageOrBuilder();
         } else {
-          nestedFilterBuilder_.addMessage(builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public Builder addNestedFilter(
-          int index, io.dstore.elastic.Elastic.Query.Builder builderForValue) {
-        if (nestedFilterBuilder_ == null) {
-          ensureNestedFilterIsMutable();
-          nestedFilter_.add(index, builderForValue.build());
-          onChanged();
-        } else {
-          nestedFilterBuilder_.addMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public Builder addAllNestedFilter(
-          java.lang.Iterable<? extends io.dstore.elastic.Elastic.Query> values) {
-        if (nestedFilterBuilder_ == null) {
-          ensureNestedFilterIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, nestedFilter_);
-          onChanged();
-        } else {
-          nestedFilterBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public Builder clearNestedFilter() {
-        if (nestedFilterBuilder_ == null) {
-          nestedFilter_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000020);
-          onChanged();
-        } else {
-          nestedFilterBuilder_.clear();
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public Builder removeNestedFilter(int index) {
-        if (nestedFilterBuilder_ == null) {
-          ensureNestedFilterIsMutable();
-          nestedFilter_.remove(index);
-          onChanged();
-        } else {
-          nestedFilterBuilder_.remove(index);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public io.dstore.elastic.Elastic.Query.Builder getNestedFilterBuilder(
-          int index) {
-        return getNestedFilterFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public io.dstore.elastic.Elastic.QueryOrBuilder getNestedFilterOrBuilder(
-          int index) {
-        if (nestedFilterBuilder_ == null) {
-          return nestedFilter_.get(index);  } else {
-          return nestedFilterBuilder_.getMessageOrBuilder(index);
+          if (sortByCase_ == 1) {
+            return (io.dstore.elastic.Elastic.Sort.FieldSort) sortBy_;
+          }
+          return io.dstore.elastic.Elastic.Sort.FieldSort.getDefaultInstance();
         }
       }
       /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
+       * <code>optional .dstore.elastic.Sort.FieldSort field_sort = 1;</code>
        */
-      public java.util.List<? extends io.dstore.elastic.Elastic.QueryOrBuilder> 
-           getNestedFilterOrBuilderList() {
-        if (nestedFilterBuilder_ != null) {
-          return nestedFilterBuilder_.getMessageOrBuilderList();
-        } else {
-          return java.util.Collections.unmodifiableList(nestedFilter_);
-        }
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public io.dstore.elastic.Elastic.Query.Builder addNestedFilterBuilder() {
-        return getNestedFilterFieldBuilder().addBuilder(
-            io.dstore.elastic.Elastic.Query.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public io.dstore.elastic.Elastic.Query.Builder addNestedFilterBuilder(
-          int index) {
-        return getNestedFilterFieldBuilder().addBuilder(
-            index, io.dstore.elastic.Elastic.Query.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .dstore.elastic.Query nested_filter = 8;</code>
-       *
-       * <pre>
-       * A filter that the inner objects inside the nested path should match with in order for its field values to be taken into account by sorting
-       * </pre>
-       */
-      public java.util.List<io.dstore.elastic.Elastic.Query.Builder> 
-           getNestedFilterBuilderList() {
-        return getNestedFilterFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilder<
-          io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder> 
-          getNestedFilterFieldBuilder() {
-        if (nestedFilterBuilder_ == null) {
-          nestedFilterBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<
-              io.dstore.elastic.Elastic.Query, io.dstore.elastic.Elastic.Query.Builder, io.dstore.elastic.Elastic.QueryOrBuilder>(
-                  nestedFilter_,
-                  ((bitField0_ & 0x00000020) == 0x00000020),
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.Elastic.Sort.FieldSort, io.dstore.elastic.Elastic.Sort.FieldSort.Builder, io.dstore.elastic.Elastic.Sort.FieldSortOrBuilder> 
+          getFieldSortFieldBuilder() {
+        if (fieldSortBuilder_ == null) {
+          if (!(sortByCase_ == 1)) {
+            sortBy_ = io.dstore.elastic.Elastic.Sort.FieldSort.getDefaultInstance();
+          }
+          fieldSortBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.elastic.Elastic.Sort.FieldSort, io.dstore.elastic.Elastic.Sort.FieldSort.Builder, io.dstore.elastic.Elastic.Sort.FieldSortOrBuilder>(
+                  (io.dstore.elastic.Elastic.Sort.FieldSort) sortBy_,
                   getParentForChildren(),
                   isClean());
-          nestedFilter_ = null;
+          sortBy_ = null;
         }
-        return nestedFilterBuilder_;
+        sortByCase_ = 1;
+        onChanged();;
+        return fieldSortBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.Elastic.Sort.ScoreSort, io.dstore.elastic.Elastic.Sort.ScoreSort.Builder, io.dstore.elastic.Elastic.Sort.ScoreSortOrBuilder> scoreSortBuilder_;
+      /**
+       * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+       */
+      public io.dstore.elastic.Elastic.Sort.ScoreSort getScoreSort() {
+        if (scoreSortBuilder_ == null) {
+          if (sortByCase_ == 2) {
+            return (io.dstore.elastic.Elastic.Sort.ScoreSort) sortBy_;
+          }
+          return io.dstore.elastic.Elastic.Sort.ScoreSort.getDefaultInstance();
+        } else {
+          if (sortByCase_ == 2) {
+            return scoreSortBuilder_.getMessage();
+          }
+          return io.dstore.elastic.Elastic.Sort.ScoreSort.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+       */
+      public Builder setScoreSort(io.dstore.elastic.Elastic.Sort.ScoreSort value) {
+        if (scoreSortBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          sortBy_ = value;
+          onChanged();
+        } else {
+          scoreSortBuilder_.setMessage(value);
+        }
+        sortByCase_ = 2;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+       */
+      public Builder setScoreSort(
+          io.dstore.elastic.Elastic.Sort.ScoreSort.Builder builderForValue) {
+        if (scoreSortBuilder_ == null) {
+          sortBy_ = builderForValue.build();
+          onChanged();
+        } else {
+          scoreSortBuilder_.setMessage(builderForValue.build());
+        }
+        sortByCase_ = 2;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+       */
+      public Builder mergeScoreSort(io.dstore.elastic.Elastic.Sort.ScoreSort value) {
+        if (scoreSortBuilder_ == null) {
+          if (sortByCase_ == 2 &&
+              sortBy_ != io.dstore.elastic.Elastic.Sort.ScoreSort.getDefaultInstance()) {
+            sortBy_ = io.dstore.elastic.Elastic.Sort.ScoreSort.newBuilder((io.dstore.elastic.Elastic.Sort.ScoreSort) sortBy_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            sortBy_ = value;
+          }
+          onChanged();
+        } else {
+          if (sortByCase_ == 2) {
+            scoreSortBuilder_.mergeFrom(value);
+          }
+          scoreSortBuilder_.setMessage(value);
+        }
+        sortByCase_ = 2;
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+       */
+      public Builder clearScoreSort() {
+        if (scoreSortBuilder_ == null) {
+          if (sortByCase_ == 2) {
+            sortByCase_ = 0;
+            sortBy_ = null;
+            onChanged();
+          }
+        } else {
+          if (sortByCase_ == 2) {
+            sortByCase_ = 0;
+            sortBy_ = null;
+          }
+          scoreSortBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+       */
+      public io.dstore.elastic.Elastic.Sort.ScoreSort.Builder getScoreSortBuilder() {
+        return getScoreSortFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+       */
+      public io.dstore.elastic.Elastic.Sort.ScoreSortOrBuilder getScoreSortOrBuilder() {
+        if ((sortByCase_ == 2) && (scoreSortBuilder_ != null)) {
+          return scoreSortBuilder_.getMessageOrBuilder();
+        } else {
+          if (sortByCase_ == 2) {
+            return (io.dstore.elastic.Elastic.Sort.ScoreSort) sortBy_;
+          }
+          return io.dstore.elastic.Elastic.Sort.ScoreSort.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .dstore.elastic.Sort.ScoreSort score_sort = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          io.dstore.elastic.Elastic.Sort.ScoreSort, io.dstore.elastic.Elastic.Sort.ScoreSort.Builder, io.dstore.elastic.Elastic.Sort.ScoreSortOrBuilder> 
+          getScoreSortFieldBuilder() {
+        if (scoreSortBuilder_ == null) {
+          if (!(sortByCase_ == 2)) {
+            sortBy_ = io.dstore.elastic.Elastic.Sort.ScoreSort.getDefaultInstance();
+          }
+          scoreSortBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              io.dstore.elastic.Elastic.Sort.ScoreSort, io.dstore.elastic.Elastic.Sort.ScoreSort.Builder, io.dstore.elastic.Elastic.Sort.ScoreSortOrBuilder>(
+                  (io.dstore.elastic.Elastic.Sort.ScoreSort) sortBy_,
+                  getParentForChildren(),
+                  isClean());
+          sortBy_ = null;
+        }
+        sortByCase_ = 2;
+        onChanged();;
+        return scoreSortBuilder_;
       }
       public final Builder setUnknownFields(
           final com.google.protobuf.UnknownFieldSet unknownFields) {
@@ -5316,6 +9634,11 @@ public final class Elastic {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Value_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_dstore_elastic_BoolQuery_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dstore_elastic_BoolQuery_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Query_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
@@ -5331,10 +9654,25 @@ public final class Elastic {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Query_Type_fieldAccessorTable;
   private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_dstore_elastic_Query_SimpleQueryString_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dstore_elastic_Query_SimpleQueryString_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
     internal_static_dstore_elastic_Sort_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_dstore_elastic_Sort_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_dstore_elastic_Sort_ScoreSort_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dstore_elastic_Sort_ScoreSort_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_dstore_elastic_Sort_FieldSort_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_dstore_elastic_Sort_FieldSort_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -5352,22 +9690,37 @@ public final class Elastic {
       "string_value\030\002 \001(\tH\000\022\026\n\014double_value\030\003 \001" +
       "(\001H\000\022\027\n\rboolean_value\030\004 \001(\010H\000\0225\n\017timesta" +
       "mp_value\030\005 \001(\0132\032.google.protobuf.Timesta" +
-      "mpH\000B\007\n\005value\"\267\001\n\005Query\0222\n\013terms_query\030\001" +
-      " \001(\0132\033.dstore.elastic.Query.TermsH\000\0220\n\nt",
-      "ype_query\030\002 \001(\0132\032.dstore.elastic.Query.T" +
-      "ypeH\000\032)\n\005Terms\022\021\n\tfieldName\030\001 \001(\t\022\r\n\005val" +
-      "ue\030\002 \003(\t\032\024\n\004Type\022\014\n\004type\030\001 \001(\tB\007\n\005query\"" +
-      "\375\002\n\004Sort\022\024\n\nfield_name\030\001 \001(\tH\000\022\017\n\005score\030" +
-      "\002 \001(\010H\000\022.\n\nsort_order\030\005 \001(\0162\032.dstore.ela" +
-      "stic.Sort.Order\0227\n\021missing_treatment\030\006 \001" +
-      "(\0162\034.dstore.elastic.Sort.Missing\022,\n\tsort" +
-      "_mode\030\007 \001(\0162\031.dstore.elastic.Sort.Mode\022," +
-      "\n\rnested_filter\030\010 \003(\0132\025.dstore.elastic.Q" +
-      "uery\"&\n\005Order\022\r\n\tASCENDING\020\000\022\016\n\nDESCENDI",
-      "NG\020\001\"\036\n\007Missing\022\010\n\004LAST\020\000\022\t\n\005FIRST\020\001\"6\n\004" +
-      "Mode\022\007\n\003MIN\020\000\022\007\n\003MAX\020\001\022\007\n\003SUM\020\002\022\007\n\003AVG\020\003" +
-      "\022\n\n\006MEDIAN\020\004B\t\n\007sort_byB\034\n\021io.dstore.ela" +
-      "sticB\007Elasticb\006proto3"
+      "mpH\000B\007\n\005value\"\324\001\n\tBoolQuery\022%\n\006filter\030\001 " +
+      "\003(\0132\025.dstore.elastic.Query\022#\n\004must\030\002 \003(\013",
+      "2\025.dstore.elastic.Query\022%\n\006should\030\003 \003(\0132" +
+      "\025.dstore.elastic.Query\022\'\n\010must_not\030\004 \003(\013" +
+      "2\025.dstore.elastic.Query\022\034\n\024minimum_shoul" +
+      "d_match\030\005 \001(\t\022\r\n\005boost\030\006 \001(\001\"\254\003\n\005Query\0222" +
+      "\n\013terms_query\030\001 \001(\0132\033.dstore.elastic.Que" +
+      "ry.TermsH\000\0220\n\ntype_query\030\002 \001(\0132\032.dstore." +
+      "elastic.Query.TypeH\000\022L\n\031simple_query_str" +
+      "ing_query\030\003 \001(\0132\'.dstore.elastic.Query.S" +
+      "impleQueryStringH\000\022/\n\nbool_query\030\004 \001(\0132\031" +
+      ".dstore.elastic.BoolQueryH\000\032)\n\005Terms\022\021\n\t",
+      "fieldName\030\001 \001(\t\022\r\n\005value\030\002 \003(\t\032\024\n\004Type\022\014" +
+      "\n\004type\030\001 \001(\t\032t\n\021SimpleQueryString\022\r\n\005que" +
+      "ry\030\001 \001(\t\022\r\n\005field\030\002 \003(\t\022#\n\033use_and_as_de" +
+      "fault_operator\030\003 \001(\010\022\034\n\024minimum_should_m" +
+      "atch\030\004 \001(\tB\007\n\005query\"\200\004\n\004Sort\0224\n\nfield_so" +
+      "rt\030\001 \001(\0132\036.dstore.elastic.Sort.FieldSort" +
+      "H\000\0224\n\nscore_sort\030\002 \001(\0132\036.dstore.elastic." +
+      "Sort.ScoreSortH\000\032\013\n\tScoreSort\032\344\001\n\tFieldS" +
+      "ort\022\022\n\nfield_name\030\001 \001(\t\022.\n\nsort_order\030\002 " +
+      "\001(\0162\032.dstore.elastic.Sort.Order\0227\n\021missi",
+      "ng_treatment\030\003 \001(\0162\034.dstore.elastic.Sort" +
+      ".Missing\022,\n\tsort_mode\030\004 \001(\0162\031.dstore.ela" +
+      "stic.Sort.Mode\022,\n\rnested_filter\030\005 \003(\0132\025." +
+      "dstore.elastic.Query\"&\n\005Order\022\r\n\tASCENDI" +
+      "NG\020\000\022\016\n\nDESCENDING\020\001\"\036\n\007Missing\022\010\n\004LAST\020" +
+      "\000\022\t\n\005FIRST\020\001\"E\n\004Mode\022\r\n\tUNDEFINED\020\000\022\007\n\003M" +
+      "IN\020\001\022\007\n\003MAX\020\002\022\007\n\003SUM\020\003\022\007\n\003AVG\020\004\022\n\n\006MEDIA" +
+      "N\020\005B\t\n\007sort_byB\034\n\021io.dstore.elasticB\007Ela" +
+      "sticb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -5394,12 +9747,18 @@ public final class Elastic {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_Value_descriptor,
         new java.lang.String[] { "IntegerValue", "StringValue", "DoubleValue", "BooleanValue", "TimestampValue", "Value", });
-    internal_static_dstore_elastic_Query_descriptor =
+    internal_static_dstore_elastic_BoolQuery_descriptor =
       getDescriptor().getMessageTypes().get(2);
+    internal_static_dstore_elastic_BoolQuery_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dstore_elastic_BoolQuery_descriptor,
+        new java.lang.String[] { "Filter", "Must", "Should", "MustNot", "MinimumShouldMatch", "Boost", });
+    internal_static_dstore_elastic_Query_descriptor =
+      getDescriptor().getMessageTypes().get(3);
     internal_static_dstore_elastic_Query_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_Query_descriptor,
-        new java.lang.String[] { "TermsQuery", "TypeQuery", "Query", });
+        new java.lang.String[] { "TermsQuery", "TypeQuery", "SimpleQueryStringQuery", "BoolQuery", "Query", });
     internal_static_dstore_elastic_Query_Terms_descriptor =
       internal_static_dstore_elastic_Query_descriptor.getNestedTypes().get(0);
     internal_static_dstore_elastic_Query_Terms_fieldAccessorTable = new
@@ -5412,12 +9771,30 @@ public final class Elastic {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_Query_Type_descriptor,
         new java.lang.String[] { "Type", });
+    internal_static_dstore_elastic_Query_SimpleQueryString_descriptor =
+      internal_static_dstore_elastic_Query_descriptor.getNestedTypes().get(2);
+    internal_static_dstore_elastic_Query_SimpleQueryString_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dstore_elastic_Query_SimpleQueryString_descriptor,
+        new java.lang.String[] { "Query", "Field", "UseAndAsDefaultOperator", "MinimumShouldMatch", });
     internal_static_dstore_elastic_Sort_descriptor =
-      getDescriptor().getMessageTypes().get(3);
+      getDescriptor().getMessageTypes().get(4);
     internal_static_dstore_elastic_Sort_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_dstore_elastic_Sort_descriptor,
-        new java.lang.String[] { "FieldName", "Score", "SortOrder", "MissingTreatment", "SortMode", "NestedFilter", "SortBy", });
+        new java.lang.String[] { "FieldSort", "ScoreSort", "SortBy", });
+    internal_static_dstore_elastic_Sort_ScoreSort_descriptor =
+      internal_static_dstore_elastic_Sort_descriptor.getNestedTypes().get(0);
+    internal_static_dstore_elastic_Sort_ScoreSort_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dstore_elastic_Sort_ScoreSort_descriptor,
+        new java.lang.String[] { });
+    internal_static_dstore_elastic_Sort_FieldSort_descriptor =
+      internal_static_dstore_elastic_Sort_descriptor.getNestedTypes().get(1);
+    internal_static_dstore_elastic_Sort_FieldSort_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_dstore_elastic_Sort_FieldSort_descriptor,
+        new java.lang.String[] { "FieldName", "SortOrder", "MissingTreatment", "SortMode", "NestedFilter", });
     com.google.protobuf.TimestampProto.getDescriptor();
   }
 
