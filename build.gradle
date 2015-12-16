@@ -45,6 +45,12 @@ task minimalJar(type: Jar, dependsOn: classes) {
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
 
+test {
+    useTestNG() {
+        listeners << 'org.testng.reporters.XMLReporter' // das jenkins-TestNG Plugin basiert darauf!
+    }
+}
+
 artifacts {
     archives jar
     archives minimalJar

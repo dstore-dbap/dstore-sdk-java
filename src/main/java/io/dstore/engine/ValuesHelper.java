@@ -106,7 +106,7 @@ public class ValuesHelper {
                 valueBuilder.setByteValue(Values.bytesValue.newBuilder().setValue(ByteString.readFrom((InputStream) value)));
         else if (value == null) {}
         else
-            throw new RuntimeException("Datatype for  unimplemented");
+            throw new RuntimeException("Datatype for " + value.getClass().getName() + " unimplemented");
 
         return valueBuilder.build();
     }
